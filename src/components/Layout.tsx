@@ -1,0 +1,55 @@
+import { useEffect } from 'react'
+import type { ReactNode } from 'react'
+import { useLocation } from 'react-router-dom'
+import { motion } from 'framer-motion'
+import { useLenis } from '../hooks/useLenis'
+import CustomCursor from './CustomCursor'
+import Nav from './Nav'
+import Footer from './Footer'
+
+function ScrollToTop() {
+  const { pathname } = useLocation()
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [pathname])
+  return null
+}
+
+export function Statement({ text, bg = 'var(--ink)' }: { text: string; bg?: string }) {
+  return (
+    <div style={{ background: bg, padding: '5rem 4rem', overflow: 'hidden' }}>
+      <div className="section-inner">
+        <motion.div
+          initial={{ opacity: 0, y: 24 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: '-60px' }}
+          transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
+          style={{
+            fontFamily: 'Bodoni Moda, serif',
+            fontSize: 'clamp(2rem, 5vw, 6.5rem)',
+            fontWeight: 400,
+            fontStyle: 'italic',
+            lineHeight: 0.92,
+            letterSpacing: '-0.025em',
+            color: 'var(--gold)',
+          }}
+        >
+          {text}
+        </motion.div>
+      </div>
+    </div>
+  )
+}
+
+export default function Layout({ children }: { children: ReactNode }) {
+  useLenis()
+  return (
+    <div className="grain">
+      <ScrollToTop />
+      <CustomCursor />
+      <Nav />
+      {children}
+      <Footer />
+    </div>
+  )
+}

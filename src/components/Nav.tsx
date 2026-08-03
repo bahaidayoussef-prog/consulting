@@ -1,36 +1,40 @@
-﻿import { useEffect, useState, useCallback } from 'react'
+import { useEffect, useState, useCallback } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
+import { Link, useLocation } from 'react-router-dom'
 import LogoSVG from './LogoSVG'
 
 const NAV_LINKS = [
-  { label: 'Notre approche', href: '#pourquoi' },
-  { label: 'Conseil', href: '#conseil' },
-  { label: 'Systèmes', href: '#systemes' },
-  { label: 'Formation', href: '#formation' },
-  { label: 'À propos', href: '#profil' },
+  { label: 'Services', href: '/services' },
+  { label: 'Références', href: '/references' },
+  { label: 'Formation', href: '/formation' },
+  { label: 'À propos', href: '/a-propos' },
+  { label: 'Blog', href: '/blog' },
 ]
 
 export default function Nav() {
+  const { pathname } = useLocation()
+  const isHome = pathname === '/'
+
   const [scrolled, setScrolled] = useState(false)
-  const [overHero, setOverHero] = useState(true)
+  const [overHero, setOverHero] = useState(isHome)
   const [menuOpen, setMenuOpen] = useState(false)
   const [progress, setProgress] = useState(0)
 
   const handleScroll = useCallback(() => {
     const y = window.scrollY
     setScrolled(y > 40)
-    setOverHero(y < window.innerHeight * 0.82)
-
+    setOverHero(isHome && y < window.innerHeight * 0.82)
     const docH = document.documentElement.scrollHeight - window.innerHeight
     setProgress(docH > 0 ? (y / docH) * 100 : 0)
-  }, [])
+  }, [isHome])
 
   useEffect(() => {
+    setOverHero(isHome && window.scrollY < window.innerHeight * 0.82)
+    setProgress(0)
     window.addEventListener('scroll', handleScroll, { passive: true })
     return () => window.removeEventListener('scroll', handleScroll)
-  }, [handleScroll])
+  }, [handleScroll, isHome])
 
-  // Lock body scroll when menu open
   useEffect(() => {
     document.body.style.overflow = menuOpen ? 'hidden' : ''
     return () => { document.body.style.overflow = '' }
@@ -41,11 +45,7 @@ export default function Nav() {
 
   return (
     <>
-      {/* Scroll progress */}
-      <div
-        className="scroll-progress"
-        style={{ width: `${progress}%` }}
-      />
+      <div className="scroll-progress" style={{ width: `${progress}%` }} />
 
       <motion.nav
         initial={{ y: -80, opacity: 0 }}
@@ -53,9 +53,7 @@ export default function Nav() {
         transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
         style={{
           position: 'fixed',
-          top: 0,
-          left: 0,
-          right: 0,
+          top: 0, left: 0, right: 0,
           zIndex: 100,
           display: 'flex',
           alignItems: 'center',
@@ -73,8 +71,8 @@ export default function Nav() {
         }}
       >
         {/* Logo */}
-        <a
-          href="#"
+        <Link
+          to="/"
           style={{
             textDecoration: 'none',
             zIndex: 110,
@@ -91,33 +89,33 @@ export default function Nav() {
             subColor={overHero ? 'rgba(235,232,225,0.45)' : '#6b6560'}
             height={32}
           />
-        </a>
+        </Link>
 
         {/* Desktop nav */}
         <ul className="desktop-nav" style={{ display: 'flex', gap: '2.5rem', listStyle: 'none' }}>
           {NAV_LINKS.map(({ label, href }) => (
             <li key={href}>
-              <a
-                href={href}
+              <Link
+                to={href}
                 style={{
                   fontSize: '0.85rem',
                   fontWeight: 500,
                   letterSpacing: '0.05em',
                   textTransform: 'uppercase',
-                  color: textCol,
+                  color: pathname === href ? 'var(--gold)' : textCol,
                   textDecoration: 'none',
                   transition: 'color 0.2s',
                 }}
-                onMouseEnter={(e) => ((e.target as HTMLElement).style.color = textHover)}
-                onMouseLeave={(e) => ((e.target as HTMLElement).style.color = textCol)}
+                onMouseEnter={e => ((e.currentTarget as HTMLElement).style.color = textHover)}
+                onMouseLeave={e => ((e.currentTarget as HTMLElement).style.color = pathname === href ? 'var(--gold)' : textCol)}
               >
                 {label}
-              </a>
+              </Link>
             </li>
           ))}
           <li>
-            <a
-              href="#contact"
+            <Link
+              to="/contact"
               style={{
                 fontSize: '0.85rem',
                 fontWeight: 600,
@@ -130,32 +128,30 @@ export default function Nav() {
                 borderRadius: '2px',
                 transition: 'background 0.5s, color 0.5s',
               }}
-              onMouseEnter={(e) => {
-                const el = e.target as HTMLElement
+              onMouseEnter={e => {
+                const el = e.currentTarget as HTMLElement
                 el.style.background = 'var(--gold)'
                 el.style.color = 'var(--dark)'
               }}
-              onMouseLeave={(e) => {
-                const el = e.target as HTMLElement
+              onMouseLeave={e => {
+                const el = e.currentTarget as HTMLElement
                 el.style.background = overHero ? 'var(--gold)' : 'var(--ink)'
                 el.style.color = overHero ? 'var(--dark)' : 'var(--paper)'
               }}
             >
               Prendre RDV
-            </a>
+            </Link>
           </li>
         </ul>
 
         {/* Hamburger */}
         <button
           className={`hamburger${menuOpen ? ' open' : ''}`}
-          onClick={() => setMenuOpen((v) => !v)}
+          onClick={() => setMenuOpen(v => !v)}
           aria-label={menuOpen ? 'Fermer le menu' : 'Ouvrir le menu'}
           style={{ color: overHero || menuOpen ? 'var(--dark-text)' : 'var(--ink)' }}
         >
-          <span />
-          <span />
-          <span />
+          <span /><span /><span />
         </button>
       </motion.nav>
 
@@ -169,8 +165,7 @@ export default function Nav() {
             exit={{ opacity: 0, x: '100%' }}
             transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
             style={{
-              position: 'fixed',
-              inset: 0,
+              position: 'fixed', inset: 0,
               background: 'var(--dark-3)',
               zIndex: 95,
               display: 'flex',
@@ -179,47 +174,46 @@ export default function Nav() {
               padding: '2rem 3rem',
             }}
           >
-            {/* Gold top accent */}
             <div
               style={{
-                position: 'absolute',
-                top: 0,
-                left: 0,
-                right: 0,
+                position: 'absolute', top: 0, left: 0, right: 0,
                 height: 2,
                 background: 'linear-gradient(90deg, var(--gold), transparent)',
               }}
             />
-
-            {/* Nav items */}
             <nav style={{ marginBottom: '3rem' }}>
               {NAV_LINKS.map(({ label, href }, i) => (
-                <motion.a
+                <motion.div
                   key={href}
-                  href={href}
-                  className="mobile-nav-item"
                   initial={{ opacity: 0, x: 32 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.4, delay: 0.1 + i * 0.07 }}
-                  onClick={() => setMenuOpen(false)}
                 >
-                  {label}
-                </motion.a>
+                  <Link
+                    to={href}
+                    className="mobile-nav-item"
+                    onClick={() => setMenuOpen(false)}
+                    style={{ display: 'block', textDecoration: 'none' }}
+                  >
+                    {label}
+                  </Link>
+                </motion.div>
               ))}
-              <motion.a
-                href="#contact"
-                className="mobile-nav-item"
+              <motion.div
                 initial={{ opacity: 0, x: 32 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.4, delay: 0.1 + NAV_LINKS.length * 0.07 }}
-                onClick={() => setMenuOpen(false)}
-                style={{ color: 'var(--gold)' }}
               >
-                Prendre RDV →
-              </motion.a>
+                <Link
+                  to="/contact"
+                  className="mobile-nav-item"
+                  onClick={() => setMenuOpen(false)}
+                  style={{ display: 'block', textDecoration: 'none', color: 'var(--gold)' }}
+                >
+                  Prendre RDV →
+                </Link>
+              </motion.div>
             </nav>
-
-            {/* Footer of overlay */}
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -230,9 +224,7 @@ export default function Nav() {
                 letterSpacing: '0.12em',
                 textTransform: 'uppercase',
                 color: 'rgba(184,146,42,0.4)',
-                display: 'flex',
-                gap: '1.5rem',
-                flexWrap: 'wrap',
+                display: 'flex', gap: '1.5rem', flexWrap: 'wrap',
               }}
             >
               <span>Essor Consulting</span>
