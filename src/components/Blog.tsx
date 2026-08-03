@@ -62,6 +62,20 @@ export default function Blog() {
           '57-mini-supply-chain-congo-rdc---mining',
           '58-mini-consulting-cameroun-douala',
           '59-mini-optimisation-mali---sahel-challenge',
+          // Mots clés SEO Formation & GEO
+          '60-comment-devenir-responsable-logistique-maroc',
+          '61-salaire-responsable-logistique-maroc-2026',
+          '62-formation-gestion-stocks-maroc',
+          '63-certification-ddmrp-maroc',
+          '64-reconversion-logistique-maroc',
+          '65-formation-wms-tms-maroc',
+          '66-formation-logistique-marrakech',
+          '67-formation-logistique-agadir',
+          '68-formation-acheteur-professionnel-maroc',
+          '69-formation-logistique-tanger-kenitra',
+          '70-roi-formation-logistique-maroc',
+          '71-formation-supply-chain-manager-maroc',
+          '72-formation-lean-supply-chain-maroc',
         ]
 
         const loadedPosts: BlogPost[] = []
