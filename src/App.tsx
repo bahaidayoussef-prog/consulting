@@ -1,4 +1,5 @@
 import './index.css'
+import { useState, useEffect } from 'react'
 import { useLenis } from './hooks/useLenis'
 import { motion } from 'framer-motion'
 import CustomCursor from './components/CustomCursor'
@@ -19,6 +20,7 @@ import Blog from './components/Blog'
 import Insights from './components/Insights'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import FormationRL from './components/FormationRL'
 
 function Statement({ text, bg = 'var(--ink)' }: { text: string; bg?: string }) {
   return (
@@ -48,6 +50,18 @@ function Statement({ text, bg = 'var(--ink)' }: { text: string; bg?: string }) {
 
 export default function App() {
   useLenis()
+
+  const [page, setPage] = useState(window.location.hash)
+
+  useEffect(() => {
+    const onHash = () => setPage(window.location.hash)
+    window.addEventListener('hashchange', onHash)
+    return () => window.removeEventListener('hashchange', onHash)
+  }, [])
+
+  if (page === '#formation-rl') {
+    return <FormationRL />
+  }
 
   return (
     <div className="grain">
