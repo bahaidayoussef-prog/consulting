@@ -100,7 +100,7 @@ export default function DSC() {
     <section id="dsc">
 
       {/* ── HEADER ── */}
-      <div style={{ background: 'var(--paper)', padding: '8rem 4rem 6rem' }}>
+      <div style={{ background: 'var(--paper)', padding: 'var(--sp-y) var(--sp-x) var(--sp-y-sm)' }}>
         <div className="section-inner">
           <motion.div
             initial={{ opacity: 0, y: 12 }}
@@ -184,7 +184,7 @@ export default function DSC() {
 
       {/* ── TIMELINE — 3 phases ── */}
       <div style={{ background: 'var(--ink)' }}>
-        <div className="section-inner" style={{ padding: '0 4rem' }}>
+        <div className="section-inner" style={{ padding: '0 var(--sp-x)' }}>
           <div style={{
             display: 'grid',
             gridTemplateColumns: 'repeat(3, 1fr)',
@@ -299,7 +299,7 @@ export default function DSC() {
       </div>
 
       {/* ── MANDATS — 2 cards ── */}
-      <div style={{ background: 'var(--paper)', padding: '6rem 4rem' }}>
+      <div style={{ background: 'var(--paper)', padding: 'var(--sp-y-sm) var(--sp-x)' }}>
         <div className="section-inner">
           <div style={{
             display: 'grid',
@@ -531,7 +531,7 @@ export default function DSC() {
       </div>
 
       {/* ── COMPARATIF — vs CDI ── */}
-      <div style={{ background: 'var(--dark)', padding: '5rem 4rem' }}>
+      <div style={{ background: 'var(--dark)', padding: 'var(--sp-y-sm) var(--sp-x)' }}>
         <div className="section-inner">
           <motion.div
             initial={{ opacity: 0, y: 16 }}
@@ -633,7 +633,7 @@ export default function DSC() {
       </div>
 
       {/* ── CTA ── */}
-      <div style={{ background: 'var(--paper)', padding: '5rem 4rem' }}>
+      <div style={{ background: 'var(--paper)', padding: 'var(--sp-y-sm) var(--sp-x)' }}>
         <div className="section-inner">
           <motion.div
             initial={{ opacity: 0, y: 20 }}

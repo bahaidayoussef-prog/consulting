@@ -20,7 +20,7 @@ export default function Footer() {
       style={{
         background: 'var(--dark-3)',
         borderTop: '1px solid rgba(255,255,255,0.06)',
-        padding: '5rem 4rem 2.5rem',
+        padding: 'var(--sp-y-sm) var(--sp-x) 2.5rem',
       }}
     >
       <div

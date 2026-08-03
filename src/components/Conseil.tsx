@@ -301,7 +301,7 @@ export default function Conseil() {
   return (
     <>
       <SchemaScript schema={servicesSchema} />
-      <section id="conseil" style={{ background: 'var(--paper)', padding: '8rem 4rem' }}>
+      <section id="conseil" style={{ background: 'var(--paper)', padding: 'var(--sp)' }}>
         <div className="section-inner">
         <div style={{
           display: 'grid',

@@ -263,7 +263,7 @@ function SystemRow({ s, index }: { s: typeof systems[0]; index: number }) {
 
 export default function Systemes() {
   return (
-    <section id="systemes" style={{ background: 'var(--dark)', padding: '8rem 4rem' }}>
+    <section id="systemes" style={{ background: 'var(--dark)', padding: 'var(--sp)' }}>
       <div className="section-inner">
         <div style={{
           display: 'grid',

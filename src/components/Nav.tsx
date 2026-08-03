@@ -60,7 +60,7 @@ export default function Nav() {
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'space-between',
-          padding: '1.25rem 4rem',
+          padding: '1.25rem var(--sp-x)',
           background: overHero
             ? 'linear-gradient(to bottom, rgba(13,11,8,0.75) 0%, transparent 100%)'
             : scrolled

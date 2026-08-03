@@ -47,7 +47,7 @@ export default function Impact() {
     <section
       ref={sectionRef}
       id="impact"
-      style={{ background: 'var(--dark)', padding: '8rem 4rem', position: 'relative', overflow: 'hidden' }}
+      style={{ background: 'var(--dark)', padding: 'var(--sp)', position: 'relative', overflow: 'hidden' }}
     >
       <div className="section-inner" style={{ position: 'relative', zIndex: 1 }}>
 

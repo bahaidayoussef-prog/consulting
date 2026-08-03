@@ -6,7 +6,7 @@ const REFS = [
     sector: 'Automobile',
     mission: 'Conception greenfield logistique — site industriel de Tanger. Logistique amont, flux assemblage, standards SPR Groupe Renault.',
     result: 'Référence greenfield industrielle au Maroc',
-    image: 'https://images.unsplash.com/photo-1581092583537-20d51b4b4f1b?w=900&q=80&auto=format&fit=crop',
+    image: '/images/pharma.jpg',
     span: 2,
   },
   {
@@ -14,7 +14,7 @@ const REFS = [
     sector: 'FMCG',
     mission: "Direction de site DHL Supply Chain 21 000 m², 120 collaborateurs, P&L complet. Ingénierie des solutions logistiques pour les plus grandes marques FMCG du Maroc.",
     result: 'Productivité +35% · Taux de service 98,5%',
-    image: 'https://images.unsplash.com/photo-1553413077-190dd305871c?w=900&q=80&auto=format&fit=crop',
+    image: '/images/hero-supply-chain.jpg',
     span: 1,
   },
   {
@@ -22,7 +22,7 @@ const REFS = [
     sector: 'Immobilier & Construction',
     mission: '31 chantiers simultanés. 710 millions MAD d\'achats annuels. Transformation complète de la fonction supply chain groupe.',
     result: '11% d\'économies réalisées sur le spend achats',
-    image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=900&q=80&auto=format&fit=crop',
+    image: '/images/construction.jpg',
     span: 1,
   },
   {
@@ -30,7 +30,7 @@ const REFS = [
     sector: 'Mission Nationale COVID-19',
     mission: 'Expert métier bénévole pour la Task Force vaccination nationale. DDMRP, AMOA SI, gouvernance risques, cold chain national à l\'échelle du Royaume.',
     result: 'Cold chain national — vaccination de masse',
-    image: 'https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=900&q=80&auto=format&fit=crop',
+    image: '/images/healthcare.jpg',
     span: 1,
   },
   {
@@ -38,7 +38,7 @@ const REFS = [
     sector: '110+ Missions · Tous secteurs',
     mission: 'Diagnostic, optimisation stocks, performance achats, schémas logistiques, AMOA SI, déploiement WMS/TMS/APS. De Casablanca à Agadir.',
     result: '110+ missions · 15+ ans · 0 commission',
-    image: 'https://images.unsplash.com/photo-1560179707-f14e90ef3623?w=900&q=80&auto=format&fit=crop',
+    image: '/images/business.jpg',
     span: 2,
   },
 ]
@@ -149,11 +149,11 @@ function RefCard({ r, index }: RefCardProps) {
 
 export default function References() {
   return (
-    <section id="references" style={{ background: 'var(--dark-3)', padding: '8rem 4rem' }}>
+    <section id="references" style={{ background: 'var(--dark-3)', padding: 'var(--sp)' }}>
       <div className="section-inner">
 
         {/* Header */}
-        <div style={{
+        <div className="refs-header" style={{
           display: 'grid',
           gridTemplateColumns: '1fr 1fr',
           gap: '4rem',
@@ -214,7 +214,7 @@ export default function References() {
         </div>
 
         {/* Grid — hugeinc work layout */}
-        <div style={{
+        <div className="refs-grid" style={{
           display: 'grid',
           gridTemplateColumns: 'repeat(3, 1fr)',
           gap: '2px',

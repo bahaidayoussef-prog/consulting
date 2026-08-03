@@ -259,7 +259,7 @@ export default function Formation() {
   const headerInView = useInView(headerRef, { once: true, margin: '-80px' })
 
   return (
-    <section id="formation" style={{ background: 'var(--ink)', padding: '8rem 4rem 0' }}>
+    <section id="formation" style={{ background: 'var(--ink)', padding: 'var(--sp-y) var(--sp-x) 0' }}>
       <div className="section-inner">
 
         {/* Header */}

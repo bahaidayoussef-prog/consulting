@@ -7,19 +7,23 @@ gsap.registerPlugin(ScrollTrigger)
 
 const SLIDES = [
   {
-    src: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=1920&q=85&auto=format&fit=crop',
+    src: '/images/hero-warehouse.jpg',
+    srcSet: '/images/hero-warehouse-640w.jpg 640w, /images/hero-warehouse-1200w.jpg 1200w, /images/hero-warehouse.jpg 1920w',
     label: 'Logistique',
   },
   {
-    src: 'https://images.unsplash.com/photo-1553413077-190dd305871c?w=1920&q=85&auto=format&fit=crop',
+    src: '/images/hero-supply-chain.jpg',
+    srcSet: '/images/hero-supply-chain-640w.jpg 640w, /images/hero-supply-chain-1200w.jpg 1200w, /images/hero-supply-chain.jpg 1920w',
     label: 'Supply Chain',
   },
   {
-    src: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1920&q=85&auto=format&fit=crop',
+    src: '/images/analytics.jpg',
+    srcSet: '/images/analytics-640w.jpg 640w, /images/analytics-1200w.jpg 1200w, /images/analytics.jpg 1920w',
     label: 'Planification',
   },
   {
-    src: 'https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=1920&q=85&auto=format&fit=crop',
+    src: '/images/conseil.jpg',
+    srcSet: '/images/conseil-640w.jpg 640w, /images/conseil-1200w.jpg 1200w, /images/conseil.jpg 1920w',
     label: 'Conseil',
   },
 ]
@@ -160,6 +164,8 @@ export default function Hero() {
           <motion.img
             key={slide}
             src={SLIDES[slide].src}
+            srcSet={SLIDES[slide].srcSet}
+            sizes="100vw"
             alt=""
             aria-hidden="true"
             initial={{ opacity: 0, scale: 1.04 }}
@@ -244,7 +250,7 @@ export default function Hero() {
       <div style={{
         position: 'relative', zIndex: 2,
         maxWidth: 1300, margin: '0 auto',
-        padding: '0 4rem', width: '100%',
+        padding: '0 var(--sp-x)', width: '100%',
       }}>
         {/* Eyebrow */}
         <motion.div

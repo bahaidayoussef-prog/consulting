@@ -90,7 +90,7 @@ export default function Methode() {
       id="methode"
       style={{
         background: 'var(--dark)',
-        padding: '7rem 4rem',
+        padding: 'var(--sp-y-md) var(--sp-x)',
         position: 'relative',
         overflow: 'hidden',
       }}

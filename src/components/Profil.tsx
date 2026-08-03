@@ -20,37 +20,37 @@ const HIGHLIGHTS = [
     role: 'Grande Distribution & Retail',
     org: 'Optimisation flux, stocks & approvisionnement',
     period: 'Secteur accompagné',
-    img: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=600&q=80&auto=format&fit=crop',
+    img: '/images/hero-warehouse.jpg',
   },
   {
     role: 'Industrie & Manufacture',
     org: 'Planification S&OP · déploiement DDMRP',
     period: 'Secteur accompagné',
-    img: 'https://images.unsplash.com/photo-1581092583537-20d51b4b4f1b?w=600&q=80&auto=format&fit=crop',
+    img: '/images/pharma.jpg',
   },
   {
     role: 'Immobilier & Construction',
     org: 'Logistique chantier · achats · coordination',
     period: 'Secteur accompagné',
-    img: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&q=80&auto=format&fit=crop',
+    img: '/images/construction.jpg',
   },
   {
     role: 'Agroalimentaire',
     org: 'Traçabilité · supply critique · conformité',
     period: 'Secteur accompagné',
-    img: 'https://images.unsplash.com/photo-1553413077-190dd305871c?w=600&q=80&auto=format&fit=crop',
+    img: '/images/hero-supply-chain.jpg',
   },
   {
     role: 'Santé & Pharmaceutique',
     org: 'Chaîne du froid · approvisionnement critique',
     period: 'Secteur accompagné',
-    img: 'https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=600&q=80&auto=format&fit=crop',
+    img: '/images/healthcare.jpg',
   },
   {
     role: 'Transport & Logistique 3PL',
     org: 'Schéma directeur · WMS · TMS · P&L',
     period: 'Secteur accompagné',
-    img: 'https://images.unsplash.com/photo-1431540015161-0bf868a2d407?w=600&q=80&auto=format&fit=crop',
+    img: '/images/agro.jpg',
   },
 ]
 
@@ -77,7 +77,7 @@ export default function Profil() {
       >
         {/* Background photo */}
         <motion.img
-          src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1920&q=85&auto=format&fit=crop"
+          src="/images/office.jpg"
           alt=""
           aria-hidden="true"
           initial={{ scale: 1.06 }}
@@ -120,7 +120,7 @@ export default function Profil() {
         <div style={{
           position: 'relative', zIndex: 2,
           maxWidth: 1300, margin: '0 auto',
-          padding: '0 4rem 5rem',
+          padding: '0 var(--sp-x) 5rem',
           width: '100%',
         }}>
           <motion.div
@@ -172,7 +172,7 @@ export default function Profil() {
         ref={statsRef}
         style={{
           background: 'var(--ink)',
-          padding: '3rem 4rem',
+          padding: '3rem var(--sp-x)',
           borderTop: '1px solid rgba(255,255,255,0.05)',
         }}
       >
@@ -220,7 +220,7 @@ export default function Profil() {
       </div>
 
       {/* ── SECTEURS — grille photos ── */}
-      <div style={{ background: 'var(--paper)', padding: '8rem 4rem' }}>
+      <div style={{ background: 'var(--paper)', padding: 'var(--sp)' }}>
         <div className="section-inner">
 
           {/* Header */}

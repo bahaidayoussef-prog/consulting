@@ -35,7 +35,7 @@ export default function Contact() {
         style={{
           maxWidth: 1200,
           margin: '0 auto',
-          padding: '8rem 4rem',
+          padding: 'var(--sp)',
           display: 'grid',
           gridTemplateColumns: '1fr 1fr',
           gap: '6rem',

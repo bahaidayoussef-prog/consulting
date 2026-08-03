@@ -102,7 +102,7 @@ export default function Pourquoi() {
   return (
     <>
       {/* ── Pilliers ── */}
-      <section id="pourquoi" style={{ background: 'var(--paper)', padding: '8rem 4rem' }}>
+      <section id="pourquoi" style={{ background: 'var(--paper)', padding: 'var(--sp)' }}>
         <div className="section-inner">
           <FadeUp>
             <div style={{
@@ -200,7 +200,7 @@ export default function Pourquoi() {
       {/* ── Statement line ── */}
       <div style={{
         background: 'var(--ink)',
-        padding: '5rem 4rem',
+        padding: 'var(--sp-y-sm) var(--sp-x)',
         overflow: 'hidden',
       }}>
         <div className="section-inner">

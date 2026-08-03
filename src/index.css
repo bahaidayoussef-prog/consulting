@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,700;0,6..96,900;1,6..96,400;1,6..96,700&family=Jost:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap');
 
 :root {
+  /* Responsive spacing — changent aux breakpoints */
+  --sp: 8rem 4rem;      /* section padding standard */
+  --sp-x: 4rem;         /* horizontal uniquement */
+  --sp-y: 8rem;         /* vertical standard */
+  --sp-y-sm: 6rem;      /* vertical réduit (Engagement, Footer) */
+  --sp-y-md: 7rem;      /* vertical moyen (Methode, Insights) */
+
   /* Brand — calé sur le logo navy Essor */
   --navy: #1b3554;
   --navy-dark: #0e1f30;
@@ -307,13 +314,32 @@ html.lenis { height: auto; }
 }
 
 @media (max-width: 900px) {
+  :root {
+    --sp: 5rem 2rem;
+    --sp-x: 2rem;
+    --sp-y: 5rem;
+    --sp-y-sm: 4rem;
+    --sp-y-md: 4.5rem;
+  }
   body { font-size: 15px; cursor: auto; }
   * { cursor: auto !important; }
   .hamburger { display: flex; }
   .desktop-nav { display: none !important; }
-  .section-inner { padding: 0 1.5rem; }
+  .section-inner { padding: 0; }
+  /* References header : 2 colonnes → 1 */
+  .refs-header { grid-template-columns: 1fr !important; gap: 2rem !important; margin-bottom: 3rem !important; }
+  /* References grid : forcer 1 colonne, annuler les span */
+  .refs-grid { grid-template-columns: 1fr !important; }
+  .refs-grid > * { grid-column: span 1 !important; }
 }
 @media (max-width: 640px) {
+  :root {
+    --sp: 3.5rem 1.25rem;
+    --sp-x: 1.25rem;
+    --sp-y: 3.5rem;
+    --sp-y-sm: 3rem;
+    --sp-y-md: 3.5rem;
+  }
   .impact-grid { grid-template-columns: 1fr 1fr !important; }
   .method-grid { grid-template-columns: 1fr !important; }
   .insights-grid { grid-template-columns: 1fr !important; }
