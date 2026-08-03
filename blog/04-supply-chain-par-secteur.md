@@ -1,7 +1,7 @@
----
+﻿---
 title: "Supply Chain Optimisée par Secteur : Textile, Agro, Industrie"
 date: "2026-06-21"
-author: "Youssef Bahaida"
+author: "Essor Consulting"
 keywords: "supply chain textile Maroc, logistique agroalimentaire, supply chain industrielle, optimisation secteur"
 description: "Chaque secteur a des enjeux différents. Textile ≠ Agro ≠ Industrie. Guide par secteur avec cas réels et solutions."
 ---
@@ -321,7 +321,7 @@ On identifie vos pain points spécifiques au secteur, et on vous donne roadmap p
 
 ---
 
-**Youssef Bahaida**  
+**Essor Consulting**  
 Directeur des Achats | Expert Supply Chain & Transformation Digitale  
 Essor Consulting — Casablanca, Maroc  
 📧 bahaidayoussef@gmail.com | 📞 +212 663 449 200

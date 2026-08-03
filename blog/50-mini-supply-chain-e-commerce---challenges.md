@@ -1,7 +1,7 @@
----
+﻿---
 title: "Supply Chain E-Commerce - Challenges"
 date: "2026-06-21"
-author: "Youssef Bahaida"
+author: "Essor Consulting"
 type: "mini-article"
 keywords: "e-commerce, logistique"
 description: "Quick insight: Supply Chain E-Commerce - Challenges. Basé sur 18 ans expertise et 110+ missions réussies."

@@ -1,7 +1,7 @@
----
+﻿---
 title: "Comment Débuter? Première Étape?"
 date: "2026-06-21"
-author: "Youssef Bahaida"
+author: "Essor Consulting"
 type: "mini-article"
 keywords: "débuter, première étape"
 description: "Quick insight: Comment Débuter? Première Étape?. Basé sur 18 ans expertise et 110+ missions réussies."

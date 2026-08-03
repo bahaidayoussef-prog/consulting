@@ -1,7 +1,7 @@
----
+﻿---
 title: "Alternatives Moins Chères? Où Chercher?"
 date: "2026-06-21"
-author: "Youssef Bahaida"
+author: "Essor Consulting"
 type: "mini-article"
 keywords: "alternatives, prix"
 description: "Quick insight: Alternatives Moins Chères? Où Chercher?. Basé sur 18 ans expertise et 110+ missions réussies."

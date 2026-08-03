@@ -1,7 +1,7 @@
----
+﻿---
 title: "Consultants Indépendants ou Équipe?"
 date: "2026-06-21"
-author: "Youssef Bahaida"
+author: "Essor Consulting"
 type: "mini-article"
 keywords: "indépendant, équipe"
 description: "Quick insight: Consultants Indépendants ou Équipe?. Basé sur 18 ans expertise et 110+ missions réussies."

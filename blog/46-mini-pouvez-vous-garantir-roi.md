@@ -1,7 +1,7 @@
----
+﻿---
 title: "Pouvez-vous Garantir ROI?"
 date: "2026-06-21"
-author: "Youssef Bahaida"
+author: "Essor Consulting"
 type: "mini-article"
 keywords: "ROI, garantie"
 description: "Quick insight: Pouvez-vous Garantir ROI?. Basé sur 18 ans expertise et 110+ missions réussies."

@@ -1,7 +1,7 @@
----
+﻿---
 title: "Case Study: DHL Supply Chain — 3-Site Warehouse Consolidation & Efficiency +25%"
 date: "2026-06-21"
-author: "Youssef Bahaida"
+author: "Essor Consulting"
 type: "case-study"
 keywords: "DHL, warehouse consolidation, logistics, efficiency"
 description: "DHL 3 sites (21,000 m²): WMS + process redesign → efficiency +25%, ruptures -40%, SLA 96%+"

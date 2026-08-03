@@ -1,7 +1,7 @@
----
+﻿---
 title: "Case Study: Autoroutes du Maroc — Externalisation Pilotage: 1.2 Milliard MAD Budget"
 date: "2026-06-21"
-author: "Youssef Bahaida"
+author: "Essor Consulting"
 type: "case-study"
 keywords: "Autoroutes, externalisation, SLA, gestion contrats"
 description: "Autoroutes Maroc: 1.2 MMAD externalisation (Péage + Assistance) → SLA/KPI management architecture → coûts stables, risques maîtrisés."

@@ -1,7 +1,7 @@
----
+﻿---
 title: "Quel Est Votre Taux de Succès Réel?"
 date: "2026-06-21"
-author: "Youssef Bahaida"
+author: "Essor Consulting"
 type: "mini-article"
 keywords: "taux succès, missions réussies"
 description: "Quick insight: Quel Est Votre Taux de Succès Réel?. Basé sur 18 ans expertise et 110+ missions réussies."

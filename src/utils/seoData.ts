@@ -63,9 +63,9 @@ export const SECTIONS: SectionMetadata[] = [
   },
   {
     id: 'profil',
-    title: 'Profil & Expérience — Youssef Bahaida',
-    description: 'Youssef Bahaida - fondateur Essor Consulting. 15 ans expérience Supply Chain terrain. Ex-DHL, Addoha.',
-    keywords: ['youssef bahaida', 'consultant supply chain', 'profil expert'],
+    title: 'Profil & Expérience — Essor Consulting',
+    description: 'Fondateur Essor Consulting. 15 ans expérience Supply Chain terrain. DDMRP Certified. Casablanca, Maroc.',
+    keywords: ['consultant supply chain', 'expert supply chain maroc', 'profil expert'],
   },
   {
     id: 'engagement',

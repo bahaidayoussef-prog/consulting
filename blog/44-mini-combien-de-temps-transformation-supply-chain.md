@@ -1,7 +1,7 @@
----
+﻿---
 title: "Combien de Temps Transformation Supply Chain?"
 date: "2026-06-21"
-author: "Youssef Bahaida"
+author: "Essor Consulting"
 type: "mini-article"
 keywords: "timeline, durée transformation"
 description: "Quick insight: Combien de Temps Transformation Supply Chain?. Basé sur 18 ans expertise et 110+ missions réussies."

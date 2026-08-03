@@ -1,7 +1,7 @@
----
+﻿---
 title: "Travaillez-vous Avec Petites Entreprises?"
 date: "2026-06-21"
-author: "Youssef Bahaida"
+author: "Essor Consulting"
 type: "mini-article"
 keywords: "PME, petites entreprises"
 description: "Quick insight: Travaillez-vous Avec Petites Entreprises?. Basé sur 18 ans expertise et 110+ missions réussies."

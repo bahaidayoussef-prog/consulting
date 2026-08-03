@@ -1,7 +1,7 @@
----
+﻿---
 title: "Formation Supply Chain à Rabat — Expert Logistique Maroc"
 date: "2026-06-21"
-author: "Youssef Bahaida"
+author: "Essor Consulting"
 keywords: "formation supply chain Rabat, formation logistique Salé, conseil Rabat, expert supply chain Rabat"
 description: "Formation et conseil supply chain à Rabat/Salé. Sourcing stratégique, WMS, S&OP, formation équipes. PME/ME/GE Maroc."
 location: "Rabat, Salé, Maroc"
@@ -76,6 +76,6 @@ Rabat/Salé, Maroc · 18 ans expérience · 40+ cadres formés
 
 ---
 
-**Youssef Bahaida**  
+**Essor Consulting**  
 Directeur des Achats | Expert Supply Chain & Transformation Digitale  
 Essor Consulting — Casablanca, Maroc

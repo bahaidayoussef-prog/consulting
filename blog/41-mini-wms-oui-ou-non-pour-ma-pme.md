@@ -1,7 +1,7 @@
----
+﻿---
 title: "WMS Oui ou Non pour Ma PME?"
 date: "2026-06-21"
-author: "Youssef Bahaida"
+author: "Essor Consulting"
 type: "mini-article"
 keywords: "WMS, warehouse management, PME"
 description: "Quick insight: WMS Oui ou Non pour Ma PME?. Basé sur 18 ans expertise et 110+ missions réussies."

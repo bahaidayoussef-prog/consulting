@@ -1,7 +1,7 @@
----
+﻿---
 title: "Consulting Cameroun Douala"
 date: "2026-06-21"
-author: "Youssef Bahaida"
+author: "Essor Consulting"
 type: "mini-article"
 keywords: "Cameroon, Douala"
 description: "Quick insight: Consulting Cameroun Douala. Basé sur 18 ans expertise et 110+ missions réussies."

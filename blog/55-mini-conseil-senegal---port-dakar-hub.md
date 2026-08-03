@@ -1,7 +1,7 @@
----
+﻿---
 title: "Conseil Senegal - Port Dakar Hub"
 date: "2026-06-21"
-author: "Youssef Bahaida"
+author: "Essor Consulting"
 type: "mini-article"
 keywords: "Senegal, Dakar"
 description: "Quick insight: Conseil Senegal - Port Dakar Hub. Basé sur 18 ans expertise et 110+ missions réussies."

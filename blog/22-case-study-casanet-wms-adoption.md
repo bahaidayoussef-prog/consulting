@@ -1,7 +1,7 @@
----
+﻿---
 title: "Case Study: Casanet Warehouse — WMS Adoption 88% + Efficiency +40%"
 date: "2026-06-21"
-author: "Youssef Bahaida"
+author: "Essor Consulting"
 type: "case-study"
 keywords: "WMS implementation, warehouse management, adoption, efficiency"
 description: "Casanet: WMS underutilized (42%) → full adoption 88% via consulting+training. Efficiency +40%, ROI 3.2x en 6 mois."

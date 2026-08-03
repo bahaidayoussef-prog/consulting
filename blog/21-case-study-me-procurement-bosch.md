@@ -1,7 +1,7 @@
----
+﻿---
 title: "Case Study: Bosch Maroc — 8% Saving via Formation Sourcing Stratégique"
 date: "2026-06-21"
-author: "Youssef Bahaida"
+author: "Essor Consulting"
 type: "case-study"
 keywords: "Bosch, formation procurement, saving achats, ROI formation"
 description: "Bosch Maroc: 8 acheteurs formés → 8% saving annuel (2.1 MMAD), adoption 95%, ROI 3.5x en 5 mois."

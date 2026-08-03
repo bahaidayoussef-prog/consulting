@@ -1,7 +1,7 @@
----
+﻿---
 title: "Formation ou Consulting : Quelle Approche Choisir?"
 date: "2026-06-21"
-author: "Youssef Bahaida"
+author: "Essor Consulting"
 keywords: "formation supply chain, conseil consulting, formation vs consulting, comment choisir, transformation supply chain"
 description: "Formation seule vs Consulting seul vs Formation + Consulting : guide de décision avec data réelle."
 ---
@@ -365,7 +365,7 @@ No pressure. We tell you honnêtement what makes sense pour vous.
 
 ---
 
-**Youssef Bahaida**  
+**Essor Consulting**  
 Directeur des Achats | Expert Supply Chain & Transformation Digitale  
 Essor Consulting — Casablanca, Maroc  
 📧 bahaidayoussef@gmail.com | 📞 +212 663 449 200

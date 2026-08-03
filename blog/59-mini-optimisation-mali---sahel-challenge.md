@@ -1,7 +1,7 @@
----
+﻿---
 title: "Optimisation Mali - Sahel Challenge"
 date: "2026-06-21"
-author: "Youssef Bahaida"
+author: "Essor Consulting"
 type: "mini-article"
 keywords: "Mali, Sahel"
 description: "Quick insight: Optimisation Mali - Sahel Challenge. Basé sur 18 ans expertise et 110+ missions réussies."

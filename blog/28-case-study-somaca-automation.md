@@ -1,7 +1,7 @@
----
+﻿---
 title: "Case Study: SOMACA — Premier Projet iFA (Integrated Factory Automation) au Maroc"
 date: "2026-06-21"
-author: "Youssef Bahaida"
+author: "Essor Consulting"
 type: "case-study"
 keywords: "SOMACA, automation, iFA, Kitting, Maroc manufacturing"
 description: "SOMACA: Premier iFA + Kitting au Maroc → ruptures chaîne -30%, efficience montage +25%."

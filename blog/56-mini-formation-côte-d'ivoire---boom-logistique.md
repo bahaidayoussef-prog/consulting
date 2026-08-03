@@ -1,7 +1,7 @@
----
+﻿---
 title: "Formation Côte d'Ivoire - Boom Logistique"
 date: "2026-06-21"
-author: "Youssef Bahaida"
+author: "Essor Consulting"
 type: "mini-article"
 keywords: "Ivory Coast, formation"
 description: "Quick insight: Formation Côte d'Ivoire - Boom Logistique. Basé sur 18 ans expertise et 110+ missions réussies."

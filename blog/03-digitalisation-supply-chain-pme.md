@@ -1,7 +1,7 @@
----
+﻿---
 title: "Conseil Digitalisation Supply Chain : WMS, TMS, ERP pour PME"
 date: "2026-06-21"
-author: "Youssef Bahaida"
+author: "Essor Consulting"
 keywords: "implémentation WMS, conseil ERP supply chain, TMS logistique, digitalisation PME, automatisation logistique"
 description: "Guide complet : comment choisir et implémenter WMS/TMS/ERP pour PME. 18 ans d'expérience, 12+ projets tech réussis. Timeline et budget réaliste."
 ---
@@ -392,7 +392,7 @@ Contactez-nous. 18 ans d'expérience, 12+ implémentations réussies.
 
 ---
 
-**Youssef Bahaida**  
+**Essor Consulting**  
 Directeur des Achats | Expert Supply Chain & Transformation Digitale  
 Essor Consulting — Casablanca, Maroc  
 📧 bahaidayoussef@gmail.com | 📞 +212 663 449 200

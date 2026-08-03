@@ -1,7 +1,7 @@
----
+﻿---
 title: "Case Study: OCP Group SAEDM — Gouvernance Transformation & Digitalization"
 date: "2026-06-21"
-author: "Youssef Bahaida"
+author: "Essor Consulting"
 type: "case-study"
 keywords: "OCP, governance, digitalization, transformation"
 description: "OCP SAEDM: 10-year transformation → modern procurement function, digitalized flux, compliance 98%, coûts optimisés."

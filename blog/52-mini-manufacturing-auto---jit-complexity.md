@@ -1,7 +1,7 @@
----
+﻿---
 title: "Manufacturing Auto - JIT Complexity"
 date: "2026-06-21"
-author: "Youssef Bahaida"
+author: "Essor Consulting"
 type: "mini-article"
 keywords: "automotive, just-in-time"
 description: "Quick insight: Manufacturing Auto - JIT Complexity. Basé sur 18 ans expertise et 110+ missions réussies."

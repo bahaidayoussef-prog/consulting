@@ -1,7 +1,7 @@
----
+﻿---
 title: "Webinaire GRATUIT : Transformation Supply Chain en 90 Jours"
 date: "2026-06-21"
-author: "Youssef Bahaida"
+author: "Essor Consulting"
 type: "webinaire"
 keywords: "webinaire supply chain, formation gratuite, transformation supply chain, consultant"
 description: "Webinaire gratuit 45min : Transformation supply chain réaliste en 90 jours. Roadmap détaillée, risques mitigés, ROI calculé. Inscription gratuite."
@@ -52,7 +52,7 @@ description: "Webinaire gratuit 45min : Transformation supply chain réaliste en
 
 ## Speaker
 
-**Youssef Bahaida**  
+**Essor Consulting**  
 Directeur des Achats | Expert Supply Chain & Transformation Digitale  
 - 18 ans expérience (OCP, DHL, Renault, Douja)
 - 110+ missions réussies
@@ -94,4 +94,4 @@ Directeur des Achats | Expert Supply Chain & Transformation Digitale
 
 ---
 
-**Youssef Bahaida — Essor Consulting**
+**Essor Consulting**

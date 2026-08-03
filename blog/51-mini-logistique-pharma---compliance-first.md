@@ -1,7 +1,7 @@
----
+﻿---
 title: "Logistique Pharma - Compliance First"
 date: "2026-06-21"
-author: "Youssef Bahaida"
+author: "Essor Consulting"
 type: "mini-article"
 keywords: "pharma, compliance"
 description: "Quick insight: Logistique Pharma - Compliance First. Basé sur 18 ans expertise et 110+ missions réussies."

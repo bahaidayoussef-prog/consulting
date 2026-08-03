@@ -12,7 +12,7 @@ const REFS = [
   {
     client: "L'Oréal · Nestlé · Mars",
     sector: 'FMCG',
-    mission: "Direction de site DHL Supply Chain 21 000 m², 120 collaborateurs, P&L complet. Ingénierie des solutions logistiques pour les plus grandes marques FMCG du Maroc.",
+    mission: "Gestion opérationnelle d'une plateforme logistique 3PL de 21 000 m², 120 collaborateurs. Ingénierie des solutions logistiques pour les plus grandes marques FMCG du Maroc.",
     result: 'Productivité +35% · Taux de service 98,5%',
     image: '/images/hero-supply-chain.jpg',
     span: 1,

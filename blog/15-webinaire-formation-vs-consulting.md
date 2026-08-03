@@ -1,7 +1,7 @@
----
+﻿---
 title: "Webinaire GRATUIT : Formation ou Consulting? Quelle Approche Pour Vous?"
 date: "2026-06-21"
-author: "Youssef Bahaida"
+author: "Essor Consulting"
 type: "webinaire"
 keywords: "webinaire formation supply chain, consulting vs formation, stratégie transformation"
 description: "Webinaire gratuit 50min : Formation seule vs Consulting vs Hybrid. Décision guide, ROI comparison, cas réels. Inscription libre."
@@ -73,7 +73,7 @@ description: "Webinaire gratuit 50min : Formation seule vs Consulting vs Hybrid.
 
 ## Speaker
 
-**Youssef Bahaida**  
+**Essor Consulting**  
 Directeur des Achats | Expert Supply Chain & Transformation Digitale  
 - 40+ cadres formés (Bosch, Casanet, Oland, Mutandis)
 - 110+ missions consulting
@@ -116,4 +116,4 @@ Directeur des Achats | Expert Supply Chain & Transformation Digitale
 
 ---
 
-**Youssef Bahaida — Essor Consulting**
+**Essor Consulting**

@@ -137,7 +137,7 @@ function ArticleCard({ article, index }: { article: (typeof ARTICLES)[0]; index:
             letterSpacing: '0.05em',
           }}
         >
-          Par <strong>Youssef Bahaida</strong> · Fondateur, Expert Supply Chain
+          Par <strong>Essor Consulting</strong> · Expert Supply Chain
         </div>
 
         {/* Title */}

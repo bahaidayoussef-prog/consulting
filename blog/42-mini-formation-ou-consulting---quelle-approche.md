@@ -1,7 +1,7 @@
----
+﻿---
 title: "Formation ou Consulting - Quelle Approche?"
 date: "2026-06-21"
-author: "Youssef Bahaida"
+author: "Essor Consulting"
 type: "mini-article"
 keywords: "formation, consulting, approche"
 description: "Quick insight: Formation ou Consulting - Quelle Approche?. Basé sur 18 ans expertise et 110+ missions réussies."

@@ -1,7 +1,7 @@
----
+﻿---
 title: "Combien Économiser Réellement sur Vos Achats? Cas Réels & Chiffres"
 date: "2026-06-21"
-author: "Youssef Bahaida"
+author: "Essor Consulting"
 type: "faq"
 keywords: "économies achats, sourcing stratégique, cost reduction, PME Maroc"
 description: "Après 18 ans et 110+ missions, découvrez combien économiser réellement sur achats. Cas réels, timeline, ROI."
