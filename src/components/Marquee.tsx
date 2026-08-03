@@ -28,7 +28,7 @@ const ROW2 = [
   'PME & ETI Maroc',
   'AMOA Supply Chain',
   'WMS · TMS · APS',
-  '15+ Ans Terrain',
+  '20+ Ans Terrain',
   'S&OP · DDMRP · IBP',
   'Casablanca · Tanger · Rabat',
   'European Training Foundation',

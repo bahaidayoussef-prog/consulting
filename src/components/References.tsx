@@ -37,7 +37,7 @@ const REFS = [
     client: 'PME & ETI Marocaines',
     sector: '110+ Missions · Tous secteurs',
     mission: 'Diagnostic, optimisation stocks, performance achats, schémas logistiques, AMOA SI, déploiement WMS/TMS/APS. De Casablanca à Agadir.',
-    result: '110+ missions · 15+ ans · 0 commission',
+    result: '110+ missions · 20+ ans · 0 commission',
     image: '/images/business.jpg',
     span: 2,
   },

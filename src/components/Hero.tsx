@@ -37,7 +37,7 @@ const LINES = [
 
 const STATS = [
   { value: '110+', label: 'Missions réalisées' },
-  { value: '15+', label: "Ans d'expérience" },
+  { value: '20+', label: "Ans d'expérience" },
   { value: '0', label: 'Commission éditeurs' },
   { value: '~5', label: 'Consultants experts' },
 ]

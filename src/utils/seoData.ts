@@ -10,7 +10,7 @@ export const SECTIONS: SectionMetadata[] = [
   {
     id: 'hero',
     title: 'Accueil — Essor Consulting',
-    description: 'Cabinet de conseil Supply Chain indépendant au Maroc. 110+ missions, 15 ans expérience terrain.',
+    description: 'Cabinet de conseil Supply Chain indépendant au Maroc. 110+ missions, 20+ ans expérience terrain.',
     keywords: ['supply chain', 'conseil logistique', 'maroc'],
   },
   {
@@ -64,7 +64,7 @@ export const SECTIONS: SectionMetadata[] = [
   {
     id: 'profil',
     title: 'Profil & Expérience — Essor Consulting',
-    description: 'Fondateur Essor Consulting. 15 ans expérience Supply Chain terrain. DDMRP Certified. Casablanca, Maroc.',
+    description: 'Fondateur Essor Consulting. 20+ ans expérience en ingénierie Supply Chain, Logistique et Achats. DDMRP Certified. Casablanca, Maroc.',
     keywords: ['consultant supply chain', 'expert supply chain maroc', 'profil expert'],
   },
   {

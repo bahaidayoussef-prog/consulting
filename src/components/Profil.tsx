@@ -4,14 +4,14 @@ import { motion, useInView } from 'framer-motion'
 const CREDENTIALS = [
   { label: 'Approche', value: 'Indépendant de tout éditeur logiciel' },
   { label: 'Certification', value: 'DDMRP Certified' },
-  { label: 'Zone d’action', value: 'France & Europe · Maroc' },
+  { label: "Zone d’action", value: ‘France & Europe · Maroc’ },
   { label: 'Transmission', value: 'Académique & terrain' },
 ]
 
 const STATS = [
-  { value: '15+', label: "Ans d’expérience terrain" },
+  { value: ‘20+’, label: "Ans d’expérience terrain" },
   { value: '110+', label: 'Missions réalisées' },
-  { value: '710M', label: 'MAD d’achats pilotés' },
+  { value: ‘710M’, label: "MAD d’achats pilotés" },
   { value: '6', label: 'Secteurs accompagnés' },
 ]
 
@@ -159,7 +159,7 @@ export default function Profil() {
               maxWidth: 520,
               marginTop: '1.5rem',
             }}>
-              15 ans de missions terrain en Supply Chain au Maroc et en Europe.
+              Plus de 20 ans de missions terrain en ingénierie Supply Chain, Logistique et Achats au Maroc et en Europe.
               Une expertise construite projet par projet, pas dans les manuels.
               Un cabinet indépendant, sans allégeance à aucun éditeur.
             </p>

@@ -11,7 +11,7 @@ export default function Footer() {
   const engagements = [
     'Indépendant — 0 commission éditeur',
     'DDMRP Certified',
-    '15+ ans terrain Maroc',
+    '20+ ans terrain Maroc',
     'PME & ETI — Tarifs publics',
   ]
 

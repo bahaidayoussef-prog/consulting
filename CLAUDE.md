@@ -28,7 +28,7 @@ Section inner max-width: 1300px
 - Email: b.youssef@essor.ma
 - Phone: +212 06 63 44 92 00
 - Location: Casablanca, Maroc
-- Stats: 110+ missions · 15+ ans · 0 commission · ~5 consultants
+- Stats: 110+ missions · 20+ ans · 0 commission · ~5 consultants
 - Key clients: Renault-Nissan, L'Oréal Maroc, Nestlé, P&G, DHL, Huawei, J&J, Addoha, OCP
 
 ## Section order (App.tsx)
