@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
+import { Link } from 'react-router-dom'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
@@ -339,12 +340,12 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1], delay: 1.1 }}
           >
-            <a href="#contact" className="btn-primary" style={{ whiteSpace: 'nowrap' }}>
+            <Link to="/contact" className="btn-primary" style={{ whiteSpace: 'nowrap' }}>
               Réserver un échange gratuit →
-            </a>
-            <a href="#conseil" className="btn-ghost" style={{ whiteSpace: 'nowrap' }}>
+            </Link>
+            <Link to="/services" className="btn-ghost" style={{ whiteSpace: 'nowrap' }}>
               Nos offres
-            </a>
+            </Link>
           </motion.div>
         </div>
       </div>
