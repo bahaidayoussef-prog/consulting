@@ -347,6 +347,43 @@ html.lenis { height: auto; }
   .dsc-grid { grid-template-columns: 1fr !important; }
 }
 
+/* ── FormationRL responsive grids ── */
+.frl-2col { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; }
+.frl-3col { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; }
+.frl-prof { display: grid; grid-template-columns: 1fr 2fr; gap: 6rem; align-items: center; }
+.frl-comp { display: grid; grid-template-columns: 1fr 1fr; gap: 6rem; align-items: start; }
+.frl-cibles { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem; }
+.frl-hero-stats { display: flex; gap: 3rem; flex-wrap: wrap; padding-top: 2.5rem; border-top: 1px solid rgba(255,255,255,0.08); margin-top: 5rem; }
+.frl-inclus { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; }
+.frl-logistics { display: grid; grid-template-columns: 1fr 1fr; gap: 2.5rem 4rem; padding: 3rem 4rem; background: var(--dark-2); border-left: 4px solid var(--gold); }
+
+/* Sticky CTA */
+.frl-sticky {
+  position: fixed; bottom: 0; left: 0; right: 0; z-index: 200;
+  display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem;
+  padding: 1rem 2rem;
+  background: rgba(10,20,32,0.97);
+  backdrop-filter: blur(16px);
+  border-top: 1px solid rgba(192,154,47,0.3);
+  transform: translateY(100%); transition: transform 0.4s cubic-bezier(0.16,1,0.3,1);
+}
+.frl-sticky.visible { transform: translateY(0); }
+
+/* FAQ accordion */
+.frl-faq-body { overflow: hidden; }
+
+@media (max-width: 900px) {
+  .frl-2col, .frl-3col, .frl-prof, .frl-comp, .frl-inclus { grid-template-columns: 1fr !important; }
+  .frl-prof { gap: 3rem !important; }
+  .frl-comp { gap: 2.5rem !important; }
+  .frl-logistics { grid-template-columns: 1fr 1fr !important; padding: 2rem !important; }
+  .frl-hero-stats { gap: 2rem; }
+}
+@media (max-width: 640px) {
+  .frl-logistics { grid-template-columns: 1fr !important; }
+  .frl-sticky { padding: 0.75rem 1.25rem; }
+}
+
 /* ── Blog styling ── */
 .blog-content {
   max-width: 100%;
