@@ -1,17 +1,17 @@
-import { useRef } from 'react'
+﻿import { useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
 
 const CREDENTIALS = [
   { label: 'Approche', value: 'Indépendant de tout éditeur logiciel' },
   { label: 'Certification', value: 'DDMRP Certified' },
-  { label: "Zone d’action", value: ‘France & Europe · Maroc’ },
+  { label: "Zone d'action", value: 'France & Europe · Maroc' },
   { label: 'Transmission', value: 'Académique & terrain' },
 ]
 
 const STATS = [
-  { value: ‘20+’, label: "Ans d’expérience terrain" },
+  { value: '20+', label: "Ans d'expérience terrain" },
   { value: '110+', label: 'Missions réalisées' },
-  { value: ‘710M’, label: "MAD d’achats pilotés" },
+  { value: '710M', label: "MAD d'achats pilotés" },
   { value: '6', label: 'Secteurs accompagnés' },
 ]
 
