@@ -322,7 +322,7 @@ export default function FormationRL() {
             initial={{ opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.05 }}
-            style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'rgba(192,154,47,0.5)', marginBottom: '2rem', display: 'block' }}
+            style={{ display: 'block', fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'rgba(192,154,47,0.5)', marginBottom: '2rem' }}
           >
             Formation terrain · 1 journée · Casablanca · Hôtel 5★
           </motion.div>
