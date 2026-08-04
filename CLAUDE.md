@@ -8,12 +8,24 @@ hugeinc.com — editorial, massive typography, clean dark/light alternation
 
 ## Active skills
 - `essor-hugeinc` — full design DNA in `.claude/skills/essor-hugeinc/SKILL.md`
+- `blog-write` — write a complete SEO/GEO article with images, stats, callouts
+- `blog-seo` — SEO audit + keyword optimization for existing articles
+- `blog-enrich` — add images/callouts/stats/tables to existing articles
+- `blog-plan` — content calendar, keyword gap analysis, article planning
 
 ## Custom commands
+
+### Design commands
 - `/section [name + purpose]` — create a new section component in hugeinc style
 - `/redesign [ComponentName]` — rewrite an existing component to hugeinc standards
 - `/statement [message?]` — add an inter-section editorial statement line
 - `/audit` — full site audit vs hugeinc design standards
+
+### Blog commands
+- `/blog-write [topic or keyword]` — write a complete optimized blog article
+- `/blog-seo [article filename or number]` — audit + fix SEO of an existing article
+- `/blog-enrich [article filename or number]` — add images, stats, callouts to an article
+- `/blog-plan [N articles or cluster name]` — plan next articles, keyword gap analysis
 
 ## Brand tokens (non-negotiable)
 ```
