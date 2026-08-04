@@ -78,11 +78,13 @@ export default function Blog() {
           '72-formation-lean-supply-chain-maroc',
           // Conseil · Audit · Entrepôt · WMS · Ingénierie
           '73-audit-diagnostic-supply-chain-maroc',
+          '74-diagnostic-logistique-pme-maroc',
           '79-schema-directeur-logistique-maroc',
           '83-implantation-nouvel-entrepot-maroc',
           '84-layout-entrepot-conception-efficace',
           '89-deploiement-wms-maroc',
           '94-ingenierie-logistique-maroc',
+          '95-formation-chef-entrepot-maroc',
         ]
 
         const loadedPosts: BlogPost[] = []
@@ -169,6 +171,8 @@ export default function Blog() {
                     duration: 0.9,
                     ease: [0.16, 1, 0.3, 1],
                     delay: (idx % 3) * 0.1,
+                    scale: { duration: 0.2 },
+                    borderColor: { duration: 0.2 },
                   }}
                   onClick={() => setSelectedPost(post)}
                   style={{
@@ -180,7 +184,6 @@ export default function Blog() {
                     overflow: 'hidden',
                   }}
                   whileHover={{ borderColor: 'rgba(192,154,47,0.4)', scale: 1.01 }}
-                  transition={{ duration: 0.2 }}
                 >
                   <div style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
                     {post.image && (
