@@ -79,6 +79,7 @@ export default function Blog() {
           // Conseil · Audit · Entrepôt · WMS · Ingénierie
           '73-audit-diagnostic-supply-chain-maroc',
           '74-diagnostic-logistique-pme-maroc',
+          '75-benchmark-couts-logistiques-maroc',
           '79-schema-directeur-logistique-maroc',
           '83-implantation-nouvel-entrepot-maroc',
           '84-layout-entrepot-conception-efficace',
@@ -87,6 +88,7 @@ export default function Blog() {
           '94-ingenierie-logistique-maroc',
           '95-formation-chef-entrepot-maroc',
           '96-lean-logistique-maroc',
+          '97-programme-formation-supply-chain-cadres-maroc',
         ]
 
         const loadedPosts: BlogPost[] = []
