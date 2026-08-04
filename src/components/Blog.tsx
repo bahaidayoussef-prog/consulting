@@ -81,6 +81,7 @@ export default function Blog() {
           '74-diagnostic-logistique-pme-maroc',
           '75-benchmark-couts-logistiques-maroc',
           '79-schema-directeur-logistique-maroc',
+          '80-schema-directeur-pme-maroc',
           '83-implantation-nouvel-entrepot-maroc',
           '84-layout-entrepot-conception-efficace',
           '89-deploiement-wms-maroc',
@@ -89,6 +90,7 @@ export default function Blog() {
           '95-formation-chef-entrepot-maroc',
           '96-lean-logistique-maroc',
           '97-programme-formation-supply-chain-cadres-maroc',
+          '98-formation-gestionnaire-stocks-maroc',
         ]
 
         const loadedPosts: BlogPost[] = []
