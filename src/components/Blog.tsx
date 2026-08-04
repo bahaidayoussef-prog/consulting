@@ -76,6 +76,8 @@ export default function Blog() {
           '70-roi-formation-logistique-maroc',
           '71-formation-supply-chain-manager-maroc',
           '72-formation-lean-supply-chain-maroc',
+          // Conseil · Audit · Entrepôt · WMS · Ingénierie
+          '83-implantation-nouvel-entrepot-maroc',
         ]
 
         const loadedPosts: BlogPost[] = []
