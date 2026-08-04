@@ -84,7 +84,7 @@ export default function Blog() {
           '77-kpis-supply-chain-tableau-de-bord-maroc',
           '79-schema-directeur-logistique-maroc',
           '80-schema-directeur-pme-maroc',
-          '80-schema-directeur-pme-maroc',
+          '81-schema-directeur-distribution-multi-regions-maroc',
           '83-implantation-nouvel-entrepot-maroc',
           '84-layout-entrepot-conception-efficace',
           '85-entrepot-frigorifique-maroc',
@@ -98,6 +98,7 @@ export default function Blog() {
           '97-programme-formation-supply-chain-cadres-maroc',
           '98-formation-gestionnaire-stocks-maroc',
           '99-formation-acheteur-supply-chain-maroc',
+          '100-formation-transport-douanes-maroc',
         ]
 
         const loadedPosts: BlogPost[] = []
