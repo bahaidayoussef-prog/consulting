@@ -14,7 +14,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      style={{ background: 'var(--dark)', overflow: 'hidden', position: 'relative' }}
+      style={{ background: 'var(--navy)', overflow: 'hidden', position: 'relative' }}
     >
       {/* Decorative gold glow */}
       <div

@@ -233,7 +233,7 @@ export default function References() {
           style={{
             marginTop: '4rem',
             paddingTop: '3rem',
-            borderTop: '1px solid rgba(255,255,255,0.06)',
+            borderTop: '1px solid rgba(27,53,84,0.08)',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'space-between',
@@ -246,7 +246,7 @@ export default function References() {
             fontSize: 'clamp(1.2rem, 2vw, 1.8rem)',
             fontStyle: 'italic',
             fontWeight: 300,
-            color: 'rgba(227,226,226,0.45)',
+            color: 'rgba(27,53,84,0.55)',
             margin: 0,
           }}>
             Votre secteur n&apos;est peut-être pas encore dans la liste.

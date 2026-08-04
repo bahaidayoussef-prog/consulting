@@ -131,7 +131,7 @@ export default function Impact() {
         <div style={{
           display: 'grid',
           gridTemplateColumns: 'repeat(4, 1fr)',
-          borderTop: '1px solid rgba(255,255,255,0.07)',
+          borderTop: '1px solid rgba(27,53,84,0.1)',
           marginBottom: '5rem',
         }}>
           {METRICS.map((m, i) => (
@@ -143,7 +143,7 @@ export default function Impact() {
               transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1], delay: i * 0.1 }}
               style={{
                 padding: '3.5rem 2.5rem 3rem',
-                borderRight: i < 3 ? '1px solid rgba(255,255,255,0.07)' : 'none',
+                borderRight: i < 3 ? '1px solid rgba(27,53,84,0.1)' : 'none',
               }}
             >
               <div style={{
@@ -177,7 +177,7 @@ export default function Impact() {
                 fontSize: '0.6rem',
                 letterSpacing: '0.12em',
                 textTransform: 'uppercase',
-                color: 'rgba(227,226,226,0.25)',
+                color: 'rgba(27,53,84,0.38)',
               }}>
                 {m.sub}
               </div>
@@ -193,7 +193,7 @@ export default function Impact() {
           transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
           style={{
             marginBottom: '5rem',
-            border: '1px solid rgba(255,255,255,0.07)',
+            border: '1px solid rgba(27,53,84,0.1)',
             overflow: 'hidden',
             position: 'relative',
           }}
@@ -232,7 +232,7 @@ export default function Impact() {
           gap: '5rem',
           alignItems: 'center',
           paddingTop: '3rem',
-          borderTop: '1px solid rgba(255,255,255,0.07)',
+          borderTop: '1px solid rgba(27,53,84,0.1)',
         }}>
           <div>
             <div style={{
@@ -240,7 +240,7 @@ export default function Impact() {
               fontSize: '0.6rem',
               letterSpacing: '0.15em',
               textTransform: 'uppercase',
-              color: 'rgba(184,146,42,0.5)',
+              color: 'rgba(192,154,47,0.7)',
               marginBottom: '1.25rem',
             }}>
               Notre engagement
@@ -267,7 +267,7 @@ export default function Impact() {
             fontSize: 'clamp(1.3rem, 2.2vw, 1.9rem)',
             fontWeight: 300,
             fontStyle: 'italic',
-            color: 'rgba(227,226,226,0.6)',
+            color: 'rgba(27,53,84,0.65)',
             lineHeight: 1.5,
             borderLeft: '2px solid var(--gold)',
             paddingLeft: '2.5rem',

@@ -68,10 +68,10 @@ function StickyCard({
         transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
         style={{
           background: index % 2 === 0 ? 'var(--dark-2)' : 'var(--dark)',
-          borderTop: index === 0 ? '2px solid var(--gold)' : '1px solid rgba(255,255,255,0.07)',
-          borderLeft: '1px solid rgba(255,255,255,0.07)',
-          borderRight: '1px solid rgba(255,255,255,0.07)',
-          borderBottom: index === total - 1 ? '1px solid rgba(255,255,255,0.07)' : 'none',
+          borderTop: index === 0 ? '2px solid var(--gold)' : '1px solid rgba(27,53,84,0.1)',
+          borderLeft: '1px solid rgba(27,53,84,0.1)',
+          borderRight: '1px solid rgba(27,53,84,0.1)',
+          borderBottom: index === total - 1 ? '1px solid rgba(27,53,84,0.1)' : 'none',
           padding: '3rem',
           display: 'grid',
           gridTemplateColumns: '220px 1fr 200px',
@@ -79,7 +79,7 @@ function StickyCard({
           alignItems: 'center',
           position: 'relative',
           overflow: 'hidden',
-          boxShadow: '0 -8px 40px rgba(0,0,0,0.5)',
+          boxShadow: '0 -8px 40px rgba(27,53,84,0.08)',
         }}
       >
         {/* Watermark number */}
@@ -142,7 +142,7 @@ function StickyCard({
                 fontSize: '0.62rem',
                 letterSpacing: '0.08em',
                 textTransform: 'uppercase',
-                color: 'rgba(227,226,226,0.4)',
+                color: 'rgba(27,53,84,0.55)',
               }}>
                 {item.duration}
               </span>
@@ -164,7 +164,7 @@ function StickyCard({
                 fontSize: '0.62rem',
                 letterSpacing: '0.08em',
                 textTransform: 'uppercase',
-                color: 'rgba(227,226,226,0.4)',
+                color: 'rgba(27,53,84,0.55)',
               }}>
                 {item.audience}
               </span>
@@ -212,7 +212,7 @@ function StickyCard({
             fontSize: '0.56rem',
             letterSpacing: '0.12em',
             textTransform: 'uppercase',
-            color: 'rgba(227,226,226,0.28)',
+            color: 'rgba(27,53,84,0.4)',
             textAlign: 'right',
             marginBottom: '1.75rem',
           }}>
@@ -230,7 +230,7 @@ function StickyCard({
               textTransform: 'uppercase',
               color: 'var(--dark-text)',
               textDecoration: 'none',
-              border: '1px solid rgba(255,255,255,0.15)',
+              border: '1px solid rgba(27,53,84,0.2)',
               padding: '0.65rem 1.2rem',
               whiteSpace: 'nowrap',
               transition: 'border-color 0.2s, color 0.2s',
@@ -242,7 +242,7 @@ function StickyCard({
             }}
             onMouseLeave={e => {
               const el = e.currentTarget
-              el.style.borderColor = 'rgba(255,255,255,0.15)'
+              el.style.borderColor = 'rgba(27,53,84,0.2)'
               el.style.color = 'var(--dark-text)'
             }}
           >

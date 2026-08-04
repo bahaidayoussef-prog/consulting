@@ -68,7 +68,7 @@ function SystemRow({ s, index }: { s: typeof systems[0]; index: number }) {
   const [open, setOpen] = useState(false)
 
   return (
-    <div style={{ borderBottom: '1px solid rgba(255,255,255,0.07)' }}>
+    <div style={{ borderBottom: '1px solid rgba(27,53,84,0.1)' }}>
       <button
         onClick={() => setOpen((v) => !v)}
         style={{
@@ -138,7 +138,7 @@ function SystemRow({ s, index }: { s: typeof systems[0]; index: number }) {
         <div style={{
           fontFamily: 'DM Mono, monospace',
           fontSize: '1.1rem',
-          color: open ? 'var(--gold)' : 'rgba(255,255,255,0.25)',
+          color: open ? 'var(--gold)' : 'rgba(27,53,84,0.3)',
           transition: 'color 0.2s, transform 0.3s',
           transform: open ? 'rotate(45deg)' : 'none',
           lineHeight: 1,
@@ -171,8 +171,8 @@ function SystemRow({ s, index }: { s: typeof systems[0]; index: number }) {
               <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '12px', marginBottom: '2.5rem' }}>
                 {s.tiers.map((tier) => (
                   <div key={tier.name} style={{
-                    background: tier.featured ? 'rgba(192,154,47,0.1)' : 'rgba(255,255,255,0.04)',
-                    border: `1px solid ${tier.featured ? 'rgba(192,154,47,0.4)' : 'rgba(255,255,255,0.08)'}`,
+                    background: tier.featured ? 'rgba(192,154,47,0.08)' : 'rgba(27,53,84,0.03)',
+                    border: `1px solid ${tier.featured ? 'rgba(192,154,47,0.4)' : 'rgba(27,53,84,0.1)'}`,
                     padding: '2.5rem',
                     position: 'relative',
                   }}>
@@ -191,7 +191,7 @@ function SystemRow({ s, index }: { s: typeof systems[0]; index: number }) {
                       fontSize: '0.6rem',
                       letterSpacing: '0.18em',
                       textTransform: 'uppercase',
-                      color: tier.featured ? 'rgba(192,154,47,0.75)' : 'rgba(227,226,226,0.35)',
+                      color: tier.featured ? 'rgba(192,154,47,0.8)' : 'rgba(27,53,84,0.5)',
                       marginBottom: '0.75rem',
                     }}>
                       {tier.name}
@@ -216,10 +216,10 @@ function SystemRow({ s, index }: { s: typeof systems[0]; index: number }) {
                       fontSize: '0.62rem',
                       letterSpacing: '0.1em',
                       textTransform: 'uppercase',
-                      color: 'rgba(227,226,226,0.45)',
+                      color: 'rgba(27,53,84,0.5)',
                       marginBottom: '1.25rem',
                       paddingBottom: '1.25rem',
-                      borderBottom: '1px solid rgba(255,255,255,0.06)',
+                      borderBottom: '1px solid rgba(27,53,84,0.08)',
                     }}>
                       {tier.duration}
                     </div>
@@ -227,7 +227,7 @@ function SystemRow({ s, index }: { s: typeof systems[0]; index: number }) {
                     {/* Description */}
                     <div style={{
                       fontSize: '0.88rem',
-                      color: 'rgba(227,226,226,0.65)',
+                      color: 'rgba(27,53,84,0.7)',
                       lineHeight: 1.65,
                       fontWeight: 300,
                     }}>
@@ -308,7 +308,7 @@ export default function Systemes() {
         </div>
 
         <div>
-          <div style={{ borderTop: '1px solid rgba(255,255,255,0.07)' }} />
+          <div style={{ borderTop: '1px solid rgba(27,53,84,0.1)' }} />
           {systems.map((s, i) => (
             <SystemRow key={s.num} s={s} index={i} />
           ))}

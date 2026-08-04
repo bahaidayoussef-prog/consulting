@@ -18,8 +18,8 @@ export default function Footer() {
   return (
     <footer
       style={{
-        background: 'var(--dark-3)',
-        borderTop: '1px solid rgba(255,255,255,0.06)',
+        background: 'var(--navy-dark, #0e1f30)',
+        borderTop: '1px solid rgba(255,255,255,0.08)',
         padding: 'var(--sp-y-sm) var(--sp-x) 2.5rem',
       }}
     >

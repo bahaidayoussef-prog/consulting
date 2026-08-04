@@ -197,7 +197,7 @@ export default function Blog() {
                   style={{
                     border: '1px solid var(--dark-border)',
                     cursor: 'pointer',
-                    background: 'rgba(255,255,255,0.02)',
+                    background: 'transparent',
                     display: 'flex',
                     flexDirection: 'column',
                     overflow: 'hidden',
@@ -210,7 +210,7 @@ export default function Blog() {
                   }}
                   onMouseLeave={(e) => {
                     (e.currentTarget as HTMLElement).style.borderColor = 'var(--dark-border)'
-                    ;(e.currentTarget as HTMLElement).style.background = 'rgba(255,255,255,0.02)'
+                    ;(e.currentTarget as HTMLElement).style.background = 'transparent'
                   }}
                 >
                   {/* Gold bottom line reveal on hover */}

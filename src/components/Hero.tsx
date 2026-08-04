@@ -117,7 +117,7 @@ export default function Hero() {
       ref={heroRef}
       style={{
         minHeight: '100svh',
-        background: 'var(--dark)',
+        background: 'var(--navy)',
         position: 'relative',
         display: 'flex',
         flexDirection: 'column',

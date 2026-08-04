@@ -121,7 +121,7 @@ export default function Nav() {
                 fontWeight: 600,
                 letterSpacing: '0.05em',
                 textTransform: 'uppercase',
-                color: overHero ? 'var(--dark)' : 'var(--paper)',
+                color: overHero ? '#0e1f30' : 'var(--paper)',
                 background: overHero ? 'var(--gold)' : 'var(--ink)',
                 textDecoration: 'none',
                 padding: '0.6rem 1.4rem',
@@ -131,12 +131,12 @@ export default function Nav() {
               onMouseEnter={e => {
                 const el = e.currentTarget as HTMLElement
                 el.style.background = 'var(--gold)'
-                el.style.color = 'var(--dark)'
+                el.style.color = '#0e1f30'
               }}
               onMouseLeave={e => {
                 const el = e.currentTarget as HTMLElement
                 el.style.background = overHero ? 'var(--gold)' : 'var(--ink)'
-                el.style.color = overHero ? 'var(--dark)' : 'var(--paper)'
+                el.style.color = overHero ? '#0e1f30' : 'var(--paper)'
               }}
             >
               Prendre RDV
@@ -166,7 +166,7 @@ export default function Nav() {
             transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
             style={{
               position: 'fixed', inset: 0,
-              background: 'var(--dark-3)',
+              background: 'var(--navy)',
               zIndex: 95,
               display: 'flex',
               flexDirection: 'column',

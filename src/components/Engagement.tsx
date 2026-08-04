@@ -58,7 +58,7 @@ export default function Engagement() {
   const inView = useInView(ref, { once: true, margin: '-80px' })
 
   return (
-    <section id="engagement" style={{ background: 'var(--dark)', color: 'var(--dark-text)', padding: 'var(--sp-y-sm) var(--sp-x)' }}>
+    <section id="engagement" style={{ background: 'var(--navy)', color: 'var(--dark-text)', padding: 'var(--sp-y-sm) var(--sp-x)' }}>
       <div className="section-inner" ref={ref}>
         <div style={{
           fontFamily: 'DM Mono, monospace',

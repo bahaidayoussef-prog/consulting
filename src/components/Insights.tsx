@@ -119,7 +119,7 @@ function ArticleCard({ article, index }: { article: (typeof ARTICLES)[0]; index:
               fontFamily: 'DM Mono, monospace',
               fontSize: '0.6rem',
               letterSpacing: '0.1em',
-              color: 'rgba(227,226,226,0.25)',
+              color: 'rgba(27,53,84,0.4)',
               textTransform: 'uppercase',
             }}
           >
@@ -158,7 +158,7 @@ function ArticleCard({ article, index }: { article: (typeof ARTICLES)[0]; index:
         <p
           style={{
             fontSize: '0.86rem',
-            color: 'rgba(227,226,226,0.45)',
+            color: 'rgba(27,53,84,0.6)',
             lineHeight: 1.75,
             marginBottom: '2rem',
           }}
@@ -172,7 +172,7 @@ function ArticleCard({ article, index }: { article: (typeof ARTICLES)[0]; index:
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'space-between',
-            borderTop: '1px solid rgba(255,255,255,0.06)',
+            borderTop: '1px solid rgba(27,53,84,0.08)',
             paddingTop: '1rem',
           }}
         >
@@ -215,7 +215,7 @@ export default function Insights() {
         padding: 'var(--sp-y-md) var(--sp-x)',
         position: 'relative',
         overflow: 'hidden',
-        borderTop: '1px solid rgba(255,255,255,0.05)',
+        borderTop: '1px solid rgba(27,53,84,0.08)',
       }}
     >
       {/* Background texture */}
@@ -338,7 +338,7 @@ export default function Insights() {
               fontSize: '0.55rem',
               letterSpacing: '0.18em',
               textTransform: 'uppercase',
-              color: 'rgba(255,255,255,0.18)',
+              color: 'rgba(27,53,84,0.45)',
             }}>
               YouTube
             </span>
@@ -348,7 +348,7 @@ export default function Insights() {
             position: 'relative',
             width: '100%',
             aspectRatio: '16 / 9',
-            border: '1px solid rgba(255,255,255,0.07)',
+            border: '1px solid rgba(27,53,84,0.1)',
             overflow: 'hidden',
             background: '#000',
           }}>
@@ -437,7 +437,7 @@ export default function Insights() {
             onMouseEnter={(e) => {
               const el = e.currentTarget as HTMLElement
               el.style.background = 'var(--gold)'
-              el.style.color = 'var(--dark)'
+              el.style.color = '#0e1f30'
             }}
             onMouseLeave={(e) => {
               const el = e.currentTarget as HTMLElement

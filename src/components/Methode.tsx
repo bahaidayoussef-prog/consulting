@@ -184,7 +184,7 @@ export default function Methode() {
                 className="method-step"
                 style={{
                   padding: '0 2rem 3rem',
-                  borderRight: i < STEPS.length - 1 ? '1px solid rgba(255,255,255,0.05)' : 'none',
+                  borderRight: i < STEPS.length - 1 ? '1px solid rgba(27,53,84,0.07)' : 'none',
                   opacity: 0,
                   cursor: 'default',
                 }}
@@ -255,7 +255,7 @@ export default function Methode() {
         {/* Bottom CTA */}
         <div
           style={{
-            borderTop: '1px solid rgba(255,255,255,0.06)',
+            borderTop: '1px solid rgba(27,53,84,0.08)',
             paddingTop: '3rem',
             display: 'flex',
             alignItems: 'center',
@@ -270,7 +270,7 @@ export default function Methode() {
               fontSize: 'clamp(1.2rem, 2vw, 1.6rem)',
               fontWeight: 400,
               fontStyle: 'italic',
-              color: 'rgba(227,226,226,0.5)',
+              color: 'rgba(27,53,84,0.55)',
             }}
           >
             Prêt à démarrer votre diagnostic ?
@@ -278,7 +278,7 @@ export default function Methode() {
           <a
             href="#contact"
             className="btn-primary"
-            style={{ background: 'var(--gold)', color: 'var(--dark)', fontWeight: 700 }}
+            style={{ background: 'var(--gold)', color: '#0e1f30', fontWeight: 700 }}
           >
             Réserver un échange gratuit →
           </a>

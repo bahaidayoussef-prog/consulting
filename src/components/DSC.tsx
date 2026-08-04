@@ -531,7 +531,7 @@ export default function DSC() {
       </div>
 
       {/* ── COMPARATIF — vs CDI ── */}
-      <div style={{ background: 'var(--dark)', padding: 'var(--sp-y-sm) var(--sp-x)' }}>
+      <div style={{ background: 'var(--navy)', padding: 'var(--sp-y-sm) var(--sp-x)' }}>
         <div className="section-inner">
           <motion.div
             initial={{ opacity: 0, y: 16 }}

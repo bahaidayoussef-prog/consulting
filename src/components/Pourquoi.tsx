@@ -225,7 +225,7 @@ export default function Pourquoi() {
       </div>
 
       {/* ── Méthode 5 étapes — horizontal scroll ── */}
-      <div ref={methodRef} style={{ background: 'var(--dark)' }}>
+      <div ref={methodRef} style={{ background: 'var(--navy)' }}>
         <div
           style={{
             height: '100vh',
@@ -296,7 +296,7 @@ export default function Pourquoi() {
                       fontWeight: 800,
                       lineHeight: 0.92,
                       letterSpacing: '-0.02em',
-                      color: idx === 2 ? 'var(--dark)' : 'var(--dark-text)',
+                      color: idx === 2 ? '#0e1f30' : 'var(--dark-text)',
                       marginBottom: '0.5rem',
                     }}
                   >

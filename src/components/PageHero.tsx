@@ -20,8 +20,8 @@ export default function PageHero({
   titleItalic,
   subtitle,
   tag = 'ESSOR CONSULTING',
-  bg = 'var(--dark)',
-  textColor = 'var(--dark-text)',
+  bg = 'var(--navy)',
+  textColor = '#f0ede8',
   breadcrumb,
 }: PageHeroProps) {
   const words = title.split(' ')
@@ -164,7 +164,7 @@ export default function PageHero({
             style={{
               fontFamily: 'Jost, sans-serif',
               fontSize: 'clamp(1rem, 1.3vw, 1.15rem)',
-              color: textColor === 'var(--dark-text)' ? 'rgba(235,232,225,0.45)' : 'rgba(27,53,84,0.5)',
+              color: bg === 'var(--paper)' ? 'rgba(27,53,84,0.5)' : 'rgba(235,232,225,0.45)',
               lineHeight: 1.8,
               fontWeight: 300,
               maxWidth: 560,
@@ -182,9 +182,9 @@ export default function PageHero({
           transition={{ duration: 1.2, ease, delay: 0.6 }}
           style={{
             height: 1,
-            background: textColor === 'var(--dark-text)'
-              ? 'rgba(255,255,255,0.07)'
-              : 'rgba(27,53,84,0.1)',
+            background: bg === 'var(--paper)'
+              ? 'rgba(27,53,84,0.1)'
+              : 'rgba(255,255,255,0.07)',
             marginTop: '4rem',
             transformOrigin: 'left',
           }}
