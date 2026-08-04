@@ -110,6 +110,10 @@ export default function Blog() {
           '98-formation-gestionnaire-stocks-maroc',
           '99-formation-acheteur-supply-chain-maroc',
           '100-formation-transport-douanes-maroc',
+          // Tendances 2026
+          '101-nearshoring-maroc-supply-chain-europe',
+          '102-intelligence-artificielle-supply-chain-maroc',
+          '103-supply-chain-durable-rse-maroc',
         ]
 
         const loadedPosts: BlogPost[] = []
