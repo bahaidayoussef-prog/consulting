@@ -83,8 +83,10 @@ export default function Blog() {
           '83-implantation-nouvel-entrepot-maroc',
           '84-layout-entrepot-conception-efficace',
           '89-deploiement-wms-maroc',
+          '90-optimisation-tms-transport-maroc',
           '94-ingenierie-logistique-maroc',
           '95-formation-chef-entrepot-maroc',
+          '96-lean-logistique-maroc',
         ]
 
         const loadedPosts: BlogPost[] = []
