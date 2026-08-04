@@ -1,6 +1,11 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { motion } from 'framer-motion'
 import { parseMarkdown, type BlogPost } from '../utils/markdownParser'
+
+function readingTime(content: string): number {
+  const words = content.trim().split(/\s+/).length
+  return Math.max(1, Math.round(words / 200))
+}
 
 export default function Blog() {
   const [posts, setPosts] = useState<BlogPost[]>([])
@@ -337,6 +342,21 @@ interface BlogDetailProps {
 }
 
 function BlogDetail({ post, onClose }: BlogDetailProps) {
+  const scrollRef = useRef<HTMLDivElement>(null)
+  const [progress, setProgress] = useState(0)
+
+  useEffect(() => {
+    const el = scrollRef.current
+    if (!el) return
+    const onScroll = () => {
+      const { scrollTop, scrollHeight, clientHeight } = el
+      const max = scrollHeight - clientHeight
+      setProgress(max > 0 ? Math.min(100, (scrollTop / max) * 100) : 0)
+    }
+    el.addEventListener('scroll', onScroll, { passive: true })
+    return () => el.removeEventListener('scroll', onScroll)
+  }, [post])
+
   // IntersectionObserver for .blog-figure, .blog-callout, .blog-stat-block animations
   useEffect(() => {
     const targets = document.querySelectorAll<HTMLElement>(
@@ -399,6 +419,7 @@ function BlogDetail({ post, onClose }: BlogDetailProps) {
 
   return (
     <motion.div
+      ref={scrollRef}
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
@@ -412,6 +433,10 @@ function BlogDetail({ post, onClose }: BlogDetailProps) {
         backdropFilter: 'blur(4px)',
       }}
     >
+      {/* Reading progress bar */}
+      <div style={{ position: 'fixed', top: 0, left: 0, right: 0, height: 3, background: 'rgba(255,255,255,0.07)', zIndex: 1001 }}>
+        <div style={{ height: '100%', background: 'var(--gold)', width: `${progress}%`, transition: 'width 0.1s linear' }} />
+      </div>
       <motion.article
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
@@ -464,13 +489,20 @@ function BlogDetail({ post, onClose }: BlogDetailProps) {
               display: 'flex',
               gap: '1.5rem',
               marginBottom: '1.5rem',
-              fontSize: '0.875rem',
+              fontSize: '0.8rem',
               fontFamily: 'DM Mono, monospace',
-              color: 'var(--gold)',
+              color: 'rgba(192,154,47,0.7)',
+              flexWrap: 'wrap',
+              alignItems: 'center',
             }}
           >
             <span>{new Date(post.date).toLocaleDateString('fr-FR')}</span>
-            {post.author && <span>{post.author}</span>}
+            {post.author && <><span style={{ opacity: 0.4 }}>·</span><span>{post.author}</span></>}
+            <span style={{ opacity: 0.4 }}>·</span>
+            <span style={{ display: 'flex', alignItems: 'center', gap: '0.35rem' }}>
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              {readingTime(post.content)} min de lecture
+            </span>
           </div>
 
           <h1

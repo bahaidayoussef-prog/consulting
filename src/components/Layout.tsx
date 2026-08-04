@@ -6,6 +6,7 @@ import { useLenis } from '../hooks/useLenis'
 import CustomCursor from './CustomCursor'
 import Nav from './Nav'
 import Footer from './Footer'
+import BackToTop from './BackToTop'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -50,6 +51,7 @@ export default function Layout({ children }: { children: ReactNode }) {
       <Nav />
       {children}
       <Footer />
+      <BackToTop />
     </div>
   )
 }

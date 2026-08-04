@@ -93,26 +93,45 @@ export default function Nav() {
 
         {/* Desktop nav */}
         <ul className="desktop-nav" style={{ display: 'flex', gap: '2.5rem', listStyle: 'none' }}>
-          {NAV_LINKS.map(({ label, href }) => (
-            <li key={href}>
-              <Link
-                to={href}
-                style={{
-                  fontSize: '0.85rem',
-                  fontWeight: 500,
-                  letterSpacing: '0.05em',
-                  textTransform: 'uppercase',
-                  color: pathname === href ? 'var(--gold)' : textCol,
-                  textDecoration: 'none',
-                  transition: 'color 0.2s',
-                }}
-                onMouseEnter={e => ((e.currentTarget as HTMLElement).style.color = textHover)}
-                onMouseLeave={e => ((e.currentTarget as HTMLElement).style.color = pathname === href ? 'var(--gold)' : textCol)}
-              >
-                {label}
-              </Link>
-            </li>
-          ))}
+          {NAV_LINKS.map(({ label, href }) => {
+            const active = pathname === href
+            return (
+              <li key={href} style={{ position: 'relative' }}>
+                <Link
+                  to={href}
+                  style={{
+                    fontSize: '0.85rem',
+                    fontWeight: 500,
+                    letterSpacing: '0.05em',
+                    textTransform: 'uppercase',
+                    color: active ? 'var(--gold)' : textCol,
+                    textDecoration: 'none',
+                    transition: 'color 0.2s',
+                    paddingBottom: '4px',
+                  }}
+                  onMouseEnter={e => ((e.currentTarget as HTMLElement).style.color = active ? 'var(--gold)' : textHover)}
+                  onMouseLeave={e => ((e.currentTarget as HTMLElement).style.color = active ? 'var(--gold)' : textCol)}
+                >
+                  {label}
+                </Link>
+                {active && (
+                  <motion.div
+                    layoutId="nav-underline"
+                    style={{
+                      position: 'absolute',
+                      bottom: -2,
+                      left: 0,
+                      right: 0,
+                      height: 2,
+                      background: 'var(--gold)',
+                      borderRadius: 0,
+                    }}
+                    transition={{ type: 'spring', stiffness: 380, damping: 30 }}
+                  />
+                )}
+              </li>
+            )
+          })}
           <li>
             <Link
               to="/contact"
