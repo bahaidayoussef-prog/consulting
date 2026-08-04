@@ -89,11 +89,13 @@ export default function Blog() {
           '85-entrepot-frigorifique-maroc',
           '89-deploiement-wms-maroc',
           '90-optimisation-tms-transport-maroc',
+          '91-optimisation-reseau-logistique-maroc',
           '94-ingenierie-logistique-maroc',
           '95-formation-chef-entrepot-maroc',
           '96-lean-logistique-maroc',
           '97-programme-formation-supply-chain-cadres-maroc',
           '98-formation-gestionnaire-stocks-maroc',
+          '99-formation-acheteur-supply-chain-maroc',
         ]
 
         const loadedPosts: BlogPost[] = []
