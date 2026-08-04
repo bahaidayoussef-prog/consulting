@@ -184,16 +184,15 @@ export default function Blog() {
               {posts.map((post, idx) => (
                 <motion.article
                   key={post.slug}
-                  initial={{ opacity: 0, y: 24 }}
+                  initial={{ opacity: 0, y: 48 }}
                   whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true, margin: '-60px' }}
+                  viewport={{ once: true, margin: '-40px' }}
                   transition={{
-                    duration: 0.9,
+                    duration: 0.85,
                     ease: [0.16, 1, 0.3, 1],
-                    delay: (idx % 3) * 0.1,
-                    scale: { duration: 0.2 },
-                    borderColor: { duration: 0.2 },
+                    delay: (idx % 3) * 0.12,
                   }}
+                  whileHover="hover"
                   onClick={() => setSelectedPost(post)}
                   style={{
                     border: '1px solid var(--dark-border)',
@@ -202,9 +201,36 @@ export default function Blog() {
                     display: 'flex',
                     flexDirection: 'column',
                     overflow: 'hidden',
+                    position: 'relative',
+                    transition: 'border-color 0.3s ease, background 0.3s ease',
                   }}
-                  whileHover={{ borderColor: 'rgba(192,154,47,0.4)', scale: 1.01 }}
+                  onMouseEnter={(e) => {
+                    (e.currentTarget as HTMLElement).style.borderColor = 'rgba(192,154,47,0.5)'
+                    ;(e.currentTarget as HTMLElement).style.background = 'rgba(192,154,47,0.03)'
+                  }}
+                  onMouseLeave={(e) => {
+                    (e.currentTarget as HTMLElement).style.borderColor = 'var(--dark-border)'
+                    ;(e.currentTarget as HTMLElement).style.background = 'rgba(255,255,255,0.02)'
+                  }}
                 >
+                  {/* Gold bottom line reveal on hover */}
+                  <motion.div
+                    variants={{
+                      hover: { scaleX: 1, transition: { duration: 0.4, ease: [0.16, 1, 0.3, 1] } },
+                    }}
+                    initial={{ scaleX: 0 }}
+                    style={{
+                      position: 'absolute',
+                      bottom: 0,
+                      left: 0,
+                      right: 0,
+                      height: '2px',
+                      background: 'var(--gold)',
+                      transformOrigin: 'left',
+                      zIndex: 2,
+                    }}
+                  />
+
                   <div style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
                     {post.image && (
                       <div
@@ -215,16 +241,18 @@ export default function Blog() {
                           marginBottom: '1.25rem',
                         }}
                       >
-                        <img
+                        <motion.img
                           src={post.image}
                           alt={post.title}
                           loading="lazy"
+                          variants={{
+                            hover: { scale: 1.07, transition: { duration: 0.7, ease: [0.16, 1, 0.3, 1] } },
+                          }}
                           style={{
                             width: '100%',
                             height: '100%',
                             objectFit: 'cover',
                             display: 'block',
-                            transition: 'transform 0.6s ease',
                           }}
                         />
                       </div>
@@ -270,7 +298,10 @@ export default function Blog() {
                         {post.description}
                       </p>
 
-                      <span
+                      <motion.span
+                        variants={{
+                          hover: { x: 6, color: '#c09a2f', transition: { duration: 0.25, ease: 'easeOut' } },
+                        }}
                         style={{
                           fontFamily: 'Jost, sans-serif',
                           fontSize: '0.8125rem',
@@ -279,10 +310,11 @@ export default function Blog() {
                           textTransform: 'uppercase' as const,
                           color: 'var(--gold)',
                           marginTop: 'auto',
+                          display: 'inline-block',
                         }}
                       >
                         Lire l'article →
-                      </span>
+                      </motion.span>
                     </div>
                   </div>
                 </motion.article>
