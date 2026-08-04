@@ -114,6 +114,11 @@ export default function Blog() {
           '101-nearshoring-maroc-supply-chain-europe',
           '102-intelligence-artificielle-supply-chain-maroc',
           '103-supply-chain-durable-rse-maroc',
+          '104-logistique-inverse-retours-maroc',
+          '105-sop-sales-operations-planning-maroc',
+          '106-supply-chain-ecommerce-maroc-2026',
+          '107-srm-gestion-fournisseurs-maroc',
+          '108-last-mile-livraison-dernier-kilometre-maroc',
         ]
 
         const loadedPosts: BlogPost[] = []
