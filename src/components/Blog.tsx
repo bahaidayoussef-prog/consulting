@@ -80,7 +80,9 @@ export default function Blog() {
           '73-audit-diagnostic-supply-chain-maroc',
           '79-schema-directeur-logistique-maroc',
           '83-implantation-nouvel-entrepot-maroc',
+          '84-layout-entrepot-conception-efficace',
           '89-deploiement-wms-maroc',
+          '94-ingenierie-logistique-maroc',
         ]
 
         const loadedPosts: BlogPost[] = []
