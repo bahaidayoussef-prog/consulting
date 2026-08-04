@@ -1,33 +1,10 @@
 import { useEffect, useRef, useState } from 'react'
-import { motion, AnimatePresence } from 'framer-motion'
+import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
 gsap.registerPlugin(ScrollTrigger)
-
-const SLIDES = [
-  {
-    src: '/images/hero-warehouse.jpg',
-    srcSet: '/images/hero-warehouse-640w.jpg 640w, /images/hero-warehouse-1200w.jpg 1200w, /images/hero-warehouse.jpg 1920w',
-    label: 'Logistique',
-  },
-  {
-    src: '/images/hero-supply-chain.jpg',
-    srcSet: '/images/hero-supply-chain-640w.jpg 640w, /images/hero-supply-chain-1200w.jpg 1200w, /images/hero-supply-chain.jpg 1920w',
-    label: 'Supply Chain',
-  },
-  {
-    src: '/images/analytics.jpg',
-    srcSet: '/images/analytics-640w.jpg 640w, /images/analytics-1200w.jpg 1200w, /images/analytics.jpg 1920w',
-    label: 'Planification',
-  },
-  {
-    src: '/images/conseil.jpg',
-    srcSet: '/images/conseil-640w.jpg 640w, /images/conseil-1200w.jpg 1200w, /images/conseil.jpg 1920w',
-    label: 'Conseil',
-  },
-]
 
 const LINES = [
   { text: 'Transformez', italic: false },
@@ -114,17 +91,8 @@ function NetworkSVG() {
 }
 
 export default function Hero() {
-  const [slide, setSlide] = useState(0)
   const [textVisible, setTextVisible] = useState(true)
   const heroRef = useRef<HTMLElement>(null)
-
-  /* ─ Cycle slides every 5 s ─ */
-  useEffect(() => {
-    const id = setInterval(() => {
-      setSlide((s) => (s + 1) % SLIDES.length)
-    }, 5000)
-    return () => clearInterval(id)
-  }, [])
 
   /* ─ Heading text appear once ─ */
   useEffect(() => {
@@ -159,28 +127,25 @@ export default function Hero() {
         paddingBottom: 120,
       }}
     >
-      {/* ── Cycling background images ── */}
+      {/* ── Video background ── */}
       <div data-hero-bg style={{ position: 'absolute', inset: 0, zIndex: 0 }}>
-        <AnimatePresence>
-          <motion.img
-            key={slide}
-            src={SLIDES[slide].src}
-            srcSet={SLIDES[slide].srcSet}
-            sizes="100vw"
-            alt=""
-            aria-hidden="true"
-            initial={{ opacity: 0, scale: 1.04 }}
-            animate={{ opacity: 0.22, scale: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 1.4, ease: 'easeInOut' }}
-            style={{
-              position: 'absolute', inset: 0,
-              width: '100%', height: '100%',
-              objectFit: 'cover',
-              filter: 'grayscale(35%) contrast(1.1)',
-            }}
-          />
-        </AnimatePresence>
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          poster="/images/hero-warehouse.jpg"
+          aria-hidden="true"
+          style={{
+            position: 'absolute', inset: 0,
+            width: '100%', height: '100%',
+            objectFit: 'cover',
+            opacity: 0.28,
+            filter: 'grayscale(20%) contrast(1.05)',
+          }}
+        >
+          <source src="/videos/network-loop.mp4" type="video/mp4" />
+        </video>
 
         {/* Dark overlay */}
         <div style={{
@@ -198,7 +163,7 @@ export default function Hero() {
         }} />
       </div>
 
-      {/* ── Slide counter (hugeinc style) ── */}
+      {/* ── Side label ── */}
       <div style={{
         position: 'absolute',
         top: '50%',
@@ -218,33 +183,9 @@ export default function Hero() {
           color: 'rgba(235,232,225,0.2)',
           textTransform: 'uppercase',
         }}>
-          {SLIDES[slide].label}
+          Logistique · Maroc
         </div>
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
-          {SLIDES.map((_, i) => (
-            <button
-              key={i}
-              onClick={() => setSlide(i)}
-              style={{
-                width: i === slide ? 2 : 1,
-                height: i === slide ? 28 : 14,
-                background: i === slide ? 'var(--gold)' : 'rgba(255,255,255,0.2)',
-                border: 'none',
-                padding: 0,
-                cursor: 'pointer',
-                transition: 'all 0.4s ease',
-              }}
-            />
-          ))}
-        </div>
-        <div style={{
-          fontFamily: 'DM Mono, monospace',
-          fontSize: '0.55rem',
-          color: 'rgba(235,232,225,0.18)',
-          letterSpacing: '0.1em',
-        }}>
-          {String(slide + 1).padStart(2, '0')} / {String(SLIDES.length).padStart(2, '0')}
-        </div>
+        <div style={{ width: 1, height: 40, background: 'rgba(192,154,47,0.25)' }} />
       </div>
 
       {/* ── Main content ── */}

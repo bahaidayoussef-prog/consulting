@@ -42,6 +42,23 @@ export default function Impact() {
   const sectionRef = useRef<HTMLElement>(null)
   const headingRef = useRef(null)
   const inView = useInView(headingRef, { once: true, margin: '-80px' })
+  const statsVideoRef = useRef<HTMLVideoElement>(null)
+
+  useEffect(() => {
+    const video = statsVideoRef.current
+    if (!video) return
+    const obs = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          video.play().catch(() => {})
+          obs.disconnect()
+        }
+      },
+      { threshold: 0.3 }
+    )
+    obs.observe(video)
+    return () => obs.disconnect()
+  }, [])
 
   return (
     <section
@@ -167,6 +184,46 @@ export default function Impact() {
             </motion.div>
           ))}
         </div>
+
+        {/* StatsReveal video */}
+        <motion.div
+          initial={{ opacity: 0, y: 32 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: '-60px' }}
+          transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
+          style={{
+            marginBottom: '5rem',
+            border: '1px solid rgba(255,255,255,0.07)',
+            overflow: 'hidden',
+            position: 'relative',
+          }}
+        >
+          <div style={{
+            position: 'absolute',
+            top: '1.25rem',
+            left: '1.5rem',
+            fontFamily: 'DM Mono, monospace',
+            fontSize: '0.55rem',
+            letterSpacing: '0.22em',
+            textTransform: 'uppercase',
+            color: 'rgba(192,154,47,0.5)',
+            zIndex: 2,
+            pointerEvents: 'none',
+          }}>
+            Résultats terrain · 20 ans
+          </div>
+          <video
+            ref={statsVideoRef}
+            src="/videos/stats-reveal.mp4"
+            muted
+            playsInline
+            style={{
+              width: '100%',
+              display: 'block',
+              aspectRatio: '16 / 9',
+            }}
+          />
+        </motion.div>
 
         {/* Quote + certs row */}
         <div style={{

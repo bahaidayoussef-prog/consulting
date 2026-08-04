@@ -282,9 +282,9 @@ export default function Formation() {
 
           <div style={{
             display: 'grid',
-            gridTemplateColumns: '1fr 1fr',
+            gridTemplateColumns: '1fr 1fr auto',
             gap: '4rem',
-            alignItems: 'end',
+            alignItems: 'center',
             marginBottom: '5rem',
           }}>
             <h2 style={{
@@ -314,6 +314,45 @@ export default function Formation() {
               Une pédagogie ancrée dans la réalité terrain, pas dans les manuels.
               Des formations conçues par des praticiens, pour des praticiens.
             </p>
+
+            {/* FormationPromo reel — phone frame */}
+            <div style={{
+              width: 160,
+              aspectRatio: '9 / 16',
+              border: '1px solid rgba(192,154,47,0.3)',
+              borderRadius: 18,
+              overflow: 'hidden',
+              background: '#0a1420',
+              flexShrink: 0,
+              boxShadow: '0 24px 64px rgba(0,0,0,0.6)',
+              position: 'relative',
+            }}>
+              <div style={{
+                position: 'absolute',
+                top: 10,
+                left: '50%',
+                transform: 'translateX(-50%)',
+                width: 40,
+                height: 4,
+                background: 'rgba(192,154,47,0.35)',
+                borderRadius: 2,
+                zIndex: 2,
+              }} />
+              <video
+                autoPlay
+                muted
+                loop
+                playsInline
+                style={{
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'cover',
+                  display: 'block',
+                }}
+              >
+                <source src="/videos/formation-promo.mp4" type="video/mp4" />
+              </video>
+            </div>
           </div>
         </motion.div>
 
