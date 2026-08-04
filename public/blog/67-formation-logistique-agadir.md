@@ -1,7 +1,8 @@
 ---
 title: "Formation Logistique à Agadir : Supply Chain Export et Région Souss-Massa 2026"
 date: "2026-08-01"
-author: "Essor Consulting"
+author: "Youssef BAHAIDA"
+image: "/images/transport.jpg"
 keywords: "formation logistique agadir, supply chain agadir, formation responsable logistique agadir, export logistique souss massa, formation transport agadir"
 description: "Formation logistique et supply chain pour les professionnels d'Agadir et de la région Souss-Massa : export, pêche, agrumes, BTP. Essor Consulting."
 ---
@@ -11,6 +12,10 @@ description: "Formation logistique et supply chain pour les professionnels d'Aga
 Agadir est la capitale économique du Souss-Massa, une région dont la supply chain est parmi les plus complexes et les plus exportatrices du Maroc. Primeurs, agrumes, produits de la mer, produits transformés — les flux logistiques qui partent d'Agadir vers l'Europe, le Moyen-Orient et l'Afrique subsaharienne mobilisent des milliers de professionnels chaque année.
 
 Pourtant, la formation supply chain locale reste insuffisante au regard des enjeux.
+
+![Transport et export — supply chain Agadir Souss-Massa](/images/transport.jpg)
+
+> **La région Souss-Massa exporte plus de 1,2 million de tonnes de produits agricoles par an.** Cette supply chain d'export complexe — gestion du froid, délais serrés, conformité UE — exige des professionnels formés aux normes internationales.
 
 ---
 

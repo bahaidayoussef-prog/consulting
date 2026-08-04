@@ -1,7 +1,8 @@
 ---
 title: "Formation Supply Chain Manager au Maroc : Devenir SCM en 2026"
 date: "2026-07-29"
-author: "Essor Consulting"
+author: "Youssef BAHAIDA"
+image: "/images/hero-supply-chain.jpg"
 keywords: "formation supply chain manager maroc, scm maroc formation, supply chain manager casablanca, certification supply chain maroc, chef de projet supply chain"
 description: "Guide complet pour devenir Supply Chain Manager au Maroc en 2026 : formations, certifications CPIM/CSCMP, compétences requises et débouchés professionnels."
 ---
@@ -11,6 +12,8 @@ description: "Guide complet pour devenir Supply Chain Manager au Maroc en 2026 :
 Le titre de Supply Chain Manager (SCM) est l'une des fonctions les plus stratégiques — et les mieux rémunérées — dans les entreprises marocaines modernes. Il pilote à la fois les approvisionnements, la planification, les opérations d'entrepôt, la distribution et souvent les achats. C'est le chef d'orchestre de toute la chaîne de valeur.
 
 Se former pour atteindre ce niveau demande une stratégie claire et des investissements ciblés.
+
+![Supply chain management — vision stratégique et pilotage de la chaîne logistique](/images/hero-supply-chain.jpg)
 
 ---
 
@@ -117,6 +120,10 @@ Pour les profils confirmés dans une fonction adjacente (acheteur senior, direct
 - Certification CPIM ou DDMRP
 - Coaching par un SCM expérimenté (mentoring)
 - Transition en 12 à 24 mois
+
+---
+
+::stat:: 50 000 – 100 000 MAD — salaire brut d'un Directeur Supply Chain dans une multinationale au Maroc
 
 ---
 

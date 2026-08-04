@@ -1,7 +1,8 @@
 ﻿---
 title: "Conseil Supply Chain Afrique Francophone — Expert Logistique Régionale"
 date: "2026-06-21"
-author: "Essor Consulting"
+author: "Youssef BAHAIDA"
+image: "/images/hero-supply-chain.jpg"
 keywords: "conseil supply chain Afrique, logistique Sénégal Côte d'Ivoire Congo, expert supply chain francophone"
 description: "Expert supply chain pour Afrique francophone. Sénégal, Côte d'Ivoire, Congo, Cameroun. Audit, formation, digitalisation."
 location: "Sénégal, Côte d'Ivoire, Congo, Cameroun, Afrique Francophone"
@@ -86,3 +87,4 @@ Afrique Francophone · 18 ans expérience · Multi-région expertise
 **Essor Consulting**  
 Directeur des Achats | Expert Supply Chain & Transformation Digitale  
 Essor Consulting — Casablanca, Maroc
+

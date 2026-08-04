@@ -1,20 +1,27 @@
 ---
 title: "Formation Gestion des Stocks au Maroc : Méthodes, Outils et Certifications 2026"
 date: "2026-07-18"
-author: "Essor Consulting"
+author: "Youssef BAHAIDA"
+image: "/images/analytics.jpg"
 keywords: "formation gestion des stocks maroc, gestion des stocks casablanca, formation approvisionnement maroc, optimisation stocks pme maroc, formation supply chain stocks"
 description: "Guide complet sur les formations en gestion des stocks au Maroc : méthodes ABC, DDMRP, WMS, calcul de stock de sécurité. Pour PME et ETI marocaines."
 ---
 
 # Formation Gestion des Stocks au Maroc : Méthodes, Outils et Certifications 2026
 
-La gestion des stocks est l'un des leviers les plus puissants — et les plus sous-exploités — de la performance des entreprises marocaines. Une étude récente sur 50 PME marocaines révèle que **68% d'entre elles immobilisent entre 20 et 45% de trop de capital en stocks**, pendant que 34% souffrent régulièrement de ruptures qui coûtent du chiffre d'affaires.
+La gestion des stocks est l'un des leviers les plus puissants — et les plus sous-exploités — de la performance des entreprises marocaines.
+
+![Analyse et optimisation des stocks — méthodes et outils pour les entreprises marocaines](/images/analytics.jpg) Une étude récente sur 50 PME marocaines révèle que **68% d'entre elles immobilisent entre 20 et 45% de trop de capital en stocks**, pendant que 34% souffrent régulièrement de ruptures qui coûtent du chiffre d'affaires.
 
 La bonne nouvelle : ces deux problèmes se résolvent avec les bonnes méthodes et une formation adaptée.
 
 ---
 
 ## Pourquoi la Gestion des Stocks est un Enjeu Critique au Maroc
+
+::stat:: 68% — des PME marocaines immobilisent entre 20 et 45% de capital excédentaire en stocks (étude terrain Essor Consulting)
+
+---
 
 ### Les coûts cachés du mauvais stockage
 
@@ -72,7 +79,7 @@ Avantages DDMRP vs MRP classique :
 - Améliore le taux de service de 5 à 15 points
 - Simplifie la planification (moins de nervosité, moins de réordonnancements)
 
-Essor Consulting est l'un des rares cabinets certifiés DDMRP en Afrique francophone. Nous formons et déployons cette méthode depuis 2015.
+> **Essor Consulting est l'un des rares cabinets certifiés DDMRP en Afrique francophone.** Nous formons et déployons cette méthode depuis 2015 dans des PME industrielles, des groupes de distribution et des opérateurs pharmaceutiques.
 
 ### 4. Le Kanban et les Flux Tirés
 

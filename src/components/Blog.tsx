@@ -146,7 +146,12 @@ export default function Blog() {
               Chargement des articles...
             </motion.p>
           ) : (
-            <div style={{ display: 'grid', gap: '2rem', marginTop: '2rem' }}>
+            <div style={{
+              display: 'grid',
+              gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))',
+              gap: '2rem',
+              marginTop: '2rem',
+            }}>
               {posts.map((post, idx) => (
                 <motion.article
                   key={post.slug}
@@ -156,78 +161,99 @@ export default function Blog() {
                   transition={{
                     duration: 0.9,
                     ease: [0.16, 1, 0.3, 1],
-                    delay: idx * 0.1,
+                    delay: (idx % 3) * 0.1,
                   }}
                   onClick={() => setSelectedPost(post)}
                   style={{
-                    borderBottom: '1px solid var(--dark-border)',
-                    paddingBottom: '2rem',
+                    border: '1px solid var(--dark-border)',
                     cursor: 'pointer',
-                    transition: 'opacity 0.3s ease',
+                    background: 'rgba(255,255,255,0.02)',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    overflow: 'hidden',
                   }}
-                  onHoverStart={() => {}}
-                  onHoverEnd={() => {}}
-                  whileHover={{ opacity: 0.7 }}
+                  whileHover={{ borderColor: 'rgba(192,154,47,0.4)', scale: 1.01 }}
+                  transition={{ duration: 0.2 }}
                 >
-                  <div style={{ marginBottom: '1rem' }}>
-                    <h3
-                      style={{
-                        fontFamily: 'Bodoni Moda, serif',
-                        fontSize: 'clamp(1.25rem, 2vw, 1.75rem)',
-                        fontWeight: 400,
-                        lineHeight: 1.2,
-                        color: 'var(--dark-text)',
-                        marginBottom: '0.75rem',
-                      }}
-                    >
-                      {post.title}
-                    </h3>
+                  <div style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
+                    {post.image && (
+                      <div
+                        style={{
+                          width: '100%',
+                          height: '180px',
+                          overflow: 'hidden',
+                          marginBottom: '1.25rem',
+                        }}
+                      >
+                        <img
+                          src={post.image}
+                          alt={post.title}
+                          loading="lazy"
+                          style={{
+                            width: '100%',
+                            height: '100%',
+                            objectFit: 'cover',
+                            display: 'block',
+                            transition: 'transform 0.6s ease',
+                          }}
+                        />
+                      </div>
+                    )}
+                    <div style={{ padding: '1.25rem', display: 'flex', flexDirection: 'column', flex: 1, gap: '0.75rem' }}>
+                      <h3
+                        style={{
+                          fontFamily: 'Bodoni Moda, serif',
+                          fontSize: 'clamp(1rem, 1.5vw, 1.375rem)',
+                          fontWeight: 400,
+                          lineHeight: 1.25,
+                          color: 'var(--dark-text)',
+                        }}
+                      >
+                        {post.title}
+                      </h3>
 
-                    <div
-                      style={{
-                        display: 'flex',
-                        gap: '1.5rem',
-                        marginBottom: '1rem',
-                        fontSize: '0.875rem',
-                        fontFamily: 'DM Mono, monospace',
-                        color: 'var(--gold)',
-                      }}
-                    >
-                      <span>{new Date(post.date).toLocaleDateString('fr-FR')}</span>
-                      {post.author && <span>{post.author}</span>}
+                      <div
+                        style={{
+                          fontSize: '0.75rem',
+                          fontFamily: 'DM Mono, monospace',
+                          color: 'var(--gold)',
+                          opacity: 0.75,
+                        }}
+                      >
+                        {new Date(post.date).toLocaleDateString('fr-FR')}
+                        {post.author && <span style={{ marginLeft: '1rem' }}>{post.author}</span>}
+                      </div>
+
+                      <p
+                        style={{
+                          fontFamily: 'Jost, sans-serif',
+                          fontSize: '0.875rem',
+                          lineHeight: 1.6,
+                          color: 'var(--dark-muted)',
+                          flex: 1,
+                          display: '-webkit-box',
+                          WebkitLineClamp: 3,
+                          WebkitBoxOrient: 'vertical' as const,
+                          overflow: 'hidden',
+                        }}
+                      >
+                        {post.description}
+                      </p>
+
+                      <span
+                        style={{
+                          fontFamily: 'Jost, sans-serif',
+                          fontSize: '0.8125rem',
+                          fontWeight: 500,
+                          letterSpacing: '0.08em',
+                          textTransform: 'uppercase' as const,
+                          color: 'var(--gold)',
+                          marginTop: 'auto',
+                        }}
+                      >
+                        Lire l'article →
+                      </span>
                     </div>
-
-                    <p
-                      style={{
-                        fontFamily: 'Jost, sans-serif',
-                        fontSize: '1rem',
-                        lineHeight: 1.6,
-                        color: 'var(--dark-muted)',
-                        marginBottom: '1rem',
-                      }}
-                    >
-                      {post.description}
-                    </p>
-
-                    <button
-                      style={{
-                        fontFamily: 'Jost, sans-serif',
-                        fontSize: '0.875rem',
-                        fontWeight: 500,
-                        letterSpacing: '0.1em',
-                        textTransform: 'uppercase',
-                        color: 'var(--gold)',
-                        background: 'transparent',
-                        border: 'none',
-                        cursor: 'pointer',
-                        padding: 0,
-                        transition: 'opacity 0.3s ease',
-                      }}
-                      onMouseEnter={(e) => (e.currentTarget.style.opacity = '0.7')}
-                      onMouseLeave={(e) => (e.currentTarget.style.opacity = '1')}
-                    >
-                      Lire l'article →
-                    </button>
                   </div>
                 </motion.article>
               ))}
@@ -249,6 +275,28 @@ interface BlogDetailProps {
 }
 
 function BlogDetail({ post, onClose }: BlogDetailProps) {
+  // IntersectionObserver for .blog-figure, .blog-callout, .blog-stat-block animations
+  useEffect(() => {
+    const targets = document.querySelectorAll<HTMLElement>(
+      '.blog-figure, .blog-callout, .blog-stat-block'
+    )
+    if (!targets.length) return
+
+    const obs = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((e) => {
+          if (e.isIntersecting) {
+            e.target.classList.add('in-view')
+            obs.unobserve(e.target)
+          }
+        })
+      },
+      { threshold: 0.15 }
+    )
+    targets.forEach((el) => obs.observe(el))
+    return () => obs.disconnect()
+  }, [post])
+
   useEffect(() => {
     const prevTitle = document.title
     const sel = <T extends HTMLMetaElement>(attr: string, val: string) =>
@@ -396,6 +444,14 @@ function BlogDetail({ post, onClose }: BlogDetailProps) {
             </div>
           )}
         </div>
+
+        {post.image && (
+          <img
+            src={post.image}
+            alt={post.title}
+            className="blog-cover"
+          />
+        )}
 
         <div
           className="blog-content"

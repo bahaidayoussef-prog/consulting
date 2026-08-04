@@ -1,7 +1,8 @@
 ---
 title: "Reconversion Professionnelle en Logistique au Maroc : Guide Pratique 2026"
 date: "2026-07-25"
-author: "Essor Consulting"
+author: "Youssef BAHAIDA"
+image: "/images/office.jpg"
 keywords: "reconversion logistique maroc, changer de carrière supply chain, formation reconversion logistique, emploi logistique sans diplôme maroc, débuter logistique maroc"
 description: "Vous voulez vous reconvertir en logistique au Maroc ? Ce guide pratique vous explique comment réussir votre transition, les formations à suivre et les secteurs qui recrutent."
 ---
@@ -11,6 +12,10 @@ description: "Vous voulez vous reconvertir en logistique au Maroc ? Ce guide pra
 La logistique et la supply chain font partie des domaines qui recrutent le plus au Maroc, tous niveaux confondus. Cette réalité attire de nombreux professionnels venus d'autres horizons — commerce, administration, informatique, BTP — qui souhaitent se reconvertir vers un secteur en croissance avec de vraies perspectives.
 
 Ce guide vous aide à structurer votre reconversion de manière réaliste et efficace.
+
+![Bureau et management — reconversion professionnelle vers la logistique](/images/office.jpg)
+
+> **La logistique est l'un des rares secteurs où une reconversion à 35 ou 40 ans peut être aussi payante qu'un démarrage en carrière** — l'expérience terrain dans d'autres domaines (commerce, production, finance) est souvent un atout, pas un handicap.
 
 ---
 

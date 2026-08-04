@@ -1,7 +1,8 @@
 ﻿---
 title: "Conseil Digitalisation Supply Chain : WMS, TMS, ERP pour PME"
 date: "2026-06-21"
-author: "Essor Consulting"
+author: "Youssef BAHAIDA"
+image: "/images/analytics.jpg"
 keywords: "implémentation WMS, conseil ERP supply chain, TMS logistique, digitalisation PME, automatisation logistique"
 description: "Guide complet : comment choisir et implémenter WMS/TMS/ERP pour PME. 18 ans d'expérience, 12+ projets tech réussis. Timeline et budget réaliste."
 ---

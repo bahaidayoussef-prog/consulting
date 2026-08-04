@@ -1,7 +1,8 @@
 ﻿---
 title: "Case Study: PME Textile — 18% Sourcing Cost Reduction en 3 Mois"
 date: "2026-06-21"
-author: "Essor Consulting"
+author: "Youssef BAHAIDA"
+image: "/images/business.jpg"
 type: "case-study"
 keywords: "case study supply chain, sourcing optimization, cost reduction, textile Maroc"
 description: "PME textile 80 employés: stratégie sourcing → 18% coût réduit, stock optimisé, ROI 5 mois."
@@ -151,3 +152,4 @@ PME textile a transformé supply chain en 3 mois sans massive investment. Clé: 
 **Essor Consulting**  
 Expert Supply Chain & Transformation Digitale  
 18 ans expérience, 110+ missions réussies
+

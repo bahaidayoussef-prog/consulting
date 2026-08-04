@@ -1,7 +1,8 @@
 ---
 title: "Formation Logistique à Tanger et Kénitra : Hub Automobile et Port Med 2026"
 date: "2026-08-02"
-author: "Essor Consulting"
+author: "Youssef BAHAIDA"
+image: "/images/transport.jpg"
 keywords: "formation logistique tanger, supply chain tanger med, formation logistique kenitra, supply chain automobile maroc nord, formation jit tanger, logistique port tanger"
 description: "Formation supply chain et logistique pour les professionnels de Tanger, Tanger Med et Kénitra : secteur automobile, port, logistique industrielle JIT."
 ---
@@ -11,6 +12,10 @@ description: "Formation supply chain et logistique pour les professionnels de Ta
 Le nord du Maroc est devenu en 15 ans l'un des pôles industriels et logistiques les plus dynamiques d'Afrique. Tanger Med est le premier port d'Afrique et de la Méditerranée. Renault et Stellantis produisent ensemble plus de 600 000 véhicules par an dans la région. L'écosystème d'équipementiers qui gravite autour emploie des dizaines de milliers de personnes dont une part croissante en supply chain.
 
 Pour les professionnels logistiques de Tanger, Tanger Med, Kénitra et du Grand Nord, se former sur les standards de l'industrie automobile et portuaire est une nécessité.
+
+![Transport et logistique industrielle — hub automobile Tanger Kénitra](/images/transport.jpg)
+
+::stat:: 600 000 — véhicules produits annuellement dans la région Tanger-Kénitra (Renault + Stellantis)
 
 ---
 

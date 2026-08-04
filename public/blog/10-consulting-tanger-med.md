@@ -1,7 +1,8 @@
 ﻿---
 title: "Conseil Supply Chain Tanger Med — Expert Logistique Hub Port"
 date: "2026-06-21"
-author: "Essor Consulting"
+author: "Youssef BAHAIDA"
+image: "/images/transport.jpg"
 keywords: "consultant supply chain Tanger, conseil Tanger Med, logistique port Tanger, optimisation export Maroc"
 description: "Expert supply chain pour Tanger Med et zone franche. Focus export, ports, logistique internationale. Audit, formation, digitalisation."
 location: "Tanger, Tanger Med, Maroc"
@@ -51,3 +52,4 @@ Tanger, Maroc · Spécialisé Logistique Portuaire & Export
 ---
 
 **Essor Consulting**
+

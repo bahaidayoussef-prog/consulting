@@ -1,7 +1,8 @@
 ﻿---
 title: "Case Study: Oland Group — S&OP Implementation: Cash Cycle -12 Days, Stock -20%"
 date: "2026-06-21"
-author: "Essor Consulting"
+author: "Youssef BAHAIDA"
+image: "/images/charts.jpg"
 type: "case-study"
 keywords: "S&OP, demand planning, cash cycle, working capital"
 description: "Oland Group: S&OP process implemented → 2.1 MMAD cash freed, stock -20%, forecast accuracy +15pts."
@@ -134,3 +135,4 @@ Customer satisfaction: +15% NPS points
 ---
 
 **Essor Consulting** — S&OP & Integrated Planning Expertise
+

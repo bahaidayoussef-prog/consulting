@@ -1,7 +1,8 @@
 ﻿---
 title: "Case Study: Douja Promotion — 11% Saving Across 31 Chantiers (710 MMAD Volume)"
 date: "2026-06-21"
-author: "Essor Consulting"
+author: "Youssef BAHAIDA"
+image: "/images/construction.jpg"
 type: "case-study"
 keywords: "Douja, expansion, sourcing, procurement optimization"
 description: "Douja Promotion: 31 chantiers Maroc/Afrique → sourcing + logistique optimisée → 11% saving (78 MMAD), 3-month ROI."
@@ -37,3 +38,4 @@ description: "Douja Promotion: 31 chantiers Maroc/Afrique → sourcing + logisti
 ---
 
 **Essor Consulting** — Multi-Site Supply Chain Integration
+

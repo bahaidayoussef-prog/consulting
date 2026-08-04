@@ -1,7 +1,8 @@
 ﻿---
 title: "Conseil Supply Chain Fès/Meknès — Expert Logistique Centre Maroc"
 date: "2026-06-21"
-author: "Essor Consulting"
+author: "Youssef BAHAIDA"
+image: "/images/hero-supply-chain.jpg"
 keywords: "consultant supply chain Fès Meknès, audit logistique centre Maroc, optimisation supply chain régional"
 description: "Expert supply chain pour Fès, Meknès, région centre. Audit, formation, sourcing, logistique. Support PME/ME manufacturière."
 location: "Fès, Meknès, Maroc"
@@ -51,3 +52,4 @@ Fès/Meknès region, Maroc · 18 ans expérience
 ---
 
 **Essor Consulting**
+

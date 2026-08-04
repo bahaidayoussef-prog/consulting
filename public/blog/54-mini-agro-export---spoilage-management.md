@@ -1,7 +1,8 @@
 ﻿---
 title: "Agro-Export - Spoilage Management"
 date: "2026-06-21"
-author: "Essor Consulting"
+author: "Youssef BAHAIDA"
+image: "/images/agro.jpg"
 type: "mini-article"
 keywords: "agro, export"
 description: "Quick insight: Agro-Export - Spoilage Management. Basé sur 18 ans expertise et 110+ missions réussies."
@@ -29,3 +30,4 @@ Vous reconnaissez votre situation? Audit gratuit 2-3 jours.
 ---
 
 *18 ans d'expertise. 110+ missions. 0 commission.*
+

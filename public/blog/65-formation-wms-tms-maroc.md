@@ -1,7 +1,8 @@
 ---
 title: "Formation WMS et TMS au Maroc : Maîtriser les Outils Logistiques Digitaux 2026"
 date: "2026-07-28"
-author: "Essor Consulting"
+author: "Youssef BAHAIDA"
+image: "/images/analytics.jpg"
 keywords: "formation wms maroc, formation tms maroc, formation warehouse management system, formation sap wm maroc, logiciel logistique maroc formation"
 description: "Tout sur les formations WMS (Warehouse Management System) et TMS (Transport Management System) au Maroc : quels outils apprendre, pourquoi et comment se former."
 ---
@@ -11,6 +12,10 @@ description: "Tout sur les formations WMS (Warehouse Management System) et TMS (
 La digitalisation de la supply chain est en marche au Maroc. Les entreprises qui adoptaient encore Excel pour gérer leurs entrepôts en 2020 migrent progressivement vers des WMS. Les transporteurs qui géraient leurs tournées par téléphone déploient des TMS. Et avec cette vague de digitalisation arrive une pénurie criante de profils capables d'exploiter ces outils.
 
 Se former sur les WMS et TMS en 2026 est l'un des investissements les plus rentables qu'un professionnel supply chain peut faire au Maroc.
+
+![Digitalisation logistique — WMS, TMS et outils digitaux supply chain](/images/analytics.jpg)
+
+::stat:: +35% — gain moyen de productivité entrepôt après déploiement d'un WMS bien paramétré
 
 ---
 

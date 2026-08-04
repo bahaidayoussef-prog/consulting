@@ -1,7 +1,8 @@
 ---
 title: "Salaire Responsable Logistique au Maroc 2026 : Grilles, Écarts et Leviers"
 date: "2026-07-20"
-author: "Essor Consulting"
+author: "Youssef BAHAIDA"
+image: "/images/business.jpg"
 keywords: "salaire responsable logistique maroc, salaire supply chain manager maroc, rémunération logistique maroc, salaire chef d entrepôt maroc, logistique emploi maroc 2026"
 description: "Découvrez les salaires réels des Responsables Logistiques et Supply Chain Managers au Maroc en 2026, par secteur, niveau et ville. Basé sur 110+ missions terrain."
 ---
@@ -11,6 +12,8 @@ description: "Découvrez les salaires réels des Responsables Logistiques et Sup
 La question du salaire est souvent la première que posent les candidats à un poste de Responsable Logistique — et l'une des plus difficiles à renseigner avec précision. Les grilles officielles ne reflètent pas la réalité, et les plateformes d'emploi publient des fourchettes larges qui renseignent peu.
 
 Chez Essor Consulting, nous intervenons depuis plus de 20 ans dans les entreprises marocaines et européennes sur les fonctions supply chain. Voici ce que nous observons réellement sur le terrain.
+
+![Gestion et performance — enjeux salariaux supply chain au Maroc](/images/business.jpg)
 
 ---
 
@@ -94,11 +97,15 @@ La géographie joue aussi un rôle important :
 
 ---
 
+::stat:: 18 000 – 30 000 MAD — salaire brut mensuel d'un Responsable Supply Chain Senior au Maroc (7-15 ans)
+
+---
+
 ## Les 5 Leviers pour Augmenter Votre Salaire
 
 ### Levier 1 : La certification internationale
 
-Un professionnel certifié DDMRP, CPIM (APICS) ou Green Belt Lean Six Sigma négociera en moyenne **15 à 25% de plus** qu'un profil non certifié à expérience égale. Ces certifications signalent une compétence vérifiable et transferable.
+> **Un professionnel certifié DDMRP, CPIM (APICS) ou Green Belt Lean Six Sigma négociera en moyenne 15 à 25% de plus** qu'un profil non certifié à expérience égale. Ces certifications signalent une compétence vérifiable et transférable. Ces certifications signalent une compétence vérifiable et transferable.
 
 ### Levier 2 : La maîtrise d'un WMS avancé
 

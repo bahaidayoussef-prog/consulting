@@ -7,6 +7,7 @@ export interface BlogPost {
   keywords?: string
   htmlContent: string
   rawContent: string
+  image?: string
 }
 
 interface FrontMatter {
@@ -15,48 +16,40 @@ interface FrontMatter {
   author?: string
   description?: string
   keywords?: string
+  image?: string
 }
 
-/**
- * Parse markdown content with YAML front matter
- * Returns BlogPost object with parsed metadata and HTML content
- */
 export function parseMarkdown(content: string): BlogPost {
   const lines = content.split('\n')
   let frontMatterEnd = -1
   const frontMatter: FrontMatter = {}
 
-  // Parse YAML front matter
   if (lines[0]?.trim() === '---') {
     for (let i = 1; i < lines.length; i++) {
       if (lines[i]?.trim() === '---') {
         frontMatterEnd = i
         break
       }
-
       const line = lines[i] || ''
-      const [key, ...valueParts] = line.split(':')
-      if (key && valueParts.length > 0) {
-        const value = valueParts.join(':').trim().replace(/^["']|["']$/g, '')
-        const k = key.trim() as keyof FrontMatter
-        if (k === 'title' || k === 'date' || k === 'author' || k === 'description' || k === 'keywords') {
-          frontMatter[k] = value
+      const colonIdx = line.indexOf(':')
+      if (colonIdx !== -1) {
+        const key = line.slice(0, colonIdx).trim()
+        const value = line.slice(colonIdx + 1).trim().replace(/^["']|["']$/g, '')
+        if (key === 'title' || key === 'date' || key === 'author' || key === 'description' || key === 'keywords' || key === 'image') {
+          frontMatter[key as keyof FrontMatter] = value
         }
       }
     }
   }
 
-  // Extract markdown content (after front matter)
   const mdContent = lines.slice(frontMatterEnd + 1).join('\n').trim()
 
-  // Generate slug from title or filename
   const slug = (frontMatter.title || 'untitled')
     .toLowerCase()
     .replace(/[^\w\s-]/g, '')
     .replace(/\s+/g, '-')
     .substring(0, 60)
 
-  // Parse markdown to HTML
   const htmlContent = markdownToHtml(mdContent)
 
   return {
@@ -66,94 +59,238 @@ export function parseMarkdown(content: string): BlogPost {
     author: frontMatter.author,
     description: frontMatter.description,
     keywords: frontMatter.keywords,
+    image: frontMatter.image,
     htmlContent,
     rawContent: mdContent,
   }
 }
 
-/**
- * Convert markdown text to HTML
- * Supports: headings, bold, italic, lists, code blocks, paragraphs, links
- */
-function markdownToHtml(markdown: string): string {
-  let html = markdown
+// ── Inline formatting ─────────────────────────────────────────────────────────
 
-  // Code blocks (```...```)
-  html = html.replace(/```([\s\S]*?)```/g, (_, code) => {
-    const escapedCode = code.trim().replace(/</g, '&lt;').replace(/>/g, '&gt;')
-    return `<pre><code>${escapedCode}</code></pre>`
-  })
-
-  // Inline code (`...`)
-  html = html.replace(/`([^`]+)`/g, '<code>$1</code>')
-
-  // Headings (# ## ### etc)
-  html = html.replace(/^### (.*?)$/gm, '<h3>$1</h3>')
-  html = html.replace(/^## (.*?)$/gm, '<h2>$1</h2>')
-  html = html.replace(/^# (.*?)$/gm, '<h1>$1</h1>')
-
-  // Horizontal rules
-  html = html.replace(/^---+$/gm, '<hr/>')
-
+function applyInline(text: string): string {
+  // Inline code
+  text = text.replace(/`([^`]+)`/g, '<code class="blog-code">$1</code>')
+  // Bold + italic ***
+  text = text.replace(/\*\*\*([^*]+)\*\*\*/g, '<strong><em>$1</em></strong>')
+  // Bold **
+  text = text.replace(/\*\*([^*]+)\*\*/g, '<strong class="blog-strong">$1</strong>')
+  // Italic *
+  text = text.replace(/\*([^*\n]+)\*/g, '<em>$1</em>')
+  // Bold __ italic _
+  text = text.replace(/__([^_]+)__/g, '<strong class="blog-strong">$1</strong>')
+  text = text.replace(/_([^_\n]+)_/g, '<em>$1</em>')
   // Links [text](url)
-  html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>')
+  text = text.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a class="blog-link" href="$2">$1</a>')
+  // Images ![alt](url) → inline (will be caught by block parser first if on own line)
+  text = text.replace(/!\[([^\]]*)\]\(([^)]+)\)/g,
+    '<img class="blog-img" src="$2" alt="$1" loading="lazy" />')
+  return text
+}
 
-  // Bold **text**
-  html = html.replace(/\*\*([^\*]+)\*\*/g, '<strong>$1</strong>')
+// ── Table parser ──────────────────────────────────────────────────────────────
 
-  // Italic *text*
-  html = html.replace(/\*([^\*]+)\*/g, '<em>$1</em>')
+function parseTable(rows: string[]): string {
+  const cells = (row: string) =>
+    row.split('|').map(c => c.trim()).filter((_, i, a) => i > 0 && i < a.length - 1)
 
-  // Bold alternate __text__
-  html = html.replace(/__([^_]+)__/g, '<strong>$1</strong>')
+  const headerCells = cells(rows[0])
+  // rows[1] is the separator (---|---), rows[2+] are data
+  const dataRows = rows.slice(2)
 
-  // Italic alternate _text_
-  html = html.replace(/_([^_]+)_/g, '<em>$1</em>')
+  const thead = `<thead><tr>${headerCells.map(c =>
+    `<th class="blog-th">${applyInline(c)}</th>`).join('')}</tr></thead>`
 
-  // Unordered lists
-  html = html.replace(/^\* (.*?)$/gm, '<li>$1</li>')
-  html = html.replace(/^\- (.*?)$/gm, '<li>$1</li>')
-  html = html.replace(/(<li>.*?<\/li>)/s, (match) => {
-    return `<ul>${match}</ul>`
-  })
+  const tbody = `<tbody>${dataRows.map(row =>
+    `<tr>${cells(row).map(c =>
+      `<td class="blog-td">${applyInline(c)}</td>`).join('')}</tr>`
+  ).join('')}</tbody>`
 
-  // Numbered lists
-  html = html.replace(/^\d+\. (.*?)$/gm, '<li>$1</li>')
+  return `<div class="blog-table-wrap"><table class="blog-table">${thead}${tbody}</table></div>`
+}
 
-  // Paragraphs (split by double newlines)
-  const paragraphs = html.split(/\n\n+/)
-  html = paragraphs
-    .map((para) => {
-      para = para.trim()
-      if (!para) return ''
-      if (para.startsWith('<')) return para // Already a tag
-      return `<p>${para}</p>`
-    })
-    .join('\n')
+function isTableRow(line: string): boolean {
+  return line.trim().startsWith('|') && line.trim().endsWith('|')
+}
 
-  // Style tags with CSS classes
-  html = html
-    .replace(/<h1>/g, '<h1 style="font-size: 2rem; font-weight: 700; margin: 2rem 0 1rem; line-height: 1.2;">')
-    .replace(/<h2>/g, '<h2 style="font-size: 1.5rem; font-weight: 700; margin: 1.75rem 0 0.875rem; line-height: 1.2;">')
-    .replace(/<h3>/g, '<h3 style="font-size: 1.25rem; font-weight: 600; margin: 1.5rem 0 0.75rem; line-height: 1.2;">')
-    .replace(/<p>/g, '<p style="margin-bottom: 1rem; line-height: 1.8;">')
-    .replace(
-      /<ul>/g,
-      '<ul style="margin: 1rem 0; padding-left: 2rem; list-style-type: disc;">'
-    )
-    .replace(/<li>/g, '<li style="margin-bottom: 0.5rem;">')
-    .replace(/<strong>/g, '<strong style="font-weight: 700; color: var(--gold);">')
-    .replace(
-      /<code>/g,
-      '<code style="background: rgba(255,255,255,0.05); padding: 0.25rem 0.5rem; font-family: DM Mono, monospace; font-size: 0.9em; border-radius: 0; color: var(--gold);">'
-    )
-    .replace(
-      /<pre>/g,
-      '<pre style="background: rgba(0,0,0,0.3); padding: 1.5rem; overflow-x: auto; margin: 1.5rem 0; border-left: 3px solid var(--gold);">'
-    )
-    .replace(/<a href=/g, '<a href=')
-    .replace(/<a /g, '<a style="color: var(--gold); text-decoration: underline; cursor: pointer;" ')
-    .replace(/<hr\/>/g, '<hr style="border: none; border-top: 1px solid var(--dark-border); margin: 2rem 0;" />')
+function isSeparatorRow(line: string): boolean {
+  return /^\|[\s\-:|]+\|$/.test(line.trim())
+}
 
-  return html
+// ── Block-level parser ────────────────────────────────────────────────────────
+
+function markdownToHtml(markdown: string): string {
+  const rawLines = markdown.split('\n')
+  const output: string[] = []
+  let i = 0
+  let inList = false
+  let listTag = 'ul'
+
+  const flushList = () => {
+    if (inList) {
+      output.push(`</${listTag}>`)
+      inList = false
+    }
+  }
+
+  while (i < rawLines.length) {
+    const line = rawLines[i]
+    const trimmed = line.trim()
+
+    // ── Fenced code block
+    if (trimmed.startsWith('```')) {
+      flushList()
+      const lang = trimmed.slice(3).trim()
+      const codeLines: string[] = []
+      i++
+      while (i < rawLines.length && !rawLines[i].trim().startsWith('```')) {
+        codeLines.push(rawLines[i].replace(/</g, '&lt;').replace(/>/g, '&gt;'))
+        i++
+      }
+      output.push(`<pre class="blog-pre"><code class="blog-code-block${lang ? ` lang-${lang}` : ''}">${codeLines.join('\n')}</code></pre>`)
+      i++ // skip closing ```
+      continue
+    }
+
+    // ── Table (detect by first pipe row followed by separator row)
+    if (isTableRow(trimmed) && i + 1 < rawLines.length && isSeparatorRow(rawLines[i + 1].trim())) {
+      flushList()
+      const tableRows = [trimmed]
+      tableRows.push(rawLines[i + 1].trim())
+      i += 2
+      while (i < rawLines.length && isTableRow(rawLines[i].trim())) {
+        tableRows.push(rawLines[i].trim())
+        i++
+      }
+      output.push(parseTable(tableRows))
+      continue
+    }
+
+    // ── Horizontal rule
+    if (/^---+$/.test(trimmed) || /^\*\*\*+$/.test(trimmed)) {
+      flushList()
+      output.push('<hr class="blog-hr" />')
+      i++
+      continue
+    }
+
+    // ── Headings
+    const headingMatch = trimmed.match(/^(#{1,4})\s+(.+)/)
+    if (headingMatch) {
+      flushList()
+      const level = headingMatch[1].length
+      const text = applyInline(headingMatch[2])
+      const tag = `h${Math.min(level, 4)}`
+      const cls = `blog-h${Math.min(level, 4)}`
+      output.push(`<${tag} class="${cls}">${text}</${tag}>`)
+      i++
+      continue
+    }
+
+    // ── Image on its own line
+    const imgMatch = trimmed.match(/^!\[([^\]]*)\]\(([^)]+)\)$/)
+    if (imgMatch) {
+      flushList()
+      const [, alt, src] = imgMatch
+      output.push(
+        `<figure class="blog-figure">` +
+        `<img class="blog-img" src="${src}" alt="${alt}" loading="lazy" />` +
+        (alt ? `<figcaption class="blog-caption">${alt}</figcaption>` : '') +
+        `</figure>`
+      )
+      i++
+      continue
+    }
+
+    // ── Blockquote / callout
+    if (trimmed.startsWith('> ')) {
+      flushList()
+      const quoteLines: string[] = []
+      while (i < rawLines.length && rawLines[i].trim().startsWith('> ')) {
+        quoteLines.push(rawLines[i].trim().slice(2))
+        i++
+      }
+      const inner = quoteLines.map(l => applyInline(l)).join('<br/>')
+      output.push(`<blockquote class="blog-callout">${inner}</blockquote>`)
+      continue
+    }
+
+    // ── Callout stat block ::stat:: value — Title
+    const statMatch = trimmed.match(/^::stat::\s*(.+?)\s*—\s*(.+)$/)
+    if (statMatch) {
+      flushList()
+      output.push(
+        `<div class="blog-stat-block">` +
+        `<div class="blog-stat-value">${statMatch[1]}</div>` +
+        `<div class="blog-stat-label">${statMatch[2]}</div>` +
+        `</div>`
+      )
+      i++
+      continue
+    }
+
+    // ── Unordered list
+    if (/^[-*+] /.test(trimmed)) {
+      if (!inList || listTag !== 'ul') {
+        flushList()
+        output.push('<ul class="blog-ul">')
+        inList = true
+        listTag = 'ul'
+      }
+      output.push(`<li class="blog-li">${applyInline(trimmed.slice(2))}</li>`)
+      i++
+      continue
+    }
+
+    // ── Ordered list
+    if (/^\d+\.\s/.test(trimmed)) {
+      if (!inList || listTag !== 'ol') {
+        flushList()
+        output.push('<ol class="blog-ol">')
+        inList = true
+        listTag = 'ol'
+      }
+      output.push(`<li class="blog-li">${applyInline(trimmed.replace(/^\d+\.\s/, ''))}</li>`)
+      i++
+      continue
+    }
+
+    // ── Empty line
+    if (!trimmed) {
+      flushList()
+      i++
+      continue
+    }
+
+    // ── Raw HTML passthrough
+    if (trimmed.startsWith('<') && !trimmed.startsWith('<strong') && !trimmed.startsWith('<em')) {
+      flushList()
+      const htmlLines = [line]
+      // Collect multi-line HTML block
+      while (i + 1 < rawLines.length && rawLines[i + 1].trim() && !rawLines[i + 1].trim().match(/^#{1,4} /)) {
+        const next = rawLines[i + 1].trim()
+        if (next.startsWith('<') || htmlLines[htmlLines.length - 1].includes('</') === false) {
+          htmlLines.push(rawLines[i + 1])
+          i++
+        } else {
+          break
+        }
+      }
+      output.push(htmlLines.join('\n'))
+      i++
+      continue
+    }
+
+    // ── Paragraph
+    flushList()
+    const paraLines = [trimmed]
+    i++
+    while (i < rawLines.length && rawLines[i].trim() && !rawLines[i].trim().match(/^#{1,4} /) && !rawLines[i].trim().startsWith('- ') && !rawLines[i].trim().startsWith('* ') && !/^\d+\.\s/.test(rawLines[i].trim()) && !rawLines[i].trim().startsWith('>') && !rawLines[i].trim().startsWith('|') && !rawLines[i].trim().startsWith('```') && !rawLines[i].trim().startsWith('!')) {
+      paraLines.push(rawLines[i].trim())
+      i++
+    }
+    output.push(`<p class="blog-p">${applyInline(paraLines.join(' '))}</p>`)
+  }
+
+  flushList()
+  return output.join('\n')
 }

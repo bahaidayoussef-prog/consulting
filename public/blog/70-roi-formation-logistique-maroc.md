@@ -1,7 +1,8 @@
 ---
 title: "ROI d'une Formation Logistique au Maroc : Comment Calculer et Maximiser le Retour"
 date: "2026-08-01"
-author: "Essor Consulting"
+author: "Youssef BAHAIDA"
+image: "/images/analytics.jpg"
 keywords: "roi formation logistique, retour sur investissement formation supply chain, formation logistique rentable maroc, coût formation supply chain maroc"
 description: "Comment calculer et maximiser le retour sur investissement d'une formation logistique ou supply chain au Maroc ? Méthode, exemples chiffrés et conseils pratiques."
 ---
@@ -11,6 +12,8 @@ description: "Comment calculer et maximiser le retour sur investissement d'une f
 "Une formation, c'est coûteux." On entend souvent ça de la part des dirigeants de PME marocaines. Pourtant, la vraie question n'est pas combien coûte une formation, mais combien elle rapporte — et combien coûte l'absence de formation.
 
 Voici comment calculer objectivement le ROI d'une formation logistique ou supply chain.
+
+![Analyse de la performance logistique — calcul du retour sur investissement](/images/analytics.jpg)
 
 ---
 
@@ -35,7 +38,7 @@ Ce que peu de dirigeants calculent, c'est ce que leur coûte chaque jour un resp
 
 ## La Formule du ROI de Formation
 
-**ROI (%) = [(Gains financiers – Coût de la formation) / Coût de la formation] × 100**
+> **ROI (%) = [(Gains financiers – Coût de la formation) / Coût de la formation] × 100**
 
 ### Exemple 1 : Formation Gestion des Stocks (PME agroalimentaire Casablanca)
 
@@ -55,9 +58,10 @@ Ce que peu de dirigeants calculent, c'est ce que leur coûte chaque jour un resp
 - Réduction des ruptures de 8% à 3% : gain CA = 5% × 25 000 000 × 40% de marge = **500 000 MAD/an**
 - Réduction des transports urgents : **80 000 MAD/an**
 
+::stat:: 29 000% — ROI calculé pour une PME agroalimentaire Casablanca après formation Responsable Logistique
+
 **Gain total annuel estimé : 670 000 MAD**
 **Coût de la formation : 2 300 MAD**
-**ROI : 29 000% — ou encore : retour sur investissement en moins de 1,5 jour**
 
 ### Exemple 2 : Formation DDMRP (ETI industrielle, 3 planificateurs formés)
 

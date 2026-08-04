@@ -1,7 +1,8 @@
 ---
 title: "Formation Lean Supply Chain au Maroc : Éliminer les Gaspillages et Créer de la Valeur"
 date: "2026-08-02"
-author: "Essor Consulting"
+author: "Youssef BAHAIDA"
+image: "/images/hero-warehouse.jpg"
 keywords: "formation lean supply chain maroc, lean logistique maroc, lean six sigma maroc, formation lean manufacturing maroc, kaizen supply chain maroc"
 description: "Formation Lean Supply Chain au Maroc : principes lean appliqués à la logistique, outils VSM, 5S entrepôt, Kaizen et réduction des gaspillages. Essor Consulting."
 ---
@@ -11,6 +12,10 @@ description: "Formation Lean Supply Chain au Maroc : principes lean appliqués �
 Le Lean Management est né dans les usines Toyota au Japon dans les années 1950. Depuis, il s'est répandu dans l'industrie mondiale, la grande distribution, la santé, les services — et bien sûr la supply chain. Au Maroc, l'industrie automobile (Renault, Stellantis, leurs équipementiers) a importé ces pratiques. Mais elles restent encore largement inexploitées dans la grande majorité des entreprises marocaines.
 
 Pourtant, les résultats obtenus par les entreprises qui appliquent le Lean à leur supply chain sont régulièrement spectaculaires.
+
+![Lean supply chain — éliminer les gaspillages dans l'entrepôt au Maroc](/images/hero-warehouse.jpg)
+
+::stat:: +20% — gain moyen de productivité entrepôt après un chantier 5S bien conduit (3 mois)
 
 ---
 

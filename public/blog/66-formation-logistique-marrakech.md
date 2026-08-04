@@ -1,7 +1,8 @@
 ---
 title: "Formation Logistique à Marrakech : Opportunités et Programme 2026"
 date: "2026-07-30"
-author: "Essor Consulting"
+author: "Youssef BAHAIDA"
+image: "/images/hero-supply-chain.jpg"
 keywords: "formation logistique marrakech, supply chain marrakech, formation responsable logistique marrakech, cours logistique marrakech, emploi logistique marrakech"
 description: "Formation en logistique et supply chain pour les professionnels de Marrakech. Secteurs clés, débouchés locaux et programme de formation Essor Consulting."
 ---
@@ -11,6 +12,10 @@ description: "Formation en logistique et supply chain pour les professionnels de
 Marrakech est bien plus qu'une destination touristique. La ville ocre est aujourd'hui un pôle économique dynamique avec une industrie agroalimentaire active, un secteur BTP en expansion, une grande distribution en forte croissance et une économie touristique qui génère des besoins logistiques complexes et spécifiques.
 
 Pour les professionnels de la logistique à Marrakech, les opportunités sont réelles — mais les formations spécialisées locales restent rares. Ce guide fait le point.
+
+![Supply chain Marrakech — chaîne logistique tourisme, BTP et agroalimentaire](/images/hero-supply-chain.jpg)
+
+> **Essor Consulting se déplace à Marrakech pour des formations intra-entreprise.** Si votre équipe compte 3 professionnels ou plus, nous organisons une session sur site.
 
 ---
 

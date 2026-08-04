@@ -1,7 +1,8 @@
 ---
 title: "Certification DDMRP au Maroc : Tout Savoir pour Devenir Practitioner"
 date: "2026-07-22"
-author: "Essor Consulting"
+author: "Youssef BAHAIDA"
+image: "/images/charts.jpg"
 keywords: "certification ddmrp maroc, formation ddmrp casablanca, demand driven mrp maroc, ddmrp practitioner maroc, planification supply chain maroc"
 description: "Guide complet sur la certification DDMRP au Maroc : qu'est-ce que le Demand Driven MRP, comment se certifier, quels bénéfices pour votre entreprise."
 ---
@@ -11,6 +12,10 @@ description: "Guide complet sur la certification DDMRP au Maroc : qu'est-ce que 
 Le DDMRP (Demand Driven Material Requirements Planning) est la méthode de planification supply chain qui révolutionne les chaînes d'approvisionnement mondiales depuis 2011. Au Maroc, elle reste encore largement méconnue — pourtant, les entreprises qui l'ont adoptée rapportent des résultats spectaculaires : réduction des stocks de 20 à 45%, amélioration du taux de service de 8 à 20 points, simplification massive de la planification.
 
 Essor Consulting est l'un des rares cabinets certifiés DDMRP en Afrique francophone. Voici tout ce que vous devez savoir.
+
+![Planification supply chain avancée — DDMRP et buffers dynamiques](/images/charts.jpg)
+
+::stat:: −30% — réduction moyenne des stocks après déploiement DDMRP (benchmark Essor Consulting, 20+ déploiements)
 
 ---
 

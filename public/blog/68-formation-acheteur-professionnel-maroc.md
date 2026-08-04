@@ -1,7 +1,8 @@
 ---
 title: "Formation Acheteur Professionnel au Maroc : Compétences, Salaires et Débouchés 2026"
 date: "2026-07-26"
-author: "Essor Consulting"
+author: "Youssef BAHAIDA"
+image: "/images/business.jpg"
 keywords: "formation acheteur professionnel maroc, acheteur supply chain maroc, formation achats casablanca, certification acheteur maroc, responsable achats maroc"
 description: "Guide complet sur la formation Acheteur Professionnel au Maroc : compétences clés, certifications, salaires et comment progresser dans la fonction achats."
 ---
@@ -11,6 +12,10 @@ description: "Guide complet sur la formation Acheteur Professionnel au Maroc : c
 La fonction achats est l'une des plus stratégiques de l'entreprise — et l'une des plus sous-estimées. Au Maroc, avec plus de 710 millions de MAD d'achats pilotés dans les missions d'Essor Consulting, nous pouvons affirmer sans ambiguïté : **un bon acheteur crée plus de valeur qu'un bon commercial dans de nombreux secteurs**.
 
 Pourtant, la formation achats au Maroc reste embryonnaire et les profils vraiment compétents sont rares.
+
+![Négociation et stratégie achats — performance supply chain au Maroc](/images/business.jpg)
+
+::stat:: 710M MAD — d'achats pilotés dans les missions Essor Consulting au Maroc et en Afrique
 
 ---
 
