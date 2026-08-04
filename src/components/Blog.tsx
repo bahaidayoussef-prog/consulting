@@ -77,6 +77,7 @@ export default function Blog() {
           '71-formation-supply-chain-manager-maroc',
           '72-formation-lean-supply-chain-maroc',
           // Conseil · Audit · Entrepôt · WMS · Ingénierie
+          '79-schema-directeur-logistique-maroc',
           '83-implantation-nouvel-entrepot-maroc',
         ]
 
