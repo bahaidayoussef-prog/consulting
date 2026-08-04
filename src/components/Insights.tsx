@@ -303,6 +303,72 @@ export default function Insights() {
           </motion.a>
         </div>
 
+        {/* Featured YouTube video */}
+        <motion.div
+          initial={{ opacity: 0, y: 32 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: '-60px' }}
+          transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
+          style={{ marginBottom: '3.5rem' }}
+        >
+          <div style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: '1rem',
+            marginBottom: '1rem',
+          }}>
+            <span style={{
+              fontFamily: 'DM Mono, monospace',
+              fontSize: '0.55rem',
+              letterSpacing: '0.22em',
+              textTransform: 'uppercase',
+              color: 'rgba(192,154,47,0.55)',
+            }}>
+              Vidéo · Logistique Amazon
+            </span>
+            <span style={{
+              display: 'inline-block',
+              width: 6,
+              height: 6,
+              background: '#ff0000',
+              borderRadius: '50%',
+            }} />
+            <span style={{
+              fontFamily: 'DM Mono, monospace',
+              fontSize: '0.55rem',
+              letterSpacing: '0.18em',
+              textTransform: 'uppercase',
+              color: 'rgba(255,255,255,0.18)',
+            }}>
+              YouTube
+            </span>
+          </div>
+
+          <div style={{
+            position: 'relative',
+            width: '100%',
+            aspectRatio: '16 / 9',
+            border: '1px solid rgba(255,255,255,0.07)',
+            overflow: 'hidden',
+            background: '#000',
+          }}>
+            <iframe
+              src="https://www.youtube.com/embed/c924YrJYTho?rel=0&modestbranding=1&color=white"
+              title="Logistique Amazon — Supply Chain"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+              style={{
+                position: 'absolute',
+                inset: 0,
+                width: '100%',
+                height: '100%',
+                border: 'none',
+                display: 'block',
+              }}
+            />
+          </div>
+        </motion.div>
+
         {/* Articles grid */}
         <div
           className="insights-grid"
