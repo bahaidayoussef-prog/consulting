@@ -1,7 +1,7 @@
----
+﻿---
 title: "L'Alternance en Supply Chain au Maroc : La Voie Royale vers l'Emploi"
 date: "2026-08-05"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/formation.jpg"
 keywords: "alternance supply chain Maroc, contrat alternance logistique Maroc, apprentissage supply chain Maroc, formation alternance logistique"
 description: "L'alternance en supply chain au Maroc : comment ça fonctionne, les avantages, les entreprises qui proposent des contrats d'alternance, et comment décrocher une place."

@@ -1,7 +1,7 @@
----
+﻿---
 title: "Entretien Directeur Supply Chain au Maroc : Niveau C-Suite"
 date: "2026-08-05"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/business.jpg"
 keywords: "entretien directeur supply chain Maroc, recrutement DSC Maroc, poste directeur logistique entretien, DG supply chain Maroc entretien"
 description: "Comment se préparer à un entretien pour un poste de Directeur Supply Chain (DSC) au Maroc ? Ce que les DG et les boards évaluent à ce niveau de responsabilité."

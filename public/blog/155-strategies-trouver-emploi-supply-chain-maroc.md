@@ -1,7 +1,7 @@
----
+﻿---
 title: "15 Stratégies pour Trouver un Emploi Supply Chain au Maroc en 2026"
 date: "2026-08-05"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/hero-supply-chain.jpg"
 keywords: "trouver emploi supply chain Maroc stratégies, méthodes recherche emploi logistique Maroc, conseils chercheur emploi supply chain, stratégies candidature logistique Maroc"
 description: "15 stratégies concrètes pour trouver un emploi supply chain au Maroc en 2026 : des méthodes testées, classées par efficacité, pour trouver plus vite."

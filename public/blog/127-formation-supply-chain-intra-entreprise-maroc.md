@@ -1,7 +1,7 @@
----
+﻿---
 title: "Formation Supply Chain Intra-Entreprise au Maroc : Former Toute une Équipe"
 date: "2026-08-05"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/analytics.jpg"
 keywords: "formation intra-entreprise supply chain Maroc, formation sur mesure logistique Maroc, formation équipe supply chain, formation corporate logistique Maroc"
 description: "La formation supply chain intra-entreprise au Maroc : comment former toute une équipe sur vos processus réels, les avantages vs inter-entreprises et le coût par personne."

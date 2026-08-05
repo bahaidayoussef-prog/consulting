@@ -1,7 +1,7 @@
----
+﻿---
 title: "Schéma Directeur Logistique Agroalimentaire au Maroc : Méthode et Enjeux 2026"
 date: "2026-08-04"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/conseil.jpg"
 keywords: "logistique agroalimentaire maroc, schéma directeur agroalimentaire maroc, supply chain alimentaire maroc, chaîne du froid maroc, traçabilité agroalimentaire maroc"
 description: "Schéma directeur logistique pour l'industrie agroalimentaire marocaine : chaîne du froid, traçabilité ONSSA, saisonnalité et conformité export. Méthode et cas concrets 2026."

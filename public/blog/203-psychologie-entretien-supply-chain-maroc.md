@@ -1,7 +1,7 @@
----
+﻿---
 title: "La Psychologie de l'Entretien Supply Chain : Ce que le Recruteur Pense"
 date: "2026-08-05"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/conseil.jpg"
 keywords: "psychologie entretien supply chain Maroc, ce que pense recruteur logistique, biais recrutement supply chain, comment se faire voir recruteur SC Maroc"
 description: "Comprendre la psychologie du recruteur supply chain au Maroc : ses biais, ses critères réels de décision, et comment adapter votre comportement pour maximiser vos chances."

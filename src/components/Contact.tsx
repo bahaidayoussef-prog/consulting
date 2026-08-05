@@ -184,7 +184,7 @@ export default function Contact() {
                   <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
                     <FieldWrap label="Nom *" error={errors.nom}>
                       <input
-                        type="text" placeholder="Youssef Bahaida" value={form.nom}
+                        type="text" placeholder="Youssef" value={form.nom}
                         onChange={e => setForm(f => ({ ...f, nom: e.target.value }))}
                         onFocus={e => (e.target.style.borderColor = 'rgba(192,154,47,0.6)')}
                         onBlur={e => (e.target.style.borderColor = errors.nom ? 'rgba(220,60,60,0.6)' : 'rgba(255,255,255,0.1)')}

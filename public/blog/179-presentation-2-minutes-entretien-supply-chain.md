@@ -1,7 +1,7 @@
----
+﻿---
 title: "Se Présenter en 2 Minutes en Entretien Supply Chain : La Formule Parfaite"
 date: "2026-08-05"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/office.jpg"
 keywords: "se présenter entretien supply chain Maroc, pitch 2 minutes logistique entretien, présentation parcours supply chain entretien, parlez-moi de vous supply chain"
 description: "Comment réussir sa présentation de 2 minutes en entretien supply chain au Maroc ? Formule, exemples et erreurs à éviter pour un pitch percutant."

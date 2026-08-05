@@ -1,7 +1,7 @@
----
+﻿---
 title: "Formation Chef d'Entrepôt au Maroc : Compétences, Programme et Certifications 2026"
 date: "2026-08-04"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/hero-warehouse.jpg"
 keywords: "formation chef d'entrepôt maroc, formation responsable entrepôt maroc, formation logistique entrepôt casablanca, chef d'entrepôt compétences maroc, management entrepôt formation"
 description: "Formation chef d'entrepôt au Maroc : compétences clés, programme type, certifications reconnues et salaires. Guide complet pour les professionnels et les entreprises."

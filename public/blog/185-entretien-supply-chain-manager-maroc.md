@@ -1,7 +1,7 @@
----
+﻿---
 title: "Entretien pour un Poste de Supply Chain Manager au Maroc : Ce qu'on Attend"
 date: "2026-08-05"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/business.jpg"
 keywords: "entretien supply chain manager Maroc, recrutement SCM Maroc, poste supply chain manager entretien, responsable supply chain entretien Maroc"
 description: "Ce que les recruteurs attendent d'un candidat Supply Chain Manager au Maroc lors de l'entretien : compétences, posture, questions types et erreurs à éviter."

@@ -1,7 +1,7 @@
----
+﻿---
 title: "Passer un Entretien en Anglais Supply Chain au Maroc : Guide Pratique"
 date: "2026-08-05"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/business.jpg"
 keywords: "entretien anglais supply chain Maroc, interview supply chain English Morocco, entretien logistique anglais Maroc, préparer entretien anglais SC"
 description: "Comment réussir un entretien supply chain en anglais au Maroc ? Vocabulaire SC en anglais, réponses types aux questions classiques, et comment gérer le stress de la langue."

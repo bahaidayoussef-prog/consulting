@@ -1,7 +1,7 @@
----
+﻿---
 title: "Les 15 Erreurs à Éviter en Entretien Supply Chain au Maroc"
 date: "2026-08-05"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/conseil.jpg"
 keywords: "erreurs entretien supply chain Maroc, pièges entretien logistique, fautes entretien supply chain, ce qu'il ne faut pas faire entretien supply chain"
 description: "Les 15 erreurs les plus fréquentes en entretien supply chain au Maroc, observées par des recruteurs, avec les correctifs pour les éviter."

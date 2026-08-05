@@ -1,7 +1,7 @@
----
+﻿---
 title: "Réussir l'Entretien Technique Supply Chain au Maroc"
 date: "2026-08-05"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/hero-supply-chain.jpg"
 keywords: "entretien technique supply chain Maroc, test technique logistique Maroc, cas pratique supply chain entretien, épreuve technique supply chain"
 description: "Comment réussir l'entretien technique supply chain au Maroc ? Tests Excel, cas pratiques, questions techniques — ce que les recruteurs testent et comment s'y préparer."

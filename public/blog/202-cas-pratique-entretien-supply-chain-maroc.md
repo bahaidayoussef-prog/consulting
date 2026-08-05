@@ -1,7 +1,7 @@
----
+﻿---
 title: "Réussir un Cas Pratique en Entretien Supply Chain au Maroc"
 date: "2026-08-05"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/conseil.jpg"
 keywords: "cas pratique entretien supply chain Maroc, étude de cas logistique entretien, exercice supply chain entretien, résoudre cas SC entretien Maroc"
 description: "Comment aborder et résoudre un cas pratique supply chain lors d'un entretien au Maroc ? Méthode, exemple complet résolu et erreurs à éviter."

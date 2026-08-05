@@ -1,7 +1,7 @@
----
+﻿---
 title: "Formation Logistique à Agadir : Supply Chain Export et Région Souss-Massa 2026"
 date: "2026-08-01"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/transport.jpg"
 keywords: "formation logistique agadir, supply chain agadir, formation responsable logistique agadir, export logistique souss massa, formation transport agadir"
 description: "Formation logistique et supply chain pour les professionnels d'Agadir et de la région Souss-Massa : export, pêche, agrumes, BTP. Essor Consulting."

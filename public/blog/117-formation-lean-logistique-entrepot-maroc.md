@@ -1,7 +1,7 @@
----
+﻿---
 title: "Formation Lean Logistique au Maroc : 5S, Kaizen et VSM en Entrepôt"
 date: "2026-08-05"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/hero-warehouse.jpg"
 keywords: "formation lean logistique Maroc, 5S entrepôt Maroc, Kaizen supply chain Maroc, VSM formation Maroc, lean management logistique"
 description: "Formation Lean Logistique au Maroc : 5S, Kaizen, VSM et réduction des gaspillages en entrepôt. Programme pratique, résultats concrets et certification."

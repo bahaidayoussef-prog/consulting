@@ -1,7 +1,7 @@
----
+﻿---
 title: "Gérer le Stress de l'Entretien Supply Chain : Techniques Pratiques"
 date: "2026-08-05"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/office.jpg"
 keywords: "gérer stress entretien supply chain Maroc, stress entretien logistique, anxiété entretien emploi, techniques anti-stress entretien"
 description: "Comment gérer le stress avant et pendant un entretien supply chain au Maroc ? Techniques concrètes pour être calme, confiant et performant le jour J."

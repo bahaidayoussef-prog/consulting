@@ -1,7 +1,7 @@
 ﻿---
 title: "Conseil Supply Chain Marrakech/Agadir — Expert Logistique Sud Maroc"
 date: "2026-06-21"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/agro.jpg"
 keywords: "consultant supply chain Marrakech, conseil logistique Agadir, audit supply chain sud Maroc"
 description: "Expert supply chain pour Marrakech, Agadir, région sud. Tourisme, commerce, agriculture. Audit, formation, logistique."

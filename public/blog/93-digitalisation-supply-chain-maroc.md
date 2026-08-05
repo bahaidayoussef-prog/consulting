@@ -1,7 +1,7 @@
----
+﻿---
 title: "Digitalisation de la Supply Chain au Maroc : IoT, IA et Outils Concrets 2026"
 date: "2026-08-04"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/analytics.jpg"
 keywords: "digitalisation supply chain maroc, transformation digitale logistique maroc, iot logistique maroc, intelligence artificielle supply chain maroc, erp logistique maroc"
 description: "Digitalisation de la supply chain au Maroc : ERP, WMS, TMS, IoT, IA — quels outils pour quels enjeux, comment prioriser et éviter les pièges. Guide opérationnel 2026."

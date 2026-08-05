@@ -1,7 +1,7 @@
----
+﻿---
 title: "ROI d'une Formation Logistique au Maroc : Comment Calculer et Maximiser le Retour"
 date: "2026-08-01"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/analytics.jpg"
 keywords: "roi formation logistique, retour sur investissement formation supply chain, formation logistique rentable maroc, coût formation supply chain maroc"
 description: "Comment calculer et maximiser le retour sur investissement d'une formation logistique ou supply chain au Maroc ? Méthode, exemples chiffrés et conseils pratiques."

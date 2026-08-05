@@ -1,7 +1,7 @@
----
+﻿---
 title: "Certification APICS CPIM au Maroc : Valeur, Préparation et Coût"
 date: "2026-08-05"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/analytics.jpg"
 keywords: "certification APICS Maroc, CPIM Maroc, CSCP Maroc, certification supply chain internationale Maroc, APICS formation Maroc"
 description: "La certification APICS CPIM ou CSCP vaut-elle le coût au Maroc ? Valeur sur le marché, comment se préparer et combien ça coûte vraiment. Guide 2026."

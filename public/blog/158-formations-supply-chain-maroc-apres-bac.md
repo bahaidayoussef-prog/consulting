@@ -1,7 +1,7 @@
----
+﻿---
 title: "Formations Supply Chain au Maroc après le Bac : Quel Parcours Choisir"
 date: "2026-08-05"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/formation.jpg"
 keywords: "formation supply chain Maroc après bac, études logistique Maroc, diplôme supply chain Maroc, école logistique Maroc bac"
 description: "Quelles formations supply chain choisir après le bac au Maroc ? Comparatif des parcours Bac+2 à Bac+5 : écoles, programmes, débouchés et conseils d'orientation."

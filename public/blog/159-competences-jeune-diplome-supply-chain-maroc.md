@@ -1,7 +1,7 @@
----
+﻿---
 title: "Les Compétences que les Recruteurs Cherchent Chez les Jeunes Diplômés Supply Chain"
 date: "2026-08-05"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/hero-supply-chain.jpg"
 keywords: "compétences jeune diplômé supply chain Maroc, soft skills logistique Maroc, hard skills supply chain junior, qualités recrutées supply chain Maroc"
 description: "Quelles compétences cherchent les recruteurs chez les jeunes diplômés supply chain au Maroc ? Hard skills, soft skills, et ce qui fait vraiment la différence."

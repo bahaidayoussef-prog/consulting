@@ -1,7 +1,7 @@
 ﻿---
 title: "Case Study: PME Textile — 18% Sourcing Cost Reduction en 3 Mois"
 date: "2026-06-21"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/business.jpg"
 type: "case-study"
 keywords: "case study supply chain, sourcing optimization, cost reduction, textile Maroc"

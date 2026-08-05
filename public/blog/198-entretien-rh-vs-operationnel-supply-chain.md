@@ -1,7 +1,7 @@
----
+﻿---
 title: "Entretien RH vs Entretien Opérationnel en Supply Chain : Deux Formats Différents"
 date: "2026-08-05"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/conseil.jpg"
 keywords: "entretien RH supply chain Maroc, entretien opérationnel logistique Maroc, différence entretien RH métier supply chain, recrutement supply chain étapes Maroc"
 description: "Comment adapter votre préparation à l'entretien RH vs l'entretien avec le manager opérationnel en supply chain au Maroc ? Deux formats distincts, deux approches."

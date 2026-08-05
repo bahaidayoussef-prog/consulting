@@ -1,7 +1,7 @@
 ﻿---
 title: "Case Study: Bosch Maroc — 8% Saving via Formation Sourcing Stratégique"
 date: "2026-06-21"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/construction.jpg"
 type: "case-study"
 keywords: "Bosch, formation procurement, saving achats, ROI formation"

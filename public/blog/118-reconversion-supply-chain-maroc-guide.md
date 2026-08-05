@@ -1,7 +1,7 @@
----
+﻿---
 title: "Reconversion vers la Supply Chain au Maroc : Le Guide Complet 2026"
 date: "2026-08-05"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/office.jpg"
 keywords: "reconversion supply chain Maroc, changer de métier logistique Maroc, reconversion professionnelle logistique, devenir logisticien reconversion"
 description: "Reconversion vers la supply chain au Maroc : comment passer d'un autre domaine à la logistique, quelles compétences valoriser, par où commencer. Guide 2026."

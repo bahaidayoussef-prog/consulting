@@ -1,7 +1,7 @@
----
+﻿---
 title: "Les Meilleures Questions à Poser en Entretien Supply Chain"
 date: "2026-08-05"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/conseil.jpg"
 keywords: "questions poser entretien supply chain Maroc, questions candidat entretien logistique, bonne question entretien supply chain, se démarquer entretien supply chain"
 description: "Quelles questions poser à la fin d'un entretien supply chain pour se démarquer, montrer sa valeur, et décider si le poste vous convient vraiment."

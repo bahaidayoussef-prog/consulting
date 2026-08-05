@@ -1,7 +1,7 @@
----
+﻿---
 title: "Certifications Supply Chain pour Jeunes Professionnels au Maroc"
 date: "2026-08-05"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/formation.jpg"
 keywords: "certification supply chain jeune professionnel Maroc, APICS jeune Maroc, certification logistique débutant Maroc, certifier supply chain Maroc"
 description: "Quelles certifications supply chain obtenir en début de carrière au Maroc ? APICS, Lean, DDMRP — guide pour choisir et préparer sa première certification."

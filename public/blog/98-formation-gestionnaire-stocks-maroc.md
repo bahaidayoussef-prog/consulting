@@ -1,7 +1,7 @@
----
+﻿---
 title: "Formation Gestionnaire de Stocks au Maroc : Métier, Compétences et Programme 2026"
 date: "2026-08-04"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/analytics.jpg"
 keywords: "formation gestionnaire de stocks maroc, gestionnaire stocks compétences maroc, formation approvisionnement maroc, gestion des stocks avancée maroc, DDMRP formation maroc"
 description: "Formation gestionnaire de stocks au Maroc : compétences clés, programme avancé, outils DDMRP et MRP, salaires et évolutions de carrière. Par Essor Consulting."

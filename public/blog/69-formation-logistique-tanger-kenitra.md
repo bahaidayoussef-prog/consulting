@@ -1,7 +1,7 @@
----
+﻿---
 title: "Formation Logistique à Tanger et Kénitra : Hub Automobile et Port Med 2026"
 date: "2026-08-02"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/transport.jpg"
 keywords: "formation logistique tanger, supply chain tanger med, formation logistique kenitra, supply chain automobile maroc nord, formation jit tanger, logistique port tanger"
 description: "Formation supply chain et logistique pour les professionnels de Tanger, Tanger Med et Kénitra : secteur automobile, port, logistique industrielle JIT."

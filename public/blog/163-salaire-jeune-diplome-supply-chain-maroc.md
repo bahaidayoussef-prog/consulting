@@ -1,7 +1,7 @@
----
+﻿---
 title: "Salaires des Jeunes Diplômés Supply Chain au Maroc en 2026"
 date: "2026-08-05"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/business.jpg"
 keywords: "salaire jeune diplômé supply chain Maroc, salaire débutant logistique Maroc, rémunération junior supply chain Maroc 2026, combien gagne logisticien débutant Maroc"
 description: "Quels salaires pour les jeunes diplômés supply chain au Maroc en 2026 ? Fourchettes par niveau d'études, secteur, ville, avec conseils pour maximiser sa rémunération."

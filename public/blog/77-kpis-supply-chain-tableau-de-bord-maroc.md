@@ -1,7 +1,7 @@
----
+﻿---
 title: "KPIs Supply Chain au Maroc : Tableau de Bord et Indicateurs de Performance 2026"
 date: "2026-08-04"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/analytics.jpg"
 keywords: "KPIs supply chain maroc, tableau de bord logistique maroc, indicateurs performance supply chain maroc, pilotage supply chain maroc, métriques logistiques maroc"
 description: "Les KPIs supply chain essentiels pour les entreprises marocaines : OTIF, rotation stocks, coût logistique, productivité entrepôt. Comment construire votre tableau de bord opérationnel."

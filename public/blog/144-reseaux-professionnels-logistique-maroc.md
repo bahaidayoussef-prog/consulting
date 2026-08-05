@@ -1,7 +1,7 @@
----
+﻿---
 title: "Réseaux Professionnels Logistique au Maroc : Comment les Utiliser"
 date: "2026-08-05"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/office.jpg"
 keywords: "réseau professionnel logistique Maroc, networking supply chain Maroc, AMLOG, associations logistique Maroc, réseau logisticien Maroc"
 description: "Les réseaux professionnels supply chain au Maroc : quelles associations rejoindre, comment utiliser LinkedIn, et comment construire un réseau qui ouvre des opportunités."

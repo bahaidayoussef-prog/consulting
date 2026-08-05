@@ -1,7 +1,7 @@
----
+﻿---
 title: "La Méthode STAR pour les Entretiens Supply Chain au Maroc"
 date: "2026-08-05"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/conseil.jpg"
 keywords: "méthode STAR entretien supply chain Maroc, STAR logistique entretien, raconter expérience entretien supply chain, exemples STAR supply chain"
 description: "La méthode STAR appliquée aux entretiens supply chain au Maroc : comment structurer vos réponses pour convaincre, avec des exemples concrets du secteur logistique."

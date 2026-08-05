@@ -1,7 +1,7 @@
----
+﻿---
 title: "Le Portfolio Professionnel du Logisticien : Montrez ce que Vous Avez Fait"
 date: "2026-08-05"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/formation.jpg"
 keywords: "portfolio professionnel supply chain Maroc, dossier réalisations logisticien, preuves compétences supply chain, démontrer compétences logistique"
 description: "Comment construire un portfolio professionnel supply chain au Maroc ? Quelles preuves de compétences rassembler et comment les présenter en entretien."

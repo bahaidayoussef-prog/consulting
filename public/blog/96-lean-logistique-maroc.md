@@ -1,7 +1,7 @@
----
+﻿---
 title: "Lean Logistique au Maroc : Méthodes, Outils et Résultats Terrain 2026"
 date: "2026-08-04"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/hero-warehouse.jpg"
 keywords: "lean logistique maroc, amélioration continue entrepôt maroc, lean supply chain maroc, 5S entrepôt maroc, kaizen logistique maroc"
 description: "Lean logistique au Maroc : 5S, VSM, Kaizen appliqués à l'entrepôt et à la supply chain. Méthodes concrètes et résultats chiffrés issus de 20+ ans de terrain au Maroc."

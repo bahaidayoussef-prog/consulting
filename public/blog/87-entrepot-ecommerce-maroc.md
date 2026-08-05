@@ -1,7 +1,7 @@
----
+﻿---
 title: "Entrepôt E-Commerce au Maroc : Fulfillment, Last Mile et Organisation 2026"
 date: "2026-08-04"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/hero-warehouse.jpg"
 keywords: "entrepôt e-commerce maroc, logistique e-commerce maroc, fulfillment maroc, last mile e-commerce maroc, préparation commandes e-commerce maroc"
 description: "Logistique e-commerce au Maroc 2026 : organisation du fulfillment, spécificités de l'entrepôt e-commerce, last mile livraison et retours. Guide opérationnel pour les marchands marocains."

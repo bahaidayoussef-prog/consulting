@@ -1,7 +1,7 @@
----
+﻿---
 title: "Programme de Formation Supply Chain Management pour Cadres au Maroc 2026"
 date: "2026-08-04"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/conseil.jpg"
 keywords: "formation supply chain management cadres maroc, programme supply chain manager maroc, formation directeur supply chain maroc, certification supply chain maroc, executive supply chain formation"
 description: "Programme de formation supply chain management pour cadres et managers au Maroc : compétences stratégiques, S&OP, pilotage par les données, certifications APICS. Par Essor Consulting."

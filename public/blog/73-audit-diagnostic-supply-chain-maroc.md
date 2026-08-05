@@ -1,7 +1,7 @@
----
+﻿---
 title: "Audit Supply Chain au Maroc : Diagnostiquer et Transformer en 2026"
 date: "2026-08-04"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/conseil.jpg"
 keywords: "audit supply chain maroc, diagnostic logistique maroc, bilan supply chain pme, analyse chaîne approvisionnement maroc, consultant audit logistique casablanca"
 description: "Comment diagnostiquer votre supply chain au Maroc : méthodologie d'audit en 3 phases, 10 signaux d'alarme, coûts réels et ROI. Basé sur 110+ missions Essor Consulting."

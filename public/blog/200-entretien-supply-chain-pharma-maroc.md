@@ -1,7 +1,7 @@
----
+﻿---
 title: "Entretien Supply Chain dans le Secteur Pharmaceutique au Maroc"
 date: "2026-08-05"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/business.jpg"
 keywords: "entretien supply chain pharmaceutique Maroc, recrutement logistique pharma Maroc, supply chain santé Maroc entretien, questions SC pharma"
 description: "Comment réussir un entretien supply chain dans l'industrie pharmaceutique au Maroc ? Les normes BPF, la traçabilité, et ce que les recruteurs évaluent dans ce secteur réglementé."

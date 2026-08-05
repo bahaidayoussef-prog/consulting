@@ -1,7 +1,7 @@
----
+﻿---
 title: "Formation WMS et TMS au Maroc : Maîtriser les Outils Logistiques Digitaux 2026"
 date: "2026-07-28"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/analytics.jpg"
 keywords: "formation wms maroc, formation tms maroc, formation warehouse management system, formation sap wm maroc, logiciel logistique maroc formation"
 description: "Tout sur les formations WMS (Warehouse Management System) et TMS (Transport Management System) au Maroc : quels outils apprendre, pourquoi et comment se former."

@@ -1,7 +1,7 @@
 ﻿---
 title: "Logistique Pharma - Compliance First"
 date: "2026-06-21"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/pharma.jpg"
 type: "mini-article"
 keywords: "pharma, compliance"

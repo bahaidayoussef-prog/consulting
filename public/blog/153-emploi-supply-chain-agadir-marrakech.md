@@ -1,7 +1,7 @@
----
+﻿---
 title: "Emploi Supply Chain à Agadir et Marrakech : Opportunités et Spécificités"
 date: "2026-08-05"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/hero-supply-chain.jpg"
 keywords: "emploi supply chain Agadir, emploi logistique Agadir, travail supply chain Marrakech, emploi logistique Marrakech, offres emploi logistique sud Maroc"
 description: "Emploi supply chain à Agadir et Marrakech en 2026 : les secteurs qui recrutent, les entreprises, les salaires, et comment décrocher un poste dans le sud du Maroc."

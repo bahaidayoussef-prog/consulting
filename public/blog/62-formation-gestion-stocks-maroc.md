@@ -1,7 +1,7 @@
----
+﻿---
 title: "Formation Gestion des Stocks au Maroc : Méthodes, Outils et Certifications 2026"
 date: "2026-07-18"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/analytics.jpg"
 keywords: "formation gestion des stocks maroc, gestion des stocks casablanca, formation approvisionnement maroc, optimisation stocks pme maroc, formation supply chain stocks"
 description: "Guide complet sur les formations en gestion des stocks au Maroc : méthodes ABC, DDMRP, WMS, calcul de stock de sécurité. Pour PME et ETI marocaines."

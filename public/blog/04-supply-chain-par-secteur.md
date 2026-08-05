@@ -1,7 +1,7 @@
 ﻿---
 title: "Supply Chain Optimisée par Secteur : Textile, Agro, Industrie"
 date: "2026-06-21"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/hero-supply-chain.jpg"
 keywords: "supply chain textile Maroc, logistique agroalimentaire, supply chain industrielle, optimisation secteur"
 description: "Chaque secteur a des enjeux différents. Textile ≠ Agro ≠ Industrie. Guide par secteur avec cas réels et solutions."

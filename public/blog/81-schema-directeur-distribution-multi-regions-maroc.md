@@ -1,7 +1,7 @@
----
+﻿---
 title: "Schéma Directeur Distribution Multi-Régions au Maroc : Stratégie et Mise en Œuvre 2026"
 date: "2026-08-04"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/charts.jpg"
 keywords: "schéma directeur distribution maroc, stratégie distribution multi-régionale maroc, réseau distribution régional maroc, expansion logistique maroc, couverture nationale distribution maroc"
 description: "Construire une stratégie de distribution multi-régionale au Maroc : modèles de réseau, décision hub vs dépôt, politique de stock et plan d'expansion. Méthode et cas réels."

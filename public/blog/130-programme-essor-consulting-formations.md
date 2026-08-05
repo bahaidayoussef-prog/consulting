@@ -1,9 +1,9 @@
----
+﻿---
 title: "Programmes de Formation Essor Consulting : Catalogue Complet 2026"
 date: "2026-08-05"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/conseil.jpg"
-keywords: "formation Essor Consulting Maroc, catalogue formation supply chain Maroc, programme formation logistique Essor, formation Youssef BAHAIDA"
+keywords: "formation Essor Consulting Maroc, catalogue formation supply chain Maroc, programme formation logistique Essor, formation Youssef"
 description: "Catalogue complet des formations Essor Consulting au Maroc : supply chain, achats, entrepôt, planification, DDMRP. Programmes inter et intra-entreprises, certification incluse."
 ---
 
@@ -61,12 +61,12 @@ Essor Consulting propose des formations supply chain conçues par des praticiens
 |--------|-------------|-----------|
 | Inter-entreprises | Sessions planifiées, groupes de 6-12 participants | Networking, planning fixe |
 | Intra-entreprise | Formation chez vous, sur vos processus | Contenu adapté, coût partagé |
-| Coaching individuel | Sessions 1-1 avec Youssef BAHAIDA | Ultra-personnalisé |
+| Coaching individuel | Sessions 1-1 avec Youssef | Ultra-personnalisé |
 | Hybride | E-learning + présentiel | Flexibilité + pratique |
 
 ## Nos Engagements
 
-**1. Formateur praticien :** Youssef BAHAIDA, 20 ans de missions terrain, 110+ clients, certifié DDMRP.
+**1. Formateur praticien :** Youssef, 20 ans de missions terrain, 110+ clients, certifié DDMRP.
 
 **2. Contenu basé sur des cas réels marocains :** Renault, DHL, OCP, L'Oréal, Nestlé — pas des exemples fictifs.
 

@@ -1,7 +1,7 @@
----
+﻿---
 title: "Formation Directeur Supply Chain au Maroc : Du Manager au Leader"
 date: "2026-08-05"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/conseil.jpg"
 keywords: "formation directeur supply chain Maroc, directeur supply chain formation, DSC Maroc formation, leadership supply chain Maroc"
 description: "Formation Directeur Supply Chain au Maroc : comment passer du management opérationnel au leadership stratégique. Compétences, programme et coaching senior."

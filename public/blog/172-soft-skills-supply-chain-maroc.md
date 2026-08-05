@@ -1,7 +1,7 @@
----
+﻿---
 title: "Les Soft Skills Indispensables en Supply Chain au Maroc"
 date: "2026-08-05"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/conseil.jpg"
 keywords: "soft skills supply chain Maroc, compétences relationnelles logistique, qualités supply chain Maroc, intelligence émotionnelle logisticien"
 description: "Quels soft skills développer en supply chain au Maroc pour progresser rapidement ? Les compétences humaines qui font la différence dans les équipes et les recrutements."

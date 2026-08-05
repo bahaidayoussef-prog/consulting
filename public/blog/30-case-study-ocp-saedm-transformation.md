@@ -1,7 +1,7 @@
 ﻿---
 title: "Case Study: OCP Group SAEDM — Gouvernance Transformation & Digitalization"
 date: "2026-06-21"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/charts.jpg"
 type: "case-study"
 keywords: "OCP, governance, digitalization, transformation"

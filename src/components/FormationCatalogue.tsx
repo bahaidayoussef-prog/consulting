@@ -721,7 +721,7 @@ export default function FormationCatalogue() {
           <div style={{ display: 'grid', gridTemplateColumns: '400px 1fr', gap: '8rem', alignItems: 'start' }}>
             <Reveal delay={0.05} style={{ position: 'relative' }}>
               <div style={{ aspectRatio: '3/4', overflow: 'hidden', position: 'relative', background: '#0a1420' }}>
-                <img src="/images/conseil.jpg" alt="Youssef BAHAIDA — Essor Consulting" style={{ width: '100%', height: '100%', objectFit: 'cover', filter: 'grayscale(15%)', display: 'block' }} />
+                <img src="/images/conseil.jpg" alt="Youssef — Essor Consulting" style={{ width: '100%', height: '100%', objectFit: 'cover', filter: 'grayscale(15%)', display: 'block' }} />
                 <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(10,20,32,0.4) 0%, transparent 60%)' }} />
               </div>
               <div style={{ position: 'absolute', bottom: '-2rem', right: '-2rem', background: 'var(--gold)', padding: '1.75rem 2.25rem' }}>
@@ -732,7 +732,7 @@ export default function FormationCatalogue() {
 
             <Reveal delay={0.1}>
               <h2 style={{ fontFamily: 'Bodoni Moda, serif', fontSize: 'clamp(2rem, 4vw, 4.5rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', color: '#0a1420', margin: '0 0 0.5rem' }}>
-                Youssef BAHAIDA
+                Youssef
               </h2>
               <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.12em', textTransform: 'uppercase', color: 'var(--gold)', marginBottom: '2rem' }}>
                 Fondateur, Essor Consulting

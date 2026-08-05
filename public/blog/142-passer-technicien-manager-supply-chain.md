@@ -1,7 +1,7 @@
----
+﻿---
 title: "Passer de Technicien à Manager Supply Chain : La Transition Clé"
 date: "2026-08-05"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/formation.jpg"
 keywords: "passer technicien manager supply chain Maroc, promotion manager logistique, devenir responsable supply chain, transition management logistique"
 description: "Comment passer de technicien à manager supply chain au Maroc ? Les compétences à développer, les pièges à éviter, et la stratégie pour réussir cette transition critique."

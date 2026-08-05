@@ -1,7 +1,7 @@
----
+﻿---
 title: "Schéma Directeur Logistique au Maroc : Méthode et Livrables 2026"
 date: "2026-08-04"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/charts.jpg"
 keywords: "schéma directeur logistique maroc, plan directeur supply chain, conception réseau logistique maroc, transformation logistique maroc, stratégie supply chain maroc"
 description: "Qu'est-ce qu'un Schéma Directeur Logistique, quand en lancer un, quelle méthode, quels livrables et quel budget ? Guide complet par Essor Consulting — 110+ missions."

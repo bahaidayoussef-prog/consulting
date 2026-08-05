@@ -1,7 +1,7 @@
----
+﻿---
 title: "Supply Chain E-commerce au Maroc : Les 7 Défis à Résoudre en 2026"
 date: "2026-08-05"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/entrepot.jpg"
 keywords: "supply chain e-commerce Maroc, logistique e-commerce Maroc, last mile Maroc, fulfillment Maroc, entrepôt e-commerce Maroc"
 description: "La supply chain e-commerce au Maroc a ses règles propres. Les 7 défis critiques des marchands en ligne marocains — et les solutions concrètes pour chacun."

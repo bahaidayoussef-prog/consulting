@@ -1,7 +1,7 @@
----
+﻿---
 title: "Trouver un Mentor Supply Chain au Maroc : Pourquoi et Comment"
 date: "2026-08-05"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/conseil.jpg"
 keywords: "mentor supply chain Maroc, mentorat logistique Maroc, trouver mentor supply chain, coaching supply chain jeune professionnel"
 description: "Pourquoi avoir un mentor supply chain au Maroc peut accélérer votre carrière, et comment trouver la bonne personne pour vous guider."

@@ -1,7 +1,7 @@
----
+﻿---
 title: "ROI d'une Formation Supply Chain : Comment le Calculer et le Justifier"
 date: "2026-08-05"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/analytics.jpg"
 keywords: "ROI formation supply chain, retour sur investissement formation logistique, justifier budget formation supply chain, valeur formation logistique"
 description: "Comment calculer le ROI d'une formation supply chain et le justifier à sa direction ? Méthode, exemples chiffrés et modèle de présentation pour convaincre en 5 minutes."

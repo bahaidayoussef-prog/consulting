@@ -1,7 +1,7 @@
----
+﻿---
 title: "Entretien Responsable d'Entrepôt au Maroc : Ce que les Recruteurs Évaluent"
 date: "2026-08-05"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/transport.jpg"
 keywords: "entretien responsable entrepôt Maroc, recrutement chef entrepôt Maroc, poste gestionnaire entrepôt entretien, questions entretien logistique entrepôt"
 description: "Comment réussir l'entretien pour un poste de responsable d'entrepôt au Maroc ? Les compétences évaluées, les questions types et les mises en situation opérationnelles."

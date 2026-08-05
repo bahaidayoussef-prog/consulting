@@ -1,7 +1,7 @@
----
+﻿---
 title: "Logistique Inverse au Maroc : Gérer les Retours sans Perdre de l'Argent"
 date: "2026-08-05"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/hero-warehouse.jpg"
 keywords: "logistique inverse Maroc, gestion retours logistique, reverse logistics Maroc, retours e-commerce Maroc, supply chain retours"
 description: "La logistique inverse coûte 2 à 4 fois plus cher que la logistique directe. Comment les entreprises marocaines structurent leurs retours pour limiter les pertes en 2026."

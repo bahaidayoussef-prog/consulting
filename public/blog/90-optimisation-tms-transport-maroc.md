@@ -1,7 +1,7 @@
----
+﻿---
 title: "TMS au Maroc : Optimiser le Transport avec un Logiciel de Gestion 2026"
 date: "2026-08-04"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/analytics.jpg"
 keywords: "TMS maroc, logiciel gestion transport maroc, optimisation transport maroc, transport management system maroc, réduction coûts transport maroc"
 description: "Comment un TMS réduit vos coûts de transport au Maroc : fonctionnalités, sélection, budget et ROI. Retours terrain de 12+ projets transport au Maroc et Afrique."

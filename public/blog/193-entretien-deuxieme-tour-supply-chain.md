@@ -1,7 +1,7 @@
----
+﻿---
 title: "Le Deuxième Tour d'Entretien Supply Chain : Comment le Préparer"
 date: "2026-08-05"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/conseil.jpg"
 keywords: "deuxième entretien supply chain Maroc, second tour recrutement logistique, entretien final supply chain Maroc, deuxième round supply chain"
 description: "Comment se préparer pour le deuxième tour d'un entretien supply chain au Maroc ? Ce qui change, ce qu'on attend de plus, et comment aborder ce tour décisif."

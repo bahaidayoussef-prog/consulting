@@ -1,7 +1,7 @@
----
+﻿---
 title: "Jeune Diplômé Supply Chain : Décrocher son Premier Emploi au Maroc"
 date: "2026-08-05"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/formation.jpg"
 keywords: "jeune diplômé supply chain Maroc premier emploi, premier travail logistique Maroc, emploi débutant supply chain Maroc, stage supply chain Maroc"
 description: "Guide complet pour les jeunes diplômés supply chain au Maroc : comment décrocher son premier emploi, les erreurs à éviter, et les meilleures stratégies pour démarrer sa carrière."

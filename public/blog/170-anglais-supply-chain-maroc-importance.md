@@ -1,7 +1,7 @@
----
+﻿---
 title: "L'Anglais en Supply Chain au Maroc : Pourquoi c'est Critique et Comment Progresser"
 date: "2026-08-05"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/office.jpg"
 keywords: "anglais supply chain Maroc, apprendre anglais logistique Maroc, anglais professionnel supply chain, améliorer anglais logisticien Maroc"
 description: "L'anglais est-il vraiment nécessaire en supply chain au Maroc ? Oui, de plus en plus. Voici pourquoi, dans quels contextes, et comment progresser efficacement."

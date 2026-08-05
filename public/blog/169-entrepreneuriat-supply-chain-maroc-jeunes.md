@@ -1,7 +1,7 @@
----
+﻿---
 title: "Entrepreneuriat en Supply Chain au Maroc : Opportunités pour les Jeunes"
 date: "2026-08-05"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/conseil.jpg"
 keywords: "entrepreneuriat supply chain Maroc jeunes, créer entreprise logistique Maroc, startup logistique Maroc, auto-entrepreneur logistique Maroc"
 description: "Les opportunités entrepreneuriales en supply chain au Maroc pour les jeunes : idées de business, conditions de succès, et comment se lancer après un début de carrière."

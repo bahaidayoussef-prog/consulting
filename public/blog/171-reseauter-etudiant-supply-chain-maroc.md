@@ -1,7 +1,7 @@
----
+﻿---
 title: "Réseauter Quand on est Étudiant Supply Chain au Maroc : Le Guide"
 date: "2026-08-05"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/office.jpg"
 keywords: "réseauter étudiant supply chain Maroc, réseau professionnel étudiant logistique, networking supply chain étudiant Maroc, contacts professionnels supply chain Maroc"
 description: "Comment construire son réseau professionnel supply chain quand on est encore étudiant au Maroc ? Actions concrètes pour sortir de l'école avec un réseau utile."

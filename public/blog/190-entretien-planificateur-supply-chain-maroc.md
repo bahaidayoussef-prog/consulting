@@ -1,7 +1,7 @@
----
+﻿---
 title: "Entretien Planificateur Supply Chain au Maroc : Questions et Réponses"
 date: "2026-08-05"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/hero-supply-chain.jpg"
 keywords: "entretien planificateur supply chain Maroc, recrutement demand planner Maroc, poste planification SC entretien, questions planificateur logistique"
 description: "Comment réussir l'entretien pour un poste de planificateur supply chain au Maroc ? Questions techniques spécifiques, cas pratiques de planification et ce que les recruteurs évaluent."

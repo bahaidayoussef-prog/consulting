@@ -1,7 +1,7 @@
----
+﻿---
 title: "Emploi Supply Chain à Rabat et la Région : Guide 2026"
 date: "2026-08-05"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/business.jpg"
 keywords: "emploi supply chain Rabat, emploi logistique Rabat-Salé, travail supply chain Rabat 2026, offres emploi logistique Rabat"
 description: "Trouver un emploi en supply chain à Rabat et dans la région Rabat-Salé-Kénitra en 2026 : secteurs, entreprises, salaires et stratégie de candidature."

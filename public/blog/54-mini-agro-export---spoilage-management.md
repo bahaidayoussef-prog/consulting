@@ -1,7 +1,7 @@
 ﻿---
 title: "Agro-Export - Spoilage Management"
 date: "2026-06-21"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/agro.jpg"
 type: "mini-article"
 keywords: "agro, export"

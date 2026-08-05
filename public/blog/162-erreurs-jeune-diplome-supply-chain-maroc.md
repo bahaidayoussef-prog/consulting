@@ -1,7 +1,7 @@
----
+﻿---
 title: "10 Erreurs des Jeunes Diplômés Supply Chain au Maroc (et Comment les Éviter)"
 date: "2026-08-05"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/conseil.jpg"
 keywords: "erreurs jeune diplômé supply chain Maroc, pièges premiers emploi logistique, mistakes junior supply chain Maroc, conseils débutant supply chain"
 description: "Les 10 erreurs les plus courantes des jeunes diplômés supply chain au Maroc, observées sur le terrain, avec les solutions concrètes pour les éviter."

@@ -1,7 +1,7 @@
----
+﻿---
 title: "Comment Devenir Responsable Logistique au Maroc : Le Guide Complet 2026"
 date: "2026-07-20"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/hero-warehouse.jpg"
 keywords: "devenir responsable logistique maroc, responsable logistique maroc, chef logistique maroc, carrière logistique maroc, formation responsable logistique"
 description: "Parcours, compétences, formations et salaires : tout ce qu'il faut savoir pour devenir Responsable Logistique au Maroc en 2026, par un expert avec 20 ans de terrain."

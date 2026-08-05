@@ -1,7 +1,7 @@
----
+﻿---
 title: "Évolution de Carrière en Supply Chain au Maroc : Plan sur 10 Ans"
 date: "2026-08-05"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/business.jpg"
 keywords: "évolution carrière supply chain Maroc, progression carrière logistique, plan carrière supply chain Maroc, promotion supply chain Maroc"
 description: "Comment évoluer en supply chain au Maroc : les étapes de carrière, les compétences à développer à chaque niveau, et le plan sur 10 ans pour devenir directeur."

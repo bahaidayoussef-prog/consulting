@@ -1,7 +1,7 @@
----
+﻿---
 title: "Automatisation d'Entrepôt au Maroc : Solutions, Coûts et ROI 2026"
 date: "2026-08-04"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/hero-warehouse.jpg"
 keywords: "automatisation entrepôt maroc, robotisation logistique maroc, AGV maroc, entrepôt automatisé maroc, convoyeur entrepôt maroc"
 description: "Automatisation d'entrepôt au Maroc en 2026 : convoyeurs, AGV, tri automatique, cobots. Quand investir, quel ROI, et quelles solutions sont accessibles aux PME et ETI marocaines."

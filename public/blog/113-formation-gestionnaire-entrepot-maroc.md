@@ -1,7 +1,7 @@
----
+﻿---
 title: "Formation Gestionnaire d'Entrepôt au Maroc : Programme et Certification"
 date: "2026-08-05"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/hero-warehouse.jpg"
 keywords: "formation gestionnaire entrepôt Maroc, formation chef entrepôt, formation magasinier Maroc, certification entrepôt logistique Maroc"
 description: "Formation gestionnaire d'entrepôt au Maroc : compétences, programme, certification et évolution vers chef d'entrepôt. Guide pratique 2026."

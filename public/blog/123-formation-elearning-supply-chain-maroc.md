@@ -1,7 +1,7 @@
----
+﻿---
 title: "Formation E-learning Supply Chain au Maroc : Apprendre à Son Rythme"
 date: "2026-08-05"
-author: "Youssef BAHAIDA"
+author: "Youssef"
 image: "/images/office.jpg"
 keywords: "formation en ligne supply chain Maroc, e-learning logistique Maroc, formation à distance supply chain, MOOC supply chain Maroc"
 description: "Formations e-learning supply chain disponibles au Maroc : MOOC gratuits, plateformes payantes, certifications en ligne. Que valent-elles vraiment ?"
