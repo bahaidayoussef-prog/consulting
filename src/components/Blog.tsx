@@ -614,7 +614,7 @@ function BlogDetail({ post, onClose }: BlogDetailProps) {
             <span style={{ opacity: 0.4 }}>·</span>
             <span style={{ display: 'flex', alignItems: 'center', gap: '0.35rem' }}>
               <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-              {readingTime(post.content)} min de lecture
+              {readingTime(post.rawContent)} min de lecture
             </span>
           </div>
 
