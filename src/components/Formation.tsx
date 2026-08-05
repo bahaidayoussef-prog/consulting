@@ -1,42 +1,62 @@
 import { useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
+import { Link } from 'react-router-dom'
 
 const formations = [
   {
     num: '01',
-    type: 'Intra-entreprise',
-    title: 'Supply Chain Fondamentaux',
-    desc: "Destiné aux équipes opérationnelles et managers non spécialistes. Flux, stocks, transport, achats, KPIs essentiels. Cas pratiques tirés de votre secteur. Format 1 à 2 jours en présentiel.",
-    duration: '1 à 2 jours',
-    audience: 'Équipes opérationnelles',
-    price: '15 000 – 22 000',
+    type: 'Programme phare · Inter-entreprises',
+    title: 'Devenir Responsable Logistique',
+    desc: "Journée intensive pour structurer votre pilotage logistique. Fondamentaux, stocks, transport, KPIs, WMS/TMS/ERP. Hôtel 5★ Casablanca, tout inclus.",
+    duration: '1 jour',
+    audience: 'Coordinateur — Responsable logistique',
+    price: '1 500',
+    unit: 'MAD TTC / participant',
+    cta: 'Voir le programme →',
   },
   {
     num: '02',
-    type: 'Intra-entreprise',
-    title: 'S&OP & Planification Avancée',
-    desc: "Pour les équipes planification, supply chain et commerce. Méthodologie S&OP classique et introduction au DDMRP. Cas pratiques tirés de votre entreprise si disponibles.",
+    type: 'Intra-entreprise · Lean',
+    title: 'Lean Management & 5S',
+    desc: "Éliminer les gaspillages, structurer les espaces, installer le management visuel. 5S, VSM, Kaizen — un premier chantier terrain construit en salle.",
     duration: '2 jours',
-    audience: 'Équipes planification',
-    price: '22 000 – 32 000',
+    audience: 'Responsables production — Chefs de ligne',
+    price: '18 000 – 28 000',
+    unit: 'MAD HT / groupe',
+    cta: 'Demander un devis →',
   },
   {
     num: '03',
-    type: 'Atelier dirigeants',
-    title: 'Supply Chain pour Décideurs',
-    desc: "Séminaire d'une journée pour CODIR, DG, DAF. Comprendre les enjeux SC sans maîtriser le technique. Arbitrer un projet WMS/TMS/APS. Lire un business case. Poser les bonnes questions.",
-    duration: '1 jour',
-    audience: 'CODIR — DG — DAF',
-    price: '12 000 – 18 000',
+    type: 'Intra-entreprise · Management',
+    title: 'Manager ses Équipes Opérationnelles',
+    desc: "Développer sa posture de manager, fixer des objectifs SMART, déléguer, donner du feedback. Cas pratiques sur mesure adaptés à votre secteur.",
+    duration: '2 jours',
+    audience: 'Managers nouvellement nommés',
+    price: '18 000 – 28 000',
+    unit: 'MAD HT / groupe',
+    cta: 'Demander un devis →',
   },
   {
     num: '04',
-    type: 'Coaching individuel',
-    title: 'Montée en compétence DSC',
-    desc: "Pour les Directeurs Supply Chain ou Responsables Logistique souhaitant structurer leurs pratiques. Sessions mensuelles individualisées — revue de vos KPIs, organisation et projets en cours.",
-    duration: 'Sessions mensuelles',
-    audience: 'DSC — Responsable Logistique',
-    price: '8 000',
+    type: 'Intra-entreprise · Finance',
+    title: 'Lire et Analyser les Chiffres Clés',
+    desc: "Lire un bilan, un compte de résultat, un flux de trésorerie. Comprendre marges et EBITDA. Décrypter un budget et défendre ses ressources.",
+    duration: '2 jours',
+    audience: 'Managers non financiers',
+    price: '18 000 – 28 000',
+    unit: 'MAD HT / groupe',
+    cta: 'Demander un devis →',
+  },
+  {
+    num: '05',
+    type: 'Inter-entreprises · Projet',
+    title: 'Chef de Projet Opérationnel',
+    desc: "Piloter un projet de bout en bout : cadrage, planning, risques, équipe. Gantt, chemin critique, reporting — la boîte à outils du chef de projet.",
+    duration: '2 jours',
+    audience: 'Chefs de projet débutants',
+    price: '3 500',
+    unit: 'MAD TTC / participant',
+    cta: 'Voir le programme →',
   },
 ]
 
@@ -216,12 +236,11 @@ function StickyCard({
             textAlign: 'right',
             marginBottom: '1.75rem',
           }}>
-            MAD HT
-            {item.num === '04' ? ' / session' : ' / session intra'}
+            {item.unit}
           </div>
 
-          <a
-            href="#contact"
+          <Link
+            to="/formation"
             style={{
               fontFamily: 'DM Mono, monospace',
               fontSize: '0.68rem',
@@ -246,8 +265,8 @@ function StickyCard({
               el.style.color = 'var(--dark-text)'
             }}
           >
-            Demander un devis →
-          </a>
+            {item.cta}
+          </Link>
         </div>
       </motion.div>
     </div>
@@ -303,17 +322,28 @@ export default function Formation() {
               </span>
             </h2>
 
-            <p style={{
-              fontSize: '1rem',
-              color: 'var(--dark-muted)',
-              lineHeight: 1.8,
-              fontWeight: 300,
-              maxWidth: 440,
-              margin: 0,
-            }}>
-              Une pédagogie ancrée dans la réalité terrain, pas dans les manuels.
-              Des formations conçues par des praticiens, pour des praticiens.
-            </p>
+            <div>
+              <p style={{
+                fontSize: '1rem',
+                color: 'var(--dark-muted)',
+                lineHeight: 1.8,
+                fontWeight: 300,
+                maxWidth: 440,
+                margin: '0 0 1.25rem',
+              }}>
+                Une pédagogie ancrée dans la réalité terrain, pas dans les manuels.
+                Des formations conçues par des praticiens, pour des praticiens.
+              </p>
+              <div style={{
+                fontFamily: 'DM Mono, monospace',
+                fontSize: '0.6rem',
+                letterSpacing: '0.14em',
+                textTransform: 'uppercase',
+                color: 'rgba(192,154,47,0.6)',
+              }}>
+                19 programmes · 5 domaines — Supply Chain, Lean, Management, Finance, Projet
+              </div>
+            </div>
 
             {/* FormationPromo reel — phone frame */}
             <div style={{
@@ -361,6 +391,31 @@ export default function Formation() {
           {formations.map((item, i) => (
             <StickyCard key={item.num} item={item} index={i} total={formations.length} />
           ))}
+        </div>
+
+        {/* Closing CTA — full catalogue */}
+        <div style={{ display: 'flex', justifyContent: 'center', paddingTop: '4rem' }}>
+          <Link
+            to="/formation"
+            style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '0.5rem',
+              padding: '1.1rem 2.75rem',
+              background: 'var(--gold)',
+              color: '#0a1420',
+              fontFamily: 'Jost, sans-serif',
+              fontSize: '0.9rem',
+              fontWeight: 700,
+              textDecoration: 'none',
+              letterSpacing: '0.04em',
+              transition: 'background 0.2s',
+            }}
+            onMouseEnter={e => ((e.currentTarget as HTMLElement).style.background = '#a8841f')}
+            onMouseLeave={e => ((e.currentTarget as HTMLElement).style.background = 'var(--gold)')}
+          >
+            Voir les 19 programmes →
+          </Link>
         </div>
       </div>
 
