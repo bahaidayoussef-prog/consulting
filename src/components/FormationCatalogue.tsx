@@ -2,6 +2,7 @@ import { useRef, useState } from 'react'
 import { motion, useInView, AnimatePresence } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import SchemaScript from './SchemaHelper'
+import PageMeta from './PageMeta'
 
 /* ─── Brand constants ─────────────────────────────────────── */
 const WA = `https://wa.me/212663449200?text=${encodeURIComponent('Bonjour Essor Consulting, je souhaite des informations sur vos formations. Pouvez-vous me recontacter ?')}`
@@ -927,6 +928,11 @@ export default function FormationCatalogue() {
 
   return (
     <>
+      <PageMeta
+        title="Formations Supply Chain, Lean, Management, Finance & Projet — Essor Consulting"
+        description="19 programmes de formation sur 5 domaines : Supply Chain, Lean, Management, Finance, Gestion de Projet. Inter et intra-entreprise. Catalogue et calendrier 2026."
+        canonical="https://nextinotech.com/formation"
+      />
       <SchemaScript schema={programmesSchema} />
       {/* ══ HERO ══════════════════════════════════════════════ */}
       <section style={{ background: 'var(--dark)', padding: '8rem 4rem 0', overflow: 'hidden' }}>
