@@ -25,11 +25,11 @@
 4. **Schéma Logistique & Greenfield** — Conception réseau, entrepôts, flux
 5. **AMOA & Déploiement SI** — WMS, TMS, APS, e-Procurement, Control Tower
 6. **Direction SC à Temps Partagé** — Mandat DSC pour PME (50-200 pers.) et ETI (200-800 pers.)
-7. **Formation Supply Chain** — Catalogue de 19 programmes sur 5 domaines, inter et intra-entreprise (détail ci-dessous)
+7. **Formation Supply Chain** — Catalogue de 22 programmes sur 6 domaines, inter et intra-entreprise (détail ci-dessous)
 
 ---
 
-## Catalogue Formations — 19 Programmes, 5 Domaines
+## Catalogue Formations — 22 Programmes, 6 Domaines
 
 **Page catalogue :** https://nextinotech.com/formation — filtrable par domaine, calendrier de sessions 2026 inclus.
 
@@ -61,6 +61,11 @@
 17. **Chef de Projet Opérationnel** — 2 jours, inter-entreprise, 3 500 MAD TTC/participant, Casablanca
 18. **Gestion de Projet Agile — Scrum & Kanban** — 2 jours, intra-entreprise, 18 000–28 000 MAD HT/groupe
 19. **AMOA — Conduire un Projet SI** — 2 jours, intra-entreprise, 22 000–32 000 MAD HT/groupe
+
+### Carrière & Bien-être (3 programmes)
+20. **Développement de Carrière en Supply Chain** — 1 jour, inter-entreprise, 2 500 MAD TTC/participant, Casablanca
+21. **Techniques de Négociation Achats & Supply Chain** — 2 jours, intra-entreprise, 18 000–28 000 MAD HT/groupe
+22. **Prévenir le Burnout & Gérer son Énergie** — 1 jour, intra-entreprise, 12 000–18 000 MAD HT/groupe
 
 Toutes les formations incluent un support de formation et une attestation Essor Consulting ; les programmes inter-entreprises phares incluent un suivi WhatsApp de 30 jours post-formation.
 

@@ -74,7 +74,7 @@ Pour 8 personnes formées simultanément, le coût par personne d'une intra-entr
 
 Essor Consulting réalise des formations sur mesure pour les équipes supply chain marocaines. Chaque programme est conçu après une phase de cadrage pour coller à vos réalités terrain.
 
-👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 19 programmes, 5 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
 **Contactez-nous** pour une proposition personnalisée :
 📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200

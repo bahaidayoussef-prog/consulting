@@ -531,12 +531,95 @@ const PROGRAMMES = [
     cta: EMAIL,
     color: '#1b3554',
   },
+
+  /* ── Carrière & Bien-être ──────────────────────────────── */
+  {
+    id: 'developpement-carriere',
+    num: '20',
+    domaine: 'carriere',
+    format: 'inter',
+    badge: 'Carrière & Bien-être',
+    title: 'Développement de Carrière en Supply Chain',
+    subtitle: 'Construire une trajectoire professionnelle claire en logistique, achats et supply chain.',
+    duration: '1 jour',
+    hours: '8h en présentiel',
+    group: '8 à 16 participants',
+    price: '2 500',
+    unit: 'MAD TTC / participant',
+    lieu: 'Casablanca',
+    public: ['Techniciens en évolution', 'Jeunes cadres SC / Achats / Logistique', 'Managers en transition', 'Professionnels en reconversion'],
+    modules: [
+      'Cartographie des métiers et trajectoires en Supply Chain, Achats et Logistique',
+      'Auto-diagnostic de compétences et identification des écarts',
+      'Construire son plan de développement à 3 et 5 ans',
+      'Certifications qui font la différence (DDMRP, APICS, Lean...)',
+      'Valoriser son parcours : CV, LinkedIn, entretien interne',
+      'Atelier individuel : formaliser son propre plan de carrière',
+    ],
+    inclus: ["Grille d'auto-diagnostic", 'Plan de carrière personnalisé', 'Support de formation', 'Attestation'],
+    cta: WA,
+    color: 'var(--gold)',
+  },
+  {
+    id: 'negociation-achats',
+    num: '21',
+    domaine: 'carriere',
+    format: 'intra',
+    badge: 'Carrière & Bien-être',
+    title: 'Techniques de Négociation Achats & Supply Chain',
+    subtitle: 'Préparer, mener et conclure une négociation fournisseur en position de force.',
+    duration: '2 jours',
+    hours: '2 × 8h en présentiel',
+    group: 'Sur mesure',
+    price: '18 000 – 28 000',
+    unit: 'MAD HT / groupe',
+    lieu: 'Vos locaux ou hôtel',
+    public: ['Acheteurs', 'Responsables achats', 'Supply chain managers', 'Chefs de produit négociant avec fournisseurs'],
+    modules: [
+      'Préparer une négociation : rapport de force, BATNA, objectifs',
+      'Les leviers au-delà du prix (délais, qualité, exclusivité)',
+      'Techniques de négociation : ancrage, concessions, silence stratégique',
+      'Négocier avec un fournisseur en position dominante',
+      'Gérer les tactiques déloyales et sortir des blocages',
+      'Mises en situation filmées et débriefées sur cas réels',
+    ],
+    inclus: ['Grille de préparation de négociation', 'Mises en situation filmées', 'Support de formation', 'Attestation'],
+    cta: EMAIL,
+    color: '#1b3554',
+  },
+  {
+    id: 'prevenir-burnout',
+    num: '22',
+    domaine: 'carriere',
+    format: 'intra',
+    badge: 'Carrière & Bien-être',
+    title: 'Prévenir le Burnout & Gérer son Énergie',
+    subtitle: "Reconnaître les signaux d'épuisement et installer des pratiques durables sous pression opérationnelle.",
+    duration: '1 jour',
+    hours: '8h en présentiel',
+    group: 'Sur mesure',
+    price: '12 000 – 18 000',
+    unit: 'MAD HT / groupe',
+    lieu: 'Vos locaux ou hôtel',
+    public: ['Managers et cadres opérationnels', 'Responsables SC, logistique, achats', 'Équipes sous forte pression (pics, astreintes)', 'RH accompagnant des équipes à risque'],
+    modules: [
+      'Comprendre le burnout : signaux faibles, phases, facteurs de risque',
+      "Le stress en environnement opérationnel : astreintes, pics d'activité, flux tendus",
+      "Auto-diagnostic : où en est-on sur la charge et l'énergie ?",
+      "Techniques de gestion de l'énergie et de récupération active",
+      'Poser des limites et déléguer sans culpabilité',
+      "Construire un plan d'action individuel et un relais managérial",
+    ],
+    inclus: ['Auto-diagnostic individuel', "Plan d'action personnalisé", 'Support de formation', 'Attestation'],
+    cta: EMAIL,
+    color: '#1b3554',
+  },
 ]
 
 /* ─── Data — FAQ ────────────────────────────────────────────── */
 const FAQ = [
   {
-    q: 'Comment choisir le bon programme parmi les 19 ?',
+    q: 'Comment choisir le bon programme parmi les 22 ?',
     a: "Selon votre objectif : une compétence terrain immédiate (formations inter, 1 à 2 jours, ex. Responsable Logistique, DDMRP), une montée en compétence d'équipe sur mesure (intra-entreprise adapté à votre secteur), ou un accompagnement individuel dans la durée (coaching DSC). Contactez-nous, nous orientons gratuitement selon votre contexte.",
   },
   {
@@ -625,6 +708,7 @@ const SESSIONS = [
     { date: '16–17 Oct', titre: 'S&OP & Planification Avancée', format: 'intra', places: null, id: 'sop' },
     { date: '22 Oct', titre: 'Business Case & ROI', format: 'inter', places: 8, id: 'business-case' },
     { date: '23 Oct', titre: 'Responsable Logistique', format: 'inter', places: 6, id: 'rl' },
+    { date: '29 Oct', titre: 'Développement de Carrière SC', format: 'inter', places: 10, id: 'developpement-carriere' },
   ]},
   { mois: 'Novembre', sessions: [
     { date: '6–7 Nov', titre: 'Supply Chain Fondamentaux', format: 'intra', places: null, id: 'fondamentaux' },
@@ -632,12 +716,14 @@ const SESSIONS = [
     { date: '13 Nov', titre: 'Responsable Logistique', format: 'inter', places: 8, id: 'rl' },
     { date: '19–20 Nov', titre: 'Manager ses Équipes', format: 'intra', places: null, id: 'management-equipes' },
     { date: '20–21 Nov', titre: 'DDMRP Practitioner', format: 'inter', places: 10, id: 'ddmrp' },
+    { date: '25–26 Nov', titre: 'Négociation Achats & SC', format: 'intra', places: null, id: 'negociation-achats' },
   ]},
   { mois: 'Décembre', sessions: [
     { date: '3–4 Déc', titre: 'Lire et Analyser les Chiffres', format: 'intra', places: null, id: 'finance-chiffres' },
     { date: '4 Déc', titre: 'Supply Chain Décideurs', format: 'intra', places: null, id: 'decideurs' },
     { date: '9–10 Déc', titre: 'Chef de Projet Opérationnel', format: 'inter', places: 12, id: 'chef-projet' },
     { date: '11 Déc', titre: 'Responsable Logistique', format: 'inter', places: 4, id: 'rl' },
+    { date: '15 Déc', titre: 'Prévenir le Burnout', format: 'intra', places: null, id: 'prevenir-burnout' },
   ]},
 ]
 
@@ -913,24 +999,25 @@ function ProgramCard({ p, dark }: { p: typeof PROGRAMMES[0]; dark: boolean }) {
 
 /* ─── Main Component ──────────────────────────────────────── */
 export default function FormationCatalogue() {
-  const [activeTab, setActiveTab] = useState<'all' | 'sc' | 'lean' | 'management' | 'finance' | 'projet'>('all')
+  const [activeTab, setActiveTab] = useState<'all' | 'sc' | 'lean' | 'management' | 'finance' | 'projet' | 'carriere'>('all')
 
   const filtered = activeTab === 'all' ? PROGRAMMES : PROGRAMMES.filter(p => p.domaine === activeTab)
 
   const tabs: { id: typeof activeTab; label: string }[] = [
-    { id: 'all', label: 'Tous (19)' },
+    { id: 'all', label: `Tous (${PROGRAMMES.length})` },
     { id: 'sc', label: 'Supply Chain' },
     { id: 'lean', label: 'Lean & Amélioration' },
     { id: 'management', label: 'Management' },
     { id: 'finance', label: 'Finance Ops' },
     { id: 'projet', label: 'Gestion de Projet' },
+    { id: 'carriere', label: 'Carrière & Bien-être' },
   ]
 
   return (
     <>
       <PageMeta
-        title="Formations Supply Chain, Lean, Management, Finance & Projet — Essor Consulting"
-        description="19 programmes de formation sur 5 domaines : Supply Chain, Lean, Management, Finance, Gestion de Projet. Inter et intra-entreprise. Catalogue et calendrier 2026."
+        title="Formations Supply Chain, Lean, Management, Finance, Projet & Carrière — Essor Consulting"
+        description="22 programmes de formation sur 6 domaines : Supply Chain, Lean, Management, Finance, Gestion de Projet, Carrière & Bien-être. Inter et intra-entreprise. Catalogue et calendrier 2026."
         canonical="https://nextinotech.com/formation"
       />
       <SchemaScript schema={programmesSchema} />
@@ -963,8 +1050,8 @@ export default function FormationCatalogue() {
           <Reveal delay={0.12}>
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '0', borderTop: '1px solid rgba(255,255,255,0.06)', paddingTop: '3rem', marginBottom: '0', paddingBottom: '5rem' }}>
               {[
-                { val: '19', label: 'programmes disponibles' },
-                { val: '5', label: 'domaines de formation' },
+                { val: '22', label: 'programmes disponibles' },
+                { val: '6', label: 'domaines de formation' },
                 { val: '20+', label: 'ans de terrain formateur' },
                 { val: '0', label: 'commission éditeur' },
               ].map((s, i) => (
@@ -1085,8 +1172,8 @@ export default function FormationCatalogue() {
                   03 / Catalogue complet
                 </div>
                 <h2 style={{ fontFamily: 'Bodoni Moda, serif', fontSize: 'clamp(2.5rem, 5vw, 6rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', color: 'var(--dark-text)', margin: 0 }}>
-                  19 programmes.<br />
-                  <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--gold)' }}>5 domaines d'expertise.</span>
+                  22 programmes.<br />
+                  <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--gold)' }}>6 domaines d'expertise.</span>
                 </h2>
               </div>
 

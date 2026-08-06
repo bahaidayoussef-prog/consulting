@@ -67,7 +67,7 @@ Rabat/Salé, Maroc · 18 ans expérience · 40+ cadres formés
 
 ---
 
-👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 19 programmes, 5 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
 ## Contact Rabat
 

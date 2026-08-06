@@ -163,6 +163,6 @@ Ces projets vont créer de nouveaux postes de direction logistique dans la régi
 
 La logistique export d'Agadir est l'une des plus exigeantes du Maroc. Elle demande des profils solides techniquement, capables de gérer la pression des délais, des volumes variables et des exigences réglementaires européennes.
 
-👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 19 programmes, 5 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
 **Essor Consulting forme les professionnels logistiques de la région Souss-Massa** depuis plusieurs années, en présentiel à Casablanca et en intra-entreprise sur site. Contactez-nous pour organiser une session pour votre équipe.

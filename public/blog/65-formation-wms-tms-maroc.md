@@ -199,6 +199,6 @@ Pour une entreprise qui déploie un WMS :
 
 Les WMS et TMS ne sont plus réservés aux grandes entreprises. Les solutions cloud et open source ont démocratisé l'accès pour les PME marocaines. Se former sur ces outils est donc devenu une nécessité pour tout professionnel logistique qui veut rester employable et progresser dans sa carrière.
 
-👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 19 programmes, 5 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
 **Essor Consulting forme et accompagne les équipes logistiques marocaines sur les WMS depuis plus de 15 ans.** Contactez-nous pour un programme adapté à votre contexte.

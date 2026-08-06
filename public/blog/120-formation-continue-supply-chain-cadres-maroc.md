@@ -79,7 +79,7 @@ SITL, Supply Chain Event (Paris), forums logistique Casablanca. Veille sur les t
 
 Programmes modulaires pour cadres et managers en poste : séminaires thématiques, coaching individuel, et accompagnement de projets de transformation. Financement GIAC possible.
 
-👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 19 programmes, 5 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
 **Contactez-nous** :
 📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200

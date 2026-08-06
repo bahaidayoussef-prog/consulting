@@ -86,7 +86,7 @@ Les DSC marocains qui progressent rapidement ont souvent :
 
 Essor Consulting propose un programme senior destiné aux managers SC en transition vers le niveau directionnel : 3 jours de séminaire + 6 mois de coaching mensuel.
 
-👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 19 programmes, 5 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
 **Contactez-nous** :
 📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200

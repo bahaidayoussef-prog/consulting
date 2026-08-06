@@ -102,7 +102,7 @@ Essor Consulting propose un programme modulaire Supply Chain Manager : 6 modules
 
 Chaque module peut être suivi séparément ou dans le cadre du programme complet certifiant.
 
-👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 19 programmes, 5 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
 **Contactez-nous** pour le programme détaillé et les prochaines dates :
 📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200

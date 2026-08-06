@@ -177,7 +177,7 @@ Essor Consulting forme les gestionnaires de stocks et les responsables approvisi
 - Formation Paramétrage ERP Stocks (1 jour) — Odoo, SAP ou Sage selon votre contexte
 - Accompagnement terrain (1 à 3 mois) — pour appliquer les méthodes dans votre entreprise réelle
 
-👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 19 programmes, 5 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
 Contactez-nous pour un programme adapté : **b.youssef@essor.ma** · **+212 06 63 44 92 00**
 

@@ -182,6 +182,6 @@ Ce programme peut être dispensé en intra-entreprise pour votre équipe SCM.
 
 Devenir Supply Chain Manager au Maroc est un objectif atteignable pour tout professionnel logistique motivé, structuré et prêt à investir dans sa formation. Le marché marocain a besoin de vrais SCM capables de piloter des transformations supply chain — pas seulement de gérer l'existant.
 
-👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 19 programmes, 5 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
 **Essor Consulting forme et accompagne les Supply Chain Managers marocains depuis plus de 20 ans.** Contactez-nous pour construire ensemble votre plan de développement.

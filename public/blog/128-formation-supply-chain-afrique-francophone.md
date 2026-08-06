@@ -74,7 +74,7 @@ Des organismes comme Essor Consulting proposent des formations à distance en vi
 
 Essor Consulting propose des formations en présentiel au Maroc et à distance pour toute l'Afrique francophone. Programmes adaptés aux réalités terrain africaines.
 
-👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 19 programmes, 5 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
 **Contactez-nous** pour un programme personnalisé :
 📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200

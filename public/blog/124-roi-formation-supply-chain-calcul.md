@@ -114,7 +114,7 @@ Cette démarche avant/après transforme le ROI estimé en ROI prouvé — et fac
 
 Chaque programme Essor Consulting inclut une définition des KPIs à mesurer avant et après formation, et un suivi à 3 mois pour quantifier les résultats réels.
 
-👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 19 programmes, 5 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
 **Contactez-nous** :
 📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200

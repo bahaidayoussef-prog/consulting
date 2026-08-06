@@ -191,7 +191,7 @@ Essor Consulting forme les chefs d'entrepôt et les responsables logistique au M
 - Suivi post-formation : appel de bilan 30 jours après
 - Possibilité de mission d'accompagnement pour aider à appliquer les acquis
 
-👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 19 programmes, 5 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
 Contactez-nous pour un programme sur mesure : **b.youssef@essor.ma** · **+212 06 63 44 92 00**
 

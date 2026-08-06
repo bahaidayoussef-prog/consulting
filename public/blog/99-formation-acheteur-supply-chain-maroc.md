@@ -179,7 +179,7 @@ Essor Consulting forme les acheteurs et responsables achats supply chain au Maro
 - Formation Pilotage Fournisseurs et KPIs (1 jour)
 - Préparation à la certification CIPS (modules étalés sur 2 à 4 mois)
 
-👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 19 programmes, 5 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
 Contactez-nous : **b.youssef@essor.ma** · **+212 06 63 44 92 00**
 

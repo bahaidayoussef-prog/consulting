@@ -206,7 +206,7 @@ Essor Consulting propose des programmes de formation supply chain pour cadres et
 - Cas d'étude issus du marché marocain et africain — pas des exemples européens transposés
 - Suivi post-formation : session de débriefing 60 jours après pour ancrer les apprentissages
 
-👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 19 programmes, 5 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
 Contactez-nous pour construire votre programme sur mesure : **b.youssef@essor.ma** · **+212 06 63 44 92 00**
 

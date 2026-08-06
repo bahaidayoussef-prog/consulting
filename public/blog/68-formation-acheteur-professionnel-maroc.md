@@ -183,6 +183,6 @@ Sans système d'évaluation formalisé (qualité, délais, service), les décisi
 
 La fonction achats au Maroc offre de très belles perspectives pour les professionnels qui investissent dans leur formation. La pénurie de profils vraiment compétents crée des opportunités réelles de différenciation et de progression rapide.
 
-👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 19 programmes, 5 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
 **Essor Consulting a piloté plus de 710 millions de MAD d'achats dans ses missions.** Nous partageons cette expérience dans nos formations. Contactez-nous pour un programme adapté à votre profil.
