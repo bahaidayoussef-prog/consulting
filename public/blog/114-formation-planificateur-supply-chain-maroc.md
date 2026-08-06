@@ -89,5 +89,7 @@ Moyennes mobiles, lissage exponentiel, décomposition saisonnière — les outil
 
 3 jours de formation intensive avec certification DDMRP Practitioner intégrée. Programme incluant des simulations sur logiciel de planification.
 
+👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 19 programmes, 5 domaines, calendrier 2026.
+
 **Contactez-nous** :
 📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200

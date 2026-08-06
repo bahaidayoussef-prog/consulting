@@ -278,6 +278,8 @@ Une formation supply chain n'est pas dépense. C'est investissement qu'on mesure
 2. Recommandation formation
 3. ROI projection
 
+👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 19 programmes, 5 domaines, calendrier 2026.
+
 Contactez-nous. On regarde votre situation, on vous dit honnêtement si formation a sense pour vous.
 
 ---

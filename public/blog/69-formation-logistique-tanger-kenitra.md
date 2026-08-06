@@ -155,4 +155,6 @@ Pour les professionnels du secteur automobile au Nord, nous proposons un program
 
 Le Nord du Maroc est aujourd'hui l'une des zones de développement logistique les plus actives du continent. Les professionnels qui maîtrisent les standards automobile (JIT, EDI, DDMRP) et portuaires (gestion des conteneurs, douane, freight forwarding) ont des perspectives de carrière excellentes.
 
+👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 19 programmes, 5 domaines, calendrier 2026.
+
 **Essor Consulting intervient régulièrement à Tanger, Kénitra et Tanger Med** pour des missions de conseil et de formation. Contactez-nous pour organiser une session pour votre équipe.

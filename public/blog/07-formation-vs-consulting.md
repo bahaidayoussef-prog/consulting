@@ -366,6 +366,8 @@ No pressure. We tell you honnêtement what makes sense pour vous.
 
 ---
 
+👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 19 programmes, 5 domaines, calendrier 2026.
+
 **Essor Consulting**  
 Directeur des Achats | Expert Supply Chain & Transformation Digitale  
 Essor Consulting — Casablanca, Maroc  

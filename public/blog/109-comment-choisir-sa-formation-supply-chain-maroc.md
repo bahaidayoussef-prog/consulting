@@ -90,5 +90,7 @@ Essor Consulting propose des formations supply chain conçues par des praticiens
 
 Formats disponibles : présentiel Casablanca, intra-entreprise, et accompagnement individuel.
 
+👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 19 programmes, 5 domaines, calendrier 2026.
+
 **Contactez-nous** pour recevoir le catalogue complet :
 📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200

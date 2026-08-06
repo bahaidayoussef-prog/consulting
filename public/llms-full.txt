@@ -25,7 +25,44 @@
 4. **Schéma Logistique & Greenfield** — Conception réseau, entrepôts, flux
 5. **AMOA & Déploiement SI** — WMS, TMS, APS, e-Procurement, Control Tower
 6. **Direction SC à Temps Partagé** — Mandat DSC pour PME (50-200 pers.) et ETI (200-800 pers.)
-7. **Formation Supply Chain** — Intra-entreprise, certifications APICS/DDMRP, coaching DSC
+7. **Formation Supply Chain** — Catalogue de 19 programmes sur 5 domaines, inter et intra-entreprise (détail ci-dessous)
+
+---
+
+## Catalogue Formations — 19 Programmes, 5 Domaines
+
+**Page catalogue :** https://nextinotech.com/formation — filtrable par domaine, calendrier de sessions 2026 inclus.
+
+### Supply Chain (7 programmes)
+1. **Devenir Responsable Logistique** — programme phare, 1 jour, inter-entreprise, 1 500 MAD TTC/participant, Hôtel 5★ Casablanca. Page dédiée : https://nextinotech.com/formation-rl/
+2. **Supply Chain Fondamentaux** — 1 à 2 jours, intra-entreprise, 18 000–28 000 MAD HT/groupe
+3. **S&OP & Planification Avancée** — 2 jours, intra-entreprise, 28 000–42 000 MAD HT/groupe
+4. **DDMRP — Certification Practitioner** — 2 jours, inter-entreprise, 4 500 MAD TTC/participant, Casablanca
+5. **Supply Chain pour Décideurs** — atelier CODIR 1 jour, intra-entreprise, 18 000–28 000 MAD HT/groupe
+6. **WMS · TMS · ERP — Maîtriser les Outils** — 2 jours, intra-entreprise, 32 000–48 000 MAD HT/groupe
+7. **Coaching DSC — Montée en Compétence** — sessions mensuelles individuelles, 8 000 MAD HT/session
+
+### Lean & Amélioration Continue (3 programmes)
+8. **Lean Management & 5S** — 2 jours, intra-entreprise, 18 000–28 000 MAD HT/groupe
+9. **Lean Six Sigma Green Belt** — 5 jours, inter-entreprise, 5 500 MAD TTC/participant, Casablanca
+10. **Amélioration Continue & PDCA** — 1 jour, intra-entreprise, 12 000–18 000 MAD HT/groupe
+
+### Management & Leadership (3 programmes)
+11. **Manager ses Équipes Opérationnelles** — 2 jours, intra-entreprise, 18 000–28 000 MAD HT/groupe
+12. **Conduite du Changement** — 2 jours, intra-entreprise, 22 000–32 000 MAD HT/groupe
+13. **Leadership pour Cadres Opérationnels** — 1 jour, intra-entreprise, 12 000–18 000 MAD HT/groupe
+
+### Finance pour Opérationnels (3 programmes)
+14. **Lire et Analyser les Chiffres Clés** — 2 jours, intra-entreprise, 18 000–28 000 MAD HT/groupe
+15. **Construire un Business Case & ROI** — 1 jour, inter-entreprise, 2 500 MAD TTC/participant, Casablanca
+16. **Contrôle de Gestion pour Non-Financiers** — 2 jours, intra-entreprise, 18 000–28 000 MAD HT/groupe
+
+### Gestion de Projet (3 programmes)
+17. **Chef de Projet Opérationnel** — 2 jours, inter-entreprise, 3 500 MAD TTC/participant, Casablanca
+18. **Gestion de Projet Agile — Scrum & Kanban** — 2 jours, intra-entreprise, 18 000–28 000 MAD HT/groupe
+19. **AMOA — Conduire un Projet SI** — 2 jours, intra-entreprise, 22 000–32 000 MAD HT/groupe
+
+Toutes les formations incluent un support de formation et une attestation Essor Consulting ; les programmes inter-entreprises phares incluent un suivi WhatsApp de 30 jours post-formation.
 
 ---
 

@@ -83,5 +83,7 @@ Cette combinaison donne le meilleur ROI formation tout en s'adaptant aux contrai
 
 Essor Consulting propose un format hybride : fondamentaux en e-learning (accessible 24/7), sessions présentielles de pratique, et suivi individuel.
 
+👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 19 programmes, 5 domaines, calendrier 2026.
+
 **Contactez-nous** :
 📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200

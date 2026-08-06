@@ -87,5 +87,7 @@ La clé : ne pas attendre d'avoir "tout appris" pour commencer à pratiquer. Les
 
 Programme intensif de 3 jours pour les responsables en poste, ou accompagnement individuel sur 3 mois pour les juniors en prise de poste. Contenu basé sur 20 ans de missions terrain au Maroc.
 
+👉 **[Voir le programme complet « Devenir Responsable Logistique »](/formation-rl/)** — 1 journée, 1 500 MAD TTC, prochaines sessions 2026.
+
 **Contactez-nous** :
 📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200

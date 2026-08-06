@@ -24,6 +24,8 @@ Cas anonymisé avec ROI, timeline, et méthodologie applicable à votre situatio
 
 Vous reconnaissez votre situation? Audit gratuit 2-3 jours.
 
+👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 19 programmes, 5 domaines, calendrier 2026.
+
 **Contact:** bahaidayoussef@gmail.com | +212 663 449 200
 
 ---

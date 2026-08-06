@@ -86,6 +86,8 @@ Essor Consulting propose des formations supply chain conçues par des praticiens
 
 **Délai d'inscription :** Minimum 2 semaines avant la session.
 
+👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 19 programmes, 5 domaines, calendrier 2026.
+
 ## Contactez-nous
 
 📧 **Email :** essor.consulting.maroc@gmail.com

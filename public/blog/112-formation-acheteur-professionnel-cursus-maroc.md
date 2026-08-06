@@ -87,5 +87,7 @@ La différence entre un acheteur opérationnel et un acheteur stratégique : le 
 
 4 jours de formation intensive avec simulation de négociation en conditions réelles, basée sur des cas d'achats au Maroc (secteurs industrie, agroalimentaire, services).
 
+👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 19 programmes, 5 domaines, calendrier 2026.
+
 **Contactez-nous** :
 📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200

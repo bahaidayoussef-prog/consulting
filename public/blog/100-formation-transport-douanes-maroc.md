@@ -202,6 +202,8 @@ Le Maroc a signé des accords de libre-échange (ALE) qui permettent d'importer 
 
 Essor Consulting forme les équipes achats, logistique et commerce international au Maroc sur les compétences transport et douanes. Nos formateurs ont une expérience terrain des procédures ADII et des négociations d'Incoterms avec des fournisseurs asiatiques, européens et africains.
 
+👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 19 programmes, 5 domaines, calendrier 2026.
+
 Contactez-nous pour un devis : **b.youssef@essor.ma** · **+212 06 63 44 92 00**
 
 ---

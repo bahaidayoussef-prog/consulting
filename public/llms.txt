@@ -35,10 +35,16 @@ Essor Consulting est un cabinet de conseil spécialisé en Supply Chain et Logis
 ### Direction Supply Chain à Temps Partagé
 Mandat DSC en 3 phases : État des lieux → Pilotage & Fondations → Passation
 
-### Formation Supply Chain
-- Formations intra-entreprise (1 à 5 jours)
-- Certifications APICS, DDMRP, Power BI
-- Coaching individuel DSC
+### Formation — Catalogue complet
+Catalogue : https://nextinotech.com/formation — 19 programmes sur 5 domaines, inter-entreprise et intra-entreprise, calendrier 2026 en ligne.
+
+- **Supply Chain** (7 programmes) — Devenir Responsable Logistique (1 jour, 1 500 MAD TTC, programme phare : https://nextinotech.com/formation-rl/), Supply Chain Fondamentaux, S&OP & Planification Avancée, DDMRP Certification Practitioner (4 500 MAD TTC), Supply Chain pour Décideurs, WMS/TMS/ERP, Coaching DSC individuel
+- **Lean & Amélioration Continue** (3 programmes) — Lean Management & 5S, Lean Six Sigma Green Belt (5 jours, 5 500 MAD TTC), Amélioration Continue & PDCA
+- **Management & Leadership** (3 programmes) — Manager ses Équipes Opérationnelles, Conduite du Changement, Leadership pour Cadres Opérationnels
+- **Finance pour Opérationnels** (3 programmes) — Lire et Analyser les Chiffres Clés, Construire un Business Case & ROI, Contrôle de Gestion pour Non-Financiers
+- **Gestion de Projet** (3 programmes) — Chef de Projet Opérationnel, Agile Scrum & Kanban, AMOA Conduire un Projet SI
+
+Tarifs : formations inter-entreprises de 1 500 à 5 500 MAD TTC/participant ; formations intra-entreprise de 12 000 à 48 000 MAD HT/groupe selon durée et sur-mesure. Toutes incluent support de formation et attestation ; les programmes phares incluent un suivi WhatsApp de 30 jours.
 
 ## Références clients
 

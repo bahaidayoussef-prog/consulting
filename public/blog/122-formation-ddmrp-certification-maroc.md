@@ -82,5 +82,7 @@ La certification DDMRP Practitioner est délivrée par le Demand Driven Institut
 
 Formation DDMRP 2 jours avec préparation à la certification Practitioner. Inclut des simulations sur logiciel et des cas marocains réels.
 
+👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 19 programmes, 5 domaines, calendrier 2026.
+
 **Contactez-nous** pour les prochaines dates :
 📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200

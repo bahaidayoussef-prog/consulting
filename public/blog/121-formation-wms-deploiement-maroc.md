@@ -81,5 +81,7 @@ Formation des formateurs internes, conduite du changement, KPIs WMS, optimisatio
 
 Essor Consulting accompagne les projets WMS de A à Z : aide à la sélection, formation des équipes, et optimisation post-déploiement. 10+ projets WMS menés au Maroc.
 
+👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 19 programmes, 5 domaines, calendrier 2026.
+
 **Contactez-nous** :
 📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200

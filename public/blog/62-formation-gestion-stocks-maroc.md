@@ -165,4 +165,6 @@ La **formation Responsable Logistique** d'Essor Consulting intègre un module co
 
 La gestion des stocks n'est pas une discipline figée : elle évolue avec les méthodes (DDMRP remplace progressivement le MRP), les outils (WMS cloud, IoT, RFID) et les pratiques (VMI, consignation). Se former régulièrement est essentiel pour rester opérationnel et compétitif.
 
+👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 19 programmes, 5 domaines, calendrier 2026.
+
 **Essor Consulting accompagne les PME et ETI marocaines dans l'optimisation de leurs stocks depuis plus de 20 ans.** Contactez-nous pour un diagnostic gratuit.

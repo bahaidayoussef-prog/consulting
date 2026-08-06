@@ -54,5 +54,7 @@ Paramétrage de base, création des tournées, suivi temps réel, génération d
 
 2 jours de formation avec simulation sur logiciel TMS. Accompagnement disponible pour le déploiement complet.
 
+👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 19 programmes, 5 domaines, calendrier 2026.
+
 **Contactez-nous** :
 📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200

@@ -1,6 +1,7 @@
 import { useRef, useState } from 'react'
 import { motion, useInView, AnimatePresence } from 'framer-motion'
 import { Link } from 'react-router-dom'
+import SchemaScript from './SchemaHelper'
 
 /* ─── Brand constants ─────────────────────────────────────── */
 const WA = `https://wa.me/212663449200?text=${encodeURIComponent('Bonjour Essor Consulting, je souhaite des informations sur vos formations. Pouvez-vous me recontacter ?')}`
@@ -531,6 +532,85 @@ const PROGRAMMES = [
   },
 ]
 
+/* ─── Data — FAQ ────────────────────────────────────────────── */
+const FAQ = [
+  {
+    q: 'Comment choisir le bon programme parmi les 19 ?',
+    a: "Selon votre objectif : une compétence terrain immédiate (formations inter, 1 à 2 jours, ex. Responsable Logistique, DDMRP), une montée en compétence d'équipe sur mesure (intra-entreprise adapté à votre secteur), ou un accompagnement individuel dans la durée (coaching DSC). Contactez-nous, nous orientons gratuitement selon votre contexte.",
+  },
+  {
+    q: 'Quelle est la différence entre inter-entreprise et intra-entreprise ?',
+    a: "L'inter-entreprise réunit des participants de plusieurs sociétés sur une date fixe (tarif par participant, ex. 1 500 MAD pour Responsable Logistique). L'intra-entreprise forme uniquement vos équipes, dans vos locaux ou à l'hôtel, avec un contenu adapté à votre secteur (tarif forfaitaire par groupe).",
+  },
+  {
+    q: 'Les formations sont-elles éligibles au financement (OFPPT / GIAC / OPCA) ?',
+    a: 'Une convention de formation est remise à l\'inscription pour toute prise en charge par votre entreprise ou votre organisme de financement. Nous accompagnons les DRH dans le montage du dossier.',
+  },
+  {
+    q: 'Peut-on adapter un programme intra-entreprise à notre secteur ?',
+    a: 'Oui, systématiquement. Chaque session intra intègre des cas pratiques tirés de votre activité (agroalimentaire, automobile, pharma, retail...) plutôt que des exemples génériques.',
+  },
+  {
+    q: 'Y a-t-il un suivi après la formation ?',
+    a: "Les programmes phares incluent un suivi WhatsApp de 30 jours pour répondre à vos questions d'application terrain. Pour un accompagnement plus long, le coaching DSC propose un suivi mensuel sur 6 à 12 mois.",
+  },
+  {
+    q: 'Quel est le délai entre l\'inscription et la première session ?',
+    a: "Pour les formations inter-entreprises, consultez le calendrier ci-dessus — les prochaines sessions sont ouvertes jusqu'à 3 mois à l'avance. Pour l'intra-entreprise, comptez 2 à 3 semaines entre la demande de devis et la session, selon vos disponibilités.",
+  },
+]
+
+const programmesSchema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'ItemList',
+      '@id': 'https://nextinotech.com/formation#programmes',
+      name: 'Catalogue de formations Essor Consulting',
+      numberOfItems: PROGRAMMES.length,
+      itemListElement: PROGRAMMES.map((p, i) => {
+        const nums = p.price.replace(/\s/g, '').split('–').map(s => parseInt(s.replace(/\D/g, ''), 10)).filter(n => !isNaN(n))
+        const offer: Record<string, unknown> = {
+          '@type': 'Offer',
+          priceCurrency: 'MAD',
+          url: 'https://nextinotech.com/formation',
+          availability: 'https://schema.org/InStock',
+        }
+        if (nums.length === 2) {
+          offer.priceSpecification = { '@type': 'PriceSpecification', minPrice: nums[0], maxPrice: nums[1], priceCurrency: 'MAD' }
+        } else if (nums.length === 1) {
+          offer.price = nums[0]
+        }
+        return {
+          '@type': 'ListItem',
+          position: i + 1,
+          item: {
+            '@type': 'Course',
+            name: p.title,
+            description: p.subtitle,
+            provider: { '@type': 'Organization', name: 'Essor Consulting', sameAs: 'https://nextinotech.com/' },
+            hasCourseInstance: {
+              '@type': 'CourseInstance',
+              courseMode: p.format === 'coaching' ? 'Online' : 'Onsite',
+              name: p.duration,
+            },
+            offers: offer,
+          },
+        }
+      }),
+    },
+    {
+      '@type': 'FAQPage',
+      '@id': 'https://nextinotech.com/formation#faq',
+      mainEntity: FAQ.map(f => ({
+        '@type': 'Question',
+        name: f.q,
+        acceptedAnswer: { '@type': 'Answer', text: f.a },
+      })),
+    },
+  ],
+}
+
 /* ─── Data — Calendrier 2026 ───────────────────────────────── */
 const SESSIONS = [
   { mois: 'Septembre', sessions: [
@@ -594,6 +674,65 @@ function Reveal({ children, delay = 0, style = {} }: { children: React.ReactNode
       style={style}
     >
       {children}
+    </motion.div>
+  )
+}
+
+/* ─── FAQ Item ────────────────────────────────────────────── */
+function FAQItem({ item }: { item: { q: string; a: string } }) {
+  const [open, setOpen] = useState(false)
+  const ref = useRef(null)
+  const inView = useInView(ref, { once: true, margin: '-40px' })
+
+  return (
+    <motion.div
+      ref={ref}
+      initial={{ opacity: 0, y: 24 }}
+      animate={inView ? { opacity: 1, y: 0 } : {}}
+      transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
+      style={{ borderTop: '1px solid rgba(10,20,32,0.1)' }}
+    >
+      <button
+        onClick={() => setOpen(o => !o)}
+        style={{
+          width: '100%',
+          display: 'flex',
+          justifyContent: 'space-between',
+          alignItems: 'center',
+          gap: '2rem',
+          background: 'none',
+          border: 'none',
+          cursor: 'pointer',
+          padding: '1.75rem 0',
+          textAlign: 'left',
+        }}
+      >
+        <span style={{ fontFamily: 'Jost, sans-serif', fontSize: '1.05rem', fontWeight: 600, color: '#0a1420' }}>
+          {item.q}
+        </span>
+        <motion.span
+          animate={{ rotate: open ? 45 : 0 }}
+          transition={{ duration: 0.2 }}
+          style={{ fontSize: '1.4rem', color: 'var(--gold)', flexShrink: 0, lineHeight: 1 }}
+        >
+          +
+        </motion.span>
+      </button>
+      <AnimatePresence initial={false}>
+        {open && (
+          <motion.div
+            initial={{ height: 0, opacity: 0 }}
+            animate={{ height: 'auto', opacity: 1 }}
+            exit={{ height: 0, opacity: 0 }}
+            transition={{ duration: 0.35, ease: [0.16, 1, 0.3, 1] }}
+            style={{ overflow: 'hidden' }}
+          >
+            <p style={{ fontSize: '0.95rem', color: 'rgba(10,20,32,0.6)', lineHeight: 1.8, fontWeight: 300, paddingBottom: '1.75rem', maxWidth: 760 }}>
+              {item.a}
+            </p>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </motion.div>
   )
 }
@@ -788,6 +927,7 @@ export default function FormationCatalogue() {
 
   return (
     <>
+      <SchemaScript schema={programmesSchema} />
       {/* ══ HERO ══════════════════════════════════════════════ */}
       <section style={{ background: 'var(--dark)', padding: '8rem 4rem 0', overflow: 'hidden' }}>
         <div className="section-inner">
@@ -1108,13 +1248,34 @@ export default function FormationCatalogue() {
         </div>
       </section>
 
+      {/* ══ FAQ ═══════════════════════════════════════════════ */}
+      <section style={{ background: 'var(--paper)', padding: '8rem 4rem', color: '#0a1420' }}>
+        <div className="section-inner">
+          <Reveal>
+            <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.22em', textTransform: 'uppercase', color: 'rgba(192,154,47,0.65)', marginBottom: '1.5rem' }}>
+              06 / Questions fréquentes
+            </div>
+            <h2 style={{ fontFamily: 'Bodoni Moda, serif', fontSize: 'clamp(2.5rem, 5vw, 6rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', color: '#0a1420', margin: '0 0 4rem' }}>
+              Vos questions,<br />
+              <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--gold)' }}>nos réponses.</span>
+            </h2>
+          </Reveal>
+
+          <div style={{ maxWidth: 900 }}>
+            {FAQ.map((item, i) => (
+              <FAQItem key={i} item={item} />
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* ══ CTA FINAL ════════════════════════════════════════ */}
       <section style={{ background: 'var(--dark)', padding: '8rem 4rem' }}>
         <div className="section-inner">
           <div style={{ display: 'grid', gridTemplateColumns: '1fr auto', gap: '6rem', alignItems: 'center' }}>
             <Reveal>
               <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.22em', textTransform: 'uppercase', color: 'rgba(192,154,47,0.5)', marginBottom: '1.5rem' }}>
-                06 / Inscription & contact
+                07 / Inscription & contact
               </div>
               <h2 style={{ fontFamily: 'Bodoni Moda, serif', fontSize: 'clamp(2.5rem, 5vw, 6rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', color: 'var(--dark-text)', margin: '0 0 1.5rem' }}>
                 Réserver votre<br />

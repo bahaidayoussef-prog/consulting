@@ -85,5 +85,7 @@ Après des années à former et à auditer des entrepôts au Maroc, voici ce qui
 
 2 jours intensifs en présentiel, 100% pratique, avec simulation de gestion d'entrepôt en conditions réelles. Certification Essor Consulting délivrée à l'issue de la formation.
 
+👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 19 programmes, 5 domaines, calendrier 2026.
+
 **Contactez-nous** :
 📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
