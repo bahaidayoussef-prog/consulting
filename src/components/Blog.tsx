@@ -223,6 +223,9 @@ export default function Blog() {
           '206-reconversion-sectorielle-entretien-supply-chain-maroc',
           '207-gerer-entretien-difficile-supply-chain-maroc',
           '208-guide-ultime-entretien-supply-chain-maroc',
+          // Carrière & Bien-être
+          '209-burnout-supply-chain-logistique-maroc',
+          '210-developpement-carriere-supply-chain-achats-logistique-maroc',
         ]
 
         const loadedPosts: BlogPost[] = []

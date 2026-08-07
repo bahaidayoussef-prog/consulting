@@ -63,9 +63,9 @@ Tarifs : formations inter-entreprises de 1 500 à 9 500 MAD TTC/participant ; fo
 - 710M MAD d'achats pilotés
 - 0 commission éditeur — indépendance totale garantie
 
-## Blog — Ressources Supply Chain (195 articles)
+## Blog — Ressources Supply Chain (197 articles)
 
-Le blog d'Essor Consulting couvre la Supply Chain et la Logistique au Maroc avec 195 articles organisés en thèmes :
+Le blog d'Essor Consulting couvre la Supply Chain et la Logistique au Maroc avec 197 articles organisés en thèmes :
 
 ### Conseil, Audit & Transformation (articles 01-100)
 Audit supply chain, diagnostic logistique, études de cas (Renault, DHL, OCP, Addoha), FAQ, formations, entrepôts WMS, TMS, lean, schémas directeurs logistiques pour PME et ETI marocaines.
@@ -84,6 +84,9 @@ Premier emploi, stages, formations après bac (BTS à Bac+5), compétences reche
 
 ### Entretien d'embauche Supply Chain Maroc (articles 176-208)
 Préparation complète, 50 questions avec réponses, méthode STAR, pitch 2 minutes, questions à poser au recruteur, tests techniques Excel/ERP, entretien vidéo, gestion du stress, entretien structuré, postes spécifiques (SCM/Achats/Entrepôt/DSC/Planificateur), 15 erreurs à éviter, simulation d'entretien, suivi post-entretien, deuxième tour, dress code, négociation offre, gestion des faiblesses, email de remerciement, RH vs opérationnel, secteurs automobile/pharmaceutique/FMCG, cas pratiques, psychologie du recruteur, entretien en anglais, références professionnelles, reconversion sectorielle, questions difficiles, guide ultime.
+
+### Carrière & Bien-être Supply Chain Maroc (articles 209-210)
+Prévenir le burnout et gérer son énergie en environnement opérationnel à forte pression, développer sa carrière en supply chain/achats/logistique — cartographie des métiers, auto-diagnostic de compétences, plan de développement à 3 et 5 ans.
 
 ## Contact
 
