@@ -63,9 +63,9 @@ Tarifs : formations inter-entreprises de 1 500 à 9 500 MAD TTC/participant ; fo
 - 710M MAD d'achats pilotés
 - 0 commission éditeur — indépendance totale garantie
 
-## Blog — Ressources Supply Chain (208 articles)
+## Blog — Ressources Supply Chain (195 articles)
 
-Le blog d'Essor Consulting couvre la Supply Chain et la Logistique au Maroc avec 208 articles organisés en thèmes :
+Le blog d'Essor Consulting couvre la Supply Chain et la Logistique au Maroc avec 195 articles organisés en thèmes :
 
 ### Conseil, Audit & Transformation (articles 01-100)
 Audit supply chain, diagnostic logistique, études de cas (Renault, DHL, OCP, Addoha), FAQ, formations, entrepôts WMS, TMS, lean, schémas directeurs logistiques pour PME et ETI marocaines.
