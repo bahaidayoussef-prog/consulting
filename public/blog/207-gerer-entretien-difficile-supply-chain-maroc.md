@@ -1,7 +1,7 @@
 ﻿---
 title: "Gérer un Entretien Difficile en Supply Chain : Tactiques et Sang-Froid"
 date: "2026-08-05"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/conseil.jpg"
 keywords: "entretien difficile supply chain Maroc, questions pièges entretien logistique, gérer pression entretien SC, entretien stress supply chain Maroc"
 description: "Comment gérer les questions pièges, les recruteurs agressifs, et les situations difficiles lors d'un entretien supply chain au Maroc ? Tactiques concrètes pour garder le contrôle."

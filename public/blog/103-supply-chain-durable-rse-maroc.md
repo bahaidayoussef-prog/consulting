@@ -1,7 +1,7 @@
 ﻿---
 title: "Supply Chain Durable au Maroc : Concilier Performance et RSE en 2026"
 date: "2026-08-05"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/hero-supply-chain.jpg"
 keywords: "supply chain durable Maroc, green logistics Maroc, RSE supply chain, logistique verte Maroc, empreinte carbone supply chain"
 description: "Supply chain durable au Maroc : comment concilier performance logistique et RSE en 2026. Outils concrets, exemples réels, et guide pratique pour passer à l'action."

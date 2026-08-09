@@ -1,7 +1,7 @@
 ﻿---
 title: "Optimisation du Réseau Logistique au Maroc : Stratégie Multi-Sites 2026"
 date: "2026-08-04"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/charts.jpg"
 keywords: "optimisation réseau logistique maroc, réseau distribution maroc, stratégie logistique multi-sites maroc, localisation entrepôt maroc, schéma réseau supply chain maroc"
 description: "Comment optimiser votre réseau logistique au Maroc : nombre de sites, localisation, taille, politique de stock. Méthode et cas réels issus de 20+ projets réseau au Maroc."
@@ -186,7 +186,7 @@ Essor Consulting réalise des études d'optimisation de réseau logistique au Ma
 - Business case et plan de transition
 - Accompagnement de la mise en œuvre (ouverture de sites, transition des flux)
 
-Contactez-nous pour un premier échange : **b.youssef@essor.ma** · **+212 06 63 44 92 00**
+Contactez-nous pour un premier échange : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
 
 ---
 

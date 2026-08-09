@@ -1,7 +1,7 @@
 ﻿---
 title: "Formation Continue Supply Chain pour Cadres au Maroc : Rester Compétitif"
 date: "2026-08-05"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/analytics.jpg"
 keywords: "formation continue supply chain Maroc, formation cadres logistique Maroc, développement professionnel supply chain, mise à niveau supply chain cadres"
 description: "Formation continue supply chain pour cadres et managers au Maroc : quelles compétences mettre à jour, comment rester compétitif face aux nouvelles technologies et méthodes."

@@ -1,7 +1,7 @@
 ﻿---
 title: "Schéma Directeur Logistique pour PME au Maroc : Méthode Adaptée 2026"
 date: "2026-08-04"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/conseil.jpg"
 keywords: "schéma directeur logistique pme maroc, plan directeur supply chain pme, stratégie logistique pme maroc, plan logistique entreprise maroc, roadmap supply chain maroc"
 description: "Comment construire un schéma directeur logistique adapté à une PME marocaine : méthode en 4 étapes, budget réaliste et livrables concrets. Sans le budget d'un grand groupe."
@@ -200,7 +200,7 @@ Essor Consulting réalise des schémas directeurs logistiques pour des PME et de
 - Des recommandations que vos équipes peuvent mettre en œuvre sans 6 mois de formation
 - Un business case honnête — si le ROI n'est pas au rendez-vous, on vous le dit
 
-Contactez-nous pour un premier échange sans engagement : **b.youssef@essor.ma** · **+212 06 63 44 92 00**
+Contactez-nous pour un premier échange sans engagement : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
 
 ---
 

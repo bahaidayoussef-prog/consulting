@@ -1,7 +1,7 @@
 ﻿---
 title: "Emploi Supply Chain à Tanger et Kénitra : Le Boom Automobile"
 date: "2026-08-05"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/transport.jpg"
 keywords: "emploi supply chain Tanger, emploi logistique Tanger, emploi supply chain Kénitra, travail logistique Tanger Med, emploi automobile Tanger"
 description: "Emploi supply chain à Tanger et Kénitra en 2026 : le boom automobile, les entreprises qui recrutent, les salaires et comment postuler dans l'écosystème industriel."

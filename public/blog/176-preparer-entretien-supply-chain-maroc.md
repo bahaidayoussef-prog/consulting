@@ -1,7 +1,7 @@
 ﻿---
 title: "Préparer un Entretien Supply Chain au Maroc : Guide Complet"
 date: "2026-08-05"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/conseil.jpg"
 keywords: "préparer entretien supply chain Maroc, entretien emploi logistique Maroc, questions entretien supply chain, réussir entretien logistique Maroc"
 description: "Comment préparer un entretien d'embauche supply chain au Maroc ? Recherche entreprise, réponses aux questions, présentation — le guide complet pour réussir."

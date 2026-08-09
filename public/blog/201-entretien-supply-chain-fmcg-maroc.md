@@ -1,7 +1,7 @@
 ﻿---
 title: "Entretien Supply Chain dans le FMCG au Maroc : Guide Pratique"
 date: "2026-08-05"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/hero-supply-chain.jpg"
 keywords: "entretien supply chain FMCG Maroc, recrutement logistique agroalimentaire Maroc, questions SC grande consommation, entretien supply chain Nestlé Danone Maroc"
 description: "Comment réussir un entretien supply chain dans le secteur FMCG (grande consommation) au Maroc ? Les enjeux spécifiques, les questions types et ce que Nestlé, Danone, Unilever évaluent."

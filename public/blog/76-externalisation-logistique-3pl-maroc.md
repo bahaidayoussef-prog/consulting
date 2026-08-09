@@ -1,7 +1,7 @@
 ﻿---
 title: "Externalisation Logistique au Maroc : Quand et Comment Choisir un 3PL 2026"
 date: "2026-08-04"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/hero-warehouse.jpg"
 keywords: "externalisation logistique maroc, 3PL maroc, prestataire logistique maroc, outsourcing logistique maroc, choisir 3PL maroc"
 description: "Externaliser sa logistique au Maroc : avantages, risques, critères de sélection d'un 3PL et cahier des charges. Retour terrain sur 20+ dossiers d'externalisation au Maroc."
@@ -172,7 +172,7 @@ Essor Consulting accompagne les entreprises marocaines dans leurs projets d'exte
 - **Négociation contractuelle** : SLA, tarifs, conditions de sortie
 - **Pilotage de la transition** : de votre logistique interne vers le 3PL
 
-Contactez-nous pour un premier diagnostic : **b.youssef@essor.ma** · **+212 06 63 44 92 00**
+Contactez-nous pour un premier diagnostic : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
 
 ---
 

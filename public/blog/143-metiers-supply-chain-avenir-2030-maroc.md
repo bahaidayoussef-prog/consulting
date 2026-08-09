@@ -1,7 +1,7 @@
 ﻿---
 title: "Les Métiers Supply Chain d'Avenir au Maroc à l'Horizon 2030"
 date: "2026-08-05"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/hero-supply-chain.jpg"
 keywords: "métiers supply chain avenir Maroc 2030, emploi logistique futur Maroc, nouveaux métiers supply chain, compétences supply chain 2030"
 description: "Quels seront les métiers supply chain les plus demandés au Maroc en 2030 ? Les compétences à acquérir maintenant pour se positionner sur les postes de demain."

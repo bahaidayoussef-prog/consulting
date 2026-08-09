@@ -1,7 +1,7 @@
 ﻿---
 title: "LinkedIn pour les Logisticiens au Maroc : Profil qui Attire les Recruteurs"
 date: "2026-08-05"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/office.jpg"
 keywords: "LinkedIn supply chain Maroc, profil LinkedIn logisticien, LinkedIn recrutement logistique Maroc, optimiser LinkedIn supply chain"
 description: "Comment optimiser son profil LinkedIn pour être recruté en supply chain au Maroc ? Photo, titre, résumé, expériences, recommandations — le guide complet."

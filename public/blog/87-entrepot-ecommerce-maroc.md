@@ -1,7 +1,7 @@
 ﻿---
 title: "Entrepôt E-Commerce au Maroc : Fulfillment, Last Mile et Organisation 2026"
 date: "2026-08-04"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/hero-warehouse.jpg"
 keywords: "entrepôt e-commerce maroc, logistique e-commerce maroc, fulfillment maroc, last mile e-commerce maroc, préparation commandes e-commerce maroc"
 description: "Logistique e-commerce au Maroc 2026 : organisation du fulfillment, spécificités de l'entrepôt e-commerce, last mile livraison et retours. Guide opérationnel pour les marchands marocains."
@@ -187,7 +187,7 @@ Essor Consulting accompagne les marchands e-commerce marocains dans la conceptio
 - Organisation de la reverse logistics (retours)
 - Formation des équipes fulfillment
 
-Contactez-nous : **b.youssef@essor.ma** · **+212 06 63 44 92 00**
+Contactez-nous : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
 
 ---
 

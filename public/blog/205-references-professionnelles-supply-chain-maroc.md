@@ -1,7 +1,7 @@
 ﻿---
 title: "Les Références Professionnelles en Entretien Supply Chain au Maroc"
 date: "2026-08-05"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/conseil.jpg"
 keywords: "références professionnelles supply chain Maroc, background check logistique Maroc, lettres de recommandation SC Maroc, vérification références emploi Maroc"
 description: "Comment gérer les références professionnelles dans votre recherche d'emploi supply chain au Maroc ? Qui choisir, comment les préparer, et comment les recruteurs font leur vérification."

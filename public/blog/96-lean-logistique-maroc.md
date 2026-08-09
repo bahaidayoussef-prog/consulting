@@ -1,7 +1,7 @@
 ﻿---
 title: "Lean Logistique au Maroc : Méthodes, Outils et Résultats Terrain 2026"
 date: "2026-08-04"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/hero-warehouse.jpg"
 keywords: "lean logistique maroc, amélioration continue entrepôt maroc, lean supply chain maroc, 5S entrepôt maroc, kaizen logistique maroc"
 description: "Lean logistique au Maroc : 5S, VSM, Kaizen appliqués à l'entrepôt et à la supply chain. Méthodes concrètes et résultats chiffrés issus de 20+ ans de terrain au Maroc."
@@ -200,7 +200,7 @@ Essor Consulting anime des chantiers lean logistique au Maroc depuis plus de 20 
 - **Programme lean complet** (3 à 12 mois) : accompagnement structuré avec suivi des résultats
 - **Formation lean pour managers** : former vos responsables à piloter l'amélioration continue en autonomie
 
-Contactez-nous pour un diagnostic lean de votre entrepôt : **b.youssef@essor.ma** · **+212 06 63 44 92 00**
+Contactez-nous pour un diagnostic lean de votre entrepôt : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
 
 ---
 

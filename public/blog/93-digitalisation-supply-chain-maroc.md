@@ -1,7 +1,7 @@
 ﻿---
 title: "Digitalisation de la Supply Chain au Maroc : IoT, IA et Outils Concrets 2026"
 date: "2026-08-04"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/analytics.jpg"
 keywords: "digitalisation supply chain maroc, transformation digitale logistique maroc, iot logistique maroc, intelligence artificielle supply chain maroc, erp logistique maroc"
 description: "Digitalisation de la supply chain au Maroc : ERP, WMS, TMS, IoT, IA — quels outils pour quels enjeux, comment prioriser et éviter les pièges. Guide opérationnel 2026."
@@ -220,7 +220,7 @@ Essor Consulting accompagne les entreprises marocaines dans leur transformation 
 - **Formation des équipes** : adoption des outils, pilotage par les KPIs
 - **Optimisation post-implémentation** : paramétrage fin, correction des écarts
 
-Contactez-nous : **b.youssef@essor.ma** · **+212 06 63 44 92 00**
+Contactez-nous : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
 
 ---
 

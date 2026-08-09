@@ -1,7 +1,7 @@
 ﻿---
 title: "Layout Entrepôt : Les 5 Principes d'une Conception Efficace au Maroc"
 date: "2026-08-04"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/hero-warehouse.jpg"
 keywords: "layout entrepôt maroc, aménagement entrepôt, conception entrepôt logistique, implantation entrepôt efficace, organisation entrepôt maroc"
 description: "Les 5 principes fondamentaux d'un layout entrepôt efficace au Maroc : séparation des flux, règle ABC, dimensionnement des allées et des quais. Exemples chiffrés."
@@ -208,7 +208,7 @@ Essor Consulting propose des missions de conception ou de reconfiguration de lay
 - Plan de sécurité et conformité
 - Simulation et validation avant mise en œuvre
 
-Contactez-nous pour un premier diagnostic de votre layout : **b.youssef@essor.ma** · **+212 06 63 44 92 00**
+Contactez-nous pour un premier diagnostic de votre layout : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
 
 ---
 

@@ -1,7 +1,7 @@
 ﻿---
 title: "Déploiement WMS au Maroc : Méthode, Délais et Facteurs de Succès 2026"
 date: "2026-08-04"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/analytics.jpg"
 keywords: "déploiement WMS maroc, implémentation WMS maroc, projet WMS entrepôt, choisir WMS maroc, warehouse management system maroc"
 description: "Comment réussir le déploiement d'un WMS au Maroc : 5 phases, budget réel, facteurs de succès et pièges à éviter. Retours terrain de 12+ projets WMS au Maroc."
@@ -176,7 +176,7 @@ Essor Consulting accompagne les entreprises marocaines sur toutes les phases d'u
 - **Formation des équipes** : opérateurs, chefs d'équipe, responsable logistique
 - **Audit post-démarrage** : diagnostic des points bloquants 3 à 6 mois après le go-live
 
-Contactez-nous pour un premier cadrage de votre projet WMS : **b.youssef@essor.ma** · **+212 06 63 44 92 00**
+Contactez-nous pour un premier cadrage de votre projet WMS : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
 
 ---
 

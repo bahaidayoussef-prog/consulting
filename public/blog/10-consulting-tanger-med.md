@@ -1,7 +1,7 @@
 ﻿---
 title: "Conseil Supply Chain Tanger Med — Expert Logistique Hub Port"
 date: "2026-06-21"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/transport.jpg"
 keywords: "consultant supply chain Tanger, conseil Tanger Med, logistique port Tanger, optimisation export Maroc"
 description: "Expert supply chain pour Tanger Med et zone franche. Focus export, ports, logistique internationale. Audit, formation, digitalisation."
@@ -45,7 +45,7 @@ Tanger, Maroc · Spécialisé Logistique Portuaire & Export
 
 ## Contact Tanger
 
-📧 bahaidayoussef@gmail.com | 📞 +212 663 449 200
+📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
 
 **Coverage :** Tanger, Tanger Med zone franche, Tétouan
 

@@ -1,7 +1,7 @@
 ﻿---
 title: "Programme de Formation Supply Chain Management pour Cadres au Maroc 2026"
 date: "2026-08-04"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/conseil.jpg"
 keywords: "formation supply chain management cadres maroc, programme supply chain manager maroc, formation directeur supply chain maroc, certification supply chain maroc, executive supply chain formation"
 description: "Programme de formation supply chain management pour cadres et managers au Maroc : compétences stratégiques, S&OP, pilotage par les données, certifications APICS. Par Essor Consulting."
@@ -208,7 +208,7 @@ Essor Consulting propose des programmes de formation supply chain pour cadres et
 
 👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
-Contactez-nous pour construire votre programme sur mesure : **b.youssef@essor.ma** · **+212 06 63 44 92 00**
+Contactez-nous pour construire votre programme sur mesure : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
 
 ---
 

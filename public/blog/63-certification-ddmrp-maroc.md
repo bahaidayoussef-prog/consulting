@@ -1,7 +1,7 @@
 ﻿---
 title: "Certification DDMRP au Maroc : Tout Savoir pour Devenir Practitioner"
 date: "2026-07-22"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/charts.jpg"
 keywords: "certification ddmrp maroc, formation ddmrp casablanca, demand driven mrp maroc, ddmrp practitioner maroc, planification supply chain maroc"
 description: "Guide complet sur la certification DDMRP au Maroc : qu'est-ce que le Demand Driven MRP, comment se certifier, quels bénéfices pour votre entreprise."

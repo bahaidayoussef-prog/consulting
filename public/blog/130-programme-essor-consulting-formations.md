@@ -1,7 +1,7 @@
 ﻿---
 title: "Programmes de Formation Essor Consulting : Catalogue Complet 2026"
 date: "2026-08-05"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/conseil.jpg"
 keywords: "formation Essor Consulting Maroc, catalogue formation supply chain Maroc, programme formation logistique Essor, formation Youssef"
 description: "Catalogue complet des formations Essor Consulting au Maroc : supply chain, achats, entrepôt, planification, DDMRP. Programmes inter et intra-entreprises, certification incluse."

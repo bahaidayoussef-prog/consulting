@@ -1,7 +1,7 @@
 ﻿---
 title: "Plan de Carrière sur 5 Ans en Supply Chain au Maroc : Mode d'Emploi"
 date: "2026-08-05"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/business.jpg"
 keywords: "plan carrière supply chain Maroc 5 ans, objectifs carrière logistique Maroc, plan développement professionnel supply chain, stratégie carrière logistique"
 description: "Comment construire un plan de carrière supply chain sur 5 ans au Maroc ? Méthode, objectifs SMART, compétences à développer et jalons de progression."

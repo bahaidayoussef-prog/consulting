@@ -1,7 +1,7 @@
 ﻿---
 title: "TMS au Maroc : Optimiser le Transport avec un Logiciel de Gestion 2026"
 date: "2026-08-04"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/analytics.jpg"
 keywords: "TMS maroc, logiciel gestion transport maroc, optimisation transport maroc, transport management system maroc, réduction coûts transport maroc"
 description: "Comment un TMS réduit vos coûts de transport au Maroc : fonctionnalités, sélection, budget et ROI. Retours terrain de 12+ projets transport au Maroc et Afrique."
@@ -183,7 +183,7 @@ Essor Consulting accompagne les entreprises marocaines sur l'optimisation de leu
 - **Optimisation des tournées** : même sans TMS — analyse des tournées existantes et recommandations
 - **Renégociation transporteurs** : benchmarking tarifaire + préparation des négociations
 
-Contactez-nous pour un premier bilan de votre situation transport : **b.youssef@essor.ma** · **+212 06 63 44 92 00**
+Contactez-nous pour un premier bilan de votre situation transport : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
 
 ---
 

@@ -1,7 +1,7 @@
 ﻿---
 title: "50 Questions d'Entretien Supply Chain et leurs Meilleures Réponses"
 date: "2026-08-05"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/conseil.jpg"
 keywords: "questions entretien supply chain Maroc, réponses entretien logistique, questions recrutement supply chain, entretien responsable supply chain Maroc"
 description: "Les 50 questions les plus fréquentes en entretien supply chain au Maroc, avec les réponses structurées pour vous distinguer."

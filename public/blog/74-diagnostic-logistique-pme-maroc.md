@@ -1,7 +1,7 @@
 ﻿---
 title: "Auto-Diagnostic Logistique PME au Maroc : 20 Questions pour Évaluer votre Supply Chain"
 date: "2026-08-04"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/analytics.jpg"
 keywords: "diagnostic logistique pme maroc, auto-diagnostic supply chain, évaluation logistique entreprise maroc, bilan logistique pme, check-list supply chain maroc"
 description: "20 questions pour auto-diagnostiquer la performance logistique de votre PME au Maroc. Scoring, résultats et plan d'action. Outil gratuit basé sur 110+ audits terrain."
@@ -239,7 +239,7 @@ Vous avez complété ce diagnostic et souhaitez passer à l'étape suivante ? Es
 - Visite terrain (entrepôt, zone de réception, expédition)
 - Rapport d'orientation avec les 5 priorités et le ROI estimé
 
-Contactez-nous pour programmer votre diagnostic : **b.youssef@essor.ma** · **+212 06 63 44 92 00**
+Contactez-nous pour programmer votre diagnostic : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
 
 ---
 

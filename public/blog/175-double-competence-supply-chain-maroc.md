@@ -1,7 +1,7 @@
 ﻿---
 title: "La Double Compétence : L'Arme Secrète des Profils Supply Chain au Maroc"
 date: "2026-08-05"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/business.jpg"
 keywords: "double compétence supply chain Maroc, profil hybride logistique, supply chain data Maroc, supply chain finance Maroc, compétences combinées logistique"
 description: "Comment la double compétence supply chain + une autre expertise (data, finance, digital, RSE) vous positionne sur les postes les plus rares et les mieux rémunérés au Maroc."

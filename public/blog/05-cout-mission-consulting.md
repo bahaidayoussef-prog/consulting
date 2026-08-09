@@ -1,7 +1,7 @@
 ﻿---
 title: "Combien Coûte une Mission de Consulting Supply Chain?"
 date: "2026-06-21"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/conseil.jpg"
 keywords: "coût consulting supply chain, devis mission, budget conseil logistique, ROI conseil"
 description: "Transparent : les coûts réels d'une mission de consulting supply chain. Modèles pricing, facteurs, et ROI."
@@ -374,4 +374,4 @@ No commitment. Transparent. Honnête.
 **Essor Consulting**  
 Directeur des Achats | Expert Supply Chain & Transformation Digitale  
 Essor Consulting — Casablanca, Maroc  
-📧 bahaidayoussef@gmail.com | 📞 +212 663 449 200
+📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200

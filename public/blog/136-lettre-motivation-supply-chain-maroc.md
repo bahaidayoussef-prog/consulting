@@ -1,7 +1,7 @@
 ﻿---
 title: "Lettre de Motivation Supply Chain au Maroc : Modèle et Conseils"
 date: "2026-08-05"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/office.jpg"
 keywords: "lettre motivation supply chain Maroc, lettre candidature logistique, modèle lettre motivation logisticien, lettre motivation acheteur Maroc"
 description: "Comment rédiger une lettre de motivation supply chain percutante au Maroc ? Structure, modèle complet, erreurs à éviter et conseils d'un expert du secteur."

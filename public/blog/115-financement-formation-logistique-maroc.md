@@ -1,7 +1,7 @@
 ﻿---
 title: "Financer sa Formation Logistique au Maroc : Toutes les Options en 2026"
 date: "2026-08-05"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/office.jpg"
 keywords: "financement formation logistique Maroc, OFPPT formation supply chain, financer formation professionnelle Maroc, bourse formation logistique"
 description: "Comment financer sa formation supply chain au Maroc en 2026 ? OFPPT, plan de formation entreprise, GIAC, financement personnel — toutes les options expliquées."

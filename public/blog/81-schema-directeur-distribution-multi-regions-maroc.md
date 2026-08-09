@@ -1,7 +1,7 @@
 ﻿---
 title: "Schéma Directeur Distribution Multi-Régions au Maroc : Stratégie et Mise en Œuvre 2026"
 date: "2026-08-04"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/charts.jpg"
 keywords: "schéma directeur distribution maroc, stratégie distribution multi-régionale maroc, réseau distribution régional maroc, expansion logistique maroc, couverture nationale distribution maroc"
 description: "Construire une stratégie de distribution multi-régionale au Maroc : modèles de réseau, décision hub vs dépôt, politique de stock et plan d'expansion. Méthode et cas réels."
@@ -187,7 +187,7 @@ Essor Consulting accompagne les entreprises marocaines dans leur déploiement mu
 - Pilotage de l'ouverture des premiers dépôts
 - Mise en place de la gouvernance réseau
 
-Contactez-nous : **b.youssef@essor.ma** · **+212 06 63 44 92 00**
+Contactez-nous : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
 
 ---
 

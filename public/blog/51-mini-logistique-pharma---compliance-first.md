@@ -1,7 +1,7 @@
 ﻿---
 title: "Logistique Pharma - Compliance First"
 date: "2026-06-21"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/pharma.jpg"
 type: "mini-article"
 keywords: "pharma, compliance"
@@ -25,7 +25,7 @@ Cas anonymisé avec ROI, timeline, et méthodologie applicable à votre situatio
 
 Vous reconnaissez votre situation? Audit gratuit 2-3 jours.
 
-**Contact:** bahaidayoussef@gmail.com | +212 663 449 200
+**Contact:** essor.consulting.maroc@gmail.com | +212 663 449 200
 
 ---
 

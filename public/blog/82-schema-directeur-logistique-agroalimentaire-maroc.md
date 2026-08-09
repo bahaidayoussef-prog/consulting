@@ -1,7 +1,7 @@
 ﻿---
 title: "Schéma Directeur Logistique Agroalimentaire au Maroc : Méthode et Enjeux 2026"
 date: "2026-08-04"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/conseil.jpg"
 keywords: "logistique agroalimentaire maroc, schéma directeur agroalimentaire maroc, supply chain alimentaire maroc, chaîne du froid maroc, traçabilité agroalimentaire maroc"
 description: "Schéma directeur logistique pour l'industrie agroalimentaire marocaine : chaîne du froid, traçabilité ONSSA, saisonnalité et conformité export. Méthode et cas concrets 2026."
@@ -203,7 +203,7 @@ Essor Consulting accompagne les entreprises agroalimentaires marocaines dans la 
 - **Mise en place des outils de traçabilité** : WMS, codification lots, FEFO
 - **Formation des équipes** : hygiène et sécurité alimentaire, traçabilité, logistique export
 
-Contactez-nous : **b.youssef@essor.ma** · **+212 06 63 44 92 00**
+Contactez-nous : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
 
 ---
 

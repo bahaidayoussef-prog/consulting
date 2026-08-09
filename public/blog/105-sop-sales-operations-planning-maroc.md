@@ -1,7 +1,7 @@
 ﻿---
 title: "S&OP au Maroc : Comment Aligner Ventes et Opérations pour Gagner 20%"
 date: "2026-08-05"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/charts.jpg"
 keywords: "S&OP Maroc, Sales Operations Planning Maroc, planification intégrée supply chain, alignement ventes opérations, S&OP PME Maroc"
 description: "Le S&OP (Sales & Operations Planning) réduit les stocks de 20% et les ruptures de 30% en 90 jours. Guide complet pour le mettre en place dans une PME/ME marocaine."

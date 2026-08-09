@@ -1,7 +1,7 @@
 ﻿---
 title: "Audit Supply Chain au Maroc : Diagnostiquer et Transformer en 2026"
 date: "2026-08-04"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/conseil.jpg"
 keywords: "audit supply chain maroc, diagnostic logistique maroc, bilan supply chain pme, analyse chaîne approvisionnement maroc, consultant audit logistique casablanca"
 description: "Comment diagnostiquer votre supply chain au Maroc : méthodologie d'audit en 3 phases, 10 signaux d'alarme, coûts réels et ROI. Basé sur 110+ missions Essor Consulting."
@@ -188,7 +188,7 @@ Essor Consulting réalise des audits supply chain et logistique au Maroc et en A
 
 **Notre engagement :** chaque audit Essor identifie des gains supérieurs à son coût, ou nous vous remboursons la différence.
 
-Contactez-nous pour un premier échange de 30 minutes, sans engagement : **b.youssef@essor.ma** · **+212 06 63 44 92 00**
+Contactez-nous pour un premier échange de 30 minutes, sans engagement : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
 
 ---
 

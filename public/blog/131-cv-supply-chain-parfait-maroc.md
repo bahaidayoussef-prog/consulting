@@ -1,7 +1,7 @@
 ﻿---
 title: "CV Supply Chain Parfait au Maroc : Structure, Contenu et Erreurs à Éviter"
 date: "2026-08-05"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/office.jpg"
 keywords: "CV supply chain Maroc, rédiger CV logistique Maroc, CV responsable logistique, CV acheteur Maroc, modèle CV supply chain"
 description: "Comment rédiger un CV supply chain qui attire les recruteurs au Maroc ? Structure, mots-clés, erreurs à éviter et exemples de formulations percutantes. Guide 2026."

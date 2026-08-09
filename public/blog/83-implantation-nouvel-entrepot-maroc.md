@@ -1,7 +1,7 @@
 ﻿---
 title: "Implantation d'un Entrepôt au Maroc : Guide Complet de A à Z"
 date: "2026-08-04"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/hero-warehouse.jpg"
 keywords: "implantation entrepôt maroc, ouverture entrepôt maroc, conception entrepôt logistique, projet entrepôt maroc, logistique entrepôt casablanca"
 description: "Guide complet pour implanter un nouvel entrepôt au Maroc : localisation, layout, équipements, WMS, équipes. 7 phases, budgets réels et pièges à éviter."
@@ -232,7 +232,7 @@ Essor Consulting accompagne les entreprises marocaines sur **l'ensemble du cycle
 
 **Nous sommes indépendants de tout éditeur logiciel et de tout équipementier.** Notre recommandation est toujours celle qui sert votre performance, pas notre commission.
 
-Contactez-nous : **b.youssef@essor.ma** · **+212 06 63 44 92 00**
+Contactez-nous : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
 
 ---
 

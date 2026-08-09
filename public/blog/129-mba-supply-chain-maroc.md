@@ -1,7 +1,7 @@
 ﻿---
 title: "MBA Supply Chain au Maroc : Vaut-il le Coût et le Temps Investi ?"
 date: "2026-08-05"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/office.jpg"
 keywords: "MBA supply chain Maroc, executive MBA logistique Maroc, formation master supply chain Maroc, diplôme supply chain executive Maroc"
 description: "Un MBA supply chain au Maroc vaut-il l'investissement ? Comparatif des programmes, coût réel, impact salarial et alternatives pour progresser sans MBA."

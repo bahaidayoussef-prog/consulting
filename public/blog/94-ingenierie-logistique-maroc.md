@@ -1,7 +1,7 @@
 ﻿---
 title: "Ingénierie Logistique au Maroc : Conception, Flux et Optimisation 2026"
 date: "2026-08-04"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/charts.jpg"
 keywords: "ingénierie logistique maroc, bureau d'étude logistique maroc, conception flux logistiques, optimisation supply chain maroc, ingénieur logistique casablanca"
 description: "L'ingénierie logistique au Maroc : définition, missions, outils de simulation des flux et différence avec le consulting opérationnel. Par Essor Consulting, 110+ missions."
@@ -177,7 +177,7 @@ Essor Consulting dispose d'une expertise combinée consulting + ingénierie logi
 
 **Notre différence :** nos ingénieurs logistiques ont tous une double compétence terrain (ils ont piloté des opérations) et méthodologique (ils savent modéliser). Ils ne conçoivent pas dans l'abstrait — ils conçoivent ce qui fonctionne dans la réalité marocaine.
 
-Contactez-nous pour discuter de votre projet : **b.youssef@essor.ma** · **+212 06 63 44 92 00**
+Contactez-nous pour discuter de votre projet : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
 
 ---
 

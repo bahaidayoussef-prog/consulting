@@ -1,7 +1,7 @@
 ﻿---
 title: "Entretien Supply Chain dans l'Industrie Automobile au Maroc"
 date: "2026-08-05"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/transport.jpg"
 keywords: "entretien supply chain automobile Maroc, recrutement logistique Renault Stellantis Maroc, entretien logistique automobile Tanger Kénitra, questions SC automobile"
 description: "Comment réussir un entretien supply chain dans l'industrie automobile au Maroc (Renault, Stellantis, équipementiers) ? Les codes, les questions techniques, et ce qu'on attend."

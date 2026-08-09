@@ -1,7 +1,7 @@
 ﻿---
 title: "Formation Supply Chain Manager au Maroc : Devenir SCM en 2026"
 date: "2026-07-29"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/hero-supply-chain.jpg"
 keywords: "formation supply chain manager maroc, scm maroc formation, supply chain manager casablanca, certification supply chain maroc, chef de projet supply chain"
 description: "Guide complet pour devenir Supply Chain Manager au Maroc en 2026 : formations, certifications CPIM/CSCMP, compétences requises et débouchés professionnels."

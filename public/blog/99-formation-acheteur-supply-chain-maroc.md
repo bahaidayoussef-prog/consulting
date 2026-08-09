@@ -1,7 +1,7 @@
 ﻿---
 title: "Formation Acheteur Supply Chain au Maroc : Négociation, Sourcing et Pilotage Fournisseurs 2026"
 date: "2026-08-04"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/conseil.jpg"
 keywords: "formation acheteur supply chain maroc, formation négociation achats maroc, sourcing fournisseurs maroc, formation pilotage fournisseurs maroc, achats stratégiques supply chain maroc"
 description: "Formation acheteur supply chain au Maroc : négociation, sourcing, évaluation fournisseurs et réduction des coûts. Programme avancé pour acheteurs et responsables achats en supply chain."
@@ -181,7 +181,7 @@ Essor Consulting forme les acheteurs et responsables achats supply chain au Maro
 
 👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
-Contactez-nous : **b.youssef@essor.ma** · **+212 06 63 44 92 00**
+Contactez-nous : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
 
 ---
 

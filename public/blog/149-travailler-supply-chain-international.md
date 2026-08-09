@@ -1,7 +1,7 @@
 ﻿---
 title: "Travailler en Supply Chain à l'International depuis le Maroc"
 date: "2026-08-05"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/transport.jpg"
 keywords: "travailler international supply chain Maroc, expatriation logistique, carrière internationale supply chain marocain, supply chain Afrique internationale"
 description: "Comment les professionnels supply chain marocains peuvent accéder à des postes internationaux : les destinations, les stratégies, et les compétences pour se positionner."

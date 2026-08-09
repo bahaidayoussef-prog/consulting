@@ -1,7 +1,7 @@
 ﻿---
 title: "Formation Responsable Logistique au Maroc : Devenir Opérationnel en 3 Mois"
 date: "2026-08-05"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/hero-warehouse.jpg"
 keywords: "formation responsable logistique Maroc, devenir responsable logistique, cursus logistique Maroc, formation chef logistique Maroc"
 description: "La formation Responsable Logistique au Maroc : compétences clés, programme recommandé, salaires et comment être opérationnel en 3 mois. Guide 2026."

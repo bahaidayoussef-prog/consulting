@@ -1,7 +1,7 @@
 ﻿---
 title: "Entretien pour un Poste d'Acheteur Professionnel au Maroc : Guide Complet"
 date: "2026-08-05"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/business.jpg"
 keywords: "entretien acheteur professionnel Maroc, recrutement acheteur logistique Maroc, poste acheteur supply chain entretien Maroc, questions entretien acheteur"
 description: "Comment réussir l'entretien pour un poste d'acheteur professionnel au Maroc ? Questions techniques, mises en situation négociation, et ce que les recruteurs évaluent vraiment."

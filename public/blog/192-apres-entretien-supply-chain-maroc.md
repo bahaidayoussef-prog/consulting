@@ -1,7 +1,7 @@
 ﻿---
 title: "Après l'Entretien Supply Chain : Ce qu'il Faut Faire"
 date: "2026-08-05"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/office.jpg"
 keywords: "après entretien supply chain Maroc, suivi entretien logistique Maroc, relance entretien supply chain, attendre réponse entretien logistique"
 description: "Que faire après un entretien supply chain au Maroc ? Email de suivi, relance, analyse de l'entretien, et comment gérer l'attente d'une décision."

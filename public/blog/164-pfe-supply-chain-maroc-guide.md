@@ -1,7 +1,7 @@
 ﻿---
 title: "PFE Supply Chain au Maroc : Choisir son Sujet et Réussir sa Mission"
 date: "2026-08-05"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/formation.jpg"
 keywords: "PFE supply chain Maroc, projet fin études logistique Maroc, sujet PFE supply chain, mémoire supply chain Maroc"
 description: "Comment choisir son sujet de PFE en supply chain au Maroc, trouver une entreprise d'accueil, et réussir sa mission pour en faire un tremplin vers l'emploi."

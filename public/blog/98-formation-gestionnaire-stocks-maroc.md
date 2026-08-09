@@ -1,7 +1,7 @@
 ﻿---
 title: "Formation Gestionnaire de Stocks au Maroc : Métier, Compétences et Programme 2026"
 date: "2026-08-04"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/analytics.jpg"
 keywords: "formation gestionnaire de stocks maroc, gestionnaire stocks compétences maroc, formation approvisionnement maroc, gestion des stocks avancée maroc, DDMRP formation maroc"
 description: "Formation gestionnaire de stocks au Maroc : compétences clés, programme avancé, outils DDMRP et MRP, salaires et évolutions de carrière. Par Essor Consulting."
@@ -179,7 +179,7 @@ Essor Consulting forme les gestionnaires de stocks et les responsables approvisi
 
 👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
-Contactez-nous pour un programme adapté : **b.youssef@essor.ma** · **+212 06 63 44 92 00**
+Contactez-nous pour un programme adapté : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
 
 ---
 

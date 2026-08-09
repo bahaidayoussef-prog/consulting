@@ -1,7 +1,7 @@
 ﻿---
 title: "Case Study: Autoroutes du Maroc — Externalisation Pilotage: 1.2 Milliard MAD Budget"
 date: "2026-06-21"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/transport.jpg"
 type: "case-study"
 keywords: "Autoroutes, externalisation, SLA, gestion contrats"

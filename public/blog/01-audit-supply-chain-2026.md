@@ -1,7 +1,7 @@
 ﻿---
 title: "Audit Supply Chain 2026 : Les 10 Erreurs Critiques que les PME/ME Marocaines Commettent"
 date: "2026-06-21"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/conseil.jpg"
 keywords: "audit supply chain Maroc, diagnostic logistique, transformation supply chain, optimisation chaîne approvisionnement"
 description: "Découvrez les 10 erreurs critiques en supply chain que les PME marocaines commettent et comment les corriger. Basé sur 18 ans d'expertise et 110+ missions."
@@ -245,4 +245,4 @@ Ces 10 erreurs ne sont pas génétiques. Elles se corrigent. Et chaque correctio
 **Essor Consulting**  
 Directeur des Achats | Expert Supply Chain & Transformation Digitale  
 Essor Consulting — Casablanca, Maroc  
-📧 bahaidayoussef@gmail.com | 📞 +212 663 449 200
+📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200

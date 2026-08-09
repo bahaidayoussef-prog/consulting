@@ -1,7 +1,7 @@
 ﻿---
 title: "Logistique Industrielle au Maroc : Organisation, Flux et Performance 2026"
 date: "2026-08-04"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/hero-warehouse.jpg"
 keywords: "logistique industrielle maroc, supply chain industrielle maroc, flux de production maroc, logistique usine maroc, approvisionnement production maroc"
 description: "Logistique industrielle au Maroc : approvisionnement production, flux intra-usine, gestion des pièces de rechange et interface supply chain / production. Guide opérationnel 2026."
@@ -216,7 +216,7 @@ Essor Consulting accompagne les industriels marocains dans l'optimisation de leu
 - **Structuration du MRO** (codification, criticité, stocks de sécurité)
 - **Formation des équipes** logistique production et responsables planning
 
-Contactez-nous : **b.youssef@essor.ma** · **+212 06 63 44 92 00**
+Contactez-nous : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
 
 ---
 

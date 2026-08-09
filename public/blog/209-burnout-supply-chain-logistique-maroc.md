@@ -1,7 +1,7 @@
 ---
 title: "Burnout en Supply Chain au Maroc : Signaux et Prévention"
 date: "2026-08-07"
-author: "Youssef BAHAIDA"
+author: "Essor Consulting"
 image: "/images/office.jpg"
 keywords: "burnout supply chain maroc, épuisement professionnel logistique, stress responsable logistique, prévenir burnout maroc, gestion énergie manager supply chain"
 description: "Burnout en supply chain et logistique au Maroc : signaux d'alerte spécifiques aux métiers à astreinte, facteurs de risque du secteur et méthode de prévention terrain."

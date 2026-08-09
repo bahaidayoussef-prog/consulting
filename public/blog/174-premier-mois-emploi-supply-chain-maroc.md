@@ -1,7 +1,7 @@
 ﻿---
 title: "Réussir son Premier Mois dans un Emploi Supply Chain au Maroc"
 date: "2026-08-05"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/formation.jpg"
 keywords: "réussir premier mois emploi supply chain Maroc, intégration nouvel emploi logistique, premiers jours supply chain Maroc, onboarding supply chain"
 description: "Comment réussir son intégration lors du premier mois dans un emploi supply chain au Maroc ? Les actions clés, les erreurs à éviter, et comment créer rapidement une bonne impression."

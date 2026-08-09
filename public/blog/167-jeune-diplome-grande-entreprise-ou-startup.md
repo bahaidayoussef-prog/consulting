@@ -1,7 +1,7 @@
 ﻿---
 title: "Jeune Diplômé Supply Chain : Grande Entreprise ou Startup au Maroc ?"
 date: "2026-08-05"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/business.jpg"
 keywords: "grande entreprise startup supply chain Maroc, premier emploi grande boîte PME Maroc, choisir entreprise premier emploi supply chain, startup logistique Maroc"
 description: "Faut-il débuter en supply chain dans une grande entreprise ou une startup au Maroc ? Comparaison honnête des avantages et inconvénients pour faire le bon choix."

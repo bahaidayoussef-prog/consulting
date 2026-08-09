@@ -1,7 +1,7 @@
 ﻿---
 title: "Formation Négociation Achats au Maroc : Techniques et Cas Pratiques"
 date: "2026-08-05"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/business.jpg"
 keywords: "formation négociation achats Maroc, techniques négociation fournisseurs, négociation achats professionnelle, BATNA négociation Maroc"
 description: "Formation négociation achats au Maroc : BATNA, coût total, tactiques avancées. Les techniques qui permettent de gagner 8 à 15% sur les achats. Guide pratique 2026."

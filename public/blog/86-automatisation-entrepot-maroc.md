@@ -1,7 +1,7 @@
 ﻿---
 title: "Automatisation d'Entrepôt au Maroc : Solutions, Coûts et ROI 2026"
 date: "2026-08-04"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/hero-warehouse.jpg"
 keywords: "automatisation entrepôt maroc, robotisation logistique maroc, AGV maroc, entrepôt automatisé maroc, convoyeur entrepôt maroc"
 description: "Automatisation d'entrepôt au Maroc en 2026 : convoyeurs, AGV, tri automatique, cobots. Quand investir, quel ROI, et quelles solutions sont accessibles aux PME et ETI marocaines."
@@ -200,7 +200,7 @@ Essor Consulting accompagne les entreprises marocaines dans leurs projets d'auto
 - **Supervision de projet** côté maîtrise d'ouvrage
 - **Formation des équipes** aux nouveaux équipements et processus
 
-Contactez-nous pour une analyse préliminaire de votre potentiel d'automatisation : **b.youssef@essor.ma** · **+212 06 63 44 92 00**
+Contactez-nous pour une analyse préliminaire de votre potentiel d'automatisation : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
 
 ---
 

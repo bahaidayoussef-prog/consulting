@@ -1,7 +1,7 @@
 ﻿---
 title: "Combien de Temps pour une Transformation Supply Chain?"
 date: "2026-06-21"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/conseil.jpg"
 keywords: "durée transformation supply chain, timeline réaliste, implémentation supply chain, changement supply chain"
 description: "Timeline réaliste pour transformer votre supply chain. Audit à stabilisation : 3-6 mois si rapide, 12+ mois complet."
@@ -431,5 +431,5 @@ No pressure. Transparent. Honnête.
 **Essor Consulting**  
 Directeur des Achats | Expert Supply Chain & Transformation Digitale  
 Essor Consulting — Casablanca, Maroc  
-📧 bahaidayoussef@gmail.com | 📞 +212 663 449 200
+📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
 

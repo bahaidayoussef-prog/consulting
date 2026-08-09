@@ -1,7 +1,7 @@
 ﻿---
 title: "Guide Ultime : Réussir son Entretien Supply Chain au Maroc en 2026"
 date: "2026-08-05"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/hero-supply-chain.jpg"
 keywords: "guide ultime entretien supply chain Maroc, réussir entretien logistique Maroc 2026, préparation complète entretien SC Maroc, meilleur guide entretien supply chain"
 description: "Le guide de référence complet pour réussir votre entretien supply chain au Maroc en 2026 : de la préparation au suivi post-entretien, toutes les étapes clés en un seul article."

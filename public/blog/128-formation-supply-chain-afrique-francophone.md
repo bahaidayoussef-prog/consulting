@@ -1,7 +1,7 @@
 ﻿---
 title: "Formation Supply Chain en Afrique Francophone : Maroc, Sénégal, Côte d'Ivoire"
 date: "2026-08-05"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/hero-supply-chain.jpg"
 keywords: "formation supply chain Afrique francophone, formation logistique Afrique, supply chain manager Afrique, formation logistique Sénégal Côte d'Ivoire"
 description: "Les formations supply chain en Afrique francophone : Maroc, Sénégal, Côte d'Ivoire, Cameroun. Ce qui est disponible, ce qui manque, et comment se former à distance."

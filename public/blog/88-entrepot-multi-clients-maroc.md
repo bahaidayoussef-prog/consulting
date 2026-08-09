@@ -1,7 +1,7 @@
 ﻿---
 title: "Entrepôt Multi-Clients au Maroc : Mutualisation Logistique et Prestataires 3PL 2026"
 date: "2026-08-04"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/hero-warehouse.jpg"
 keywords: "entrepôt multi-clients maroc, prestataire logistique 3pl maroc, mutualisation logistique maroc, logistique externalisée maroc, entrepôt partagé maroc"
 description: "Entrepôt multi-clients et mutualisation logistique au Maroc : avantages, modèles d'organisation, critères de choix d'un 3PL et grille tarifaire 2026."
@@ -255,7 +255,7 @@ Essor Consulting accompagne les deux côtés de la relation 3PL :
 - Définition de la grille tarifaire
 - Formation des équipes exploitation et commerciale
 
-Contactez-nous : **b.youssef@essor.ma** · **+212 06 63 44 92 00**
+Contactez-nous : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
 
 ---
 

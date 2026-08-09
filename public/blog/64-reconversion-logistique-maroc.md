@@ -1,7 +1,7 @@
 ﻿---
 title: "Reconversion Professionnelle en Logistique au Maroc : Guide Pratique 2026"
 date: "2026-07-25"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/office.jpg"
 keywords: "reconversion logistique maroc, changer de carrière supply chain, formation reconversion logistique, emploi logistique sans diplôme maroc, débuter logistique maroc"
 description: "Vous voulez vous reconvertir en logistique au Maroc ? Ce guide pratique vous explique comment réussir votre transition, les formations à suivre et les secteurs qui recrutent."

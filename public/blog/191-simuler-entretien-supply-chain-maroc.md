@@ -1,7 +1,7 @@
 ﻿---
 title: "Simuler son Entretien Supply Chain : Méthodes et Exercices"
 date: "2026-08-05"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/formation.jpg"
 keywords: "simulation entretien supply chain Maroc, exercices préparation entretien logistique, mock interview supply chain, s'entraîner entretien supply chain"
 description: "Comment simuler un entretien supply chain pour se préparer efficacement ? Méthodes, exercices pratiques et ressources pour s'entraîner avant le vrai entretien."
