@@ -13,35 +13,31 @@ const NAV_LINKS = [
 
 export default function Nav() {
   const { pathname } = useLocation()
-  const isHome = pathname === '/'
 
   const [scrolled, setScrolled] = useState(false)
-  const [overHero, setOverHero] = useState(isHome)
   const [menuOpen, setMenuOpen] = useState(false)
   const [progress, setProgress] = useState(0)
 
   const handleScroll = useCallback(() => {
     const y = window.scrollY
     setScrolled(y > 40)
-    setOverHero(isHome && y < window.innerHeight * 0.82)
     const docH = document.documentElement.scrollHeight - window.innerHeight
     setProgress(docH > 0 ? (y / docH) * 100 : 0)
-  }, [isHome])
+  }, [])
 
   useEffect(() => {
-    setOverHero(isHome && window.scrollY < window.innerHeight * 0.82)
     setProgress(0)
     window.addEventListener('scroll', handleScroll, { passive: true })
     return () => window.removeEventListener('scroll', handleScroll)
-  }, [handleScroll, isHome])
+  }, [handleScroll])
 
   useEffect(() => {
     document.body.style.overflow = menuOpen ? 'hidden' : ''
     return () => { document.body.style.overflow = '' }
   }, [menuOpen])
 
-  const textCol = overHero ? 'rgba(227,226,226,0.7)' : 'var(--mid)'
-  const textHover = overHero ? 'var(--dark-text)' : 'var(--ink)'
+  const textCol = 'var(--mid)'
+  const textHover = 'var(--ink)'
 
   return (
     <>
@@ -59,14 +55,10 @@ export default function Nav() {
           alignItems: 'center',
           justifyContent: 'space-between',
           padding: '1.25rem var(--sp-x)',
-          background: overHero
-            ? 'linear-gradient(to bottom, rgba(13,11,8,0.75) 0%, transparent 100%)'
-            : scrolled
-            ? 'rgba(245,243,238,0.96)'
-            : 'rgba(245,243,238,0.92)',
-          backdropFilter: overHero ? 'none' : 'blur(20px) saturate(1.5)',
-          borderBottom: overHero ? '1px solid transparent' : '1px solid var(--border)',
-          boxShadow: !overHero && scrolled ? '0 2px 24px rgba(0,0,0,0.08)' : 'none',
+          background: scrolled ? 'rgba(245,243,238,0.96)' : 'rgba(245,243,238,0.92)',
+          backdropFilter: 'blur(20px) saturate(1.5)',
+          borderBottom: '1px solid var(--border)',
+          boxShadow: scrolled ? '0 2px 24px rgba(0,0,0,0.08)' : 'none',
           transition: 'background 0.5s ease, border-color 0.5s ease, box-shadow 0.3s ease',
         }}
       >
@@ -84,11 +76,7 @@ export default function Nav() {
           onMouseEnter={e => ((e.currentTarget as HTMLElement).style.opacity = '0.8')}
           onMouseLeave={e => ((e.currentTarget as HTMLElement).style.opacity = '1')}
         >
-          <LogoSVG
-            inkColor={overHero ? 'rgba(235,232,225,0.95)' : '#1b3554'}
-            subColor={overHero ? 'rgba(235,232,225,0.45)' : '#6b6560'}
-            height={32}
-          />
+          <LogoSVG inkColor="#1b3554" subColor="#6b6560" height={32} />
         </Link>
 
         {/* Desktop nav */}
@@ -140,8 +128,8 @@ export default function Nav() {
                 fontWeight: 600,
                 letterSpacing: '0.05em',
                 textTransform: 'uppercase',
-                color: overHero ? '#0e1f30' : 'var(--paper)',
-                background: overHero ? 'var(--gold)' : 'var(--ink)',
+                color: 'var(--paper)',
+                background: 'var(--ink)',
                 textDecoration: 'none',
                 padding: '0.6rem 1.4rem',
                 borderRadius: '2px',
@@ -154,8 +142,8 @@ export default function Nav() {
               }}
               onMouseLeave={e => {
                 const el = e.currentTarget as HTMLElement
-                el.style.background = overHero ? 'var(--gold)' : 'var(--ink)'
-                el.style.color = overHero ? '#0e1f30' : 'var(--paper)'
+                el.style.background = 'var(--ink)'
+                el.style.color = 'var(--paper)'
               }}
             >
               Prendre RDV
@@ -168,7 +156,7 @@ export default function Nav() {
           className={`hamburger${menuOpen ? ' open' : ''}`}
           onClick={() => setMenuOpen(v => !v)}
           aria-label={menuOpen ? 'Fermer le menu' : 'Ouvrir le menu'}
-          style={{ color: overHero || menuOpen ? 'var(--dark-text)' : 'var(--ink)' }}
+          style={{ color: 'var(--ink)' }}
         >
           <span /><span /><span />
         </button>

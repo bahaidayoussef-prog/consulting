@@ -108,7 +108,7 @@ function StickyCard({
           right: '2.5rem',
           top: '50%',
           transform: 'translateY(-50%)',
-          fontFamily: 'Bodoni Moda, serif',
+          fontFamily: 'Manrope, sans-serif',
           fontSize: 'clamp(5rem, 10vw, 9rem)',
           fontWeight: 900,
           color: 'rgba(184,146,42,0.04)',
@@ -132,10 +132,10 @@ function StickyCard({
             {item.type}
           </div>
           <h3 style={{
-            fontFamily: 'Bodoni Moda, serif',
+            fontFamily: 'Manrope, sans-serif',
             fontSize: 'clamp(1.1rem, 1.8vw, 1.5rem)',
             fontWeight: 800,
-            color: 'var(--dark-text)',
+            color: 'var(--navy)',
             lineHeight: 1.15,
             letterSpacing: '-0.02em',
             marginBottom: '1.25rem',
@@ -215,7 +215,7 @@ function StickyCard({
         }}>
           {/* Prix */}
           <div style={{
-            fontFamily: 'Bodoni Moda, serif',
+            fontFamily: 'Manrope, sans-serif',
             fontSize: 'clamp(0.95rem, 1.4vw, 1.25rem)',
             fontWeight: 800,
             lineHeight: 1.2,
@@ -247,7 +247,7 @@ function StickyCard({
               fontWeight: 600,
               letterSpacing: '0.1em',
               textTransform: 'uppercase',
-              color: 'var(--dark-text)',
+              color: 'var(--navy)',
               textDecoration: 'none',
               border: '1px solid rgba(27,53,84,0.2)',
               padding: '0.65rem 1.2rem',
@@ -262,7 +262,7 @@ function StickyCard({
             onMouseLeave={e => {
               const el = e.currentTarget
               el.style.borderColor = 'rgba(27,53,84,0.2)'
-              el.style.color = 'var(--dark-text)'
+              el.style.color = 'var(--navy)'
             }}
           >
             {item.cta}
@@ -307,12 +307,12 @@ export default function Formation() {
             marginBottom: '5rem',
           }}>
             <h2 style={{
-              fontFamily: 'Bodoni Moda, serif',
+              fontFamily: 'Manrope, sans-serif',
               fontSize: 'clamp(2.8rem, 5.5vw, 7rem)',
               fontWeight: 800,
               lineHeight: 0.92,
               letterSpacing: '-0.025em',
-              color: 'var(--dark-text)',
+              color: 'var(--navy)',
               margin: 0,
             }}>
               Former les équipes.

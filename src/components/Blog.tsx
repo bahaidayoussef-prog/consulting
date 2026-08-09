@@ -270,12 +270,12 @@ export default function Blog() {
 
             <h2
               style={{
-                fontFamily: 'Bodoni Moda, serif',
+                fontFamily: 'Manrope, sans-serif',
                 fontSize: 'clamp(2.5rem, 4vw, 5rem)',
                 fontWeight: 400,
                 lineHeight: 0.92,
                 letterSpacing: '-0.02em',
-                color: 'var(--dark-text)',
+                color: 'var(--navy)',
                 marginBottom: '3rem',
               }}
             >
@@ -381,11 +381,11 @@ export default function Blog() {
                     <div style={{ padding: '1.25rem', display: 'flex', flexDirection: 'column', flex: 1, gap: '0.75rem' }}>
                       <h3
                         style={{
-                          fontFamily: 'Bodoni Moda, serif',
+                          fontFamily: 'Manrope, sans-serif',
                           fontSize: 'clamp(1rem, 1.5vw, 1.375rem)',
                           fontWeight: 400,
                           lineHeight: 1.25,
-                          color: 'var(--dark-text)',
+                          color: 'var(--navy)',
                         }}
                       >
                         {post.title}
@@ -564,7 +564,7 @@ function BlogDetail({ post, onClose }: BlogDetailProps) {
           margin: '0 auto',
           padding: 'var(--sp-y-sm) var(--sp-x)',
           background: 'var(--dark)',
-          color: 'var(--dark-text)',
+          color: 'var(--navy)',
           minHeight: '100vh',
         }}
       >
@@ -578,7 +578,7 @@ function BlogDetail({ post, onClose }: BlogDetailProps) {
             height: '40px',
             background: 'transparent',
             border: '1px solid var(--dark-border)',
-            color: 'var(--dark-text)',
+            color: 'var(--navy)',
             fontSize: '1.25rem',
             cursor: 'pointer',
             display: 'flex',
@@ -592,7 +592,7 @@ function BlogDetail({ post, onClose }: BlogDetailProps) {
           }}
           onMouseLeave={(e) => {
             e.currentTarget.style.borderColor = 'var(--dark-border)'
-            e.currentTarget.style.color = 'var(--dark-text)'
+            e.currentTarget.style.color = 'var(--navy)'
           }}
           aria-label="Fermer"
         >
@@ -623,7 +623,7 @@ function BlogDetail({ post, onClose }: BlogDetailProps) {
 
           <h1
             style={{
-              fontFamily: 'Bodoni Moda, serif',
+              fontFamily: 'Manrope, sans-serif',
               fontSize: 'clamp(2rem, 5vw, 3.5rem)',
               fontWeight: 400,
               lineHeight: 1.1,
@@ -669,7 +669,7 @@ function BlogDetail({ post, onClose }: BlogDetailProps) {
             fontFamily: 'Jost, sans-serif',
             lineHeight: 1.8,
             fontSize: '1.0625rem',
-            color: 'var(--dark-text)',
+            color: 'var(--navy)',
           }}
           dangerouslySetInnerHTML={{ __html: post.htmlContent }}
         />

@@ -116,7 +116,7 @@ function ServiceRow({ s, index }: { s: typeof services[0]; index: number }) {
             transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1], delay: index * 0.07 }}
           >
             <div style={{
-              fontFamily: 'Bodoni Moda, serif',
+              fontFamily: 'Manrope, sans-serif',
               fontSize: 'clamp(1.5rem, 2.8vw, 3.2rem)',
               fontWeight: 800,
               lineHeight: 1.0,
@@ -197,7 +197,7 @@ function ServiceRow({ s, index }: { s: typeof services[0]; index: number }) {
                       fontSize: '0.6rem',
                       letterSpacing: '0.18em',
                       textTransform: 'uppercase',
-                      color: tier.featured ? 'rgba(192,154,47,0.7)' : 'rgba(107,101,96,0.6)',
+                      color: tier.featured ? 'rgba(192,154,47,0.7)' : 'rgba(95,102,114,0.6)',
                       marginBottom: '0.75rem',
                     }}>
                       {tier.name}
@@ -205,7 +205,7 @@ function ServiceRow({ s, index }: { s: typeof services[0]; index: number }) {
 
                     {/* Price — focal point */}
                     <div style={{
-                      fontFamily: 'Bodoni Moda, serif',
+                      fontFamily: 'Manrope, sans-serif',
                       fontSize: 'clamp(1.1rem, 1.8vw, 1.5rem)',
                       fontWeight: 800,
                       lineHeight: 1.15,
@@ -222,7 +222,7 @@ function ServiceRow({ s, index }: { s: typeof services[0]; index: number }) {
                       fontSize: '0.65rem',
                       letterSpacing: '0.1em',
                       textTransform: 'uppercase',
-                      color: tier.featured ? 'rgba(235,232,225,0.45)' : 'rgba(107,101,96,0.65)',
+                      color: tier.featured ? 'rgba(235,232,225,0.45)' : 'rgba(95,102,114,0.65)',
                       marginBottom: '2rem',
                       paddingBottom: '1.5rem',
                       borderBottom: `1px solid ${tier.featured ? 'rgba(255,255,255,0.06)' : 'rgba(27,53,84,0.08)'}`,
@@ -231,7 +231,7 @@ function ServiceRow({ s, index }: { s: typeof services[0]; index: number }) {
                     </div>
 
                     <a
-                      href="#contact"
+                      href="/contact"
                       style={{
                         display: 'inline-flex',
                         alignItems: 'center',
@@ -323,7 +323,7 @@ export default function Conseil() {
             </div>
             <h2
               style={{
-                fontFamily: 'Bodoni Moda, serif',
+                fontFamily: 'Manrope, sans-serif',
                 fontSize: 'clamp(2.8rem, 5vw, 6.5rem)',
                 fontWeight: 800,
                 lineHeight: 0.92,
@@ -355,8 +355,8 @@ export default function Conseil() {
         </div>
 
         <div style={{ marginTop: '4rem', display: 'flex', gap: '1rem' }}>
-          <a href="#contact" className="btn-primary">Réserver un échange gratuit →</a>
-          <a href="#profil" className="btn-outline">Notre approche</a>
+          <a href="/contact" className="btn-primary">Réserver un échange gratuit →</a>
+          <a href="/a-propos" className="btn-outline">Notre approche</a>
         </div>
         </div>
       </section>

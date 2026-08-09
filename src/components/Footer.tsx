@@ -1,11 +1,11 @@
 export default function Footer() {
   const nav = [
-    { label: 'Notre approche', href: '#pourquoi' },
-    { label: 'Conseil & AMOA', href: '#conseil' },
-    { label: 'Systèmes SCM', href: '#systemes' },
-    { label: 'Formation', href: '#formation' },
-    { label: 'DSC à temps partagé', href: '#dsc' },
-    { label: 'À propos', href: '#profil' },
+    { label: 'Notre approche', href: '/services#pourquoi' },
+    { label: 'Conseil & AMOA', href: '/services#conseil' },
+    { label: 'Systèmes SCM', href: '/services#systemes' },
+    { label: 'Formation', href: '/formation' },
+    { label: 'DSC à temps partagé', href: '/references#dsc' },
+    { label: 'À propos', href: '/a-propos' },
   ]
 
   const engagements = [
@@ -41,12 +41,12 @@ export default function Footer() {
           {/* Brand column */}
           <div>
             <a
-              href="#"
+              href="/"
               style={{
-                fontFamily: 'Bodoni Moda, serif',
+                fontFamily: 'Manrope, sans-serif',
                 fontSize: '1.4rem',
                 fontWeight: 700,
-                color: 'var(--dark-text)',
+                color: 'var(--navy)',
                 textDecoration: 'none',
                 display: 'block',
                 marginBottom: '1rem',
@@ -140,10 +140,10 @@ export default function Footer() {
             </div>
             <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
               {[
-                { label: 'Conseil & AMOA SC', href: '#conseil' },
-                { label: 'Sélection systèmes SCM', href: '#systemes' },
-                { label: 'Formation terrain', href: '#formation' },
-                { label: 'DSC à temps partagé', href: '#dsc' },
+                { label: 'Conseil & AMOA SC', href: '/services#conseil' },
+                { label: 'Sélection systèmes SCM', href: '/services#systemes' },
+                { label: 'Formation terrain', href: '/formation' },
+                { label: 'DSC à temps partagé', href: '/references#dsc' },
               ].map(({ label, href }) => (
                 <li key={href}>
                   <a

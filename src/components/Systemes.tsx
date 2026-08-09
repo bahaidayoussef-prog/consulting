@@ -124,12 +124,12 @@ function SystemRow({ s, index }: { s: typeof systems[0]; index: number }) {
           viewport={{ once: true }}
           transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1], delay: index * 0.07 + 0.05 }}
           style={{
-            fontFamily: 'Bodoni Moda, serif',
+            fontFamily: 'Manrope, sans-serif',
             fontSize: 'clamp(1.3rem, 2.2vw, 2.5rem)',
             fontWeight: 800,
             lineHeight: 1.0,
             letterSpacing: '-0.02em',
-            color: 'var(--dark-text)',
+            color: 'var(--navy)',
           }}
         >
           {s.fullName}
@@ -199,12 +199,12 @@ function SystemRow({ s, index }: { s: typeof systems[0]; index: number }) {
 
                     {/* Price — focal point */}
                     <div style={{
-                      fontFamily: 'Bodoni Moda, serif',
+                      fontFamily: 'Manrope, sans-serif',
                       fontSize: 'clamp(1.1rem, 1.8vw, 1.45rem)',
                       fontWeight: 800,
                       lineHeight: 1.15,
                       letterSpacing: '-0.02em',
-                      color: tier.featured ? 'var(--gold)' : 'var(--dark-text)',
+                      color: tier.featured ? 'var(--gold)' : 'var(--navy)',
                       marginBottom: '0.6rem',
                     }}>
                       {tier.price}
@@ -284,12 +284,12 @@ export default function Systemes() {
               05 / Systèmes & Digital
             </div>
             <h2 style={{
-              fontFamily: 'Bodoni Moda, serif',
+              fontFamily: 'Manrope, sans-serif',
               fontSize: 'clamp(2.8rem, 5vw, 6.5rem)',
               fontWeight: 800,
               lineHeight: 0.92,
               letterSpacing: '-0.025em',
-              color: 'var(--dark-text)',
+              color: 'var(--navy)',
               margin: 0,
             }}>
               Déploiement de solutions SCM.
@@ -315,7 +315,7 @@ export default function Systemes() {
         </div>
 
         <div style={{ marginTop: '4rem' }}>
-          <a href="#contact" className="btn-primary">Discuter de votre projet →</a>
+          <a href="/contact" className="btn-primary">Discuter de votre projet →</a>
         </div>
       </div>
     </section>

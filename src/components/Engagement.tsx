@@ -1,7 +1,7 @@
 ﻿import { useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
 
-const GOLD = 'rgba(184,146,42,1)'
+const GOLD = 'rgba(47,111,181,1)'
 
 const items = [
   {
@@ -58,13 +58,13 @@ export default function Engagement() {
   const inView = useInView(ref, { once: true, margin: '-80px' })
 
   return (
-    <section id="engagement" style={{ background: 'var(--navy)', color: 'var(--dark-text)', padding: 'var(--sp-y-sm) var(--sp-x)' }}>
+    <section id="engagement" style={{ background: 'var(--paper)', color: 'var(--navy)', padding: 'var(--sp-y-sm) var(--sp-x)' }}>
       <div className="section-inner" ref={ref}>
         <div style={{
           fontFamily: 'DM Mono, monospace',
           fontSize: '0.6rem',
           letterSpacing: '0.2em',
-          color: 'rgba(192,154,47,0.45)',
+          color: 'rgba(47,111,181,0.7)',
           textTransform: 'uppercase',
           marginBottom: '1.5rem',
         }}>
@@ -72,19 +72,20 @@ export default function Engagement() {
         </div>
         <h2
           style={{
-            fontFamily: 'Bodoni Moda, serif',
+            fontFamily: 'Manrope, sans-serif',
             fontSize: 'clamp(2.8rem, 5.5vw, 7rem)',
             fontWeight: 800,
             lineHeight: 0.92,
             letterSpacing: '-0.025em',
             marginBottom: '5rem',
-            color: 'var(--dark-text)',
+            color: 'var(--navy)',
           }}
         >
           Ce qui nous distingue vraiment.
         </h2>
 
         <div
+          className="engagement-grid"
           style={{
             display: 'grid',
             gridTemplateColumns: 'repeat(4, 1fr)',
@@ -97,15 +98,16 @@ export default function Engagement() {
               initial={{ opacity: 0, y: 28 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1], delay: i * 0.1 }}
-              whileHover={{ y: -4, boxShadow: '0 16px 48px rgba(184,146,42,0.12)' }}
+              whileHover={{ y: -4, boxShadow: '0 16px 48px rgba(47,111,181,0.12)' }}
               style={{
                 padding: '2.5rem 2rem',
-                border: '1px solid rgba(255,255,255,0.08)',
+                border: '1px solid var(--border)',
+                background: '#fff',
                 position: 'relative',
                 transition: 'box-shadow 0.3s',
               }}
             >
-              {/* Gold top accent bar */}
+              {/* Blue top accent bar */}
               <div
                 style={{
                   position: 'absolute',
@@ -113,7 +115,7 @@ export default function Engagement() {
                   left: 0,
                   width: 40,
                   height: 2,
-                  background: 'var(--gold)',
+                  background: 'var(--blue-bright)',
                 }}
               />
               <span style={{ marginBottom: '1.25rem', display: 'block' }}>
@@ -121,16 +123,16 @@ export default function Engagement() {
               </span>
               <h3
                 style={{
-                  fontFamily: 'Bodoni Moda, serif',
+                  fontFamily: 'Manrope, sans-serif',
                   fontSize: '1.1rem',
                   fontWeight: 700,
-                  color: 'var(--dark-text)',
+                  color: 'var(--navy)',
                   marginBottom: '0.75rem',
                 }}
               >
                 {item.title}
               </h3>
-              <p style={{ fontSize: '0.88rem', color: 'rgba(227,226,226,0.6)', lineHeight: 1.7 }}>
+              <p style={{ fontSize: '0.88rem', color: 'var(--mid)', lineHeight: 1.7 }}>
                 {item.desc}
               </p>
             </motion.div>

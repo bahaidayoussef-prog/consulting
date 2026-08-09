@@ -117,7 +117,7 @@ export default function Pourquoi() {
             </div>
             <h2
               style={{
-                fontFamily: 'Bodoni Moda, serif',
+                fontFamily: 'Manrope, sans-serif',
                 fontSize: 'clamp(2.8rem, 5.5vw, 7rem)',
                 fontWeight: 800,
                 lineHeight: 0.92,
@@ -169,7 +169,7 @@ export default function Pourquoi() {
                   </div>
                   <h3
                     style={{
-                      fontFamily: 'Bodoni Moda, serif',
+                      fontFamily: 'Manrope, sans-serif',
                       fontSize: 'clamp(1.6rem, 2.5vw, 2.8rem)',
                       fontWeight: 800,
                       lineHeight: 1.1,
@@ -210,7 +210,7 @@ export default function Pourquoi() {
             viewport={{ once: true, margin: '-60px' }}
             transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
             style={{
-              fontFamily: 'Bodoni Moda, serif',
+              fontFamily: 'Manrope, sans-serif',
               fontSize: 'clamp(2.2rem, 5vw, 6.5rem)',
               fontWeight: 400,
               fontStyle: 'italic',
@@ -249,12 +249,12 @@ export default function Pourquoi() {
             </div>
             <h2
               style={{
-                fontFamily: 'Bodoni Moda, serif',
+                fontFamily: 'Manrope, sans-serif',
                 fontSize: 'clamp(2.2rem, 4.5vw, 6rem)',
                 fontWeight: 900,
                 lineHeight: 0.92,
                 letterSpacing: '-0.025em',
-                color: 'var(--dark-text)',
+                color: 'var(--paper)',
               }}
             >
               Assess · Design · Digitize
@@ -291,12 +291,12 @@ export default function Pourquoi() {
                   </div>
                   <h3
                     style={{
-                      fontFamily: 'Bodoni Moda, serif',
+                      fontFamily: 'Manrope, sans-serif',
                       fontSize: 'clamp(2.5rem, 3.5vw, 4.5rem)',
                       fontWeight: 800,
                       lineHeight: 0.92,
                       letterSpacing: '-0.02em',
-                      color: idx === 2 ? '#0e1f30' : 'var(--dark-text)',
+                      color: idx === 2 ? '#0e1f30' : 'var(--paper)',
                       marginBottom: '0.5rem',
                     }}
                   >
@@ -314,7 +314,7 @@ export default function Pourquoi() {
                   </div>
                   <p style={{
                     fontSize: '0.92rem',
-                    color: idx === 2 ? 'rgba(10,20,32,0.65)' : 'var(--dark-muted)',
+                    color: idx === 2 ? 'rgba(10,20,32,0.65)' : 'rgba(245,243,238,0.65)',
                     lineHeight: 1.75,
                     fontWeight: 300,
                   }}>
@@ -333,10 +333,10 @@ export default function Pourquoi() {
                 flexShrink: 0,
               }}>
                 <h3 style={{
-                  fontFamily: 'Bodoni Moda, serif',
+                  fontFamily: 'Manrope, sans-serif',
                   fontSize: 'clamp(1.8rem, 2.5vw, 3rem)',
                   fontWeight: 700,
-                  color: 'var(--dark-text)',
+                  color: 'var(--paper)',
                   marginBottom: '1.5rem',
                   lineHeight: 1.1,
                 }}>
@@ -344,14 +344,14 @@ export default function Pourquoi() {
                 </h3>
                 <p style={{
                   fontSize: '0.92rem',
-                  color: 'var(--dark-muted)',
+                  color: 'rgba(245,243,238,0.65)',
                   marginBottom: '2.5rem',
                   lineHeight: 1.75,
                   fontWeight: 300,
                 }}>
                   Un premier échange de 45 minutes, sans engagement, pour qualifier votre situation.
                 </p>
-                <a href="#contact" className="btn-primary" style={{ width: 'fit-content' }}>
+                <a href="/contact" className="btn-primary-gold" style={{ width: 'fit-content' }}>
                   Réserver un échange gratuit →
                 </a>
               </div>

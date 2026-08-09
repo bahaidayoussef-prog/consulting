@@ -93,12 +93,12 @@ export default function Impact() {
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
               style={{
-                fontFamily: 'Bodoni Moda, serif',
+                fontFamily: 'Manrope, sans-serif',
                 fontSize: 'clamp(2.8rem, 5.5vw, 7.5rem)',
                 fontWeight: 800,
                 lineHeight: 0.92,
                 letterSpacing: '-0.025em',
-                color: 'var(--dark-text)',
+                color: 'var(--navy)',
                 margin: 0,
               }}
             >
@@ -147,7 +147,7 @@ export default function Impact() {
               }}
             >
               <div style={{
-                fontFamily: 'Bodoni Moda, serif',
+                fontFamily: 'Manrope, sans-serif',
                 fontSize: 'clamp(3.5rem, 5.5vw, 6.5rem)',
                 fontWeight: 300,
                 fontStyle: 'italic',
@@ -163,10 +163,10 @@ export default function Impact() {
                 />
               </div>
               <div style={{
-                fontFamily: 'Bodoni Moda, serif',
+                fontFamily: 'Manrope, sans-serif',
                 fontSize: 'clamp(0.9rem, 1.4vw, 1.15rem)',
                 fontWeight: 600,
-                color: 'var(--dark-text)',
+                color: 'var(--navy)',
                 marginBottom: '0.5rem',
                 lineHeight: 1.3,
               }}>
@@ -263,7 +263,7 @@ export default function Impact() {
           </div>
 
           <blockquote style={{
-            fontFamily: 'Bodoni Moda, serif',
+            fontFamily: 'Manrope, sans-serif',
             fontSize: 'clamp(1.3rem, 2.2vw, 1.9rem)',
             fontWeight: 300,
             fontStyle: 'italic',

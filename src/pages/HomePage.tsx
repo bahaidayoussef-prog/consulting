@@ -18,7 +18,7 @@ const PAGES = [
     label: 'Références',
     desc: '110+ missions · Renault, DHL, OCP, L\'Oréal · Études de cas détaillées',
     bg: 'var(--dark)',
-    color: 'var(--dark-text)',
+    color: 'var(--navy)',
   },
   {
     num: '03',
@@ -26,7 +26,7 @@ const PAGES = [
     label: 'Formations',
     desc: 'Devenir Responsable Logistique · Formation 1 jour · Casablanca',
     bg: 'var(--ink)',
-    color: 'var(--dark-text)',
+    color: 'var(--navy)',
   },
   {
     num: '04',
@@ -59,12 +59,12 @@ export default function HomePage() {
             </div>
             <h2
               style={{
-                fontFamily: 'Bodoni Moda, serif',
+                fontFamily: 'Manrope, sans-serif',
                 fontSize: 'clamp(2.5rem, 4vw, 5rem)',
                 fontWeight: 400,
                 lineHeight: 0.92,
                 letterSpacing: '-0.02em',
-                color: 'var(--dark-text)',
+                color: 'var(--navy)',
                 margin: 0,
               }}
             >
@@ -115,7 +115,7 @@ export default function HomePage() {
                   </div>
                   <div
                     style={{
-                      fontFamily: 'Bodoni Moda, serif',
+                      fontFamily: 'Manrope, sans-serif',
                       fontSize: 'clamp(1.5rem, 2.5vw, 2.2rem)',
                       fontWeight: 700,
                       lineHeight: 1,

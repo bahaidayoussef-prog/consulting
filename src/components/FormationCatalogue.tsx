@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react'
+import { useRef, useState, useEffect } from 'react'
 import { motion, useInView, AnimatePresence } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import SchemaScript from './SchemaHelper'
@@ -727,12 +727,66 @@ const SESSIONS = [
   ]},
 ]
 
+/* ─── Hero carousel — decorative only, images as CSS backgrounds ── */
+const CAROUSEL_IMAGES = [
+  '/images/formation-carousel/formation-1.webp',
+  '/images/formation-carousel/formation-2.webp',
+  '/images/formation-carousel/formation-3.webp',
+  '/images/formation-carousel/formation-4.webp',
+  '/images/formation-carousel/formation-5.webp',
+  '/images/formation-carousel/formation-6.webp',
+  '/images/formation-carousel/formation-7.webp',
+  '/images/formation-carousel/formation-8.webp',
+]
+
+function HeroCarousel() {
+  const [active, setActive] = useState(0)
+  useEffect(() => {
+    const id = setInterval(() => setActive((a) => (a + 1) % CAROUSEL_IMAGES.length), 5500)
+    return () => clearInterval(id)
+  }, [])
+
+  return (
+    <div
+      onContextMenu={(e) => e.preventDefault()}
+      aria-hidden="true"
+      style={{ position: 'absolute', inset: 0, zIndex: 0, overflow: 'hidden' }}
+    >
+      <div style={{ position: 'absolute', inset: 0, opacity: 0.38 }}>
+        {CAROUSEL_IMAGES.map((src, i) => (
+          <div
+            key={src}
+            style={{
+              position: 'absolute', inset: 0,
+              backgroundImage: `url(${src})`,
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+              filter: 'blur(2.5px)',
+              opacity: i === active ? 1 : 0,
+              transition: 'opacity 1s ease',
+            }}
+          />
+        ))}
+      </div>
+      {/* Brand-colored veil — blue/white, not a flat black scrim */}
+      <div style={{
+        position: 'absolute', inset: 0,
+        background: 'linear-gradient(125deg, rgba(27,53,84,0.72) 0%, rgba(255,255,255,0.55) 45%, rgba(47,111,181,0.28) 100%)',
+      }} />
+      <div style={{
+        position: 'absolute', inset: 0,
+        background: 'linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, #ffffff 100%)',
+      }} />
+    </div>
+  )
+}
+
 /* ─── Helpers ─────────────────────────────────────────────── */
 function Tag({ label, format }: { label: string; format: string }) {
   const bg = format === 'inter'
-    ? 'rgba(192,154,47,0.12)' : format === 'coaching'
-    ? 'rgba(192,154,47,0.08)' : 'rgba(27,53,84,0.12)'
-  const color = format === 'inter' || format === 'coaching' ? 'var(--gold)' : '#1b3554'
+    ? 'rgba(47,111,181,0.1)' : format === 'coaching'
+    ? 'rgba(47,111,181,0.07)' : 'rgba(27,53,84,0.08)'
+  const color = format === 'inter' || format === 'coaching' ? 'var(--blue-bright)' : 'var(--navy)'
   return (
     <span style={{
       display: 'inline-flex', alignItems: 'center',
@@ -777,7 +831,7 @@ function FAQItem({ item }: { item: { q: string; a: string } }) {
       initial={{ opacity: 0, y: 24 }}
       animate={inView ? { opacity: 1, y: 0 } : {}}
       transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-      style={{ borderTop: '1px solid rgba(10,20,32,0.1)' }}
+      style={{ borderTop: '1px solid var(--border)' }}
     >
       <button
         onClick={() => setOpen(o => !o)}
@@ -794,13 +848,13 @@ function FAQItem({ item }: { item: { q: string; a: string } }) {
           textAlign: 'left',
         }}
       >
-        <span style={{ fontFamily: 'Jost, sans-serif', fontSize: '1.05rem', fontWeight: 600, color: '#0a1420' }}>
+        <span style={{ fontFamily: 'Jost, sans-serif', fontSize: '1.05rem', fontWeight: 600, color: 'var(--navy)' }}>
           {item.q}
         </span>
         <motion.span
           animate={{ rotate: open ? 45 : 0 }}
           transition={{ duration: 0.2 }}
-          style={{ fontSize: '1.4rem', color: 'var(--gold)', flexShrink: 0, lineHeight: 1 }}
+          style={{ fontSize: '1.4rem', color: 'var(--blue-bright)', flexShrink: 0, lineHeight: 1 }}
         >
           +
         </motion.span>
@@ -814,7 +868,7 @@ function FAQItem({ item }: { item: { q: string; a: string } }) {
             transition={{ duration: 0.35, ease: [0.16, 1, 0.3, 1] }}
             style={{ overflow: 'hidden' }}
           >
-            <p style={{ fontSize: '0.95rem', color: 'rgba(10,20,32,0.6)', lineHeight: 1.8, fontWeight: 300, paddingBottom: '1.75rem', maxWidth: 760 }}>
+            <p style={{ fontSize: '0.95rem', color: 'var(--dark-muted)', lineHeight: 1.8, fontWeight: 300, paddingBottom: '1.75rem', maxWidth: 760 }}>
               {item.a}
             </p>
           </motion.div>
@@ -825,11 +879,13 @@ function FAQItem({ item }: { item: { q: string; a: string } }) {
 }
 
 /* ─── Programme Card ──────────────────────────────────────── */
-function ProgramCard({ p, dark }: { p: typeof PROGRAMMES[0]; dark: boolean }) {
+function ProgramCard({ p }: { p: typeof PROGRAMMES[0] }) {
   const [open, setOpen] = useState(false)
   const isExternal = p.cta.startsWith('http') || p.cta.startsWith('mailto')
   const ref = useRef(null)
   const inView = useInView(ref, { once: true, margin: '-40px' })
+  const isRemote = p.lieu.toLowerCase().includes('visio')
+  const accent = p.domaine === 'lean' ? '#2a6b45' : 'var(--navy)'
 
   return (
     <motion.div
@@ -838,33 +894,35 @@ function ProgramCard({ p, dark }: { p: typeof PROGRAMMES[0]; dark: boolean }) {
       animate={inView ? { opacity: 1, y: 0 } : {}}
       transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
       style={{
-        borderTop: `2px solid ${p.color}`,
-        background: dark ? 'rgba(255,255,255,0.03)' : '#fff',
+        borderTop: `2px solid ${accent}`,
+        borderLeft: '1px solid var(--border)',
+        borderRight: '1px solid var(--border)',
+        background: '#ffffff',
         marginBottom: 2,
-        transition: 'background 0.2s',
       }}
     >
       {/* Card header — always visible */}
-      <div style={{ padding: '2.5rem 3rem', display: 'grid', gridTemplateColumns: '1fr auto', gap: '2rem', alignItems: 'start' }}>
+      <div className="pc-header" style={{ padding: '2.5rem 3rem', display: 'grid', gridTemplateColumns: '1fr auto', gap: '2rem', alignItems: 'start' }}>
         <div>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '1rem' }}>
-            <span style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.14em', color: p.color, opacity: 0.7 }}>{p.num}</span>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '1rem', flexWrap: 'wrap' }}>
+            <span style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.14em', color: accent, opacity: 0.7 }}>{p.num}</span>
             <Tag label={p.badge} format={p.format} />
+            {isRemote && <Tag label="Visio possible" format="inter" />}
           </div>
 
           <h3 style={{
-            fontFamily: 'Bodoni Moda, serif',
+            fontFamily: 'Manrope, sans-serif',
             fontSize: 'clamp(1.4rem, 2.5vw, 2.2rem)',
             fontWeight: 800,
             lineHeight: 1.0,
             letterSpacing: '-0.02em',
-            color: dark ? '#f0ede8' : '#0a1420',
+            color: 'var(--navy)',
             marginBottom: '0.6rem',
           }}>
             {p.title}
           </h3>
 
-          <p style={{ fontSize: '0.9rem', color: dark ? 'rgba(240,237,232,0.5)' : 'rgba(10,20,32,0.55)', lineHeight: 1.6, fontWeight: 300, maxWidth: 540, marginBottom: '1.5rem' }}>
+          <p style={{ fontSize: '0.9rem', color: 'var(--mid)', lineHeight: 1.6, fontWeight: 300, maxWidth: 540, marginBottom: '1.5rem' }}>
             {p.subtitle}
           </p>
 
@@ -876,20 +934,20 @@ function ProgramCard({ p, dark }: { p: typeof PROGRAMMES[0]; dark: boolean }) {
               { label: 'Lieu', val: p.lieu },
             ].map(m => (
               <div key={m.label}>
-                <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.52rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: p.color, opacity: 0.65, marginBottom: '0.2rem' }}>{m.label}</div>
-                <div style={{ fontFamily: 'Jost, sans-serif', fontSize: '0.82rem', fontWeight: 500, color: dark ? 'rgba(240,237,232,0.8)' : 'rgba(10,20,32,0.75)' }}>{m.val}</div>
+                <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.52rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: accent, opacity: 0.7, marginBottom: '0.2rem' }}>{m.label}</div>
+                <div style={{ fontFamily: 'Jost, sans-serif', fontSize: '0.82rem', fontWeight: 500, color: 'var(--navy)' }}>{m.val}</div>
               </div>
             ))}
           </div>
         </div>
 
         {/* Right — price + CTA */}
-        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: '1.25rem', minWidth: 180 }}>
+        <div className="pc-header-right" style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: '1.25rem', minWidth: 180 }}>
           <div style={{ textAlign: 'right' }}>
-            <div style={{ fontFamily: 'Bodoni Moda, serif', fontSize: 'clamp(1.4rem, 2.5vw, 2rem)', fontWeight: 800, color: p.color, lineHeight: 1, letterSpacing: '-0.02em' }}>
+            <div style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(1.4rem, 2.5vw, 2rem)', fontWeight: 800, color: accent, lineHeight: 1, letterSpacing: '-0.02em' }}>
               {p.price}
             </div>
-            <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.52rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: dark ? 'rgba(240,237,232,0.35)' : 'rgba(10,20,32,0.35)', marginTop: '0.25rem' }}>
+            <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.52rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--mid)', marginTop: '0.25rem' }}>
               {p.unit}
             </div>
           </div>
@@ -901,9 +959,9 @@ function ProgramCard({ p, dark }: { p: typeof PROGRAMMES[0]; dark: boolean }) {
             style={{
               display: 'inline-flex', alignItems: 'center', gap: '0.4rem',
               padding: '0.75rem 1.5rem',
-              background: p.color === 'var(--gold)' ? 'var(--gold)' : 'transparent',
-              border: `1px solid ${p.color === 'var(--gold)' ? 'var(--gold)' : 'rgba(27,53,84,0.3)'}`,
-              color: p.color === 'var(--gold)' ? '#0a1420' : (dark ? '#f0ede8' : '#0a1420'),
+              background: p.format === 'inter' || p.format === 'coaching' ? 'var(--blue-bright)' : 'transparent',
+              border: `1px solid ${p.format === 'inter' || p.format === 'coaching' ? 'var(--blue-bright)' : 'var(--border)'}`,
+              color: p.format === 'inter' || p.format === 'coaching' ? '#ffffff' : 'var(--navy)',
               fontFamily: 'DM Mono, monospace',
               fontSize: '0.62rem',
               letterSpacing: '0.1em',
@@ -914,18 +972,18 @@ function ProgramCard({ p, dark }: { p: typeof PROGRAMMES[0]; dark: boolean }) {
             }}
             onMouseEnter={e => {
               const el = e.currentTarget as HTMLElement
-              if (p.color === 'var(--gold)') {
-                el.style.background = '#a8841f'; el.style.borderColor = '#a8841f'
+              if (p.format === 'inter' || p.format === 'coaching') {
+                el.style.background = 'var(--navy)'
               } else {
-                el.style.borderColor = 'rgba(27,53,84,0.6)'; el.style.color = 'var(--gold)'
+                el.style.borderColor = 'var(--blue-bright)'; el.style.color = 'var(--blue-bright)'
               }
             }}
             onMouseLeave={e => {
               const el = e.currentTarget as HTMLElement
-              if (p.color === 'var(--gold)') {
-                el.style.background = 'var(--gold)'; el.style.borderColor = 'var(--gold)'
+              if (p.format === 'inter' || p.format === 'coaching') {
+                el.style.background = 'var(--blue-bright)'
               } else {
-                el.style.borderColor = 'rgba(27,53,84,0.3)'; el.style.color = dark ? '#f0ede8' : '#0a1420'
+                el.style.borderColor = 'var(--border)'; el.style.color = 'var(--navy)'
               }
             }}
           >
@@ -934,9 +992,9 @@ function ProgramCard({ p, dark }: { p: typeof PROGRAMMES[0]; dark: boolean }) {
 
           <button
             onClick={() => setOpen(o => !o)}
-            style={{ background: 'none', border: 'none', cursor: 'pointer', fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: dark ? 'rgba(240,237,232,0.3)' : 'rgba(10,20,32,0.35)', display: 'flex', alignItems: 'center', gap: '0.4rem', padding: 0, transition: 'color 0.2s' }}
-            onMouseEnter={e => (e.currentTarget as HTMLElement).style.color = 'var(--gold)'}
-            onMouseLeave={e => (e.currentTarget as HTMLElement).style.color = dark ? 'rgba(240,237,232,0.3)' : 'rgba(10,20,32,0.35)'}
+            style={{ background: 'none', border: 'none', cursor: 'pointer', fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--mid)', display: 'flex', alignItems: 'center', gap: '0.4rem', padding: 0, transition: 'color 0.2s' }}
+            onMouseEnter={e => (e.currentTarget as HTMLElement).style.color = 'var(--blue-bright)'}
+            onMouseLeave={e => (e.currentTarget as HTMLElement).style.color = 'var(--mid)'}
           >
             {open ? 'Réduire' : 'Voir le programme'}
             <motion.span animate={{ rotate: open ? 45 : 0 }} transition={{ duration: 0.2 }} style={{ display: 'inline-block', fontSize: '1rem', lineHeight: 1 }}>+</motion.span>
@@ -955,15 +1013,15 @@ function ProgramCard({ p, dark }: { p: typeof PROGRAMMES[0]; dark: boolean }) {
             transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
             style={{ overflow: 'hidden' }}
           >
-            <div style={{ borderTop: `1px solid ${dark ? 'rgba(255,255,255,0.06)' : 'rgba(10,20,32,0.08)'}`, padding: '2.5rem 3rem', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '3rem' }}>
+            <div className="pc-detail-grid" style={{ borderTop: '1px solid var(--border)', padding: '2.5rem 3rem', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '3rem' }}>
               {/* Modules */}
               <div>
-                <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.18em', textTransform: 'uppercase', color: 'var(--gold)', marginBottom: '1.25rem' }}>Programme</div>
+                <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.18em', textTransform: 'uppercase', color: 'var(--blue-bright)', marginBottom: '1.25rem' }}>Programme</div>
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '0.6rem' }}>
                   {p.modules.map((m, i) => (
                     <div key={i} style={{ display: 'flex', gap: '0.75rem', alignItems: 'flex-start' }}>
-                      <span style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.52rem', color: 'var(--gold)', minWidth: 20, paddingTop: '0.25rem', opacity: 0.7 }}>{String(i + 1).padStart(2, '0')}</span>
-                      <span style={{ fontSize: '0.85rem', color: dark ? 'rgba(240,237,232,0.7)' : 'rgba(10,20,32,0.7)', lineHeight: 1.5 }}>{m}</span>
+                      <span style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.52rem', color: 'var(--blue-bright)', minWidth: 20, paddingTop: '0.25rem', opacity: 0.7 }}>{String(i + 1).padStart(2, '0')}</span>
+                      <span style={{ fontSize: '0.85rem', color: 'var(--dark-muted)', lineHeight: 1.5 }}>{m}</span>
                     </div>
                   ))}
                 </div>
@@ -971,20 +1029,20 @@ function ProgramCard({ p, dark }: { p: typeof PROGRAMMES[0]; dark: boolean }) {
               {/* Public + Inclus */}
               <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
                 <div>
-                  <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.18em', textTransform: 'uppercase', color: 'var(--gold)', marginBottom: '1rem' }}>Pour qui</div>
+                  <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.18em', textTransform: 'uppercase', color: 'var(--blue-bright)', marginBottom: '1rem' }}>Pour qui</div>
                   {p.public.map((pub, i) => (
                     <div key={i} style={{ display: 'flex', gap: '0.6rem', alignItems: 'center', marginBottom: '0.4rem' }}>
-                      <span style={{ color: 'var(--gold)', fontSize: '0.4rem' }}>◆</span>
-                      <span style={{ fontSize: '0.85rem', color: dark ? 'rgba(240,237,232,0.65)' : 'rgba(10,20,32,0.65)' }}>{pub}</span>
+                      <span style={{ color: 'var(--blue-bright)', fontSize: '0.4rem' }}>◆</span>
+                      <span style={{ fontSize: '0.85rem', color: 'var(--dark-muted)' }}>{pub}</span>
                     </div>
                   ))}
                 </div>
                 <div>
-                  <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.18em', textTransform: 'uppercase', color: 'var(--gold)', marginBottom: '1rem' }}>Inclus</div>
+                  <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.18em', textTransform: 'uppercase', color: 'var(--blue-bright)', marginBottom: '1rem' }}>Inclus</div>
                   {p.inclus.map((inc, i) => (
                     <div key={i} style={{ display: 'flex', gap: '0.6rem', alignItems: 'center', marginBottom: '0.4rem' }}>
-                      <span style={{ color: 'var(--gold)', fontSize: '0.55rem' }}>✓</span>
-                      <span style={{ fontSize: '0.85rem', color: dark ? 'rgba(240,237,232,0.65)' : 'rgba(10,20,32,0.65)' }}>{inc}</span>
+                      <span style={{ color: 'var(--blue-bright)', fontSize: '0.55rem' }}>✓</span>
+                      <span style={{ fontSize: '0.85rem', color: 'var(--dark-muted)' }}>{inc}</span>
                     </div>
                   ))}
                 </div>
@@ -1021,177 +1079,105 @@ export default function FormationCatalogue() {
         canonical="https://nextinotech.com/formation"
       />
       <SchemaScript schema={programmesSchema} />
-      {/* ══ HERO ══════════════════════════════════════════════ */}
-      <section style={{ background: 'var(--dark)', padding: '8rem 4rem 0', overflow: 'hidden' }}>
-        <div className="section-inner">
+
+      {/* ══ SECTION 1 — HERO AVEC CARROUSEL DISCRET ═══════════ */}
+      <section style={{ position: 'relative', background: '#ffffff', padding: '8rem 4rem 0', overflow: 'hidden' }}>
+        <HeroCarousel />
+        <div className="section-inner" style={{ position: 'relative', zIndex: 1 }}>
           <Reveal>
-            <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.22em', textTransform: 'uppercase', color: 'rgba(192,154,47,0.5)', marginBottom: '2.5rem' }}>
+            <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--mid)', marginBottom: '2.5rem' }}>
               01 / Académie · Terrain · Résultats
             </div>
           </Reveal>
 
           <Reveal delay={0.06}>
             <h1 style={{
-              fontFamily: 'Bodoni Moda, serif',
+              fontFamily: 'Manrope, sans-serif',
               fontSize: 'clamp(3.5rem, 9vw, 11rem)',
               fontWeight: 800,
               lineHeight: 0.9,
               letterSpacing: '-0.025em',
-              color: 'var(--dark-text)',
+              color: 'var(--navy)',
               margin: '0 0 4rem',
             }}>
               Former.<br />
               Certifier.<br />
-              <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--gold)' }}>Transformer.</span>
+              <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>Transformer.</span>
             </h1>
           </Reveal>
 
-          {/* Stats strip */}
-          <Reveal delay={0.12}>
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '0', borderTop: '1px solid rgba(255,255,255,0.06)', paddingTop: '3rem', marginBottom: '0', paddingBottom: '5rem' }}>
-              {[
-                { val: '22', label: 'programmes disponibles' },
-                { val: '6', label: 'domaines de formation' },
-                { val: '20+', label: 'ans de terrain formateur' },
-                { val: '0', label: 'commission éditeur' },
-              ].map((s, i) => (
-                <div key={i} style={{ borderLeft: i > 0 ? '1px solid rgba(255,255,255,0.06)' : 'none', paddingLeft: i > 0 ? '3rem' : '0' }}>
-                  <div style={{ fontFamily: 'Bodoni Moda, serif', fontSize: 'clamp(2rem, 3.5vw, 3.5rem)', fontWeight: 800, color: 'var(--gold)', lineHeight: 1, letterSpacing: '-0.02em' }}>{s.val}</div>
-                  <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.56rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'rgba(240,237,232,0.35)', marginTop: '0.5rem' }}>{s.label}</div>
-                </div>
-              ))}
-            </div>
-          </Reveal>
         </div>
+
+        {/* Stats strip — floating blurred glass card, same pattern as the Hero stats bar */}
+        <Reveal delay={0.12}>
+          <div
+            className="formation-stats-grid"
+            style={{
+              position: 'relative',
+              zIndex: 1,
+              display: 'grid',
+              gridTemplateColumns: 'repeat(4, 1fr)',
+              background: 'rgba(255,255,255,0.85)',
+              backdropFilter: 'blur(24px) saturate(1.4)',
+              WebkitBackdropFilter: 'blur(24px) saturate(1.4)',
+              borderTop: '1px solid var(--border)',
+              marginTop: '4rem',
+            }}
+          >
+            {[
+              { val: '22', label: 'programmes disponibles' },
+              { val: '6', label: 'domaines de formation' },
+              { val: '20+', label: 'ans de terrain formateur' },
+              { val: '0', label: 'commission éditeur' },
+            ].map((s, i) => (
+              <div key={i} style={{ padding: '1.4rem 1.8rem', borderRight: i < 3 ? '1px solid var(--border)' : 'none' }}>
+                <div style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(1.5rem, 2.4vw, 2.2rem)', fontWeight: 700, color: 'var(--navy)', lineHeight: 1, marginBottom: '0.3rem', letterSpacing: '-0.01em' }}>{s.val}</div>
+                <div style={{ fontFamily: 'var(--mono)', fontSize: '0.6rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'var(--mid)' }}>{s.label}</div>
+              </div>
+            ))}
+          </div>
+        </Reveal>
       </section>
 
       {/* ══ STATEMENT LINE ════════════════════════════════════ */}
-      <div style={{ background: 'var(--ink)', padding: '5rem 4rem', borderTop: '1px solid rgba(255,255,255,0.05)' }}>
+      <div style={{ background: 'var(--dark-2)', padding: '5rem 4rem', borderTop: '1px solid var(--border)' }}>
         <div className="section-inner">
-          <div style={{ fontFamily: 'Bodoni Moda, serif', fontSize: 'clamp(2rem, 5vw, 6.5rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', fontStyle: 'italic', color: 'var(--gold)' }}>
+          <div style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2rem, 5vw, 6.5rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', fontStyle: 'italic', color: 'var(--navy)' }}>
             "Le bon formateur ne vous apprend pas le métier.<br />Il vous fait voir ce que vous faites déjà — autrement."
           </div>
         </div>
       </div>
 
-      {/* ══ PROGRAMME PHARE — Responsable Logistique ══════════ */}
-      <section style={{ background: 'var(--paper)', padding: '8rem 4rem', color: '#0a1420' }}>
-        <div className="section-inner">
-          <Reveal>
-            <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.22em', textTransform: 'uppercase', color: 'rgba(192,154,47,0.65)', marginBottom: '1.5rem' }}>
-              02 / Programme phare
-            </div>
-          </Reveal>
-
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '6rem', alignItems: 'start' }}>
-            {/* Left */}
-            <Reveal delay={0.05}>
-              <div style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', background: 'var(--gold)', padding: '0.3rem 0.9rem', marginBottom: '2rem' }}>
-                <span style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.16em', textTransform: 'uppercase', color: '#0a1420', fontWeight: 700 }}>★ Programme phare</span>
-              </div>
-              <h2 style={{ fontFamily: 'Bodoni Moda, serif', fontSize: 'clamp(2.5rem, 5vw, 6rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', color: '#0a1420', margin: '0 0 1.5rem' }}>
-                Devenir<br />
-                <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--gold)' }}>Responsable<br />Logistique.</span>
-              </h2>
-              <p style={{ fontSize: '1rem', color: 'rgba(10,20,32,0.6)', lineHeight: 1.8, fontWeight: 300, maxWidth: 480, marginBottom: '2.5rem' }}>
-                Une journée intensive pour structurer votre pilotage logistique. Formateur expert 20+ ans terrain. Hôtel 5★ Casablanca. Tout inclus — déjeuner, support 60 pages, attestation, suivi WhatsApp 30 jours.
-              </p>
-              <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', marginBottom: '3rem' }}>
-                <a href="/formation-rl/" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', padding: '1rem 2.5rem', background: '#0a1420', color: '#f0ede8', fontFamily: 'Jost, sans-serif', fontSize: '0.9rem', fontWeight: 600, textDecoration: 'none', letterSpacing: '0.04em', transition: 'background 0.2s' }}
-                  onMouseEnter={e => (e.currentTarget as HTMLElement).style.background = '#1b3554'}
-                  onMouseLeave={e => (e.currentTarget as HTMLElement).style.background = '#0a1420'}
-                >
-                  Voir le programme complet →
-                </a>
-                <a href={WA} target="_blank" rel="noopener noreferrer" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', padding: '1rem 2.5rem', background: 'transparent', border: '1px solid rgba(10,20,32,0.2)', color: '#0a1420', fontFamily: 'Jost, sans-serif', fontSize: '0.9rem', fontWeight: 600, textDecoration: 'none', letterSpacing: '0.04em', transition: 'all 0.2s' }}
-                  onMouseEnter={e => { (e.currentTarget as HTMLElement).style.borderColor = 'var(--gold)'; (e.currentTarget as HTMLElement).style.color = 'var(--gold)' }}
-                  onMouseLeave={e => { (e.currentTarget as HTMLElement).style.borderColor = 'rgba(10,20,32,0.2)'; (e.currentTarget as HTMLElement).style.color = '#0a1420' }}
-                >
-                  Réserver via WhatsApp
-                </a>
-              </div>
-              {/* Key facts */}
-              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem' }}>
-                {[
-                  { l: 'Tarif', v: '1 500 MAD TTC' },
-                  { l: 'Format', v: 'Inter-entreprises' },
-                  { l: 'Durée', v: '1 journée (8h30–17h30)' },
-                  { l: 'Lieu', v: 'Hôtel 5★ Casablanca' },
-                  { l: 'Places', v: '8 à 16 participants' },
-                  { l: 'Suivi', v: 'WhatsApp 30 jours inclus' },
-                ].map((f, i) => (
-                  <div key={i} style={{ borderTop: '1px solid rgba(10,20,32,0.1)', paddingTop: '0.75rem' }}>
-                    <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.52rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'rgba(192,154,47,0.7)', marginBottom: '0.2rem' }}>{f.l}</div>
-                    <div style={{ fontSize: '0.88rem', fontWeight: 500, color: '#0a1420' }}>{f.v}</div>
-                  </div>
-                ))}
-              </div>
-            </Reveal>
-
-            {/* Right — upcoming dates */}
-            <Reveal delay={0.12}>
-              <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.18em', textTransform: 'uppercase', color: 'rgba(192,154,47,0.65)', marginBottom: '1.5rem' }}>
-                Prochaines sessions 2026
-              </div>
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '2px' }}>
-                {[
-                  { date: '18 Septembre 2026', places: 5, status: 'Ouvert' },
-                  { date: '23 Octobre 2026', places: 6, status: 'Ouvert' },
-                  { date: '13 Novembre 2026', places: 8, status: 'Ouvert' },
-                  { date: '11 Décembre 2026', places: 4, status: 'Dernières places' },
-                ].map((s, i) => (
-                  <div key={i} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '1.25rem 1.5rem', background: i % 2 === 0 ? '#fff' : '#f5f3ee', borderLeft: `2px solid ${s.places <= 4 ? 'var(--gold)' : 'rgba(10,20,32,0.1)'}` }}>
-                    <div>
-                      <div style={{ fontFamily: 'Jost, sans-serif', fontSize: '0.9rem', fontWeight: 600, color: '#0a1420' }}>{s.date}</div>
-                      <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.52rem', letterSpacing: '0.1em', color: 'rgba(10,20,32,0.4)', marginTop: '0.2rem', textTransform: 'uppercase' }}>{s.places} places disponibles</div>
-                    </div>
-                    <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.52rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: s.places <= 4 ? 'var(--gold)' : 'rgba(10,20,32,0.4)', fontWeight: s.places <= 4 ? 700 : 400 }}>
-                      {s.status}
-                    </div>
-                  </div>
-                ))}
-              </div>
-              <div style={{ marginTop: '2rem', padding: '1.5rem', background: 'rgba(192,154,47,0.08)', borderLeft: '2px solid var(--gold)' }}>
-                <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'rgba(192,154,47,0.8)', marginBottom: '0.5rem' }}>Session intra disponible</div>
-                <div style={{ fontSize: '0.88rem', color: 'rgba(10,20,32,0.65)', lineHeight: 1.6, fontWeight: 300 }}>
-                  Vous avez 5+ collaborateurs ? Nous organisons cette formation dans vos locaux, adaptée à votre secteur. Contactez-nous pour un devis.
-                </div>
-              </div>
-            </Reveal>
-          </div>
-        </div>
-      </section>
-
-      {/* ══ CATALOGUE COMPLET ════════════════════════════════ */}
-      <section style={{ background: 'var(--dark)', padding: '8rem 4rem' }}>
+      {/* ══ SECTION 2 — CATALOGUE + CALENDRIER ════════════════ */}
+      <section style={{ background: '#ffffff', padding: '8rem 4rem' }}>
         <div className="section-inner">
           <Reveal>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', marginBottom: '4rem', flexWrap: 'wrap', gap: '2rem' }}>
               <div>
-                <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.22em', textTransform: 'uppercase', color: 'rgba(192,154,47,0.5)', marginBottom: '1.5rem' }}>
-                  03 / Catalogue complet
+                <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--mid)', marginBottom: '1.5rem' }}>
+                  02 / Catalogue & calendrier
                 </div>
-                <h2 style={{ fontFamily: 'Bodoni Moda, serif', fontSize: 'clamp(2.5rem, 5vw, 6rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', color: 'var(--dark-text)', margin: 0 }}>
+                <h2 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2.5rem, 5vw, 6rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', color: 'var(--navy)', margin: 0 }}>
                   22 programmes.<br />
-                  <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--gold)' }}>6 domaines d'expertise.</span>
+                  <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>6 domaines d'expertise.</span>
                 </h2>
               </div>
 
               {/* Filter tabs */}
-              <div style={{ display: 'flex', gap: '2px', background: 'rgba(255,255,255,0.04)', padding: '4px' }}>
+              <div style={{ display: 'flex', gap: '2px', background: 'var(--dark-2)', padding: '4px', flexWrap: 'wrap' }}>
                 {tabs.map(tab => (
                   <button
                     key={tab.id}
                     onClick={() => setActiveTab(tab.id)}
                     style={{
-                      background: activeTab === tab.id ? 'var(--gold)' : 'transparent',
+                      background: activeTab === tab.id ? 'var(--blue-bright)' : 'transparent',
                       border: 'none',
                       padding: '0.6rem 1.25rem',
                       fontFamily: 'DM Mono, monospace',
                       fontSize: '0.58rem',
                       letterSpacing: '0.1em',
                       textTransform: 'uppercase',
-                      color: activeTab === tab.id ? '#0a1420' : 'rgba(240,237,232,0.4)',
+                      color: activeTab === tab.id ? '#ffffff' : 'var(--mid)',
                       cursor: 'pointer',
                       transition: 'all 0.2s',
                       whiteSpace: 'nowrap',
@@ -1213,54 +1199,54 @@ export default function FormationCatalogue() {
               transition={{ duration: 0.35, ease: [0.16, 1, 0.3, 1] }}
             >
               {filtered.map(p => (
-                <ProgramCard key={p.id} p={p} dark />
+                <ProgramCard key={p.id} p={p} />
               ))}
             </motion.div>
           </AnimatePresence>
         </div>
       </section>
 
-      {/* ══ CALENDRIER 2026 ══════════════════════════════════ */}
-      <section style={{ background: 'var(--cream)', padding: '8rem 4rem', color: '#0a1420' }}>
+      {/* ── Calendrier 2026 (fait partie de la Section 2) ── */}
+      <section style={{ background: 'var(--dark-2)', padding: '6rem 4rem 8rem', color: 'var(--navy)' }}>
         <div className="section-inner">
           <Reveal>
-            <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.22em', textTransform: 'uppercase', color: 'rgba(192,154,47,0.65)', marginBottom: '1.5rem' }}>
-              04 / Planning formations 2026
+            <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--mid)', marginBottom: '1.5rem' }}>
+              Prochaines sessions programmées
             </div>
-            <h2 style={{ fontFamily: 'Bodoni Moda, serif', fontSize: 'clamp(2.5rem, 5vw, 6rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', color: '#0a1420', margin: '0 0 5rem' }}>
+            <h2 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2.5rem, 5vw, 6rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', color: 'var(--navy)', margin: '0 0 5rem' }}>
               Calendrier<br />
-              <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--gold)' }}>Septembre — Décembre 2026.</span>
+              <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>Septembre — Décembre 2026.</span>
             </h2>
           </Reveal>
 
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '2px' }}>
+          <div className="formation-calendar-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '2px' }}>
             {SESSIONS.map((month, mi) => (
               <Reveal key={month.mois} delay={mi * 0.08}>
                 <div style={{ background: '#fff', padding: '2.5rem', minHeight: 300 }}>
                   {/* Month header */}
-                  <div style={{ fontFamily: 'Bodoni Moda, serif', fontSize: 'clamp(1.2rem, 2vw, 1.8rem)', fontWeight: 800, color: '#0a1420', lineHeight: 1, marginBottom: '2rem', borderBottom: '2px solid var(--gold)', paddingBottom: '1rem' }}>
+                  <div style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(1.2rem, 2vw, 1.8rem)', fontWeight: 800, color: 'var(--navy)', lineHeight: 1, marginBottom: '2rem', borderBottom: '2px solid var(--blue-bright)', paddingBottom: '1rem' }}>
                     {month.mois}
-                    <span style={{ display: 'block', fontFamily: 'DM Mono, monospace', fontSize: '0.52rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'rgba(10,20,32,0.35)', fontWeight: 400, marginTop: '0.4rem', fontStyle: 'normal' }}>
+                    <span style={{ display: 'block', fontFamily: 'DM Mono, monospace', fontSize: '0.52rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'var(--mid)', fontWeight: 400, marginTop: '0.4rem', fontStyle: 'normal' }}>
                       {month.sessions.length} session{month.sessions.length > 1 ? 's' : ''}
                     </span>
                   </div>
                   {/* Sessions */}
                   <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
                     {month.sessions.map((s, si) => (
-                      <div key={si} style={{ borderLeft: `2px solid ${s.format === 'inter' ? 'var(--gold)' : 'rgba(27,53,84,0.2)'}`, paddingLeft: '0.9rem' }}>
-                        <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.1em', color: s.format === 'inter' ? 'rgba(192,154,47,0.8)' : 'rgba(10,20,32,0.4)', textTransform: 'uppercase', marginBottom: '0.2rem' }}>
+                      <div key={si} style={{ borderLeft: `2px solid ${s.format === 'inter' ? 'var(--blue-bright)' : 'var(--border)'}`, paddingLeft: '0.9rem' }}>
+                        <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.1em', color: s.format === 'inter' ? 'var(--blue-bright)' : 'var(--mid)', textTransform: 'uppercase', marginBottom: '0.2rem' }}>
                           {s.date} · {s.format === 'inter' ? 'Inter' : 'Intra'}
                         </div>
-                        <div style={{ fontFamily: 'Jost, sans-serif', fontSize: '0.85rem', fontWeight: 600, color: '#0a1420', lineHeight: 1.3, marginBottom: '0.3rem' }}>
+                        <div style={{ fontFamily: 'Jost, sans-serif', fontSize: '0.85rem', fontWeight: 600, color: 'var(--navy)', lineHeight: 1.3, marginBottom: '0.3rem' }}>
                           {s.titre}
                         </div>
                         {s.places !== null && (
-                          <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.5rem', letterSpacing: '0.08em', color: s.places <= 4 ? 'var(--gold)' : 'rgba(10,20,32,0.35)', textTransform: 'uppercase' }}>
+                          <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.5rem', letterSpacing: '0.08em', color: s.places <= 4 ? 'var(--blue-bright)' : 'var(--mid)', textTransform: 'uppercase' }}>
                             {s.places} place{s.places > 1 ? 's' : ''} disponible{s.places > 1 ? 's' : ''}
                           </div>
                         )}
                         {s.places === null && (
-                          <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.5rem', letterSpacing: '0.08em', color: 'rgba(10,20,32,0.3)', textTransform: 'uppercase' }}>
+                          <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.5rem', letterSpacing: '0.08em', color: 'var(--mid)', textTransform: 'uppercase' }}>
                             Sur demande
                           </div>
                         )}
@@ -1276,14 +1262,14 @@ export default function FormationCatalogue() {
           <Reveal delay={0.2}>
             <div style={{ display: 'flex', gap: '2rem', marginTop: '2rem', flexWrap: 'wrap', alignItems: 'center' }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                <span style={{ display: 'inline-block', width: 12, height: 12, background: 'var(--gold)' }} />
-                <span style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: 'rgba(10,20,32,0.5)' }}>Inter-entreprises</span>
+                <span style={{ display: 'inline-block', width: 12, height: 12, background: 'var(--blue-bright)' }} />
+                <span style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--mid)' }}>Inter-entreprises</span>
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                <span style={{ display: 'inline-block', width: 12, height: 12, background: 'rgba(27,53,84,0.2)' }} />
-                <span style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: 'rgba(10,20,32,0.5)' }}>Intra-entreprise (sur devis)</span>
+                <span style={{ display: 'inline-block', width: 12, height: 12, background: 'var(--border)' }} />
+                <span style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--mid)' }}>Intra-entreprise (sur devis)</span>
               </div>
-              <div style={{ marginLeft: 'auto', fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.1em', color: 'rgba(10,20,32,0.4)', textTransform: 'uppercase' }}>
+              <div style={{ marginLeft: 'auto', fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.1em', color: 'var(--mid)', textTransform: 'uppercase' }}>
                 Planning 2027 disponible sur demande
               </div>
             </div>
@@ -1291,34 +1277,122 @@ export default function FormationCatalogue() {
         </div>
       </section>
 
-      {/* ══ FORMATEUR ════════════════════════════════════════ */}
-      <section style={{ background: 'var(--paper)', padding: '8rem 4rem', color: '#0a1420' }}>
+      {/* ══ SECTION 3 — DÉTAIL : PROGRAMME PHARE ══════════════ */}
+      <section style={{ background: '#ffffff', padding: '8rem 4rem', color: 'var(--navy)' }}>
         <div className="section-inner">
           <Reveal>
-            <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.22em', textTransform: 'uppercase', color: 'rgba(192,154,47,0.65)', marginBottom: '4rem' }}>
-              05 / Votre formateur
+            <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--mid)', marginBottom: '1.5rem' }}>
+              03 / Détail — programme phare
             </div>
           </Reveal>
-          <div style={{ display: 'grid', gridTemplateColumns: '400px 1fr', gap: '8rem', alignItems: 'start' }}>
-            <Reveal delay={0.05} style={{ position: 'relative' }}>
-              <div style={{ aspectRatio: '3/4', overflow: 'hidden', position: 'relative', background: '#0a1420' }}>
-                <img src="/images/conseil.jpg" alt="Youssef — Essor Consulting" style={{ width: '100%', height: '100%', objectFit: 'cover', filter: 'grayscale(15%)', display: 'block' }} />
-                <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(10,20,32,0.4) 0%, transparent 60%)' }} />
+
+          <div className="phare-grid" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '6rem', alignItems: 'start' }}>
+            {/* Left */}
+            <Reveal delay={0.05}>
+              <div style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', background: 'var(--blue-bright)', padding: '0.3rem 0.9rem', marginBottom: '2rem' }}>
+                <span style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.16em', textTransform: 'uppercase', color: '#ffffff', fontWeight: 700 }}>★ Programme phare</span>
               </div>
-              <div style={{ position: 'absolute', bottom: '-2rem', right: '-2rem', background: 'var(--gold)', padding: '1.75rem 2.25rem' }}>
-                <div style={{ fontFamily: 'Bodoni Moda, serif', fontSize: '2.5rem', fontWeight: 800, color: '#0a1420', lineHeight: 1 }}>20+</div>
-                <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.5rem', letterSpacing: '0.12em', textTransform: 'uppercase', color: 'rgba(10,20,32,0.65)', marginTop: '0.3rem' }}>ans terrain</div>
+              <h2 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2.5rem, 5vw, 6rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', color: 'var(--navy)', margin: '0 0 1.5rem' }}>
+                Devenir<br />
+                <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>Responsable<br />Logistique.</span>
+              </h2>
+              <p style={{ fontSize: '1rem', color: 'var(--dark-muted)', lineHeight: 1.8, fontWeight: 300, maxWidth: 480, marginBottom: '2.5rem' }}>
+                Une journée intensive pour structurer votre pilotage logistique. Formateur expert 20+ ans terrain. Hôtel 5★ Casablanca. Tout inclus — déjeuner, support 60 pages, attestation, suivi WhatsApp 30 jours.
+              </p>
+              <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', marginBottom: '3rem' }}>
+                <a href="/formation-rl/" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', padding: '1rem 2.5rem', background: 'var(--navy)', color: '#ffffff', fontFamily: 'Jost, sans-serif', fontSize: '0.9rem', fontWeight: 600, textDecoration: 'none', letterSpacing: '0.04em', transition: 'background 0.2s' }}
+                  onMouseEnter={e => (e.currentTarget as HTMLElement).style.background = 'var(--blue-bright)'}
+                  onMouseLeave={e => (e.currentTarget as HTMLElement).style.background = 'var(--navy)'}
+                >
+                  Voir le programme complet →
+                </a>
+                <a href={WA} target="_blank" rel="noopener noreferrer" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', padding: '1rem 2.5rem', background: 'transparent', border: '1px solid var(--border)', color: 'var(--navy)', fontFamily: 'Jost, sans-serif', fontSize: '0.9rem', fontWeight: 600, textDecoration: 'none', letterSpacing: '0.04em', transition: 'all 0.2s' }}
+                  onMouseEnter={e => { (e.currentTarget as HTMLElement).style.borderColor = 'var(--blue-bright)'; (e.currentTarget as HTMLElement).style.color = 'var(--blue-bright)' }}
+                  onMouseLeave={e => { (e.currentTarget as HTMLElement).style.borderColor = 'var(--border)'; (e.currentTarget as HTMLElement).style.color = 'var(--navy)' }}
+                >
+                  Réserver via WhatsApp
+                </a>
+              </div>
+              {/* Key facts */}
+              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem' }}>
+                {[
+                  { l: 'Tarif', v: '1 500 MAD TTC' },
+                  { l: 'Format', v: 'Inter-entreprises' },
+                  { l: 'Durée', v: '1 journée (8h30–17h30)' },
+                  { l: 'Lieu', v: 'Hôtel 5★ Casablanca' },
+                  { l: 'Places', v: '8 à 16 participants' },
+                  { l: 'Suivi', v: 'WhatsApp 30 jours inclus' },
+                ].map((f, i) => (
+                  <div key={i} style={{ borderTop: '1px solid var(--border)', paddingTop: '0.75rem' }}>
+                    <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.52rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'var(--blue-bright)', marginBottom: '0.2rem' }}>{f.l}</div>
+                    <div style={{ fontSize: '0.88rem', fontWeight: 500, color: 'var(--navy)' }}>{f.v}</div>
+                  </div>
+                ))}
+              </div>
+            </Reveal>
+
+            {/* Right — upcoming dates */}
+            <Reveal delay={0.12}>
+              <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.18em', textTransform: 'uppercase', color: 'var(--mid)', marginBottom: '1.5rem' }}>
+                Prochaines sessions 2026
+              </div>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '2px' }}>
+                {[
+                  { date: '18 Septembre 2026', places: 5, status: 'Ouvert' },
+                  { date: '23 Octobre 2026', places: 6, status: 'Ouvert' },
+                  { date: '13 Novembre 2026', places: 8, status: 'Ouvert' },
+                  { date: '11 Décembre 2026', places: 4, status: 'Dernières places' },
+                ].map((s, i) => (
+                  <div key={i} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '1.25rem 1.5rem', background: i % 2 === 0 ? '#fff' : 'var(--dark-2)', borderLeft: `2px solid ${s.places <= 4 ? 'var(--blue-bright)' : 'var(--border)'}` }}>
+                    <div>
+                      <div style={{ fontFamily: 'Jost, sans-serif', fontSize: '0.9rem', fontWeight: 600, color: 'var(--navy)' }}>{s.date}</div>
+                      <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.52rem', letterSpacing: '0.1em', color: 'var(--mid)', marginTop: '0.2rem', textTransform: 'uppercase' }}>{s.places} places disponibles</div>
+                    </div>
+                    <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.52rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: s.places <= 4 ? 'var(--blue-bright)' : 'var(--mid)', fontWeight: s.places <= 4 ? 700 : 400 }}>
+                      {s.status}
+                    </div>
+                  </div>
+                ))}
+              </div>
+              <div style={{ marginTop: '2rem', padding: '1.5rem', background: 'rgba(47,111,181,0.06)', borderLeft: '2px solid var(--blue-bright)' }}>
+                <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'var(--blue-bright)', marginBottom: '0.5rem' }}>Session intra disponible</div>
+                <div style={{ fontSize: '0.88rem', color: 'var(--dark-muted)', lineHeight: 1.6, fontWeight: 300 }}>
+                  Vous avez 5+ collaborateurs ? Nous organisons cette formation dans vos locaux, adaptée à votre secteur. Contactez-nous pour un devis.
+                </div>
+              </div>
+            </Reveal>
+          </div>
+        </div>
+      </section>
+
+      {/* ══ FORMATEUR ════════════════════════════════════════ */}
+      <section style={{ background: 'var(--dark-2)', padding: '8rem 4rem', color: 'var(--navy)' }}>
+        <div className="section-inner">
+          <Reveal>
+            <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--mid)', marginBottom: '4rem' }}>
+              04 / Votre formateur
+            </div>
+          </Reveal>
+          <div className="formateur-grid" style={{ display: 'grid', gridTemplateColumns: '400px 1fr', gap: '8rem', alignItems: 'start' }}>
+            <Reveal delay={0.05} style={{ position: 'relative' }}>
+              <div style={{ aspectRatio: '3/4', overflow: 'hidden', position: 'relative', background: 'var(--dark-2)' }}>
+                <img src="/images/conseil.jpg" alt="Youssef — Essor Consulting" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+                <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(27,53,84,0.25) 0%, transparent 60%)' }} />
+              </div>
+              <div style={{ position: 'absolute', bottom: '-2rem', right: '-2rem', background: 'var(--blue-bright)', padding: '1.75rem 2.25rem' }}>
+                <div style={{ fontFamily: 'Manrope, sans-serif', fontSize: '2.5rem', fontWeight: 800, color: '#ffffff', lineHeight: 1 }}>20+</div>
+                <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.5rem', letterSpacing: '0.12em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.75)', marginTop: '0.3rem' }}>ans terrain</div>
               </div>
             </Reveal>
 
             <Reveal delay={0.1}>
-              <h2 style={{ fontFamily: 'Bodoni Moda, serif', fontSize: 'clamp(2rem, 4vw, 4.5rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', color: '#0a1420', margin: '0 0 0.5rem' }}>
+              <h2 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2rem, 4vw, 4.5rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', color: 'var(--navy)', margin: '0 0 0.5rem' }}>
                 Youssef
               </h2>
-              <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.12em', textTransform: 'uppercase', color: 'var(--gold)', marginBottom: '2rem' }}>
+              <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.12em', textTransform: 'uppercase', color: 'var(--blue-bright)', marginBottom: '2rem' }}>
                 Fondateur, Essor Consulting
               </div>
-              <p style={{ fontSize: '1rem', color: 'rgba(10,20,32,0.6)', lineHeight: 1.85, fontWeight: 300, maxWidth: 560, marginBottom: '3rem' }}>
+              <p style={{ fontSize: '1rem', color: 'var(--dark-muted)', lineHeight: 1.85, fontWeight: 300, maxWidth: 560, marginBottom: '3rem' }}>
                 Plus de 20 ans de missions terrain en Supply Chain, Logistique et Achats au Maroc et en Europe. DDMRP Certified Practitioner. Expert national COVID-19. Intervenant dans les principales grandes écoles marocaines.
               </p>
               <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem 3rem' }}>
@@ -1330,9 +1404,9 @@ export default function FormationCatalogue() {
                   { label: 'Formation', val: 'ENSA Agadir · KEDGE Business School · UM6P' },
                   { label: 'Mission spéciale', val: 'Expert SC — Task Force Vaccination COVID-19' },
                 ].map((item, i) => (
-                  <div key={i} style={{ borderTop: '1px solid rgba(10,20,32,0.1)', paddingTop: '0.75rem' }}>
-                    <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.5rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'rgba(192,154,47,0.7)', marginBottom: '0.3rem' }}>{item.label}</div>
-                    <div style={{ fontSize: '0.85rem', color: 'rgba(10,20,32,0.7)', lineHeight: 1.4, fontWeight: 400 }}>{item.val}</div>
+                  <div key={i} style={{ borderTop: '1px solid var(--border)', paddingTop: '0.75rem' }}>
+                    <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.5rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'var(--blue-bright)', marginBottom: '0.3rem' }}>{item.label}</div>
+                    <div style={{ fontSize: '0.85rem', color: 'var(--dark-muted)', lineHeight: 1.4, fontWeight: 400 }}>{item.val}</div>
                   </div>
                 ))}
               </div>
@@ -1342,15 +1416,15 @@ export default function FormationCatalogue() {
       </section>
 
       {/* ══ FAQ ═══════════════════════════════════════════════ */}
-      <section style={{ background: 'var(--paper)', padding: '8rem 4rem', color: '#0a1420' }}>
+      <section style={{ background: '#ffffff', padding: '8rem 4rem', color: 'var(--navy)' }}>
         <div className="section-inner">
           <Reveal>
-            <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.22em', textTransform: 'uppercase', color: 'rgba(192,154,47,0.65)', marginBottom: '1.5rem' }}>
-              06 / Questions fréquentes
+            <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--mid)', marginBottom: '1.5rem' }}>
+              05 / Questions fréquentes
             </div>
-            <h2 style={{ fontFamily: 'Bodoni Moda, serif', fontSize: 'clamp(2.5rem, 5vw, 6rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', color: '#0a1420', margin: '0 0 4rem' }}>
+            <h2 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2.5rem, 5vw, 6rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', color: 'var(--navy)', margin: '0 0 4rem' }}>
               Vos questions,<br />
-              <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--gold)' }}>nos réponses.</span>
+              <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>nos réponses.</span>
             </h2>
           </Reveal>
 
@@ -1363,18 +1437,18 @@ export default function FormationCatalogue() {
       </section>
 
       {/* ══ CTA FINAL ════════════════════════════════════════ */}
-      <section style={{ background: 'var(--dark)', padding: '8rem 4rem' }}>
+      <section style={{ background: 'var(--dark-2)', padding: '8rem 4rem' }}>
         <div className="section-inner">
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr auto', gap: '6rem', alignItems: 'center' }}>
+          <div className="cta-final-grid" style={{ display: 'grid', gridTemplateColumns: '1fr auto', gap: '6rem', alignItems: 'center' }}>
             <Reveal>
-              <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.22em', textTransform: 'uppercase', color: 'rgba(192,154,47,0.5)', marginBottom: '1.5rem' }}>
-                07 / Inscription & contact
+              <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--mid)', marginBottom: '1.5rem' }}>
+                06 / Inscription & contact
               </div>
-              <h2 style={{ fontFamily: 'Bodoni Moda, serif', fontSize: 'clamp(2.5rem, 5vw, 6rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', color: 'var(--dark-text)', margin: '0 0 1.5rem' }}>
+              <h2 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2.5rem, 5vw, 6rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', color: 'var(--navy)', margin: '0 0 1.5rem' }}>
                 Réserver votre<br />
-                <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--gold)' }}>prochaine session.</span>
+                <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>prochaine session.</span>
               </h2>
-              <p style={{ fontSize: '1rem', color: 'rgba(235,232,225,0.5)', lineHeight: 1.8, fontWeight: 300, maxWidth: 520, margin: 0 }}>
+              <p style={{ fontSize: '1rem', color: 'var(--dark-muted)', lineHeight: 1.8, fontWeight: 300, maxWidth: 520, margin: 0 }}>
                 Réponse sous 24h. Aucun engagement avant confirmation écrite. Annulation gratuite jusqu'à 7 jours avant la session.
               </p>
             </Reveal>
@@ -1382,27 +1456,27 @@ export default function FormationCatalogue() {
             <Reveal delay={0.1}>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', alignItems: 'flex-start' }}>
                 <a href={WA} target="_blank" rel="noopener noreferrer"
-                  style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', padding: '1.25rem 3rem', background: 'var(--gold)', color: '#0a1420', fontFamily: 'Jost, sans-serif', fontSize: '1rem', fontWeight: 700, textDecoration: 'none', letterSpacing: '0.04em', transition: 'background 0.2s', whiteSpace: 'nowrap' }}
-                  onMouseEnter={e => (e.currentTarget as HTMLElement).style.background = '#a8841f'}
-                  onMouseLeave={e => (e.currentTarget as HTMLElement).style.background = 'var(--gold)'}
+                  style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', padding: '1.25rem 3rem', background: 'var(--blue-bright)', color: '#ffffff', fontFamily: 'Jost, sans-serif', fontSize: '1rem', fontWeight: 700, textDecoration: 'none', letterSpacing: '0.04em', transition: 'background 0.2s', whiteSpace: 'nowrap' }}
+                  onMouseEnter={e => (e.currentTarget as HTMLElement).style.background = 'var(--navy)'}
+                  onMouseLeave={e => (e.currentTarget as HTMLElement).style.background = 'var(--blue-bright)'}
                 >
                   Réserver via WhatsApp →
                 </a>
                 <a href={EMAIL}
-                  style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', padding: '1.25rem 3rem', background: 'transparent', border: '1px solid rgba(255,255,255,0.12)', color: 'rgba(235,232,225,0.65)', fontFamily: 'Jost, sans-serif', fontSize: '1rem', fontWeight: 400, textDecoration: 'none', letterSpacing: '0.04em', transition: 'all 0.2s', whiteSpace: 'nowrap' }}
-                  onMouseEnter={e => { (e.currentTarget as HTMLElement).style.borderColor = 'var(--gold)'; (e.currentTarget as HTMLElement).style.color = 'var(--gold)' }}
-                  onMouseLeave={e => { (e.currentTarget as HTMLElement).style.borderColor = 'rgba(255,255,255,0.12)'; (e.currentTarget as HTMLElement).style.color = 'rgba(235,232,225,0.65)' }}
+                  style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', padding: '1.25rem 3rem', background: 'transparent', border: '1px solid var(--border)', color: 'var(--dark-muted)', fontFamily: 'Jost, sans-serif', fontSize: '1rem', fontWeight: 400, textDecoration: 'none', letterSpacing: '0.04em', transition: 'all 0.2s', whiteSpace: 'nowrap' }}
+                  onMouseEnter={e => { (e.currentTarget as HTMLElement).style.borderColor = 'var(--blue-bright)'; (e.currentTarget as HTMLElement).style.color = 'var(--blue-bright)' }}
+                  onMouseLeave={e => { (e.currentTarget as HTMLElement).style.borderColor = 'var(--border)'; (e.currentTarget as HTMLElement).style.color = 'var(--dark-muted)' }}
                 >
                   Écrire par email
                 </a>
                 <Link to="/contact"
-                  style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: 'rgba(235,232,225,0.3)', textDecoration: 'none', transition: 'color 0.2s' }}
-                  onMouseEnter={e => (e.currentTarget as HTMLElement).style.color = 'var(--gold)'}
-                  onMouseLeave={e => (e.currentTarget as HTMLElement).style.color = 'rgba(235,232,225,0.3)'}
+                  style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--mid)', textDecoration: 'none', transition: 'color 0.2s' }}
+                  onMouseEnter={e => (e.currentTarget as HTMLElement).style.color = 'var(--blue-bright)'}
+                  onMouseLeave={e => (e.currentTarget as HTMLElement).style.color = 'var(--mid)'}
                 >
                   Ou via le formulaire de contact →
                 </Link>
-                <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.08em', textTransform: 'uppercase', color: 'rgba(235,232,225,0.2)', marginTop: '0.5rem' }}>
+                <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.08em', textTransform: 'uppercase', color: 'var(--mid)', marginTop: '0.5rem' }}>
                   +212 06 63 44 92 00 · essor.consulting.maroc@gmail.com
                 </div>
               </div>

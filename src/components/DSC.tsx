@@ -131,7 +131,7 @@ export default function DSC() {
               viewport={{ once: true, margin: '-60px' }}
               transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
               style={{
-                fontFamily: 'Bodoni Moda, serif',
+                fontFamily: 'Manrope, sans-serif',
                 fontSize: 'clamp(2.8rem, 5.5vw, 7rem)',
                 fontWeight: 800,
                 lineHeight: 0.92,
@@ -236,12 +236,12 @@ export default function DSC() {
 
                 {/* Phase name */}
                 <div style={{
-                  fontFamily: 'Bodoni Moda, serif',
+                  fontFamily: 'Manrope, sans-serif',
                   fontSize: 'clamp(1.4rem, 2.2vw, 2.2rem)',
                   fontWeight: 800,
                   lineHeight: 1.0,
                   letterSpacing: '-0.02em',
-                  color: 'var(--dark-text)',
+                  color: 'var(--navy)',
                   marginBottom: '1.5rem',
                 }}>
                   {p.name}
@@ -283,7 +283,7 @@ export default function DSC() {
                     Livrable ·&nbsp;
                   </span>
                   <span style={{
-                    fontFamily: 'Bodoni Moda, serif',
+                    fontFamily: 'Manrope, sans-serif',
                     fontStyle: 'italic',
                     fontWeight: 400,
                     fontSize: '0.85rem',
@@ -340,7 +340,7 @@ export default function DSC() {
                   fontSize: '0.58rem',
                   letterSpacing: '0.18em',
                   textTransform: 'uppercase',
-                  color: m.featured ? 'rgba(192,154,47,0.65)' : 'rgba(107,101,96,0.6)',
+                  color: m.featured ? 'rgba(192,154,47,0.65)' : 'rgba(95,102,114,0.6)',
                   marginBottom: '0.6rem',
                 }}>
                   {m.tag}
@@ -348,11 +348,11 @@ export default function DSC() {
 
                 {/* Name */}
                 <div style={{
-                  fontFamily: 'Bodoni Moda, serif',
+                  fontFamily: 'Manrope, sans-serif',
                   fontSize: '1.6rem',
                   fontWeight: 800,
                   letterSpacing: '-0.02em',
-                  color: m.featured ? 'var(--dark-text)' : 'var(--ink)',
+                  color: m.featured ? 'var(--navy)' : 'var(--ink)',
                   marginBottom: '1.75rem',
                 }}>
                   {m.name}
@@ -360,7 +360,7 @@ export default function DSC() {
 
                 {/* Price */}
                 <div style={{
-                  fontFamily: 'Bodoni Moda, serif',
+                  fontFamily: 'Manrope, sans-serif',
                   fontSize: 'clamp(1.3rem, 2.2vw, 2rem)',
                   fontWeight: 800,
                   lineHeight: 1.05,
@@ -375,7 +375,7 @@ export default function DSC() {
                   fontSize: '0.58rem',
                   letterSpacing: '0.12em',
                   textTransform: 'uppercase',
-                  color: m.featured ? 'rgba(227,226,226,0.3)' : 'rgba(107,101,96,0.45)',
+                  color: m.featured ? 'rgba(227,226,226,0.3)' : 'rgba(95,102,114,0.45)',
                   marginBottom: '0',
                 }}>
                   MAD HT
@@ -399,7 +399,7 @@ export default function DSC() {
                         fontSize: '0.52rem',
                         letterSpacing: '0.14em',
                         textTransform: 'uppercase',
-                        color: m.featured ? 'rgba(227,226,226,0.28)' : 'rgba(107,101,96,0.45)',
+                        color: m.featured ? 'rgba(227,226,226,0.28)' : 'rgba(95,102,114,0.45)',
                         marginBottom: '0.25rem',
                       }}>
                         {spec.label}
@@ -439,8 +439,8 @@ export default function DSC() {
                 </ul>
 
                 <a
-                  href="#contact"
-                  className={m.featured ? 'btn-primary' : undefined}
+                  href="/contact"
+                  className={m.featured ? 'btn-primary-gold' : undefined}
                   style={m.featured ? {} : {
                     display: 'inline-flex',
                     alignItems: 'center',
@@ -491,7 +491,7 @@ export default function DSC() {
                 Grands groupes · +800 personnes
               </div>
               <div style={{
-                fontFamily: 'Bodoni Moda, serif',
+                fontFamily: 'Manrope, sans-serif',
                 fontSize: '1.1rem',
                 fontWeight: 700,
                 color: 'var(--ink)',
@@ -510,7 +510,7 @@ export default function DSC() {
               Durée et format adaptés à votre contexte.
             </div>
             <a
-              href="#contact"
+              href="/contact"
               style={{
                 fontFamily: 'DM Mono, monospace',
                 fontSize: '0.68rem',
@@ -650,7 +650,7 @@ export default function DSC() {
           >
             <div>
               <div style={{
-                fontFamily: 'Bodoni Moda, serif',
+                fontFamily: 'Manrope, sans-serif',
                 fontSize: 'clamp(1.5rem, 2.8vw, 2.8rem)',
                 fontWeight: 700,
                 fontStyle: 'italic',
@@ -669,7 +669,7 @@ export default function DSC() {
               </div>
             </div>
             <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', alignItems: 'center' }}>
-              <a href="#contact" className="btn-primary">Réserver un échange →</a>
+              <a href="/contact" className="btn-primary">Réserver un échange →</a>
               <a
                 href="mailto:essor.consulting.maroc@gmail.com"
                 style={{

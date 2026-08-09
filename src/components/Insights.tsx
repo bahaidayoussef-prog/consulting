@@ -37,7 +37,7 @@ const ARTICLES = [
 function ArticleCard({ article, index }: { article: (typeof ARTICLES)[0]; index: number }) {
   return (
     <motion.a
-      href="#contact"
+      href="/blog"
       className="insight-card"
       initial={{ opacity: 0, y: 48 }}
       whileInView={{ opacity: 1, y: 0 }}
@@ -143,10 +143,10 @@ function ArticleCard({ article, index }: { article: (typeof ARTICLES)[0]; index:
         {/* Title */}
         <h3
           style={{
-            fontFamily: 'Bodoni Moda, serif',
+            fontFamily: 'Manrope, sans-serif',
             fontSize: 'clamp(1.05rem, 1.5vw, 1.3rem)',
             fontWeight: 700,
-            color: 'var(--dark-text)',
+            color: 'var(--navy)',
             lineHeight: 1.3,
             marginBottom: '1rem',
           }}
@@ -261,12 +261,12 @@ export default function Insights() {
             </div>
             <h2
               style={{
-                fontFamily: 'Bodoni Moda, serif',
+                fontFamily: 'Manrope, sans-serif',
                 fontSize: 'clamp(2.8rem, 5vw, 6rem)',
                 fontWeight: 800,
                 lineHeight: 0.92,
                 letterSpacing: '-0.025em',
-                color: 'var(--dark-text)',
+                color: 'var(--navy)',
               }}
             >
               Pensées sur la{' '}
@@ -277,7 +277,7 @@ export default function Insights() {
           </motion.div>
 
           <motion.a
-            href="#contact"
+            href="/contact"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
@@ -404,10 +404,10 @@ export default function Insights() {
           <div>
             <div
               style={{
-                fontFamily: 'Bodoni Moda, serif',
+                fontFamily: 'Manrope, sans-serif',
                 fontSize: '1.15rem',
                 fontWeight: 700,
-                color: 'var(--dark-text)',
+                color: 'var(--navy)',
                 marginBottom: '0.35rem',
               }}
             >
@@ -418,7 +418,7 @@ export default function Insights() {
             </div>
           </div>
           <a
-            href="#contact"
+            href="/contact"
             style={{
               display: 'inline-flex',
               alignItems: 'center',

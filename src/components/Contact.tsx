@@ -93,10 +93,10 @@ export default function Contact() {
         >
           <div className="section-tag" style={{ color: 'rgba(212,168,67,0.9)' }}>Prenons contact</div>
           <h2 style={{
-            fontFamily: 'Bodoni Moda, serif',
+            fontFamily: 'Manrope, sans-serif',
             fontSize: 'clamp(2.2rem, 4vw, 4rem)',
             fontWeight: 900, lineHeight: 1.05, marginBottom: '1.5rem',
-            color: 'var(--dark-text)',
+            color: 'var(--navy)',
           }}>
             Prêt à transformer votre Supply Chain en avantage compétitif&nbsp;?
           </h2>
@@ -161,7 +161,7 @@ export default function Contact() {
                   style={{ textAlign: 'center', padding: '3rem 0' }}
                 >
                   <div style={{ fontSize: '3rem', marginBottom: '1.5rem' }}>✓</div>
-                  <h3 style={{ fontFamily: 'Bodoni Moda, serif', fontSize: '1.4rem', color: 'var(--dark-text)', marginBottom: '0.75rem' }}>
+                  <h3 style={{ fontFamily: 'Manrope, sans-serif', fontSize: '1.4rem', color: 'var(--navy)', marginBottom: '0.75rem' }}>
                     Message envoyé.
                   </h3>
                   <p style={{ color: 'rgba(227,226,226,0.6)', fontSize: '0.9rem', lineHeight: 1.7 }}>
@@ -176,7 +176,7 @@ export default function Contact() {
                 </motion.div>
               ) : (
                 <motion.form key="form" onSubmit={handleSubmit} noValidate style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem' }}>
-                  <div style={{ fontFamily: 'Bodoni Moda, serif', fontSize: '1.15rem', fontWeight: 700, color: 'var(--dark-text)', marginBottom: '0.5rem' }}>
+                  <div style={{ fontFamily: 'Manrope, sans-serif', fontSize: '1.15rem', fontWeight: 700, color: 'var(--navy)', marginBottom: '0.5rem' }}>
                     Réservez votre échange gratuit
                   </div>
 

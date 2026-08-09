@@ -25,6 +25,8 @@ export default function PageHero({
   breadcrumb,
 }: PageHeroProps) {
   const words = title.split(' ')
+  const isLight = bg === 'var(--paper)'
+  const accent = isLight ? 'var(--blue-bright)' : 'var(--gold)'
 
   return (
     <section
@@ -48,7 +50,7 @@ export default function PageHero({
           right: '3rem',
           top: '50%',
           transform: 'translateY(-50%)',
-          fontFamily: 'Bodoni Moda, serif',
+          fontFamily: 'Manrope, sans-serif',
           fontSize: 'clamp(10rem, 25vw, 28rem)',
           fontWeight: 900,
           lineHeight: 1,
@@ -96,14 +98,14 @@ export default function PageHero({
             fontSize: '0.6rem',
             letterSpacing: '0.22em',
             textTransform: 'uppercase',
-            color: 'var(--gold)',
+            color: accent,
             marginBottom: '2rem',
             display: 'flex',
             alignItems: 'center',
             gap: '1rem',
           }}
         >
-          <span style={{ display: 'block', width: 24, height: 1, background: 'var(--gold)', opacity: 0.5 }} />
+          <span style={{ display: 'block', width: 24, height: 1, background: accent, opacity: 0.5 }} />
           {tag}
         </motion.div>
 
@@ -118,7 +120,7 @@ export default function PageHero({
                   transition={{ duration: 0.9, ease, delay: 0.2 + i * 0.07 }}
                   style={{
                     display: 'inline-block',
-                    fontFamily: 'Bodoni Moda, serif',
+                    fontFamily: 'Manrope, sans-serif',
                     fontSize: 'clamp(3rem, 7vw, 9rem)',
                     fontWeight: 800,
                     lineHeight: 0.92,
@@ -140,13 +142,13 @@ export default function PageHero({
                 transition={{ duration: 0.9, ease, delay: 0.2 + words.length * 0.07 }}
                 style={{
                   display: 'inline-block',
-                  fontFamily: 'Bodoni Moda, serif',
+                  fontFamily: 'Manrope, sans-serif',
                   fontSize: 'clamp(3rem, 7vw, 9rem)',
                   fontWeight: 400,
                   fontStyle: 'italic',
                   lineHeight: 0.92,
                   letterSpacing: '-0.03em',
-                  color: 'var(--gold)',
+                  color: accent,
                 }}
               >
                 {titleItalic}

@@ -110,7 +110,7 @@ export default function Profil() {
           fontFamily: 'DM Mono, monospace',
           fontSize: '0.6rem',
           letterSpacing: '0.2em',
-          color: 'rgba(192,154,47,0.6)',
+          color: 'rgba(168,200,236,0.9)',
           textTransform: 'uppercase',
         }}>
           09 / À propos
@@ -132,7 +132,7 @@ export default function Profil() {
               fontFamily: 'DM Mono, monospace',
               fontSize: '0.62rem',
               letterSpacing: '0.18em',
-              color: 'var(--gold)',
+              color: 'rgba(168,200,236,0.9)',
               textTransform: 'uppercase',
               marginBottom: '1rem',
             }}>
@@ -140,15 +140,15 @@ export default function Profil() {
             </div>
 
             <h2 style={{
-              fontFamily: 'Bodoni Moda, serif',
+              fontFamily: 'Manrope, sans-serif',
               fontSize: 'clamp(3.5rem, 8vw, 10rem)',
               fontWeight: 900,
               lineHeight: 0.88,
               letterSpacing: '-0.03em',
-              color: 'var(--dark-text)',
+              color: 'var(--paper)',
               margin: '0 0 1rem 0',
             }}>
-              Essor<span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--gold)' }}>.</span>
+              Essor<span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>.</span>
             </h2>
 
             <p style={{
@@ -167,55 +167,59 @@ export default function Profil() {
         </div>
       </div>
 
-      {/* ── STATS BANDE ── */}
+      {/* ── STATS BANDE — carte givrée flottante, style Hero/Formation ── */}
       <div
         ref={statsRef}
         style={{
-          background: 'var(--ink)',
-          padding: '3rem var(--sp-x)',
-          borderTop: '1px solid rgba(255,255,255,0.05)',
+          position: 'relative',
+          zIndex: 3,
+          marginTop: '-64px',
         }}
       >
-        <div className="section-inner">
-          <div style={{
+        <div
+          className="formation-stats-grid"
+          style={{
             display: 'grid',
             gridTemplateColumns: 'repeat(4, 1fr)',
-            gap: '0',
-          }}>
-            {STATS.map((s, i) => (
-              <motion.div
-                key={s.label}
-                initial={{ opacity: 0, y: 20 }}
-                animate={statsInView ? { opacity: 1, y: 0 } : {}}
-                transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1], delay: i * 0.08 }}
-                style={{
-                  padding: '1.5rem 2rem',
-                  borderRight: i < 3 ? '1px solid rgba(255,255,255,0.07)' : 'none',
-                }}
-              >
-                <div style={{
-                  fontFamily: 'Bodoni Moda, serif',
-                  fontSize: 'clamp(2rem, 3.5vw, 3.5rem)',
-                  fontWeight: 700,
-                  color: 'var(--gold)',
-                  lineHeight: 1,
-                  letterSpacing: '-0.02em',
-                  marginBottom: '0.35rem',
-                }}>
-                  {s.value}
-                </div>
-                <div style={{
-                  fontFamily: 'DM Mono, monospace',
-                  fontSize: '0.6rem',
-                  letterSpacing: '0.12em',
-                  textTransform: 'uppercase',
-                  color: 'rgba(235,232,225,0.3)',
-                }}>
-                  {s.label}
-                </div>
-              </motion.div>
-            ))}
-          </div>
+            background: 'rgba(255,255,255,0.85)',
+            backdropFilter: 'blur(24px) saturate(1.4)',
+            WebkitBackdropFilter: 'blur(24px) saturate(1.4)',
+            borderTop: '1px solid var(--border)',
+          }}
+        >
+          {STATS.map((s, i) => (
+            <motion.div
+              key={s.label}
+              initial={{ opacity: 0, y: 20 }}
+              animate={statsInView ? { opacity: 1, y: 0 } : {}}
+              transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1], delay: i * 0.08 }}
+              style={{
+                padding: '1.4rem 1.8rem',
+                borderRight: i < 3 ? '1px solid var(--border)' : 'none',
+              }}
+            >
+              <div style={{
+                fontFamily: 'Manrope, sans-serif',
+                fontSize: 'clamp(1.5rem, 2.4vw, 2.2rem)',
+                fontWeight: 700,
+                color: 'var(--navy)',
+                lineHeight: 1,
+                letterSpacing: '-0.01em',
+                marginBottom: '0.3rem',
+              }}>
+                {s.value}
+              </div>
+              <div style={{
+                fontFamily: 'var(--mono)',
+                fontSize: '0.6rem',
+                letterSpacing: '0.14em',
+                textTransform: 'uppercase',
+                color: 'var(--mid)',
+              }}>
+                {s.label}
+              </div>
+            </motion.div>
+          ))}
         </div>
       </div>
 
@@ -237,7 +241,7 @@ export default function Profil() {
               viewport={{ once: true, margin: '-60px' }}
               transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
               style={{
-                fontFamily: 'Bodoni Moda, serif',
+                fontFamily: 'Manrope, sans-serif',
                 fontSize: 'clamp(2.2rem, 4vw, 5rem)',
                 fontWeight: 800,
                 lineHeight: 0.92,
@@ -248,7 +252,7 @@ export default function Profil() {
             >
               Notre expertise.
               <br />
-              <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--gold)' }}>
+              <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>
                 Des résultats concrets.
               </span>
             </motion.h3>
@@ -274,7 +278,7 @@ export default function Profil() {
                     fontSize: '0.6rem',
                     letterSpacing: '0.12em',
                     textTransform: 'uppercase',
-                    color: 'rgba(192,154,47,0.6)',
+                    color: 'rgba(47,111,181,0.75)',
                     paddingTop: '0.1rem',
                   }}>
                     {c.label}
@@ -340,16 +344,16 @@ export default function Profil() {
                     fontSize: '0.58rem',
                     letterSpacing: '0.12em',
                     textTransform: 'uppercase',
-                    color: 'var(--gold)',
+                    color: 'rgba(168,200,236,0.9)',
                     marginBottom: '0.4rem',
                   }}>
                     {h.period}
                   </div>
                   <div style={{
-                    fontFamily: 'Bodoni Moda, serif',
+                    fontFamily: 'Manrope, sans-serif',
                     fontSize: 'clamp(1rem, 1.5vw, 1.3rem)',
                     fontWeight: 700,
-                    color: 'var(--dark-text)',
+                    color: 'var(--paper)',
                     lineHeight: 1.2,
                     marginBottom: '0.2rem',
                     letterSpacing: '-0.01em',
@@ -381,7 +385,7 @@ export default function Profil() {
               alignItems: 'center',
             }}
           >
-            <a href="#contact" className="btn-primary">
+            <a href="/contact" className="btn-primary">
               Prendre contact avec nous →
             </a>
             <a

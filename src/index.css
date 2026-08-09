@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,700;0,6..96,900;1,6..96,400;1,6..96,700&family=Jost:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Bodoni+Moda:opsz,wght@6..96,700&family=Jost:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap');
 
 :root {
   /* Responsive spacing — changent aux breakpoints */
@@ -17,8 +17,8 @@
   --paper: #f5f3ee;
   --cream: #ede9e0;
   --card-bg: #faf8f4;
-  --border: #d4cfc5;
-  --mid: #6b6560;
+  --border: #d3d7de;
+  --mid: #5f6672;
 
   /* Gold */
   --gold: #c09a2f;
@@ -27,17 +27,22 @@
   --gold-glow: rgba(192,154,47,0.18);
   --sage: #4a6741;
 
+  /* Blue — accent primaire du pivot corporate clair */
+  --blue: var(--navy); /* alias — canonical is --navy, kept for existing usages */
+  --blue-bright: #2f6fb5;
+  --blue-dim: rgba(47,111,181,0.1);
+
   /* Dark surfaces — now corporate light */
   --dark: #ffffff;
   --dark-2: #F4F6F9;
   --dark-3: #EEF1F6;
   --dark-border: rgba(27,53,84,0.1);
-  --dark-text: #1b3554;
+  --dark-text: var(--navy); /* alias — canonical is --navy, kept for existing usages */
   --dark-muted: rgba(27,53,84,0.52);
 
   /* Type */
-  --display: 'Bodoni Moda', serif;
-  --heading: 'Bodoni Moda', serif;
+  --display: 'Manrope', sans-serif;
+  --heading: 'Manrope', sans-serif;
   --mono: 'DM Mono', monospace;
   --radius: 0px;
 }
@@ -110,7 +115,7 @@ html.lenis { height: auto; }
 /* ── Buttons ── */
 .btn-primary {
   display: inline-flex; align-items: center; gap: 0.6rem;
-  background: var(--gold); color: var(--navy-dark, #0e1f30);
+  background: var(--blue-bright); color: #fff;
   padding: 1rem 2.4rem; font-weight: 600; font-size: 0.85rem;
   font-family: 'Jost', sans-serif;
   text-decoration: none; border: none; cursor: none;
@@ -118,6 +123,24 @@ html.lenis { height: auto; }
   transition: background 0.3s, transform 0.25s, box-shadow 0.3s;
 }
 .btn-primary:hover {
+  background: var(--navy);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 40px rgba(47,111,181,0.3);
+}
+/* Legacy gold variant — kept for the 2 sections still on a dark navy/ink
+   background (DSC featured tier card, Pourquoi Méthode CTA) where blue-bright
+   loses too much contrast against the surrounding dark bg. Remove once those
+   sections are migrated to the light palette. */
+.btn-primary-gold {
+  display: inline-flex; align-items: center; gap: 0.6rem;
+  background: var(--gold); color: var(--navy-dark, #0e1f30);
+  padding: 1rem 2.4rem; font-weight: 600; font-size: 0.85rem;
+  font-family: 'Jost', sans-serif;
+  text-decoration: none; border: none; cursor: none;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  transition: background 0.3s, transform 0.25s, box-shadow 0.3s;
+}
+.btn-primary-gold:hover {
   background: var(--gold-light);
   transform: translateY(-2px);
   box-shadow: 0 12px 40px rgba(192,154,47,0.3);
@@ -136,7 +159,7 @@ html.lenis { height: auto; }
 
 .btn-ghost {
   display: inline-flex; align-items: center; gap: 0.6rem;
-  border: 1px solid rgba(27,53,84,0.2); color: var(--dark-text);
+  border: 1px solid rgba(27,53,84,0.2); color: var(--navy);
   padding: 1rem 2.4rem; font-weight: 400; font-size: 0.85rem;
   font-family: 'Jost', sans-serif;
   text-decoration: none; background: transparent; cursor: none;
@@ -211,7 +234,7 @@ html.lenis { height: auto; }
 }
 .mobile-nav-overlay.open { pointer-events: all; opacity: 1; }
 .mobile-nav-item {
-  font-family: 'Bodoni Moda', serif;
+  font-family: 'Manrope', sans-serif;
   font-size: clamp(2rem, 7vw, 3.5rem);
   font-weight: 700; color: rgba(235,232,225,0.9);
   text-decoration: none; line-height: 1.2;
@@ -329,6 +352,18 @@ html.lenis { height: auto; }
   /* References grid : forcer 1 colonne, annuler les span */
   .refs-grid { grid-template-columns: 1fr !important; }
   .refs-grid > * { grid-column: span 1 !important; }
+  /* References : mur de logos 4 colonnes → 2 */
+  .logo-wall-grid { grid-template-columns: 1fr 1fr !important; }
+  /* Formation : calendrier 4 colonnes → 2 */
+  .formation-calendar-grid { grid-template-columns: 1fr 1fr !important; }
+  .phare-grid, .formateur-grid { grid-template-columns: 1fr !important; gap: 3rem !important; }
+  .pc-detail-grid { grid-template-columns: 1fr !important; gap: 2rem !important; }
+  /* Team (À propos) : header 2 col → 1, banner 2 col → 1 */
+  .team-header-grid { grid-template-columns: 1fr !important; gap: 2rem !important; }
+  .team-banner-grid { grid-template-columns: 1fr !important; gap: 2rem !important; padding: 2rem !important; }
+  .team-banner-col { border-right: none !important; padding-right: 0 !important; border-bottom: 1px solid var(--border); padding-bottom: 2rem !important; }
+  /* Engagement (À propos) : 4 cartes → 2 */
+  .engagement-grid { grid-template-columns: 1fr 1fr !important; }
 }
 @media (max-width: 640px) {
   :root {
@@ -343,6 +378,16 @@ html.lenis { height: auto; }
   .insights-grid { grid-template-columns: 1fr !important; }
   .offers-grid { grid-template-columns: 1fr !important; }
   .dsc-grid { grid-template-columns: 1fr !important; }
+  /* Formation catalogue cards — price/CTA column overflows next to long price ranges */
+  .pc-header { grid-template-columns: 1fr !important; gap: 1.5rem !important; }
+  .pc-header-right { align-items: flex-start !important; min-width: 0 !important; width: 100%; }
+  .cta-final-grid { grid-template-columns: 1fr !important; gap: 2.5rem !important; }
+  /* Formation : bandeau stats 4 colonnes → 2, calendrier → 1 */
+  .formation-stats-grid { grid-template-columns: 1fr 1fr !important; row-gap: 2rem !important; }
+  .formation-stats-grid > div:nth-child(3) { border-left: none !important; padding-left: 0 !important; }
+  .formation-calendar-grid { grid-template-columns: 1fr !important; }
+  .team-cards-grid { grid-template-columns: 1fr !important; }
+  .engagement-grid { grid-template-columns: 1fr !important; }
 }
 
 /* ── FormationRL responsive grids ── */
@@ -390,10 +435,10 @@ html.lenis { height: auto; }
 .blog-content h1,
 .blog-content h2,
 .blog-content h3 {
-  font-family: 'Bodoni Moda', serif;
+  font-family: 'Manrope', sans-serif;
   line-height: 1.2;
   letter-spacing: -0.01em;
-  color: var(--dark-text);
+  color: var(--navy);
 }
 
 .blog-content h1 {
@@ -482,21 +527,21 @@ html.lenis { height: auto; }
 /* ── New blog element classes (parser v2) ── */
 
 .blog-h1 {
-  font-family: 'Bodoni Moda', serif;
+  font-family: 'Manrope', sans-serif;
   font-size: clamp(1.75rem, 3vw, 2.5rem);
   font-weight: 400;
   line-height: 1.15;
   letter-spacing: -0.02em;
-  color: var(--dark-text);
+  color: var(--navy);
   margin: 2.5rem 0 1rem;
 }
 .blog-h2 {
-  font-family: 'Bodoni Moda', serif;
+  font-family: 'Manrope', sans-serif;
   font-size: clamp(1.25rem, 2vw, 1.75rem);
   font-weight: 400;
   line-height: 1.2;
   letter-spacing: -0.01em;
-  color: var(--dark-text);
+  color: var(--navy);
   margin: 2rem 0 0.875rem;
   padding-bottom: 0.5rem;
   border-bottom: 1px solid rgba(192,154,47,0.2);
@@ -514,7 +559,7 @@ html.lenis { height: auto; }
   font-family: 'Jost', sans-serif;
   font-size: 1rem;
   font-weight: 600;
-  color: var(--dark-text);
+  color: var(--navy);
   margin: 1.5rem 0 0.5rem;
 }
 .blog-p {
@@ -659,7 +704,7 @@ html.lenis { height: auto; }
   padding: 1.25rem 1.5rem;
   border-left: 3px solid var(--gold);
   background: rgba(192,154,47,0.06);
-  font-family: 'Bodoni Moda', serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 1.0625rem;
   font-style: italic;
   line-height: 1.7;
@@ -689,7 +734,7 @@ html.lenis { height: auto; }
   transform: scale(1);
 }
 .blog-stat-value {
-  font-family: 'Bodoni Moda', serif;
+  font-family: 'Manrope', sans-serif;
   font-size: clamp(2.5rem, 5vw, 4rem);
   font-weight: 400;
   color: var(--gold);

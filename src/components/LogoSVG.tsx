@@ -6,7 +6,7 @@ interface LogoSVGProps {
 
 export default function LogoSVG({
   inkColor = '#1b3554',
-  subColor = '#6b6560',
+  subColor = '#5f6672',
   height = 36,
 }: LogoSVGProps) {
   const width = (180 / 40) * height

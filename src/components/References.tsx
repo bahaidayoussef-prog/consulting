@@ -1,5 +1,12 @@
 import { motion } from 'framer-motion'
 
+const LOGOS = [
+  { name: 'Diana Holding', file: '/images/logos/diana-holding.svg', height: 34 },
+  { name: 'Safari Groupe', file: '/images/logos/safari-groupe.png', height: 40 },
+  { name: 'Maghreb Steel', file: '/images/logos/maghreb-steel.svg', height: 26 },
+  { name: 'Casanet', file: '/images/logos/casanet.png', height: 46 },
+]
+
 const REFS = [
   {
     client: 'Renault-Nissan',
@@ -109,12 +116,12 @@ function RefCard({ r, index }: RefCardProps) {
       {/* Text content */}
       <div style={{ padding: '2rem 2.5rem 2.5rem' }}>
         <h3 style={{
-          fontFamily: 'Bodoni Moda, serif',
+          fontFamily: 'Manrope, sans-serif',
           fontSize: r.span === 2 ? 'clamp(1.8rem, 3vw, 3rem)' : 'clamp(1.4rem, 2vw, 2rem)',
           fontWeight: 800,
           lineHeight: 1.0,
           letterSpacing: '-0.02em',
-          color: 'var(--dark-text)',
+          color: 'var(--navy)',
           marginBottom: '0.75rem',
         }}>
           {r.client}
@@ -142,6 +149,76 @@ function RefCard({ r, index }: RefCardProps) {
           <span style={{ display: 'block', width: 20, height: 1, background: 'var(--gold)' }} />
           {r.result}
         </div>
+      </div>
+    </motion.div>
+  )
+}
+
+function LogoWall() {
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: 24 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, margin: '-60px' }}
+      transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+      style={{
+        marginBottom: '5rem',
+        paddingTop: '3rem',
+        borderTop: '1px solid var(--dark-border)',
+      }}
+    >
+      <div style={{
+        fontFamily: 'DM Mono, monospace',
+        fontSize: '0.62rem',
+        letterSpacing: '0.18em',
+        textTransform: 'uppercase',
+        color: 'var(--dark-muted)',
+        marginBottom: '2.5rem',
+      }}>
+        Ils nous font confiance
+      </div>
+      <div className="logo-wall-grid" style={{
+        display: 'grid',
+        gridTemplateColumns: `repeat(${LOGOS.length}, 1fr)`,
+        gap: '2px',
+        background: 'var(--dark-border)',
+      }}>
+        {LOGOS.map((logo) => (
+          <div
+            key={logo.name}
+            className="logo-wall-tile"
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              height: 120,
+              background: 'var(--dark)',
+              padding: '1.5rem',
+            }}
+          >
+            <img
+              src={logo.file}
+              alt={logo.name}
+              style={{
+                height: logo.height,
+                maxWidth: '100%',
+                width: 'auto',
+                objectFit: 'contain',
+                filter: 'grayscale(100%)',
+                opacity: 0.55,
+                transition: 'filter 0.4s ease, opacity 0.4s ease',
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.filter = 'grayscale(0%)'
+                e.currentTarget.style.opacity = '1'
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.filter = 'grayscale(100%)'
+                e.currentTarget.style.opacity = '0.55'
+              }}
+            />
+          </div>
+        ))}
       </div>
     </motion.div>
   )
@@ -177,12 +254,12 @@ export default function References() {
               06 / Références clients
             </div>
             <h2 style={{
-              fontFamily: 'Bodoni Moda, serif',
+              fontFamily: 'Manrope, sans-serif',
               fontSize: 'clamp(2.8rem, 5.5vw, 7rem)',
               fontWeight: 800,
               lineHeight: 0.92,
               letterSpacing: '-0.025em',
-              color: 'var(--dark-text)',
+              color: 'var(--navy)',
               margin: 0,
             }}>
               Des missions.
@@ -213,6 +290,8 @@ export default function References() {
           </motion.p>
         </div>
 
+        <LogoWall />
+
         {/* Grid — hugeinc work layout */}
         <div className="refs-grid" style={{
           display: 'grid',
@@ -242,7 +321,7 @@ export default function References() {
           }}
         >
           <p style={{
-            fontFamily: 'Bodoni Moda, serif',
+            fontFamily: 'Manrope, sans-serif',
             fontSize: 'clamp(1.2rem, 2vw, 1.8rem)',
             fontStyle: 'italic',
             fontWeight: 300,
@@ -251,7 +330,7 @@ export default function References() {
           }}>
             Votre secteur n&apos;est peut-être pas encore dans la liste.
           </p>
-          <a href="#contact" className="btn-primary">
+          <a href="/contact" className="btn-primary">
             Discuter de votre projet →
           </a>
         </motion.div>

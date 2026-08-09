@@ -127,7 +127,7 @@ export default function Methode() {
                 fontSize: 'clamp(2.5rem, 4.5vw, 4.5rem)',
                 fontWeight: 300,
                 fontStyle: 'italic',
-                color: 'var(--dark-text)',
+                color: 'var(--navy)',
                 lineHeight: 1.05,
                 letterSpacing: '-0.01em',
               }}
@@ -226,10 +226,10 @@ export default function Methode() {
                 {/* Title */}
                 <div
                   style={{
-                    fontFamily: 'Bodoni Moda, serif',
+                    fontFamily: 'Manrope, sans-serif',
                     fontSize: '1.2rem',
                     fontWeight: 700,
-                    color: 'var(--dark-text)',
+                    color: 'var(--navy)',
                     marginBottom: '0.75rem',
                     lineHeight: 1.3,
                   }}
@@ -276,9 +276,8 @@ export default function Methode() {
             Prêt à démarrer votre diagnostic ?
           </div>
           <a
-            href="#contact"
+            href="/contact"
             className="btn-primary"
-            style={{ background: 'var(--gold)', color: '#0e1f30', fontWeight: 700 }}
           >
             Réserver un échange gratuit →
           </a>

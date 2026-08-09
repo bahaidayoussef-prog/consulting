@@ -16,7 +16,7 @@ function ScrollToTop() {
   return null
 }
 
-export function Statement({ text, bg = 'var(--ink)' }: { text: string; bg?: string }) {
+export function Statement({ text, bg = 'var(--ink)', accent = 'var(--gold)' }: { text: string; bg?: string; accent?: string }) {
   return (
     <div style={{ background: bg, padding: '5rem 4rem', overflow: 'hidden' }}>
       <div className="section-inner">
@@ -26,13 +26,13 @@ export function Statement({ text, bg = 'var(--ink)' }: { text: string; bg?: stri
           viewport={{ once: true, margin: '-60px' }}
           transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
           style={{
-            fontFamily: 'Bodoni Moda, serif',
+            fontFamily: 'Manrope, sans-serif',
             fontSize: 'clamp(2rem, 5vw, 6.5rem)',
             fontWeight: 400,
             fontStyle: 'italic',
             lineHeight: 0.92,
             letterSpacing: '-0.025em',
-            color: 'var(--gold)',
+            color: accent,
           }}
         >
           {text}

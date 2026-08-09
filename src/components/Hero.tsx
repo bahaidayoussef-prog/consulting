@@ -40,24 +40,52 @@ const EDGES: [string, string][] = [
 ]
 function getNode(id: string) { return NODES.find((n) => n.id === id)! }
 
+/* Cities light up in order of distance from the Casablanca hub, then the
+   flow/pulse loop takes over — reads as the network "coming online". */
+const HUB = 'casa'
+function dist(aId: string, bId: string) {
+  const a = getNode(aId); const b = getNode(bId)
+  return Math.hypot(a.x - b.x, a.y - b.y)
+}
+const REVEAL_ORDER = [...NODES].sort((a, b) => dist(HUB, a.id) - dist(HUB, b.id)).map((n) => n.id)
+
 function NetworkSVG() {
   const svgRef = useRef<SVGSVGElement>(null)
   useEffect(() => {
     if (!svgRef.current) return
     const ctx = gsap.context(() => {
+      const reveal = gsap.timeline()
+      REVEAL_ORDER.forEach((id, i) => {
+        reveal.fromTo(
+          `[data-node="${id}"]`,
+          { opacity: 0, scale: 0 },
+          { opacity: 1, scale: 1, duration: 0.5, ease: 'back.out(2)' },
+          i * 0.09
+        )
+      })
+      EDGES.forEach(([aId, bId], i) => {
+        const order = Math.max(REVEAL_ORDER.indexOf(aId), REVEAL_ORDER.indexOf(bId))
+        reveal.fromTo(
+          `[data-edge="${i}"]`,
+          { opacity: 0 },
+          { opacity: 1, duration: 0.4 },
+          order * 0.09
+        )
+      })
+
       const flows = svgRef.current!.querySelectorAll<SVGPathElement>('[data-flow]')
       flows.forEach((path, i) => {
         const len = path.getTotalLength()
         const dashLen = len * 0.22
         gsap.set(path, { strokeDasharray: `${dashLen} ${len - dashLen}`, strokeDashoffset: 0 })
-        gsap.to(path, { strokeDashoffset: -len, repeat: -1, duration: 4 + (i % 3), ease: 'none' })
+        gsap.to(path, { strokeDashoffset: -len, repeat: -1, duration: 4 + (i % 3), ease: 'none', delay: 1.2 })
       })
       const pulses = svgRef.current!.querySelectorAll<SVGCircleElement>('[data-pulse]')
       pulses.forEach((circle) => {
         const baseR = parseFloat(circle.getAttribute('data-base-r') || '1')
         gsap.fromTo(circle,
           { attr: { r: baseR }, opacity: 0.7 },
-          { attr: { r: baseR * 3.5 }, opacity: 0, repeat: -1, duration: 2.8, ease: 'power1.out' }
+          { attr: { r: baseR * 3.5 }, opacity: 0, repeat: -1, duration: 2.8, ease: 'power1.out', delay: 1.2 }
         )
       })
     }, svgRef)
@@ -70,20 +98,30 @@ function NetworkSVG() {
       viewBox="0 0 100 80"
       preserveAspectRatio="xMidYMid slice"
       aria-hidden="true"
-      style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', opacity: 0.15 }}
+      style={{ position: 'absolute', inset: 0, width: '100%', height: '100%' }}
     >
       {EDGES.map(([aId, bId]) => {
         const a = getNode(aId); const b = getNode(bId)
-        return <line key={`base-${aId}-${bId}`} x1={a.x} y1={a.y} x2={b.x} y2={b.y} stroke="rgba(192,154,47,0.4)" strokeWidth="0.25" />
+        return <line key={`base-${aId}-${bId}`} x1={a.x} y1={a.y} x2={b.x} y2={b.y} stroke="rgba(27,53,84,0.16)" strokeWidth="0.25" />
       })}
       {EDGES.map(([aId, bId], idx) => {
         const a = getNode(aId); const b = getNode(bId)
-        return <path key={`flow-${aId}-${bId}`} data-flow={idx} d={`M ${a.x} ${a.y} L ${b.x} ${b.y}`} stroke="rgba(192,154,47,1)" strokeWidth="0.5" fill="none" />
+        return (
+          <path
+            key={`flow-${aId}-${bId}`}
+            data-flow={idx}
+            data-edge={idx}
+            d={`M ${a.x} ${a.y} L ${b.x} ${b.y}`}
+            stroke="rgba(47,111,181,0.85)"
+            strokeWidth="0.4"
+            fill="none"
+          />
+        )
       })}
       {NODES.map((node) => (
-        <g key={node.id}>
-          <circle cx={node.x} cy={node.y} r={node.r} fill="rgba(192,154,47,0.9)" />
-          <circle data-pulse={node.id} data-base-r={node.r} cx={node.x} cy={node.y} r={node.r} fill="none" stroke="rgba(192,154,47,0.5)" strokeWidth="0.25" />
+        <g key={node.id} data-node={node.id}>
+          <circle cx={node.x} cy={node.y} r={node.r} fill="rgba(27,53,84,0.85)" />
+          <circle data-pulse={node.id} data-base-r={node.r} cx={node.x} cy={node.y} r={node.r} fill="none" stroke="rgba(47,111,181,0.55)" strokeWidth="0.25" />
         </g>
       ))}
     </svg>
@@ -94,7 +132,6 @@ export default function Hero() {
   const [textVisible, setTextVisible] = useState(true)
   const heroRef = useRef<HTMLElement>(null)
 
-  /* ─ Heading text appear once ─ */
   useEffect(() => {
     setTextVisible(true)
   }, [])
@@ -103,7 +140,7 @@ export default function Hero() {
   useEffect(() => {
     const ctx = gsap.context(() => {
       gsap.to('[data-hero-bg]', {
-        yPercent: 14,
+        yPercent: 10,
         ease: 'none',
         scrollTrigger: { trigger: heroRef.current, start: 'top top', end: 'bottom top', scrub: true },
       })
@@ -117,7 +154,7 @@ export default function Hero() {
       ref={heroRef}
       style={{
         minHeight: '100svh',
-        background: 'var(--navy)',
+        background: 'linear-gradient(180deg, #ffffff 0%, #ffffff 70%, var(--dark-2) 100%)',
         position: 'relative',
         display: 'flex',
         flexDirection: 'column',
@@ -127,39 +164,20 @@ export default function Hero() {
         paddingBottom: 120,
       }}
     >
-      {/* ── Video background ── */}
+      {/* ── Network map background ── */}
       <div data-hero-bg style={{ position: 'absolute', inset: 0, zIndex: 0 }}>
-        <video
-          autoPlay
-          muted
-          loop
-          playsInline
-          poster="/images/hero-warehouse.jpg"
-          aria-hidden="true"
-          style={{
-            position: 'absolute', inset: 0,
-            width: '100%', height: '100%',
-            objectFit: 'cover',
-            opacity: 0.28,
-            filter: 'grayscale(20%) contrast(1.05)',
-          }}
-        >
-          <source src="/videos/network-loop.mp4" type="video/mp4" />
-        </video>
-
-        {/* Dark overlay */}
-        <div style={{
-          position: 'absolute', inset: 0,
-          background: 'linear-gradient(120deg, rgba(10,20,32,0.93) 0%, rgba(10,20,32,0.72) 55%, rgba(10,20,32,0.90) 100%)',
-        }} />
-
-        {/* Morocco network */}
         <NetworkSVG />
 
-        {/* Bottom vignette */}
+        {/* Legibility scrim — fades the map out under the headline, in on the right */}
         <div style={{
           position: 'absolute', inset: 0,
-          background: 'linear-gradient(to bottom, transparent 40%, rgba(10,20,32,0.97) 100%)',
+          background: 'linear-gradient(90deg, rgba(255,255,255,0.98) 0%, rgba(255,255,255,0.9) 32%, rgba(255,255,255,0.35) 62%, rgba(255,255,255,0.05) 100%)',
+        }} />
+
+        {/* Bottom fade into the stats bar */}
+        <div style={{
+          position: 'absolute', inset: 0,
+          background: 'linear-gradient(to bottom, transparent 65%, #ffffff 100%)',
         }} />
       </div>
 
@@ -180,12 +198,12 @@ export default function Hero() {
           fontFamily: 'DM Mono, monospace',
           fontSize: '0.58rem',
           letterSpacing: '0.18em',
-          color: 'rgba(235,232,225,0.2)',
+          color: 'var(--mid)',
           textTransform: 'uppercase',
         }}>
           Logistique · Maroc
         </div>
-        <div style={{ width: 1, height: 40, background: 'rgba(192,154,47,0.25)' }} />
+        <div style={{ width: 1, height: 40, background: 'var(--border)' }} />
       </div>
 
       {/* ── Main content ── */}
@@ -204,14 +222,14 @@ export default function Hero() {
             fontSize: '0.65rem',
             letterSpacing: '0.2em',
             textTransform: 'uppercase',
-            color: 'rgba(192,154,47,0.8)',
+            color: 'var(--mid)',
             marginBottom: '2.5rem',
             display: 'flex',
             alignItems: 'center',
             gap: '1rem',
           }}
         >
-          <span style={{ display: 'block', width: 32, height: 1, background: 'var(--gold)', opacity: 0.5 }} />
+          <span style={{ display: 'block', width: 32, height: 1, background: 'var(--blue-bright)' }} />
           Cabinet indépendant · Supply Chain · Casablanca, Maroc
         </motion.div>
 
@@ -236,12 +254,12 @@ export default function Hero() {
                 }}
                 style={{
                   display: 'block',
-                  fontFamily: 'Bodoni Moda, serif',
+                  fontFamily: 'Manrope, sans-serif',
                   fontSize: 'clamp(4rem, 10.5vw, 14rem)',
                   fontWeight: line.italic ? 400 : 900,
                   fontStyle: line.italic ? 'italic' : 'normal',
                   letterSpacing: '-0.03em',
-                  color: line.italic ? 'var(--gold)' : 'var(--dark-text)',
+                  color: line.italic ? 'var(--blue-bright)' : 'var(--navy)',
                 }}
               >
                 {line.text}
@@ -302,10 +320,10 @@ export default function Hero() {
           zIndex: 2,
           display: 'grid',
           gridTemplateColumns: 'repeat(4, 1fr)',
-          background: 'rgba(10,20,32,0.82)',
+          background: 'rgba(255,255,255,0.85)',
           backdropFilter: 'blur(24px) saturate(1.4)',
           WebkitBackdropFilter: 'blur(24px) saturate(1.4)',
-          borderTop: '1px solid rgba(255,255,255,0.06)',
+          borderTop: '1px solid var(--border)',
         }}
       >
         {STATS.map((s, i) => (
@@ -313,14 +331,14 @@ export default function Hero() {
             key={s.label}
             style={{
               padding: '1.4rem 1.8rem',
-              borderRight: i < 3 ? '1px solid rgba(255,255,255,0.05)' : 'none',
+              borderRight: i < 3 ? '1px solid var(--border)' : 'none',
             }}
           >
             <div style={{
-              fontFamily: 'Bodoni Moda, serif',
+              fontFamily: 'Manrope, sans-serif',
               fontSize: 'clamp(1.5rem, 2.4vw, 2.2rem)',
               fontWeight: 700,
-              color: 'var(--gold)',
+              color: 'var(--navy)',
               lineHeight: 1,
               marginBottom: '0.3rem',
               letterSpacing: '-0.01em',
@@ -332,7 +350,7 @@ export default function Hero() {
               fontSize: '0.6rem',
               letterSpacing: '0.14em',
               textTransform: 'uppercase',
-              color: 'rgba(235,232,225,0.3)',
+              color: 'var(--mid)',
             }}>
               {s.label}
             </div>

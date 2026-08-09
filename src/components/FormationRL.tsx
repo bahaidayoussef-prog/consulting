@@ -135,7 +135,7 @@ function StatCounter({ value, suffix, label, trigger }: { value: number; suffix:
   return (
     <div>
       <div style={{
-        fontFamily: 'Bodoni Moda, serif',
+        fontFamily: 'Manrope, sans-serif',
         fontSize: 'clamp(2rem, 4vw, 3.5rem)',
         fontWeight: 800, lineHeight: 1, letterSpacing: '-0.02em',
         color: '#f0ede8',
@@ -251,7 +251,7 @@ export default function FormationRL() {
       {/* ── STICKY CTA ─────────────────────────────────────── */}
       <div className={`frl-sticky${showSticky ? ' visible' : ''}`}>
         <div>
-          <div style={{ fontFamily: 'Bodoni Moda, serif', fontSize: '1rem', fontWeight: 700, color: '#f0ede8' }}>
+          <div style={{ fontFamily: 'Manrope, sans-serif', fontSize: '1rem', fontWeight: 700, color: '#f0ede8' }}>
             Devenir Responsable Logistique
           </div>
           <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.12em', textTransform: 'uppercase', color: 'rgba(192,154,47,0.6)', marginTop: '0.15rem' }}>
@@ -285,7 +285,7 @@ export default function FormationRL() {
         borderBottom: '1px solid rgba(255,255,255,0.05)',
       }}>
         <a href="/" style={{ textDecoration: 'none' }}>
-          <div style={{ fontFamily: 'Bodoni Moda, serif', fontSize: '1.05rem', fontWeight: 800, color: '#f0ede8', letterSpacing: '-0.01em' }}>
+          <div style={{ fontFamily: 'Manrope, sans-serif', fontSize: '1.05rem', fontWeight: 800, color: '#f0ede8', letterSpacing: '-0.01em' }}>
             Essor Consulting
           </div>
           <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.5rem', letterSpacing: '0.18em', color: 'var(--gold)', textTransform: 'uppercase', marginTop: '0.1rem' }}>
@@ -332,7 +332,7 @@ export default function FormationRL() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.9, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
             style={{
-              fontFamily: 'Bodoni Moda, serif',
+              fontFamily: 'Manrope, sans-serif',
               fontSize: 'clamp(3.5rem, 8vw, 9rem)',
               fontWeight: 800, lineHeight: 0.9, letterSpacing: '-0.025em',
               color: '#f0ede8', margin: '0 0 2.5rem', maxWidth: 920,
@@ -393,7 +393,7 @@ export default function FormationRL() {
             <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'rgba(192,154,47,0.65)', marginBottom: '1.5rem' }}>
               01 / Pour qui
             </div>
-            <h2 style={{ fontFamily: 'Bodoni Moda, serif', fontSize: 'clamp(2.5rem, 5vw, 6rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', color: '#0a1420', margin: 0 }}>
+            <h2 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2.5rem, 5vw, 6rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', color: '#0a1420', margin: 0 }}>
               Cette formation<br />
               <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--gold)' }}>est faite pour vous</span><br />
               si vous gérez des flux.
@@ -410,7 +410,7 @@ export default function FormationRL() {
                 style={{ background: '#fff', padding: '2.5rem', borderLeft: '3px solid var(--gold)' }}
               >
                 <div style={{ fontSize: '2rem', marginBottom: '1.25rem' }}>{c.icon}</div>
-                <h3 style={{ fontFamily: 'Bodoni Moda, serif', fontSize: '1.2rem', fontWeight: 700, color: '#0a1420', marginBottom: '0.75rem', lineHeight: 1.2 }}>{c.titre}</h3>
+                <h3 style={{ fontFamily: 'Manrope, sans-serif', fontSize: '1.2rem', fontWeight: 700, color: '#0a1420', marginBottom: '0.75rem', lineHeight: 1.2 }}>{c.titre}</h3>
                 <p style={{ fontSize: '0.88rem', color: 'rgba(10,20,32,0.58)', lineHeight: 1.8, fontWeight: 300, margin: 0 }}>{c.desc}</p>
               </motion.div>
             ))}
@@ -425,7 +425,7 @@ export default function FormationRL() {
             <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'rgba(192,154,47,0.45)', marginBottom: '1.5rem' }}>
               02 / Programme de la journée
             </div>
-            <h2 style={{ fontFamily: 'Bodoni Moda, serif', fontSize: 'clamp(2.5rem, 5vw, 6rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', color: '#f0ede8', margin: 0 }}>
+            <h2 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2.5rem, 5vw, 6rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', color: '#f0ede8', margin: 0 }}>
               8 h 30 — 17 h 30.<br />
               <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--gold)' }}>Dense. Concret. Terrain.</span>
             </h2>
@@ -501,7 +501,7 @@ export default function FormationRL() {
               <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'rgba(192,154,47,0.45)', marginBottom: '1.5rem' }}>
                 03 / Compétences acquises
               </div>
-              <h2 style={{ fontFamily: 'Bodoni Moda, serif', fontSize: 'clamp(2.2rem, 4vw, 5rem)', fontWeight: 800, lineHeight: 0.95, letterSpacing: '-0.025em', color: '#f0ede8', margin: '0 0 2rem' }}>
+              <h2 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2.2rem, 4vw, 5rem)', fontWeight: 800, lineHeight: 0.95, letterSpacing: '-0.025em', color: '#f0ede8', margin: '0 0 2rem' }}>
                 Ce que vous<br />
                 <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--gold)' }}>maîtriserez</span><br />
                 à la sortie.
@@ -544,13 +544,13 @@ export default function FormationRL() {
                 <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(10,20,32,0.35) 0%, transparent 60%)' }} />
               </div>
               <div style={{ position: 'absolute', bottom: '-1.5rem', right: '-1.5rem', background: 'var(--gold)', padding: '1.5rem 2rem' }}>
-                <div style={{ fontFamily: 'Bodoni Moda, serif', fontSize: '2.2rem', fontWeight: 800, color: '#0a1420', lineHeight: 1 }}>20+</div>
+                <div style={{ fontFamily: 'Manrope, sans-serif', fontSize: '2.2rem', fontWeight: 800, color: '#0a1420', lineHeight: 1 }}>20+</div>
                 <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.5rem', letterSpacing: '0.12em', textTransform: 'uppercase', color: 'rgba(10,20,32,0.65)', marginTop: '0.25rem' }}>ans terrain</div>
               </div>
             </motion.div>
 
             <motion.div initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8, delay: 0.15 }}>
-              <h2 style={{ fontFamily: 'Bodoni Moda, serif', fontSize: 'clamp(2rem, 3.5vw, 4rem)', fontWeight: 800, lineHeight: 0.95, letterSpacing: '-0.025em', color: '#0a1420', margin: '0 0 0.5rem' }}>
+              <h2 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2rem, 3.5vw, 4rem)', fontWeight: 800, lineHeight: 0.95, letterSpacing: '-0.025em', color: '#0a1420', margin: '0 0 0.5rem' }}>
                 Youssef<br />
                 <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--gold)' }}>— Fondateur, Essor Consulting</span>
               </h2>
@@ -583,7 +583,7 @@ export default function FormationRL() {
             <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'rgba(192,154,47,0.45)', marginBottom: '1.5rem' }}>
               05 / Ce qui est inclus
             </div>
-            <h2 style={{ fontFamily: 'Bodoni Moda, serif', fontSize: 'clamp(2.5rem, 5vw, 6rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', color: '#f0ede8', margin: 0 }}>
+            <h2 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2.5rem, 5vw, 6rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', color: '#f0ede8', margin: 0 }}>
               1 500 MAD.<br />
               <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--gold)' }}>Tout inclus.</span>
             </h2>
@@ -616,7 +616,7 @@ export default function FormationRL() {
             ].map(d => (
               <div key={d.label}>
                 <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.18em', textTransform: 'uppercase', color: 'rgba(192,154,47,0.45)', marginBottom: '0.5rem' }}>{d.label}</div>
-                <div style={{ fontFamily: 'Bodoni Moda, serif', fontSize: '1.6rem', fontWeight: 700, color: '#f0ede8', lineHeight: 1 }}>{d.value}</div>
+                <div style={{ fontFamily: 'Manrope, sans-serif', fontSize: '1.6rem', fontWeight: 700, color: '#f0ede8', lineHeight: 1 }}>{d.value}</div>
                 <div style={{ fontSize: '0.8rem', color: 'rgba(240,237,232,0.48)', marginTop: '0.35rem' }}>{d.detail}</div>
               </div>
             ))}
@@ -629,7 +629,7 @@ export default function FormationRL() {
         <div className="section-inner" style={{ display: 'flex', alignItems: 'center', gap: '2rem', flexWrap: 'wrap' }}>
           <div style={{ fontSize: '2.5rem' }}>🛡️</div>
           <div>
-            <div style={{ fontFamily: 'Bodoni Moda, serif', fontSize: '1.1rem', fontWeight: 700, color: '#f0ede8', marginBottom: '0.35rem' }}>
+            <div style={{ fontFamily: 'Manrope, sans-serif', fontSize: '1.1rem', fontWeight: 700, color: '#f0ede8', marginBottom: '0.35rem' }}>
               Annulation sans frais jusqu'à 7 jours avant
             </div>
             <div style={{ fontSize: '0.85rem', color: 'rgba(240,237,232,0.48)', fontWeight: 300 }}>
@@ -646,7 +646,7 @@ export default function FormationRL() {
             <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'rgba(10,20,32,0.5)', marginBottom: '1rem' }}>
               {PLACES} places disponibles
             </div>
-            <h2 style={{ fontFamily: 'Bodoni Moda, serif', fontSize: 'clamp(2.5rem, 5vw, 6rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', color: '#0a1420', margin: '0 0 1rem' }}>
+            <h2 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2.5rem, 5vw, 6rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', color: '#0a1420', margin: '0 0 1rem' }}>
               Votre prochaine<br />
               <span style={{ fontStyle: 'italic', fontWeight: 400 }}>session vous attend.</span>
             </h2>
@@ -685,7 +685,7 @@ export default function FormationRL() {
             <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'rgba(192,154,47,0.45)', marginBottom: '1.5rem' }}>
               06 / Questions fréquentes
             </div>
-            <h2 style={{ fontFamily: 'Bodoni Moda, serif', fontSize: 'clamp(2.5rem, 5vw, 5.5rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', color: '#f0ede8', margin: 0 }}>
+            <h2 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2.5rem, 5vw, 5.5rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', color: '#f0ede8', margin: 0 }}>
               Vos questions,<br />
               <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--gold)' }}>nos réponses.</span>
             </h2>
@@ -710,7 +710,7 @@ export default function FormationRL() {
       <footer style={{ background: '#060e18', borderTop: '1px solid rgba(255,255,255,0.06)', padding: '2.5rem var(--sp-x)' }}>
         <div className="section-inner" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '1.5rem' }}>
           <div>
-            <div style={{ fontFamily: 'Bodoni Moda, serif', fontSize: '1.1rem', fontWeight: 800, color: '#f0ede8' }}>Essor Consulting</div>
+            <div style={{ fontFamily: 'Manrope, sans-serif', fontSize: '1.1rem', fontWeight: 800, color: '#f0ede8' }}>Essor Consulting</div>
             <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'rgba(240,237,232,0.48)', marginTop: '0.3rem' }}>
               Casablanca, Maroc · essor.consulting.maroc@gmail.com · +212 06 63 44 92 00
             </div>
