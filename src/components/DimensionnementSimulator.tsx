@@ -9,8 +9,11 @@ import {
   type SizingResult,
 } from '../utils/warehouseSizing'
 
-// Clé obtenue sur https://web3forms.com (compte lié à essor.consulting.maroc@gmail.com).
-const WEB3FORMS_ACCESS_KEY = '775fadca-da1b-453a-9abf-1f8959b25894'
+// Web3Forms abandonné (CORS bloqué en prod malgré 3 corrections de config
+// distinctes — cause probable : fetch/AJAX cross-origin non supporté hors
+// plan payant). Formspree utilisé à la place, formulaire dédié (distinct
+// de celui de Contact.tsx pour trier les leads simulateur séparément).
+const FORMSPREE_ENDPOINT = 'https://formspree.io/f/mzeperyn'
 
 type Step = 'form' | 'gate' | 'result'
 type GateStatus = 'idle' | 'sending' | 'error'
@@ -147,36 +150,25 @@ export default function DimensionnementSimulator() {
     setGateStatus('sending')
 
     try {
-      // FormData plutôt que JSON : évite le préflight CORS (JSON + header
-      // Content-Type explicite déclenche une requête OPTIONS que l'API
-      // Web3Forms ne renvoie pas avec Access-Control-Allow-Origin, ce qui
-      // fait échouer l'appel silencieusement — vérifié en test réel).
-      const payload: Record<string, string> = {
-        access_key: WEB3FORMS_ACCESS_KEY,
-        subject: 'Nouveau lead — Simulateur Dimensionnement Entrepôt',
-        from_name: 'Simulateur Essor Consulting',
-        nom: lead.nom,
-        email: lead.email,
-        entreprise: lead.entreprise,
-        'Nombre de références (SKU)': sizing.skuCount,
-        'Volume de stock (palettes)': sizing.palletVolume,
-        'Taux de rotation': ROTATION_LABELS[sizing.rotation as Rotation],
-        'Type de stockage': STORAGE_TYPE_LABELS[sizing.storageType as StorageType],
-        'Lignes de commande / jour': sizing.orderLinesPerDay,
-        'Surface estimée (m²)': result ? `${result.areaM2[0].toLocaleString('fr-FR')} - ${result.areaM2[1].toLocaleString('fr-FR')}` : '',
-        'Baies estimées': result?.bays ? `${result.bays[0]} - ${result.bays[1]}` : 'N/A (stockage de masse)',
-        'Quais recommandés': result ? `${result.docks[0]} - ${result.docks[1]}` : '',
-      }
-      const formData = new FormData()
-      Object.entries(payload).forEach(([k, v]) => formData.append(k, v))
-
-      const res = await fetch('https://api.web3forms.com/submit', {
+      const res = await fetch(FORMSPREE_ENDPOINT, {
         method: 'POST',
-        headers: { Accept: 'application/json' },
-        body: formData,
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        body: JSON.stringify({
+          _subject: 'Nouveau lead — Simulateur Dimensionnement Entrepôt',
+          nom: lead.nom,
+          email: lead.email,
+          entreprise: lead.entreprise,
+          'Nombre de références (SKU)': sizing.skuCount,
+          'Volume de stock (palettes)': sizing.palletVolume,
+          'Taux de rotation': ROTATION_LABELS[sizing.rotation as Rotation],
+          'Type de stockage': STORAGE_TYPE_LABELS[sizing.storageType as StorageType],
+          'Lignes de commande / jour': sizing.orderLinesPerDay,
+          'Surface estimée (m²)': result ? `${result.areaM2[0].toLocaleString('fr-FR')} - ${result.areaM2[1].toLocaleString('fr-FR')}` : '',
+          'Baies estimées': result?.bays ? `${result.bays[0]} - ${result.bays[1]}` : 'N/A (stockage de masse)',
+          'Quais recommandés': result ? `${result.docks[0]} - ${result.docks[1]}` : '',
+        }),
       })
-      const data = await res.json()
-      if (res.ok && data.success) {
+      if (res.ok) {
         setGateStatus('idle')
         setStep('result')
       } else {
