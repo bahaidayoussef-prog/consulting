@@ -9,9 +9,8 @@ import {
   type SizingResult,
 } from '../utils/warehouseSizing'
 
-// Obtenir une clé sur https://web3forms.com (compte lié à essor.consulting.maroc@gmail.com).
-// Le formulaire ne pourra pas envoyer tant que ce placeholder n'est pas remplacé.
-const WEB3FORMS_ACCESS_KEY = 'd167a973-75a0-4023-9092-0d38c2755dd5'
+// Clé obtenue sur https://web3forms.com (compte lié à essor.consulting.maroc@gmail.com).
+const WEB3FORMS_ACCESS_KEY = '775fadca-da1b-453a-9abf-1f8959b25894'
 
 type Step = 'form' | 'gate' | 'result'
 type GateStatus = 'idle' | 'sending' | 'error'
