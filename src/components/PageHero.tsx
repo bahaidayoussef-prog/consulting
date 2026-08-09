@@ -126,6 +126,7 @@ export default function PageHero({
                     lineHeight: 0.92,
                     letterSpacing: '-0.03em',
                     color: textColor,
+                    overflowWrap: 'anywhere',
                   }}
                 >
                   {word}
@@ -149,6 +150,7 @@ export default function PageHero({
                   lineHeight: 0.92,
                   letterSpacing: '-0.03em',
                   color: accent,
+                  overflowWrap: 'anywhere',
                 }}
               >
                 {titleItalic}

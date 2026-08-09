@@ -9,6 +9,7 @@ import FormationPage from './pages/FormationPage'
 import AProposPage from './pages/AProposPage'
 import BlogPage from './pages/BlogPage'
 import ContactPage from './pages/ContactPage'
+import DimensionnementEntrepotPage from './pages/DimensionnementEntrepotPage'
 
 const pageVariants = {
   initial: { opacity: 0, y: 20 },
@@ -42,6 +43,7 @@ function AnimatedRoutes() {
         <Route path="/a-propos" element={<PageTransition><AProposPage /></PageTransition>} />
         <Route path="/blog" element={<PageTransition><BlogPage /></PageTransition>} />
         <Route path="/contact" element={<PageTransition><ContactPage /></PageTransition>} />
+        <Route path="/outils/dimensionnement-entrepot" element={<PageTransition><DimensionnementEntrepotPage /></PageTransition>} />
         <Route path="*" element={<PageTransition><HomePage /></PageTransition>} />
       </Routes>
     </AnimatePresence>
