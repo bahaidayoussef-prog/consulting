@@ -104,7 +104,7 @@ function RefCard({ r, index }: RefCardProps) {
           fontSize: '0.6rem',
           letterSpacing: '0.16em',
           textTransform: 'uppercase',
-          color: 'var(--gold)',
+          color: 'var(--blue-bright)',
           background: 'rgba(10,20,32,0.7)',
           padding: '0.3rem 0.7rem',
           backdropFilter: 'blur(8px)',
@@ -144,9 +144,9 @@ function RefCard({ r, index }: RefCardProps) {
           fontSize: '0.62rem',
           letterSpacing: '0.1em',
           textTransform: 'uppercase',
-          color: 'var(--gold)',
+          color: 'var(--blue-bright)',
         }}>
-          <span style={{ display: 'block', width: 20, height: 1, background: 'var(--gold)' }} />
+          <span style={{ display: 'block', width: 20, height: 1, background: 'var(--blue-bright)' }} />
           {r.result}
         </div>
       </div>
@@ -247,7 +247,7 @@ export default function References() {
               fontFamily: 'DM Mono, monospace',
               fontSize: '0.6rem',
               letterSpacing: '0.2em',
-              color: 'rgba(192,154,47,0.45)',
+              color: 'rgba(47,111,181,0.45)',
               textTransform: 'uppercase',
               marginBottom: '1.5rem',
             }}>
@@ -264,7 +264,7 @@ export default function References() {
             }}>
               Des missions.
               <br />
-              <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--gold)' }}>
+              <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>
                 Des résultats.
               </span>
             </h2>

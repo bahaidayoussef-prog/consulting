@@ -88,7 +88,7 @@ function StickyCard({
         transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
         style={{
           background: index % 2 === 0 ? 'var(--dark-2)' : 'var(--dark)',
-          borderTop: index === 0 ? '2px solid var(--gold)' : '1px solid rgba(27,53,84,0.1)',
+          borderTop: index === 0 ? '2px solid var(--blue-bright)' : '1px solid rgba(27,53,84,0.1)',
           borderLeft: '1px solid rgba(27,53,84,0.1)',
           borderRight: '1px solid rgba(27,53,84,0.1)',
           borderBottom: index === total - 1 ? '1px solid rgba(27,53,84,0.1)' : 'none',
@@ -111,7 +111,7 @@ function StickyCard({
           fontFamily: 'Manrope, sans-serif',
           fontSize: 'clamp(5rem, 10vw, 9rem)',
           fontWeight: 900,
-          color: 'rgba(184,146,42,0.04)',
+          color: 'rgba(47,111,181,0.04)',
           lineHeight: 1,
           userSelect: 'none',
           pointerEvents: 'none',
@@ -126,7 +126,7 @@ function StickyCard({
             fontSize: '0.6rem',
             letterSpacing: '0.18em',
             textTransform: 'uppercase',
-            color: 'rgba(192,154,47,0.65)',
+            color: 'rgba(47,111,181,0.65)',
             marginBottom: '0.75rem',
           }}>
             {item.type}
@@ -154,7 +154,7 @@ function StickyCard({
                 display: 'block',
                 width: 16,
                 height: 1,
-                background: 'rgba(192,154,47,0.4)',
+                background: 'rgba(47,111,181,0.4)',
                 flexShrink: 0,
               }} />
               <span style={{
@@ -176,7 +176,7 @@ function StickyCard({
                 display: 'block',
                 width: 16,
                 height: 1,
-                background: 'rgba(192,154,47,0.4)',
+                background: 'rgba(47,111,181,0.4)',
                 flexShrink: 0,
               }} />
               <span style={{
@@ -220,7 +220,7 @@ function StickyCard({
             fontWeight: 800,
             lineHeight: 1.2,
             letterSpacing: '-0.02em',
-            color: 'var(--gold)',
+            color: 'var(--blue-bright)',
             textAlign: 'right',
             marginBottom: '0.2rem',
             wordBreak: 'keep-all',
@@ -256,8 +256,8 @@ function StickyCard({
             }}
             onMouseEnter={e => {
               const el = e.currentTarget
-              el.style.borderColor = 'rgba(192,154,47,0.5)'
-              el.style.color = 'var(--gold)'
+              el.style.borderColor = 'rgba(47,111,181,0.5)'
+              el.style.color = 'var(--blue-bright)'
             }}
             onMouseLeave={e => {
               const el = e.currentTarget
@@ -278,7 +278,7 @@ export default function Formation() {
   const headerInView = useInView(headerRef, { once: true, margin: '-80px' })
 
   return (
-    <section id="formation" style={{ background: 'var(--ink)', padding: 'var(--sp-y) var(--sp-x) 0' }}>
+    <section id="formation" style={{ background: 'var(--paper)', padding: 'var(--sp-y) var(--sp-x) 0' }}>
       <div className="section-inner">
 
         {/* Header */}
@@ -293,7 +293,7 @@ export default function Formation() {
             fontSize: '0.6rem',
             letterSpacing: '0.2em',
             textTransform: 'uppercase',
-            color: 'rgba(192,154,47,0.5)',
+            color: 'rgba(47,111,181,0.5)',
             marginBottom: '1.5rem',
           }}>
             07 / Formation & Enseignement
@@ -317,7 +317,7 @@ export default function Formation() {
             }}>
               Former les équipes.
               <br />
-              <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--gold)' }}>
+              <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>
                 Transmettre le terrain.
               </span>
             </h2>
@@ -339,7 +339,7 @@ export default function Formation() {
                 fontSize: '0.6rem',
                 letterSpacing: '0.14em',
                 textTransform: 'uppercase',
-                color: 'rgba(192,154,47,0.6)',
+                color: 'rgba(47,111,181,0.6)',
               }}>
                 22 programmes · 6 domaines — Supply Chain, Lean, Management, Finance, Projet, Carrière
               </div>
@@ -349,7 +349,7 @@ export default function Formation() {
             <div style={{
               width: 160,
               aspectRatio: '9 / 16',
-              border: '1px solid rgba(192,154,47,0.3)',
+              border: '1px solid rgba(47,111,181,0.3)',
               borderRadius: 18,
               overflow: 'hidden',
               background: '#0a1420',
@@ -364,7 +364,7 @@ export default function Formation() {
                 transform: 'translateX(-50%)',
                 width: 40,
                 height: 4,
-                background: 'rgba(192,154,47,0.35)',
+                background: 'rgba(47,111,181,0.35)',
                 borderRadius: 2,
                 zIndex: 2,
               }} />
@@ -402,8 +402,8 @@ export default function Formation() {
               alignItems: 'center',
               gap: '0.5rem',
               padding: '1.1rem 2.75rem',
-              background: 'var(--gold)',
-              color: '#0a1420',
+              background: 'var(--blue-bright)',
+              color: '#ffffff',
               fontFamily: 'Jost, sans-serif',
               fontSize: '0.9rem',
               fontWeight: 700,
@@ -411,8 +411,8 @@ export default function Formation() {
               letterSpacing: '0.04em',
               transition: 'background 0.2s',
             }}
-            onMouseEnter={e => ((e.currentTarget as HTMLElement).style.background = '#a8841f')}
-            onMouseLeave={e => ((e.currentTarget as HTMLElement).style.background = 'var(--gold)')}
+            onMouseEnter={e => ((e.currentTarget as HTMLElement).style.background = 'var(--navy)')}
+            onMouseLeave={e => ((e.currentTarget as HTMLElement).style.background = 'var(--blue-bright)')}
           >
             Voir les 22 programmes →
           </Link>

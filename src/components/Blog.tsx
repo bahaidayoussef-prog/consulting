@@ -264,7 +264,7 @@ export default function Blog() {
             viewport={{ once: true, margin: '-60px' }}
             transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
           >
-            <div className="section-tag" style={{ color: 'var(--gold)' }}>
+            <div className="section-tag" style={{ color: 'var(--blue-bright)' }}>
               <span>INSIGHTS</span>
             </div>
 
@@ -326,8 +326,8 @@ export default function Blog() {
                     transition: 'border-color 0.3s ease, background 0.3s ease',
                   }}
                   onMouseEnter={(e) => {
-                    (e.currentTarget as HTMLElement).style.borderColor = 'rgba(192,154,47,0.5)'
-                    ;(e.currentTarget as HTMLElement).style.background = 'rgba(192,154,47,0.03)'
+                    (e.currentTarget as HTMLElement).style.borderColor = 'rgba(47,111,181,0.5)'
+                    ;(e.currentTarget as HTMLElement).style.background = 'rgba(47,111,181,0.03)'
                   }}
                   onMouseLeave={(e) => {
                     (e.currentTarget as HTMLElement).style.borderColor = 'var(--dark-border)'
@@ -346,7 +346,7 @@ export default function Blog() {
                       left: 0,
                       right: 0,
                       height: '2px',
-                      background: 'var(--gold)',
+                      background: 'var(--blue-bright)',
                       transformOrigin: 'left',
                       zIndex: 2,
                     }}
@@ -395,7 +395,7 @@ export default function Blog() {
                         style={{
                           fontSize: '0.75rem',
                           fontFamily: 'DM Mono, monospace',
-                          color: 'var(--gold)',
+                          color: 'var(--blue-bright)',
                           opacity: 0.75,
                         }}
                       >
@@ -421,7 +421,7 @@ export default function Blog() {
 
                       <motion.span
                         variants={{
-                          hover: { x: 6, color: '#c09a2f', transition: { duration: 0.25, ease: 'easeOut' } },
+                          hover: { x: 6, color: '#2f6fb5', transition: { duration: 0.25, ease: 'easeOut' } },
                         }}
                         style={{
                           fontFamily: 'Jost, sans-serif',
@@ -429,7 +429,7 @@ export default function Blog() {
                           fontWeight: 500,
                           letterSpacing: '0.08em',
                           textTransform: 'uppercase' as const,
-                          color: 'var(--gold)',
+                          color: 'var(--blue-bright)',
                           marginTop: 'auto',
                           display: 'inline-block',
                         }}
@@ -551,7 +551,7 @@ function BlogDetail({ post, onClose }: BlogDetailProps) {
     >
       {/* Reading progress bar */}
       <div style={{ position: 'fixed', top: 0, left: 0, right: 0, height: 3, background: 'rgba(255,255,255,0.07)', zIndex: 1001 }}>
-        <div style={{ height: '100%', background: 'var(--gold)', width: `${progress}%`, transition: 'width 0.1s linear' }} />
+        <div style={{ height: '100%', background: 'var(--blue-bright)', width: `${progress}%`, transition: 'width 0.1s linear' }} />
       </div>
       <motion.article
         initial={{ opacity: 0, y: 40 }}
@@ -587,8 +587,8 @@ function BlogDetail({ post, onClose }: BlogDetailProps) {
             transition: 'all 0.3s ease',
           }}
           onMouseEnter={(e) => {
-            e.currentTarget.style.borderColor = 'var(--gold)'
-            e.currentTarget.style.color = 'var(--gold)'
+            e.currentTarget.style.borderColor = 'var(--blue-bright)'
+            e.currentTarget.style.color = 'var(--blue-bright)'
           }}
           onMouseLeave={(e) => {
             e.currentTarget.style.borderColor = 'var(--dark-border)'
@@ -607,7 +607,7 @@ function BlogDetail({ post, onClose }: BlogDetailProps) {
               marginBottom: '1.5rem',
               fontSize: '0.8rem',
               fontFamily: 'DM Mono, monospace',
-              color: 'rgba(192,154,47,0.7)',
+              color: 'rgba(47,111,181,0.7)',
               flexWrap: 'wrap',
               alignItems: 'center',
             }}
@@ -644,7 +644,7 @@ function BlogDetail({ post, onClose }: BlogDetailProps) {
                 fontFamily: 'DM Mono, monospace',
                 textTransform: 'uppercase',
                 letterSpacing: '0.1em',
-                color: 'var(--gold)',
+                color: 'var(--blue-bright)',
                 opacity: 0.7,
               }}
             >

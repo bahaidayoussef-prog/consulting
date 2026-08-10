@@ -19,12 +19,12 @@ export default function CustomCursor() {
     }
 
     const onEnterLink = () => {
-      gsap.to(ring, { scale: 1.8, borderColor: 'var(--gold)', duration: 0.25 })
+      gsap.to(ring, { scale: 1.8, borderColor: 'var(--blue-bright)', duration: 0.25 })
       gsap.to(dot,  { scale: 0, duration: 0.25 })
     }
 
     const onLeaveLink = () => {
-      gsap.to(ring, { scale: 1, borderColor: 'rgba(184,146,42,0.5)', duration: 0.25 })
+      gsap.to(ring, { scale: 1, borderColor: 'rgba(47,111,181,0.5)', duration: 0.25 })
       gsap.to(dot,  { scale: 1, duration: 0.25 })
     }
 
@@ -54,7 +54,7 @@ export default function CustomCursor() {
           position: 'fixed',
           top: 0, left: 0,
           width: 6, height: 6,
-          background: 'var(--gold)',
+          background: 'var(--blue-bright)',
           borderRadius: '50%',
           pointerEvents: 'none',
           zIndex: 99999,
@@ -69,7 +69,7 @@ export default function CustomCursor() {
           position: 'fixed',
           top: 0, left: 0,
           width: 36, height: 36,
-          border: '1.5px solid rgba(184,146,42,0.5)',
+          border: '1.5px solid rgba(47,111,181,0.5)',
           borderRadius: '50%',
           pointerEvents: 'none',
           zIndex: 99998,

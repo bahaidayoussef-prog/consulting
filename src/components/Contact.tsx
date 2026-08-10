@@ -57,11 +57,11 @@ export default function Contact() {
 
   const inputStyle = (field: string): React.CSSProperties => ({
     width: '100%',
-    background: 'rgba(255,255,255,0.04)',
-    border: `1px solid ${errors[field] ? 'rgba(220,60,60,0.6)' : 'rgba(255,255,255,0.1)'}`,
+    background: '#ffffff',
+    border: `1px solid ${errors[field] ? 'rgba(200,60,60,0.55)' : 'rgba(27,53,84,0.16)'}`,
     borderRadius: 0,
     padding: '0.85rem 1rem',
-    color: '#f0ede8',
+    color: 'var(--ink)',
     fontFamily: 'Jost, sans-serif',
     fontSize: '0.9rem',
     outline: 'none',
@@ -70,11 +70,11 @@ export default function Contact() {
   })
 
   return (
-    <section id="contact" style={{ background: 'var(--navy)', overflow: 'hidden', position: 'relative' }}>
+    <section id="contact" style={{ background: 'var(--paper)', overflow: 'hidden', position: 'relative' }}>
       <div style={{
         position: 'absolute', top: '20%', left: '30%',
         width: 600, height: 600, borderRadius: '50%',
-        background: 'radial-gradient(circle, rgba(184,146,42,0.06) 0%, transparent 70%)',
+        background: 'radial-gradient(circle, rgba(47,111,181,0.06) 0%, transparent 70%)',
         pointerEvents: 'none',
       }} />
 
@@ -91,7 +91,7 @@ export default function Contact() {
           animate={inView ? { opacity: 1, x: 0 } : {}}
           transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
         >
-          <div className="section-tag" style={{ color: 'rgba(212,168,67,0.9)' }}>Prenons contact</div>
+          <div className="section-tag" style={{ color: 'rgba(47,111,181,0.9)' }}>Prenons contact</div>
           <h2 style={{
             fontFamily: 'Manrope, sans-serif',
             fontSize: 'clamp(2.2rem, 4vw, 4rem)',
@@ -107,7 +107,7 @@ export default function Contact() {
 
           <div style={{
             marginTop: '3rem', paddingTop: '3rem',
-            borderTop: '1px solid rgba(255,255,255,0.08)',
+            borderTop: '1px solid rgba(27,53,84,0.1)',
             display: 'flex', flexDirection: 'column', gap: '1rem',
           }}>
             {[
@@ -120,13 +120,13 @@ export default function Contact() {
                 <span style={{
                   fontFamily: 'DM Mono, monospace', fontSize: '0.55rem',
                   letterSpacing: '0.14em', textTransform: 'uppercase',
-                  color: 'rgba(192,154,47,0.5)', flexShrink: 0, width: 28,
+                  color: 'rgba(47,111,181,0.7)', flexShrink: 0, width: 28,
                 }}>{tag}</span>
                 {href
-                  ? <a href={href} style={{ fontSize: '0.9rem', color: 'rgba(227,226,226,0.6)', textDecoration: 'none', transition: 'color 0.2s' }}
-                      onMouseEnter={e => ((e.target as HTMLElement).style.color = 'var(--gold)')}
-                      onMouseLeave={e => ((e.target as HTMLElement).style.color = 'rgba(227,226,226,0.6)')}>{label}</a>
-                  : <span style={{ fontSize: '0.9rem', color: 'rgba(227,226,226,0.6)' }}>{label}</span>
+                  ? <a href={href} style={{ fontSize: '0.9rem', color: 'var(--mid)', textDecoration: 'none', transition: 'color 0.2s' }}
+                      onMouseEnter={e => ((e.target as HTMLElement).style.color = 'var(--blue-bright)')}
+                      onMouseLeave={e => ((e.target as HTMLElement).style.color = 'var(--mid)')}>{label}</a>
+                  : <span style={{ fontSize: '0.9rem', color: 'var(--mid)' }}>{label}</span>
                 }
               </div>
             ))}
@@ -140,16 +140,17 @@ export default function Contact() {
           transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1], delay: 0.15 }}
         >
           <div style={{
-            background: 'rgba(255,255,255,0.03)',
-            border: '1px solid rgba(255,255,255,0.08)',
+            background: '#ffffff',
+            border: '1px solid rgba(27,53,84,0.12)',
             padding: '3rem',
             position: 'relative',
             overflow: 'hidden',
+            boxShadow: '0 2px 12px rgba(0,0,0,0.04)',
           }}>
-            {/* Gold top bar */}
+            {/* Blue top bar */}
             <div style={{
               position: 'absolute', top: 0, left: 0, right: 0, height: 2,
-              background: 'linear-gradient(90deg, var(--gold), var(--gold-light))',
+              background: 'var(--blue-bright)',
             }} />
 
             <AnimatePresence mode="wait">
@@ -164,12 +165,12 @@ export default function Contact() {
                   <h3 style={{ fontFamily: 'Manrope, sans-serif', fontSize: '1.4rem', color: 'var(--navy)', marginBottom: '0.75rem' }}>
                     Message envoyé.
                   </h3>
-                  <p style={{ color: 'rgba(227,226,226,0.6)', fontSize: '0.9rem', lineHeight: 1.7 }}>
+                  <p style={{ color: 'var(--mid)', fontSize: '0.9rem', lineHeight: 1.7 }}>
                     Nous revenons vers vous sous 24h ouvrées pour fixer l&apos;échange découverte.
                   </p>
                   <button
                     onClick={() => { setStatus('idle'); setForm({ nom: '', email: '', tel: '', besoin: '', message: '' }) }}
-                    style={{ marginTop: '2rem', background: 'none', border: '1px solid rgba(192,154,47,0.4)', color: 'var(--gold)', padding: '0.6rem 1.4rem', cursor: 'pointer', fontFamily: 'DM Mono, monospace', fontSize: '0.65rem', letterSpacing: '0.12em', textTransform: 'uppercase' }}
+                    style={{ marginTop: '2rem', background: 'none', border: '1px solid rgba(47,111,181,0.4)', color: 'var(--blue-bright)', padding: '0.6rem 1.4rem', cursor: 'pointer', fontFamily: 'DM Mono, monospace', fontSize: '0.65rem', letterSpacing: '0.12em', textTransform: 'uppercase' }}
                   >
                     Nouveau message
                   </button>
@@ -186,8 +187,8 @@ export default function Contact() {
                       <input
                         type="text" placeholder="Youssef" value={form.nom}
                         onChange={e => setForm(f => ({ ...f, nom: e.target.value }))}
-                        onFocus={e => (e.target.style.borderColor = 'rgba(192,154,47,0.6)')}
-                        onBlur={e => (e.target.style.borderColor = errors.nom ? 'rgba(220,60,60,0.6)' : 'rgba(255,255,255,0.1)')}
+                        onFocus={e => (e.target.style.borderColor = 'rgba(47,111,181,0.6)')}
+                        onBlur={e => (e.target.style.borderColor = errors.nom ? 'rgba(200,60,60,0.55)' : 'rgba(27,53,84,0.16)')}
                         style={inputStyle('nom')}
                       />
                     </FieldWrap>
@@ -195,8 +196,8 @@ export default function Contact() {
                       <input
                         type="email" placeholder="vous@entreprise.ma" value={form.email}
                         onChange={e => setForm(f => ({ ...f, email: e.target.value }))}
-                        onFocus={e => (e.target.style.borderColor = 'rgba(192,154,47,0.6)')}
-                        onBlur={e => (e.target.style.borderColor = errors.email ? 'rgba(220,60,60,0.6)' : 'rgba(255,255,255,0.1)')}
+                        onFocus={e => (e.target.style.borderColor = 'rgba(47,111,181,0.6)')}
+                        onBlur={e => (e.target.style.borderColor = errors.email ? 'rgba(200,60,60,0.55)' : 'rgba(27,53,84,0.16)')}
                         style={inputStyle('email')}
                       />
                     </FieldWrap>
@@ -208,8 +209,8 @@ export default function Contact() {
                       <input
                         type="tel" placeholder="+212 6XX XXX XXX" value={form.tel}
                         onChange={e => setForm(f => ({ ...f, tel: e.target.value }))}
-                        onFocus={e => (e.target.style.borderColor = 'rgba(192,154,47,0.6)')}
-                        onBlur={e => (e.target.style.borderColor = 'rgba(255,255,255,0.1)')}
+                        onFocus={e => (e.target.style.borderColor = 'rgba(47,111,181,0.6)')}
+                        onBlur={e => (e.target.style.borderColor = 'rgba(27,53,84,0.16)')}
                         style={inputStyle('tel')}
                       />
                     </FieldWrap>
@@ -217,10 +218,10 @@ export default function Contact() {
                       <select
                         value={form.besoin}
                         onChange={e => setForm(f => ({ ...f, besoin: e.target.value }))}
-                        style={{ ...inputStyle('besoin'), appearance: 'none', cursor: 'pointer', color: form.besoin ? '#f0ede8' : 'rgba(240,237,232,0.35)' }}
+                        style={{ ...inputStyle('besoin'), appearance: 'none', cursor: 'pointer', color: form.besoin ? 'var(--ink)' : 'rgba(27,53,84,0.35)' }}
                       >
                         <option value="" disabled>Choisir...</option>
-                        {BESOINS.map(b => <option key={b} value={b} style={{ background: '#1b3554', color: '#f0ede8' }}>{b}</option>)}
+                        {BESOINS.map(b => <option key={b} value={b} style={{ background: '#ffffff', color: 'var(--ink)' }}>{b}</option>)}
                       </select>
                     </FieldWrap>
                   </div>
@@ -231,14 +232,14 @@ export default function Contact() {
                       rows={4} placeholder="Décrivez brièvement votre situation..."
                       value={form.message}
                       onChange={e => setForm(f => ({ ...f, message: e.target.value }))}
-                      onFocus={e => (e.target.style.borderColor = 'rgba(192,154,47,0.6)')}
-                      onBlur={e => (e.target.style.borderColor = errors.message ? 'rgba(220,60,60,0.6)' : 'rgba(255,255,255,0.1)')}
+                      onFocus={e => (e.target.style.borderColor = 'rgba(47,111,181,0.6)')}
+                      onBlur={e => (e.target.style.borderColor = errors.message ? 'rgba(200,60,60,0.55)' : 'rgba(27,53,84,0.16)')}
                       style={{ ...inputStyle('message'), resize: 'none' }}
                     />
                   </FieldWrap>
 
                   {status === 'error' && (
-                    <p style={{ color: 'rgba(220,80,80,0.85)', fontSize: '0.82rem', fontFamily: 'DM Mono, monospace' }}>
+                    <p style={{ color: 'rgba(200,60,60,0.85)', fontSize: '0.82rem', fontFamily: 'DM Mono, monospace' }}>
                       Erreur d&apos;envoi. Écrivez-nous directement à essor.consulting.maroc@gmail.com
                     </p>
                   )}
@@ -246,10 +247,10 @@ export default function Contact() {
                   <motion.button
                     type="submit"
                     disabled={status === 'sending'}
-                    whileHover={status !== 'sending' ? { scale: 1.01, boxShadow: '0 12px 40px rgba(184,146,42,0.3)' } : {}}
+                    whileHover={status !== 'sending' ? { scale: 1.01, boxShadow: '0 12px 40px rgba(47,111,181,0.3)' } : {}}
                     style={{
-                      background: 'var(--gold)',
-                      color: '#0e1f30',
+                      background: 'var(--blue-bright)',
+                      color: '#ffffff',
                       border: 'none',
                       padding: '1rem 2rem',
                       fontWeight: 700,
@@ -264,7 +265,7 @@ export default function Contact() {
                     {status === 'sending' ? 'Envoi en cours...' : 'Envoyer ma demande →'}
                   </motion.button>
 
-                  <p style={{ textAlign: 'center', fontSize: '0.72rem', color: 'rgba(227,226,226,0.3)', fontFamily: 'DM Mono, monospace', letterSpacing: '0.08em' }}>
+                  <p style={{ textAlign: 'center', fontSize: '0.72rem', color: 'var(--mid)', fontFamily: 'DM Mono, monospace', letterSpacing: '0.08em' }}>
                     GRATUIT · SANS ENGAGEMENT · RÉPONSE SOUS 24H
                   </p>
                 </motion.form>
@@ -283,7 +284,7 @@ function FieldWrap({ label, error, children }: { label: string; error?: string; 
       <label style={{
         fontFamily: 'DM Mono, monospace', fontSize: '0.58rem',
         letterSpacing: '0.14em', textTransform: 'uppercase',
-        color: error ? 'rgba(220,80,80,0.8)' : 'rgba(192,154,47,0.6)',
+        color: error ? 'rgba(200,60,60,0.8)' : 'rgba(47,111,181,0.75)',
       }}>
         {label}
         {error && <span style={{ marginLeft: '0.5rem', fontSize: '0.55rem' }}>{error}</span>}

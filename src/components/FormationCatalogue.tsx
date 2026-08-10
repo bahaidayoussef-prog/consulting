@@ -35,7 +35,7 @@ const PROGRAMMES = [
     ],
     inclus: ['Hôtel 5★', 'Déjeuner gastronomique', 'Pauses café', 'Support 60+ pages', 'Attestation', 'Suivi WhatsApp 30j'],
     cta: '/formation-rl/',
-    color: 'var(--gold)',
+    color: 'var(--blue-bright)',
   },
   {
     id: 'fondamentaux',
@@ -116,7 +116,7 @@ const PROGRAMMES = [
     ],
     inclus: ['Support officiel DDMRP', 'Simulateur Excel inclus', 'Préparation examen DDI', 'Attestation Essor Consulting'],
     cta: WA,
-    color: 'var(--gold)',
+    color: 'var(--blue-bright)',
   },
   {
     id: 'decideurs',
@@ -197,7 +197,7 @@ const PROGRAMMES = [
     ],
     inclus: ['Accès WhatsApp entre sessions', 'Revue mensuelle documentée', 'Ressources personnalisées', 'Suivi sur 6 à 12 mois'],
     cta: WA,
-    color: 'var(--gold)',
+    color: 'var(--blue-bright)',
   },
 
   /* ── Lean & Amélioration Continue ──────────────────────── */
@@ -253,7 +253,7 @@ const PROGRAMMES = [
     ],
     inclus: ['Support officiel DMAIC', 'Simulateur Minitab initiation', 'Préparation Green Belt', 'Attestation Essor Consulting'],
     cta: WA,
-    color: 'var(--gold)',
+    color: 'var(--blue-bright)',
   },
   {
     id: 'amelioration-continue',
@@ -419,7 +419,7 @@ const PROGRAMMES = [
     ],
     inclus: ['Template business case Excel', 'Modèle de présentation CODIR', 'Support de formation', 'Attestation'],
     cta: WA,
-    color: 'var(--gold)',
+    color: 'var(--blue-bright)',
   },
   {
     id: 'controle-gestion',
@@ -475,7 +475,7 @@ const PROGRAMMES = [
     ],
     inclus: ['Template Gantt Excel', 'Matrice des risques', 'Support de formation', 'Attestation'],
     cta: WA,
-    color: 'var(--gold)',
+    color: 'var(--blue-bright)',
   },
   {
     id: 'agile-scrum',
@@ -558,7 +558,7 @@ const PROGRAMMES = [
     ],
     inclus: ["Grille d'auto-diagnostic", 'Plan de carrière personnalisé', 'Support de formation', 'Attestation'],
     cta: WA,
-    color: 'var(--gold)',
+    color: 'var(--blue-bright)',
   },
   {
     id: 'negociation-achats',

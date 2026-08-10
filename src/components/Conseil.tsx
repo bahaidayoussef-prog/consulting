@@ -101,7 +101,7 @@ function ServiceRow({ s, index }: { s: typeof services[0]; index: number }) {
             fontFamily: 'DM Mono, monospace',
             fontSize: '0.6rem',
             letterSpacing: '0.18em',
-            color: 'rgba(192,154,47,0.5)',
+            color: 'rgba(47,111,181,0.5)',
             textTransform: 'uppercase',
           }}
         >
@@ -139,7 +139,7 @@ function ServiceRow({ s, index }: { s: typeof services[0]; index: number }) {
         <div style={{
           fontFamily: 'DM Mono, monospace',
           fontSize: '1.1rem',
-          color: open ? 'var(--gold)' : 'var(--mid)',
+          color: open ? 'var(--blue-bright)' : 'var(--mid)',
           transition: 'color 0.2s, transform 0.3s',
           transform: open ? 'rotate(45deg)' : 'none',
           lineHeight: 1,
@@ -176,7 +176,7 @@ function ServiceRow({ s, index }: { s: typeof services[0]; index: number }) {
                     key={tier.name}
                     style={{
                       background: tier.featured ? 'var(--ink)' : '#fff',
-                      border: `1px solid ${tier.featured ? 'rgba(192,154,47,0.35)' : 'rgba(27,53,84,0.12)'}`,
+                      border: `1px solid ${tier.featured ? 'rgba(47,111,181,0.35)' : 'rgba(27,53,84,0.12)'}`,
                       padding: '2.5rem',
                       position: 'relative',
                       boxShadow: tier.featured ? '0 8px 40px rgba(10,20,32,0.18)' : '0 2px 12px rgba(0,0,0,0.04)',
@@ -187,7 +187,7 @@ function ServiceRow({ s, index }: { s: typeof services[0]; index: number }) {
                         position: 'absolute',
                         top: 0, left: 0, right: 0,
                         height: 3,
-                        background: 'var(--gold)',
+                        background: 'var(--blue-bright)',
                       }} />
                     )}
 
@@ -197,7 +197,7 @@ function ServiceRow({ s, index }: { s: typeof services[0]; index: number }) {
                       fontSize: '0.6rem',
                       letterSpacing: '0.18em',
                       textTransform: 'uppercase',
-                      color: tier.featured ? 'rgba(192,154,47,0.7)' : 'rgba(95,102,114,0.6)',
+                      color: tier.featured ? 'rgba(47,111,181,0.7)' : 'rgba(95,102,114,0.6)',
                       marginBottom: '0.75rem',
                     }}>
                       {tier.name}
@@ -210,7 +210,7 @@ function ServiceRow({ s, index }: { s: typeof services[0]; index: number }) {
                       fontWeight: 800,
                       lineHeight: 1.15,
                       letterSpacing: '-0.02em',
-                      color: tier.featured ? 'var(--gold)' : 'var(--ink)',
+                      color: tier.featured ? 'var(--blue-bright)' : 'var(--ink)',
                       marginBottom: '0.6rem',
                     }}>
                       {tier.price}
@@ -241,7 +241,7 @@ function ServiceRow({ s, index }: { s: typeof services[0]; index: number }) {
                         letterSpacing: '0.1em',
                         textTransform: 'uppercase',
                         textDecoration: 'none',
-                        color: tier.featured ? 'var(--gold)' : 'var(--ink)',
+                        color: tier.featured ? 'var(--blue-bright)' : 'var(--ink)',
                         fontFamily: 'DM Mono, monospace',
                         transition: 'opacity 0.2s',
                       }}
@@ -315,7 +315,7 @@ export default function Conseil() {
               fontFamily: 'DM Mono, monospace',
               fontSize: '0.6rem',
               letterSpacing: '0.2em',
-              color: 'rgba(192,154,47,0.55)',
+              color: 'rgba(47,111,181,0.55)',
               textTransform: 'uppercase',
               marginBottom: '1.5rem',
             }}>

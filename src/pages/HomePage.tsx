@@ -25,8 +25,8 @@ const PAGES = [
     href: '/formation',
     label: 'Formations',
     desc: 'Devenir Responsable Logistique · Formation 1 jour · Casablanca',
-    bg: 'var(--ink)',
-    color: 'var(--navy)',
+    bg: 'var(--paper)',
+    color: 'var(--ink)',
   },
   {
     num: '04',
@@ -54,7 +54,7 @@ export default function HomePage() {
             transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
             style={{ marginBottom: '4rem' }}
           >
-            <div className="section-tag" style={{ color: 'var(--gold)' }}>
+            <div className="section-tag" style={{ color: 'var(--blue-bright)' }}>
               <span>ESSOR CONSULTING</span>
             </div>
             <h2
@@ -107,7 +107,7 @@ export default function HomePage() {
                       fontSize: '0.6rem',
                       letterSpacing: '0.2em',
                       textTransform: 'uppercase',
-                      color: 'var(--gold)',
+                      color: 'var(--blue-bright)',
                       marginBottom: '2rem',
                     }}
                   >
@@ -143,7 +143,7 @@ export default function HomePage() {
                       fontSize: '0.65rem',
                       letterSpacing: '0.15em',
                       textTransform: 'uppercase',
-                      color: 'var(--gold)',
+                      color: 'var(--blue-bright)',
                     }}
                   >
                     Découvrir →
@@ -177,9 +177,9 @@ export default function HomePage() {
                 fontSize: '0.7rem',
                 letterSpacing: '0.1em',
                 textTransform: 'uppercase',
-                color: 'rgba(235,232,225,0.45)',
+                color: 'var(--mid)',
                 textDecoration: 'none',
-                borderBottom: '1px solid rgba(255,255,255,0.1)',
+                borderBottom: '1px solid rgba(27,53,84,0.15)',
                 paddingBottom: '2px',
                 transition: 'color 0.2s',
               }}
