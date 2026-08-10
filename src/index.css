@@ -364,6 +364,8 @@ html.lenis { height: auto; }
   .team-banner-col { border-right: none !important; padding-right: 0 !important; border-bottom: 1px solid var(--border); padding-bottom: 2rem !important; }
   /* Engagement (À propos) : 4 cartes → 2 */
   .engagement-grid { grid-template-columns: 1fr 1fr !important; }
+  /* Footer : 4 colonnes → 2 (bug de débordement horizontal — jamais eu de repli mobile) */
+  .footer-grid { grid-template-columns: 1fr 1fr !important; gap: 2rem !important; }
 }
 @media (max-width: 640px) {
   :root {
@@ -388,6 +390,7 @@ html.lenis { height: auto; }
   .formation-calendar-grid { grid-template-columns: 1fr !important; }
   .team-cards-grid { grid-template-columns: 1fr !important; }
   .engagement-grid { grid-template-columns: 1fr !important; }
+  .footer-grid { grid-template-columns: 1fr !important; gap: 2.5rem !important; }
 }
 
 /* ── FormationRL responsive grids ── */

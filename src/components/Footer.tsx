@@ -31,6 +31,7 @@ export default function Footer() {
       >
         {/* Top row */}
         <div
+          className="footer-grid"
           style={{
             display: 'grid',
             gridTemplateColumns: '1.5fr 1fr 1fr 1fr',
@@ -262,6 +263,8 @@ export default function Footer() {
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'space-between',
+            flexWrap: 'wrap',
+            gap: '0.75rem',
             fontSize: '0.75rem',
             color: 'rgba(27,53,84,0.4)',
             fontFamily: 'DM Mono, monospace',
