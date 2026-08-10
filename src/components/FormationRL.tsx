@@ -107,22 +107,22 @@ function CTAButton({ children, href, primary = true, large = false }: {
       style={{
         display: 'inline-flex', alignItems: 'center', gap: '0.5rem',
         padding: pad,
-        background: primary ? 'var(--gold)' : 'transparent',
-        border: `1px solid ${primary ? 'var(--gold)' : 'rgba(192,154,47,0.4)'}`,
-        color: primary ? '#0a1420' : 'var(--gold)',
+        background: primary ? 'var(--blue-bright)' : 'transparent',
+        border: `1px solid ${primary ? 'var(--blue-bright)' : 'rgba(47,111,181,0.4)'}`,
+        color: primary ? '#0a1420' : 'var(--blue-bright)',
         fontFamily: 'Jost, sans-serif', fontSize: fs, fontWeight: 600,
         textDecoration: 'none', letterSpacing: '0.04em', whiteSpace: 'nowrap',
         transition: 'all 0.2s',
       }}
       onMouseEnter={e => {
         const el = e.currentTarget as HTMLElement
-        primary ? (el.style.background = '#a8841f', el.style.borderColor = '#a8841f')
-                : (el.style.background = 'var(--gold)', el.style.color = '#0a1420')
+        primary ? (el.style.background = '#1b3554', el.style.borderColor = '#1b3554')
+                : (el.style.background = 'var(--blue-bright)', el.style.color = '#0a1420')
       }}
       onMouseLeave={e => {
         const el = e.currentTarget as HTMLElement
-        primary ? (el.style.background = 'var(--gold)', el.style.borderColor = 'var(--gold)')
-                : (el.style.background = 'transparent', el.style.color = 'var(--gold)')
+        primary ? (el.style.background = 'var(--blue-bright)', el.style.borderColor = 'var(--blue-bright)')
+                : (el.style.background = 'transparent', el.style.color = 'var(--blue-bright)')
       }}
     >
       {children}
@@ -140,9 +140,9 @@ function StatCounter({ value, suffix, label, trigger }: { value: number; suffix:
         fontWeight: 800, lineHeight: 1, letterSpacing: '-0.02em',
         color: '#f0ede8',
       }}>
-        {count.toLocaleString('fr-FR')}<span style={{ color: 'var(--gold)', fontSize: '0.55em', marginLeft: '0.15em' }}>{suffix}</span>
+        {count.toLocaleString('fr-FR')}<span style={{ color: 'var(--blue-bright)', fontSize: '0.55em', marginLeft: '0.15em' }}>{suffix}</span>
       </div>
-      <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.14em', color: 'rgba(192,154,47,0.5)', textTransform: 'uppercase', marginTop: '0.4rem' }}>
+      <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.14em', color: 'rgba(47,111,181,0.5)', textTransform: 'uppercase', marginTop: '0.4rem' }}>
         {label}
       </div>
     </div>
@@ -156,7 +156,7 @@ function FAQItem({ q, a, open, onClick }: { q: string; a: string; open: boolean;
         borderTop: '1px solid rgba(255,255,255,0.08)',
         overflow: 'hidden',
         transition: 'background 0.2s',
-        background: open ? 'rgba(192,154,47,0.04)' : 'transparent',
+        background: open ? 'rgba(47,111,181,0.04)' : 'transparent',
       }}
     >
       <button
@@ -174,7 +174,7 @@ function FAQItem({ q, a, open, onClick }: { q: string; a: string; open: boolean;
         <motion.span
           animate={{ rotate: open ? 45 : 0 }}
           transition={{ duration: 0.25 }}
-          style={{ color: 'var(--gold)', fontSize: '1.4rem', fontWeight: 300, flexShrink: 0, display: 'inline-block', lineHeight: 1 }}
+          style={{ color: 'var(--blue-bright)', fontSize: '1.4rem', fontWeight: 300, flexShrink: 0, display: 'inline-block', lineHeight: 1 }}
         >
           +
         </motion.span>
@@ -234,12 +234,12 @@ export default function FormationRL() {
       transition={{ duration: 0.5, delay: 0.6 }}
       style={{
         display: 'inline-flex', alignItems: 'center', gap: '0.5rem',
-        background: 'rgba(192,154,47,0.12)', border: '1px solid rgba(192,154,47,0.4)',
+        background: 'rgba(47,111,181,0.12)', border: '1px solid rgba(47,111,181,0.4)',
         padding: '0.4rem 1rem', marginBottom: '1.5rem',
       }}
     >
-      <span style={{ width: 8, height: 8, borderRadius: '50%', background: '#c09a2f', display: 'inline-block', animation: 'pulse 1.5s infinite' }} />
-      <span style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.62rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'var(--gold)' }}>
+      <span style={{ width: 8, height: 8, borderRadius: '50%', background: '#2f6fb5', display: 'inline-block', animation: 'pulse 1.5s infinite' }} />
+      <span style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.62rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'var(--blue-bright)' }}>
         {PLACES} places disponibles — Prochaine session
       </span>
     </motion.div>
@@ -254,7 +254,7 @@ export default function FormationRL() {
           <div style={{ fontFamily: 'Manrope, sans-serif', fontSize: '1rem', fontWeight: 700, color: '#f0ede8' }}>
             Devenir Responsable Logistique
           </div>
-          <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.12em', textTransform: 'uppercase', color: 'rgba(192,154,47,0.6)', marginTop: '0.15rem' }}>
+          <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.12em', textTransform: 'uppercase', color: 'rgba(47,111,181,0.6)', marginTop: '0.15rem' }}>
             1 500 MAD · 1 journée · Hôtel 5★ · {PLACES} places restantes
           </div>
         </div>
@@ -264,13 +264,13 @@ export default function FormationRL() {
           rel="noopener noreferrer"
           style={{
             display: 'inline-flex', alignItems: 'center', gap: '0.5rem',
-            padding: '0.75rem 2rem', background: 'var(--gold)', color: '#0a1420',
+            padding: '0.75rem 2rem', background: 'var(--blue-bright)', color: '#0a1420',
             fontFamily: 'Jost, sans-serif', fontSize: '0.85rem', fontWeight: 700,
             textDecoration: 'none', letterSpacing: '0.04em', whiteSpace: 'nowrap',
             transition: 'background 0.2s',
           }}
-          onMouseEnter={e => (e.currentTarget as HTMLElement).style.background = '#a8841f'}
-          onMouseLeave={e => (e.currentTarget as HTMLElement).style.background = 'var(--gold)'}
+          onMouseEnter={e => (e.currentTarget as HTMLElement).style.background = '#1b3554'}
+          onMouseLeave={e => (e.currentTarget as HTMLElement).style.background = 'var(--blue-bright)'}
         >
           Réserver ma place →
         </a>
@@ -288,7 +288,7 @@ export default function FormationRL() {
           <div style={{ fontFamily: 'Manrope, sans-serif', fontSize: '1.05rem', fontWeight: 800, color: '#f0ede8', letterSpacing: '-0.01em' }}>
             Essor Consulting
           </div>
-          <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.5rem', letterSpacing: '0.18em', color: 'var(--gold)', textTransform: 'uppercase', marginTop: '0.1rem' }}>
+          <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.5rem', letterSpacing: '0.18em', color: 'var(--blue-bright)', textTransform: 'uppercase', marginTop: '0.1rem' }}>
             ← Retour au site
           </div>
         </a>
@@ -310,7 +310,7 @@ export default function FormationRL() {
         {/* Gradient */}
         <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(135deg, #0a1420 55%, rgba(10,20,32,0.6) 100%)' }} />
         {/* Gold orb */}
-        <div style={{ position: 'absolute', top: '-20%', right: '-10%', width: 600, height: 600, borderRadius: '50%', background: 'radial-gradient(circle, rgba(192,154,47,0.08) 0%, transparent 70%)', pointerEvents: 'none' }} />
+        <div style={{ position: 'absolute', top: '-20%', right: '-10%', width: 600, height: 600, borderRadius: '50%', background: 'radial-gradient(circle, rgba(47,111,181,0.08) 0%, transparent 70%)', pointerEvents: 'none' }} />
 
         <div className="section-inner" style={{ position: 'relative', zIndex: 1 }}>
           {/* Tag */}
@@ -322,7 +322,7 @@ export default function FormationRL() {
             initial={{ opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.05 }}
-            style={{ display: 'block', fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'rgba(192,154,47,0.5)', marginBottom: '2rem' }}
+            style={{ display: 'block', fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'rgba(47,111,181,0.5)', marginBottom: '2rem' }}
           >
             Formation terrain · 1 journée · Casablanca · Hôtel 5★
           </motion.div>
@@ -339,7 +339,7 @@ export default function FormationRL() {
             }}
           >
             Devenir<br />
-            <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--gold)' }}>
+            <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>
               Responsable
             </span><br />
             Logistique.
@@ -379,7 +379,7 @@ export default function FormationRL() {
         <div className="section-inner" style={{ display: 'flex', gap: '2rem 3rem', flexWrap: 'wrap', justifyContent: 'center', alignItems: 'center' }}>
           {['20+ ans de terrain', '110+ missions réalisées', 'DDMRP Certified', 'TBS · ISCAE · ENCG · EMI', 'Task Force COVID-19', 'Hôtel 5★ inclus'].map(item => (
             <div key={item} style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-              <span style={{ color: 'var(--gold)', fontSize: '0.45rem' }}>◆</span>
+              <span style={{ color: 'var(--blue-bright)', fontSize: '0.45rem' }}>◆</span>
               <span style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.12em', textTransform: 'uppercase', color: 'rgba(227,226,226,0.4)' }}>{item}</span>
             </div>
           ))}
@@ -390,12 +390,12 @@ export default function FormationRL() {
       <section style={{ background: 'var(--paper)', padding: 'var(--sp)', color: '#0a1420' }}>
         <div className="section-inner">
           <motion.div initial={{ opacity: 0, y: 32 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: '-60px' }} transition={{ duration: 0.8 }} style={{ marginBottom: '4rem' }}>
-            <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'rgba(192,154,47,0.65)', marginBottom: '1.5rem' }}>
+            <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'rgba(47,111,181,0.65)', marginBottom: '1.5rem' }}>
               01 / Pour qui
             </div>
             <h2 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2.5rem, 5vw, 6rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', color: '#0a1420', margin: 0 }}>
               Cette formation<br />
-              <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--gold)' }}>est faite pour vous</span><br />
+              <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>est faite pour vous</span><br />
               si vous gérez des flux.
             </h2>
           </motion.div>
@@ -407,7 +407,7 @@ export default function FormationRL() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: '-40px' }}
                 transition={{ duration: 0.7, delay: i * 0.1, ease: [0.16, 1, 0.3, 1] }}
-                style={{ background: '#fff', padding: '2.5rem', borderLeft: '3px solid var(--gold)' }}
+                style={{ background: '#fff', padding: '2.5rem', borderLeft: '3px solid var(--blue-bright)' }}
               >
                 <div style={{ fontSize: '2rem', marginBottom: '1.25rem' }}>{c.icon}</div>
                 <h3 style={{ fontFamily: 'Manrope, sans-serif', fontSize: '1.2rem', fontWeight: 700, color: '#0a1420', marginBottom: '0.75rem', lineHeight: 1.2 }}>{c.titre}</h3>
@@ -422,19 +422,19 @@ export default function FormationRL() {
       <section style={{ background: '#0a1420', padding: 'var(--sp)' }}>
         <div className="section-inner">
           <motion.div initial={{ opacity: 0, y: 32 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: '-60px' }} transition={{ duration: 0.8 }} style={{ marginBottom: '4rem' }}>
-            <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'rgba(192,154,47,0.45)', marginBottom: '1.5rem' }}>
+            <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'rgba(47,111,181,0.45)', marginBottom: '1.5rem' }}>
               02 / Programme de la journée
             </div>
             <h2 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2.5rem, 5vw, 6rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', color: '#f0ede8', margin: 0 }}>
               8 h 30 — 17 h 30.<br />
-              <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--gold)' }}>Dense. Concret. Terrain.</span>
+              <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>Dense. Concret. Terrain.</span>
             </h2>
           </motion.div>
 
           {/* Timeline */}
           <div style={{ position: 'relative', paddingLeft: '2rem' }}>
             {/* Vertical line */}
-            <div style={{ position: 'absolute', left: 0, top: 0, bottom: 0, width: 1, background: 'linear-gradient(to bottom, var(--gold), rgba(192,154,47,0.1))' }} />
+            <div style={{ position: 'absolute', left: 0, top: 0, bottom: 0, width: 1, background: 'linear-gradient(to bottom, var(--blue-bright), rgba(47,111,181,0.1))' }} />
 
             {PROGRAMME.map((item, i) => (
               <motion.div
@@ -455,12 +455,12 @@ export default function FormationRL() {
                 <div style={{
                   position: 'absolute', left: '-2.35rem', top: item.type === 'module' ? '1.75rem' : '1rem',
                   width: 10, height: 10, borderRadius: '50%',
-                  background: item.type === 'module' ? 'var(--gold)' : 'rgba(192,154,47,0.3)',
+                  background: item.type === 'module' ? 'var(--blue-bright)' : 'rgba(47,111,181,0.3)',
                   border: '2px solid #0a1420', flexShrink: 0,
                 }} />
 
                 {/* Time */}
-                <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.08em', color: item.type === 'module' ? 'rgba(192,154,47,0.8)' : 'rgba(192,154,47,0.35)', minWidth: 56, paddingTop: '0.2rem', flexShrink: 0 }}>
+                <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.08em', color: item.type === 'module' ? 'rgba(47,111,181,0.8)' : 'rgba(47,111,181,0.35)', minWidth: 56, paddingTop: '0.2rem', flexShrink: 0 }}>
                   {item.heure}
                 </div>
 
@@ -468,7 +468,7 @@ export default function FormationRL() {
                 <div style={{ flex: 1 }}>
                   <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: item.desc ? '0.4rem' : 0 }}>
                     {item.num && (
-                      <span style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.1em', color: 'var(--gold)', background: 'rgba(192,154,47,0.1)', padding: '0.15rem 0.5rem', flexShrink: 0 }}>
+                      <span style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.1em', color: 'var(--blue-bright)', background: 'rgba(47,111,181,0.1)', padding: '0.15rem 0.5rem', flexShrink: 0 }}>
                         {item.num}
                       </span>
                     )}
@@ -498,12 +498,12 @@ export default function FormationRL() {
         <div className="section-inner">
           <div className="frl-comp">
             <motion.div initial={{ opacity: 0, y: 32 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }}>
-              <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'rgba(192,154,47,0.45)', marginBottom: '1.5rem' }}>
+              <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'rgba(47,111,181,0.45)', marginBottom: '1.5rem' }}>
                 03 / Compétences acquises
               </div>
               <h2 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2.2rem, 4vw, 5rem)', fontWeight: 800, lineHeight: 0.95, letterSpacing: '-0.025em', color: '#f0ede8', margin: '0 0 2rem' }}>
                 Ce que vous<br />
-                <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--gold)' }}>maîtriserez</span><br />
+                <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>maîtriserez</span><br />
                 à la sortie.
               </h2>
               <p style={{ fontSize: '0.95rem', color: 'rgba(240,237,232,0.48)', lineHeight: 1.8, fontWeight: 300, margin: 0 }}>
@@ -518,9 +518,9 @@ export default function FormationRL() {
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.55, delay: i * 0.08 }}
-                  style={{ display: 'flex', alignItems: 'flex-start', gap: '1rem', padding: '1.25rem 1.5rem', background: '#0d1e30', borderLeft: '2px solid var(--gold)' }}
+                  style={{ display: 'flex', alignItems: 'flex-start', gap: '1rem', padding: '1.25rem 1.5rem', background: '#0d1e30', borderLeft: '2px solid var(--blue-bright)' }}
                 >
-                  <span style={{ color: 'var(--gold)', fontFamily: 'DM Mono, monospace', fontSize: '0.65rem', minWidth: 24, marginTop: '0.1rem' }}>
+                  <span style={{ color: 'var(--blue-bright)', fontFamily: 'DM Mono, monospace', fontSize: '0.65rem', minWidth: 24, marginTop: '0.1rem' }}>
                     {String(i + 1).padStart(2, '0')}
                   </span>
                   <span style={{ fontSize: '0.9rem', color: '#f0ede8', lineHeight: 1.5 }}>{c}</span>
@@ -534,7 +534,7 @@ export default function FormationRL() {
       {/* ── FORMATEUR ────────────────────────────────────────── */}
       <section style={{ background: 'var(--paper)', padding: 'var(--sp)', color: '#0a1420' }}>
         <div className="section-inner">
-          <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'rgba(192,154,47,0.65)', marginBottom: '3rem' }}>
+          <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'rgba(47,111,181,0.65)', marginBottom: '3rem' }}>
             04 / Votre formateur
           </div>
           <div className="frl-prof">
@@ -543,7 +543,7 @@ export default function FormationRL() {
                 <img src="/images/conseil.jpg" alt="Formateur Essor Consulting" style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', filter: 'grayscale(15%)' }} />
                 <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(10,20,32,0.35) 0%, transparent 60%)' }} />
               </div>
-              <div style={{ position: 'absolute', bottom: '-1.5rem', right: '-1.5rem', background: 'var(--gold)', padding: '1.5rem 2rem' }}>
+              <div style={{ position: 'absolute', bottom: '-1.5rem', right: '-1.5rem', background: 'var(--blue-bright)', padding: '1.5rem 2rem' }}>
                 <div style={{ fontFamily: 'Manrope, sans-serif', fontSize: '2.2rem', fontWeight: 800, color: '#0a1420', lineHeight: 1 }}>20+</div>
                 <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.5rem', letterSpacing: '0.12em', textTransform: 'uppercase', color: 'rgba(10,20,32,0.65)', marginTop: '0.25rem' }}>ans terrain</div>
               </div>
@@ -552,7 +552,7 @@ export default function FormationRL() {
             <motion.div initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8, delay: 0.15 }}>
               <h2 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2rem, 3.5vw, 4rem)', fontWeight: 800, lineHeight: 0.95, letterSpacing: '-0.025em', color: '#0a1420', margin: '0 0 0.5rem' }}>
                 Youssef<br />
-                <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--gold)' }}>— Fondateur, Essor Consulting</span>
+                <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>— Fondateur, Essor Consulting</span>
               </h2>
               <p style={{ fontSize: '1rem', color: 'rgba(10,20,32,0.6)', lineHeight: 1.8, fontWeight: 300, margin: '1.5rem 0 2.5rem', maxWidth: 540 }}>
                 Expert Supply Chain & Logistique avec plus de 20 ans de missions terrain au Maroc et en Europe. DDMRP Certified Practitioner. Expert national COVID-19. Intervenant dans les grandes écoles marocaines.
@@ -566,7 +566,7 @@ export default function FormationRL() {
                   'Expert national Supply Chain — Task Force Vaccination COVID-19',
                 ].map((item, i) => (
                   <div key={i} style={{ display: 'flex', alignItems: 'flex-start', gap: '0.75rem' }}>
-                    <span style={{ color: 'var(--gold)', marginTop: '0.35rem', fontSize: '0.45rem', flexShrink: 0 }}>◆</span>
+                    <span style={{ color: 'var(--blue-bright)', marginTop: '0.35rem', fontSize: '0.45rem', flexShrink: 0 }}>◆</span>
                     <span style={{ fontSize: '0.875rem', color: 'rgba(10,20,32,0.65)', fontWeight: 400, lineHeight: 1.5 }}>{item}</span>
                   </div>
                 ))}
@@ -580,12 +580,12 @@ export default function FormationRL() {
       <section style={{ background: '#0a1420', padding: 'var(--sp)' }}>
         <div className="section-inner">
           <motion.div initial={{ opacity: 0, y: 32 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }} style={{ marginBottom: '4rem' }}>
-            <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'rgba(192,154,47,0.45)', marginBottom: '1.5rem' }}>
+            <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'rgba(47,111,181,0.45)', marginBottom: '1.5rem' }}>
               05 / Ce qui est inclus
             </div>
             <h2 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2.5rem, 5vw, 6rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', color: '#f0ede8', margin: 0 }}>
               1 500 MAD.<br />
-              <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--gold)' }}>Tout inclus.</span>
+              <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>Tout inclus.</span>
             </h2>
           </motion.div>
 
@@ -597,7 +597,7 @@ export default function FormationRL() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: i * 0.07 }}
-                style={{ padding: '2.5rem 2rem', background: '#0d1e30', borderTop: '2px solid var(--gold)' }}
+                style={{ padding: '2.5rem 2rem', background: '#0d1e30', borderTop: '2px solid var(--blue-bright)' }}
               >
                 <div style={{ fontSize: '2rem', marginBottom: '1rem' }}>{item.icon}</div>
                 <h3 style={{ fontFamily: 'Jost, sans-serif', fontSize: '0.95rem', fontWeight: 600, color: '#f0ede8', marginBottom: '0.5rem' }}>{item.label}</h3>
@@ -615,7 +615,7 @@ export default function FormationRL() {
               { label: 'Langue', value: 'Français', detail: 'Cas en contexte marocain' },
             ].map(d => (
               <div key={d.label}>
-                <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.18em', textTransform: 'uppercase', color: 'rgba(192,154,47,0.45)', marginBottom: '0.5rem' }}>{d.label}</div>
+                <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.18em', textTransform: 'uppercase', color: 'rgba(47,111,181,0.45)', marginBottom: '0.5rem' }}>{d.label}</div>
                 <div style={{ fontFamily: 'Manrope, sans-serif', fontSize: '1.6rem', fontWeight: 700, color: '#f0ede8', lineHeight: 1 }}>{d.value}</div>
                 <div style={{ fontSize: '0.8rem', color: 'rgba(240,237,232,0.48)', marginTop: '0.35rem' }}>{d.detail}</div>
               </div>
@@ -640,7 +640,7 @@ export default function FormationRL() {
       </div>
 
       {/* ── CTA DORÉ ─────────────────────────────────────────── */}
-      <section style={{ background: 'var(--gold)', padding: 'var(--sp-y) var(--sp-x)' }}>
+      <section style={{ background: 'var(--blue-bright)', padding: 'var(--sp-y) var(--sp-x)' }}>
         <div className="section-inner" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '3rem' }}>
           <motion.div initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }}>
             <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'rgba(10,20,32,0.5)', marginBottom: '1rem' }}>
@@ -682,12 +682,12 @@ export default function FormationRL() {
       <section style={{ background: '#0d1e30', padding: 'var(--sp)' }}>
         <div className="section-inner">
           <motion.div initial={{ opacity: 0, y: 32 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }} style={{ marginBottom: '4rem' }}>
-            <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'rgba(192,154,47,0.45)', marginBottom: '1.5rem' }}>
+            <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'rgba(47,111,181,0.45)', marginBottom: '1.5rem' }}>
               06 / Questions fréquentes
             </div>
             <h2 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2.5rem, 5vw, 5.5rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', color: '#f0ede8', margin: 0 }}>
               Vos questions,<br />
-              <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--gold)' }}>nos réponses.</span>
+              <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>nos réponses.</span>
             </h2>
           </motion.div>
 
@@ -717,7 +717,7 @@ export default function FormationRL() {
           </div>
           <div style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}>
             <a href="/" style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: 'rgba(240,237,232,0.48)', textDecoration: 'none' }}>← Retour au site principal</a>
-            <a href={WA_LINK} target="_blank" rel="noopener noreferrer" style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--gold)', textDecoration: 'none' }}>WhatsApp →</a>
+            <a href={WA_LINK} target="_blank" rel="noopener noreferrer" style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--blue-bright)', textDecoration: 'none' }}>WhatsApp →</a>
           </div>
         </div>
       </footer>

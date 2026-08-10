@@ -93,7 +93,7 @@ function SystemRow({ s, index }: { s: typeof systems[0]; index: number }) {
             fontFamily: 'DM Mono, monospace',
             fontSize: '0.6rem',
             letterSpacing: '0.18em',
-            color: 'rgba(192,154,47,0.45)',
+            color: 'rgba(47,111,181,0.45)',
             textTransform: 'uppercase',
           }}
         >
@@ -111,7 +111,7 @@ function SystemRow({ s, index }: { s: typeof systems[0]; index: number }) {
             fontWeight: 500,
             letterSpacing: '0.1em',
             textTransform: 'uppercase',
-            color: 'var(--gold)',
+            color: 'var(--blue-bright)',
             whiteSpace: 'nowrap',
           }}
         >
@@ -138,7 +138,7 @@ function SystemRow({ s, index }: { s: typeof systems[0]; index: number }) {
         <div style={{
           fontFamily: 'DM Mono, monospace',
           fontSize: '1.1rem',
-          color: open ? 'var(--gold)' : 'rgba(27,53,84,0.3)',
+          color: open ? 'var(--blue-bright)' : 'rgba(27,53,84,0.3)',
           transition: 'color 0.2s, transform 0.3s',
           transform: open ? 'rotate(45deg)' : 'none',
           lineHeight: 1,
@@ -171,8 +171,8 @@ function SystemRow({ s, index }: { s: typeof systems[0]; index: number }) {
               <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '12px', marginBottom: '2.5rem' }}>
                 {s.tiers.map((tier) => (
                   <div key={tier.name} style={{
-                    background: tier.featured ? 'rgba(192,154,47,0.08)' : 'rgba(27,53,84,0.03)',
-                    border: `1px solid ${tier.featured ? 'rgba(192,154,47,0.4)' : 'rgba(27,53,84,0.1)'}`,
+                    background: tier.featured ? 'rgba(47,111,181,0.08)' : 'rgba(27,53,84,0.03)',
+                    border: `1px solid ${tier.featured ? 'rgba(47,111,181,0.4)' : 'rgba(27,53,84,0.1)'}`,
                     padding: '2.5rem',
                     position: 'relative',
                   }}>
@@ -181,7 +181,7 @@ function SystemRow({ s, index }: { s: typeof systems[0]; index: number }) {
                         position: 'absolute',
                         top: 0, left: 0, right: 0,
                         height: 3,
-                        background: 'var(--gold)',
+                        background: 'var(--blue-bright)',
                       }} />
                     )}
 
@@ -191,7 +191,7 @@ function SystemRow({ s, index }: { s: typeof systems[0]; index: number }) {
                       fontSize: '0.6rem',
                       letterSpacing: '0.18em',
                       textTransform: 'uppercase',
-                      color: tier.featured ? 'rgba(192,154,47,0.8)' : 'rgba(27,53,84,0.5)',
+                      color: tier.featured ? 'rgba(47,111,181,0.8)' : 'rgba(27,53,84,0.5)',
                       marginBottom: '0.75rem',
                     }}>
                       {tier.name}
@@ -204,7 +204,7 @@ function SystemRow({ s, index }: { s: typeof systems[0]; index: number }) {
                       fontWeight: 800,
                       lineHeight: 1.15,
                       letterSpacing: '-0.02em',
-                      color: tier.featured ? 'var(--gold)' : 'var(--navy)',
+                      color: tier.featured ? 'var(--blue-bright)' : 'var(--navy)',
                       marginBottom: '0.6rem',
                     }}>
                       {tier.price}
@@ -244,12 +244,12 @@ function SystemRow({ s, index }: { s: typeof systems[0]; index: number }) {
                     fontSize: '0.62rem',
                     letterSpacing: '0.1em',
                     textTransform: 'uppercase',
-                    color: 'rgba(192,154,47,0.6)',
+                    color: 'rgba(47,111,181,0.6)',
                     display: 'flex',
                     alignItems: 'center',
                     gap: '0.5rem',
                   }}>
-                    <span style={{ color: 'var(--gold)' }}>→</span> {r}
+                    <span style={{ color: 'var(--blue-bright)' }}>→</span> {r}
                   </div>
                 ))}
               </div>
@@ -277,7 +277,7 @@ export default function Systemes() {
               fontFamily: 'DM Mono, monospace',
               fontSize: '0.6rem',
               letterSpacing: '0.2em',
-              color: 'rgba(192,154,47,0.45)',
+              color: 'rgba(47,111,181,0.45)',
               textTransform: 'uppercase',
               marginBottom: '1.5rem',
             }}>

@@ -18,8 +18,8 @@ export default function Footer() {
   return (
     <footer
       style={{
-        background: 'var(--navy-dark, #0e1f30)',
-        borderTop: '1px solid rgba(255,255,255,0.08)',
+        background: 'var(--dark-2)',
+        borderTop: '1px solid rgba(27,53,84,0.1)',
         padding: 'var(--sp-y-sm) var(--sp-x) 2.5rem',
       }}
     >
@@ -52,12 +52,12 @@ export default function Footer() {
                 marginBottom: '1rem',
               }}
             >
-              Essor <span style={{ color: 'var(--gold)' }}>Consulting</span>
+              Essor <span style={{ color: 'var(--blue-bright)' }}>Consulting</span>
             </a>
             <p
               style={{
                 fontSize: '0.88rem',
-                color: 'rgba(227,226,226,0.45)',
+                color: 'var(--mid)',
                 lineHeight: 1.7,
                 maxWidth: 300,
                 marginBottom: '1.5rem',
@@ -75,13 +75,13 @@ export default function Footer() {
                     fontSize: '0.65rem',
                     letterSpacing: '0.1em',
                     textTransform: 'uppercase',
-                    color: 'rgba(184,146,42,0.6)',
+                    color: 'rgba(47,111,181,0.6)',
                     display: 'flex',
                     alignItems: 'center',
                     gap: '0.5rem',
                   }}
                 >
-                  <span style={{ color: 'var(--gold)' }}>◆</span> {e}
+                  <span style={{ color: 'var(--blue-bright)' }}>◆</span> {e}
                 </div>
               ))}
             </div>
@@ -95,7 +95,7 @@ export default function Footer() {
                 fontSize: '0.65rem',
                 letterSpacing: '0.15em',
                 textTransform: 'uppercase',
-                color: 'rgba(227,226,226,0.3)',
+                color: 'rgba(27,53,84,0.45)',
                 marginBottom: '1.5rem',
               }}
             >
@@ -108,13 +108,13 @@ export default function Footer() {
                     href={href}
                     style={{
                       fontSize: '0.88rem',
-                      color: 'rgba(227,226,226,0.5)',
+                      color: 'var(--mid)',
                       textDecoration: 'none',
                       transition: 'color 0.2s',
                     }}
-                    onMouseEnter={(e) => ((e.target as HTMLElement).style.color = 'var(--gold)')}
+                    onMouseEnter={(e) => ((e.target as HTMLElement).style.color = 'var(--blue-bright)')}
                     onMouseLeave={(e) =>
-                      ((e.target as HTMLElement).style.color = 'rgba(227,226,226,0.5)')
+                      ((e.target as HTMLElement).style.color = 'var(--mid)')
                     }
                   >
                     {label}
@@ -132,7 +132,7 @@ export default function Footer() {
                 fontSize: '0.65rem',
                 letterSpacing: '0.15em',
                 textTransform: 'uppercase',
-                color: 'rgba(227,226,226,0.3)',
+                color: 'rgba(27,53,84,0.45)',
                 marginBottom: '1.5rem',
               }}
             >
@@ -150,13 +150,13 @@ export default function Footer() {
                     href={href}
                     style={{
                       fontSize: '0.88rem',
-                      color: 'rgba(227,226,226,0.5)',
+                      color: 'var(--mid)',
                       textDecoration: 'none',
                       transition: 'color 0.2s',
                     }}
-                    onMouseEnter={(e) => ((e.target as HTMLElement).style.color = 'var(--gold)')}
+                    onMouseEnter={(e) => ((e.target as HTMLElement).style.color = 'var(--blue-bright)')}
                     onMouseLeave={(e) =>
-                      ((e.target as HTMLElement).style.color = 'rgba(227,226,226,0.5)')
+                      ((e.target as HTMLElement).style.color = 'var(--mid)')
                     }
                   >
                     {label}
@@ -174,7 +174,7 @@ export default function Footer() {
                 fontSize: '0.65rem',
                 letterSpacing: '0.15em',
                 textTransform: 'uppercase',
-                color: 'rgba(227,226,226,0.3)',
+                color: 'rgba(27,53,84,0.45)',
                 marginBottom: '1.5rem',
               }}
             >
@@ -193,7 +193,7 @@ export default function Footer() {
                     fontSize: '0.52rem',
                     letterSpacing: '0.14em',
                     textTransform: 'uppercase',
-                    color: 'rgba(192,154,47,0.45)',
+                    color: 'rgba(47,111,181,0.75)',
                     flexShrink: 0,
                     width: 26,
                   }}>
@@ -204,21 +204,21 @@ export default function Footer() {
                       href={href}
                       style={{
                         fontSize: '0.88rem',
-                        color: 'rgba(227,226,226,0.5)',
+                        color: 'var(--mid)',
                         textDecoration: 'none',
                         transition: 'color 0.2s',
                       }}
                       onMouseEnter={(e) =>
-                        ((e.target as HTMLElement).style.color = 'var(--gold)')
+                        ((e.target as HTMLElement).style.color = 'var(--blue-bright)')
                       }
                       onMouseLeave={(e) =>
-                        ((e.target as HTMLElement).style.color = 'rgba(227,226,226,0.5)')
+                        ((e.target as HTMLElement).style.color = 'var(--mid)')
                       }
                     >
                       {label}
                     </a>
                   ) : (
-                    <span style={{ fontSize: '0.88rem', color: 'rgba(227,226,226,0.5)' }}>
+                    <span style={{ fontSize: '0.88rem', color: 'var(--mid)' }}>
                       {label}
                     </span>
                   )}
@@ -230,7 +230,7 @@ export default function Footer() {
                   display: 'inline-flex',
                   alignItems: 'center',
                   gap: '0.5rem',
-                  background: 'var(--gold)',
+                  background: 'var(--blue-bright)',
                   color: 'var(--dark)',
                   padding: '0.7rem 1.4rem',
                   fontSize: '0.82rem',
@@ -242,10 +242,10 @@ export default function Footer() {
                   transition: 'background 0.2s',
                 }}
                 onMouseEnter={(e) =>
-                  ((e.target as HTMLElement).style.background = 'var(--gold-light)')
+                  ((e.target as HTMLElement).style.background = 'var(--blue-bright)')
                 }
                 onMouseLeave={(e) =>
-                  ((e.target as HTMLElement).style.background = 'var(--gold)')
+                  ((e.target as HTMLElement).style.background = 'var(--blue-bright)')
                 }
               >
                 Prendre RDV →
@@ -258,12 +258,12 @@ export default function Footer() {
         <div
           style={{
             paddingTop: '2rem',
-            borderTop: '1px solid rgba(255,255,255,0.06)',
+            borderTop: '1px solid rgba(27,53,84,0.08)',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'space-between',
             fontSize: '0.75rem',
-            color: 'rgba(227,226,226,0.25)',
+            color: 'rgba(27,53,84,0.4)',
             fontFamily: 'DM Mono, monospace',
             letterSpacing: '0.06em',
           }}

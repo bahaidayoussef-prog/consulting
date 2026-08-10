@@ -21,12 +21,13 @@ export default function PageHero({
   subtitle,
   tag = 'ESSOR CONSULTING',
   bg = 'var(--navy)',
-  textColor = '#f0ede8',
+  textColor,
   breadcrumb,
 }: PageHeroProps) {
   const words = title.split(' ')
   const isLight = bg === 'var(--paper)'
   const accent = isLight ? 'var(--blue-bright)' : 'var(--gold)'
+  const resolvedTextColor = textColor ?? (isLight ? 'var(--ink)' : '#f0ede8')
 
   return (
     <section
@@ -79,7 +80,7 @@ export default function PageHero({
                 fontSize: '0.6rem',
                 letterSpacing: '0.18em',
                 textTransform: 'uppercase',
-                color: 'rgba(192,154,47,0.5)',
+                color: 'rgba(47,111,181,0.5)',
                 textDecoration: 'none',
               }}
             >
@@ -125,7 +126,7 @@ export default function PageHero({
                     fontWeight: 800,
                     lineHeight: 0.92,
                     letterSpacing: '-0.03em',
-                    color: textColor,
+                    color: resolvedTextColor,
                     overflowWrap: 'anywhere',
                   }}
                 >

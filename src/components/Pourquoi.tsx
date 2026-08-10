@@ -109,7 +109,7 @@ export default function Pourquoi() {
               fontFamily: 'DM Mono, monospace',
               fontSize: '0.6rem',
               letterSpacing: '0.2em',
-              color: 'rgba(192,154,47,0.55)',
+              color: 'rgba(47,111,181,0.55)',
               textTransform: 'uppercase',
               marginBottom: '1.5rem',
             }}>
@@ -161,7 +161,7 @@ export default function Pourquoi() {
                     fontFamily: 'DM Mono, monospace',
                     fontSize: '0.65rem',
                     letterSpacing: '0.14em',
-                    color: 'rgba(192,154,47,0.5)',
+                    color: 'rgba(47,111,181,0.5)',
                     textTransform: 'uppercase',
                     paddingTop: '0.35rem',
                   }}>
@@ -199,7 +199,7 @@ export default function Pourquoi() {
 
       {/* ── Statement line ── */}
       <div style={{
-        background: 'var(--ink)',
+        background: 'var(--dark-2)',
         padding: 'var(--sp-y-sm) var(--sp-x)',
         overflow: 'hidden',
       }}>
@@ -216,7 +216,7 @@ export default function Pourquoi() {
               fontStyle: 'italic',
               lineHeight: 0.92,
               letterSpacing: '-0.025em',
-              color: 'var(--gold)',
+              color: 'var(--blue-bright)',
             }}
           >
             110 missions. Un seul parti pris&nbsp;: votre résultat.

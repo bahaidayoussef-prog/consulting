@@ -112,7 +112,7 @@ export default function DSC() {
               fontSize: '0.6rem',
               letterSpacing: '0.2em',
               textTransform: 'uppercase',
-              color: 'rgba(192,154,47,0.55)',
+              color: 'rgba(47,111,181,0.55)',
               marginBottom: '1.5rem',
             }}
           >
@@ -142,7 +142,7 @@ export default function DSC() {
             >
               Un mandat.
               <br />
-              <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--gold)' }}>
+              <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>
                 Une transformation.
               </span>
             </motion.h2>
@@ -169,12 +169,12 @@ export default function DSC() {
                 fontSize: '0.62rem',
                 letterSpacing: '0.1em',
                 textTransform: 'uppercase',
-                color: 'var(--gold)',
+                color: 'var(--blue-bright)',
                 display: 'flex',
                 alignItems: 'center',
                 gap: '0.6rem',
               }}>
-                <span style={{ display: 'block', width: 24, height: 1, background: 'var(--gold)' }} />
+                <span style={{ display: 'block', width: 24, height: 1, background: 'var(--blue-bright)' }} />
                 Disponible PME et ETI · Maroc et Europe
               </div>
             </motion.div>
@@ -183,7 +183,7 @@ export default function DSC() {
       </div>
 
       {/* ── TIMELINE — 3 phases ── */}
-      <div style={{ background: 'var(--ink)' }}>
+      <div style={{ background: 'var(--paper)' }}>
         <div className="section-inner" style={{ padding: '0 var(--sp-x)' }}>
           <div style={{
             display: 'grid',
@@ -198,7 +198,7 @@ export default function DSC() {
                 transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1], delay: i * 0.12 }}
                 style={{
                   padding: '4rem 2.5rem',
-                  borderRight: i < 2 ? '1px solid rgba(255,255,255,0.05)' : 'none',
+                  borderRight: i < 2 ? '1px solid rgba(27,53,84,0.08)' : 'none',
                 }}
               >
                 {/* Number + duration */}
@@ -211,14 +211,14 @@ export default function DSC() {
                   <div style={{
                     width: 36,
                     height: 36,
-                    border: '1px solid rgba(192,154,47,0.4)',
+                    border: '1px solid rgba(47,111,181,0.4)',
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
                     fontFamily: 'DM Mono, monospace',
                     fontSize: '0.65rem',
                     letterSpacing: '0.1em',
-                    color: 'var(--gold)',
+                    color: 'var(--blue-bright)',
                     flexShrink: 0,
                   }}>
                     {p.num}
@@ -228,7 +228,7 @@ export default function DSC() {
                     fontSize: '0.58rem',
                     letterSpacing: '0.12em',
                     textTransform: 'uppercase',
-                    color: 'rgba(192,154,47,0.5)',
+                    color: 'rgba(47,111,181,0.7)',
                   }}>
                     {p.duration}
                   </div>
@@ -254,7 +254,7 @@ export default function DSC() {
                       key={item}
                       style={{
                         fontSize: '0.85rem',
-                        color: 'rgba(235,232,225,0.5)',
+                        color: 'var(--mid)',
                         padding: '0.35rem 0',
                         display: 'flex',
                         alignItems: 'flex-start',
@@ -262,7 +262,7 @@ export default function DSC() {
                         lineHeight: 1.5,
                       }}
                     >
-                      <span style={{ color: 'rgba(192,154,47,0.5)', flexShrink: 0 }}>—</span>
+                      <span style={{ color: 'var(--blue-bright)', flexShrink: 0 }}>—</span>
                       {item}
                     </li>
                   ))}
@@ -271,14 +271,14 @@ export default function DSC() {
                 {/* Deliverable */}
                 <div style={{
                   paddingTop: '1.25rem',
-                  borderTop: '1px solid rgba(255,255,255,0.07)',
+                  borderTop: '1px solid rgba(27,53,84,0.1)',
                 }}>
                   <span style={{
                     fontFamily: 'DM Mono, monospace',
                     fontSize: '0.58rem',
                     letterSpacing: '0.1em',
                     textTransform: 'uppercase',
-                    color: 'rgba(192,154,47,0.5)',
+                    color: 'rgba(47,111,181,0.7)',
                   }}>
                     Livrable ·&nbsp;
                   </span>
@@ -287,7 +287,7 @@ export default function DSC() {
                     fontStyle: 'italic',
                     fontWeight: 400,
                     fontSize: '0.85rem',
-                    color: 'var(--gold)',
+                    color: 'var(--blue-bright)',
                   }}>
                     {p.deliverable}
                   </span>
@@ -352,7 +352,7 @@ export default function DSC() {
                   fontSize: '1.6rem',
                   fontWeight: 800,
                   letterSpacing: '-0.02em',
-                  color: m.featured ? 'var(--navy)' : 'var(--ink)',
+                  color: m.featured ? '#ffffff' : 'var(--ink)',
                   marginBottom: '1.75rem',
                 }}>
                   {m.name}
@@ -432,7 +432,7 @@ export default function DSC() {
                         fontWeight: 300,
                       }}
                     >
-                      <span style={{ color: 'var(--gold)', flexShrink: 0 }}>→</span>
+                      <span style={{ color: m.featured ? 'var(--gold)' : 'var(--blue-bright)', flexShrink: 0 }}>→</span>
                       {item}
                     </li>
                   ))}
@@ -485,7 +485,7 @@ export default function DSC() {
                 fontSize: '0.55rem',
                 letterSpacing: '0.18em',
                 textTransform: 'uppercase',
-                color: 'rgba(192,154,47,0.5)',
+                color: 'rgba(47,111,181,0.7)',
                 marginBottom: '0.3rem',
               }}>
                 Grands groupes · +800 personnes
@@ -531,7 +531,7 @@ export default function DSC() {
       </div>
 
       {/* ── COMPARATIF — vs CDI ── */}
-      <div style={{ background: 'var(--navy)', padding: 'var(--sp-y-sm) var(--sp-x)' }}>
+      <div style={{ background: 'var(--dark-2)', padding: 'var(--sp-y-sm) var(--sp-x)' }}>
         <div className="section-inner">
           <motion.div
             initial={{ opacity: 0, y: 16 }}
@@ -545,7 +545,7 @@ export default function DSC() {
               fontSize: '0.6rem',
               letterSpacing: '0.18em',
               textTransform: 'uppercase',
-              color: 'rgba(192,154,47,0.5)',
+              color: 'rgba(47,111,181,0.7)',
               marginBottom: '2.5rem',
             }}>
               Recruter un DSC en CDI vs Mandat Essor
@@ -556,7 +556,7 @@ export default function DSC() {
               display: 'grid',
               gridTemplateColumns: '1fr 1fr 1fr',
               paddingBottom: '0.75rem',
-              borderBottom: '1px solid rgba(255,255,255,0.1)',
+              borderBottom: '1px solid rgba(27,53,84,0.12)',
             }}>
               <div />
               <div style={{
@@ -564,7 +564,7 @@ export default function DSC() {
                 fontSize: '0.58rem',
                 letterSpacing: '0.14em',
                 textTransform: 'uppercase',
-                color: 'rgba(255,255,255,0.25)',
+                color: 'rgba(27,53,84,0.4)',
                 padding: '0 1.5rem',
               }}>
                 DSC en CDI
@@ -574,7 +574,7 @@ export default function DSC() {
                 fontSize: '0.58rem',
                 letterSpacing: '0.14em',
                 textTransform: 'uppercase',
-                color: 'var(--gold)',
+                color: 'var(--blue-bright)',
                 padding: '0 1.5rem',
               }}>
                 Mandat Essor
@@ -592,7 +592,7 @@ export default function DSC() {
                   display: 'grid',
                   gridTemplateColumns: '1fr 1fr 1fr',
                   padding: '1.25rem 0',
-                  borderBottom: '1px solid rgba(255,255,255,0.05)',
+                  borderBottom: '1px solid rgba(27,53,84,0.08)',
                 }}
               >
                 <div style={{
@@ -600,7 +600,7 @@ export default function DSC() {
                   fontSize: '0.6rem',
                   letterSpacing: '0.08em',
                   textTransform: 'uppercase',
-                  color: 'rgba(255,255,255,0.3)',
+                  color: 'rgba(27,53,84,0.45)',
                   display: 'flex',
                   alignItems: 'center',
                 }}>
@@ -608,7 +608,7 @@ export default function DSC() {
                 </div>
                 <div style={{
                   fontSize: '0.88rem',
-                  color: 'rgba(235,232,225,0.35)',
+                  color: 'rgba(27,53,84,0.45)',
                   fontWeight: 300,
                   lineHeight: 1.55,
                   padding: '0 1.5rem',
@@ -618,7 +618,7 @@ export default function DSC() {
                 </div>
                 <div style={{
                   fontSize: '0.88rem',
-                  color: 'rgba(235,232,225,0.82)',
+                  color: 'var(--ink)',
                   fontWeight: 400,
                   lineHeight: 1.55,
                   padding: '0 1.5rem',

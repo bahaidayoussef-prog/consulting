@@ -74,7 +74,7 @@ export default function Impact() {
             fontFamily: 'DM Mono, monospace',
             fontSize: '0.6rem',
             letterSpacing: '0.2em',
-            color: 'rgba(192,154,47,0.55)',
+            color: 'rgba(47,111,181,0.55)',
             textTransform: 'uppercase',
             marginBottom: '1.5rem',
           }}>
@@ -104,7 +104,7 @@ export default function Impact() {
             >
               Quinze ans.
               <br />
-              <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--gold)' }}>
+              <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>
                 Des résultats mesurés.
               </span>
             </motion.h2>
@@ -152,7 +152,7 @@ export default function Impact() {
                 fontWeight: 300,
                 fontStyle: 'italic',
                 lineHeight: 0.9,
-                color: 'var(--gold-light)',
+                color: 'var(--blue-bright)',
                 letterSpacing: '-0.02em',
                 marginBottom: '1rem',
               }}>
@@ -206,7 +206,7 @@ export default function Impact() {
             fontSize: '0.55rem',
             letterSpacing: '0.22em',
             textTransform: 'uppercase',
-            color: 'rgba(192,154,47,0.5)',
+            color: 'rgba(47,111,181,0.5)',
             zIndex: 2,
             pointerEvents: 'none',
           }}>
@@ -240,7 +240,7 @@ export default function Impact() {
               fontSize: '0.6rem',
               letterSpacing: '0.15em',
               textTransform: 'uppercase',
-              color: 'rgba(192,154,47,0.7)',
+              color: 'rgba(47,111,181,0.7)',
               marginBottom: '1.25rem',
             }}>
               Notre engagement
@@ -253,8 +253,8 @@ export default function Impact() {
                   letterSpacing: '0.08em',
                   textTransform: 'uppercase',
                   padding: '0.3rem 0.7rem',
-                  border: '1px solid rgba(184,146,42,0.2)',
-                  color: 'rgba(184,146,42,0.55)',
+                  border: '1px solid rgba(47,111,181,0.2)',
+                  color: 'rgba(47,111,181,0.55)',
                 }}>
                   {tag}
                 </span>
@@ -269,7 +269,7 @@ export default function Impact() {
             fontStyle: 'italic',
             color: 'rgba(27,53,84,0.65)',
             lineHeight: 1.5,
-            borderLeft: '2px solid var(--gold)',
+            borderLeft: '2px solid var(--blue-bright)',
             paddingLeft: '2.5rem',
             margin: 0,
           }}>

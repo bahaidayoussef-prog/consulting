@@ -107,7 +107,7 @@ function MarqueeRow({
               textTransform: 'uppercase',
               color:
                 i % accentEvery === 0
-                  ? dark ? 'var(--gold)' : 'var(--gold)'
+                  ? dark ? 'var(--gold)' : 'var(--blue-bright)'
                   : dark
                   ? 'rgba(227,226,226,0.28)'
                   : 'rgba(227,226,226,0.28)',
@@ -116,7 +116,7 @@ function MarqueeRow({
             }}
           >
             {item}
-            <span style={{ marginLeft: '2rem', color: 'rgba(184,146,42,0.25)' }}>◆</span>
+            <span style={{ marginLeft: '2rem', color: 'rgba(47,111,181,0.25)' }}>◆</span>
           </span>
         ))}
       </div>

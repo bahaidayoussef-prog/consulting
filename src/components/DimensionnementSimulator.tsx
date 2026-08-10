@@ -53,7 +53,7 @@ function Field({ label, error, children }: { label: string; error?: string; chil
       <label style={{
         fontFamily: 'DM Mono, monospace', fontSize: '0.62rem',
         letterSpacing: '0.12em', textTransform: 'uppercase',
-        color: error ? 'rgba(200,60,60,0.8)' : 'rgba(192,154,47,0.75)',
+        color: error ? 'rgba(200,60,60,0.8)' : 'rgba(47,111,181,0.75)',
       }}>
         {label}
         {error && <span style={{ marginLeft: '0.5rem', fontSize: '0.6rem' }}>— {error}</span>}

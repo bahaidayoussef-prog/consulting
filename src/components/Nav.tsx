@@ -92,13 +92,13 @@ export default function Nav() {
                     fontWeight: 500,
                     letterSpacing: '0.05em',
                     textTransform: 'uppercase',
-                    color: active ? 'var(--gold)' : textCol,
+                    color: active ? 'var(--blue-bright)' : textCol,
                     textDecoration: 'none',
                     transition: 'color 0.2s',
                     paddingBottom: '4px',
                   }}
-                  onMouseEnter={e => ((e.currentTarget as HTMLElement).style.color = active ? 'var(--gold)' : textHover)}
-                  onMouseLeave={e => ((e.currentTarget as HTMLElement).style.color = active ? 'var(--gold)' : textCol)}
+                  onMouseEnter={e => ((e.currentTarget as HTMLElement).style.color = active ? 'var(--blue-bright)' : textHover)}
+                  onMouseLeave={e => ((e.currentTarget as HTMLElement).style.color = active ? 'var(--blue-bright)' : textCol)}
                 >
                   {label}
                 </Link>
@@ -111,7 +111,7 @@ export default function Nav() {
                       left: 0,
                       right: 0,
                       height: 2,
-                      background: 'var(--gold)',
+                      background: 'var(--blue-bright)',
                       borderRadius: 0,
                     }}
                     transition={{ type: 'spring', stiffness: 380, damping: 30 }}
@@ -137,7 +137,7 @@ export default function Nav() {
               }}
               onMouseEnter={e => {
                 const el = e.currentTarget as HTMLElement
-                el.style.background = 'var(--gold)'
+                el.style.background = 'var(--blue-bright)'
                 el.style.color = '#0e1f30'
               }}
               onMouseLeave={e => {
@@ -173,7 +173,7 @@ export default function Nav() {
             transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
             style={{
               position: 'fixed', inset: 0,
-              background: 'var(--navy)',
+              background: 'var(--paper)',
               zIndex: 95,
               display: 'flex',
               flexDirection: 'column',
@@ -185,7 +185,7 @@ export default function Nav() {
               style={{
                 position: 'absolute', top: 0, left: 0, right: 0,
                 height: 2,
-                background: 'linear-gradient(90deg, var(--gold), transparent)',
+                background: 'linear-gradient(90deg, var(--blue-bright), transparent)',
               }}
             />
             <nav style={{ marginBottom: '3rem' }}>
@@ -215,7 +215,7 @@ export default function Nav() {
                   to="/contact"
                   className="mobile-nav-item"
                   onClick={() => setMenuOpen(false)}
-                  style={{ display: 'block', textDecoration: 'none', color: 'var(--gold)' }}
+                  style={{ display: 'block', textDecoration: 'none', color: 'var(--blue-bright)' }}
                 >
                   Prendre RDV →
                 </Link>
@@ -230,7 +230,7 @@ export default function Nav() {
                 fontSize: '0.65rem',
                 letterSpacing: '0.12em',
                 textTransform: 'uppercase',
-                color: 'rgba(184,146,42,0.4)',
+                color: 'rgba(47,111,181,0.4)',
                 display: 'flex', gap: '1.5rem', flexWrap: 'wrap',
               }}
             >

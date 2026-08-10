@@ -28,7 +28,7 @@ export default function DimensionnementCTA() {
             <div style={{
               fontFamily: 'DM Mono, monospace', fontSize: '0.62rem',
               letterSpacing: '0.16em', textTransform: 'uppercase',
-              color: 'rgba(192,154,47,0.75)', marginBottom: '1rem',
+              color: 'rgba(47,111,181,0.75)', marginBottom: '1rem',
             }}>
               Outil gratuit
             </div>
