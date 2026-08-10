@@ -26,7 +26,6 @@ export default function Contact() {
     if (!form.nom.trim()) e.nom = 'Obligatoire'
     if (!form.email.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)) e.email = 'Email invalide'
     if (!form.besoin) e.besoin = 'Choisissez un besoin'
-    if (form.message.trim().length < 20) e.message = 'Au moins 20 caractères'
     return e
   }
 

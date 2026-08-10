@@ -10,6 +10,8 @@ import AProposPage from './pages/AProposPage'
 import BlogPage from './pages/BlogPage'
 import ContactPage from './pages/ContactPage'
 import DimensionnementEntrepotPage from './pages/DimensionnementEntrepotPage'
+import ProductiviteEnginsPage from './pages/ProductiviteEnginsPage'
+import CoutGlobalEntrepotPage from './pages/CoutGlobalEntrepotPage'
 
 const pageVariants = {
   initial: { opacity: 0, y: 20 },
@@ -44,6 +46,8 @@ function AnimatedRoutes() {
         <Route path="/blog" element={<PageTransition><BlogPage /></PageTransition>} />
         <Route path="/contact" element={<PageTransition><ContactPage /></PageTransition>} />
         <Route path="/outils/dimensionnement-entrepot" element={<PageTransition><DimensionnementEntrepotPage /></PageTransition>} />
+        <Route path="/outils/productivite-engins-main-doeuvre" element={<PageTransition><ProductiviteEnginsPage /></PageTransition>} />
+        <Route path="/outils/cout-global-entrepot" element={<PageTransition><CoutGlobalEntrepotPage /></PageTransition>} />
         <Route path="*" element={<PageTransition><HomePage /></PageTransition>} />
       </Routes>
     </AnimatePresence>
