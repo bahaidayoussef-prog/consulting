@@ -783,3 +783,46 @@ html.lenis { height: auto; }
   display: block;
   margin-bottom: 2.5rem;
 }
+
+/* ── Demo pages (/demo/wms, /demo/tms, /demo/aps) ── */
+.demo-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 4px;
+  background: rgba(27,53,84,0.15);
+  outline: none;
+  cursor: none;
+}
+.demo-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--blue-bright);
+  border: 3px solid #fff;
+  box-shadow: 0 2px 8px rgba(27,53,84,0.35);
+  cursor: none;
+}
+.demo-slider::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--blue-bright);
+  border: 3px solid #fff;
+  box-shadow: 0 2px 8px rgba(27,53,84,0.35);
+  cursor: none;
+  border: none;
+}
+.demo-slider::-moz-range-track {
+  height: 4px;
+  background: rgba(27,53,84,0.15);
+}
+
+@media (max-width: 900px) {
+  .wms-plan-layout, .tms-map-layout, .aps-layout { grid-template-columns: 1fr !important; }
+  .wms-zones { flex-direction: column !important; }
+}
+@media (max-width: 640px) {
+  .wms-zones > div { grid-template-columns: repeat(4, 1fr) !important; }
+}

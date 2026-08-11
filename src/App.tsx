@@ -13,6 +13,9 @@ import DimensionnementEntrepotPage from './pages/DimensionnementEntrepotPage'
 import ProductiviteEnginsPage from './pages/ProductiviteEnginsPage'
 import CoutGlobalEntrepotPage from './pages/CoutGlobalEntrepotPage'
 import FaqPage from './pages/FaqPage'
+import DemoWmsPage from './pages/DemoWmsPage'
+import DemoTmsPage from './pages/DemoTmsPage'
+import DemoApsPage from './pages/DemoApsPage'
 
 const pageVariants = {
   initial: { opacity: 0, y: 20 },
@@ -50,6 +53,9 @@ function AnimatedRoutes() {
         <Route path="/outils/productivite-engins-main-doeuvre" element={<PageTransition><ProductiviteEnginsPage /></PageTransition>} />
         <Route path="/outils/cout-global-entrepot" element={<PageTransition><CoutGlobalEntrepotPage /></PageTransition>} />
         <Route path="/faq" element={<PageTransition><FaqPage /></PageTransition>} />
+        <Route path="/demo/wms" element={<PageTransition><DemoWmsPage /></PageTransition>} />
+        <Route path="/demo/tms" element={<PageTransition><DemoTmsPage /></PageTransition>} />
+        <Route path="/demo/aps" element={<PageTransition><DemoApsPage /></PageTransition>} />
         <Route path="*" element={<PageTransition><HomePage /></PageTransition>} />
       </Routes>
     </AnimatePresence>

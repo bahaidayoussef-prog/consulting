@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 
 const systems = [
@@ -13,6 +14,7 @@ const systems = [
       { name: 'WMS Pro', price: 'À partir de 450 000 MAD HT', duration: '6 à 10 mois', desc: 'ETI multi-sites · Audit + RFP + AMOA + intégration ERP' },
     ],
     results: ['Écarts d\'inventaire réduits de 80–95%', 'Productivité préparation +25–40%', 'Erreurs d\'expédition −70–90%'],
+    demoLink: '/demo/wms',
   },
   {
     num: '02',
@@ -25,6 +27,7 @@ const systems = [
       { name: 'TMS Pro', price: 'À partir de 400 000 MAD HT', duration: '5 à 9 mois', desc: 'ETI · flotte importante · multi-modes + intégrations' },
     ],
     results: ['Coûts transport réduits 8–15%', 'Productivité dispatch +30–50%', 'Facturation transport ÷3 à 5'],
+    demoLink: '/demo/tms',
   },
   {
     num: '03',
@@ -37,6 +40,7 @@ const systems = [
       { name: 'Planning Pro (DDMRP)', price: 'À partir de 380 000 MAD HT', duration: '6 à 9 mois', desc: 'ETI multi-sites · IBP + AMOA + COPIL S&OP' },
     ],
     results: ['Ruptures réduites de 40–60%', 'Surstocks réduits de 20–30%', 'BFR libéré 15–30% du stock'],
+    demoLink: '/demo/aps',
   },
   {
     num: '04',
@@ -238,21 +242,42 @@ function SystemRow({ s, index }: { s: typeof systems[0]; index: number }) {
                 ))}
               </div>
 
-              <div style={{ display: 'flex', gap: '2rem', flexWrap: 'wrap' }}>
-                {s.results.map((r) => (
-                  <div key={r} style={{
-                    fontFamily: 'DM Mono, monospace',
-                    fontSize: '0.62rem',
-                    letterSpacing: '0.1em',
-                    textTransform: 'uppercase',
-                    color: 'rgba(47,111,181,0.6)',
-                    display: 'flex',
-                    alignItems: 'center',
-                    gap: '0.5rem',
-                  }}>
-                    <span style={{ color: 'var(--blue-bright)' }}>→</span> {r}
-                  </div>
-                ))}
+              <div style={{ display: 'flex', gap: '2rem', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'space-between' }}>
+                <div style={{ display: 'flex', gap: '2rem', flexWrap: 'wrap' }}>
+                  {s.results.map((r) => (
+                    <div key={r} style={{
+                      fontFamily: 'DM Mono, monospace',
+                      fontSize: '0.62rem',
+                      letterSpacing: '0.1em',
+                      textTransform: 'uppercase',
+                      color: 'rgba(47,111,181,0.6)',
+                      display: 'flex',
+                      alignItems: 'center',
+                      gap: '0.5rem',
+                    }}>
+                      <span style={{ color: 'var(--blue-bright)' }}>→</span> {r}
+                    </div>
+                  ))}
+                </div>
+                {'demoLink' in s && s.demoLink && (
+                  <Link
+                    to={s.demoLink}
+                    style={{
+                      fontFamily: 'DM Mono, monospace',
+                      fontSize: '0.68rem',
+                      letterSpacing: '0.08em',
+                      textTransform: 'uppercase',
+                      color: 'var(--navy)',
+                      border: '1px solid var(--navy)',
+                      padding: '0.65rem 1.1rem',
+                      textDecoration: 'none',
+                      whiteSpace: 'nowrap',
+                      flexShrink: 0,
+                    }}
+                  >
+                    Voir une démo →
+                  </Link>
+                )}
               </div>
             </div>
           </motion.div>
