@@ -299,22 +299,6 @@ html.lenis { height: auto; }
   -webkit-text-stroke: 1px rgba(47,111,181,0.6);
 }
 
-/* ── Hamburger ── */
-.hamburger {
-  display: none; flex-direction: column; gap: 5px;
-  background: none; border: none; cursor: none;
-  padding: 0.5rem; z-index: 110; position: relative;
-}
-.hamburger span {
-  display: block; width: 24px; height: 1.5px;
-  background: currentColor;
-  transition: transform 0.3s, opacity 0.3s;
-  transform-origin: center;
-}
-.hamburger.open span:nth-child(1) { transform: translateY(6.5px) rotate(45deg); }
-.hamburger.open span:nth-child(2) { opacity: 0; transform: scaleX(0); }
-.hamburger.open span:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); }
-
 /* ── Client logos row ── */
 .clients-row {
   display: flex; align-items: center; flex-wrap: wrap;
@@ -344,8 +328,13 @@ html.lenis { height: auto; }
   }
   body { font-size: 15px; cursor: auto; }
   * { cursor: auto !important; }
-  .hamburger { display: flex; }
+  /* La barre de navigation mobile fixe en bas remplace le hamburger comme
+     point d'entrée principal — la nav du haut ne garde que le logo. */
   .desktop-nav { display: none !important; }
+  .mobile-tab-bar { display: flex !important; }
+  /* Espace pour ne pas laisser la barre fixe recouvrir le bas de chaque page */
+  .grain { padding-bottom: 64px; }
+  .back-to-top-btn { bottom: calc(64px + 1.25rem) !important; }
   .section-inner { padding: 0; }
   /* References header : 2 colonnes → 1 */
   .refs-header { grid-template-columns: 1fr !important; gap: 2rem !important; margin-bottom: 3rem !important; }
@@ -366,6 +355,25 @@ html.lenis { height: auto; }
   .engagement-grid { grid-template-columns: 1fr 1fr !important; }
   /* Footer : 4 colonnes → 2 (bug de débordement horizontal — jamais eu de repli mobile) */
   .footer-grid { grid-template-columns: 1fr 1fr !important; gap: 2rem !important; }
+  /* Impact (Références) : header 2 col → 1, 4 stats → 2, quote+certs 2 col → 1 —
+     aucun de ces 3 grids n'avait de repli mobile (débordement horizontal constaté) */
+  .impact-header-grid { grid-template-columns: 1fr !important; gap: 2rem !important; }
+  .impact-metrics-grid { grid-template-columns: 1fr 1fr !important; }
+  .impact-metrics-grid > div { border-right: none !important; border-bottom: 1px solid rgba(27,53,84,0.1); }
+  .impact-quote-grid { grid-template-columns: 1fr !important; gap: 2.5rem !important; }
+  /* DSC (Direction SC temps partagé) : mêmes bugs — aucun repli mobile */
+  .dsc-header-grid { grid-template-columns: 1fr !important; gap: 2rem !important; }
+  .dsc-phases-grid { grid-template-columns: 1fr !important; }
+  .dsc-phases-grid > div { border-right: none !important; border-bottom: 1px solid rgba(27,53,84,0.08); }
+  .dsc-mandats-grid { grid-template-columns: 1fr !important; max-width: 100% !important; }
+  /* Tableau comparatif CDI vs Mandat : garde ses 3 colonnes mais devient scrollable
+     horizontalement plutôt que de déborder de la page */
+  .dsc-compare-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .dsc-compare-grid { min-width: 560px; }
+  /* Profil (À propos) : titre + liste "Approche/Certification/Zone d'action/
+     Transmission" 2 colonnes → 1 (débordement constaté, la liste de credentials
+     avait besoin de bien plus que la moitié de l'écran) */
+  .profil-header-grid { grid-template-columns: 1fr !important; gap: 2.5rem !important; }
 }
 @media (max-width: 640px) {
   :root {
@@ -391,6 +399,21 @@ html.lenis { height: auto; }
   .team-cards-grid { grid-template-columns: 1fr !important; }
   .engagement-grid { grid-template-columns: 1fr !important; }
   .footer-grid { grid-template-columns: 1fr !important; gap: 2.5rem !important; }
+  /* Pourquoi — Méthode 5 étapes : le scroll-jack pinné GSAP fuyait hors de
+     son conteneur en dessous de 640px (débordement horizontal sur toute la
+     page). Le JS désactive le pin sur ce breakpoint ; ici on bascule la
+     piste de cartes en scroll horizontal natif, contenu par overflow-x. */
+  .method-outer { height: auto !important; padding: 4rem 1.25rem !important; }
+  .method-track-wrap { overflow-x: auto !important; overflow-y: hidden !important; -webkit-overflow-scrolling: touch; padding-bottom: 0.5rem; }
+  /* Pourquoi — 3 pilliers : grille 80px/titre/description à 3 colonnes,
+     jamais eu de repli mobile (contributeur principal du débordement horizontal
+     mesuré sur /services, plus important que la section scroll-jack ci-dessus) */
+  .pilliers-grid { grid-template-columns: 1fr !important; gap: 1rem !important; }
+  /* Systemes (Services) : header 2 colonnes → 1 (même bug récurrent : jamais eu de repli mobile) */
+  .systemes-header-grid { grid-template-columns: 1fr !important; gap: 2rem !important; margin-bottom: 3rem !important; }
+  /* Systemes : ligne accordéon WMS/TMS/APS — 64px + 3×2.5rem de gap ne laissait que
+     ~150px pour le nom complet + le bouton +, débordement mesuré */
+  .system-row-grid { grid-template-columns: 28px auto 1fr auto !important; gap: 0.6rem !important; }
 }
 
 /* ── FormationRL responsive grids ── */

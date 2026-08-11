@@ -1,22 +1,214 @@
-import { useEffect, useState, useCallback } from 'react'
+import { useEffect, useRef, useState, useCallback } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Link, useLocation } from 'react-router-dom'
+import {
+  IconRuler2,
+  IconCalculator,
+  IconGauge,
+  IconBuildingWarehouse,
+  IconTruck,
+  IconChartLine,
+  IconChevronDown,
+} from '@tabler/icons-react'
 import LogoSVG from './LogoSVG'
+import { useMobileMenu } from '../contexts/MobileMenuContext'
 
-const NAV_LINKS = [
-  { label: 'Services', href: '/services' },
-  { label: 'Références', href: '/references' },
-  { label: 'Formation', href: '/formation' },
-  { label: 'À propos', href: '/a-propos' },
-  { label: 'Blog', href: '/blog' },
+interface SimpleItem {
+  label: string
+  href: string
+  disabled?: boolean
+}
+
+const SERVICES_ITEMS: SimpleItem[] = [
+  { label: 'Diagnostic & Conseil', href: '/services#conseil' },
+  { label: 'DDMRP', href: '/services#conseil' },
+  { label: 'Systèmes SI & IA', href: '/services#systemes' },
+  { label: 'FAQ', href: '/faq' },
 ]
+
+const TOOLS_ITEMS = [
+  { label: 'Dimensionnement entrepôt', href: '/outils/dimensionnement-entrepot', icon: IconRuler2 },
+  { label: 'Coût global entrepôt', href: '/outils/cout-global-entrepot', icon: IconCalculator },
+  { label: "Productivité engins & main d'œuvre", href: '/outils/productivite-engins-main-doeuvre', icon: IconGauge },
+  { label: 'Démo WMS', href: '/demo/wms', icon: IconBuildingWarehouse },
+  { label: 'Démo TMS', href: '/demo/tms', icon: IconTruck },
+  { label: 'Démo APS', href: '/demo/aps', icon: IconChartLine },
+]
+
+const RESOURCES_ITEMS: SimpleItem[] = [
+  { label: 'Blog', href: '/blog' },
+  { label: 'Formation', href: '/formation' },
+]
+
+const CABINET_ITEMS: SimpleItem[] = [
+  { label: 'À propos', href: '/a-propos' },
+  { label: 'Références', href: '/references' },
+  { label: 'Carrière', href: '/carriere', disabled: true },
+]
+
+type GroupId = 'services' | 'outils' | 'ressources' | 'cabinet'
+
+const GROUPS: Array<{ id: GroupId; label: string }> = [
+  { id: 'services', label: 'Services' },
+  { id: 'outils', label: 'Outils gratuits' },
+  { id: 'ressources', label: 'Ressources' },
+  { id: 'cabinet', label: 'Cabinet' },
+]
+
+function SimpleList({ items, onNavigate }: { items: SimpleItem[]; onNavigate: () => void }) {
+  return (
+    <div style={{ display: 'flex', flexDirection: 'column', minWidth: 220 }}>
+      {items.map((item) =>
+        item.disabled ? (
+          <span
+            key={item.label}
+            style={{
+              padding: '0.75rem 1.25rem',
+              fontSize: '0.85rem',
+              color: 'rgba(27,53,84,0.32)',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'space-between',
+              gap: '0.75rem',
+            }}
+          >
+            {item.label}
+            <span style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.08em', textTransform: 'uppercase', color: 'rgba(27,53,84,0.28)' }}>
+              Bientôt
+            </span>
+          </span>
+        ) : (
+          <Link
+            key={item.label}
+            to={item.href}
+            onClick={onNavigate}
+            style={{
+              padding: '0.75rem 1.25rem',
+              fontSize: '0.85rem',
+              color: 'var(--navy)',
+              textDecoration: 'none',
+              transition: 'background 0.15s, color 0.15s',
+            }}
+            onMouseEnter={(e) => { (e.currentTarget as HTMLElement).style.background = 'rgba(47,111,181,0.06)'; (e.currentTarget as HTMLElement).style.color = 'var(--blue-bright)' }}
+            onMouseLeave={(e) => { (e.currentTarget as HTMLElement).style.background = 'transparent'; (e.currentTarget as HTMLElement).style.color = 'var(--navy)' }}
+          >
+            {item.label}
+          </Link>
+        )
+      )}
+    </div>
+  )
+}
+
+function ToolsGrid({ onNavigate }: { onNavigate: () => void }) {
+  return (
+    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '0.5rem', minWidth: 480, padding: '0.5rem' }}>
+      {TOOLS_ITEMS.map(({ label, href, icon: Icon }) => (
+        <Link
+          key={label}
+          to={href}
+          onClick={onNavigate}
+          style={{
+            display: 'flex',
+            flexDirection: 'column',
+            gap: '0.75rem',
+            padding: '1.25rem 1rem',
+            textDecoration: 'none',
+            border: '1px solid rgba(27,53,84,0.08)',
+            transition: 'background 0.15s, border-color 0.15s',
+          }}
+          onMouseEnter={(e) => {
+            const el = e.currentTarget as HTMLElement
+            el.style.background = 'rgba(47,111,181,0.06)'
+            el.style.borderColor = 'rgba(47,111,181,0.3)'
+          }}
+          onMouseLeave={(e) => {
+            const el = e.currentTarget as HTMLElement
+            el.style.background = 'transparent'
+            el.style.borderColor = 'rgba(27,53,84,0.08)'
+          }}
+        >
+          <Icon size={22} stroke={1.6} color="var(--blue-bright)" />
+          <span style={{ fontSize: '0.78rem', color: 'var(--navy)', lineHeight: 1.35 }}>{label}</span>
+        </Link>
+      ))}
+    </div>
+  )
+}
+
+function NavGroup({ id, label, active, openId, setOpenId }: { id: GroupId; label: string; active: boolean; openId: GroupId | null; setOpenId: (id: GroupId | null) => void }) {
+  const isOpen = openId === id
+  const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
+
+  const cancelClose = () => {
+    if (closeTimer.current) clearTimeout(closeTimer.current)
+  }
+  const scheduleClose = () => {
+    cancelClose()
+    closeTimer.current = setTimeout(() => setOpenId(null), 160)
+  }
+
+  return (
+    <li
+      style={{ position: 'relative' }}
+      onMouseEnter={() => { cancelClose(); setOpenId(id) }}
+      onMouseLeave={scheduleClose}
+    >
+      <button
+        onClick={() => setOpenId(isOpen ? null : id)}
+        style={{
+          display: 'inline-flex',
+          alignItems: 'center',
+          gap: '0.35rem',
+          fontSize: '0.85rem',
+          fontWeight: 500,
+          letterSpacing: '0.05em',
+          textTransform: 'uppercase',
+          color: active || isOpen ? 'var(--blue-bright)' : 'var(--mid)',
+          background: 'none',
+          border: 'none',
+          padding: '4px 0',
+          cursor: 'pointer',
+          transition: 'color 0.2s',
+        }}
+      >
+        {label}
+        <IconChevronDown size={14} stroke={2} style={{ transform: isOpen ? 'rotate(180deg)' : 'none', transition: 'transform 0.2s' }} />
+      </button>
+
+      <AnimatePresence>
+        {isOpen && (
+          <motion.div
+            initial={{ opacity: 0, y: 8 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: 8 }}
+            transition={{ duration: 0.18, ease: [0.16, 1, 0.3, 1] }}
+            style={{
+              position: 'absolute',
+              top: 'calc(100% + 1.25rem)',
+              left: 0,
+              background: '#ffffff',
+              border: '1px solid rgba(27,53,84,0.1)',
+              boxShadow: '0 20px 50px rgba(10,20,32,0.14)',
+              zIndex: 120,
+            }}
+          >
+            {id === 'outils' ? <ToolsGrid onNavigate={() => setOpenId(null)} /> : <SimpleList items={id === 'services' ? SERVICES_ITEMS : id === 'ressources' ? RESOURCES_ITEMS : CABINET_ITEMS} onNavigate={() => setOpenId(null)} />}
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </li>
+  )
+}
 
 export default function Nav() {
   const { pathname } = useLocation()
+  const { menuOpen, setMenuOpen } = useMobileMenu()
 
   const [scrolled, setScrolled] = useState(false)
-  const [menuOpen, setMenuOpen] = useState(false)
   const [progress, setProgress] = useState(0)
+  const [openGroup, setOpenGroup] = useState<GroupId | null>(null)
+  const navRef = useRef<HTMLElement>(null)
 
   const handleScroll = useCallback(() => {
     const y = window.scrollY
@@ -36,14 +228,28 @@ export default function Nav() {
     return () => { document.body.style.overflow = '' }
   }, [menuOpen])
 
-  const textCol = 'var(--mid)'
-  const textHover = 'var(--ink)'
+  useEffect(() => {
+    function onClickOutside(e: MouseEvent) {
+      if (navRef.current && !navRef.current.contains(e.target as Node)) setOpenGroup(null)
+    }
+    document.addEventListener('mousedown', onClickOutside)
+    return () => document.removeEventListener('mousedown', onClickOutside)
+  }, [])
+
+  const groupActive = (id: GroupId) => {
+    if (id === 'services') return pathname === '/services' || pathname === '/faq'
+    if (id === 'outils') return pathname.startsWith('/outils') || pathname.startsWith('/demo')
+    if (id === 'ressources') return pathname === '/blog' || pathname === '/formation'
+    if (id === 'cabinet') return pathname === '/a-propos' || pathname === '/references'
+    return false
+  }
 
   return (
     <>
       <div className="scroll-progress" style={{ width: `${progress}%` }} />
 
       <motion.nav
+        ref={navRef}
         initial={{ y: -80, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
@@ -79,47 +285,11 @@ export default function Nav() {
           <LogoSVG inkColor="#1b3554" subColor="#6b6560" height={32} />
         </Link>
 
-        {/* Desktop nav */}
-        <ul className="desktop-nav" style={{ display: 'flex', gap: '2.5rem', listStyle: 'none' }}>
-          {NAV_LINKS.map(({ label, href }) => {
-            const active = pathname === href
-            return (
-              <li key={href} style={{ position: 'relative' }}>
-                <Link
-                  to={href}
-                  style={{
-                    fontSize: '0.85rem',
-                    fontWeight: 500,
-                    letterSpacing: '0.05em',
-                    textTransform: 'uppercase',
-                    color: active ? 'var(--blue-bright)' : textCol,
-                    textDecoration: 'none',
-                    transition: 'color 0.2s',
-                    paddingBottom: '4px',
-                  }}
-                  onMouseEnter={e => ((e.currentTarget as HTMLElement).style.color = active ? 'var(--blue-bright)' : textHover)}
-                  onMouseLeave={e => ((e.currentTarget as HTMLElement).style.color = active ? 'var(--blue-bright)' : textCol)}
-                >
-                  {label}
-                </Link>
-                {active && (
-                  <motion.div
-                    layoutId="nav-underline"
-                    style={{
-                      position: 'absolute',
-                      bottom: -2,
-                      left: 0,
-                      right: 0,
-                      height: 2,
-                      background: 'var(--blue-bright)',
-                      borderRadius: 0,
-                    }}
-                    transition={{ type: 'spring', stiffness: 380, damping: 30 }}
-                  />
-                )}
-              </li>
-            )
-          })}
+        {/* Desktop nav — groupes déroulants */}
+        <ul className="desktop-nav" style={{ display: 'flex', alignItems: 'center', gap: '2.25rem', listStyle: 'none' }}>
+          {GROUPS.map(({ id, label }) => (
+            <NavGroup key={id} id={id} label={label} active={groupActive(id)} openId={openGroup} setOpenId={setOpenGroup} />
+          ))}
           <li>
             <Link
               to="/contact"
@@ -146,23 +316,14 @@ export default function Nav() {
                 el.style.color = 'var(--paper)'
               }}
             >
-              Prendre RDV
+              Contact
             </Link>
           </li>
         </ul>
-
-        {/* Hamburger */}
-        <button
-          className={`hamburger${menuOpen ? ' open' : ''}`}
-          onClick={() => setMenuOpen(v => !v)}
-          aria-label={menuOpen ? 'Fermer le menu' : 'Ouvrir le menu'}
-          style={{ color: 'var(--ink)' }}
-        >
-          <span /><span /><span />
-        </button>
       </motion.nav>
 
-      {/* Mobile overlay */}
+      {/* Mobile overlay — groupes Ressources / Cabinet / Contact / FAQ (Services/Outils/Formation
+          ont leur propre accès direct depuis la barre de navigation mobile) */}
       <AnimatePresence>
         {menuOpen && (
           <motion.div
@@ -174,11 +335,12 @@ export default function Nav() {
             style={{
               position: 'fixed', inset: 0,
               background: 'var(--paper)',
-              zIndex: 95,
+              zIndex: 190,
               display: 'flex',
               flexDirection: 'column',
               justifyContent: 'center',
               padding: '2rem 3rem',
+              overflowY: 'auto',
             }}
           >
             <div
@@ -188,36 +350,48 @@ export default function Nav() {
                 background: 'linear-gradient(90deg, var(--blue-bright), transparent)',
               }}
             />
-            <nav style={{ marginBottom: '3rem' }}>
-              {NAV_LINKS.map(({ label, href }, i) => (
-                <motion.div
-                  key={href}
-                  initial={{ opacity: 0, x: 32 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.4, delay: 0.1 + i * 0.07 }}
-                >
-                  <Link
-                    to={href}
-                    className="mobile-nav-item"
-                    onClick={() => setMenuOpen(false)}
-                    style={{ display: 'block', textDecoration: 'none' }}
-                  >
-                    {label}
-                  </Link>
-                </motion.div>
-              ))}
-              <motion.div
-                initial={{ opacity: 0, x: 32 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.4, delay: 0.1 + NAV_LINKS.length * 0.07 }}
+            <nav style={{ marginBottom: '2.5rem' }}>
+              <Link
+                to="/contact"
+                className="mobile-nav-item"
+                onClick={() => setMenuOpen(false)}
+                style={{ display: 'block', textDecoration: 'none', color: 'var(--blue-bright)', marginBottom: '2.5rem' }}
               >
-                <Link
-                  to="/contact"
-                  className="mobile-nav-item"
-                  onClick={() => setMenuOpen(false)}
-                  style={{ display: 'block', textDecoration: 'none', color: 'var(--blue-bright)' }}
-                >
-                  Prendre RDV →
+                Contact →
+              </Link>
+
+              {[
+                { title: 'Ressources', items: RESOURCES_ITEMS },
+                { title: 'Cabinet', items: CABINET_ITEMS },
+              ].map((group, gi) => (
+                <div key={group.title} style={{ marginBottom: '2rem' }}>
+                  <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.16em', textTransform: 'uppercase', color: 'rgba(47,111,181,0.55)', marginBottom: '0.75rem' }}>
+                    {group.title}
+                  </div>
+                  {group.items.map(({ label, href, disabled }, i) => (
+                    <motion.div
+                      key={label}
+                      initial={{ opacity: 0, x: 32 }}
+                      animate={{ opacity: 1, x: 0 }}
+                      transition={{ duration: 0.4, delay: 0.1 + (gi * group.items.length + i) * 0.06 }}
+                    >
+                      {disabled ? (
+                        <span className="mobile-nav-item" style={{ display: 'block', opacity: 0.35 }}>
+                          {label} <span style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem' }}>· bientôt</span>
+                        </span>
+                      ) : (
+                        <Link to={href} className="mobile-nav-item" onClick={() => setMenuOpen(false)} style={{ display: 'block', textDecoration: 'none' }}>
+                          {label}
+                        </Link>
+                      )}
+                    </motion.div>
+                  ))}
+                </div>
+              ))}
+
+              <motion.div initial={{ opacity: 0, x: 32 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.4, delay: 0.4 }}>
+                <Link to="/faq" className="mobile-nav-item" onClick={() => setMenuOpen(false)} style={{ display: 'block', textDecoration: 'none' }}>
+                  FAQ
                 </Link>
               </motion.div>
             </nav>

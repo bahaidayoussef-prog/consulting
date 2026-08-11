@@ -20,6 +20,7 @@ export default function BackToTop() {
           transition={{ duration: 0.3 }}
           onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
           aria-label="Retour en haut"
+          className="back-to-top-btn"
           style={{
             position: 'fixed',
             bottom: '2.5rem',

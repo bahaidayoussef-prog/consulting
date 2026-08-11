@@ -188,7 +188,7 @@ export default function Footer() {
                 { tag: 'WA', label: 'WhatsApp', href: 'https://wa.me/212663449200' },
                 { tag: 'Lieu', label: 'Casablanca, Maroc', href: undefined },
               ].map(({ tag, label, href }) => (
-                <div key={label} style={{ display: 'flex', alignItems: 'baseline', gap: '0.75rem' }}>
+                <div key={label} style={{ display: 'flex', alignItems: 'baseline', gap: '0.75rem', minWidth: 0 }}>
                   <span style={{
                     fontFamily: 'DM Mono, monospace',
                     fontSize: '0.52rem',
@@ -208,6 +208,8 @@ export default function Footer() {
                         color: 'var(--mid)',
                         textDecoration: 'none',
                         transition: 'color 0.2s',
+                        overflowWrap: 'break-word',
+                        minWidth: 0,
                       }}
                       onMouseEnter={(e) =>
                         ((e.target as HTMLElement).style.color = 'var(--blue-bright)')

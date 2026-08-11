@@ -617,7 +617,7 @@ const PROGRAMMES = [
 ]
 
 /* ─── Data — FAQ ────────────────────────────────────────────── */
-const FAQ = [
+export const FAQ = [
   {
     q: 'Comment choisir le bon programme parmi les 22 ?',
     a: "Selon votre objectif : une compétence terrain immédiate (formations inter, 1 à 2 jours, ex. Responsable Logistique, DDMRP), une montée en compétence d'équipe sur mesure (intra-entreprise adapté à votre secteur), ou un accompagnement individuel dans la durée (coaching DSC). Contactez-nous, nous orientons gratuitement selon votre contexte.",

@@ -81,7 +81,7 @@ export default function Impact() {
             03 / Preuves terrain
           </div>
 
-          <div style={{
+          <div className="impact-header-grid" style={{
             display: 'grid',
             gridTemplateColumns: '1fr 1fr',
             gap: '4rem',
@@ -128,7 +128,7 @@ export default function Impact() {
         </div>
 
         {/* Metrics grid */}
-        <div style={{
+        <div className="impact-metrics-grid" style={{
           display: 'grid',
           gridTemplateColumns: 'repeat(4, 1fr)',
           borderTop: '1px solid rgba(27,53,84,0.1)',
@@ -226,7 +226,7 @@ export default function Impact() {
         </motion.div>
 
         {/* Quote + certs row */}
-        <div style={{
+        <div className="impact-quote-grid" style={{
           display: 'grid',
           gridTemplateColumns: '1fr 2fr',
           gap: '5rem',

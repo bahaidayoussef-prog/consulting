@@ -71,6 +71,7 @@ function SystemRow({ s, index }: { s: typeof systems[0]; index: number }) {
     <div style={{ borderBottom: '1px solid rgba(27,53,84,0.1)' }}>
       <button
         onClick={() => setOpen((v) => !v)}
+        className="system-row-grid"
         style={{
           width: '100%',
           background: 'none',
@@ -265,7 +266,7 @@ export default function Systemes() {
   return (
     <section id="systemes" style={{ background: 'var(--dark)', padding: 'var(--sp)' }}>
       <div className="section-inner">
-        <div style={{
+        <div className="systemes-header-grid" style={{
           display: 'grid',
           gridTemplateColumns: '1fr 1fr',
           gap: '4rem',

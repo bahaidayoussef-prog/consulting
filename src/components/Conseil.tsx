@@ -261,7 +261,7 @@ function ServiceRow({ s, index }: { s: typeof services[0]; index: number }) {
   )
 }
 
-const servicesFAQ = [
+export const servicesFAQ = [
   {
     q: 'Combien coûte un diagnostic Supply Chain?',
     a: 'Entre 35 000 et 130 000 MAD HT selon la complexité. Diagnostic Flash (35k–55k, 2 sem) pour audit rapide. Diagnostic Stratégique (80k–130k, 4–6 sem) pour analyse complète. Livrable: rapport synthèse + leviers chiffrés + session restitution.',

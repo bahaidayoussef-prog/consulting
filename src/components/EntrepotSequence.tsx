@@ -181,9 +181,9 @@ export default function EntrepotSequence() {
     <section
       ref={sectionRef}
       id="entrepot-sequence"
-      style={{ position: 'relative', height: `${activeSteps.length * 100}vh` }}
+      style={{ position: 'relative', height: `${activeSteps.length * 100}svh` }}
     >
-      <div style={{ position: 'sticky', top: 0, height: '100vh', overflow: 'hidden' }}>
+      <div style={{ position: 'sticky', top: 0, height: '100svh', overflow: 'hidden' }}>
         {activeSteps.map((step, i) => (
           <img
             key={step.img}

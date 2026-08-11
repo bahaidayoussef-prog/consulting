@@ -119,7 +119,7 @@ export default function DSC() {
             08 / Direction SC à Temps Partagé
           </motion.div>
 
-          <div style={{
+          <div className="dsc-header-grid" style={{
             display: 'grid',
             gridTemplateColumns: '1fr 1fr',
             gap: '4rem',
@@ -185,7 +185,7 @@ export default function DSC() {
       {/* ── TIMELINE — 3 phases ── */}
       <div style={{ background: 'var(--paper)' }}>
         <div className="section-inner" style={{ padding: '0 var(--sp-x)' }}>
-          <div style={{
+          <div className="dsc-phases-grid" style={{
             display: 'grid',
             gridTemplateColumns: 'repeat(3, 1fr)',
           }}>
@@ -301,7 +301,7 @@ export default function DSC() {
       {/* ── MANDATS — 2 cards ── */}
       <div style={{ background: 'var(--paper)', padding: 'var(--sp-y-sm) var(--sp-x)' }}>
         <div className="section-inner">
-          <div style={{
+          <div className="dsc-mandats-grid" style={{
             display: 'grid',
             gridTemplateColumns: 'repeat(2, 1fr)',
             gap: '2rem',
@@ -551,8 +551,9 @@ export default function DSC() {
               Recruter un DSC en CDI vs Mandat Essor
             </div>
 
+            <div className="dsc-compare-scroll">
             {/* Table header */}
-            <div style={{
+            <div className="dsc-compare-grid" style={{
               display: 'grid',
               gridTemplateColumns: '1fr 1fr 1fr',
               paddingBottom: '0.75rem',
@@ -588,6 +589,7 @@ export default function DSC() {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: i * 0.07 }}
+                className="dsc-compare-grid"
                 style={{
                   display: 'grid',
                   gridTemplateColumns: '1fr 1fr 1fr',
@@ -628,6 +630,7 @@ export default function DSC() {
                 </div>
               </motion.div>
             ))}
+            </div>
           </motion.div>
         </div>
       </div>

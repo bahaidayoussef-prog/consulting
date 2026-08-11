@@ -76,6 +76,11 @@ export default function Pourquoi() {
   const trackRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
+    // Le scroll-jack horizontal pinné est un pattern desktop — sous 640px il
+    // fuit hors de son conteneur (débordement horizontal constaté sur toute
+    // la page) et l'UX de scroll-jack au toucher est de toute façon mauvaise.
+    // Le CSS mobile (index.css) bascule la piste en scroll horizontal natif à la place.
+    if (window.innerWidth < 640) return
     const ctx = gsap.context(() => {
       const section = methodRef.current
       const track = trackRef.current
@@ -148,6 +153,7 @@ export default function Pourquoi() {
             {pilliers.map((p, i) => (
               <FadeUp key={p.num} delay={i * 0.1}>
                 <div
+                  className="pilliers-grid"
                   style={{
                     display: 'grid',
                     gridTemplateColumns: '80px 1fr 1.8fr',
@@ -227,8 +233,9 @@ export default function Pourquoi() {
       {/* ── Méthode 5 étapes — horizontal scroll ── */}
       <div ref={methodRef} style={{ background: 'var(--navy)' }}>
         <div
+          className="method-outer"
           style={{
-            height: '100vh',
+            height: '100svh',
             display: 'flex',
             flexDirection: 'column',
             justifyContent: 'center',
@@ -265,8 +272,8 @@ export default function Pourquoi() {
             </h2>
           </div>
 
-          <div style={{ overflow: 'visible', flexShrink: 0 }}>
-            <div ref={trackRef} style={{ display: 'flex', gap: '1px', width: 'max-content' }}>
+          <div className="method-track-wrap" style={{ overflow: 'visible', flexShrink: 0 }}>
+            <div ref={trackRef} className="method-track" style={{ display: 'flex', gap: '1px', width: 'max-content' }}>
               {steps.map((step, idx) => (
                 <div
                   key={step.num}

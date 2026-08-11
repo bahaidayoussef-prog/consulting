@@ -255,10 +255,11 @@ export default function Hero() {
                 style={{
                   display: 'block',
                   fontFamily: 'Manrope, sans-serif',
-                  fontSize: 'clamp(4rem, 10.5vw, 14rem)',
+                  fontSize: 'clamp(2.4rem, 10.5vw, 14rem)',
                   fontWeight: line.italic ? 400 : 900,
                   fontStyle: line.italic ? 'italic' : 'normal',
                   letterSpacing: '-0.03em',
+                  overflowWrap: 'break-word',
                   color: line.italic ? 'var(--blue-bright)' : 'var(--navy)',
                 }}
               >
@@ -299,10 +300,10 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1], delay: 1.1 }}
           >
-            <Link to="/contact" className="btn-primary" style={{ whiteSpace: 'nowrap' }}>
+            <Link to="/contact" className="btn-primary" style={{ whiteSpace: 'normal', textAlign: 'center', maxWidth: '100%' }}>
               Réserver un échange gratuit →
             </Link>
-            <Link to="/services" className="btn-ghost" style={{ whiteSpace: 'nowrap' }}>
+            <Link to="/services" className="btn-ghost" style={{ whiteSpace: 'normal', textAlign: 'center', maxWidth: '100%' }}>
               Nos offres
             </Link>
           </motion.div>

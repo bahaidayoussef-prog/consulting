@@ -7,6 +7,8 @@ import CustomCursor from './CustomCursor'
 import Nav from './Nav'
 import Footer from './Footer'
 import BackToTop from './BackToTop'
+import MobileTabBar from './MobileTabBar'
+import { MobileMenuProvider } from '../contexts/MobileMenuContext'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -45,13 +47,16 @@ export function Statement({ text, bg = 'var(--ink)', accent = 'var(--blue-bright
 export default function Layout({ children }: { children: ReactNode }) {
   useLenis()
   return (
-    <div className="grain">
-      <ScrollToTop />
-      <CustomCursor />
-      <Nav />
-      {children}
-      <Footer />
-      <BackToTop />
-    </div>
+    <MobileMenuProvider>
+      <div className="grain">
+        <ScrollToTop />
+        <CustomCursor />
+        <Nav />
+        {children}
+        <Footer />
+        <BackToTop />
+        <MobileTabBar />
+      </div>
+    </MobileMenuProvider>
   )
 }

@@ -228,7 +228,7 @@ export default function Profil() {
         <div className="section-inner">
 
           {/* Header */}
-          <div style={{
+          <div className="profil-header-grid" style={{
             display: 'grid',
             gridTemplateColumns: '1fr 1fr',
             gap: '4rem',
@@ -381,6 +381,7 @@ export default function Profil() {
             style={{
               marginTop: '4rem',
               display: 'flex',
+              flexWrap: 'wrap',
               gap: '1rem',
               alignItems: 'center',
             }}
@@ -400,6 +401,8 @@ export default function Profil() {
                 borderBottom: '1px solid var(--border)',
                 paddingBottom: '2px',
                 transition: 'color 0.2s',
+                overflowWrap: 'break-word',
+                minWidth: 0,
               }}
             >
               essor.consulting.maroc@gmail.com
