@@ -6,6 +6,7 @@ export default function Footer() {
     { label: 'Formation', href: '/formation' },
     { label: 'DSC à temps partagé', href: '/references#dsc' },
     { label: 'À propos', href: '/a-propos' },
+    { label: 'Carrière', href: '/carriere' },
   ]
 
   const engagements = [

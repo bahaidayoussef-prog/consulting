@@ -374,6 +374,8 @@ html.lenis { height: auto; }
      Transmission" 2 colonnes → 1 (débordement constaté, la liste de credentials
      avait besoin de bien plus que la moitié de l'écran) */
   .profil-header-grid { grid-template-columns: 1fr !important; gap: 2.5rem !important; }
+  /* Carrière : intro 2 colonnes → 1 */
+  .carriere-intro-grid { grid-template-columns: 1fr !important; gap: 2rem !important; }
 }
 @media (max-width: 640px) {
   :root {

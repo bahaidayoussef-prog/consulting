@@ -16,6 +16,7 @@ import FaqPage from './pages/FaqPage'
 import DemoWmsPage from './pages/DemoWmsPage'
 import DemoTmsPage from './pages/DemoTmsPage'
 import DemoApsPage from './pages/DemoApsPage'
+import CarrierePage from './pages/CarrierePage'
 
 const pageVariants = {
   initial: { opacity: 0, y: 20 },
@@ -56,6 +57,7 @@ function AnimatedRoutes() {
         <Route path="/demo/wms" element={<PageTransition><DemoWmsPage /></PageTransition>} />
         <Route path="/demo/tms" element={<PageTransition><DemoTmsPage /></PageTransition>} />
         <Route path="/demo/aps" element={<PageTransition><DemoApsPage /></PageTransition>} />
+        <Route path="/carriere" element={<PageTransition><CarrierePage /></PageTransition>} />
         <Route path="*" element={<PageTransition><HomePage /></PageTransition>} />
       </Routes>
     </AnimatePresence>

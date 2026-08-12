@@ -43,7 +43,7 @@ const RESOURCES_ITEMS: SimpleItem[] = [
 const CABINET_ITEMS: SimpleItem[] = [
   { label: 'À propos', href: '/a-propos' },
   { label: 'Références', href: '/references' },
-  { label: 'Carrière', href: '/carriere', disabled: true },
+  { label: 'Carrière', href: '/carriere' },
 ]
 
 type GroupId = 'services' | 'outils' | 'ressources' | 'cabinet'
