@@ -52,9 +52,12 @@ export default function Footer() {
                 textDecoration: 'none',
                 display: 'block',
                 marginBottom: '1rem',
+                transition: 'opacity 0.2s',
               }}
+              onMouseEnter={(e) => ((e.currentTarget as HTMLElement).style.opacity = '0.7')}
+              onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.opacity = '1')}
             >
-              Essor <span style={{ color: 'var(--blue-bright)' }}>Consulting</span>
+              Essor Consulting
             </a>
             <p
               style={{
@@ -77,7 +80,7 @@ export default function Footer() {
                     fontSize: '0.65rem',
                     letterSpacing: '0.1em',
                     textTransform: 'uppercase',
-                    color: 'rgba(47,111,181,0.6)',
+                    color: 'rgba(27,53,84,0.55)',
                     display: 'flex',
                     alignItems: 'center',
                     gap: '0.5rem',
@@ -195,7 +198,7 @@ export default function Footer() {
                     fontSize: '0.52rem',
                     letterSpacing: '0.14em',
                     textTransform: 'uppercase',
-                    color: 'rgba(47,111,181,0.75)',
+                    color: 'rgba(27,53,84,0.5)',
                     flexShrink: 0,
                     width: 26,
                   }}>
@@ -246,7 +249,7 @@ export default function Footer() {
                   transition: 'background 0.2s',
                 }}
                 onMouseEnter={(e) =>
-                  ((e.target as HTMLElement).style.background = 'var(--blue-bright)')
+                  ((e.target as HTMLElement).style.background = 'var(--navy)')
                 }
                 onMouseLeave={(e) =>
                   ((e.target as HTMLElement).style.background = 'var(--blue-bright)')

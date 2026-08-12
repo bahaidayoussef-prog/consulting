@@ -343,13 +343,6 @@ export default function Nav() {
               overflowY: 'auto',
             }}
           >
-            <div
-              style={{
-                position: 'absolute', top: 0, left: 0, right: 0,
-                height: 2,
-                background: 'linear-gradient(90deg, var(--blue-bright), transparent)',
-              }}
-            />
             <nav style={{ marginBottom: '2.5rem' }}>
               <Link
                 to="/contact"
@@ -365,7 +358,7 @@ export default function Nav() {
                 { title: 'Cabinet', items: CABINET_ITEMS },
               ].map((group, gi) => (
                 <div key={group.title} style={{ marginBottom: '2rem' }}>
-                  <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.16em', textTransform: 'uppercase', color: 'rgba(47,111,181,0.55)', marginBottom: '0.75rem' }}>
+                  <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.16em', textTransform: 'uppercase', color: 'rgba(27,53,84,0.4)', marginBottom: '0.75rem' }}>
                     {group.title}
                   </div>
                   {group.items.map(({ label, href, disabled }, i) => (
@@ -404,7 +397,7 @@ export default function Nav() {
                 fontSize: '0.65rem',
                 letterSpacing: '0.12em',
                 textTransform: 'uppercase',
-                color: 'rgba(47,111,181,0.4)',
+                color: 'rgba(27,53,84,0.35)',
                 display: 'flex', gap: '1.5rem', flexWrap: 'wrap',
               }}
             >

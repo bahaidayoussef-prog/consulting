@@ -18,9 +18,9 @@ function ScrollToTop() {
   return null
 }
 
-export function Statement({ text, bg = 'var(--ink)', accent = 'var(--blue-bright)' }: { text: string; bg?: string; accent?: string }) {
+export function Statement({ text, bg = 'var(--ink)', accent = 'var(--navy)' }: { text: string; bg?: string; accent?: string }) {
   return (
-    <div style={{ background: bg, padding: '5rem 4rem', overflow: 'hidden' }}>
+    <div style={{ background: bg, padding: 'var(--sp-y-sm) var(--sp-x)', overflow: 'hidden' }}>
       <div className="section-inner">
         <motion.div
           initial={{ opacity: 0, y: 24 }}

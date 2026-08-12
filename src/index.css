@@ -30,6 +30,7 @@
   /* Blue — accent primaire du pivot corporate clair */
   --blue: var(--navy); /* alias — canonical is --navy, kept for existing usages */
   --blue-bright: #2f6fb5;
+  --blue-bright-on-dark: #5a9ad6; /* même teinte, éclaircie pour rester lisible sur fond navy — jamais l'or comme accent de substitution */
   --blue-dim: rgba(47,111,181,0.1);
 
   /* Dark surfaces — now corporate light */
@@ -184,7 +185,25 @@ html.lenis { height: auto; }
   display: flex; align-items: flex-start; gap: 0.6rem;
   color: var(--dark-muted);
 }
-.arrow-list li::before { content: '→'; color: var(--blue-bright); flex-shrink: 0; }
+.arrow-list li::before { content: '→'; color: rgba(27,53,84,0.5); flex-shrink: 0; }
+
+/* ── Chiffre-clé canonique (patron Hero) — à reprendre partout où un KPI est affiché ── */
+.stat-value {
+  font-family: 'Manrope', sans-serif;
+  font-size: clamp(1.5rem, 2.4vw, 2.2rem);
+  font-weight: 700;
+  color: var(--navy);
+  line-height: 1;
+  letter-spacing: -0.01em;
+  margin-bottom: 0.3rem;
+}
+.stat-label {
+  font-family: var(--mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--mid);
+}
 
 /* ── Badges ── */
 .badge {

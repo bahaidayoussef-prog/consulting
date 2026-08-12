@@ -26,15 +26,15 @@ export default function PageHero({
 }: PageHeroProps) {
   const words = title.split(' ')
   const isLight = bg === 'var(--paper)'
-  const accent = isLight ? 'var(--blue-bright)' : 'var(--gold)'
+  const accent = isLight ? 'var(--blue-bright)' : 'var(--blue-bright-on-dark)'
   const resolvedTextColor = textColor ?? (isLight ? 'var(--ink)' : '#f0ede8')
 
   return (
     <section
       style={{
         background: bg,
-        paddingTop: 'calc(88px + 5rem)',
-        paddingBottom: '6rem',
+        paddingTop: 'calc(88px + var(--sp-y-sm))',
+        paddingBottom: 'var(--sp-y-sm)',
         paddingLeft: 'var(--sp-x)',
         paddingRight: 'var(--sp-x)',
         overflow: 'hidden',
