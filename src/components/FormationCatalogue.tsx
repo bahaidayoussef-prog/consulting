@@ -614,12 +614,127 @@ const PROGRAMMES = [
     cta: EMAIL,
     color: '#1b3554',
   },
+
+  /* ── Opérationnel ─────────────────────────────────────── */
+  {
+    id: 'caces-cariste',
+    num: '23',
+    domaine: 'operationnel',
+    format: 'intra',
+    badge: 'Terrain · Opérationnel',
+    title: 'Formation préparatoire aux référentiels CACES R489',
+    subtitle: "Conduite en sécurité des chariots de manutention, sur les référentiels R489. Le Maroc ne dispose pas d'organisme testeur agréé équivalent à la France : attestation de formation interne Essor Consulting, pas de certification CACES® officielle française.",
+    duration: '3 à 5 jours',
+    hours: 'Théorie + pratique sur chariot',
+    group: "Jusqu'à 6 participants / session",
+    price: '2 500',
+    unit: 'MAD HT / participant',
+    lieu: 'Vos locaux (chariot du site) ou centre partenaire',
+    public: ['Caristes débutants ou en poste', 'Magasiniers amenés à conduire un chariot', "Nouveaux embauchés entrepôt", 'Intérimaires et saisonniers logistique'],
+    modules: [
+      'Réglementation et responsabilités du conducteur de chariot',
+      'Technologie du chariot et vérifications avant prise de poste',
+      'Catégories R489 courantes en entrepôt : 1A/1B (préparateurs), 3 (chariots frontaux ≤6t), 5 (mât rétractable)',
+      'Règles de circulation, stabilité et gestes de conduite en sécurité',
+      'Prise, transport et gerbage de charges',
+      'Mise en situation pratique et évaluation individuelle',
+    ],
+    inclus: [
+      'Support théorique remis',
+      'Évaluation pratique individuelle',
+      'Attestation de formation interne Essor Consulting (non équivalente au certificat CACES® officiel français)',
+      'Grille de suivi post-formation',
+    ],
+    cta: EMAIL,
+    color: '#1b3554',
+  },
+  {
+    id: 'preparateur-commandes',
+    num: '24',
+    domaine: 'operationnel',
+    format: 'intra',
+    badge: 'Terrain · Opérationnel',
+    title: 'Formation Préparateur de Commandes',
+    subtitle: 'Techniques de préparation, organisation entrepôt et sécurité — une équipe opérationnelle immédiatement performante.',
+    duration: '2 jours',
+    hours: 'En présentiel',
+    group: 'Sur mesure',
+    price: '20 000 – 30 000',
+    unit: 'MAD HT / groupe',
+    lieu: 'Vos locaux',
+    public: ['Préparateurs de commandes', 'Magasiniers', 'Nouveaux embauchés entrepôt', "Chefs d'équipe préparation"],
+    modules: [
+      "Organisation d'un entrepôt : adressage, zones, méthode 5S",
+      'Techniques de préparation et de picking : productivité et fiabilité',
+      'Manutention sécurisée des charges — gestes et postures',
+      'Détection des anomalies et contrôle qualité avant expédition',
+      "Initiation à l'usage d'un WMS et d'un terminal de scan",
+      'Cas pratique : préparer une commande de bout en bout sur votre site',
+    ],
+    inclus: ['Grille de productivité type', 'Cas pratique sur site', 'Support de formation', 'Attestation'],
+    cta: EMAIL,
+    color: 'var(--blue-bright)',
+  },
+  {
+    id: 'hse-entrepot',
+    num: '25',
+    domaine: 'operationnel',
+    format: 'intra',
+    badge: 'Terrain · Opérationnel',
+    title: 'Formation HSE Entrepôt & Logistique',
+    subtitle: 'Hygiène, sécurité et environnement appliqués aux réalités du terrain entrepôt et transport.',
+    duration: '1 jour',
+    hours: 'En présentiel',
+    group: 'Sur mesure',
+    price: '18 000 – 26 000',
+    unit: 'MAD HT / groupe',
+    lieu: 'Vos locaux',
+    public: ['Responsables HSE / QHSE', "Chefs d'équipe entrepôt", 'Caristes et agents de manutention', 'Responsables logistique'],
+    modules: [
+      "Cartographie des risques spécifiques à l'entrepôt et au transport",
+      'Manutention, chariots et stockage : prévenir les accidents les plus fréquents',
+      "Analyse d'accidents et de presque-accidents",
+      'Ergonomie et prévention des troubles musculo-squelettiques (TMS)',
+      'Conformité réglementaire et plan de prévention',
+      'Cas pratique : audit HSE flash de votre site',
+    ],
+    inclus: ["Grille d'audit HSE fournie", 'Cas pratique sur site', 'Support de formation', 'Attestation'],
+    cta: EMAIL,
+    color: '#1b3554',
+  },
+  {
+    id: 'maturite-logistique',
+    num: '26',
+    domaine: 'operationnel',
+    format: 'inter',
+    badge: 'Programme de synthèse',
+    title: 'Formation Maturité Logistique — Diagnostiquer et Progresser',
+    subtitle: 'La méthode de diagnostic Essor Consulting, transmise à vos équipes pour auto-évaluer et faire progresser votre supply chain.',
+    duration: '1 jour',
+    hours: '8h30 — 17h30',
+    group: '8 à 16 participants',
+    price: '1 800',
+    unit: 'MAD TTC / participant',
+    lieu: 'Hôtel 5★ Casablanca',
+    public: ['Responsables Supply Chain & logistique', 'Chefs de projet amélioration continue', 'Consultants internes / relais méthode', 'Dirigeants PME/ETI'],
+    modules: [
+      'La grille de maturité logistique : du pilotage à vue au pilotage prédictif',
+      "Cartographier l'existant et identifier les causes racines — méthode terrain",
+      "Mesurer l'écart entre potentiel et réalité, avec des leviers chiffrés",
+      'Prioriser : quick wins vs transformation de fond',
+      "Construire un plan de progression réaliste sur 90 jours",
+      'Cas pratique : auto-diagnostic de votre propre organisation',
+    ],
+    inclus: ['Grille de maturité logistique fournie', 'Auto-diagnostic individuel', 'Support de formation', 'Attestation', 'Suivi WhatsApp 30j'],
+    cta: EMAIL,
+    color: 'var(--blue-bright)',
+  },
 ]
 
 /* ─── Data — FAQ ────────────────────────────────────────────── */
 export const FAQ = [
   {
-    q: 'Comment choisir le bon programme parmi les 22 ?',
+    q: 'Comment choisir le bon programme parmi les 26 ?',
     a: "Selon votre objectif : une compétence terrain immédiate (formations inter, 1 à 2 jours, ex. Responsable Logistique, DDMRP), une montée en compétence d'équipe sur mesure (intra-entreprise adapté à votre secteur), ou un accompagnement individuel dans la durée (coaching DSC). Contactez-nous, nous orientons gratuitement selon votre contexte.",
   },
   {
@@ -1057,13 +1172,14 @@ function ProgramCard({ p }: { p: typeof PROGRAMMES[0] }) {
 
 /* ─── Main Component ──────────────────────────────────────── */
 export default function FormationCatalogue() {
-  const [activeTab, setActiveTab] = useState<'all' | 'sc' | 'lean' | 'management' | 'finance' | 'projet' | 'carriere'>('all')
+  const [activeTab, setActiveTab] = useState<'all' | 'sc' | 'lean' | 'management' | 'finance' | 'projet' | 'carriere' | 'operationnel'>('all')
 
   const filtered = activeTab === 'all' ? PROGRAMMES : PROGRAMMES.filter(p => p.domaine === activeTab)
 
   const tabs: { id: typeof activeTab; label: string }[] = [
     { id: 'all', label: `Tous (${PROGRAMMES.length})` },
     { id: 'sc', label: 'Supply Chain' },
+    { id: 'operationnel', label: 'Opérationnel' },
     { id: 'lean', label: 'Lean & Amélioration' },
     { id: 'management', label: 'Management' },
     { id: 'finance', label: 'Finance Ops' },
@@ -1075,7 +1191,7 @@ export default function FormationCatalogue() {
     <>
       <PageMeta
         title="Formations Supply Chain, Lean, Management, Finance, Projet & Carrière — Essor Consulting"
-        description="22 programmes de formation sur 6 domaines : Supply Chain, Lean, Management, Finance, Gestion de Projet, Carrière & Bien-être. Inter et intra-entreprise. Catalogue et calendrier 2026."
+        description="26 programmes de formation sur 7 domaines : Supply Chain, Opérationnel, Lean, Management, Finance, Gestion de Projet, Carrière & Bien-être. Inter et intra-entreprise. Catalogue et calendrier 2026."
         canonical="https://nextinotech.com/formation"
       />
       <SchemaScript schema={programmesSchema} />
@@ -1125,8 +1241,8 @@ export default function FormationCatalogue() {
             }}
           >
             {[
-              { val: '22', label: 'programmes disponibles' },
-              { val: '6', label: 'domaines de formation' },
+              { val: '26', label: 'programmes disponibles' },
+              { val: '7', label: 'domaines de formation' },
               { val: '20+', label: 'ans de terrain formateur' },
               { val: '0', label: 'commission éditeur' },
             ].map((s, i) => (
@@ -1158,8 +1274,8 @@ export default function FormationCatalogue() {
                   02 / Catalogue & calendrier
                 </div>
                 <h2 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2.5rem, 5vw, 6rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', color: 'var(--navy)', margin: 0 }}>
-                  22 programmes.<br />
-                  <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>6 domaines d'expertise.</span>
+                  26 programmes.<br />
+                  <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>7 domaines d'expertise.</span>
                 </h2>
               </div>
 

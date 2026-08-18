@@ -425,6 +425,8 @@ html.lenis { height: auto; }
   .home-insight-grid { grid-template-columns: 1fr !important; gap: 2.5rem !important; }
   .home-offers-grid { grid-template-columns: 1fr !important; }
   .home-formation-grid { grid-template-columns: 1fr !important; gap: 2rem !important; }
+  /* Services (Conseil) : Pack Inventaire 3 paliers → 1 */
+  .pack-inventaire-grid { grid-template-columns: 1fr !important; }
 }
 @media (max-width: 640px) {
   :root {
