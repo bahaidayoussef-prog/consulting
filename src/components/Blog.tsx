@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 import { motion } from 'framer-motion'
+import { useSearchParams } from 'react-router-dom'
 import { parseMarkdown, type BlogPost } from '../utils/markdownParser'
 
 function readingTime(content: string): number {
@@ -11,6 +12,7 @@ export default function Blog() {
   const [posts, setPosts] = useState<BlogPost[]>([])
   const [selectedPost, setSelectedPost] = useState<BlogPost | null>(null)
   const [loading, setLoading] = useState(true)
+  const [searchParams, setSearchParams] = useSearchParams()
 
   useEffect(() => {
     const loadPosts = async () => {
@@ -220,20 +222,20 @@ export default function Blog() {
           '210-developpement-carriere-supply-chain-achats-logistique-maroc',
         ]
 
-        const loadedPosts: BlogPost[] = []
-
-        for (const file of blogFiles) {
-          try {
-            const response = await fetch(`/blog/${file}.md`)
-            if (response.ok) {
+        const fetched = await Promise.all(
+          blogFiles.map(async (file) => {
+            try {
+              const response = await fetch(`/blog/${file}.md`)
+              if (!response.ok) return null
               const content = await response.text()
-              const post = parseMarkdown(content)
-              loadedPosts.push(post)
+              return parseMarkdown(content)
+            } catch (err) {
+              console.error(`Error loading ${file}:`, err)
+              return null
             }
-          } catch (err) {
-            console.error(`Error loading ${file}:`, err)
-          }
-        }
+          })
+        )
+        const loadedPosts = fetched.filter((p): p is BlogPost => p !== null)
 
         // Sort by date descending
         loadedPosts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
@@ -245,6 +247,14 @@ export default function Blog() {
 
     loadPosts()
   }, [])
+
+  // Deep-link : /blog?post=<slug> ouvre directement l'article visé (utilisé par l'insight éditorial de l'accueil)
+  useEffect(() => {
+    const slug = searchParams.get('post')
+    if (!slug || posts.length === 0) return
+    const match = posts.find((p) => p.slug === slug)
+    if (match) setSelectedPost(match)
+  }, [posts, searchParams])
 
   return (
     <>
@@ -438,7 +448,13 @@ export default function Blog() {
       </section>
 
       {selectedPost && (
-        <BlogDetail post={selectedPost} onClose={() => setSelectedPost(null)} />
+        <BlogDetail
+          post={selectedPost}
+          onClose={() => {
+            setSelectedPost(null)
+            if (searchParams.get('post')) setSearchParams({}, { replace: true })
+          }}
+        />
       )}
     </>
   )

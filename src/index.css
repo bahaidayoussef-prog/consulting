@@ -204,6 +204,32 @@ html.lenis { height: auto; }
   text-transform: uppercase;
   color: var(--mid);
 }
+.stat-value-lg {
+  font-family: 'Manrope', sans-serif;
+  font-size: clamp(3rem, 6vw, 5rem);
+  font-weight: 700;
+  color: var(--navy);
+  line-height: 1;
+  letter-spacing: -0.015em;
+  margin-bottom: 0.4rem;
+}
+
+/* ── CTA secondaire sur fond sombre (patron EntrepotSequence, généralisé) ── */
+.btn-ghost-dark {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: 1px solid rgba(255,255,255,0.35);
+  color: #ffffff;
+  padding: 0.85rem 1.6rem;
+  font-family: 'Jost', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  transition: background 0.25s, color 0.25s, border-color 0.25s;
+}
+.btn-ghost-dark:hover { background: #ffffff; color: var(--navy); border-color: #ffffff; }
 
 /* ── Badges ── */
 .badge {
@@ -395,6 +421,10 @@ html.lenis { height: auto; }
   .profil-header-grid { grid-template-columns: 1fr !important; gap: 2.5rem !important; }
   /* Carrière : intro 2 colonnes → 1 */
   .carriere-intro-grid { grid-template-columns: 1fr !important; gap: 2rem !important; }
+  /* Accueil : insight éditorial 2 colonnes → 1, teaser offres 3 → 1, aperçu Formation 2 → 1 */
+  .home-insight-grid { grid-template-columns: 1fr !important; gap: 2.5rem !important; }
+  .home-offers-grid { grid-template-columns: 1fr !important; }
+  .home-formation-grid { grid-template-columns: 1fr !important; gap: 2rem !important; }
 }
 @media (max-width: 640px) {
   :root {

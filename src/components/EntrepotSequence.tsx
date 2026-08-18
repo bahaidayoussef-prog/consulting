@@ -6,10 +6,12 @@ gsap.registerPlugin(ScrollTrigger)
 
 type Step = { img: string; alt: string; title: string; desc: string; ctaLabel: string; ctaHref: string }
 
-/* ctaHref: a mix of same-page anchors ("#conseil", "#systemes") and cross-route
-   paths ("/contact"). The CTA element is mutated imperatively (see setText below)
-   rather than re-rendered by React, so it's a plain <a> throughout — a route change
-   costs a full page reload here, but every target is verified to actually resolve. */
+/* ctaHref: this section renders on the homepage ("/"), so every target below is a
+   cross-route path with an anchor ("/services#conseil", "/services#systemes") or a
+   plain route ("/contact") — never a same-page fragment. The CTA element is mutated
+   imperatively (see setText below) rather than re-rendered by React, so it's a plain
+   <a> throughout — a route change costs a full page reload here, but every target is
+   verified to actually resolve (see id="conseil"/"systemes" in Conseil.tsx/Systemes.tsx). */
 const STEPS: Step[] = [
   {
     img: '/images/entrepot-sequence/etape-1-chaos-maximal.webp',
@@ -17,7 +19,7 @@ const STEPS: Step[] = [
     title: 'Le stade "papier" : invisible jusqu\'à ce qu\'il coûte cher',
     desc: "Zéro traçabilité, adressage à la mémoire de l'équipe, écarts de stock découverts trop tard. Chaque commande manquante ou en retard est un client qui doute. Chaque chariot mal utilisé est un coût qui n'apparaît sur aucun tableau de bord — parce qu'il n'y a pas de tableau de bord.",
     ctaLabel: 'Faire mon diagnostic',
-    ctaHref: '#conseil',
+    ctaHref: '/services#conseil',
   },
   {
     img: '/images/entrepot-sequence/etape-2-chaos-modere.webp',
@@ -25,7 +27,7 @@ const STEPS: Step[] = [
     title: "Excel a stoppé l'hémorragie, pas résolu le problème",
     desc: "Un fichier partagé donne l'illusion du contrôle. Mais sans gestion réelle des emplacements, chaque recherche de palette reste une loterie, et la donnée n'est fiable que jusqu'à la prochaine saisie oubliée.",
     ctaLabel: "Voir l'optimisation des stocks",
-    ctaHref: '#conseil',
+    ctaHref: '/services#conseil',
   },
   {
     img: '/images/entrepot-sequence/etape-3-transition.webp',
@@ -33,7 +35,7 @@ const STEPS: Step[] = [
     title: 'DDMRP : la fin des prévisions qui se trompent',
     desc: "Des buffers de découplage calculés sur la consommation réelle (ADU), des zones vert/jaune/rouge qui pilotent la reconstitution automatiquement. On ne prévoit plus l'avenir — on réagit à la demande réelle, en continu.",
     ctaLabel: 'Découvrir DDMRP',
-    ctaHref: '#conseil',
+    ctaHref: '/services#conseil',
   },
   {
     img: '/images/entrepot-sequence/etape-4-amr-seul.webp',
@@ -41,7 +43,7 @@ const STEPS: Step[] = [
     title: 'WMS, TMS, APS : trois systèmes, une seule vérité',
     desc: "Localisation temps réel, tournées optimisées, planification synchronisée. Ce que l'entrepôt sait, l'équipe le sait au même instant — et le client aussi, si besoin.",
     ctaLabel: 'Explorer nos déploiements WMS/TMS/APS',
-    ctaHref: '#systemes',
+    ctaHref: '/services#systemes',
   },
   {
     img: '/images/entrepot-sequence/etape-5-final.webp',

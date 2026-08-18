@@ -2,7 +2,6 @@ import { Statement } from '../components/Layout'
 import PageHero from '../components/PageHero'
 import Pourquoi from '../components/Pourquoi'
 import Conseil from '../components/Conseil'
-import EntrepotSequence from '../components/EntrepotSequence'
 import DimensionnementCTA from '../components/DimensionnementCTA'
 import Systemes from '../components/Systemes'
 import Methode from '../components/Methode'
@@ -20,7 +19,6 @@ export default function ServicesPage() {
       <Pourquoi />
       <Statement text="Le bon logiciel ne vaut rien sans la bonne méthode." bg="var(--paper)" />
       <Conseil />
-      <EntrepotSequence />
       <DimensionnementCTA />
       <Systemes />
       <Methode />

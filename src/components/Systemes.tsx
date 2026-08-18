@@ -328,7 +328,7 @@ export default function Systemes() {
             fontWeight: 300,
             maxWidth: 440,
           }}>
-            Sélection indépendante et déploiement AMOA des meilleures solutions — adaptées à votre taille
+            Sélection indépendante et déploiement AMOA de solutions WMS, TMS et APS — adaptées à votre taille
             et secteur. Aucune commission éditeur. Jamais.
           </p>
         </div>

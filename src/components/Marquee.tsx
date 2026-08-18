@@ -36,19 +36,13 @@ const ROW2 = [
   'Formation Grandes Écoles',
 ]
 
-interface MarqueeProps {
-  dark?: boolean
-}
-
 function MarqueeRow({
   items,
   direction = 1,
-  dark,
   accentEvery = 2,
 }: {
   items: string[]
   direction?: 1 | -1
-  dark: boolean
   accentEvery?: number
 }) {
   const trackRef = useRef<HTMLDivElement>(null)
@@ -105,18 +99,13 @@ function MarqueeRow({
               fontSize: '0.68rem',
               letterSpacing: '0.14em',
               textTransform: 'uppercase',
-              color:
-                i % accentEvery === 0
-                  ? dark ? 'var(--gold)' : 'var(--blue-bright)'
-                  : dark
-                  ? 'rgba(227,226,226,0.28)'
-                  : 'rgba(227,226,226,0.28)',
+              color: i % accentEvery === 0 ? 'rgba(227,226,226,0.85)' : 'rgba(227,226,226,0.28)',
               whiteSpace: 'nowrap',
               padding: '0 2rem',
             }}
           >
             {item}
-            <span style={{ marginLeft: '2rem', color: 'rgba(47,111,181,0.25)' }}>◆</span>
+            <span style={{ marginLeft: '2rem', color: 'rgba(227,226,226,0.2)' }}>◆</span>
           </span>
         ))}
       </div>
@@ -124,18 +113,18 @@ function MarqueeRow({
   )
 }
 
-export default function Marquee({ dark = false }: MarqueeProps) {
+export default function Marquee() {
   return (
     <div
       style={{
-        background: dark ? 'var(--dark-3)' : 'var(--ink)',
+        background: 'var(--ink)',
         borderTop: '1px solid rgba(255,255,255,0.06)',
         borderBottom: '1px solid rgba(255,255,255,0.06)',
         overflow: 'hidden',
       }}
     >
-      <MarqueeRow items={ROW1} direction={1} dark={dark} accentEvery={3} />
-      <MarqueeRow items={ROW2} direction={-1} dark={dark} accentEvery={4} />
+      <MarqueeRow items={ROW1} direction={1} accentEvery={3} />
+      <MarqueeRow items={ROW2} direction={-1} accentEvery={4} />
     </div>
   )
 }

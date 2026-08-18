@@ -335,26 +335,8 @@ export default function Hero() {
               borderRight: i < 3 ? '1px solid var(--border)' : 'none',
             }}
           >
-            <div style={{
-              fontFamily: 'Manrope, sans-serif',
-              fontSize: 'clamp(1.5rem, 2.4vw, 2.2rem)',
-              fontWeight: 700,
-              color: 'var(--navy)',
-              lineHeight: 1,
-              marginBottom: '0.3rem',
-              letterSpacing: '-0.01em',
-            }}>
-              {s.value}
-            </div>
-            <div style={{
-              fontFamily: 'var(--mono)',
-              fontSize: '0.6rem',
-              letterSpacing: '0.14em',
-              textTransform: 'uppercase',
-              color: 'var(--mid)',
-            }}>
-              {s.label}
-            </div>
+            <div className="stat-value">{s.value}</div>
+            <div className="stat-label">{s.label}</div>
           </div>
         ))}
       </motion.div>
