@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from 'react'
 import { motion } from 'framer-motion'
 import { useSearchParams } from 'react-router-dom'
 import { parseMarkdown, type BlogPost } from '../utils/markdownParser'
+import SchemaScript from './SchemaHelper'
 
 function readingTime(content: string): number {
   const words = content.trim().split(/\s+/).length
@@ -465,6 +466,34 @@ interface BlogDetailProps {
   onClose: () => void
 }
 
+function buildArticleSchema(post: BlogPost) {
+  if (post.schema === 'FAQPage') {
+    return {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: [
+        {
+          '@type': 'Question',
+          name: post.title,
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: post.quickAnswer || post.description || post.title,
+          },
+        },
+      ],
+    }
+  }
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: post.title,
+    description: post.description || post.quickAnswer,
+    datePublished: post.date,
+    author: { '@type': 'Organization', name: post.author || 'Essor Consulting' },
+    publisher: { '@type': 'Organization', name: 'Essor Consulting' },
+  }
+}
+
 function BlogDetail({ post, onClose }: BlogDetailProps) {
   const scrollRef = useRef<HTMLDivElement>(null)
   const [progress, setProgress] = useState(0)
@@ -557,6 +586,8 @@ function BlogDetail({ post, onClose }: BlogDetailProps) {
         backdropFilter: 'blur(4px)',
       }}
     >
+      <SchemaScript schema={buildArticleSchema(post)} />
+
       {/* Reading progress bar */}
       <div style={{ position: 'fixed', top: 0, left: 0, right: 0, height: 3, background: 'rgba(255,255,255,0.07)', zIndex: 1001 }}>
         <div style={{ height: '100%', background: 'var(--blue-bright)', width: `${progress}%`, transition: 'width 0.1s linear' }} />

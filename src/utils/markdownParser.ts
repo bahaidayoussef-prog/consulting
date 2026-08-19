@@ -8,6 +8,8 @@ export interface BlogPost {
   htmlContent: string
   rawContent: string
   image?: string
+  quickAnswer?: string
+  schema?: 'FAQPage' | 'Article'
 }
 
 interface FrontMatter {
@@ -17,6 +19,8 @@ interface FrontMatter {
   description?: string
   keywords?: string
   image?: string
+  quickAnswer?: string
+  schema?: string
 }
 
 export function parseMarkdown(content: string): BlogPost {
@@ -35,7 +39,7 @@ export function parseMarkdown(content: string): BlogPost {
       if (colonIdx !== -1) {
         const key = line.slice(0, colonIdx).trim()
         const value = line.slice(colonIdx + 1).trim().replace(/^["']|["']$/g, '')
-        if (key === 'title' || key === 'date' || key === 'author' || key === 'description' || key === 'keywords' || key === 'image') {
+        if (key === 'title' || key === 'date' || key === 'author' || key === 'description' || key === 'keywords' || key === 'image' || key === 'quickAnswer' || key === 'schema') {
           frontMatter[key as keyof FrontMatter] = value
         }
       }
@@ -60,6 +64,8 @@ export function parseMarkdown(content: string): BlogPost {
     description: frontMatter.description,
     keywords: frontMatter.keywords,
     image: frontMatter.image,
+    quickAnswer: frontMatter.quickAnswer,
+    schema: frontMatter.schema === 'FAQPage' ? 'FAQPage' : frontMatter.schema === 'Article' ? 'Article' : undefined,
     htmlContent,
     rawContent: mdContent,
   }

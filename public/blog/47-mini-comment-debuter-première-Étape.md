@@ -1,31 +1,40 @@
-﻿---
-title: "Comment Débuter? Première Étape?"
-date: "2026-06-21"
+---
+title: "Comment Débuter ? Première Étape ?"
+date: "2026-08-19"
 author: "Essor Consulting"
 type: "mini-article"
-keywords: "débuter, première étape"
-description: "Quick insight: Comment Débuter? Première Étape?. Basé sur 18 ans expertise et 110+ missions réussies."
+schema: "FAQPage"
+quickAnswer: "La première étape est toujours un Diagnostic Express de 2 à 6 semaines pour cartographier l'existant et identifier des leviers chiffrés — jamais un engagement de transformation complète dès le premier contact."
+keywords: "démarrer diagnostic supply chain, première étape consulting, comment contacter Essor Consulting"
+description: "Comment démarrer une mission avec Essor Consulting ? La première étape réelle : un Diagnostic Express de 2 à 6 semaines, pas un engagement immédiat."
 ---
 
-# Comment Débuter? Première Étape?
+# Comment Débuter ? Première Étape ?
 
-**Réponse rapide:** Découvrez comment cette problématique se résout dans la vraie vie.
+![Conseil et première prise de contact](/images/conseil.jpg)
 
-- **Baseline:** Situation typique PME/ME
-- **Solution:** Approche Essor Consulting  
-- **Résultat:** Cas réel chiffré
-- **Timeline:** Durée réaliste
+**La première étape est toujours un Diagnostic Express de 2 à 6 semaines — jamais un engagement de transformation complète dès le premier échange.** L'objectif est de cartographier votre existant et d'identifier des leviers chiffrés avant de parler d'un projet plus large.
 
-## Cas Réel
+## Ce qui se passe concrètement au premier contact
 
-Cas anonymisé avec ROI, timeline, et méthodologie applicable à votre situation.
+Un premier échange gratuit permet de cadrer votre situation et de vérifier qu'un diagnostic a du sens pour vous. S'il y a matière, le Diagnostic Flash (35 000 à 55 000 MAD HT, 2 semaines) ou le Diagnostic Stratégique (80 000 à 130 000 MAD HT, 4 à 6 semaines) prend le relais, selon la complexité du périmètre.
 
-## Prochaine Étape
+::stat:: 2 semaines — durée minimale avant le premier livrable concret
 
-Vous reconnaissez votre situation? Audit gratuit 2-3 jours.
+## Pourquoi ne pas sauter directement à la transformation
 
-**Contact:** bahaidayoussef@gmail.com | +212 663 449 200
+Démarrer directement une transformation sans diagnostic préalable revient à traiter des symptômes sans connaître la cause racine. Le diagnostic n'est pas une étape administrative avant le "vrai" travail — c'est le moment où l'on détermine si le problème est structurel, organisationnel, ou lié aux systèmes, et où l'on chiffre l'écart entre le potentiel et la réalité terrain.
+
+> **Un cabinet qui propose une transformation complète sans diagnostic préalable vend une solution avant de connaître le problème.** Le diagnostic coûte moins cher qu'une transformation mal ciblée.
+
+## Ce qu'il faut retenir
+
+Débuter avec Essor Consulting suit toujours la même séquence : un échange pour cadrer, un diagnostic pour mesurer, puis une décision sur la suite — prise avec des chiffres, pas avec une intuition.
+
+**Notre approche.** Réservez un échange gratuit pour cadrer votre situation ; nous vous orientons ensuite vers le format de diagnostic adapté à votre périmètre.
+
+**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
 
 ---
 
-*18 ans d'expertise. 110+ missions. 0 commission.*
+*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
