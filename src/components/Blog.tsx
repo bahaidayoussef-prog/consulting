@@ -221,6 +221,8 @@ export default function Blog() {
           // Carrière & Bien-être
           '209-burnout-supply-chain-logistique-maroc',
           '210-developpement-carriere-supply-chain-achats-logistique-maroc',
+          // Actualité réglementaire
+          '211-nouvelle-loi-livraison-colis-maroc-2026',
         ]
 
         const fetched = await Promise.all(
