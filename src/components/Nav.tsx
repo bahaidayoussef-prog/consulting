@@ -23,6 +23,7 @@ const SERVICES_ITEMS: SimpleItem[] = [
   { label: 'Diagnostic & Conseil', href: '/services#conseil' },
   { label: 'DDMRP', href: '/services#conseil' },
   { label: 'Systèmes SI & IA', href: '/services#systemes' },
+  { label: 'Direction SC à Temps Partagé', href: '/direction-supply-chain-temps-partage' },
   { label: 'FAQ', href: '/faq' },
 ]
 
@@ -237,7 +238,7 @@ export default function Nav() {
   }, [])
 
   const groupActive = (id: GroupId) => {
-    if (id === 'services') return pathname === '/services' || pathname === '/faq'
+    if (id === 'services') return pathname === '/services' || pathname === '/faq' || pathname === '/direction-supply-chain-temps-partage' || pathname === '/directeur-logistique-mi-temps' || pathname === '/directeur-achats-mi-temps' || pathname === '/dsc-vs-recrutement-cdi'
     if (id === 'outils') return pathname.startsWith('/outils') || pathname.startsWith('/demo')
     if (id === 'ressources') return pathname === '/blog' || pathname === '/formation'
     if (id === 'cabinet') return pathname === '/a-propos' || pathname === '/references'

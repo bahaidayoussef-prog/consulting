@@ -4,7 +4,7 @@ export default function Footer() {
     { label: 'Conseil & AMOA', href: '/services#conseil' },
     { label: 'Systèmes SCM', href: '/services#systemes' },
     { label: 'Formation', href: '/formation' },
-    { label: 'DSC à temps partagé', href: '/references#dsc' },
+    { label: 'DSC à temps partagé', href: '/direction-supply-chain-temps-partage' },
     { label: 'À propos', href: '/a-propos' },
     { label: 'Carrière', href: '/carriere' },
   ]
@@ -148,7 +148,7 @@ export default function Footer() {
                 { label: 'Conseil & AMOA SC', href: '/services#conseil' },
                 { label: 'Sélection systèmes SCM', href: '/services#systemes' },
                 { label: 'Formation terrain', href: '/formation' },
-                { label: 'DSC à temps partagé', href: '/references#dsc' },
+                { label: 'DSC à temps partagé', href: '/direction-supply-chain-temps-partage' },
               ].map(({ label, href }) => (
                 <li key={href}>
                   <a

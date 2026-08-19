@@ -17,6 +17,10 @@ import DemoWmsPage from './pages/DemoWmsPage'
 import DemoTmsPage from './pages/DemoTmsPage'
 import DemoApsPage from './pages/DemoApsPage'
 import CarrierePage from './pages/CarrierePage'
+import DirecteurLogistiqueMiTempsPage from './pages/DirecteurLogistiqueMiTempsPage'
+import DirecteurAchatsMiTempsPage from './pages/DirecteurAchatsMiTempsPage'
+import DirectionSCTempsPartagePage from './pages/DirectionSCTempsPartagePage'
+import DscVsRecrutementCdiPage from './pages/DscVsRecrutementCdiPage'
 
 const pageVariants = {
   initial: { opacity: 0, y: 20 },
@@ -58,6 +62,10 @@ function AnimatedRoutes() {
         <Route path="/demo/tms" element={<PageTransition><DemoTmsPage /></PageTransition>} />
         <Route path="/demo/aps" element={<PageTransition><DemoApsPage /></PageTransition>} />
         <Route path="/carriere" element={<PageTransition><CarrierePage /></PageTransition>} />
+        <Route path="/directeur-logistique-mi-temps" element={<PageTransition><DirecteurLogistiqueMiTempsPage /></PageTransition>} />
+        <Route path="/directeur-achats-mi-temps" element={<PageTransition><DirecteurAchatsMiTempsPage /></PageTransition>} />
+        <Route path="/direction-supply-chain-temps-partage" element={<PageTransition><DirectionSCTempsPartagePage /></PageTransition>} />
+        <Route path="/dsc-vs-recrutement-cdi" element={<PageTransition><DscVsRecrutementCdiPage /></PageTransition>} />
         <Route path="*" element={<PageTransition><HomePage /></PageTransition>} />
       </Routes>
     </AnimatePresence>
