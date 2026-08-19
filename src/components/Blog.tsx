@@ -223,6 +223,10 @@ export default function Blog() {
           '210-developpement-carriere-supply-chain-achats-logistique-maroc',
           // Actualité réglementaire
           '211-nouvelle-loi-livraison-colis-maroc-2026',
+          '212-hausse-carburant-transporteurs-maroc-2026',
+          '213-guide-portnet-badr-maroc',
+          '214-grille-salariale-logistique-maroc-2026-employeur',
+          '215-sap-odoo-dynamics-365-erp-supply-chain-maroc',
         ]
 
         const fetched = await Promise.all(
