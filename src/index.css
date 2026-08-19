@@ -433,6 +433,8 @@ html.lenis { height: auto; }
   .dsc-teaser-grid { grid-template-columns: 1fr !important; gap: 2.5rem !important; }
   /* Services (Conseil) : offre Leibinger 2 colonnes → 1 */
   .leibinger-grid { grid-template-columns: 1fr !important; gap: 2rem !important; }
+  /* Services (Conseil) : Services Logistiques à Valeur Ajoutée 4 colonnes → 2 */
+  .valeur-ajoutee-grid { grid-template-columns: 1fr 1fr !important; }
 }
 @media (max-width: 640px) {
   :root {
@@ -473,6 +475,8 @@ html.lenis { height: auto; }
   /* Systemes : ligne accordéon WMS/TMS/APS — 64px + 3×2.5rem de gap ne laissait que
      ~150px pour le nom complet + le bouton +, débordement mesuré */
   .system-row-grid { grid-template-columns: 28px auto 1fr auto !important; gap: 0.6rem !important; }
+  /* Services (Conseil) : Services Logistiques à Valeur Ajoutée 2 colonnes → 1 */
+  .valeur-ajoutee-grid { grid-template-columns: 1fr !important; }
 }
 
 /* ── FormationRL responsive grids ── */

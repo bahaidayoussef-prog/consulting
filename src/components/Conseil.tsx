@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
+import { IconPackage, IconStack2, IconTags, IconPuzzle, IconBoxSeam, IconEyeCheck, IconLayersIntersect } from '@tabler/icons-react'
 import SchemaScript from './SchemaHelper'
 
 const services = [
@@ -70,6 +71,82 @@ const services = [
     ],
   },
 ]
+
+const VALEUR_AJOUTEE = [
+  { icon: IconPackage, name: 'Co-packing', desc: 'Assemblage et conditionnement de packs promotionnels ou multi-produits, à la demande.' },
+  { icon: IconStack2, name: 'Fardelage', desc: 'Regroupement et filmage de plusieurs unités en un seul colis prêt à expédier.' },
+  { icon: IconTags, name: 'Étiquetage / Marquage', desc: 'Pose d’étiquettes, codes-barres ou marquages réglementaires sur vos produits.' },
+  { icon: IconPuzzle, name: 'Kitting', desc: 'Assemblage de kits multi-composants prêts à la vente ou à l’installation.' },
+  { icon: IconBoxSeam, name: 'Mise en carton / Reconditionnement', desc: 'Reconditionnement de produits dans un nouvel emballage, adapté à votre marché ou client.' },
+  { icon: IconEyeCheck, name: 'Contrôle Qualité Visuel', desc: 'Vérification visuelle avant expédition — conformité, état, complétude.' },
+  { icon: IconLayersIntersect, name: 'Palettisation sur Mesure', desc: 'Constitution de palettes selon vos contraintes clients, transporteur ou stockage.' },
+]
+
+function ServicesValeurAjoutee() {
+  return (
+    <div style={{ marginTop: '6rem' }}>
+      <div style={{ maxWidth: 640, marginBottom: '3rem' }}>
+        <div
+          style={{
+            fontFamily: 'DM Mono, monospace',
+            fontSize: '0.6rem',
+            letterSpacing: '0.2em',
+            color: 'rgba(47,111,181,0.55)',
+            textTransform: 'uppercase',
+            marginBottom: '1.25rem',
+          }}
+        >
+          Opéré en interne · Équipe & matériel propres
+        </div>
+        <h3
+          style={{
+            fontFamily: 'Manrope, sans-serif',
+            fontSize: 'clamp(1.8rem, 3.2vw, 2.6rem)',
+            fontWeight: 800,
+            lineHeight: 1.05,
+            letterSpacing: '-0.02em',
+            color: 'var(--ink)',
+            margin: '0 0 0.75rem',
+          }}
+        >
+          Services Logistiques à Valeur Ajoutée
+        </h3>
+        <p style={{ fontSize: '0.95rem', color: 'var(--mid)', lineHeight: 1.75, fontWeight: 300, margin: 0 }}>
+          Sept prestations opérées directement par nos équipes, avec notre propre matériel — pas sous-traitées à un tiers.
+        </p>
+      </div>
+
+      <div className="valeur-ajoutee-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '2px', background: 'var(--border)', maxWidth: 1100 }}>
+        {VALEUR_AJOUTEE.map((s) => (
+          <div key={s.name} style={{ background: '#fff', padding: '2rem 1.75rem' }}>
+            <s.icon size={22} stroke={1.6} color="var(--blue-bright)" style={{ marginBottom: '1rem' }} />
+            <div style={{ fontFamily: 'Manrope, sans-serif', fontSize: '0.98rem', fontWeight: 700, color: 'var(--ink)', marginBottom: '0.5rem', lineHeight: 1.25 }}>
+              {s.name}
+            </div>
+            <div style={{ fontSize: '0.8rem', color: 'var(--mid)', lineHeight: 1.55, fontWeight: 300 }}>
+              {s.desc}
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <div style={{ display: 'flex', alignItems: 'center', gap: '2rem', flexWrap: 'wrap', marginTop: '2rem' }}>
+        <div>
+          <span style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'rgba(95,102,114,0.5)' }}>
+            Prix ·&nbsp;
+          </span>
+          <span style={{ fontSize: '0.95rem', fontWeight: 700, color: 'var(--ink)' }}>Sur devis</span>
+        </div>
+        <a
+          href="/contact"
+          className="btn-primary"
+        >
+          Discuter de votre besoin →
+        </a>
+      </div>
+    </div>
+  )
+}
 
 const PACK_INVENTAIRE = {
   title: 'Pack Inventaire',
@@ -898,6 +975,8 @@ export default function Conseil() {
             <ServiceRow key={s.num} s={s} index={i} />
           ))}
         </div>
+
+        <ServicesValeurAjoutee />
 
         <PackInventaire />
 
