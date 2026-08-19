@@ -431,6 +431,8 @@ html.lenis { height: auto; }
   .dsc-declinaisons-grid { grid-template-columns: 1fr !important; }
   /* References : teaser DSC 2 colonnes → 1 */
   .dsc-teaser-grid { grid-template-columns: 1fr !important; gap: 2.5rem !important; }
+  /* Services (Conseil) : offre Leibinger 2 colonnes → 1 */
+  .leibinger-grid { grid-template-columns: 1fr !important; gap: 2rem !important; }
 }
 @media (max-width: 640px) {
   :root {

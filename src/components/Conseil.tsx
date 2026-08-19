@@ -459,6 +459,163 @@ function SingleOfferSection({ eyebrow, title, desc, offer, ctaLabel }: { eyebrow
   )
 }
 
+const LEIBINGER = {
+  positioning: "Conseil et fourniture d'imprimantes industrielles de marquage et codage Leibinger — solutions professionnelles pour l'agroalimentaire, la pharmacie et l'industrie.",
+  features: [
+    "Imprimantes à jet d'encre continu, de l'entrée de gamme aux modèles haute vitesse",
+    'Technologie Sealtronic : démarrage rapide, moins d\'arrêts de production pour nettoyage',
+    'Modèles avec protection IP65 disponibles, adaptés aux exigences d\'hygiène strictes de l\'agroalimentaire et de la pharmaceutique',
+    'Applications : dates de péremption, numéros de lot, codes-barres, marquage réglementaire et traçabilité',
+  ],
+  includes: [
+    'Conseil sur le choix du modèle adapté à votre secteur, votre cadence de production et vos contraintes d\'hygiène/environnement',
+    'Fourniture et installation',
+  ],
+}
+
+function LeibingerOffer() {
+  return (
+    <div style={{ marginTop: '6rem' }}>
+      <div style={{ maxWidth: 640, marginBottom: '3rem' }}>
+        <div
+          style={{
+            fontFamily: 'DM Mono, monospace',
+            fontSize: '0.6rem',
+            letterSpacing: '0.2em',
+            color: 'rgba(47,111,181,0.55)',
+            textTransform: 'uppercase',
+            marginBottom: '1.25rem',
+          }}
+        >
+          Partenaire officiel · Produit & conseil technique
+        </div>
+        <h3
+          style={{
+            fontFamily: 'Manrope, sans-serif',
+            fontSize: 'clamp(1.8rem, 3.2vw, 2.6rem)',
+            fontWeight: 800,
+            lineHeight: 1.05,
+            letterSpacing: '-0.02em',
+            color: 'var(--ink)',
+            margin: '0 0 0.75rem',
+          }}
+        >
+          Imprimantes Industrielles Leibinger
+        </h3>
+        <p style={{ fontSize: '0.95rem', color: 'var(--mid)', lineHeight: 1.75, fontWeight: 300, margin: 0 }}>
+          Essor Consulting est distributeur/partenaire officiel Leibinger — fabricant allemand reconnu à l&apos;international dans le marquage et le codage industriel — au Maroc.
+        </p>
+      </div>
+
+      <div
+        style={{
+          background: '#fff',
+          border: '1px solid rgba(27,53,84,0.1)',
+          padding: 'clamp(2rem, 4vw, 3rem)',
+          position: 'relative',
+          overflow: 'hidden',
+          maxWidth: 960,
+          boxShadow: '0 4px 20px rgba(0,0,0,0.05)',
+        }}
+      >
+        <div style={{ position: 'absolute', top: 0, left: 0, bottom: 0, width: 3, background: 'var(--blue-bright)' }} />
+
+        <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '2rem' }}>
+          <img src="/images/logos/leibinger.svg" alt="Leibinger" style={{ height: 32, width: 'auto' }} />
+        </div>
+
+        <p style={{ fontSize: '1.02rem', color: 'var(--ink)', lineHeight: 1.75, fontWeight: 300, marginBottom: '2.25rem', maxWidth: 720 }}>
+          {LEIBINGER.positioning}
+        </p>
+
+        <div className="leibinger-grid" style={{ display: 'grid', gridTemplateColumns: '1.3fr 1fr', gap: '3rem' }}>
+          <div>
+            <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.12em', textTransform: 'uppercase', color: 'rgba(95,102,114,0.5)', marginBottom: '0.9rem' }}>
+              Caractéristiques
+            </div>
+            <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
+              {LEIBINGER.features.map((item) => (
+                <li
+                  key={item}
+                  style={{
+                    fontSize: '0.85rem',
+                    padding: '0.5rem 0',
+                    borderBottom: '1px solid rgba(27,53,84,0.06)',
+                    display: 'flex',
+                    alignItems: 'flex-start',
+                    gap: '0.6rem',
+                    color: 'var(--mid)',
+                    lineHeight: 1.5,
+                    fontWeight: 300,
+                  }}
+                >
+                  <span style={{ color: 'var(--blue-bright)', flexShrink: 0 }}>→</span>
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div>
+            <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.12em', textTransform: 'uppercase', color: 'rgba(95,102,114,0.5)', marginBottom: '0.9rem' }}>
+              Ce qui est inclus
+            </div>
+            <ul style={{ listStyle: 'none', padding: 0, margin: '0 0 1.75rem' }}>
+              {LEIBINGER.includes.map((item) => (
+                <li
+                  key={item}
+                  style={{
+                    fontSize: '0.85rem',
+                    padding: '0.5rem 0',
+                    borderBottom: '1px solid rgba(27,53,84,0.06)',
+                    display: 'flex',
+                    alignItems: 'flex-start',
+                    gap: '0.6rem',
+                    color: 'var(--mid)',
+                    lineHeight: 1.5,
+                    fontWeight: 300,
+                  }}
+                >
+                  <span style={{ color: 'var(--blue-bright)', flexShrink: 0 }}>→</span>
+                  {item}
+                </li>
+              ))}
+            </ul>
+
+            <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.52rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'rgba(95,102,114,0.45)', marginBottom: '0.35rem' }}>
+              Prix
+            </div>
+            <div style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--ink)', marginBottom: '1.75rem' }}>
+              Sur devis — dépend du modèle et du volume
+            </div>
+
+            <a
+              href="/contact"
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '0.5rem',
+                fontSize: '0.72rem',
+                fontWeight: 600,
+                letterSpacing: '0.1em',
+                textTransform: 'uppercase',
+                textDecoration: 'none',
+                color: 'var(--ink)',
+                fontFamily: 'DM Mono, monospace',
+                transition: 'opacity 0.2s',
+              }}
+              onMouseEnter={(e) => ((e.currentTarget as HTMLElement).style.opacity = '0.7')}
+              onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.opacity = '1')}
+            >
+              Demander une démonstration →
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
 function ServiceRow({ s, index }: { s: typeof services[0]; index: number }) {
   const [open, setOpen] = useState(false)
 
@@ -747,6 +904,8 @@ export default function Conseil() {
         <SingleOfferSection eyebrow={COACHING.eyebrow} title={COACHING.title} desc={COACHING.desc} offer={COACHING.offer} ctaLabel={COACHING.ctaLabel} />
 
         <SingleOfferSection eyebrow={DOUANE.eyebrow} title={DOUANE.title} desc={DOUANE.desc} offer={DOUANE.offer} ctaLabel={DOUANE.ctaLabel} />
+
+        <LeibingerOffer />
 
         <div style={{ marginTop: '4rem', display: 'flex', gap: '1rem' }}>
           <a href="/contact" className="btn-primary">Réserver un échange gratuit →</a>
