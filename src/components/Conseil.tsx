@@ -293,6 +293,172 @@ function PackInventaire() {
   )
 }
 
+interface SingleOffer {
+  tag: string
+  name: string
+  specs: { label: string; value: string }[]
+  includes: string[]
+}
+
+const COACHING: { eyebrow: string; title: string; desc: string; offer: SingleOffer; ctaLabel: string } = {
+  eyebrow: 'Accompagnement individuel',
+  title: 'Coaching Premium Dirigeants & Directeurs',
+  desc: "Distinct de la formation (compétence collective, transférée à une équipe) et du mandat DSC à temps partagé (implication opérationnelle) : un accompagnement individuel pour le dirigeant lui-même — prise de recul stratégique, aide à la décision sur des enjeux complexes, structuration de la vision Supply Chain ou Achats à l'échelle de l'entreprise.",
+  offer: {
+    tag: '1 dirigeant · Achats, Logistique, Supply Chain & fonctions support',
+    name: 'Coaching Individuel',
+    specs: [
+      { label: 'Prix', value: 'Sur devis' },
+      { label: 'Durée', value: '6 à 12 mois' },
+      { label: 'Rythme', value: 'Bimensuel ou mensuel' },
+    ],
+    includes: [
+      'Séances individuelles avec un consultant senior certifié DDMRP',
+      'Prise de recul stratégique sur vos enjeux Supply Chain / Achats',
+      'Aide à la décision sur des sujets complexes',
+      "Structuration de la vision à l'échelle de l'entreprise",
+    ],
+  },
+  ctaLabel: 'Demander un premier échange',
+}
+
+const DOUANE: { eyebrow: string; title: string; desc: string; offer: SingleOffer; ctaLabel: string } = {
+  eyebrow: 'Conformité douanière',
+  title: 'Accompagnement Régimes Douaniers Suspensifs',
+  desc: "Le stock vu par la douane n'est pas toujours le stock vu par la logistique. Pour les entreprises sous Admission Temporaire, Entrepôt Industriel Franc ou régime suspensif similaire — notamment en automobile et aéronautique — cet écart devient un risque de redressement s'il n'est pas traité en amont. Un angle mort spécifique, en lien direct avec notre expertise DDMRP et gestion de stock.",
+  offer: {
+    tag: 'Admission Temporaire · Entrepôt Industriel Franc',
+    name: 'Audit & Régularisation AT',
+    specs: [
+      { label: 'Prix', value: 'Sur devis' },
+      { label: 'Durée', value: 'À définir selon périmètre' },
+    ],
+    includes: [
+      'Audit et réconciliation stock théorique (douane) vs stock réel',
+      'Identification et traitement des écarts avant redressement',
+      'Accompagnement à la régularisation des comptes AT (apurement)',
+      'Diagnostic préventif avant contrôle douanier',
+      'Mise en place d’un suivi continu pour éviter la récurrence des écarts',
+    ],
+  },
+  ctaLabel: 'Discuter de votre situation',
+}
+
+function SingleOfferSection({ eyebrow, title, desc, offer, ctaLabel }: { eyebrow: string; title: string; desc: string; offer: SingleOffer; ctaLabel: string }) {
+  return (
+    <div style={{ marginTop: '6rem' }}>
+      <div style={{ maxWidth: 640, marginBottom: '3rem' }}>
+        <div
+          style={{
+            fontFamily: 'DM Mono, monospace',
+            fontSize: '0.6rem',
+            letterSpacing: '0.2em',
+            color: 'rgba(47,111,181,0.55)',
+            textTransform: 'uppercase',
+            marginBottom: '1.25rem',
+          }}
+        >
+          {eyebrow}
+        </div>
+        <h3
+          style={{
+            fontFamily: 'Manrope, sans-serif',
+            fontSize: 'clamp(1.8rem, 3.2vw, 2.6rem)',
+            fontWeight: 800,
+            lineHeight: 1.05,
+            letterSpacing: '-0.02em',
+            color: 'var(--ink)',
+            margin: '0 0 0.75rem',
+          }}
+        >
+          {title}
+        </h3>
+        <p style={{ fontSize: '0.95rem', color: 'var(--mid)', lineHeight: 1.75, fontWeight: 300, margin: 0 }}>
+          {desc}
+        </p>
+      </div>
+
+      <div
+        style={{
+          maxWidth: 480,
+          background: '#fff',
+          border: '1px solid rgba(27,53,84,0.1)',
+          padding: '2.5rem',
+          position: 'relative',
+          boxShadow: '0 4px 20px rgba(0,0,0,0.05)',
+        }}
+      >
+        <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.18em', textTransform: 'uppercase', color: 'rgba(95,102,114,0.6)', marginBottom: '0.6rem' }}>
+          {offer.tag}
+        </div>
+
+        <div style={{ fontFamily: 'Manrope, sans-serif', fontSize: '1.35rem', fontWeight: 800, letterSpacing: '-0.02em', color: 'var(--ink)', marginBottom: '1.5rem' }}>
+          {offer.name}
+        </div>
+
+        <div style={{ display: 'flex', gap: '2rem', flexWrap: 'wrap', margin: '0 0 1.75rem', paddingBottom: '1.5rem', borderBottom: '1px solid rgba(27,53,84,0.08)' }}>
+          {offer.specs.map((spec) => (
+            <div key={spec.label}>
+              <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.52rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'rgba(95,102,114,0.45)', marginBottom: '0.35rem' }}>
+                {spec.label}
+              </div>
+              <div style={{ fontSize: '1rem', fontWeight: spec.label === 'Prix' ? 700 : 500, color: 'var(--ink)' }}>
+                {spec.value}
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.12em', textTransform: 'uppercase', color: 'rgba(95,102,114,0.5)', marginBottom: '0.75rem' }}>
+          Inclus
+        </div>
+        <ul style={{ listStyle: 'none', padding: 0, marginBottom: '2rem' }}>
+          {offer.includes.map((item) => (
+            <li
+              key={item}
+              style={{
+                fontSize: '0.85rem',
+                padding: '0.5rem 0',
+                borderBottom: '1px solid rgba(27,53,84,0.06)',
+                display: 'flex',
+                alignItems: 'flex-start',
+                gap: '0.6rem',
+                color: 'var(--mid)',
+                lineHeight: 1.5,
+                fontWeight: 300,
+              }}
+            >
+              <span style={{ color: 'var(--blue-bright)', flexShrink: 0 }}>→</span>
+              {item}
+            </li>
+          ))}
+        </ul>
+
+        <a
+          href="/contact"
+          style={{
+            display: 'inline-flex',
+            alignItems: 'center',
+            gap: '0.5rem',
+            fontSize: '0.72rem',
+            fontWeight: 600,
+            letterSpacing: '0.1em',
+            textTransform: 'uppercase',
+            textDecoration: 'none',
+            color: 'var(--ink)',
+            fontFamily: 'DM Mono, monospace',
+            transition: 'opacity 0.2s',
+          }}
+          onMouseEnter={(e) => ((e.currentTarget as HTMLElement).style.opacity = '0.7')}
+          onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.opacity = '1')}
+        >
+          {ctaLabel} →
+        </a>
+      </div>
+    </div>
+  )
+}
+
 function ServiceRow({ s, index }: { s: typeof services[0]; index: number }) {
   const [open, setOpen] = useState(false)
 
@@ -577,6 +743,10 @@ export default function Conseil() {
         </div>
 
         <PackInventaire />
+
+        <SingleOfferSection eyebrow={COACHING.eyebrow} title={COACHING.title} desc={COACHING.desc} offer={COACHING.offer} ctaLabel={COACHING.ctaLabel} />
+
+        <SingleOfferSection eyebrow={DOUANE.eyebrow} title={DOUANE.title} desc={DOUANE.desc} offer={DOUANE.offer} ctaLabel={DOUANE.ctaLabel} />
 
         <div style={{ marginTop: '4rem', display: 'flex', gap: '1rem' }}>
           <a href="/contact" className="btn-primary">Réserver un échange gratuit →</a>
