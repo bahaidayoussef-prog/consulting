@@ -227,6 +227,7 @@ export default function Blog() {
           '213-guide-portnet-badr-maroc',
           '214-grille-salariale-logistique-maroc-2026-employeur',
           '215-sap-odoo-dynamics-365-erp-supply-chain-maroc',
+          '216-ia-agentique-supply-chain-feuille-de-route-pme-maroc',
         ]
 
         const fetched = await Promise.all(
