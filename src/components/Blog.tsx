@@ -242,6 +242,10 @@ export default function Blog() {
           '228-femmes-supply-chain-marocaine-chiffres-realite',
           '229-cout-reel-projet-erp-logistique-maroc',
           '230-ia-predictive-prevision-demande-stock-securite',
+          '231-audit-qhse-entrepot-maroc-grille-methode',
+          '232-formation-hse-entrepot-logistique-maroc',
+          '233-iso-9001-pme-logistique-maroc-par-ou-commencer',
+          '234-regimes-douaniers-suspensifs-stock-theorique-vs-reel',
         ]
 
         const fetched = await Promise.all(
