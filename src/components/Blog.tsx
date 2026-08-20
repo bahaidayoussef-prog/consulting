@@ -228,6 +228,20 @@ export default function Blog() {
           '214-grille-salariale-logistique-maroc-2026-employeur',
           '215-sap-odoo-dynamics-365-erp-supply-chain-maroc',
           '216-ia-agentique-supply-chain-feuille-de-route-pme-maroc',
+          '217-achats-durables-rse-fournisseurs-audit-maroc',
+          '218-supply-chain-aeronautique-maroc-ecosysteme-safran',
+          '219-supply-chain-cosmetique-maroc-enjeux-logistiques',
+          '220-hydrogene-vert-ammoniac-ocp-chaine-logistique',
+          '221-marque-employeur-logistique-maroc-attractivite',
+          '222-recruter-generation-z-logistique-maroc',
+          '223-zones-franches-marocaines-comparees',
+          '224-corridor-maroc-afrique-ouest-sahel-export',
+          '225-3pl-4pl-afrique-francophone-panorama',
+          '226-cartographier-risques-supply-chain-methode',
+          '227-achats-publics-maroc-seuils-2026',
+          '228-femmes-supply-chain-marocaine-chiffres-realite',
+          '229-cout-reel-projet-erp-logistique-maroc',
+          '230-ia-predictive-prevision-demande-stock-securite',
         ]
 
         const fetched = await Promise.all(
