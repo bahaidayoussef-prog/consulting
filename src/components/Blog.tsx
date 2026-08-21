@@ -253,6 +253,14 @@ export default function Blog() {
           '251-iot-capteurs-connectes-entrepot-maroc',
           '252-automatisation-achats-ia-p2p-maroc',
           '253-tableau-de-bord-ia-supply-chain-sans-data-scientist',
+          '254-logistique-verte-maroc-transition-freinee',
+          '255-bilan-carbone-transport-scope-3-methode',
+          '256-vehicules-verts-flotte-logistique-maroc',
+          '257-economie-circulaire-supply-chain-dechets-industriels-maroc',
+          '258-reporting-esg-fournisseurs-maroc-csrd',
+          '259-emballages-durables-reduction-couts-logistiques',
+          '260-entrepots-eco-responsables-certification-energie',
+          '261-maroc-leader-africain-logistique-durable',
         ]
 
         const fetched = await Promise.all(
