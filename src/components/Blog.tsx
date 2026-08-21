@@ -278,6 +278,11 @@ export default function Blog() {
           '276-feminiser-metiers-entrepot-transport-maroc',
           '277-reseaux-mentorat-femmes-logistique-maroc',
           '278-diversite-supply-chain-argument-concurrentiel',
+          '279-sap-mm-module-achats-maroc',
+          '280-migration-sap-s4hana-pme-industrielle-maroc',
+          '281-wms-vs-erp-integre-entrepot-maroc',
+          '282-interoperabilite-erp-wms-tms-connecter-systemes',
+          '283-choisir-logiciel-prevision-demande-pme-maroc',
         ]
 
         const fetched = await Promise.all(
