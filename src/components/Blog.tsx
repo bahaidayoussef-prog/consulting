@@ -37,18 +37,6 @@ export default function Blog() {
           '13-supply-chain-afrique-francophone',
           '14-webinaire-transformation-90j',
           '15-webinaire-formation-vs-consulting',
-          // Études de cas
-          '20-case-study-pme-textile-sourcing',
-          '21-case-study-me-procurement-bosch',
-          '22-case-study-casanet-wms-adoption',
-          '23-case-study-oland-sop-cash',
-          '24-case-study-dhl-warehouse-3sites',
-          '25-case-study-renault-tanger-ramp',
-          '26-case-study-douja-promotion-expansion',
-          '27-case-study-autoroutes-externalisation',
-          '28-case-study-somaca-automation',
-          '29-case-study-diana-group-diversified',
-          '30-case-study-ocp-saedm-transformation',
           // Mini FAQ
           '40-faq-combien-economiser-achats',
           '41-mini-wms-oui-ou-non-pour-ma-pme',
