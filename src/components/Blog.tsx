@@ -274,6 +274,10 @@ export default function Blog() {
           '272-penurie-chauffeurs-routiers-maroc',
           '273-formation-interne-vs-recrutement-externe-maroc',
           '274-plan-succession-postes-cles-supply-chain-maroc',
+          '275-femmes-postes-executifs-supply-chain-freins',
+          '276-feminiser-metiers-entrepot-transport-maroc',
+          '277-reseaux-mentorat-femmes-logistique-maroc',
+          '278-diversite-supply-chain-argument-concurrentiel',
         ]
 
         const fetched = await Promise.all(
