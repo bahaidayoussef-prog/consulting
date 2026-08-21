@@ -267,6 +267,13 @@ export default function Blog() {
           '265-livraison-zones-rurales-enclavees-maroc',
           '266-retours-ecommerce-cout-cache-maroc',
           '267-marketplace-vs-vente-directe-logistique-maroc',
+          '268-turnover-entrepot-maroc-causes-solutions',
+          '269-cabinet-recrutement-vs-direct-poste-critique-maroc',
+          '270-onboarding-caristes-magasiniers-maroc',
+          '271-management-proximite-entrepot-feedback-continu',
+          '272-penurie-chauffeurs-routiers-maroc',
+          '273-formation-interne-vs-recrutement-externe-maroc',
+          '274-plan-succession-postes-cles-supply-chain-maroc',
         ]
 
         const fetched = await Promise.all(
