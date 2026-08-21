@@ -102,7 +102,7 @@ export default function Impact() {
                 margin: 0,
               }}
             >
-              Quinze ans.
+              20+ ans.
               <br />
               <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>
                 Des résultats mesurés.

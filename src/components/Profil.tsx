@@ -38,7 +38,7 @@ const HIGHLIGHTS = [
     role: 'Agroalimentaire',
     org: 'Traçabilité · supply critique · conformité',
     period: 'Secteur accompagné',
-    img: '/images/hero-supply-chain.jpg',
+    img: '/images/hero-supply-chain.webp',
   },
   {
     role: 'Santé & Pharmaceutique',
