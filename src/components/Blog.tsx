@@ -246,6 +246,17 @@ export default function Blog() {
           '232-formation-hse-entrepot-logistique-maroc',
           '233-iso-9001-pme-logistique-maroc-par-ou-commencer',
           '234-regimes-douaniers-suspensifs-stock-theorique-vs-reel',
+          '235-incoterms-guide-pratique-maroc-importateurs-exportateurs',
+          '236-statut-oea-maroc-accelerer-dedouanement',
+          '237-accords-libre-echange-maroc-reduire-droits-douane',
+          '238-litiges-douaniers-contentieux-import-export-maroc',
+          '239-commerce-triangulaire-maroc-afrique-europe-zones-franches',
+          '240-category-management-achats-structurer-categories',
+          '241-cbam-taxe-carbone-ue-exportateurs-marocains',
+          '242-sourcing-multi-fournisseurs-vs-fournisseur-unique',
+          '243-e-sourcing-plateformes-digitalisation-achats-maroc',
+          '244-tco-cout-total-possession-methode-achats',
+          '245-achats-indirects-gisement-economies-pme-maroc',
         ]
 
         const fetched = await Promise.all(
