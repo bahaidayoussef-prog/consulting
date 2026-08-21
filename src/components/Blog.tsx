@@ -300,6 +300,10 @@ export default function Blog() {
           '298-affretement-sous-traitance-transport-maroc',
           '299-geolocalisation-flotte-transport-maroc',
           '300-transport-frigorifique-routier-maroc-normes',
+          '301-port-ndayane-senegal-futur-mega-port',
+          '302-transit-douanier-afrique-ouest-corridors',
+          '303-digitalisation-logistique-afrique-ouest-erp',
+          '304-zones-logistiques-industrielles-afrique-francophone',
         ]
 
         const fetched = await Promise.all(
