@@ -304,6 +304,10 @@ export default function Blog() {
           '302-transit-douanier-afrique-ouest-corridors',
           '303-digitalisation-logistique-afrique-ouest-erp',
           '304-zones-logistiques-industrielles-afrique-francophone',
+          '305-pca-logistique-maroc-continuite-activite',
+          '306-multi-sourcing-resilience-post-covid-encore-valable',
+          '307-negociation-fournisseurs-inflation-leviers',
+          '308-srm-equipementiers-tier-1-automobile-maroc',
         ]
 
         const fetched = await Promise.all(
