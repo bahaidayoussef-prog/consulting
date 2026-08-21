@@ -1,7 +1,7 @@
 ﻿---
 title: "Entrepôt Multi-Clients au Maroc : Mutualisation Logistique et Prestataires 3PL 2026"
 date: "2026-08-04"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/hero-warehouse.jpg"
 keywords: "entrepôt multi-clients maroc, prestataire logistique 3pl maroc, mutualisation logistique maroc, logistique externalisée maroc, entrepôt partagé maroc"
 description: "Entrepôt multi-clients et mutualisation logistique au Maroc : avantages, modèles d'organisation, critères de choix d'un 3PL et grille tarifaire 2026."

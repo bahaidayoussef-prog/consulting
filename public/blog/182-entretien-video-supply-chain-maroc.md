@@ -1,7 +1,7 @@
 ﻿---
 title: "Réussir son Entretien Vidéo en Supply Chain au Maroc"
 date: "2026-08-05"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/office.jpg"
 keywords: "entretien vidéo supply chain Maroc, entretien Teams Zoom logistique Maroc, entretien à distance supply chain, visioconférence recrutement logistique"
 description: "Comment réussir un entretien supply chain en vidéo (Teams, Zoom) au Maroc ? Préparation technique, présentation, communication non-verbale et erreurs à éviter."

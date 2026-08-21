@@ -1,7 +1,7 @@
 ﻿---
 title: "Case Study: DHL Supply Chain — 3-Site Warehouse Consolidation & Efficiency +25%"
 date: "2026-06-21"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/hero-warehouse.jpg"
 type: "case-study"
 keywords: "DHL, warehouse consolidation, logistics, efficiency"

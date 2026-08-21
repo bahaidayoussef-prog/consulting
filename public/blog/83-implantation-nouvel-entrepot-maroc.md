@@ -1,7 +1,7 @@
 ﻿---
 title: "Implantation d'un Entrepôt au Maroc : Guide Complet de A à Z"
 date: "2026-08-04"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/hero-warehouse.jpg"
 keywords: "implantation entrepôt maroc, ouverture entrepôt maroc, conception entrepôt logistique, projet entrepôt maroc, logistique entrepôt casablanca"
 description: "Guide complet pour implanter un nouvel entrepôt au Maroc : localisation, layout, équipements, WMS, équipes. 7 phases, budgets réels et pièges à éviter."

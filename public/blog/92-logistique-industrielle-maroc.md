@@ -1,7 +1,7 @@
 ﻿---
 title: "Logistique Industrielle au Maroc : Organisation, Flux et Performance 2026"
 date: "2026-08-04"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/hero-warehouse.jpg"
 keywords: "logistique industrielle maroc, supply chain industrielle maroc, flux de production maroc, logistique usine maroc, approvisionnement production maroc"
 description: "Logistique industrielle au Maroc : approvisionnement production, flux intra-usine, gestion des pièces de rechange et interface supply chain / production. Guide opérationnel 2026."

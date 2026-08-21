@@ -1,7 +1,7 @@
 ﻿---
 title: "Formation Planificateur Supply Chain au Maroc : DDMRP, S&OP et Prévisions"
 date: "2026-08-05"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/charts.jpg"
 keywords: "formation planificateur supply chain Maroc, formation ordonnanceur Maroc, formation DDMRP planificateur, prévision demande formation Maroc"
 description: "Formation planificateur supply chain au Maroc : DDMRP, S&OP, prévision de la demande. Programme, compétences et débouchés pour ce métier clé en 2026."

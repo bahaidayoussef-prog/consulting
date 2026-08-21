@@ -1,7 +1,7 @@
 ﻿---
 title: "SRM Maroc : Gérer ses Fournisseurs comme un Actif Stratégique"
 date: "2026-08-05"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/conseil.jpg"
 keywords: "SRM Maroc, gestion fournisseurs Maroc, supplier relationship management, panel fournisseurs Maroc, négociation fournisseurs Maroc"
 description: "Le SRM (Supplier Relationship Management) transforme vos fournisseurs en partenaires de performance. Guide pratique pour les PME/ME marocaines — segmentation, KPI, négociation."

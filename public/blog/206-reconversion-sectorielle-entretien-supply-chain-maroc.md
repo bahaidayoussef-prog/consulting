@@ -1,7 +1,7 @@
 ﻿---
 title: "Changer de Secteur en Supply Chain au Maroc : Réussir son Entretien"
 date: "2026-08-05"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/hero-supply-chain.jpg"
 keywords: "reconversion sectorielle supply chain Maroc, changer secteur logistique Maroc, entretien reconversion supply chain, passer FMCG automobile Maroc"
 description: "Comment convaincre un recruteur supply chain lors d'un changement de secteur au Maroc ? Les arguments à préparer, les compétences transférables, et comment gérer les objections."

@@ -1,7 +1,7 @@
 ﻿---
 title: "Schéma Directeur Logistique pour PME au Maroc : Méthode Adaptée 2026"
 date: "2026-08-04"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/conseil.jpg"
 keywords: "schéma directeur logistique pme maroc, plan directeur supply chain pme, stratégie logistique pme maroc, plan logistique entreprise maroc, roadmap supply chain maroc"
 description: "Comment construire un schéma directeur logistique adapté à une PME marocaine : méthode en 4 étapes, budget réaliste et livrables concrets. Sans le budget d'un grand groupe."

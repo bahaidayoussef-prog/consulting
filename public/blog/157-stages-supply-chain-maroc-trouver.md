@@ -1,7 +1,7 @@
 ﻿---
 title: "Stages Supply Chain au Maroc : Comment Trouver et Maximiser"
 date: "2026-08-05"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/formation.jpg"
 keywords: "stage supply chain Maroc, stage logistique Maroc étudiant, trouver stage supply chain Casablanca, PFE supply chain Maroc"
 description: "Comment trouver un stage supply chain au Maroc et en faire une porte d'entrée vers un emploi ? Sites, entreprises, stratégies et conseils pour maximiser son stage."

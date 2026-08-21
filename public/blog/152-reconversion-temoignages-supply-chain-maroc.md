@@ -1,7 +1,7 @@
 ﻿---
 title: "Reconversion en Supply Chain au Maroc : Témoignages de Profils Réels"
 date: "2026-08-05"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/formation.jpg"
 keywords: "reconversion supply chain Maroc témoignages, changer secteur supply chain Maroc, reconversion logistique réussie Maroc, exemples reconversion supply chain"
 description: "Reconversion professionnelle en supply chain au Maroc : parcours et témoignages de profils qui ont réussi leur transition. Leçons pratiques pour vous guider."

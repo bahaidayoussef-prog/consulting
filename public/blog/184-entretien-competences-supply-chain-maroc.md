@@ -1,7 +1,7 @@
 ﻿---
 title: "L'Entretien par Compétences en Supply Chain : Comment le Réussir"
 date: "2026-08-05"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/conseil.jpg"
 keywords: "entretien compétences supply chain Maroc, entretien structuré logistique, évaluation compétences supply chain entretien, grille compétences logistique recrutement"
 description: "Comment fonctionne l'entretien par compétences en supply chain au Maroc et comment s'y préparer pour maximiser ses chances."

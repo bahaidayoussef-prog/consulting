@@ -1,7 +1,7 @@
 ﻿---
 title: "Benchmark Coûts Logistiques au Maroc 2026 : Ratios, Normes et Comparaisons"
 date: "2026-08-04"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/charts.jpg"
 keywords: "coûts logistiques maroc, benchmark logistique maroc, ratio coût logistique maroc, coût supply chain maroc, performance logistique maroc 2026"
 description: "Benchmark des coûts logistiques au Maroc 2026 : ratios par secteur, coût entrepôt, transport, stocks. Comparez votre performance aux normes du marché marocain."

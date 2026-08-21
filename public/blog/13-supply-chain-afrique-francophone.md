@@ -1,7 +1,7 @@
 ﻿---
 title: "Conseil Supply Chain Afrique Francophone — Expert Logistique Régionale"
 date: "2026-06-21"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/hero-supply-chain.jpg"
 keywords: "conseil supply chain Afrique, logistique Sénégal Côte d'Ivoire Congo, expert supply chain francophone"
 description: "Expert supply chain pour Afrique francophone. Sénégal, Côte d'Ivoire, Congo, Cameroun. Audit, formation, digitalisation."

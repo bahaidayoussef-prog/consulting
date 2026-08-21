@@ -1,7 +1,7 @@
 ﻿---
 title: "Case Study: Diana Holding — Multi-Filiale S&OP: Stock -20%, Cash -12 Days"
 date: "2026-06-21"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/agro.jpg"
 type: "case-study"
 keywords: "Diana Holding, S&OP, multi-site, working capital"

@@ -1,7 +1,7 @@
 ﻿---
 title: "ROI Formation Supply Chain : Transformation Mesurable en 90 Jours"
 date: "2026-06-21"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/analytics.jpg"
 keywords: "formation supply chain Maroc, certification APICS, formation logistique, ROI formation, montée en compétence"
 description: "Comment une formation supply chain génère ROI en 90 jours. Données réelles de 40+ cadres formés : adoption tech +40%, économies 8-15%."

@@ -1,7 +1,7 @@
 ﻿---
 title: "Nearshoring au Maroc : Pourquoi les Entreprises Européennes Relocalisent"
 date: "2026-08-05"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/transport.jpg"
 keywords: "nearshoring Maroc, relocalisation supply chain, Maroc hub logistique, supply chain Europe Maroc, offshoring Maroc"
 description: "Le nearshoring au Maroc s'accélère en 2026. Pourquoi les entreprises européennes relocalisent leur supply chain au Maroc — et comment en tirer parti concrètement."

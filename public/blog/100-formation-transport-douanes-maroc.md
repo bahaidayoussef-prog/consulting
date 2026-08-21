@@ -1,7 +1,7 @@
 ﻿---
 title: "Formation Transport et Douanes au Maroc : Transit, Incoterms et Conformité 2026"
 date: "2026-08-04"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/analytics.jpg"
 keywords: "formation transport maroc, formation douanes maroc, formation transit douanier maroc, incoterms formation maroc, formation import export maroc"
 description: "Formation transport et douanes au Maroc : Incoterms 2020, procédures douanières, transit import/export, documents de transport. Programme complet pour les professionnels du commerce international."

@@ -1,7 +1,7 @@
 ﻿---
 title: "Répondre à 'Quelle est votre Faiblesse ?' en Entretien Supply Chain"
 date: "2026-08-05"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/conseil.jpg"
 keywords: "faiblesse entretien supply chain Maroc, point faible entretien logistique, répondre faiblesse entretien recrutement, question difficile entretien supply chain"
 description: "Comment répondre à la question 'Quelle est votre principale faiblesse ?' en entretien supply chain au Maroc ? Stratégie, exemples et erreurs à éviter."

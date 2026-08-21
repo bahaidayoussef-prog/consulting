@@ -1,7 +1,7 @@
 ﻿---
 title: "Travailler en Supply Chain dans le Golfe depuis le Maroc : Guide Pratique"
 date: "2026-08-05"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/transport.jpg"
 keywords: "emploi supply chain Golfe Maroc, logistique EAU Qatar Arabie expatriation Maroc, supply chain Dubai Maroc, travailler Golfe supply chain"
 description: "Comment trouver un emploi en supply chain dans le Golfe (EAU, Arabie Saoudite, Qatar) depuis le Maroc ? Salaires, entreprises qui recrutent, visa, et stratégie."

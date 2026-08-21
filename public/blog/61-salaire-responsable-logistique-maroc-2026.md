@@ -1,7 +1,7 @@
 ﻿---
 title: "Salaire Responsable Logistique au Maroc 2026 : Grilles, Écarts et Leviers"
 date: "2026-07-20"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/business.jpg"
 keywords: "salaire responsable logistique maroc, salaire supply chain manager maroc, rémunération logistique maroc, salaire chef d entrepôt maroc, logistique emploi maroc 2026"
 description: "Découvrez les salaires réels des Responsables Logistiques et Supply Chain Managers au Maroc en 2026, par secteur, niveau et ville. Basé sur 110+ missions terrain."

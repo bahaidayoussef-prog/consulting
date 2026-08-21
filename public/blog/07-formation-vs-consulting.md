@@ -1,7 +1,7 @@
 ﻿---
 title: "Formation ou Consulting : Quelle Approche Choisir?"
 date: "2026-06-21"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/business.jpg"
 keywords: "formation supply chain, conseil consulting, formation vs consulting, comment choisir, transformation supply chain"
 description: "Formation seule vs Consulting seul vs Formation + Consulting : guide de décision avec data réelle."

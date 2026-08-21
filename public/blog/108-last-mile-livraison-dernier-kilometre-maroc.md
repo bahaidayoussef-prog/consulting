@@ -1,7 +1,7 @@
 ﻿---
 title: "Last Mile au Maroc : Résoudre le Problème du Dernier Kilomètre en 2026"
 date: "2026-08-05"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/transport.jpg"
 keywords: "last mile Maroc, livraison dernier kilomètre Maroc, logistique urbaine Maroc, livreurs Maroc, coût livraison Maroc"
 description: "Le dernier kilomètre représente 30 à 50% du coût logistique total. Comment les entreprises marocaines optimisent leur last mile en 2026 — modèles, coûts, solutions concrètes."

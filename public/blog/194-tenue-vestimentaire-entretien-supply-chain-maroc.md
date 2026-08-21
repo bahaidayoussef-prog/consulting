@@ -1,7 +1,7 @@
 ﻿---
 title: "Tenue Vestimentaire pour un Entretien Supply Chain au Maroc"
 date: "2026-08-05"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/office.jpg"
 keywords: "tenue entretien supply chain Maroc, comment s'habiller entretien logistique, vestimentaire recrutement supply chain Maroc, s'habiller entretien professionnel Maroc"
 description: "Comment s'habiller pour un entretien supply chain au Maroc ? Conseils par type de poste et d'entreprise, erreurs à éviter et comment adapter sa tenue au contexte."

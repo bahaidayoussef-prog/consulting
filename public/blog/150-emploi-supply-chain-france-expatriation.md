@@ -1,7 +1,7 @@
 ﻿---
 title: "Emploi Supply Chain en France pour les Professionnels Marocains"
 date: "2026-08-05"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/conseil.jpg"
 keywords: "emploi supply chain France Maroc, expatriation logistique France, travail supply chain France marocain, visa travail France supply chain"
 description: "Comment les professionnels supply chain marocains peuvent trouver un emploi en France ? Visa, équivalences, salaires, secteurs qui recrutent et démarches pratiques."

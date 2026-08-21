@@ -1,7 +1,7 @@
 ﻿---
 title: "Compétences Digitales du Logisticien en 2026 : Ce qu'il Faut Maîtriser"
 date: "2026-08-05"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/hero-supply-chain.jpg"
 keywords: "compétences digitales logisticien Maroc, outils digitaux supply chain, Excel supply chain Maroc, ERP logistique Maroc, compétences tech supply chain"
 description: "Quelles compétences digitales doit maîtriser un logisticien en 2026 au Maroc ? De l'Excel avancé à la data analytics, le guide complet des outils indispensables."

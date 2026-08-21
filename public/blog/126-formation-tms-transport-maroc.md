@@ -1,7 +1,7 @@
 ﻿---
 title: "Formation TMS au Maroc : Optimiser le Transport avec un Logiciel"
 date: "2026-08-05"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/transport.jpg"
 keywords: "formation TMS Maroc, Transport Management System formation, optimisation transport Maroc, logiciel transport formation, TMS déploiement Maroc"
 description: "Formation TMS au Maroc : comment choisir, déployer et maîtriser un système de gestion du transport. Programme, outils disponibles et résultats attendus."

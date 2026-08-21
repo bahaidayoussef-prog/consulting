@@ -1,7 +1,7 @@
 ﻿---
 title: "Devenir Consultant Freelance Supply Chain au Maroc : Guide Complet"
 date: "2026-08-05"
-author: "Youssef"
+author: "Essor Consulting"
 image: "/images/conseil.jpg"
 keywords: "consultant freelance supply chain Maroc, indépendant logistique Maroc, auto-entrepreneur logistique Maroc, devenir consultant supply chain"
 description: "Devenir consultant freelance supply chain au Maroc : comment se lancer, trouver ses premiers clients, fixer ses tarifs et structurer son activité. Guide d'un praticien."
