@@ -288,6 +288,13 @@ export default function Blog() {
           '286-agile-supply-chain-maroc-scrum-kanban',
           '287-gouvernance-projet-logistique-multi-sites',
           '288-change-management-projet-erp-wms-maroc',
+          '289-logistique-miniere-maroc-hors-ocp',
+          '290-supply-chain-btp-penurie-materiel-maroc',
+          '291-supply-chain-hotellerie-tourisme-maroc',
+          '292-dispositifs-medicaux-chaine-approvisionnement-maroc',
+          '293-supply-chain-huile-argan-export-maroc',
+          '294-logistique-peche-agadir-dakhla-export',
+          '295-supply-chain-textile-technique-denim-maroc',
         ]
 
         const fetched = await Promise.all(
