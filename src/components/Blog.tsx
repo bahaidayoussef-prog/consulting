@@ -261,6 +261,12 @@ export default function Blog() {
           '259-emballages-durables-reduction-couts-logistiques',
           '260-entrepots-eco-responsables-certification-energie',
           '261-maroc-leader-africain-logistique-durable',
+          '262-buffer-stock-ecommerce-maroc-stockage-local',
+          '263-paiement-livraison-cod-maroc-logistique',
+          '264-dark-store-micro-fulfillment-maroc',
+          '265-livraison-zones-rurales-enclavees-maroc',
+          '266-retours-ecommerce-cout-cache-maroc',
+          '267-marketplace-vs-vente-directe-logistique-maroc',
         ]
 
         const fetched = await Promise.all(
