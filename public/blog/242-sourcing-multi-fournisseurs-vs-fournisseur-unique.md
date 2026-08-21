@@ -22,10 +22,6 @@ Quand un fournisseur stratégique fait défaut, 60 à 80% du coût réel de la r
 
 > **Il suffit parfois d'un composant à quelques euros pour arrêter une chaîne de production complète.** L'enjeu du sourcing n'est jamais proportionnel au prix unitaire de l'article, il est proportionnel à la dépendance opérationnelle qu'il crée — un critère que la seule matrice de coût ne capture pas.
 
-## Un signal de plus en plus surveillé, y compris par les régulateurs
-
-Le commissaire européen chargé du commerce, Maros Sefcovic, a évoqué un cadre légal visant à imposer un approvisionnement tripartite dès qu'un fournisseur unique concentre 40% des volumes d'un secteur jugé sensible — une proposition, à ce stade, pas encore une réglementation adoptée, mais un signal clair de la direction que prend la régulation européenne sur la dépendance fournisseur ([SupplyObserver](https://supplyobserver.com/p/alerte-3-sourcing-l-europe-s-attaque-au-single-sourcing-et-votre-supply-chain-n-est-pas-pre-te)). Pour une entreprise marocaine fournisseur de donneurs d'ordre européens, cette évolution réglementaire potentielle est un argument supplémentaire pour ne pas se positionner soi-même en fournisseur unique non redondé sur une catégorie stratégique.
-
 ## Les signaux faibles existent, encore faut-il les surveiller
 
 Près de six défaillances sur dix d'un fournisseur critique se révèlent, après coup, avoir été précédées de signaux faibles détectables au moins six mois en amont — retards de livraison croissants, dégradation de la qualité, rotation du personnel clé, difficultés financières visibles. Le sourcing multiple n'est pas la seule protection possible : un monitoring actif des fournisseurs stratégiques, même en single sourcing, permet souvent d'anticiper la bascule vers un fournisseur de secours avant la rupture effective plutôt qu'après.
@@ -44,5 +40,4 @@ Vous voulez évaluer votre exposition au risque fournisseur unique sur vos caté
 
 **Sources consultées pour cet article :**
 - [Décision Achats — Approvisionnements : anticiper et prévenir les risques de rupture de la supply chain](https://www.decision-achats.fr/Thematique/supply-logistique-1297/conjoncture-economique-2269/Breves/Approvisionnements-anticiper-prevenir-risques-rupture-supply-chain-361951.htm)
-- [SupplyObserver — Alerte 3-Sourcing : l'Europe s'attaque au single sourcing](https://supplyobserver.com/p/alerte-3-sourcing-l-europe-s-attaque-au-single-sourcing-et-votre-supply-chain-n-est-pas-pre-te)
 - [GEP — Dual Sourcing: A Successful Supply Chain Management Strategy](https://www.gep.com/blog/strategy/dual-sourcing-benefits-challenges-strategies)
