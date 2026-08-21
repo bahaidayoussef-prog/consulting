@@ -757,6 +757,14 @@ export const FAQ = [
     q: 'Quel est le délai entre l\'inscription et la première session ?',
     a: "Pour les formations inter-entreprises, consultez le calendrier ci-dessus — les prochaines sessions sont ouvertes jusqu'à 3 mois à l'avance. Pour l'intra-entreprise, comptez 2 à 3 semaines entre la demande de devis et la session, selon vos disponibilités.",
   },
+  {
+    q: 'La formation CACES délivre-t-elle une certification officielle ou une attestation interne ?',
+    a: "Une attestation de formation interne Essor Consulting, pas une certification CACES® officielle française. Le Maroc ne dispose pas d'organisme testeur agréé équivalent à celui utilisé en France pour délivrer le certificat CACES® officiel — notre formation prépare aux référentiels R489 mais reste, par nature, une attestation interne.",
+  },
+  {
+    q: 'Proposez-vous un suivi après une formation HSE ou Maturité Logistique ?',
+    a: "Ça dépend du programme. La formation Maturité Logistique inclut un suivi WhatsApp de 30 jours, comme les autres programmes phares. La formation HSE Entrepôt & Logistique n'inclut pas ce suivi dans sa formule actuelle — elle comprend la grille d'audit HSE fournie, le cas pratique sur site, le support de formation et l'attestation.",
+  },
 ]
 
 const programmesSchema = {

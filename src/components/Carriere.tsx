@@ -1,8 +1,79 @@
 import { useRef, useState } from 'react'
 import { motion, AnimatePresence, useInView } from 'framer-motion'
 import { Link } from 'react-router-dom'
+import { SchemaScript } from './SchemaHelper'
+import { generateFAQSchema } from '../utils/seoData'
 
 const ease = [0.16, 1, 0.3, 1] as const
+
+const FAQ = [
+  {
+    q: 'Comment se déroule le processus de recrutement chez Essor Consulting ?',
+    a: "Vous postulez par email avec votre CV, ou via notre formulaire de contact. Nous restons une équipe volontairement resserrée : chaque candidature est étudiée individuellement, sans parcours d'entretiens standardisé sur plusieurs semaines. Un profil retenu démarre directement sur le terrain, en binôme avec un consultant senior qui sert de référent sur les premières missions.",
+  },
+  {
+    q: 'Acceptez-vous les candidatures spontanées si aucune offre ne correspond à mon profil ?',
+    a: "Oui. En dehors du poste de Consultant(e) Supply Chain Junior actuellement ouvert, aucune autre offre n'est publiée pour le moment pour les profils consultants seniors ou équipe administrative — mais nous étudions chaque candidature spontanée. Envoyez-nous votre parcours par email, nous vous recontactons si une opportunité correspond.",
+  },
+]
+
+function FAQItem({ item }: { item: { q: string; a: string } }) {
+  const [open, setOpen] = useState(false)
+  const ref = useRef(null)
+  const inView = useInView(ref, { once: true, margin: '-40px' })
+
+  return (
+    <motion.div
+      ref={ref}
+      initial={{ opacity: 0, y: 24 }}
+      animate={inView ? { opacity: 1, y: 0 } : {}}
+      transition={{ duration: 0.6, ease }}
+      style={{ borderTop: '1px solid var(--border)' }}
+    >
+      <button
+        onClick={() => setOpen((o) => !o)}
+        style={{
+          width: '100%',
+          display: 'flex',
+          justifyContent: 'space-between',
+          alignItems: 'center',
+          gap: '2rem',
+          background: 'none',
+          border: 'none',
+          cursor: 'pointer',
+          padding: '1.75rem 0',
+          textAlign: 'left',
+        }}
+      >
+        <span style={{ fontFamily: 'Jost, sans-serif', fontSize: '1.05rem', fontWeight: 600, color: 'var(--navy)' }}>
+          {item.q}
+        </span>
+        <motion.span
+          animate={{ rotate: open ? 45 : 0 }}
+          transition={{ duration: 0.2 }}
+          style={{ fontSize: '1.4rem', color: 'var(--blue-bright)', flexShrink: 0, lineHeight: 1 }}
+        >
+          +
+        </motion.span>
+      </button>
+      <AnimatePresence initial={false}>
+        {open && (
+          <motion.div
+            initial={{ height: 0, opacity: 0 }}
+            animate={{ height: 'auto', opacity: 1 }}
+            exit={{ height: 0, opacity: 0 }}
+            transition={{ duration: 0.35, ease }}
+            style={{ overflow: 'hidden' }}
+          >
+            <p style={{ fontSize: '0.95rem', color: 'var(--dark-muted)', lineHeight: 1.8, fontWeight: 300, paddingBottom: '1.75rem', maxWidth: 760 }}>
+              {item.a}
+            </p>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </motion.div>
+  )
+}
 
 const STATS = [
   { value: '5', label: 'Consultants dans l’équipe' },
@@ -389,6 +460,27 @@ export default function Carriere() {
               </a>
             </div>
           </FadeUp>
+        </div>
+      </section>
+
+      {/* ── FAQ ── */}
+      <section style={{ background: '#ffffff', padding: '8rem 4rem', color: 'var(--navy)' }}>
+        <SchemaScript schema={generateFAQSchema(FAQ)} />
+        <div className="section-inner">
+          <FadeUp>
+            <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--mid)', marginBottom: '1.5rem' }}>
+              05 / Questions fréquentes
+            </div>
+            <h2 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2.5rem, 5vw, 6rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', color: 'var(--navy)', margin: '0 0 4rem' }}>
+              Vos questions,<br />
+              <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>nos réponses.</span>
+            </h2>
+          </FadeUp>
+          <div style={{ maxWidth: 900 }}>
+            {FAQ.map((item, i) => (
+              <FAQItem key={i} item={item} />
+            ))}
+          </div>
         </div>
       </section>
     </>
