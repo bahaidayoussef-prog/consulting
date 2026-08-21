@@ -245,6 +245,14 @@ export default function Blog() {
           '243-e-sourcing-plateformes-digitalisation-achats-maroc',
           '244-tco-cout-total-possession-methode-achats',
           '245-achats-indirects-gisement-economies-pme-maroc',
+          '246-robots-automatisation-entrepot-maroc-etat-des-lieux',
+          '247-digital-twin-jumeau-numerique-supply-chain-usage',
+          '248-blockchain-tracabilite-agroalimentaire-export-maroc',
+          '249-control-tower-logistique-piloter-temps-reel',
+          '250-cybersecurite-supply-chain-fournisseurs-maroc',
+          '251-iot-capteurs-connectes-entrepot-maroc',
+          '252-automatisation-achats-ia-p2p-maroc',
+          '253-tableau-de-bord-ia-supply-chain-sans-data-scientist',
         ]
 
         const fetched = await Promise.all(
