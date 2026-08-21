@@ -283,6 +283,11 @@ export default function Blog() {
           '281-wms-vs-erp-integre-entrepot-maroc',
           '282-interoperabilite-erp-wms-tms-connecter-systemes',
           '283-choisir-logiciel-prevision-demande-pme-maroc',
+          '284-certification-pmp-maroc-supply-chain',
+          '285-methode-transformation-supply-chain-5-phases',
+          '286-agile-supply-chain-maroc-scrum-kanban',
+          '287-gouvernance-projet-logistique-multi-sites',
+          '288-change-management-projet-erp-wms-maroc',
         ]
 
         const fetched = await Promise.all(
