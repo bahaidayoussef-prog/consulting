@@ -295,6 +295,11 @@ export default function Blog() {
           '293-supply-chain-huile-argan-export-maroc',
           '294-logistique-peche-agadir-dakhla-export',
           '295-supply-chain-textile-technique-denim-maroc',
+          '296-transport-multimodal-maroc-reduire-couts',
+          '297-autoroute-mer-tanger-europe-alternative',
+          '298-affretement-sous-traitance-transport-maroc',
+          '299-geolocalisation-flotte-transport-maroc',
+          '300-transport-frigorifique-routier-maroc-normes',
         ]
 
         const fetched = await Promise.all(
