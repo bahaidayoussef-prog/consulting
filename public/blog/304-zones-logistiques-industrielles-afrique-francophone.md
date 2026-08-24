@@ -34,7 +34,7 @@ Avant de choisir une zone industrielle en Afrique francophone, une entreprise a 
 
 Les zones industrielles francophones émergentes (Bénin, Togo, Gabon, Rwanda) offrent un point d'entrée structuré pour un investisseur, avec l'exemple rwandais illustrant le potentiel de montée en gamme quand la zone est bien conçue — un modèle que le Maroc a déjà largement expérimenté avec ses propres zones franches. Notre article sur les [zones franches marocaines comparées](/blog?post=zones-franches-marocaines-compares-tanger-med-tfz-tac-et-mid) détaille le modèle de référence marocain ; notre article sur le [corridor Maroc-Afrique de l'Ouest](/blog?post=corridor-maroc-afrique-de-louest-comment-les-entreprises-mar) situe cette dynamique d'implantation dans la stratégie régionale des entreprises marocaines.
 
-Vous envisagez une implantation logistique ou industrielle en Afrique francophone ? [Découvrez nos services conseil supply chain](/services), ou [contactez-nous](/contact) pour en discuter.
+Vous envisagez une implantation logistique ou industrielle en Afrique francophone ? [Découvrez nos services conseil supply chain](/conseil), ou [contactez-nous](/contact) pour en discuter.
 
 **Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
 

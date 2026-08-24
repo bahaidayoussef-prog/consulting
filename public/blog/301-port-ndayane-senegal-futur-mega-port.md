@@ -34,7 +34,7 @@ Ndayane ne remplace pas le port de Dakar, il le complète en absorbant une parti
 
 Le port de Ndayane, porté par un investissement massif de DP World et un calendrier de construction en avance sur les prévisions, va progressivement redessiner l'équilibre logistique régional ouest-africain à partir de 2028 — un projet à suivre dès maintenant pour toute entreprise marocaine exportatrice vers cette zone. Notre article sur le [corridor Maroc-Afrique de l'Ouest](/blog?post=corridor-maroc-afrique-de-louest-comment-les-entreprises-mar) situe ce nouveau port dans la stratégie d'exportation des entreprises marocaines vers le Sahel ; notre article sur le [Port de Dakar et le corridor Dakar-Bamako](/blog?post=supply-chain-sngal-le-port-de-dakar-verrou-logistique-ouest-) détaille l'infrastructure historique que Ndayane vient compléter.
 
-Vous exportez vers l'Afrique de l'Ouest et voulez anticiper l'impact de ce nouveau port sur votre stratégie logistique ? [Découvrez nos services conseil supply chain](/services), ou [contactez-nous](/contact) pour en discuter.
+Vous exportez vers l'Afrique de l'Ouest et voulez anticiper l'impact de ce nouveau port sur votre stratégie logistique ? [Découvrez nos services conseil supply chain](/conseil), ou [contactez-nous](/contact) pour en discuter.
 
 **Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
 

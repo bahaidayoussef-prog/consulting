@@ -11,7 +11,7 @@ export default function DemoTmsPage() {
         subtitle="Aperçu interactif d'un système de gestion du transport : tournées de livraison, statut de flotte en direct. Données fictives."
         tag="DÉMONSTRATION INTERACTIVE"
         bg="var(--paper)"
-        breadcrumb={{ label: 'Services', to: '/services' }}
+        breadcrumb={{ label: 'Conseil', to: '/conseil' }}
       />
       <DemoTms />
     </>

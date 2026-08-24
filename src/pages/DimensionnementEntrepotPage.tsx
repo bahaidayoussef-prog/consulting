@@ -11,7 +11,7 @@ export default function DimensionnementEntrepotPage() {
         subtitle="Estimez en 2 minutes la surface, le nombre de baies et de quais nécessaires à votre entrepôt. Gratuit, sans engagement."
         tag="SIMULATEUR GRATUIT"
         bg="var(--paper)"
-        breadcrumb={{ label: 'Services', to: '/services' }}
+        breadcrumb={{ label: 'Conseil', to: '/conseil' }}
       />
       <DimensionnementSimulator />
     </>

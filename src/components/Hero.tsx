@@ -303,7 +303,7 @@ export default function Hero() {
             <Link to="/contact" className="btn-primary" style={{ whiteSpace: 'normal', textAlign: 'center', maxWidth: '100%' }}>
               Réserver un échange gratuit →
             </Link>
-            <Link to="/services" className="btn-ghost" style={{ whiteSpace: 'normal', textAlign: 'center', maxWidth: '100%' }}>
+            <Link to="/conseil" className="btn-ghost" style={{ whiteSpace: 'normal', textAlign: 'center', maxWidth: '100%' }}>
               Nos offres
             </Link>
           </motion.div>

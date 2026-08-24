@@ -34,7 +34,7 @@ Au-delà de l'axe Europe-Maroc, des corridors reliant Tanger Med à Dakar, Abidj
 
 Le commerce triangulaire Maroc-Afrique-Europe repose sur un modèle concret et réplicable : décharger, transformer en zone franche, réexporter — rendu possible par la combinaison de la capacité portuaire de Tanger Med et du réseau de zones franches marocaines. Ce n'est un avantage réel que si la transformation opérée a une substance économique vérifiable, pas seulement un avantage fiscal de façade. Notre article sur les [zones franches marocaines comparées](/blog?post=zones-franches-marocaines-compares-tanger-med-tfz-tac-et-mid) détaille les spécificités de chacune de ces plateformes ; notre article sur le [corridor Maroc-Afrique de l'Ouest](/blog?post=corridor-maroc-afrique-de-louest-comment-les-entreprises-mar) présente le volet sud de cette stratégie, vers les pays du Sahel.
 
-Vous étudiez une implantation de transformation ou de réexportation entre l'Europe et l'Afrique via le Maroc ? [Découvrez nos services de conseil supply chain et douane](/services), ou [contactez-nous](/contact) pour structurer votre projet.
+Vous étudiez une implantation de transformation ou de réexportation entre l'Europe et l'Afrique via le Maroc ? [Découvrez nos services de conseil supply chain et douane](/conseil), ou [contactez-nous](/contact) pour structurer votre projet.
 
 **Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
 

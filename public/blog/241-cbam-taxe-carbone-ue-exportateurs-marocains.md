@@ -34,7 +34,7 @@ Pour les secteurs déjà couverts, l'enjeu immédiat est la fiabilité des donn�
 
 Le CBAM européen est passé d'une obligation déclarative à un coût financier réel depuis le 1er janvier 2026, concernant aujourd'hui 3 à 3,7% des exportations marocaines vers l'UE — principalement les engrais et le ciment — avant une extension prévue en 2028 qui portera l'exposition à environ 10%, en intégrant l'automobile et le textile, deux secteurs stratégiques pour le Maroc. Aucun accord commercial préférentiel n'en exempte. Notre article sur les [achats durables et RSE fournisseurs](/blog?post=achats-durables-et-rse-fournisseurs-la-grille-daudit-pour-pm) détaille un mécanisme européen voisin (CSRD) qui pousse dans la même direction ; notre article sur l'[hydrogène vert et l'ammoniac de l'OCP](/blog?post=hydrogne-vert-et-ammoniac-la-nouvelle-chane-logistique-que-l) illustre comment le secteur le plus exposé au CBAM aujourd'hui investit justement dans sa propre décarbonation.
 
-Votre entreprise exporte vers l'UE dans un secteur concerné par le CBAM, aujourd'hui ou à l'horizon 2028 ? [Découvrez nos services de conseil achats et supply chain](/services), ou [contactez-nous](/contact) pour anticiper votre mise en conformité.
+Votre entreprise exporte vers l'UE dans un secteur concerné par le CBAM, aujourd'hui ou à l'horizon 2028 ? [Découvrez nos services de conseil achats et supply chain](/conseil), ou [contactez-nous](/contact) pour anticiper votre mise en conformité.
 
 **Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
 

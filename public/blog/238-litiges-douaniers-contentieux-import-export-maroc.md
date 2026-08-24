@@ -34,7 +34,7 @@ La plupart des litiges douaniers ne naissent pas d'une volonté de fraude, mais 
 
 Le contentieux douanier marocain suit une procédure structurée — réclamation préalable, recours en cascade, éventuellement tribunal administratif — mais se résout dans la grande majorité des cas par une transaction négociée plutôt qu'un jugement. Les délais de réclamation sont courts et courent dès la notification : la meilleure protection reste la prévention, sur les trois points de friction les plus fréquents (valeur en douane, origine préférentielle, stock sous régime suspensif). Notre article sur les [régimes douaniers suspensifs](/blog?post=rgimes-douaniers-suspensifs-admission-temporaire-eif-stock-t) détaille le mécanisme de l'offre transactionnelle appliqué à un écart de stock ; notre article sur le [statut d'Opérateur Économique Agréé](/blog?post=statut-doprateur-conomique-agr-oea-acclrer-son-ddouanement) présente à l'inverse comment un historique sans contentieux ouvre l'accès à des procédures douanières simplifiées.
 
-Votre entreprise fait face à une notification ou un contrôle douanier, ou souhaite auditer ses pratiques déclaratives en amont ? [Découvrez nos services de conseil douane et supply chain](/services), ou [contactez-nous](/contact) pour en discuter.
+Votre entreprise fait face à une notification ou un contrôle douanier, ou souhaite auditer ses pratiques déclaratives en amont ? [Découvrez nos services de conseil douane et supply chain](/conseil), ou [contactez-nous](/contact) pour en discuter.
 
 **Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
 

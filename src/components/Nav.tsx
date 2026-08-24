@@ -19,12 +19,18 @@ interface SimpleItem {
   disabled?: boolean
 }
 
-const SERVICES_ITEMS: SimpleItem[] = [
-  { label: 'Diagnostic & Conseil', href: '/services#conseil' },
-  { label: 'DDMRP', href: '/services#conseil' },
-  { label: 'Systèmes SI & IA', href: '/services#systemes' },
+const CONSEIL_ITEMS: SimpleItem[] = [
+  { label: 'Diagnostic & Conseil', href: '/conseil' },
+  { label: 'DDMRP', href: '/conseil' },
+  { label: 'Systèmes SI & IA', href: '/conseil' },
   { label: 'Direction SC à Temps Partagé', href: '/direction-supply-chain-temps-partage' },
   { label: 'FAQ', href: '/faq' },
+]
+
+const PRESTATIONS_ITEMS: SimpleItem[] = [
+  { label: 'Pack Inventaire', href: '/prestations' },
+  { label: 'Services Logistiques à Valeur Ajoutée', href: '/prestations' },
+  { label: 'Imprimantes Leibinger', href: '/prestations' },
 ]
 
 const TOOLS_ITEMS = [
@@ -47,10 +53,11 @@ const CABINET_ITEMS: SimpleItem[] = [
   { label: 'Carrière', href: '/carriere' },
 ]
 
-type GroupId = 'services' | 'outils' | 'ressources' | 'cabinet'
+type GroupId = 'conseil' | 'prestations' | 'outils' | 'ressources' | 'cabinet'
 
 const GROUPS: Array<{ id: GroupId; label: string }> = [
-  { id: 'services', label: 'Services' },
+  { id: 'conseil', label: 'Conseil' },
+  { id: 'prestations', label: 'Prestations' },
   { id: 'outils', label: 'Outils gratuits' },
   { id: 'ressources', label: 'Ressources' },
   { id: 'cabinet', label: 'Cabinet' },
@@ -194,7 +201,19 @@ function NavGroup({ id, label, active, openId, setOpenId }: { id: GroupId; label
               zIndex: 120,
             }}
           >
-            {id === 'outils' ? <ToolsGrid onNavigate={() => setOpenId(null)} /> : <SimpleList items={id === 'services' ? SERVICES_ITEMS : id === 'ressources' ? RESOURCES_ITEMS : CABINET_ITEMS} onNavigate={() => setOpenId(null)} />}
+            {id === 'outils' ? (
+              <ToolsGrid onNavigate={() => setOpenId(null)} />
+            ) : (
+              <SimpleList
+                items={
+                  id === 'conseil' ? CONSEIL_ITEMS
+                    : id === 'prestations' ? PRESTATIONS_ITEMS
+                    : id === 'ressources' ? RESOURCES_ITEMS
+                    : CABINET_ITEMS
+                }
+                onNavigate={() => setOpenId(null)}
+              />
+            )}
           </motion.div>
         )}
       </AnimatePresence>
@@ -238,7 +257,8 @@ export default function Nav() {
   }, [])
 
   const groupActive = (id: GroupId) => {
-    if (id === 'services') return pathname === '/services' || pathname === '/faq' || pathname === '/direction-supply-chain-temps-partage' || pathname === '/directeur-logistique-mi-temps' || pathname === '/directeur-achats-mi-temps' || pathname === '/dsc-vs-recrutement-cdi'
+    if (id === 'conseil') return pathname === '/conseil' || pathname === '/services' || pathname === '/faq' || pathname === '/direction-supply-chain-temps-partage' || pathname === '/directeur-logistique-mi-temps' || pathname === '/directeur-achats-mi-temps' || pathname === '/dsc-vs-recrutement-cdi'
+    if (id === 'prestations') return pathname === '/prestations'
     if (id === 'outils') return pathname.startsWith('/outils') || pathname.startsWith('/demo')
     if (id === 'ressources') return pathname === '/blog' || pathname === '/formation'
     if (id === 'cabinet') return pathname === '/a-propos' || pathname === '/references'

@@ -34,7 +34,7 @@ La digitalisation logistique en Afrique de l'Ouest ne se résout pas uniquement 
 
 La digitalisation logistique en Afrique de l'Ouest se heurte à des contraintes structurelles (coût, connectivité, compétences) que les ERP occidentaux classiques ne résolvent pas nativement — le choix d'un outil doit d'abord passer le test de la résilience à une connectivité intermittente, avant même la richesse fonctionnelle affichée. Notre article sur les [3PL et 4PL en Afrique francophone](/blog?post=3pl-et-4pl-en-afrique-francophone-qui-sont-les-acteurs-et-co) présente les prestataires qui composent déjà avec ces contraintes locales ; notre article sur le [SAP vs Odoo vs Dynamics 365](/blog?post=sap-vs-odoo-vs-dynamics-365-quel-erp-pour-la-supply-chain-du) offre un comparatif ERP transposable, avec cette réserve de connectivité en plus pour un déploiement ouest-africain.
 
-Vous opérez en Afrique de l'Ouest et voulez évaluer une solution logistique adaptée à vos contraintes de connectivité ? [Découvrez nos services conseil supply chain](/services), ou [contactez-nous](/contact) pour en discuter.
+Vous opérez en Afrique de l'Ouest et voulez évaluer une solution logistique adaptée à vos contraintes de connectivité ? [Découvrez nos services conseil supply chain](/conseil), ou [contactez-nous](/contact) pour en discuter.
 
 **Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
 

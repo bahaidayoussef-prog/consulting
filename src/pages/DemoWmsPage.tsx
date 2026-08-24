@@ -11,7 +11,7 @@ export default function DemoWmsPage() {
         subtitle="Aperçu interactif d'un système de gestion d'entrepôt : plan des emplacements, stock en temps réel, carte de chaleur d'activité. Données fictives."
         tag="DÉMONSTRATION INTERACTIVE"
         bg="var(--paper)"
-        breadcrumb={{ label: 'Services', to: '/services' }}
+        breadcrumb={{ label: 'Conseil', to: '/conseil' }}
       />
       <DemoWms />
     </>

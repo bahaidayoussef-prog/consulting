@@ -421,19 +421,19 @@ html.lenis { height: auto; }
   .profil-header-grid { grid-template-columns: 1fr !important; gap: 2.5rem !important; }
   /* Carrière : intro 2 colonnes → 1 */
   .carriere-intro-grid { grid-template-columns: 1fr !important; gap: 2rem !important; }
-  /* Accueil : insight éditorial 2 colonnes → 1, teaser offres 3 → 1, aperçu Formation 2 → 1 */
+  /* Accueil : insight éditorial 2 colonnes → 1, "nos deux façons de vous accompagner" 2 → 1, aperçu Formation 2 → 1 */
   .home-insight-grid { grid-template-columns: 1fr !important; gap: 2.5rem !important; }
-  .home-offers-grid { grid-template-columns: 1fr !important; }
+  .home-accompagnements-grid { grid-template-columns: 1fr !important; }
   .home-formation-grid { grid-template-columns: 1fr !important; gap: 2rem !important; }
-  /* Services (Conseil) : Pack Inventaire 3 paliers → 1 */
+  /* Prestations : Pack Inventaire 3 paliers → 1 */
   .pack-inventaire-grid { grid-template-columns: 1fr !important; }
   /* Direction SC à Temps Partagé : déclinaisons par métier 3 colonnes → 1 */
   .dsc-declinaisons-grid { grid-template-columns: 1fr !important; }
-  /* References : teaser DSC 2 colonnes → 1 */
+  /* References / Conseil : teaser DSC 2 colonnes → 1 */
   .dsc-teaser-grid { grid-template-columns: 1fr !important; gap: 2.5rem !important; }
-  /* Services (Conseil) : offre Leibinger 2 colonnes → 1 */
+  /* Prestations : offre Leibinger 2 colonnes → 1 */
   .leibinger-grid { grid-template-columns: 1fr !important; gap: 2rem !important; }
-  /* Services (Conseil) : Services Logistiques à Valeur Ajoutée 4 colonnes → 2 */
+  /* Prestations : Services Logistiques à Valeur Ajoutée 4 colonnes → 2 */
   .valeur-ajoutee-grid { grid-template-columns: 1fr 1fr !important; }
 }
 @media (max-width: 640px) {
@@ -468,7 +468,7 @@ html.lenis { height: auto; }
   .method-track-wrap { overflow-x: auto !important; overflow-y: hidden !important; -webkit-overflow-scrolling: touch; padding-bottom: 0.5rem; }
   /* Pourquoi — 3 pilliers : grille 80px/titre/description à 3 colonnes,
      jamais eu de repli mobile (contributeur principal du débordement horizontal
-     mesuré sur /services, plus important que la section scroll-jack ci-dessus) */
+     mesuré sur /conseil, plus important que la section scroll-jack ci-dessus) */
   .pilliers-grid { grid-template-columns: 1fr !important; gap: 1rem !important; }
   /* Systemes (Services) : header 2 colonnes → 1 (même bug récurrent : jamais eu de repli mobile) */
   .systemes-header-grid { grid-template-columns: 1fr !important; gap: 2rem !important; margin-bottom: 3rem !important; }

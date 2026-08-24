@@ -34,7 +34,7 @@ Les entreprises titulaires du statut OEA bénéficient de simplifications dans l
 
 Le statut OEA reste très sous-utilisé au Maroc — 6,81% de taux de pénétration seulement parmi les entreprises éligibles — alors même que les avantages concrets (moins de contrôles, traitement prioritaire) sont réels et que la croissance du nombre de nouvelles certifications (+22% en 2024) montre un intérêt grandissant. Le prérequis le plus exigeant reste la traçabilité des stocks et des écritures commerciales, pas l'absence de contentieux. Notre [guide PORTNET et BADR](/blog?post=guide-portnet-et-badr-2026-matriser-les-plateformes-douanire) détaille la plateforme sur laquelle s'appuie une grande partie des opérateurs éligibles à l'OEA ; notre article sur les [régimes douaniers suspensifs](/blog?post=rgimes-douaniers-suspensifs-admission-temporaire-eif-stock-t) traite un autre enjeu de traçabilité des stocks qui rejoint directement ce critère d'éligibilité.
 
-Votre entreprise souhaite évaluer son éligibilité au statut OEA ou structurer sa traçabilité de stock en amont d'une demande ? [Découvrez nos services de conseil douane et supply chain](/services), ou [contactez-nous](/contact) pour un diagnostic.
+Votre entreprise souhaite évaluer son éligibilité au statut OEA ou structurer sa traçabilité de stock en amont d'une demande ? [Découvrez nos services de conseil douane et supply chain](/conseil), ou [contactez-nous](/contact) pour un diagnostic.
 
 **Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
 

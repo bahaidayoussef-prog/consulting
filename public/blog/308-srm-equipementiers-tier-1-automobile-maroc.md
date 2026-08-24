@@ -34,7 +34,7 @@ Le doublement annoncé des achats sur trois ans représente une opportunité de 
 
 L'écosystème automobile marocain, avec ses 18 équipementiers Tier 1 et son volume d'achats en doublement annoncé, impose un SRM spécifique qui va au-delà de la gestion fournisseur générique — standards qualité automobile, synchronisation de production et exposition aux arbitrages stratégiques des constructeurs. Notre article sur le [SRM au Maroc](/blog?post=srm-maroc-grer-ses-fournisseurs-comme-un-actif-stratgique) présente la méthodologie générale de segmentation et d'évaluation fournisseur que cet écosystème automobile vient spécialiser ; notre article sur la [logistique industrielle au Maroc](/blog?post=logistique-industrielle-au-maroc-organisation-flux-et-perfor) situe cet écosystème fournisseur dans une organisation industrielle plus large.
 
-Vous êtes un équipementier automobile marocain et voulez structurer votre relation avec vos donneurs d'ordre Tier 1 ? [Découvrez nos services conseil supply chain](/services), ou [contactez-nous](/contact) pour un diagnostic.
+Vous êtes un équipementier automobile marocain et voulez structurer votre relation avec vos donneurs d'ordre Tier 1 ? [Découvrez nos services conseil supply chain](/conseil), ou [contactez-nous](/contact) pour un diagnostic.
 
 **Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
 

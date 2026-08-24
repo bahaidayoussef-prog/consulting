@@ -34,7 +34,7 @@ Une entreprise marocaine qui dépend d'un fournisseur unique pour un composant c
 
 Les leçons de résilience de la crise Covid — multi-sourcing ciblé, stocks stratégiques dynamiquement révisés, visibilité amont pour détecter les signaux faibles — restent pleinement valables en 2026, à condition de les appliquer avec discernement plutôt que comme un principe de précaution générale coûteux et peu efficace. Notre article sur le [sourcing multi-fournisseurs vs fournisseur unique](/blog?post=sourcing-multi-fournisseurs-vs-fournisseur-unique-arbitrer-l) détaille le cadre de décision pour cibler correctement ce multi-sourcing ; notre article sur le [nearshoring au Maroc](/blog?post=nearshoring-au-maroc-pourquoi-les-entreprises-europennes-rel) situe cette réflexion dans la dynamique de relocalisation européenne vers le Maroc.
 
-Vous voulez réévaluer votre exposition aux ruptures fournisseur cinq ans après les leçons de la crise Covid ? [Découvrez nos services conseil supply chain](/services), ou [contactez-nous](/contact) pour un diagnostic.
+Vous voulez réévaluer votre exposition aux ruptures fournisseur cinq ans après les leçons de la crise Covid ? [Découvrez nos services conseil supply chain](/conseil), ou [contactez-nous](/contact) pour un diagnostic.
 
 **Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
 

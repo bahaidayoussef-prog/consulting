@@ -34,7 +34,7 @@ Un PCA complet et certifié ISO 22301 dépasse les moyens de la plupart des PME.
 
 Un PCA logistique efficace se construit sur des scénarios concrets et testés, pas sur un document théorique jamais éprouvé — et devient de plus en plus un prérequis commercial face à des donneurs d'ordre internationaux exigeants. Notre article sur la [cartographie des risques de sa supply chain](/blog?post=cartographier-les-risques-de-sa-supply-chain-la-mthode-en-4-) fournit la méthode d'identification des risques qui précède la construction d'un PCA ; notre article sur la [cybersécurité de la supply chain](/blog?post=cyberscurit-de-la-supply-chain-le-maillon-faible-que-les-ent) détaille l'un des scénarios de rupture les plus fréquents à intégrer dans ce plan.
 
-Vous voulez formaliser un plan de continuité d'activité pour votre chaîne logistique ? [Découvrez nos services conseil supply chain](/services), ou [contactez-nous](/contact) pour un diagnostic.
+Vous voulez formaliser un plan de continuité d'activité pour votre chaîne logistique ? [Découvrez nos services conseil supply chain](/conseil), ou [contactez-nous](/contact) pour un diagnostic.
 
 **Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
 

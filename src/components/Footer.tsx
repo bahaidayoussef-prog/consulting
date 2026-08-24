@@ -1,8 +1,7 @@
 export default function Footer() {
   const nav = [
-    { label: 'Notre approche', href: '/services#pourquoi' },
-    { label: 'Conseil & AMOA', href: '/services#conseil' },
-    { label: 'Systèmes SCM', href: '/services#systemes' },
+    { label: 'Conseil', href: '/conseil' },
+    { label: 'Prestations', href: '/prestations' },
     { label: 'Formation', href: '/formation' },
     { label: 'DSC à temps partagé', href: '/direction-supply-chain-temps-partage' },
     { label: 'À propos', href: '/a-propos' },
@@ -145,8 +144,8 @@ export default function Footer() {
             </div>
             <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
               {[
-                { label: 'Conseil & AMOA SC', href: '/services#conseil' },
-                { label: 'Sélection systèmes SCM', href: '/services#systemes' },
+                { label: 'Conseil & AMOA SC', href: '/conseil' },
+                { label: 'Prestations opérationnelles', href: '/prestations' },
                 { label: 'Formation terrain', href: '/formation' },
                 { label: 'DSC à temps partagé', href: '/direction-supply-chain-temps-partage' },
               ].map(({ label, href }) => (

@@ -3,7 +3,9 @@ import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion'
 import Layout from './components/Layout'
 import HomePage from './pages/HomePage'
-import ServicesPage from './pages/ServicesPage'
+import ConseilPage from './pages/ConseilPage'
+import PrestationsPage from './pages/PrestationsPage'
+import ServicesRedirect from './components/ServicesRedirect'
 import ReferencesPage from './pages/ReferencesPage'
 import FormationPage from './pages/FormationPage'
 import AProposPage from './pages/AProposPage'
@@ -48,7 +50,9 @@ function AnimatedRoutes() {
     <AnimatePresence mode="wait">
       <Routes location={location} key={location.pathname}>
         <Route path="/" element={<PageTransition><HomePage /></PageTransition>} />
-        <Route path="/services" element={<PageTransition><ServicesPage /></PageTransition>} />
+        <Route path="/conseil" element={<PageTransition><ConseilPage /></PageTransition>} />
+        <Route path="/prestations" element={<PageTransition><PrestationsPage /></PageTransition>} />
+        <Route path="/services" element={<ServicesRedirect />} />
         <Route path="/references" element={<PageTransition><ReferencesPage /></PageTransition>} />
         <Route path="/formation" element={<PageTransition><FormationPage /></PageTransition>} />
         <Route path="/a-propos" element={<PageTransition><AProposPage /></PageTransition>} />

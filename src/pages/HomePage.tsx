@@ -27,25 +27,25 @@ const INSIGHT = {
   lede: "perdent entre 15% et 40% de leur efficacité opérationnelle à cause d'erreurs structurelles non détectées. Notre analyse détaille les 10 erreurs les plus fréquentes — et comment les corriger.",
 }
 
-// Reprend le libellé et le lien de chaque service depuis Nav.tsx / Conseil.tsx / Systemes.tsx.
-const OFFERS = [
+// Les deux familles d'offres, chacune avec sa page pilier dédiée (/conseil, /prestations).
+const ACCOMPAGNEMENTS = [
   {
     num: '01',
-    title: 'Diagnostic',
-    tagline: "Un regard extérieur en 2 à 6 semaines : cartographie de l'existant, causes racines, leviers chiffrés.",
-    href: '/services#conseil',
+    eyebrow: 'Vous ne savez pas encore quoi faire',
+    title: 'Conseil & Expertise.',
+    tagline: "Diagnostic, DDMRP, sélection et déploiement de systèmes SI & IA, direction supply chain à temps partagé. Un regard extérieur, indépendant, sans commission éditeur.",
+    points: ['Diagnostic Express', 'DDMRP', 'Systèmes SI & IA (WMS/TMS/APS)', 'DSC à temps partagé'],
+    href: '/conseil',
+    cta: 'Découvrir le Conseil →',
   },
   {
     num: '02',
-    title: 'DDMRP',
-    tagline: 'Buffers de découplage calculés sur la consommation réelle — on réagit à la demande, pas aux prévisions.',
-    href: '/services#conseil',
-  },
-  {
-    num: '03',
-    title: 'Systèmes SI & IA',
-    tagline: 'WMS · TMS · APS · Control Tower — sélection et déploiement indépendants, sans commission éditeur.',
-    href: '/services#systemes',
+    eyebrow: 'Vous savez quoi faire, il faut l’exécuter',
+    title: 'Prestations Opérationnelles.',
+    tagline: "Pack Inventaire, services logistiques à valeur ajoutée, imprimantes industrielles Leibinger. Nos propres équipes, notre propre matériel, sur devis.",
+    points: ['Pack Inventaire', '7 services à valeur ajoutée', 'Imprimantes Leibinger'],
+    href: '/prestations',
+    cta: 'Découvrir les Prestations →',
   },
 ]
 
@@ -121,7 +121,7 @@ export default function HomePage() {
       {/* ── Séquence Entrepôt avant/après (déplacée depuis /services) ── */}
       <EntrepotSequence />
 
-      {/* ── Teaser resserré des offres ── */}
+      {/* ── Nos deux façons de vous accompagner ── */}
       <section style={{ background: '#ffffff', padding: 'var(--sp)' }}>
         <div className="section-inner">
           <FadeUp>
@@ -137,73 +137,67 @@ export default function HomePage() {
                 letterSpacing: '-0.02em',
                 color: 'var(--navy)',
                 margin: '1.5rem 0 0',
+                maxWidth: 720,
               }}
             >
-              Nos offres.
+              Nos deux façons de vous accompagner.
             </h2>
           </FadeUp>
 
           <div
-            className="home-offers-grid"
+            className="home-accompagnements-grid"
             style={{
               display: 'grid',
-              gridTemplateColumns: 'repeat(3, 1fr)',
+              gridTemplateColumns: 'repeat(2, 1fr)',
               gap: '2px',
               background: 'var(--border)',
               marginTop: '3rem',
             }}
           >
-            {OFFERS.map((o, i) => (
-              <FadeUp key={o.num} delay={i * 0.08}>
-                <Link
-                  to={o.href}
-                  style={{
-                    display: 'block',
-                    background: '#ffffff',
-                    padding: '2.5rem 2rem',
-                    textDecoration: 'none',
-                    height: '100%',
-                    transition: 'opacity 0.2s',
-                  }}
-                  onMouseEnter={(e) => ((e.currentTarget as HTMLElement).style.opacity = '0.85')}
-                  onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.opacity = '1')}
-                >
-                  <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.2em', color: 'var(--mid)', marginBottom: '1.5rem' }}>
-                    {o.num}
+            {ACCOMPAGNEMENTS.map((a, i) => (
+              <FadeUp key={a.num} delay={i * 0.1}>
+                <div style={{ background: '#ffffff', padding: 'clamp(2rem, 3vw, 3rem)', height: '100%', display: 'flex', flexDirection: 'column' }}>
+                  <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.18em', textTransform: 'uppercase', color: 'var(--blue-bright)', marginBottom: '1.25rem' }}>
+                    {a.num} · {a.eyebrow}
                   </div>
-                  <div style={{ fontFamily: 'Manrope, sans-serif', fontSize: '1.3rem', fontWeight: 700, color: 'var(--navy)', marginBottom: '0.75rem' }}>
-                    {o.title}
+                  <div style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(1.5rem, 2.4vw, 2rem)', fontWeight: 800, letterSpacing: '-0.02em', color: 'var(--navy)', marginBottom: '1rem', lineHeight: 1.1 }}>
+                    {a.title}
                   </div>
-                  <div style={{ fontSize: '0.85rem', color: 'var(--mid)', lineHeight: 1.65, fontWeight: 300, marginBottom: '1.5rem', minHeight: '3.3em' }}>
-                    {o.tagline}
+                  <div style={{ fontSize: '0.92rem', color: 'var(--mid)', lineHeight: 1.7, fontWeight: 300, marginBottom: '1.75rem' }}>
+                    {a.tagline}
                   </div>
-                  <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.65rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--blue-bright)' }}>
-                    En savoir plus →
-                  </div>
-                </Link>
+                  <ul style={{ listStyle: 'none', padding: 0, margin: '0 0 2rem', display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+                    {a.points.map((p) => (
+                      <li key={p} style={{ fontSize: '0.82rem', color: 'var(--navy)', display: 'flex', alignItems: 'baseline', gap: '0.6rem' }}>
+                        <span style={{ color: 'var(--blue-bright)', flexShrink: 0 }}>→</span> {p}
+                      </li>
+                    ))}
+                  </ul>
+                  <Link
+                    to={a.href}
+                    style={{
+                      marginTop: 'auto',
+                      fontFamily: 'DM Mono, monospace',
+                      fontSize: '0.72rem',
+                      fontWeight: 600,
+                      letterSpacing: '0.08em',
+                      textTransform: 'uppercase',
+                      textDecoration: 'none',
+                      color: 'var(--navy)',
+                      borderBottom: '1px solid rgba(27,53,84,0.2)',
+                      paddingBottom: '2px',
+                      alignSelf: 'flex-start',
+                      transition: 'color 0.2s, border-color 0.2s',
+                    }}
+                    onMouseEnter={(e) => { (e.currentTarget as HTMLElement).style.color = 'var(--blue-bright)'; (e.currentTarget as HTMLElement).style.borderColor = 'var(--blue-bright)' }}
+                    onMouseLeave={(e) => { (e.currentTarget as HTMLElement).style.color = 'var(--navy)'; (e.currentTarget as HTMLElement).style.borderColor = 'rgba(27,53,84,0.2)' }}
+                  >
+                    {a.cta}
+                  </Link>
+                </div>
               </FadeUp>
             ))}
           </div>
-
-          <FadeUp delay={0.3}>
-            <div style={{ marginTop: '2.5rem' }}>
-              <Link
-                to="/services"
-                style={{
-                  fontFamily: 'DM Mono, monospace',
-                  fontSize: '0.7rem',
-                  letterSpacing: '0.1em',
-                  textTransform: 'uppercase',
-                  color: 'var(--mid)',
-                  textDecoration: 'none',
-                  borderBottom: '1px solid rgba(27,53,84,0.15)',
-                  paddingBottom: '2px',
-                }}
-              >
-                Voir tous nos services →
-              </Link>
-            </div>
-          </FadeUp>
         </div>
       </section>
 

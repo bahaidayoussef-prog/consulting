@@ -38,7 +38,7 @@ En cas de non-conformité constatée, l'administration des douanes dispose d'un 
 
 L'Admission Temporaire et l'Entrepôt Industriel Franc offrent un avantage fiscal réel aux entreprises exportatrices marocaines, mais imposent une exigence de cohérence entre stock déclaré et stock réel qui n'a rien d'automatique — la règle de l'apurement identique (article 145 du Code des douanes) ne tolère pas l'à-peu-près, et la simplification récente des contrôles EIF (2021) déplace la responsabilité de détection vers l'entreprise elle-même. Notre [guide PORTNET et BADR](/blog?post=guide-portnet-et-badr-2026-matriser-les-plateformes-douanire) couvre les plateformes déclaratives sur lesquelles s'appuient ces régimes ; notre article sur les [zones franches marocaines comparées](/blog?post=zones-franches-marocaines-compares-tanger-med-tfz-tac-et-mid) présente le cadre fiscal voisin des zones d'accélération industrielle, pour les entreprises qui hésitent entre les deux dispositifs.
 
-Votre entreprise opère sous Admission Temporaire ou Entrepôt Industriel Franc et vous voulez sécuriser votre stock avant un contrôle ? [Découvrez notre accompagnement Régimes Douaniers Suspensifs](/services), dédié à l'audit et à la réconciliation entre stock théorique douane et stock réel, ou [contactez-nous](/contact) pour en discuter.
+Votre entreprise opère sous Admission Temporaire ou Entrepôt Industriel Franc et vous voulez sécuriser votre stock avant un contrôle ? [Découvrez notre accompagnement Régimes Douaniers Suspensifs](/conseil), dédié à l'audit et à la réconciliation entre stock théorique douane et stock réel, ou [contactez-nous](/contact) pour en discuter.
 
 **Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
 

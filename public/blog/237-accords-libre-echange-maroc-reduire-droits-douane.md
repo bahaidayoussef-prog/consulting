@@ -34,7 +34,7 @@ Au-delà de l'accord d'association classique, le Maroc bénéficie depuis le Dis
 
 Le Maroc dispose d'un réseau d'accords de libre-échange dense — UE, AELE, ZLECAf, Agadir, Turquie, Émirats, États-Unis — mais l'accès réel à la préférence tarifaire dépend entièrement de la rigueur du certificat EUR.1 et des règles d'origine associées, pas de la seule existence de l'accord. Une entreprise qui ne vérifie pas régulièrement la validité de ses règles d'origine s'expose à payer le tarif plein sans le savoir. Notre article sur les [Incoterms au Maroc](/blog?post=incoterms-au-maroc-le-guide-pratique-pour-importateurs-et-ex) détaille un autre paramètre déclaratif qui affecte directement le calcul des droits de douane ; notre article sur le [statut d'Opérateur Économique Agréé](/blog?post=statut-doprateur-conomique-agr-oea-acclrer-son-ddouanement) présente un autre levier pour fluidifier son dédouanement.
 
-Votre entreprise exporte vers l'UE, la zone Agadir ou un pays sous accord bilatéral et veut vérifier que ses préférences tarifaires sont bien sécurisées ? [Découvrez nos services de conseil douane et supply chain](/services), ou [contactez-nous](/contact) pour un audit de vos règles d'origine.
+Votre entreprise exporte vers l'UE, la zone Agadir ou un pays sous accord bilatéral et veut vérifier que ses préférences tarifaires sont bien sécurisées ? [Découvrez nos services de conseil douane et supply chain](/conseil), ou [contactez-nous](/contact) pour un audit de vos règles d'origine.
 
 **Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
 

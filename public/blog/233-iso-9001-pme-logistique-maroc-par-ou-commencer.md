@@ -38,7 +38,7 @@ Les budgets publiés pour une démarche ISO 9001 restent très majoritairement e
 
 ISO 9001 est une démarche accessible à une PME logistique marocaine — plus de 2 000 entreprises sont déjà certifiées au Maroc, la démarche prend 3 à 6 mois, et le principal obstacle est la formalisation, pas le niveau de maturité réel. Le budget doit en revanche être établi localement, avec un cabinet marocain, plutôt que déduit de références européennes. Notre article sur l'[audit QHSE entrepôt au Maroc](/blog?post=audit-qhse-entrept-au-maroc-la-grille-et-la-mthode) détaille une méthode de diagnostic très proche du point de départ ISO 9001 ; notre article sur les [achats durables et RSE fournisseurs](/blog?post=achats-durables-et-rse-fournisseurs-la-grille-daudit-pour-pm) présente une autre grille d'audit structurée, orientée fournisseurs.
 
-Vous envisagez une démarche ISO 9001 pour votre PME logistique et voulez un diagnostic de votre niveau de maturité réel avant de vous engager ? [Découvrez nos services de conseil et de diagnostic](/services), ou [contactez-nous](/contact) pour en parler.
+Vous envisagez une démarche ISO 9001 pour votre PME logistique et voulez un diagnostic de votre niveau de maturité réel avant de vous engager ? [Découvrez nos services de conseil et de diagnostic](/conseil), ou [contactez-nous](/contact) pour en parler.
 
 **Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
 

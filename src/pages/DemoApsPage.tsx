@@ -11,7 +11,7 @@ export default function DemoApsPage() {
         subtitle="Aperçu interactif d'un outil de planification avancée : prévision de la demande, simulation en temps réel selon vos leviers. Données fictives."
         tag="DÉMONSTRATION INTERACTIVE"
         bg="var(--paper)"
-        breadcrumb={{ label: 'Services', to: '/services' }}
+        breadcrumb={{ label: 'Conseil', to: '/conseil' }}
       />
       <DemoAps />
     </>

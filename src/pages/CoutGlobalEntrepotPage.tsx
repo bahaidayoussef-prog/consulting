@@ -11,7 +11,7 @@ export default function CoutGlobalEntrepotPage() {
         subtitle="Bâtiment, main d'œuvre, équipements : estimez en 2 minutes le coût mensuel total de votre entrepôt et sa répartition. Gratuit, sans engagement."
         tag="SIMULATEUR GRATUIT"
         bg="var(--paper)"
-        breadcrumb={{ label: 'Services', to: '/services' }}
+        breadcrumb={{ label: 'Conseil', to: '/conseil' }}
       />
       <CoutGlobalSimulator />
     </>

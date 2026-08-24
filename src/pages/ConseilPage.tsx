@@ -4,16 +4,17 @@ import Pourquoi from '../components/Pourquoi'
 import Conseil from '../components/Conseil'
 import DimensionnementCTA from '../components/DimensionnementCTA'
 import Systemes from '../components/Systemes'
+import DSCTeaser from '../components/DSCTeaser'
 import Methode from '../components/Methode'
 
-export default function ServicesPage() {
+export default function ConseilPage() {
   return (
     <>
       <PageHero
         num="01"
-        title="Nos"
-        titleItalic="Services."
-        subtitle="Conseil opérationnel, intégration systèmes et transformation Supply Chain — sans allégeance à aucun éditeur."
+        title="Conseil &"
+        titleItalic="Expertise."
+        subtitle="Diagnostic, DDMRP, sélection et déploiement de systèmes, direction supply chain à temps partagé — sans allégeance à aucun éditeur."
         tag="EXPERTISE · TERRAIN"
       />
       <Pourquoi />
@@ -21,6 +22,7 @@ export default function ServicesPage() {
       <Conseil />
       <DimensionnementCTA />
       <Systemes />
+      <DSCTeaser />
       <Methode />
     </>
   )

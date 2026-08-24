@@ -34,7 +34,7 @@ Pour une entreprise qui démarre une relation avec un fournisseur et souhaite ga
 
 Il n'existe pas d'édition "Incoterms 2026" — la référence reste Incoterms® 2020, et le préciser explicitement dans chaque contrat évite une ambiguïté juridique facile à corriger. Pour un importateur marocain, l'enjeu principal n'est pas de mémoriser les onze règles, mais d'éviter l'erreur la plus coûteuse : déclarer en FOB un prix qui a en réalité été négocié en DAP ou FCA, ce qui sous-évalue la base CIF et expose à un redressement. Notre article sur les [régimes douaniers suspensifs](/blog?post=rgimes-douaniers-suspensifs-admission-temporaire-eif-stock-t) détaille un autre cas où l'écart entre déclaration et réalité expose à un contrôle ; notre [guide PORTNET et BADR](/blog?post=guide-portnet-et-badr-2026-matriser-les-plateformes-douanire) explique comment cette valeur CIF est calculée et déclarée en pratique.
 
-Vous voulez sécuriser vos déclarations en douane et le choix de vos Incoterms avec vos fournisseurs ? [Découvrez nos services de conseil douane et supply chain](/services), ou [contactez-nous](/contact) pour un point sur votre situation.
+Vous voulez sécuriser vos déclarations en douane et le choix de vos Incoterms avec vos fournisseurs ? [Découvrez nos services de conseil douane et supply chain](/conseil), ou [contactez-nous](/contact) pour un point sur votre situation.
 
 **Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
 
