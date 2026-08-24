@@ -1,6 +1,8 @@
-import { useState } from 'react'
-import { motion, AnimatePresence } from 'framer-motion'
+import { useRef, useState } from 'react'
+import { motion, AnimatePresence, useInView } from 'framer-motion'
 import SchemaScript from './SchemaHelper'
+
+const faqEase = [0.16, 1, 0.3, 1] as const
 
 const services = [
   {
@@ -448,6 +450,18 @@ export const servicesFAQ = [
     q: 'Facturez-vous des commissions sur les logiciels?',
     a: 'Non. Zéro commission éditeur. Notre seule allégeance est au business case client. Recommandations Tier 1/2 (Odoo, SAP, etc) basées uniquement sur vos besoins, pas notre intérêt.',
   },
+  {
+    q: 'Combien de temps dure un accompagnement Systèmes SI & IA ?',
+    a: "De 4 semaines à 10 mois selon le système et le palier. Control Tower Mini : 4 à 6 semaines. APS/S&OP et e-Procurement : 6 à 8 semaines (Mini) à 9 mois (Pro). TMS : 6 à 10 semaines (Mini) à 9 mois (Pro). WMS : voir la question dédiée ci-dessus (6 semaines à 10 mois). La durée dépend du scope, du nombre de sites et des intégrations ERP nécessaires.",
+  },
+  {
+    q: 'Proposez-vous un accompagnement après le déploiement WMS/TMS/APS ?',
+    a: "Oui, via notre offre AMOA & Pilotage Projet — nous représentons vos intérêts face à l'intégrateur, avec gestion des avenants, comité de pilotage, change management des équipes et stabilisation post go-live. De l'accompagnement léger (2 à 4 mois) au programme management multi-projets (sur devis, 6 à 18 mois).",
+  },
+  {
+    q: "Qu'est-ce qui différencie l'Accompagnement Régimes Douaniers Suspensifs d'un cabinet de transit classique ?",
+    a: "Notre angle est la réconciliation stock théorique (vu par la douane) vs stock réel (vu par la logistique), en lien direct avec notre expertise DDMRP et gestion de stock — pas seulement la formalité déclarative qu'un cabinet de transit classique traite. Particulièrement pertinent en automobile et aéronautique, où cet écart devient vite un risque de redressement s'il n'est pas traité en amont.",
+  },
 ]
 
 const servicesSchema = {
@@ -461,6 +475,64 @@ const servicesSchema = {
       text: faq.a,
     },
   })),
+}
+
+function FAQItem({ item }: { item: { q: string; a: string } }) {
+  const [open, setOpen] = useState(false)
+  const ref = useRef(null)
+  const inView = useInView(ref, { once: true, margin: '-40px' })
+
+  return (
+    <motion.div
+      ref={ref}
+      initial={{ opacity: 0, y: 24 }}
+      animate={inView ? { opacity: 1, y: 0 } : {}}
+      transition={{ duration: 0.6, ease: faqEase }}
+      style={{ borderTop: '1px solid var(--border)' }}
+    >
+      <button
+        onClick={() => setOpen((o) => !o)}
+        style={{
+          width: '100%',
+          display: 'flex',
+          justifyContent: 'space-between',
+          alignItems: 'center',
+          gap: '2rem',
+          background: 'none',
+          border: 'none',
+          cursor: 'pointer',
+          padding: '1.75rem 0',
+          textAlign: 'left',
+        }}
+      >
+        <span style={{ fontFamily: 'Jost, sans-serif', fontSize: '1.05rem', fontWeight: 600, color: 'var(--navy)' }}>
+          {item.q}
+        </span>
+        <motion.span
+          animate={{ rotate: open ? 45 : 0 }}
+          transition={{ duration: 0.2 }}
+          style={{ fontSize: '1.4rem', color: 'var(--blue-bright)', flexShrink: 0, lineHeight: 1 }}
+        >
+          +
+        </motion.span>
+      </button>
+      <AnimatePresence initial={false}>
+        {open && (
+          <motion.div
+            initial={{ height: 0, opacity: 0 }}
+            animate={{ height: 'auto', opacity: 1 }}
+            exit={{ height: 0, opacity: 0 }}
+            transition={{ duration: 0.35, ease: faqEase }}
+            style={{ overflow: 'hidden' }}
+          >
+            <p style={{ fontSize: '0.95rem', color: 'var(--dark-muted)', lineHeight: 1.8, fontWeight: 300, paddingBottom: '1.75rem', maxWidth: 760 }}>
+              {item.a}
+            </p>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </motion.div>
+  )
 }
 
 export default function Conseil() {
@@ -523,6 +595,22 @@ export default function Conseil() {
         <SingleOfferSection eyebrow={COACHING.eyebrow} title={COACHING.title} desc={COACHING.desc} offer={COACHING.offer} ctaLabel={COACHING.ctaLabel} />
 
         <SingleOfferSection eyebrow={DOUANE.eyebrow} title={DOUANE.title} desc={DOUANE.desc} offer={DOUANE.offer} ctaLabel={DOUANE.ctaLabel} />
+
+        <div style={{ marginTop: '6rem' }}>
+          <div style={{ maxWidth: 640, marginBottom: '3rem' }}>
+            <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.2em', color: 'rgba(47,111,181,0.55)', textTransform: 'uppercase', marginBottom: '1.25rem' }}>
+              Questions fréquentes
+            </div>
+            <h3 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(1.8rem, 3.2vw, 2.6rem)', fontWeight: 800, lineHeight: 1.05, letterSpacing: '-0.02em', color: 'var(--ink)', margin: 0 }}>
+              Vos questions, nos réponses.
+            </h3>
+          </div>
+          <div style={{ maxWidth: 900 }}>
+            {servicesFAQ.map((item, i) => (
+              <FAQItem key={i} item={item} />
+            ))}
+          </div>
+        </div>
 
         <div style={{ marginTop: '4rem', display: 'flex', gap: '1rem' }}>
           <a href="/contact" className="btn-primary">Réserver un échange gratuit →</a>

@@ -1,4 +1,83 @@
+import { useRef, useState } from 'react'
+import { motion, AnimatePresence, useInView } from 'framer-motion'
 import { IconPackage, IconStack2, IconTags, IconPuzzle, IconBoxSeam, IconEyeCheck, IconLayersIntersect } from '@tabler/icons-react'
+import { SchemaScript } from './SchemaHelper'
+import { generateFAQSchema } from '../utils/seoData'
+
+const ease = [0.16, 1, 0.3, 1] as const
+
+export const prestationsFAQ = [
+  {
+    q: 'Le Pack Inventaire inclut-il le matériel de comptage ?',
+    a: "Oui. Chaque palier du Pack Inventaire inclut le matériel de scan et de saisie (Palier 1 et 2) ou le matériel complet (Palier 3), en plus de l'équipe de comptage. Le dimensionnement exact — effectif, jours, matériel — est affiné avec vous avant devis selon la complexité réelle du site.",
+  },
+  {
+    q: 'Peut-on commander une seule prestation (ex: fardelage seul) sans passer par un pack complet ?',
+    a: "Oui. Les 7 Services Logistiques à Valeur Ajoutée (co-packing, fardelage, étiquetage/marquage, kitting, mise en carton/reconditionnement, contrôle qualité visuel, palettisation sur mesure) sont présentés et facturés individuellement, sur devis — aucun pack imposé. Seul le Pack Inventaire (comptage physique) est structuré en paliers de volume.",
+  },
+  {
+    q: 'Intervenez-vous en dehors de Casablanca pour les prestations opérationnelles ?',
+    a: "Notre zone d'action couvre le Maroc, en plus de la France et l'Europe. Les conditions logistiques précises (délai, déplacement d'équipe et de matériel) pour un site hors Casablanca sont à valider au cas par cas — contactez-nous avec votre localisation pour un devis adapté.",
+  },
+]
+
+function FAQItem({ item }: { item: { q: string; a: string } }) {
+  const [open, setOpen] = useState(false)
+  const ref = useRef(null)
+  const inView = useInView(ref, { once: true, margin: '-40px' })
+
+  return (
+    <motion.div
+      ref={ref}
+      initial={{ opacity: 0, y: 24 }}
+      animate={inView ? { opacity: 1, y: 0 } : {}}
+      transition={{ duration: 0.6, ease }}
+      style={{ borderTop: '1px solid var(--border)' }}
+    >
+      <button
+        onClick={() => setOpen((o) => !o)}
+        style={{
+          width: '100%',
+          display: 'flex',
+          justifyContent: 'space-between',
+          alignItems: 'center',
+          gap: '2rem',
+          background: 'none',
+          border: 'none',
+          cursor: 'pointer',
+          padding: '1.75rem 0',
+          textAlign: 'left',
+        }}
+      >
+        <span style={{ fontFamily: 'Jost, sans-serif', fontSize: '1.05rem', fontWeight: 600, color: 'var(--navy)' }}>
+          {item.q}
+        </span>
+        <motion.span
+          animate={{ rotate: open ? 45 : 0 }}
+          transition={{ duration: 0.2 }}
+          style={{ fontSize: '1.4rem', color: 'var(--blue-bright)', flexShrink: 0, lineHeight: 1 }}
+        >
+          +
+        </motion.span>
+      </button>
+      <AnimatePresence initial={false}>
+        {open && (
+          <motion.div
+            initial={{ height: 0, opacity: 0 }}
+            animate={{ height: 'auto', opacity: 1 }}
+            exit={{ height: 0, opacity: 0 }}
+            transition={{ duration: 0.35, ease }}
+            style={{ overflow: 'hidden' }}
+          >
+            <p style={{ fontSize: '0.95rem', color: 'var(--dark-muted)', lineHeight: 1.8, fontWeight: 300, paddingBottom: '1.75rem', maxWidth: 760 }}>
+              {item.a}
+            </p>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </motion.div>
+  )
+}
 
 const VALEUR_AJOUTEE = [
   { icon: IconPackage, name: 'Co-packing', desc: 'Assemblage et conditionnement de packs promotionnels ou multi-produits, à la demande.' },
@@ -458,6 +537,7 @@ function LeibingerOffer() {
 export default function Prestations() {
   return (
     <section id="prestations" style={{ background: 'var(--paper)', padding: 'var(--sp)' }}>
+      <SchemaScript schema={generateFAQSchema(prestationsFAQ)} />
       <div className="section-inner">
         <div style={{
           display: 'grid',
@@ -508,6 +588,22 @@ export default function Prestations() {
         <PackInventaire />
 
         <LeibingerOffer />
+
+        <div style={{ marginTop: '6rem' }}>
+          <div style={{ maxWidth: 640, marginBottom: '3rem' }}>
+            <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.2em', color: 'rgba(47,111,181,0.55)', textTransform: 'uppercase', marginBottom: '1.25rem' }}>
+              Questions fréquentes
+            </div>
+            <h3 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(1.8rem, 3.2vw, 2.6rem)', fontWeight: 800, lineHeight: 1.05, letterSpacing: '-0.02em', color: 'var(--ink)', margin: 0 }}>
+              Vos questions, nos réponses.
+            </h3>
+          </div>
+          <div style={{ maxWidth: 900 }}>
+            {prestationsFAQ.map((item, i) => (
+              <FAQItem key={i} item={item} />
+            ))}
+          </div>
+        </div>
 
         <div style={{ marginTop: '4rem', display: 'flex', gap: '1rem' }}>
           <a href="/contact" className="btn-primary">Discuter de votre besoin →</a>
