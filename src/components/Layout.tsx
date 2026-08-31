@@ -4,6 +4,7 @@ import { useLocation } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { useLenis } from '../hooks/useLenis'
 import CustomCursor from './CustomCursor'
+import Analytics from './Analytics'
 import Nav from './Nav'
 import Footer from './Footer'
 import BackToTop from './BackToTop'
@@ -50,6 +51,7 @@ export default function Layout({ children }: { children: ReactNode }) {
     <MobileMenuProvider>
       <div className="grain">
         <ScrollToTop />
+        <Analytics />
         <CustomCursor />
         <Nav />
         {children}
