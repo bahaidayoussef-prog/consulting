@@ -486,6 +486,7 @@ html.lenis { height: auto; }
 .frl-cibles { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem; }
 .frl-hero-stats { display: flex; gap: 3rem; flex-wrap: wrap; padding-top: 2.5rem; border-top: 1px solid var(--border); margin-top: 5rem; }
 .frl-inclus { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; }
+.frl-photos { display: grid; grid-template-columns: repeat(4, 1fr); gap: 2px; }
 .frl-logistics { display: grid; grid-template-columns: 1fr 1fr; gap: 2.5rem 4rem; padding: 3rem 4rem; background: #ffffff; border-left: 4px solid var(--blue-bright); }
 
 /* Sticky CTA — même traitement translucide que la barre Nav sticky */
@@ -510,6 +511,7 @@ html.lenis { height: auto; }
   .frl-hero-grid { gap: 3rem !important; }
   .frl-logistics { grid-template-columns: 1fr 1fr !important; padding: 2rem !important; }
   .frl-hero-stats { gap: 2rem; }
+  .frl-photos { grid-template-columns: repeat(2, 1fr) !important; }
 }
 @media (max-width: 640px) {
   .frl-logistics { grid-template-columns: 1fr !important; }

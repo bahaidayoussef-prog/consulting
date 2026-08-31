@@ -54,6 +54,20 @@ const INCLUS = [
   { icon: '💬', label: 'Suivi 30 jours', desc: 'Support WhatsApp pour vos questions terrain post-formation' },
 ]
 
+// Mêmes photos réelles que le carrousel hero de /formation (sessions passées,
+// Casablanca) — réutilisées ici comme preuve terrain plutôt que dupliquées
+// ou remplacées par des visuels génériques.
+const PHOTOS_TERRAIN = [
+  '/images/formation-carousel/formation-1.webp',
+  '/images/formation-carousel/formation-2.webp',
+  '/images/formation-carousel/formation-3.webp',
+  '/images/formation-carousel/formation-4.webp',
+  '/images/formation-carousel/formation-5.webp',
+  '/images/formation-carousel/formation-6.webp',
+  '/images/formation-carousel/formation-7.webp',
+  '/images/formation-carousel/formation-8.webp',
+]
+
 const FAQS = [
   {
     q: 'Dois-je avoir une expérience logistique préalable ?',
@@ -250,6 +264,143 @@ function InfographicFrame({ src, alt }: { src: string; alt: string }) {
         style={{ display: 'block', width: '100%', height: 'auto', objectFit: 'contain' }}
       />
     </div>
+  )
+}
+
+/* Formulaire de téléchargement du programme — même service (Formspree) et
+   même schéma de statut que le formulaire de /contact. Aucun fichier n'est
+   généré ni promis instantanément : la confirmation annonce un envoi par
+   email sous 24h, cohérent avec ce qui est réellement livrable aujourd'hui. */
+type DownloadFormState = 'idle' | 'sending' | 'success' | 'error'
+
+function DownloadForm() {
+  const [form, setForm] = useState({ nom: '', email: '', tel: '', entreprise: '' })
+  const [status, setStatus] = useState<DownloadFormState>('idle')
+  const [errors, setErrors] = useState<Record<string, string>>({})
+
+  const validate = () => {
+    const e: Record<string, string> = {}
+    if (!form.nom.trim()) e.nom = 'Obligatoire'
+    if (!form.email.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)) e.email = 'Email invalide'
+    return e
+  }
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault()
+    const errs = validate()
+    if (Object.keys(errs).length) { setErrors(errs); return }
+    setErrors({})
+    setStatus('sending')
+    try {
+      const res = await fetch('https://formspree.io/f/mqpzpqwj', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        body: JSON.stringify({
+          formulaire: 'Téléchargement programme — Devenir Responsable Logistique',
+          nom: form.nom,
+          email: form.email,
+          téléphone: form.tel || 'Non renseigné',
+          entreprise: form.entreprise || 'Non renseignée',
+        }),
+      })
+      setStatus(res.ok ? 'success' : 'error')
+    } catch {
+      setStatus('error')
+    }
+  }
+
+  const inputStyle = (field: string): React.CSSProperties => ({
+    width: '100%',
+    background: '#ffffff',
+    border: `1px solid ${errors[field] ? 'rgba(200,60,60,0.55)' : 'var(--border)'}`,
+    padding: '0.85rem 1rem',
+    color: 'var(--navy)',
+    fontFamily: 'Jost, sans-serif',
+    fontSize: '0.9rem',
+    outline: 'none',
+    transition: 'border-color 0.2s',
+    boxSizing: 'border-box',
+  })
+
+  if (status === 'success') {
+    return (
+      <motion.div
+        initial={{ opacity: 0, y: 12 }}
+        animate={{ opacity: 1, y: 0 }}
+        style={{ background: '#ffffff', border: '1px solid var(--border)', padding: '2.5rem', textAlign: 'center' }}
+      >
+        <div style={{ fontSize: '2rem', marginBottom: '1rem' }}>✅</div>
+        <h3 style={{ fontFamily: 'Manrope, sans-serif', fontSize: '1.2rem', fontWeight: 700, color: 'var(--navy)', marginBottom: '0.5rem' }}>
+          Demande reçue.
+        </h3>
+        <p style={{ fontSize: '0.9rem', color: 'var(--mid)', lineHeight: 1.7, margin: 0 }}>
+          Nous vous envoyons le programme complet par email sous 24h.
+        </p>
+      </motion.div>
+    )
+  }
+
+  return (
+    <form onSubmit={handleSubmit} noValidate style={{ display: 'flex', flexDirection: 'column', gap: '1.1rem' }}>
+      <div>
+        <input
+          type="text"
+          placeholder="Nom complet *"
+          value={form.nom}
+          onChange={e => setForm({ ...form, nom: e.target.value })}
+          style={inputStyle('nom')}
+        />
+        {errors.nom && <div style={{ fontSize: '0.72rem', color: '#c83c3c', marginTop: '0.3rem' }}>{errors.nom}</div>}
+      </div>
+      <div>
+        <input
+          type="email"
+          placeholder="Email professionnel *"
+          value={form.email}
+          onChange={e => setForm({ ...form, email: e.target.value })}
+          style={inputStyle('email')}
+        />
+        {errors.email && <div style={{ fontSize: '0.72rem', color: '#c83c3c', marginTop: '0.3rem' }}>{errors.email}</div>}
+      </div>
+      <div className="frl-2col" style={{ gap: '1.1rem' }}>
+        <input
+          type="tel"
+          placeholder="Téléphone (optionnel)"
+          value={form.tel}
+          onChange={e => setForm({ ...form, tel: e.target.value })}
+          style={inputStyle('tel')}
+        />
+        <input
+          type="text"
+          placeholder="Entreprise (optionnel)"
+          value={form.entreprise}
+          onChange={e => setForm({ ...form, entreprise: e.target.value })}
+          style={inputStyle('entreprise')}
+        />
+      </div>
+      <button
+        type="submit"
+        disabled={status === 'sending'}
+        style={{
+          display: 'inline-flex', alignItems: 'center', justifyContent: 'center', gap: '0.5rem',
+          padding: '1rem 2rem', background: 'var(--blue-bright)', color: '#ffffff', border: 'none',
+          fontFamily: 'Jost, sans-serif', fontSize: '0.9rem', fontWeight: 700,
+          letterSpacing: '0.03em', cursor: status === 'sending' ? 'default' : 'pointer',
+          opacity: status === 'sending' ? 0.7 : 1, transition: 'background 0.2s, opacity 0.2s',
+          marginTop: '0.25rem',
+        }}
+      >
+        {status === 'sending' ? 'Envoi en cours…' : 'Recevoir le programme complet →'}
+      </button>
+      {status === 'error' && (
+        <div style={{ fontSize: '0.8rem', color: '#c83c3c' }}>
+          Une erreur est survenue. Réessayez, ou écrivez-nous directement à essor.consulting.maroc@gmail.com.
+        </div>
+      )}
+      <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.06em', color: 'var(--mid)' }}>
+        Vos coordonnées servent uniquement à vous envoyer le programme et à répondre à votre demande.
+      </div>
+    </form>
   )
 }
 
@@ -664,6 +815,41 @@ export default function FormationRL() {
         </div>
       </section>
 
+      {/* ── APERÇU TERRAIN — mêmes photos réelles que le carrousel de /formation ── */}
+      <section style={{ background: '#ffffff', padding: 'var(--sp)' }}>
+        <div className="section-inner">
+          <motion.div initial={{ opacity: 0, y: 32 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }} style={{ marginBottom: '3rem' }}>
+            <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'var(--blue-bright)', marginBottom: '1.5rem' }}>
+              06 / Aperçu terrain
+            </div>
+            <h2 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2.2rem, 4vw, 4.5rem)', fontWeight: 800, lineHeight: 0.95, letterSpacing: '-0.025em', color: 'var(--navy)', margin: 0 }}>
+              Nos sessions.<br />
+              <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>Telles qu'elles sont.</span>
+            </h2>
+          </motion.div>
+
+          <div className="frl-photos">
+            {PHOTOS_TERRAIN.map((src, i) => (
+              <motion.div
+                key={src}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: '-40px' }}
+                transition={{ duration: 0.5, delay: i * 0.05 }}
+                style={{ position: 'relative', paddingBottom: '75%', overflow: 'hidden', background: 'var(--paper)' }}
+              >
+                <img
+                  src={src}
+                  alt={`Session de formation Essor Consulting — Casablanca (${i + 1}/${PHOTOS_TERRAIN.length})`}
+                  loading="lazy"
+                  style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover' }}
+                />
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* ── GUARANTEE ────────────────────────────────────────── */}
       <div style={{ background: 'rgba(47,111,181,0.05)', padding: '2.5rem var(--sp-x)', borderTop: '1px solid var(--border)', borderBottom: '1px solid var(--border)' }}>
         <div className="section-inner" style={{ display: 'flex', alignItems: 'center', gap: '2rem', flexWrap: 'wrap' }}>
@@ -723,7 +909,7 @@ export default function FormationRL() {
         <div className="section-inner">
           <motion.div initial={{ opacity: 0, y: 32 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }} style={{ marginBottom: '4rem' }}>
             <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'var(--blue-bright)', marginBottom: '1.5rem' }}>
-              06 / Questions fréquentes
+              07 / Questions fréquentes
             </div>
             <h2 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2.5rem, 5vw, 5.5rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', color: 'var(--navy)', margin: 0 }}>
               Vos questions,<br />
@@ -743,6 +929,28 @@ export default function FormationRL() {
             ))}
             <div style={{ borderTop: '1px solid var(--border)' }} />
           </div>
+        </div>
+      </section>
+
+      {/* ── TÉLÉCHARGER LE PROGRAMME ──────────────────────────── */}
+      <section style={{ background: 'var(--paper)', padding: 'var(--sp)' }}>
+        <div className="section-inner" style={{ maxWidth: 620 }}>
+          <motion.div initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }} style={{ marginBottom: '2.5rem' }}>
+            <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'var(--blue-bright)', marginBottom: '1.5rem' }}>
+              08 / Programme complet
+            </div>
+            <h2 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2.2rem, 4vw, 4rem)', fontWeight: 800, lineHeight: 0.95, letterSpacing: '-0.025em', color: 'var(--navy)', margin: '0 0 1rem' }}>
+              Recevez le programme<br />
+              <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>détaillé par email.</span>
+            </h2>
+            <p style={{ fontSize: '0.95rem', color: 'var(--mid)', lineHeight: 1.8, fontWeight: 300, margin: 0 }}>
+              Renseignez vos coordonnées, nous vous envoyons le déroulé complet de la journée (modules, horaires, tarifs) sous 24h.
+            </p>
+          </motion.div>
+
+          <motion.div initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8, delay: 0.1 }}>
+            <DownloadForm />
+          </motion.div>
         </div>
       </section>
 
