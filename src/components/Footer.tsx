@@ -1,10 +1,10 @@
 export default function Footer() {
   const nav = [
+    { label: 'Formation', href: '/formation' },
+    { label: 'À propos', href: '/a-propos' },
     { label: 'Conseil', href: '/conseil' },
     { label: 'Prestations', href: '/prestations' },
-    { label: 'Formation', href: '/formation' },
     { label: 'DSC à temps partagé', href: '/direction-supply-chain-temps-partage' },
-    { label: 'À propos', href: '/a-propos' },
     { label: 'Carrière', href: '/carriere' },
   ]
 
@@ -144,9 +144,9 @@ export default function Footer() {
             </div>
             <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
               {[
+                { label: 'Formation terrain', href: '/formation' },
                 { label: 'Conseil & AMOA SC', href: '/conseil' },
                 { label: 'Prestations opérationnelles', href: '/prestations' },
-                { label: 'Formation terrain', href: '/formation' },
                 { label: 'DSC à temps partagé', href: '/direction-supply-chain-temps-partage' },
               ].map(({ label, href }) => (
                 <li key={href}>

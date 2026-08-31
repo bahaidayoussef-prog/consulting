@@ -42,25 +42,28 @@ const TOOLS_ITEMS = [
   { label: 'Démo APS', href: '/demo/aps', icon: IconChartLine },
 ]
 
-const RESOURCES_ITEMS: SimpleItem[] = [
-  { label: 'Blog', href: '/blog' },
-  { label: 'Formation', href: '/formation' },
-]
-
 const CABINET_ITEMS: SimpleItem[] = [
   { label: 'À propos', href: '/a-propos' },
   { label: 'Références', href: '/references' },
-  { label: 'Carrière', href: '/carriere' },
 ]
 
-type GroupId = 'conseil' | 'prestations' | 'outils' | 'ressources' | 'cabinet'
+type GroupId = 'cabinet' | 'conseil' | 'prestations' | 'outils'
 
-const GROUPS: Array<{ id: GroupId; label: string }> = [
-  { id: 'conseil', label: 'Conseil' },
-  { id: 'prestations', label: 'Prestations' },
-  { id: 'outils', label: 'Outils gratuits' },
-  { id: 'ressources', label: 'Ressources' },
-  { id: 'cabinet', label: 'Cabinet' },
+// Ordre voulu : Formation en tête, puis Cabinet, Conseil, Prestations, Outils
+// gratuits, Carrière et Ressources en liens directs (chacun n'a plus qu'une
+// seule destination, un menu déroulant serait superflu).
+type NavEntry =
+  | { kind: 'dropdown'; id: GroupId; label: string }
+  | { kind: 'link'; id: 'formation' | 'carriere' | 'ressources'; label: string; href: string }
+
+const NAV_ENTRIES: NavEntry[] = [
+  { kind: 'link', id: 'formation', label: 'Formation', href: '/formation' },
+  { kind: 'dropdown', id: 'cabinet', label: 'Cabinet' },
+  { kind: 'dropdown', id: 'conseil', label: 'Conseil' },
+  { kind: 'dropdown', id: 'prestations', label: 'Prestations' },
+  { kind: 'dropdown', id: 'outils', label: 'Outils gratuits' },
+  { kind: 'link', id: 'carriere', label: 'Carrière', href: '/carriere' },
+  { kind: 'link', id: 'ressources', label: 'Ressources', href: '/blog' },
 ]
 
 function SimpleList({ items, onNavigate }: { items: SimpleItem[]; onNavigate: () => void }) {
@@ -208,7 +211,6 @@ function NavGroup({ id, label, active, openId, setOpenId }: { id: GroupId; label
                 items={
                   id === 'conseil' ? CONSEIL_ITEMS
                     : id === 'prestations' ? PRESTATIONS_ITEMS
-                    : id === 'ressources' ? RESOURCES_ITEMS
                     : CABINET_ITEMS
                 }
                 onNavigate={() => setOpenId(null)}
@@ -217,6 +219,30 @@ function NavGroup({ id, label, active, openId, setOpenId }: { id: GroupId; label
           </motion.div>
         )}
       </AnimatePresence>
+    </li>
+  )
+}
+
+function NavLinkItem({ label, href, active }: { label: string; href: string; active: boolean }) {
+  return (
+    <li>
+      <Link
+        to={href}
+        style={{
+          display: 'inline-flex',
+          alignItems: 'center',
+          fontSize: '0.85rem',
+          fontWeight: 500,
+          letterSpacing: '0.05em',
+          textTransform: 'uppercase',
+          color: active ? 'var(--blue-bright)' : 'var(--mid)',
+          textDecoration: 'none',
+          padding: '4px 0',
+          transition: 'color 0.2s',
+        }}
+      >
+        {label}
+      </Link>
     </li>
   )
 }
@@ -260,8 +286,14 @@ export default function Nav() {
     if (id === 'conseil') return pathname === '/conseil' || pathname === '/services' || pathname === '/faq' || pathname === '/direction-supply-chain-temps-partage' || pathname === '/directeur-logistique-mi-temps' || pathname === '/directeur-achats-mi-temps' || pathname === '/dsc-vs-recrutement-cdi'
     if (id === 'prestations') return pathname === '/prestations'
     if (id === 'outils') return pathname.startsWith('/outils') || pathname.startsWith('/demo')
-    if (id === 'ressources') return pathname === '/blog' || pathname === '/formation'
     if (id === 'cabinet') return pathname === '/a-propos' || pathname === '/references'
+    return false
+  }
+
+  const linkActive = (id: 'formation' | 'carriere' | 'ressources') => {
+    if (id === 'formation') return pathname === '/formation'
+    if (id === 'carriere') return pathname === '/carriere'
+    if (id === 'ressources') return pathname === '/blog'
     return false
   }
 
@@ -308,9 +340,13 @@ export default function Nav() {
 
         {/* Desktop nav — groupes déroulants */}
         <ul className="desktop-nav" style={{ display: 'flex', alignItems: 'center', gap: '2.25rem', listStyle: 'none' }}>
-          {GROUPS.map(({ id, label }) => (
-            <NavGroup key={id} id={id} label={label} active={groupActive(id)} openId={openGroup} setOpenId={setOpenGroup} />
-          ))}
+          {NAV_ENTRIES.map((entry) =>
+            entry.kind === 'dropdown' ? (
+              <NavGroup key={entry.id} id={entry.id} label={entry.label} active={groupActive(entry.id)} openId={openGroup} setOpenId={setOpenGroup} />
+            ) : (
+              <NavLinkItem key={entry.id} label={entry.label} href={entry.href} active={linkActive(entry.id)} />
+            )
+          )}
           <li>
             <Link
               to="/contact"
@@ -343,8 +379,9 @@ export default function Nav() {
         </ul>
       </motion.nav>
 
-      {/* Mobile overlay — groupes Ressources / Cabinet / Contact / FAQ (Services/Outils/Formation
-          ont leur propre accès direct depuis la barre de navigation mobile) */}
+      {/* Mobile overlay — groupe Cabinet + liens directs Carrière / Prestations /
+          Ressources / FAQ / Contact (Formation, Conseil et Outils ont leur propre
+          accès direct depuis la barre de navigation mobile) */}
       <AnimatePresence>
         {menuOpen && (
           <motion.div
@@ -374,40 +411,45 @@ export default function Nav() {
                 Contact →
               </Link>
 
-              {[
-                { title: 'Ressources', items: RESOURCES_ITEMS },
-                { title: 'Cabinet', items: CABINET_ITEMS },
-              ].map((group, gi) => (
-                <div key={group.title} style={{ marginBottom: '2rem' }}>
-                  <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.16em', textTransform: 'uppercase', color: 'rgba(27,53,84,0.4)', marginBottom: '0.75rem' }}>
-                    {group.title}
-                  </div>
-                  {group.items.map(({ label, href, disabled }, i) => (
-                    <motion.div
-                      key={label}
-                      initial={{ opacity: 0, x: 32 }}
-                      animate={{ opacity: 1, x: 0 }}
-                      transition={{ duration: 0.4, delay: 0.1 + (gi * group.items.length + i) * 0.06 }}
-                    >
-                      {disabled ? (
-                        <span className="mobile-nav-item" style={{ display: 'block', opacity: 0.35 }}>
-                          {label} <span style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem' }}>· bientôt</span>
-                        </span>
-                      ) : (
-                        <Link to={href} className="mobile-nav-item" onClick={() => setMenuOpen(false)} style={{ display: 'block', textDecoration: 'none' }}>
-                          {label}
-                        </Link>
-                      )}
-                    </motion.div>
-                  ))}
+              <div style={{ marginBottom: '2rem' }}>
+                <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.16em', textTransform: 'uppercase', color: 'rgba(27,53,84,0.4)', marginBottom: '0.75rem' }}>
+                  Cabinet
                 </div>
-              ))}
+                {CABINET_ITEMS.map(({ label, href }, i) => (
+                  <motion.div
+                    key={label}
+                    initial={{ opacity: 0, x: 32 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ duration: 0.4, delay: 0.1 + i * 0.06 }}
+                  >
+                    <Link to={href} className="mobile-nav-item" onClick={() => setMenuOpen(false)} style={{ display: 'block', textDecoration: 'none' }}>
+                      {label}
+                    </Link>
+                  </motion.div>
+                ))}
+              </div>
 
-              <motion.div initial={{ opacity: 0, x: 32 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.4, delay: 0.4 }}>
-                <Link to="/faq" className="mobile-nav-item" onClick={() => setMenuOpen(false)} style={{ display: 'block', textDecoration: 'none' }}>
-                  FAQ
-                </Link>
-              </motion.div>
+              {/* Carrière, Prestations, Ressources et FAQ : liens directs, plus de
+                  destination propre pour justifier un sous-groupe (Prestations est
+                  ajouté ici pour rester atteignable depuis le menu mobile, comme
+                  Conseil ; auparavant seul Conseil l'était). */}
+              {[
+                { label: 'Carrière', href: '/carriere' },
+                { label: 'Prestations', href: '/prestations' },
+                { label: 'Ressources', href: '/blog' },
+                { label: 'FAQ', href: '/faq' },
+              ].map(({ label, href }, i) => (
+                <motion.div
+                  key={label}
+                  initial={{ opacity: 0, x: 32 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ duration: 0.4, delay: 0.1 + (CABINET_ITEMS.length + i) * 0.06 }}
+                >
+                  <Link to={href} className="mobile-nav-item" onClick={() => setMenuOpen(false)} style={{ display: 'block', textDecoration: 'none' }}>
+                    {label}
+                  </Link>
+                </motion.div>
+              ))}
             </nav>
             <motion.div
               initial={{ opacity: 0 }}

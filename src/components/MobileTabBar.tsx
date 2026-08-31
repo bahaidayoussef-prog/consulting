@@ -33,9 +33,9 @@ export default function MobileTabBar() {
 
   const tabs = [
     { label: 'Accueil', href: '/', icon: IconHome, match: (p: string) => p === '/' },
+    { label: 'Formation', href: '/formation', icon: IconSchool, match: (p: string) => p === '/formation' },
     { label: 'Conseil', href: '/conseil', icon: IconBriefcase, match: (p: string) => p === '/conseil' || p === '/prestations' },
     { label: 'Outils', icon: IconTools, action: () => setToolsOpen(!toolsOpen), match: (p: string) => p.startsWith('/outils') || p.startsWith('/demo') },
-    { label: 'Formation', href: '/formation', icon: IconSchool, match: (p: string) => p === '/formation' },
     { label: 'Menu', icon: menuOpen ? IconX : IconMenu2, action: () => setMenuOpen(!menuOpen), match: () => false },
   ]
 
