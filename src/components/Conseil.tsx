@@ -51,6 +51,17 @@ const services = [
   },
   {
     num: '05',
+    title: 'Cahiers des Charges',
+    tagline: 'Formaliser le besoin, avant de consulter le marché.',
+    desc: "Rédaction de cahiers des charges techniques pour toute consultation Supply Chain & Logistique : systèmes (WMS, TMS, APS, Control Tower, intégration IA au pilotage logistique, transport et supply chain), externalisation (entreposage en open book ou closed book, transport), opérations spéciales (co-packing, fardelage, gestion d'inventaire RFID, vidéosurveillance) et équipements (rayonnage conventionnel ou à accumulation, engins de manutention thermiques et électriques — dimensionnement inclus). Document formalisé et chiffré, prêt à diffuser aux prestataires. Zéro commission fournisseur ou intégrateur — notre seule allégeance est votre business case. Complémentaire à l'Étude de Faisabilité SI ci-dessous pour qui veut aussi le scoring et la sélection des prestataires.",
+    tiers: [
+      { name: 'Cahier des Charges Simple', price: '25 000 – 40 000 MAD HT', duration: '2 à 3 semaines' },
+      { name: 'Cahier des Charges Multi-lots', price: '45 000 – 80 000 MAD HT', duration: '4 à 6 semaines', featured: true },
+      { name: 'Cahier des Charges Multi-sites', price: 'Sur devis', duration: '6 à 10 semaines' },
+    ],
+  },
+  {
+    num: '06',
     title: 'Étude de Faisabilité SI',
     tagline: "Avant d'acheter un logiciel, comprendre ce dont vous avez besoin.",
     desc: "Expression de besoins, cartographie SI existant, RFP formalisé, scoring éditeurs, business case ROI sur 5 ans. Zéro commission. Notre seule allégeance est à votre business case.",
@@ -61,7 +72,7 @@ const services = [
     ],
   },
   {
-    num: '06',
+    num: '07',
     title: 'AMOA & Pilotage Projet',
     tagline: "Nous représentons vos intérêts face à l'intégrateur.",
     desc: "Pilotage intégrateur en votre nom, gestion avenants, comité de pilotage, change management équipes, stabilisation post go-live. De l'accompagnement léger au programme management multi-projets.",
@@ -453,6 +464,10 @@ export const servicesFAQ = [
   {
     q: 'Combien de temps dure un accompagnement Systèmes SI & IA ?',
     a: "De 4 semaines à 10 mois selon le système et le palier. Control Tower Mini : 4 à 6 semaines. APS/S&OP et e-Procurement : 6 à 8 semaines (Mini) à 9 mois (Pro). TMS : 6 à 10 semaines (Mini) à 9 mois (Pro). WMS : voir la question dédiée ci-dessus (6 semaines à 10 mois). La durée dépend du scope, du nombre de sites et des intégrations ERP nécessaires.",
+  },
+  {
+    q: 'Rédigez-vous des cahiers des charges pour autre chose que les systèmes SI (WMS/TMS/APS) ?',
+    a: "Oui. Au-delà des systèmes (WMS, TMS, APS, Control Tower, intégration IA au pilotage), nous rédigeons des cahiers des charges pour l'externalisation (entreposage en open book ou closed book, transport), les opérations spéciales (co-packing, fardelage, gestion d'inventaire RFID, vidéosurveillance) et les équipements (rayonnage conventionnel ou à accumulation, engins de manutention thermiques et électriques avec dimensionnement). De 25 000 à 80 000 MAD HT selon le nombre de lots couverts, ou sur devis pour un périmètre multi-sites.",
   },
   {
     q: 'Proposez-vous un accompagnement après le déploiement WMS/TMS/APS ?',
