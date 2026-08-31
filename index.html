@@ -70,13 +70,13 @@
             "@type": "OfferCatalog",
             "name": "Services Essor Consulting",
             "itemListElement": [
-              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Diagnostic Supply Chain", "url": "https://nextinotech.com/#conseil" } },
-              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Optimisation des Stocks & DDMRP", "url": "https://nextinotech.com/#conseil" } },
-              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Performance Achats", "url": "https://nextinotech.com/#conseil" } },
-              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Schéma Logistique & Greenfield", "url": "https://nextinotech.com/#conseil" } },
-              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AMOA & Déploiement WMS/TMS/APS", "url": "https://nextinotech.com/#systemes" } },
-              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Direction Supply Chain à Temps Partagé", "url": "https://nextinotech.com/#dsc" } },
-              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Formation Supply Chain", "url": "https://nextinotech.com/#formation" } }
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Diagnostic Supply Chain", "url": "https://nextinotech.com/conseil" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Optimisation des Stocks & DDMRP", "url": "https://nextinotech.com/conseil" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Performance Achats", "url": "https://nextinotech.com/conseil" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Schéma Logistique & Greenfield", "url": "https://nextinotech.com/conseil" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AMOA & Déploiement WMS/TMS/APS", "url": "https://nextinotech.com/conseil" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Direction Supply Chain à Temps Partagé", "url": "https://nextinotech.com/direction-supply-chain-temps-partage" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Formation Supply Chain", "url": "https://nextinotech.com/formation" } }
             ]
           },
           "foundingDate": "2024",
@@ -89,23 +89,20 @@
           }
         },
         {
-          "@type": "Person",
+          "@type": "Organization",
           "@id": "https://nextinotech.com/#founder",
-          "name": "Youssef",
-          "jobTitle": "Fondateur & Directeur — Essor Consulting",
-          "worksFor": { "@id": "https://nextinotech.com/#organization" },
+          "name": "Essor Consulting",
+          "url": "https://nextinotech.com",
           "knowsAbout": ["Supply Chain Management", "Logistique", "DDMRP", "S&OP", "WMS", "TMS", "APS", "Achats", "Management de transition"],
-          "alumniOf": ["ENSA Agadir", "KEDGE Business School", "UM6P"],
-          "hasCredential": "DDMRP Certified Practitioner",
-          "description": "Expert Supply Chain avec plus de 20 ans d'expérience en ingénierie Supply Chain, Logistique et Achats au Maroc et en Europe. DDMRP Certified Practitioner. Expert national Task Force Vaccination COVID-19."
+          "description": "Cabinet de conseil Supply Chain et Logistique au Maroc et en Europe, fondé sur plus de 20 ans d'expertise en ingénierie Supply Chain, Logistique et Achats. Équipe DDMRP Certified Practitioner. Expertise reconnue via la Task Force Vaccination COVID-19."
         },
         {
           "@type": "BreadcrumbList",
           "@id": "https://nextinotech.com/#breadcrumb",
           "itemListElement": [
             { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://nextinotech.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Nos Services", "item": "https://nextinotech.com/#conseil" },
-            { "@type": "ListItem", "position": 3, "name": "Contact", "item": "https://nextinotech.com/#contact" }
+            { "@type": "ListItem", "position": 2, "name": "Conseil", "item": "https://nextinotech.com/conseil" },
+            { "@type": "ListItem", "position": 3, "name": "Contact", "item": "https://nextinotech.com/contact" }
           ]
         },
         {
@@ -131,16 +128,26 @@
               {
                 "@type": "Offer",
                 "name": "Diagnostic Flash",
-                "price": "45000",
                 "priceCurrency": "MAD",
+                "priceSpecification": {
+                  "@type": "PriceSpecification",
+                  "minPrice": 35000,
+                  "maxPrice": 55000,
+                  "priceCurrency": "MAD"
+                },
                 "priceValidUntil": "2026-12-31",
                 "availability": "https://schema.org/InStock"
               },
               {
                 "@type": "Offer",
                 "name": "Diagnostic Stratégique",
-                "price": "105000",
                 "priceCurrency": "MAD",
+                "priceSpecification": {
+                  "@type": "PriceSpecification",
+                  "minPrice": 80000,
+                  "maxPrice": 130000,
+                  "priceCurrency": "MAD"
+                },
                 "priceValidUntil": "2026-12-31",
                 "availability": "https://schema.org/InStock"
               }
@@ -200,52 +207,6 @@
           "contactType": "Customer Service",
           "email": "essor.consulting.maroc@gmail.com",
           "areaServed": ["MA", "FR"]
-        },
-        {
-          "@type": "FAQPage",
-          "@id": "https://nextinotech.com/#faq",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "Combien coûte un diagnostic supply chain?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Nos diagnostics varient de 35k à 130k MAD selon la profondeur. Diagnostic Flash (2 semaines, 35-55k MAD) pour une vue d'ensemble rapide. Diagnostic Stratégique (4-6 semaines, 80-130k MAD) pour une analyse approfondie avec leviers chiffrés."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Êtes-vous certifiés DDMRP?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Oui. Notre fondateur est DDMRP Certified Practitioner. Nous déployons des politiques de stocks optimisées (DDMRP) sur les cas complexes, avec libération de cash et réduction des ruptures documentées."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Quelle est votre expérience en tant que consultant?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "20+ ans d'expérience en ingénierie Supply Chain, Logistique et Achats au Maroc et en Europe. 110+ missions réalisées : diagnostic, optimisation stocks, performance achats, schémas logistiques, AMOA SI. DDMRP Certified. Références : Renault-Nissan, L'Oréal, Nestlé, OCP, DHL, Groupe Addoha."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Travaillez-vous avec les PME et ETI?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Oui, exclusivement. PME et ETI marocaines sont notre cible. Tarifs publics, zéro commission éditeur, indépendance totale garantie. Notre seule allégeance est à votre business case."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Quels sont vos délais typiques?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Diagnostic Express : 2-6 semaines. Optimisation stocks : 3-4 mois. Schéma logistique complet : 3-5 mois. Déploiement DDMRP/ERP : 5-9 mois selon la complexité."
-              }
-            }
-          ]
         },
         {
           "@type": "WebPage",
