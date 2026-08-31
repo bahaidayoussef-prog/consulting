@@ -875,7 +875,7 @@ function HeroCarousel() {
       aria-hidden="true"
       style={{ position: 'absolute', inset: 0, zIndex: 0, overflow: 'hidden' }}
     >
-      <div style={{ position: 'absolute', inset: 0, opacity: 0.38 }}>
+      <div style={{ position: 'absolute', inset: 0, opacity: 0.62 }}>
         {CAROUSEL_IMAGES.map((src, i) => (
           <div
             key={src}
@@ -894,7 +894,7 @@ function HeroCarousel() {
       {/* Brand-colored veil — blue/white, not a flat black scrim */}
       <div style={{
         position: 'absolute', inset: 0,
-        background: 'linear-gradient(125deg, rgba(27,53,84,0.72) 0%, rgba(255,255,255,0.55) 45%, rgba(47,111,181,0.28) 100%)',
+        background: 'linear-gradient(125deg, rgba(27,53,84,0.42) 0%, rgba(255,255,255,0.32) 45%, rgba(47,111,181,0.16) 100%)',
       }} />
       <div style={{
         position: 'absolute', inset: 0,
