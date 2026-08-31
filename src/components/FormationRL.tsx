@@ -1,6 +1,9 @@
 import { motion, AnimatePresence, useInView } from 'framer-motion'
 import { useState, useEffect, useRef } from 'react'
 import type { ReactNode } from 'react'
+import { Link } from 'react-router-dom'
+import PageMeta from './PageMeta'
+import SchemaScript from './SchemaHelper'
 
 /* ─── Constants ─────────────────────────────────────────── */
 const PHONE = '212663449200'
@@ -73,6 +76,42 @@ const FAQS = [
     a: 'Annulation gratuite jusqu\'à 7 jours avant la session. Après ce délai, possibilité de reporter sur la session suivante sans frais. En cas d\'annulation de notre part (session insuffisamment remplie), remboursement intégral immédiat.',
   },
 ]
+
+/* ─── Schema.org ─────────────────────────────────────────── */
+const courseSchema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'Course',
+      '@id': 'https://nextinotech.com/formation-rl/#course',
+      name: 'Devenir Responsable Logistique',
+      description: 'Formation intensive d\'une journée pour maîtriser les méthodes, les outils et les réflexes du pilotage logistique : fondamentaux, gestion des stocks, transport, pilotage de la performance, systèmes WMS/TMS/ERP.',
+      provider: { '@type': 'Organization', name: 'Essor Consulting', sameAs: 'https://nextinotech.com/' },
+      hasCourseInstance: {
+        '@type': 'CourseInstance',
+        courseMode: 'Onsite',
+        courseWorkload: 'P1D',
+        location: { '@type': 'Place', name: 'Hôtel 5 étoiles', address: { '@type': 'PostalAddress', addressLocality: 'Casablanca', addressCountry: 'MA' } },
+      },
+      offers: {
+        '@type': 'Offer',
+        price: 1500,
+        priceCurrency: 'MAD',
+        availability: 'https://schema.org/InStock',
+        url: 'https://nextinotech.com/formation-rl/',
+      },
+    },
+    {
+      '@type': 'FAQPage',
+      '@id': 'https://nextinotech.com/formation-rl/#faq',
+      mainEntity: FAQS.map(f => ({
+        '@type': 'Question',
+        name: f.q,
+        acceptedAnswer: { '@type': 'Answer', text: f.a },
+      })),
+    },
+  ],
+}
 
 /* ─── Hooks ──────────────────────────────────────────────── */
 function useCountUp(target: number, duration = 1800, trigger = false) {
@@ -199,25 +238,27 @@ function FAQItem({ q, a, open, onClick }: { q: string; a: string; open: boolean;
   )
 }
 
+/* Cadre "infographie" — l'image garde son cadrage d'origine (objectFit: contain)
+   pour ne jamais rogner les libellés qu'elle contient. */
+function InfographicFrame({ src, alt }: { src: string; alt: string }) {
+  return (
+    <div style={{ background: '#ffffff', border: '1px solid rgba(10,20,32,0.08)', padding: '1.25rem' }}>
+      <img
+        src={src}
+        alt={alt}
+        loading="lazy"
+        style={{ display: 'block', width: '100%', height: 'auto', objectFit: 'contain' }}
+      />
+    </div>
+  )
+}
+
 /* ─── Main component ─────────────────────────────────────── */
 export default function FormationRL() {
   const [openFAQ, setOpenFAQ] = useState<number | null>(null)
   const [showSticky, setShowSticky] = useState(false)
   const statsRef = useRef<HTMLDivElement>(null)
   const statsInView = useInView(statsRef, { once: true, margin: '-80px' })
-
-  /* Meta update */
-  useEffect(() => {
-    const prevTitle = document.title
-    document.title = 'Formation Responsable Logistique — 1 jour · 1 500 MAD · Hôtel 5★ Casablanca | Essor Consulting'
-    const meta = document.querySelector('meta[name="description"]')
-    const prevDesc = meta?.getAttribute('content') ?? ''
-    meta?.setAttribute('content', 'Formation intensive 1 journée pour devenir Responsable Logistique. Hôtel 5 étoiles Casablanca. 1 500 MAD tout inclus. Formateur 20+ ans terrain. Places limitées à 8 participants.')
-    return () => {
-      document.title = prevTitle
-      meta?.setAttribute('content', prevDesc)
-    }
-  }, [])
 
   /* Sticky CTA on scroll */
   useEffect(() => {
@@ -247,6 +288,12 @@ export default function FormationRL() {
 
   return (
     <div className="grain" style={{ background: '#0a1420', minHeight: '100vh', color: '#f0ede8' }}>
+      <PageMeta
+        title="Formation Responsable Logistique — 1 jour · 1 500 MAD · Hôtel 5★ Casablanca | Essor Consulting"
+        description="Formation intensive 1 journée pour devenir Responsable Logistique. Hôtel 5 étoiles Casablanca. 1 500 MAD tout inclus. Formateur 20+ ans terrain. Places limitées à 8 participants."
+        canonical="https://nextinotech.com/formation-rl/"
+      />
+      <SchemaScript schema={courseSchema} />
 
       {/* ── STICKY CTA ─────────────────────────────────────── */}
       <div className={`frl-sticky${showSticky ? ' visible' : ''}`}>
@@ -276,101 +323,92 @@ export default function FormationRL() {
         </a>
       </div>
 
-      {/* ── NAV ─────────────────────────────────────────────── */}
-      <nav style={{
-        position: 'sticky', top: 0, zIndex: 100,
-        display: 'flex', alignItems: 'center', justifyContent: 'space-between',
-        padding: '1.25rem var(--sp-x)',
-        background: 'rgba(10,20,32,0.95)', backdropFilter: 'blur(12px)',
-        borderBottom: '1px solid rgba(255,255,255,0.05)',
-      }}>
-        <a href="/" style={{ textDecoration: 'none' }}>
-          <div style={{ fontFamily: 'Manrope, sans-serif', fontSize: '1.05rem', fontWeight: 800, color: '#f0ede8', letterSpacing: '-0.01em' }}>
-            Essor Consulting
-          </div>
-          <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.5rem', letterSpacing: '0.18em', color: 'var(--blue-bright)', textTransform: 'uppercase', marginTop: '0.1rem' }}>
-            ← Retour au site
-          </div>
-        </a>
-        <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
-          <CTAButton href={EMAIL_LINK} primary={false}>Par email</CTAButton>
-          <CTAButton href={WA_LINK}>WhatsApp →</CTAButton>
-        </div>
-      </nav>
-
-      {/* ── HERO ─────────────────────────────────────────────── */}
+      {/* ── HERO — deux colonnes, photo pleinement visible ──── */}
       <section style={{ padding: 'var(--sp-y) var(--sp-x) var(--sp-y-sm)', position: 'relative', overflow: 'hidden' }}>
-        {/* Background image */}
-        <div style={{
-          position: 'absolute', inset: 0,
-          backgroundImage: 'url(/images/hero-warehouse.jpg)',
-          backgroundSize: 'cover', backgroundPosition: 'center',
-          opacity: 0.1, filter: 'grayscale(100%)',
-        }} />
-        {/* Gradient */}
-        <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(135deg, #0a1420 55%, rgba(10,20,32,0.6) 100%)' }} />
-        {/* Gold orb */}
+        {/* Halo d'ambiance — décoratif, ne recouvre jamais la photo */}
         <div style={{ position: 'absolute', top: '-20%', right: '-10%', width: 600, height: 600, borderRadius: '50%', background: 'radial-gradient(circle, rgba(47,111,181,0.08) 0%, transparent 70%)', pointerEvents: 'none' }} />
 
-        <div className="section-inner" style={{ position: 'relative', zIndex: 1 }}>
-          {/* Tag */}
-          <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
-            <UrgencyBadge />
-          </motion.div>
+        <div className="section-inner frl-hero-grid" style={{ position: 'relative', zIndex: 1, display: 'grid', gridTemplateColumns: '1.05fr 1fr', gap: '4rem', alignItems: 'center' }}>
+          <div>
+            <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
+              <UrgencyBadge />
+            </motion.div>
 
-          <motion.div
-            initial={{ opacity: 0, y: 16 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.05 }}
-            style={{ display: 'block', fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'rgba(47,111,181,0.5)', marginBottom: '2rem' }}
-          >
-            Formation terrain · 1 journée · Casablanca · Hôtel 5★
-          </motion.div>
+            <motion.div
+              initial={{ opacity: 0, y: 16 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.05 }}
+              style={{ display: 'block', fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'rgba(47,111,181,0.5)', marginBottom: '2rem' }}
+            >
+              Formation terrain · 1 journée · Casablanca · Hôtel 5★
+            </motion.div>
 
-          <motion.h1
-            initial={{ opacity: 0, y: 40 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.9, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
-            style={{
-              fontFamily: 'Manrope, sans-serif',
-              fontSize: 'clamp(3.5rem, 8vw, 9rem)',
-              fontWeight: 800, lineHeight: 0.9, letterSpacing: '-0.025em',
-              color: '#f0ede8', margin: '0 0 2.5rem', maxWidth: 920,
-            }}
-          >
-            Devenir<br />
-            <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>
-              Responsable
-            </span><br />
-            Logistique.
-          </motion.h1>
+            <motion.h1
+              initial={{ opacity: 0, y: 40 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.9, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
+              style={{
+                fontFamily: 'Manrope, sans-serif',
+                fontSize: 'clamp(3rem, 6.5vw, 6.5rem)',
+                fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em',
+                color: '#f0ede8', margin: '0 0 2.5rem',
+              }}
+            >
+              Devenir<br />
+              <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>
+                Responsable
+              </span><br />
+              Logistique.
+            </motion.h1>
 
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-            style={{ fontSize: 'clamp(1rem, 1.5vw, 1.2rem)', color: 'rgba(235,232,225,0.65)', lineHeight: 1.8, fontWeight: 300, maxWidth: 560, marginBottom: '3rem' }}
-          >
-            Une journée intensive pour maîtriser les méthodes, les outils et les réflexes du pilotage logistique. Animée par un expert avec 20+ ans de terrain au Maroc et en Europe. Tout inclus.
-          </motion.p>
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.2 }}
+              style={{ fontSize: 'clamp(1rem, 1.5vw, 1.2rem)', color: 'rgba(235,232,225,0.65)', lineHeight: 1.8, fontWeight: 300, maxWidth: 520, marginBottom: '3rem' }}
+            >
+              Une journée intensive pour maîtriser les méthodes, les outils et les réflexes du pilotage logistique. Animée par un expert avec 20+ ans de terrain au Maroc et en Europe. Tout inclus.
+            </motion.p>
 
-          <motion.div
-            initial={{ opacity: 0, y: 16 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, delay: 0.3 }}
-            style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', alignItems: 'center' }}
-          >
-            <CTAButton href={WA_LINK} large>Réserver via WhatsApp →</CTAButton>
-            <CTAButton href={EMAIL_LINK} primary={false} large>Par email</CTAButton>
-          </motion.div>
+            <motion.div
+              initial={{ opacity: 0, y: 16 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.7, delay: 0.3 }}
+              style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', alignItems: 'center' }}
+            >
+              <CTAButton href={WA_LINK} large>Réserver via WhatsApp →</CTAButton>
+              <CTAButton href={EMAIL_LINK} primary={false} large>Par email</CTAButton>
+            </motion.div>
 
-          {/* ── STATS COUNTER ── */}
-          <div ref={statsRef} className="frl-hero-stats">
-            <StatCounter value={1500} suffix=" MAD" label="TTC par participant" trigger={statsInView} />
-            <StatCounter value={1} suffix=" jour" label="8h30 → 17h30" trigger={statsInView} />
-            <StatCounter value={20} suffix="+" label="Ans de terrain" trigger={statsInView} />
-            <StatCounter value={110} suffix="+" label="Missions réalisées" trigger={statsInView} />
+            {/* ── STATS COUNTER ── */}
+            <div ref={statsRef} className="frl-hero-stats">
+              <StatCounter value={1500} suffix=" MAD" label="TTC par participant" trigger={statsInView} />
+              <StatCounter value={1} suffix=" jour" label="8h30 → 17h30" trigger={statsInView} />
+              <StatCounter value={20} suffix="+" label="Ans de terrain" trigger={statsInView} />
+              <StatCounter value={110} suffix="+" label="Missions réalisées" trigger={statsInView} />
+            </div>
           </div>
+
+          {/* Photo — pleinement visible, aucun voile */}
+          <motion.div
+            initial={{ opacity: 0, scale: 0.97 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.9, delay: 0.15, ease: [0.16, 1, 0.3, 1] }}
+            style={{ position: 'relative' }}
+          >
+            <div style={{ position: 'relative', paddingBottom: '118%', overflow: 'hidden', background: '#0d1e30' }}>
+              <img
+                src="/images/formation-rl/hero.jpg"
+                alt="Responsable logistique pilotant le flux supply chain sur écran interactif en entrepôt"
+                loading="lazy"
+                style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover' }}
+              />
+            </div>
+            <div style={{ position: 'absolute', bottom: '-1.5rem', left: '-1.5rem', background: 'var(--blue-bright)', padding: '1.25rem 1.75rem' }}>
+              <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.12em', textTransform: 'uppercase', color: 'rgba(10,20,32,0.65)', marginBottom: '0.3rem' }}>★ Programme phare</div>
+              <div style={{ fontFamily: 'Manrope, sans-serif', fontSize: '1.15rem', fontWeight: 800, color: '#0a1420', lineHeight: 1 }}>1 500 MAD TTC</div>
+            </div>
+          </motion.div>
         </div>
       </section>
 
@@ -389,16 +427,21 @@ export default function FormationRL() {
       {/* ── POUR QUI ─────────────────────────────────────────── */}
       <section style={{ background: 'var(--paper)', padding: 'var(--sp)', color: '#0a1420' }}>
         <div className="section-inner">
-          <motion.div initial={{ opacity: 0, y: 32 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: '-60px' }} transition={{ duration: 0.8 }} style={{ marginBottom: '4rem' }}>
-            <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'rgba(47,111,181,0.65)', marginBottom: '1.5rem' }}>
-              01 / Pour qui
-            </div>
-            <h2 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2.5rem, 5vw, 6rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', color: '#0a1420', margin: 0 }}>
-              Cette formation<br />
-              <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>est faite pour vous</span><br />
-              si vous gérez des flux.
-            </h2>
-          </motion.div>
+          <div className="frl-comp" style={{ marginBottom: '4rem' }}>
+            <motion.div initial={{ opacity: 0, y: 32 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: '-60px' }} transition={{ duration: 0.8 }}>
+              <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'rgba(47,111,181,0.65)', marginBottom: '1.5rem' }}>
+                01 / Pour qui
+              </div>
+              <h2 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2.2rem, 4vw, 4.5rem)', fontWeight: 800, lineHeight: 0.95, letterSpacing: '-0.025em', color: '#0a1420', margin: 0 }}>
+                Cette formation<br />
+                <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>est faite pour vous</span><br />
+                si vous gérez des flux.
+              </h2>
+            </motion.div>
+            <motion.div initial={{ opacity: 0, y: 32 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: '-40px' }} transition={{ duration: 0.8, delay: 0.1 }}>
+              <InfographicFrame src="/images/formation-rl/parcours-profils.jpg" alt="Trois profils progressant vers la Direction Supply Chain : technique, opérationnel, management stratégique" />
+            </motion.div>
+          </div>
           <div className="frl-cibles">
             {CIBLES.map((c, i) => (
               <motion.div
@@ -531,45 +574,41 @@ export default function FormationRL() {
         </div>
       </section>
 
-      {/* ── FORMATEUR ────────────────────────────────────────── */}
+      {/* ── DÉBOUCHÉS & CARRIÈRE ─────────────────────────────── */}
       <section style={{ background: 'var(--paper)', padding: 'var(--sp)', color: '#0a1420' }}>
         <div className="section-inner">
-          <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'rgba(47,111,181,0.65)', marginBottom: '3rem' }}>
-            04 / Votre formateur
-          </div>
-          <div className="frl-prof">
-            <motion.div initial={{ opacity: 0, scale: 0.96 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ duration: 0.8 }} style={{ position: 'relative' }}>
-              <div style={{ width: '100%', paddingBottom: '120%', background: '#0a1420', overflow: 'hidden', position: 'relative' }}>
-                <img src="/images/conseil.jpg" alt="Formateur Essor Consulting" style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', filter: 'grayscale(15%)' }} />
-                <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(10,20,32,0.35) 0%, transparent 60%)' }} />
-              </div>
-              <div style={{ position: 'absolute', bottom: '-1.5rem', right: '-1.5rem', background: 'var(--blue-bright)', padding: '1.5rem 2rem' }}>
-                <div style={{ fontFamily: 'Manrope, sans-serif', fontSize: '2.2rem', fontWeight: 800, color: '#0a1420', lineHeight: 1 }}>20+</div>
-                <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.5rem', letterSpacing: '0.12em', textTransform: 'uppercase', color: 'rgba(10,20,32,0.65)', marginTop: '0.25rem' }}>ans terrain</div>
-              </div>
+          <div className="frl-comp">
+            <motion.div initial={{ opacity: 0, scale: 0.98 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ duration: 0.8 }}>
+              <InfographicFrame src="/images/formation-rl/parcours-carriere.jpg" alt="Trajectoire de carrière en logistique : opérateur, planificateur, chef d'équipe, jusqu'à responsable logistique certifié" />
             </motion.div>
 
             <motion.div initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8, delay: 0.15 }}>
-              <h2 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2rem, 3.5vw, 4rem)', fontWeight: 800, lineHeight: 0.95, letterSpacing: '-0.025em', color: '#0a1420', margin: '0 0 0.5rem' }}>
-                Notre formateur<br />
-                <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>— Fondateur, Essor Consulting</span>
+              <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'rgba(47,111,181,0.65)', marginBottom: '1.5rem' }}>
+                04 / Débouchés & carrière
+              </div>
+              <h2 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2.2rem, 4vw, 4.5rem)', fontWeight: 800, lineHeight: 0.95, letterSpacing: '-0.025em', color: '#0a1420', margin: '0 0 1.5rem' }}>
+                Un tremplin,<br />
+                <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>pas un aboutissement.</span>
               </h2>
-              <p style={{ fontSize: '1rem', color: 'rgba(10,20,32,0.6)', lineHeight: 1.8, fontWeight: 300, margin: '1.5rem 0 2.5rem', maxWidth: 540 }}>
-                Expert Supply Chain & Logistique avec plus de 20 ans de missions terrain au Maroc et en Europe. DDMRP Certified Practitioner. Expert national COVID-19. Intervenant dans les grandes écoles marocaines.
+              <p style={{ fontSize: '1rem', color: 'rgba(10,20,32,0.6)', lineHeight: 1.85, fontWeight: 300, margin: '0 0 1.25rem', maxWidth: 520 }}>
+                Cette journée structure les compétences déjà acquises sur le terrain — coordination, gestion d'entrepôt, encadrement d'équipe transport — pour vous positionner sur un poste de Responsable Logistique.
               </p>
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
-                {[
-                  'DDMRP Certified Practitioner — Demand Driven Institute',
-                  'Intervenant : TBS · ISCAE · HEM · ENCG · EMI',
-                  'Références : Renault-Nissan · L\'Oréal · Nestlé · OCP · DHL · Addoha',
-                  '110+ missions de conseil Supply Chain — Maroc & Europe',
-                  'Expert national Supply Chain — Task Force Vaccination COVID-19',
-                ].map((item, i) => (
-                  <div key={i} style={{ display: 'flex', alignItems: 'flex-start', gap: '0.75rem' }}>
-                    <span style={{ color: 'var(--blue-bright)', marginTop: '0.35rem', fontSize: '0.45rem', flexShrink: 0 }}>◆</span>
-                    <span style={{ fontSize: '0.875rem', color: 'rgba(10,20,32,0.65)', fontWeight: 400, lineHeight: 1.5 }}>{item}</span>
-                  </div>
-                ))}
+              <p style={{ fontSize: '1rem', color: 'rgba(10,20,32,0.6)', lineHeight: 1.85, fontWeight: 300, margin: '0 0 2.5rem', maxWidth: 520 }}>
+                Pour poursuivre votre progression vers la Direction Supply Chain, Essor Consulting propose deux prolongements naturels : le catalogue complet de formations, et l'accompagnement Direction Supply Chain à Temps Partagé pour les organisations déjà pilotées.
+              </p>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '0.9rem', alignItems: 'flex-start' }}>
+                <Link
+                  to="/formation"
+                  style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.65rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--blue-bright)', textDecoration: 'none' }}
+                >
+                  Voir le catalogue complet des formations →
+                </Link>
+                <Link
+                  to="/direction-supply-chain-temps-partage"
+                  style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.65rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--blue-bright)', textDecoration: 'none' }}
+                >
+                  Direction Supply Chain à Temps Partagé →
+                </Link>
               </div>
             </motion.div>
           </div>
@@ -639,7 +678,7 @@ export default function FormationRL() {
         </div>
       </div>
 
-      {/* ── CTA DORÉ ─────────────────────────────────────────── */}
+      {/* ── CTA FINAL ────────────────────────────────────────── */}
       <section style={{ background: 'var(--blue-bright)', padding: 'var(--sp-y) var(--sp-x)' }}>
         <div className="section-inner" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '3rem' }}>
           <motion.div initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }}>
@@ -705,22 +744,6 @@ export default function FormationRL() {
           </div>
         </div>
       </section>
-
-      {/* ── FOOTER ───────────────────────────────────────────── */}
-      <footer style={{ background: '#060e18', borderTop: '1px solid rgba(255,255,255,0.06)', padding: '2.5rem var(--sp-x)' }}>
-        <div className="section-inner" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '1.5rem' }}>
-          <div>
-            <div style={{ fontFamily: 'Manrope, sans-serif', fontSize: '1.1rem', fontWeight: 800, color: '#f0ede8' }}>Essor Consulting</div>
-            <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'rgba(240,237,232,0.48)', marginTop: '0.3rem' }}>
-              Casablanca, Maroc · essor.consulting.maroc@gmail.com · +212 06 63 44 92 00
-            </div>
-          </div>
-          <div style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}>
-            <a href="/" style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: 'rgba(240,237,232,0.48)', textDecoration: 'none' }}>← Retour au site principal</a>
-            <a href={WA_LINK} target="_blank" rel="noopener noreferrer" style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--blue-bright)', textDecoration: 'none' }}>WhatsApp →</a>
-          </div>
-        </div>
-      </footer>
 
       {/* ── Pulse animation ── */}
       <style>{`

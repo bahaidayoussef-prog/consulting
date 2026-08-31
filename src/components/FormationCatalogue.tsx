@@ -1424,12 +1424,12 @@ export default function FormationCatalogue() {
                 Une journée intensive pour structurer votre pilotage logistique. Formateur expert 20+ ans terrain. Hôtel 5★ Casablanca. Tout inclus — déjeuner, support 60 pages, attestation, suivi WhatsApp 30 jours.
               </p>
               <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', marginBottom: '3rem' }}>
-                <a href="/formation-rl/" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', padding: '1rem 2.5rem', background: 'var(--navy)', color: '#ffffff', fontFamily: 'Jost, sans-serif', fontSize: '0.9rem', fontWeight: 600, textDecoration: 'none', letterSpacing: '0.04em', transition: 'background 0.2s' }}
+                <Link to="/formation-rl/" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', padding: '1rem 2.5rem', background: 'var(--navy)', color: '#ffffff', fontFamily: 'Jost, sans-serif', fontSize: '0.9rem', fontWeight: 600, textDecoration: 'none', letterSpacing: '0.04em', transition: 'background 0.2s' }}
                   onMouseEnter={e => (e.currentTarget as HTMLElement).style.background = 'var(--blue-bright)'}
                   onMouseLeave={e => (e.currentTarget as HTMLElement).style.background = 'var(--navy)'}
                 >
                   Voir le programme complet →
-                </a>
+                </Link>
                 <a href={WA} target="_blank" rel="noopener noreferrer" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', padding: '1rem 2.5rem', background: 'transparent', border: '1px solid var(--border)', color: 'var(--navy)', fontFamily: 'Jost, sans-serif', fontSize: '0.9rem', fontWeight: 600, textDecoration: 'none', letterSpacing: '0.04em', transition: 'all 0.2s' }}
                   onMouseEnter={e => { (e.currentTarget as HTMLElement).style.borderColor = 'var(--blue-bright)'; (e.currentTarget as HTMLElement).style.color = 'var(--blue-bright)' }}
                   onMouseLeave={e => { (e.currentTarget as HTMLElement).style.borderColor = 'var(--border)'; (e.currentTarget as HTMLElement).style.color = 'var(--navy)' }}

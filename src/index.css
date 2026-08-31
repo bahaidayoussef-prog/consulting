@@ -482,12 +482,13 @@ html.lenis { height: auto; }
 /* ── FormationRL responsive grids ── */
 .frl-2col { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; }
 .frl-3col { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; }
-.frl-prof { display: grid; grid-template-columns: 1fr 2fr; gap: 6rem; align-items: center; }
 .frl-comp { display: grid; grid-template-columns: 1fr 1fr; gap: 6rem; align-items: start; }
 .frl-cibles { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem; }
 .frl-hero-stats { display: flex; gap: 3rem; flex-wrap: wrap; padding-top: 2.5rem; border-top: 1px solid rgba(255,255,255,0.08); margin-top: 5rem; }
 .frl-inclus { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; }
-.frl-logistics { display: grid; grid-template-columns: 1fr 1fr; gap: 2.5rem 4rem; padding: 3rem 4rem; background: var(--dark-2); border-left: 4px solid var(--gold); }
+/* Fond littéral #0d1e30 (et non var(--dark-2), qui résout en quasi-blanc dans
+   ce projet) : le texte à l'intérieur est clair, il lui faut un vrai fond sombre. */
+.frl-logistics { display: grid; grid-template-columns: 1fr 1fr; gap: 2.5rem 4rem; padding: 3rem 4rem; background: #0d1e30; border-left: 4px solid var(--blue-bright); }
 
 /* Sticky CTA */
 .frl-sticky {
@@ -505,9 +506,9 @@ html.lenis { height: auto; }
 .frl-faq-body { overflow: hidden; }
 
 @media (max-width: 900px) {
-  .frl-2col, .frl-3col, .frl-prof, .frl-comp, .frl-inclus { grid-template-columns: 1fr !important; }
-  .frl-prof { gap: 3rem !important; }
+  .frl-2col, .frl-3col, .frl-comp, .frl-inclus, .frl-hero-grid { grid-template-columns: 1fr !important; }
   .frl-comp { gap: 2.5rem !important; }
+  .frl-hero-grid { gap: 3rem !important; }
   .frl-logistics { grid-template-columns: 1fr 1fr !important; padding: 2rem !important; }
   .frl-hero-stats { gap: 2rem; }
 }

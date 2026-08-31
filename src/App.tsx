@@ -8,6 +8,7 @@ import PrestationsPage from './pages/PrestationsPage'
 import ServicesRedirect from './components/ServicesRedirect'
 import ReferencesPage from './pages/ReferencesPage'
 import FormationPage from './pages/FormationPage'
+import FormationRLPage from './pages/FormationRLPage'
 import AProposPage from './pages/AProposPage'
 import BlogPage from './pages/BlogPage'
 import ContactPage from './pages/ContactPage'
@@ -55,6 +56,10 @@ function AnimatedRoutes() {
         <Route path="/services" element={<ServicesRedirect />} />
         <Route path="/references" element={<PageTransition><ReferencesPage /></PageTransition>} />
         <Route path="/formation" element={<PageTransition><FormationPage /></PageTransition>} />
+        {/* Le canon (sitemap.xml, llms.txt, liens internes) utilise l'URL avec
+            slash final ; on enregistre les deux formes pour ne rien casser. */}
+        <Route path="/formation-rl" element={<PageTransition><FormationRLPage /></PageTransition>} />
+        <Route path="/formation-rl/" element={<PageTransition><FormationRLPage /></PageTransition>} />
         <Route path="/a-propos" element={<PageTransition><AProposPage /></PageTransition>} />
         <Route path="/blog" element={<PageTransition><BlogPage /></PageTransition>} />
         <Route path="/contact" element={<PageTransition><ContactPage /></PageTransition>} />
