@@ -172,7 +172,7 @@ Essor Consulting accompagne les projets de logistique frigorifique au Maroc dans
 - **Mise en place de la traçabilité** par lot et par date
 - **Formation des équipes** : hygiène alimentaire, procédures froid, HACCP de base
 
-Contactez-nous pour votre projet : **b.youssef@essor.ma** · **+212 06 63 44 92 00**
+Contactez-nous pour votre projet : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
 
 ---
 

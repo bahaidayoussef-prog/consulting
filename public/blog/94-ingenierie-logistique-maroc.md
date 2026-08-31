@@ -177,7 +177,7 @@ Essor Consulting dispose d'une expertise combinée consulting + ingénierie logi
 
 **Notre différence :** nos ingénieurs logistiques ont tous une double compétence terrain (ils ont piloté des opérations) et méthodologique (ils savent modéliser). Ils ne conçoivent pas dans l'abstrait — ils conçoivent ce qui fonctionne dans la réalité marocaine.
 
-Contactez-nous pour discuter de votre projet : **b.youssef@essor.ma** · **+212 06 63 44 92 00**
+Contactez-nous pour discuter de votre projet : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
 
 ---
 

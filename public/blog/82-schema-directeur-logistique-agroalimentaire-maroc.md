@@ -203,7 +203,7 @@ Essor Consulting accompagne les entreprises agroalimentaires marocaines dans la 
 - **Mise en place des outils de traçabilité** : WMS, codification lots, FEFO
 - **Formation des équipes** : hygiène et sécurité alimentaire, traçabilité, logistique export
 
-Contactez-nous : **b.youssef@essor.ma** · **+212 06 63 44 92 00**
+Contactez-nous : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
 
 ---
 

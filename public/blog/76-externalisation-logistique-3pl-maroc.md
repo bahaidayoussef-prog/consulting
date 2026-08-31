@@ -172,7 +172,7 @@ Essor Consulting accompagne les entreprises marocaines dans leurs projets d'exte
 - **Négociation contractuelle** : SLA, tarifs, conditions de sortie
 - **Pilotage de la transition** : de votre logistique interne vers le 3PL
 
-Contactez-nous pour un premier diagnostic : **b.youssef@essor.ma** · **+212 06 63 44 92 00**
+Contactez-nous pour un premier diagnostic : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
 
 ---
 

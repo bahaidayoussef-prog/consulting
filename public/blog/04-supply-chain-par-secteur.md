@@ -325,4 +325,4 @@ On identifie vos pain points spécifiques au secteur, et on vous donne roadmap p
 **Essor Consulting**  
 Directeur des Achats | Expert Supply Chain & Transformation Digitale  
 Essor Consulting — Casablanca, Maroc  
-📧 bahaidayoussef@gmail.com | 📞 +212 663 449 200
+📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200

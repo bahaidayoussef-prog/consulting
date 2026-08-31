@@ -216,7 +216,7 @@ Essor Consulting accompagne les industriels marocains dans l'optimisation de leu
 - **Structuration du MRO** (codification, criticité, stocks de sécurité)
 - **Formation des équipes** logistique production et responsables planning
 
-Contactez-nous : **b.youssef@essor.ma** · **+212 06 63 44 92 00**
+Contactez-nous : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
 
 ---
 

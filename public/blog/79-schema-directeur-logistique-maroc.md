@@ -178,7 +178,7 @@ Trois raisons concrètes, pas des arguments marketing :
 
 **3. Livrables actionnables.** Nous livrons des modèles financiers que votre DAF peut challenger, des roadmaps que vos chefs de projet peuvent exécuter, et des cahiers des charges que vos équipes achats peuvent utiliser immédiatement. Pas des rapports de 100 pages qui finissent dans un tiroir.
 
-Contactez-nous pour un premier cadrage de votre SDL : **b.youssef@essor.ma** · **+212 06 63 44 92 00**
+Contactez-nous pour un premier cadrage de votre SDL : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
 
 ---
 

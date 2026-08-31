@@ -200,7 +200,7 @@ Essor Consulting anime des chantiers lean logistique au Maroc depuis plus de 20 
 - **Programme lean complet** (3 à 12 mois) : accompagnement structuré avec suivi des résultats
 - **Formation lean pour managers** : former vos responsables à piloter l'amélioration continue en autonomie
 
-Contactez-nous pour un diagnostic lean de votre entrepôt : **b.youssef@essor.ma** · **+212 06 63 44 92 00**
+Contactez-nous pour un diagnostic lean de votre entrepôt : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
 
 ---
 

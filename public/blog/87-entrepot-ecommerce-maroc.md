@@ -187,7 +187,7 @@ Essor Consulting accompagne les marchands e-commerce marocains dans la conceptio
 - Organisation de la reverse logistics (retours)
 - Formation des équipes fulfillment
 
-Contactez-nous : **b.youssef@essor.ma** · **+212 06 63 44 92 00**
+Contactez-nous : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
 
 ---
 

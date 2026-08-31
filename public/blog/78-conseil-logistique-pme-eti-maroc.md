@@ -159,7 +159,7 @@ Essor Consulting réalise des missions de conseil logistique et supply chain au 
 
 **Notre engagement :** Chaque mission démarre par une définition claire des KPIs de succès. Si les résultats ne sont pas au rendez-vous, nous continuons sans facturation supplémentaire jusqu'à ce qu'ils le soient.
 
-Pour un premier échange sans engagement : **b.youssef@essor.ma** · **+212 06 63 44 92 00**
+Pour un premier échange sans engagement : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
 
 ---
 

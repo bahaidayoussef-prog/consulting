@@ -198,7 +198,7 @@ Essor Consulting réalise des benchmarks personnalisés dans le cadre de ses mis
 - Identification des écarts les plus significatifs
 - Plan d'action priorisé avec ROI estimé
 
-Contactez-nous pour un premier échange : **b.youssef@essor.ma** · **+212 06 63 44 92 00**
+Contactez-nous pour un premier échange : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
 
 ---
 

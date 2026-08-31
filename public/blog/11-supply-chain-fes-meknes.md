@@ -45,7 +45,7 @@ Fès/Meknès region, Maroc · 18 ans expérience
 
 ## Contact Fès/Meknès
 
-📧 bahaidayoussef@gmail.com | 📞 +212 663 449 200
+📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
 
 **Coverage :** Fès, Meknès, régions environnantes
 

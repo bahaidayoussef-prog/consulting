@@ -200,7 +200,7 @@ Essor Consulting réalise des schémas directeurs logistiques pour des PME et de
 - Des recommandations que vos équipes peuvent mettre en œuvre sans 6 mois de formation
 - Un business case honnête — si le ROI n'est pas au rendez-vous, on vous le dit
 
-Contactez-nous pour un premier échange sans engagement : **b.youssef@essor.ma** · **+212 06 63 44 92 00**
+Contactez-nous pour un premier échange sans engagement : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
 
 ---
 

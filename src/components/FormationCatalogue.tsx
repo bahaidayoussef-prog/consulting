@@ -1500,7 +1500,7 @@ export default function FormationCatalogue() {
           <div className="formateur-grid" style={{ display: 'grid', gridTemplateColumns: '400px 1fr', gap: '8rem', alignItems: 'start' }}>
             <Reveal delay={0.05} style={{ position: 'relative' }}>
               <div style={{ aspectRatio: '3/4', overflow: 'hidden', position: 'relative', background: 'var(--dark-2)' }}>
-                <img src="/images/conseil.jpg" alt="Youssef — Essor Consulting" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+                <img src="/images/conseil.jpg" alt="Formateur — Essor Consulting" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
                 <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(27,53,84,0.25) 0%, transparent 60%)' }} />
               </div>
               <div style={{ position: 'absolute', bottom: '-2rem', right: '-2rem', background: 'var(--blue-bright)', padding: '1.75rem 2.25rem' }}>
@@ -1511,7 +1511,7 @@ export default function FormationCatalogue() {
 
             <Reveal delay={0.1}>
               <h2 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2rem, 4vw, 4.5rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', color: 'var(--navy)', margin: '0 0 0.5rem' }}>
-                Youssef
+                Notre formateur
               </h2>
               <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.12em', textTransform: 'uppercase', color: 'var(--blue-bright)', marginBottom: '2rem' }}>
                 Fondateur, Essor Consulting

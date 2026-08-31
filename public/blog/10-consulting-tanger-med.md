@@ -45,7 +45,7 @@ Tanger, Maroc · Spécialisé Logistique Portuaire & Export
 
 ## Contact Tanger
 
-📧 bahaidayoussef@gmail.com | 📞 +212 663 449 200
+📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
 
 **Coverage :** Tanger, Tanger Med zone franche, Tétouan
 

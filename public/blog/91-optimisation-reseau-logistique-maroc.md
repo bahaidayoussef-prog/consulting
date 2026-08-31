@@ -186,7 +186,7 @@ Essor Consulting réalise des études d'optimisation de réseau logistique au Ma
 - Business case et plan de transition
 - Accompagnement de la mise en œuvre (ouverture de sites, transition des flux)
 
-Contactez-nous pour un premier échange : **b.youssef@essor.ma** · **+212 06 63 44 92 00**
+Contactez-nous pour un premier échange : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
 
 ---
 

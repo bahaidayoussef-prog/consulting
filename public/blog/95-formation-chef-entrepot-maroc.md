@@ -193,7 +193,7 @@ Essor Consulting forme les chefs d'entrepôt et les responsables logistique au M
 
 👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
-Contactez-nous pour un programme sur mesure : **b.youssef@essor.ma** · **+212 06 63 44 92 00**
+Contactez-nous pour un programme sur mesure : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
 
 ---
 

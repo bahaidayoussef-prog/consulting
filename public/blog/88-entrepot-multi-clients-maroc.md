@@ -255,7 +255,7 @@ Essor Consulting accompagne les deux côtés de la relation 3PL :
 - Définition de la grille tarifaire
 - Formation des équipes exploitation et commerciale
 
-Contactez-nous : **b.youssef@essor.ma** · **+212 06 63 44 92 00**
+Contactez-nous : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
 
 ---
 

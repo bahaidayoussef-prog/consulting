@@ -259,7 +259,7 @@ Essor Consulting accompagne les entreprises marocaines dans la conception et le 
 - Formation des équipes à l'utilisation et à l'animation des KPIs
 - Mise en place de la routine de revue mensuelle
 
-Contactez-nous : **b.youssef@essor.ma** · **+212 06 63 44 92 00**
+Contactez-nous : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
 
 ---
 

@@ -176,7 +176,7 @@ Essor Consulting accompagne les entreprises marocaines sur toutes les phases d'u
 - **Formation des équipes** : opérateurs, chefs d'équipe, responsable logistique
 - **Audit post-démarrage** : diagnostic des points bloquants 3 à 6 mois après le go-live
 
-Contactez-nous pour un premier cadrage de votre projet WMS : **b.youssef@essor.ma** · **+212 06 63 44 92 00**
+Contactez-nous pour un premier cadrage de votre projet WMS : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
 
 ---
 

@@ -239,7 +239,7 @@ Vous avez complété ce diagnostic et souhaitez passer à l'étape suivante ? Es
 - Visite terrain (entrepôt, zone de réception, expédition)
 - Rapport d'orientation avec les 5 priorités et le ROI estimé
 
-Contactez-nous pour programmer votre diagnostic : **b.youssef@essor.ma** · **+212 06 63 44 92 00**
+Contactez-nous pour programmer votre diagnostic : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
 
 ---
 

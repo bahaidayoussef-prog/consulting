@@ -1,7 +1,7 @@
 ---
 title: "Développer sa Carrière en Supply Chain, Achats et Logistique"
 date: "2026-08-07"
-author: "Youssef BAHAIDA"
+author: "Essor Consulting"
 image: "/images/business.jpg"
 keywords: "développement de carrière supply chain maroc, évoluer en logistique maroc, carrière achats maroc, plan de carrière supply chain, progression professionnelle logistique"
 description: "Développer sa carrière en supply chain, achats et logistique au Maroc : cartographie des métiers, auto-diagnostic de compétences et plan de développement concret."

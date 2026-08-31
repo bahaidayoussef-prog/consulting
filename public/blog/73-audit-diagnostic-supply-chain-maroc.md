@@ -188,7 +188,7 @@ Essor Consulting réalise des audits supply chain et logistique au Maroc et en A
 
 **Notre engagement :** chaque audit Essor identifie des gains supérieurs à son coût, ou nous vous remboursons la différence.
 
-Contactez-nous pour un premier échange de 30 minutes, sans engagement : **b.youssef@essor.ma** · **+212 06 63 44 92 00**
+Contactez-nous pour un premier échange de 30 minutes, sans engagement : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
 
 ---
 

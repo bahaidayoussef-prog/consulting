@@ -551,7 +551,7 @@ export default function FormationRL() {
 
             <motion.div initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8, delay: 0.15 }}>
               <h2 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2rem, 3.5vw, 4rem)', fontWeight: 800, lineHeight: 0.95, letterSpacing: '-0.025em', color: '#0a1420', margin: '0 0 0.5rem' }}>
-                Youssef<br />
+                Notre formateur<br />
                 <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>— Fondateur, Essor Consulting</span>
               </h2>
               <p style={{ fontSize: '1rem', color: 'rgba(10,20,32,0.6)', lineHeight: 1.8, fontWeight: 300, margin: '1.5rem 0 2.5rem', maxWidth: 540 }}>

@@ -220,7 +220,7 @@ Essor Consulting accompagne les entreprises marocaines dans leur transformation 
 - **Formation des équipes** : adoption des outils, pilotage par les KPIs
 - **Optimisation post-implémentation** : paramétrage fin, correction des écarts
 
-Contactez-nous : **b.youssef@essor.ma** · **+212 06 63 44 92 00**
+Contactez-nous : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
 
 ---
 

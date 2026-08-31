@@ -245,4 +245,4 @@ Ces 10 erreurs ne sont pas génétiques. Elles se corrigent. Et chaque correctio
 **Essor Consulting**  
 Directeur des Achats | Expert Supply Chain & Transformation Digitale  
 Essor Consulting — Casablanca, Maroc  
-📧 bahaidayoussef@gmail.com | 📞 +212 663 449 200
+📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200

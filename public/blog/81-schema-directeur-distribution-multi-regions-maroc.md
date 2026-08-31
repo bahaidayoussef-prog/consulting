@@ -187,7 +187,7 @@ Essor Consulting accompagne les entreprises marocaines dans leur déploiement mu
 - Pilotage de l'ouverture des premiers dépôts
 - Mise en place de la gouvernance réseau
 
-Contactez-nous : **b.youssef@essor.ma** · **+212 06 63 44 92 00**
+Contactez-nous : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
 
 ---
 

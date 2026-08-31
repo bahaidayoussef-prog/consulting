@@ -18,7 +18,7 @@ Voici la liste des stratégies qui fonctionnent vraiment — classées par effic
 **Stratégie 1 — L'Introduction Via un Contact Commun**
 *Efficacité : ★★★★★*
 
-La meilleure façon de décrocher un entretien. Demandez à un contact commun de vous introduire au décideur. Un message du type "Mon ami Youssef, qui a travaillé avec toi chez X, m'a recommandé de te contacter" obtient des réponses dans 70% des cas.
+La meilleure façon de décrocher un entretien. Demandez à un contact commun de vous introduire au décideur. Un message du type "Mon ami Hicham, qui a travaillé avec toi chez X, m'a recommandé de te contacter" obtient des réponses dans 70% des cas.
 
 **Stratégie 2 — La Candidature Spontanée Ciblée avec Message Personnalisé**
 *Efficacité : ★★★★★*

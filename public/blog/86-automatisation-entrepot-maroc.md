@@ -200,7 +200,7 @@ Essor Consulting accompagne les entreprises marocaines dans leurs projets d'auto
 - **Supervision de projet** côté maîtrise d'ouvrage
 - **Formation des équipes** aux nouveaux équipements et processus
 
-Contactez-nous pour une analyse préliminaire de votre potentiel d'automatisation : **b.youssef@essor.ma** · **+212 06 63 44 92 00**
+Contactez-nous pour une analyse préliminaire de votre potentiel d'automatisation : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
 
 ---
 

@@ -179,7 +179,7 @@ Essor Consulting forme les gestionnaires de stocks et les responsables approvisi
 
 👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
-Contactez-nous pour un programme adapté : **b.youssef@essor.ma** · **+212 06 63 44 92 00**
+Contactez-nous pour un programme adapté : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
 
 ---
 

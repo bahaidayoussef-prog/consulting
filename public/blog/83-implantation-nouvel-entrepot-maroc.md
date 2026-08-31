@@ -232,7 +232,7 @@ Essor Consulting accompagne les entreprises marocaines sur **l'ensemble du cycle
 
 **Nous sommes indépendants de tout éditeur logiciel et de tout équipementier.** Notre recommandation est toujours celle qui sert votre performance, pas notre commission.
 
-Contactez-nous : **b.youssef@essor.ma** · **+212 06 63 44 92 00**
+Contactez-nous : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
 
 ---
 

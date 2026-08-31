@@ -208,7 +208,7 @@ Essor Consulting propose des missions de conception ou de reconfiguration de lay
 - Plan de sécurité et conformité
 - Simulation et validation avant mise en œuvre
 
-Contactez-nous pour un premier diagnostic de votre layout : **b.youssef@essor.ma** · **+212 06 63 44 92 00**
+Contactez-nous pour un premier diagnostic de votre layout : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
 
 ---
 

@@ -134,7 +134,7 @@ Casablanca, Maroc · 18 ans expérience · 110+ missions réussies
 
 ## Contact Casablanca
 
-📧 **Email :** bahaidayoussef@gmail.com  
+📧 **Email :** essor.consulting.maroc@gmail.com  
 📞 **Téléphone :** +212 663 449 200  
 📍 **Location :** Bouskoura, Casablanca
 
