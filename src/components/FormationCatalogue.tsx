@@ -1489,62 +1489,12 @@ export default function FormationCatalogue() {
         </div>
       </section>
 
-      {/* ══ FORMATEUR ════════════════════════════════════════ */}
-      <section style={{ background: 'var(--dark-2)', padding: '8rem 4rem', color: 'var(--navy)' }}>
-        <div className="section-inner">
-          <Reveal>
-            <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--mid)', marginBottom: '4rem' }}>
-              04 / Votre formateur
-            </div>
-          </Reveal>
-          <div className="formateur-grid" style={{ display: 'grid', gridTemplateColumns: '400px 1fr', gap: '8rem', alignItems: 'start' }}>
-            <Reveal delay={0.05} style={{ position: 'relative' }}>
-              <div style={{ aspectRatio: '3/4', overflow: 'hidden', position: 'relative', background: 'var(--dark-2)' }}>
-                <img src="/images/conseil.jpg" alt="Formateur — Essor Consulting" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
-                <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(27,53,84,0.25) 0%, transparent 60%)' }} />
-              </div>
-              <div style={{ position: 'absolute', bottom: '-2rem', right: '-2rem', background: 'var(--blue-bright)', padding: '1.75rem 2.25rem' }}>
-                <div style={{ fontFamily: 'Manrope, sans-serif', fontSize: '2.5rem', fontWeight: 800, color: '#ffffff', lineHeight: 1 }}>20+</div>
-                <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.5rem', letterSpacing: '0.12em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.75)', marginTop: '0.3rem' }}>ans terrain</div>
-              </div>
-            </Reveal>
-
-            <Reveal delay={0.1}>
-              <h2 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2rem, 4vw, 4.5rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', color: 'var(--navy)', margin: '0 0 0.5rem' }}>
-                Notre formateur
-              </h2>
-              <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.12em', textTransform: 'uppercase', color: 'var(--blue-bright)', marginBottom: '2rem' }}>
-                Fondateur, Essor Consulting
-              </div>
-              <p style={{ fontSize: '1rem', color: 'var(--dark-muted)', lineHeight: 1.85, fontWeight: 300, maxWidth: 560, marginBottom: '3rem' }}>
-                Plus de 20 ans de missions terrain en Supply Chain, Logistique et Achats au Maroc et en Europe. DDMRP Certified Practitioner. Expert national COVID-19. Intervenant dans les principales grandes écoles marocaines.
-              </p>
-              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem 3rem' }}>
-                {[
-                  { label: 'Certification', val: 'DDMRP Certified Practitioner — DDI' },
-                  { label: 'Missions', val: '110+ missions de conseil réalisées' },
-                  { label: 'Enseignement', val: 'TBS · ISCAE · HEM · ENCG · EMI · EHTP' },
-                  { label: 'Références', val: 'Renault · L\'Oréal · Nestlé · OCP · DHL · Addoha' },
-                  { label: 'Formation', val: 'ENSA Agadir · KEDGE Business School · UM6P' },
-                  { label: 'Mission spéciale', val: 'Expert SC — Task Force Vaccination COVID-19' },
-                ].map((item, i) => (
-                  <div key={i} style={{ borderTop: '1px solid var(--border)', paddingTop: '0.75rem' }}>
-                    <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.5rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'var(--blue-bright)', marginBottom: '0.3rem' }}>{item.label}</div>
-                    <div style={{ fontSize: '0.85rem', color: 'var(--dark-muted)', lineHeight: 1.4, fontWeight: 400 }}>{item.val}</div>
-                  </div>
-                ))}
-              </div>
-            </Reveal>
-          </div>
-        </div>
-      </section>
-
       {/* ══ FAQ ═══════════════════════════════════════════════ */}
       <section style={{ background: '#ffffff', padding: '8rem 4rem', color: 'var(--navy)' }}>
         <div className="section-inner">
           <Reveal>
             <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--mid)', marginBottom: '1.5rem' }}>
-              05 / Questions fréquentes
+              04 / Questions fréquentes
             </div>
             <h2 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2.5rem, 5vw, 6rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', color: 'var(--navy)', margin: '0 0 4rem' }}>
               Vos questions,<br />
@@ -1566,7 +1516,7 @@ export default function FormationCatalogue() {
           <div className="cta-final-grid" style={{ display: 'grid', gridTemplateColumns: '1fr auto', gap: '6rem', alignItems: 'center' }}>
             <Reveal>
               <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--mid)', marginBottom: '1.5rem' }}>
-                06 / Inscription & contact
+                05 / Inscription & contact
               </div>
               <h2 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2.5rem, 5vw, 6rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', color: 'var(--navy)', margin: '0 0 1.5rem' }}>
                 Réserver votre<br />

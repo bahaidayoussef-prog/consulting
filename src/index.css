@@ -390,7 +390,7 @@ html.lenis { height: auto; }
   .logo-wall-grid { grid-template-columns: 1fr 1fr !important; }
   /* Formation : calendrier 4 colonnes → 2 */
   .formation-calendar-grid { grid-template-columns: 1fr 1fr !important; }
-  .phare-grid, .formateur-grid { grid-template-columns: 1fr !important; gap: 3rem !important; }
+  .phare-grid { grid-template-columns: 1fr !important; gap: 3rem !important; }
   .pc-detail-grid { grid-template-columns: 1fr !important; gap: 2rem !important; }
   /* Team (À propos) : header 2 col → 1, banner 2 col → 1 */
   .team-header-grid { grid-template-columns: 1fr !important; gap: 2rem !important; }
