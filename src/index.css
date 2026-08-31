@@ -484,20 +484,19 @@ html.lenis { height: auto; }
 .frl-3col { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; }
 .frl-comp { display: grid; grid-template-columns: 1fr 1fr; gap: 6rem; align-items: start; }
 .frl-cibles { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem; }
-.frl-hero-stats { display: flex; gap: 3rem; flex-wrap: wrap; padding-top: 2.5rem; border-top: 1px solid rgba(255,255,255,0.08); margin-top: 5rem; }
+.frl-hero-stats { display: flex; gap: 3rem; flex-wrap: wrap; padding-top: 2.5rem; border-top: 1px solid var(--border); margin-top: 5rem; }
 .frl-inclus { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; }
-/* Fond littéral #0d1e30 (et non var(--dark-2), qui résout en quasi-blanc dans
-   ce projet) : le texte à l'intérieur est clair, il lui faut un vrai fond sombre. */
-.frl-logistics { display: grid; grid-template-columns: 1fr 1fr; gap: 2.5rem 4rem; padding: 3rem 4rem; background: #0d1e30; border-left: 4px solid var(--blue-bright); }
+.frl-logistics { display: grid; grid-template-columns: 1fr 1fr; gap: 2.5rem 4rem; padding: 3rem 4rem; background: #ffffff; border-left: 4px solid var(--blue-bright); }
 
-/* Sticky CTA */
+/* Sticky CTA — même traitement translucide que la barre Nav sticky */
 .frl-sticky {
   position: fixed; bottom: 0; left: 0; right: 0; z-index: 200;
   display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem;
   padding: 1rem 2rem;
-  background: rgba(10,20,32,0.97);
+  background: rgba(245,243,238,0.96);
   backdrop-filter: blur(16px);
-  border-top: 1px solid rgba(192,154,47,0.3);
+  border-top: 1px solid var(--border);
+  box-shadow: 0 -4px 24px rgba(10,20,32,0.08);
   transform: translateY(100%); transition: transform 0.4s cubic-bezier(0.16,1,0.3,1);
 }
 .frl-sticky.visible { transform: translateY(0); }
