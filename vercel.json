@@ -3,7 +3,8 @@
   "outputDirectory": "dist",
   "devCommand": "npm run dev",
   "env": {
-    "VITE_SITE_URL": "https://nextinotech.com"
+    "VITE_SITE_URL": "https://nextinotech.com",
+    "VITE_GA_MEASUREMENT_ID": "G-TFF7N0G2P0"
   },
   "routes": [
     { "handle": "filesystem" },
