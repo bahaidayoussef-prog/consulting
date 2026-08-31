@@ -8,18 +8,6 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://nextinotech.com/#conseil</loc>
-    <lastmod>2026-08-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nextinotech.com/#formation</loc>
-    <lastmod>2026-08-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://nextinotech.com/formation</loc>
     <lastmod>2026-08-06</lastmod>
     <changefreq>weekly</changefreq>
@@ -32,58 +20,112 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://nextinotech.com/#contact</loc>
-    <lastmod>2026-08-05</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://nextinotech.com/conseil</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://nextinotech.com/#systemes</loc>
-    <lastmod>2026-08-05</lastmod>
+    <loc>https://nextinotech.com/prestations</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://nextinotech.com/#dsc</loc>
-    <lastmod>2026-08-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nextinotech.com/#insights</loc>
-    <lastmod>2026-08-05</lastmod>
+    <loc>https://nextinotech.com/blog</loc>
+    <lastmod>2026-08-21</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://nextinotech.com/direction-supply-chain-temps-partage</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://nextinotech.com/#profil</loc>
+    <loc>https://nextinotech.com/references</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nextinotech.com/faq</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://nextinotech.com/carriere</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://nextinotech.com/a-propos</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://nextinotech.com/directeur-logistique-mi-temps</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://nextinotech.com/directeur-achats-mi-temps</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://nextinotech.com/dsc-vs-recrutement-cdi</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://nextinotech.com/contact</loc>
     <lastmod>2026-08-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://nextinotech.com/#pourquoi</loc>
+    <loc>https://nextinotech.com/outils/dimensionnement-entrepot</loc>
     <lastmod>2026-08-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://nextinotech.com/#impact</loc>
+    <loc>https://nextinotech.com/outils/cout-global-entrepot</loc>
     <lastmod>2026-08-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://nextinotech.com/#methode</loc>
+    <loc>https://nextinotech.com/outils/productivite-engins-main-doeuvre</loc>
     <lastmod>2026-08-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://nextinotech.com/#engagement</loc>
+    <loc>https://nextinotech.com/demo/wms</loc>
     <lastmod>2026-08-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://nextinotech.com/demo/tms</loc>
+    <lastmod>2026-08-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://nextinotech.com/demo/aps</loc>
+    <lastmod>2026-08-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
   </url>
 
   <!-- LLMs / GEO -->
@@ -310,4 +352,130 @@
   <!-- Blog — Carrière & Bien-être (209-210) -->
   <url><loc>https://nextinotech.com/blog/209-burnout-supply-chain-logistique-maroc.md</loc><lastmod>2026-08-07</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
   <url><loc>https://nextinotech.com/blog/210-developpement-carriere-supply-chain-achats-logistique-maroc.md</loc><lastmod>2026-08-07</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+
+  <!-- Blog — Actualités & Réglementation 2026 (211-216) -->
+  <url><loc>https://nextinotech.com/blog/211-nouvelle-loi-livraison-colis-maroc-2026.md</loc><lastmod>2026-08-19</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/212-hausse-carburant-transporteurs-maroc-2026.md</loc><lastmod>2026-08-19</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/213-guide-portnet-badr-maroc.md</loc><lastmod>2026-08-19</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/214-grille-salariale-logistique-maroc-2026-employeur.md</loc><lastmod>2026-08-19</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/215-sap-odoo-dynamics-365-erp-supply-chain-maroc.md</loc><lastmod>2026-08-19</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/216-ia-agentique-supply-chain-feuille-de-route-pme-maroc.md</loc><lastmod>2026-08-20</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+
+  <!-- Blog — Approfondissements sectoriels & durabilité (217-230) -->
+  <url><loc>https://nextinotech.com/blog/217-achats-durables-rse-fournisseurs-audit-maroc.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/218-supply-chain-aeronautique-maroc-ecosysteme-safran.md</loc><lastmod>2026-08-22</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/219-supply-chain-cosmetique-maroc-enjeux-logistiques.md</loc><lastmod>2026-08-22</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/220-hydrogene-vert-ammoniac-ocp-chaine-logistique.md</loc><lastmod>2026-08-22</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/221-marque-employeur-logistique-maroc-attractivite.md</loc><lastmod>2026-08-23</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/222-recruter-generation-z-logistique-maroc.md</loc><lastmod>2026-08-23</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/223-zones-franches-marocaines-comparees.md</loc><lastmod>2026-08-23</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/224-corridor-maroc-afrique-ouest-sahel-export.md</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/225-3pl-4pl-afrique-francophone-panorama.md</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/226-cartographier-risques-supply-chain-methode.md</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/227-achats-publics-maroc-seuils-2026.md</loc><lastmod>2026-08-25</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/228-femmes-supply-chain-marocaine-chiffres-realite.md</loc><lastmod>2026-08-25</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/229-cout-reel-projet-erp-logistique-maroc.md</loc><lastmod>2026-08-25</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/230-ia-predictive-prevision-demande-stock-securite.md</loc><lastmod>2026-08-25</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+
+  <!-- Blog — Douane, Conformité & Achats stratégiques (231-245) -->
+  <url><loc>https://nextinotech.com/blog/231-audit-qhse-entrepot-maroc-grille-methode.md</loc><lastmod>2026-08-26</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/232-formation-hse-entrepot-logistique-maroc.md</loc><lastmod>2026-08-26</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/233-iso-9001-pme-logistique-maroc-par-ou-commencer.md</loc><lastmod>2026-08-26</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/234-regimes-douaniers-suspensifs-stock-theorique-vs-reel.md</loc><lastmod>2026-08-26</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/235-incoterms-guide-pratique-maroc-importateurs-exportateurs.md</loc><lastmod>2026-08-27</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/236-statut-oea-maroc-accelerer-dedouanement.md</loc><lastmod>2026-08-27</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/237-accords-libre-echange-maroc-reduire-droits-douane.md</loc><lastmod>2026-08-27</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/238-litiges-douaniers-contentieux-import-export-maroc.md</loc><lastmod>2026-08-27</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/239-commerce-triangulaire-maroc-afrique-europe-zones-franches.md</loc><lastmod>2026-08-27</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/240-category-management-achats-structurer-categories.md</loc><lastmod>2026-08-28</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/241-cbam-taxe-carbone-ue-exportateurs-marocains.md</loc><lastmod>2026-08-28</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/242-sourcing-multi-fournisseurs-vs-fournisseur-unique.md</loc><lastmod>2026-08-28</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/243-e-sourcing-plateformes-digitalisation-achats-maroc.md</loc><lastmod>2026-08-28</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/244-tco-cout-total-possession-methode-achats.md</loc><lastmod>2026-08-28</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/245-achats-indirects-gisement-economies-pme-maroc.md</loc><lastmod>2026-08-28</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+
+  <!-- Blog — IA & Digital Supply Chain (246-253) -->
+  <url><loc>https://nextinotech.com/blog/246-robots-automatisation-entrepot-maroc-etat-des-lieux.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/247-digital-twin-jumeau-numerique-supply-chain-usage.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/248-blockchain-tracabilite-agroalimentaire-export-maroc.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/249-control-tower-logistique-piloter-temps-reel.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/250-cybersecurite-supply-chain-fournisseurs-maroc.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/251-iot-capteurs-connectes-entrepot-maroc.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/252-automatisation-achats-ia-p2p-maroc.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/253-tableau-de-bord-ia-supply-chain-sans-data-scientist.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+
+  <!-- Blog — RSE & Logistique Durable (254-261) -->
+  <url><loc>https://nextinotech.com/blog/254-logistique-verte-maroc-transition-freinee.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/255-bilan-carbone-transport-scope-3-methode.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/256-vehicules-verts-flotte-logistique-maroc.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/257-economie-circulaire-supply-chain-dechets-industriels-maroc.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/258-reporting-esg-fournisseurs-maroc-csrd.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/259-emballages-durables-reduction-couts-logistiques.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/260-entrepots-eco-responsables-certification-energie.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/261-maroc-leader-africain-logistique-durable.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+
+  <!-- Blog — E-commerce & Last-Mile (262-267) -->
+  <url><loc>https://nextinotech.com/blog/262-buffer-stock-ecommerce-maroc-stockage-local.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/263-paiement-livraison-cod-maroc-logistique.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/264-dark-store-micro-fulfillment-maroc.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/265-livraison-zones-rurales-enclavees-maroc.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/266-retours-ecommerce-cout-cache-maroc.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/267-marketplace-vs-vente-directe-logistique-maroc.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+
+  <!-- Blog — RH & Attractivité Employeur (268-274) -->
+  <url><loc>https://nextinotech.com/blog/268-turnover-entrepot-maroc-causes-solutions.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/269-cabinet-recrutement-vs-direct-poste-critique-maroc.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/270-onboarding-caristes-magasiniers-maroc.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/271-management-proximite-entrepot-feedback-continu.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/272-penurie-chauffeurs-routiers-maroc.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/273-formation-interne-vs-recrutement-externe-maroc.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/274-plan-succession-postes-cles-supply-chain-maroc.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+
+  <!-- Blog — Femmes en Logistique (275-278) -->
+  <url><loc>https://nextinotech.com/blog/275-femmes-postes-executifs-supply-chain-freins.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/276-feminiser-metiers-entrepot-transport-maroc.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/277-reseaux-mentorat-femmes-logistique-maroc.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/278-diversite-supply-chain-argument-concurrentiel.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+
+  <!-- Blog — ERP & Outils Numériques (279-283) -->
+  <url><loc>https://nextinotech.com/blog/279-sap-mm-module-achats-maroc.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/280-migration-sap-s4hana-pme-industrielle-maroc.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/281-wms-vs-erp-integre-entrepot-maroc.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/282-interoperabilite-erp-wms-tms-connecter-systemes.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/283-choisir-logiciel-prevision-demande-pme-maroc.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+
+  <!-- Blog — Gestion de Projet & Pilotage (284-288) -->
+  <url><loc>https://nextinotech.com/blog/284-certification-pmp-maroc-supply-chain.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/285-methode-transformation-supply-chain-5-phases.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/286-agile-supply-chain-maroc-scrum-kanban.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/287-gouvernance-projet-logistique-multi-sites.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/288-change-management-projet-erp-wms-maroc.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+
+  <!-- Blog — Secteurs Verticaux (289-295) -->
+  <url><loc>https://nextinotech.com/blog/289-logistique-miniere-maroc-hors-ocp.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/290-supply-chain-btp-penurie-materiel-maroc.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/291-supply-chain-hotellerie-tourisme-maroc.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/292-dispositifs-medicaux-chaine-approvisionnement-maroc.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/293-supply-chain-huile-argan-export-maroc.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/294-logistique-peche-agadir-dakhla-export.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/295-supply-chain-textile-technique-denim-maroc.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+
+  <!-- Blog — Transport & Fret (296-300) -->
+  <url><loc>https://nextinotech.com/blog/296-transport-multimodal-maroc-reduire-couts.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/297-autoroute-mer-tanger-europe-alternative.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/298-affretement-sous-traitance-transport-maroc.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/299-geolocalisation-flotte-transport-maroc.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/300-transport-frigorifique-routier-maroc-normes.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+
+  <!-- Blog — Afrique Francophone Approfondie (301-304) -->
+  <url><loc>https://nextinotech.com/blog/301-port-ndayane-senegal-futur-mega-port.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/302-transit-douanier-afrique-ouest-corridors.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/303-digitalisation-logistique-afrique-ouest-erp.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/304-zones-logistiques-industrielles-afrique-francophone.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+
+  <!-- Blog — Risk Management & Achats (305-308) -->
+  <url><loc>https://nextinotech.com/blog/305-pca-logistique-maroc-continuite-activite.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/306-multi-sourcing-resilience-post-covid-encore-valable.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/307-negociation-fournisseurs-inflation-leviers.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nextinotech.com/blog/308-srm-equipementiers-tier-1-automobile-maroc.md</loc><lastmod>2026-08-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
 </urlset>
