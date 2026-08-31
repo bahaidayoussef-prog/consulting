@@ -547,12 +547,12 @@ export default function FormationRL() {
             transition={{ duration: 0.9, delay: 0.15, ease: [0.16, 1, 0.3, 1] }}
             style={{ position: 'relative' }}
           >
-            <div style={{ position: 'relative', paddingBottom: '118%', overflow: 'hidden', background: 'var(--paper)' }}>
+            <div style={{ position: 'relative', paddingBottom: '62%', overflow: 'hidden', background: 'var(--paper)' }}>
               <img
                 src="/images/formation-rl/hero.jpg"
-                alt="Responsable logistique pilotant le flux supply chain sur écran interactif en entrepôt"
+                alt="Équipe Essor Consulting animant une session de formation autour d'une visualisation supply chain"
                 loading="lazy"
-                style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover' }}
+                style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: '38% 50%' }}
               />
             </div>
             <div style={{ position: 'absolute', bottom: '-1.5rem', left: '-1.5rem', background: 'var(--blue-bright)', padding: '1.25rem 1.75rem' }}>
