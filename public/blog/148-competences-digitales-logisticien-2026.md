@@ -1,7 +1,7 @@
 ﻿---
 title: "Compétences Digitales du Logisticien en 2026 : Ce qu'il Faut Maîtriser"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/hero-supply-chain.jpg"
 keywords: "compétences digitales logisticien Maroc, outils digitaux supply chain, Excel supply chain Maroc, ERP logistique Maroc, compétences tech supply chain"
 description: "Quelles compétences digitales doit maîtriser un logisticien en 2026 au Maroc ? De l'Excel avancé à la data analytics, le guide complet des outils indispensables."
@@ -94,9 +94,9 @@ Jira, Trello, Asana, Monday.com — de plus en plus utilisés dans les projets S
 
 > **La digital literacy en supply chain n'est plus une spécialité — c'est le socle. Les professionnels qui ne la développent pas activement verront leur employabilité se réduire progressivement, indépendamment de leur expertise opérationnelle.**
 
-## Essor Consulting — Formation Digitale Supply Chain
+## Nextinotech — Formation Digitale Supply Chain
 
-Essor Consulting intègre la montée en compétences digitale dans ses programmes de formation supply chain.
+Nextinotech intègre la montée en compétences digitale dans ses programmes de formation supply chain.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

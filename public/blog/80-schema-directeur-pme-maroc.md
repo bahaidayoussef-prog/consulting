@@ -1,7 +1,7 @@
 ﻿---
 title: "Schéma Directeur Logistique pour PME au Maroc : Méthode Adaptée 2026"
 date: "2026-08-04"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/conseil.jpg"
 keywords: "schéma directeur logistique pme maroc, plan directeur supply chain pme, stratégie logistique pme maroc, plan logistique entreprise maroc, roadmap supply chain maroc"
 description: "Comment construire un schéma directeur logistique adapté à une PME marocaine : méthode en 4 étapes, budget réaliste et livrables concrets. Sans le budget d'un grand groupe."
@@ -171,7 +171,7 @@ Ces chiffres sont des ordres de grandeur pour des PME entre 20 M et 100 M MAD de
 | Nouveau entrepôt (location + aménagement) | 300 000 – 1 500 000 MAD |
 | Formation des équipes | 20 000 – 80 000 MAD |
 
-::stat:: 18 mois — délai moyen de retour sur investissement d'un schéma directeur logistique PME bien mis en œuvre (données Essor Consulting)
+::stat:: 18 mois — délai moyen de retour sur investissement d'un schéma directeur logistique PME bien mis en œuvre (données Nextinotech)
 
 ---
 
@@ -191,16 +191,16 @@ La principale différence n'est pas la méthode — c'est la profondeur et la du
 
 ---
 
-## Construire votre Schéma Directeur avec Essor Consulting
+## Construire votre Schéma Directeur avec Nextinotech
 
-Essor Consulting réalise des schémas directeurs logistiques pour des PME et des ETI marocaines depuis plus de 20 ans. Notre méthode est calibrée pour les réalités et les budgets des entreprises marocaines de taille intermédiaire.
+Nextinotech réalise des schémas directeurs logistiques pour des PME et des ETI marocaines depuis plus de 20 ans. Notre méthode est calibrée pour les réalités et les budgets des entreprises marocaines de taille intermédiaire.
 
 **Notre engagement :**
 - Un schéma directeur opérationnel, pas un rapport de bibliothèque
 - Des recommandations que vos équipes peuvent mettre en œuvre sans 6 mois de formation
 - Un business case honnête — si le ROI n'est pas au rendez-vous, on vous le dit
 
-Contactez-nous pour un premier échange sans engagement : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
+Contactez-nous pour un premier échange sans engagement : **contact@nextinotech.com** · **+212 06 63 44 92 00**
 
 ---
 

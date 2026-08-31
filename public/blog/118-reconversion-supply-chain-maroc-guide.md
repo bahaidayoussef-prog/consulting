@@ -1,7 +1,7 @@
 ﻿---
 title: "Reconversion vers la Supply Chain au Maroc : Le Guide Complet 2026"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/office.jpg"
 keywords: "reconversion supply chain Maroc, changer de métier logistique Maroc, reconversion professionnelle logistique, devenir logisticien reconversion"
 description: "Reconversion vers la supply chain au Maroc : comment passer d'un autre domaine à la logistique, quelles compétences valoriser, par où commencer. Guide 2026."
@@ -40,7 +40,7 @@ La supply chain est un domaine où l'expérience pratique et les résultats mesu
 
 - **Managers opérationnels (restauration, retail)** : Management d'équipes, gestion des stocks physiques. Transition vers Chef d'entrepôt ou Responsable Logistique.
 
-::stat:: 3 sur 5 — des professionnels en reconversion supply chain qui trouvent un poste dans les 6 mois suivant leur formation (données Essor Consulting)
+::stat:: 3 sur 5 — des professionnels en reconversion supply chain qui trouvent un poste dans les 6 mois suivant leur formation (données Nextinotech)
 
 ## Les Étapes d'une Reconversion Réussie
 
@@ -94,11 +94,11 @@ Les postes d'entrée pour les reconvertis expérimentés :
 
 > **Votre expérience précédente n'est pas une dette. C'est un capital. Le tout est de savoir le valoriser dans le nouveau contexte supply chain.**
 
-## Essor Consulting — Accompagnement Reconversion Supply Chain
+## Nextinotech — Accompagnement Reconversion Supply Chain
 
-Essor Consulting propose un programme de reconversion accompagnée : bilan de compétences, formation ciblée sur les fondamentaux manquants, coaching CV/entretien, et mise en relation avec notre réseau.
+Nextinotech propose un programme de reconversion accompagnée : bilan de compétences, formation ciblée sur les fondamentaux manquants, coaching CV/entretien, et mise en relation avec notre réseau.
 
 👉 **[Voir le programme complet « Devenir Responsable Logistique »](/formation-rl/)** — 1 journée, 1 500 MAD TTC, prochaines sessions 2026.
 
 **Contactez-nous** pour en discuter :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

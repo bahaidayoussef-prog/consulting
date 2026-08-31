@@ -1,7 +1,7 @@
 ﻿---
 title: "ROI Formation Supply Chain : Transformation Mesurable en 90 Jours"
 date: "2026-06-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/analytics.jpg"
 keywords: "formation supply chain Maroc, certification APICS, formation logistique, ROI formation, montée en compétence"
 description: "Comment une formation supply chain génère ROI en 90 jours. Données réelles de 40+ cadres formés : adoption tech +40%, économies 8-15%."
@@ -32,9 +32,9 @@ Voici comment, et les données qui le prouvent.
 
 ---
 
-## Modèle de Formation Essor Consulting (9 mois, 40+ cadres)
+## Modèle de Formation Nextinotech (9 mois, 40+ cadres)
 
-Quand j'ai lancé Essor Consulting (octobre 2014 - juin 2015), j'ai conçu un modèle formation qui fonctionne:
+Quand j'ai lancé Nextinotech (octobre 2014 - juin 2015), j'ai conçu un modèle formation qui fonctionne:
 
 **Étape 1: Diagnostic Compétences (Semaine 1)**
 - Audit skills actuels : Supply chain planning, procurement, logistics, technology
@@ -70,7 +70,7 @@ Cycle 5 jours : 2 jours théorie intensive + 3 jours on-job application
 
 **Étape 4: Certification Interne** (Semaine 10)
 - Évaluation compétences
-- Certification Essor (ou APICS si budget)
+- Certification Nextinotech (ou APICS si budget)
 
 ---
 
@@ -84,7 +84,7 @@ Cycle 5 jours : 2 jours théorie intensive + 3 jours on-job application
 - Temps cycle achat : 35 jours
 - Fournisseurs : 180+ (peu consolidé)
 
-**Formation Essor (5 jours + 6 semaines coaching) :**
+**Formation Nextinotech (5 jours + 6 semaines coaching) :**
 - Stratégie sourcing par catégorie
 - Consolidation fournisseurs intelligente
 - Benchmark prix market
@@ -153,7 +153,7 @@ Cycle 5 jours : 2 jours théorie intensive + 3 jours on-job application
 **Quand :** Urgence court terme, skills gap spécifique  
 **Exemple :** Bosch (5 jours sourcing) → 2.1 MMAD saving
 
-### Option 2: Formation Modulée (Essor Standard)
+### Option 2: Formation Modulée (Nextinotech Standard)
 **Durée :** 6-10 semaines (2 jours/semaine + coaching)  
 **Budget :** 50-80K MAD  
 **ROI :** 3-6 mois  
@@ -242,7 +242,7 @@ Cycle 5 jours : 2 jours théorie intensive + 3 jours on-job application
 
 ---
 
-## Programme Formation Essor Consulting — 3 Niveaux
+## Programme Formation Nextinotech — 3 Niveaux
 
 ### Niveau 1: Skills Essentiels (3-5 jours)
 Pour PME/ME ou départements spécifiques. Budget-friendly.
@@ -278,13 +278,13 @@ Une formation supply chain n'est pas dépense. C'est investissement qu'on mesure
 2. Recommandation formation
 3. ROI projection
 
-👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
 Contactez-nous. On regarde votre situation, on vous dit honnêtement si formation a sense pour vous.
 
 ---
 
-**Essor Consulting**  
+**Nextinotech**  
 Directeur des Achats | Expert Supply Chain & Transformation Digitale  
-Essor Consulting — Casablanca, Maroc  
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+Nextinotech — Casablanca, Maroc  
+📧 contact@nextinotech.com | 📞 +212 663 449 200

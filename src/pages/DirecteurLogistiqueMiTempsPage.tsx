@@ -6,7 +6,7 @@ export default function DirecteurLogistiqueMiTempsPage() {
   return (
     <>
       <PageMeta
-        title="Directeur Logistique à Temps Partagé au Maroc | Essor Consulting"
+        title="Directeur Logistique à Temps Partagé au Maroc | Nextinotech"
         description="Direction opérationnelle de vos entrepôts, transport et flux physiques à temps partagé. Mandat 180k-550k MAD, opérationnel en 2 semaines. PME & ETI Maroc."
         canonical="https://nextinotech.com/directeur-logistique-mi-temps"
       />

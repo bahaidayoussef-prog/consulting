@@ -1,7 +1,7 @@
 ﻿---
 title: "Formation Logistique à Tanger et Kénitra : Hub Automobile et Port Med 2026"
 date: "2026-08-02"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/transport.jpg"
 keywords: "formation logistique tanger, supply chain tanger med, formation logistique kenitra, supply chain automobile maroc nord, formation jit tanger, logistique port tanger"
 description: "Formation supply chain et logistique pour les professionnels de Tanger, Tanger Med et Kénitra : secteur automobile, port, logistique industrielle JIT."
@@ -123,9 +123,9 @@ Dans les multinationales du nord, les réunions supply chain sont souvent en ang
 
 **À Tanger :** L'ENSA Tanger, l'ENCG Tanger, l'UATF proposent des formations initiales. Pour la formation continue, l'offre est limitée.
 
-**À Casablanca :** Essor Consulting propose des formations intensives à Casablanca (3h30 de train ou 1h d'avion depuis Tanger). Les professionnels du nord sont régulièrement présents dans nos sessions.
+**À Casablanca :** Nextinotech propose des formations intensives à Casablanca (3h30 de train ou 1h d'avion depuis Tanger). Les professionnels du nord sont régulièrement présents dans nos sessions.
 
-**En intra-entreprise au Nord :** Pour des groupes de 5 personnes ou plus dans votre entreprise, Essor Consulting se déplace à Tanger, Tanger Med ou Kénitra. C'est la solution la plus efficace pour les équipes d'équipementiers qui veulent se former ensemble.
+**En intra-entreprise au Nord :** Pour des groupes de 5 personnes ou plus dans votre entreprise, Nextinotech se déplace à Tanger, Tanger Med ou Kénitra. C'est la solution la plus efficace pour les équipes d'équipementiers qui veulent se former ensemble.
 
 ---
 
@@ -155,8 +155,8 @@ Pour les professionnels du secteur automobile au Nord, nous proposons un program
 
 Le Nord du Maroc est aujourd'hui l'une des zones de développement logistique les plus actives du continent. Les professionnels qui maîtrisent les standards automobile (JIT, EDI, DDMRP) et portuaires (gestion des conteneurs, douane, freight forwarding) ont des perspectives de carrière excellentes.
 
-👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
 Pour structurer les fondamentaux avant de se spécialiser automobile ou portuaire, notre programme **[Devenir Responsable Logistique](/formation-rl/)** (1 journée, 1 500 MAD TTC) reste le point d'entrée le plus rapide.
 
-**Essor Consulting intervient régulièrement à Tanger, Kénitra et Tanger Med** pour des missions de conseil et de formation. Contactez-nous pour organiser une session pour votre équipe.
+**Nextinotech intervient régulièrement à Tanger, Kénitra et Tanger Med** pour des missions de conseil et de formation. Contactez-nous pour organiser une session pour votre équipe.

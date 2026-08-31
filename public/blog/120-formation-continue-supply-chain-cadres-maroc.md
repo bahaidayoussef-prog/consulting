@@ -1,7 +1,7 @@
 ﻿---
 title: "Formation Continue Supply Chain pour Cadres au Maroc : Rester Compétitif"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/analytics.jpg"
 keywords: "formation continue supply chain Maroc, formation cadres logistique Maroc, développement professionnel supply chain, mise à niveau supply chain cadres"
 description: "Formation continue supply chain pour cadres et managers au Maroc : quelles compétences mettre à jour, comment rester compétitif face aux nouvelles technologies et méthodes."
@@ -75,11 +75,11 @@ SITL, Supply Chain Event (Paris), forums logistique Casablanca. Veille sur les t
 
 > **Les cadres supply chain qui progressent le plus vite ne sont pas ceux qui ont le plus de temps pour se former. Ce sont ceux qui ont transformé la formation en habitude régulière plutôt qu'en événement exceptionnel.**
 
-## Essor Consulting — Formation Continue Cadres SC
+## Nextinotech — Formation Continue Cadres SC
 
 Programmes modulaires pour cadres et managers en poste : séminaires thématiques, coaching individuel, et accompagnement de projets de transformation. Financement GIAC possible.
 
-👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

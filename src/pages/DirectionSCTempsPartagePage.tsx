@@ -10,7 +10,7 @@ const schema = {
   '@type': 'Service',
   name: 'Direction Supply Chain à Temps Partagé',
   serviceType: 'Direction supply chain externalisée',
-  provider: { '@type': 'ProfessionalService', name: 'Essor Consulting' },
+  provider: { '@type': 'ProfessionalService', name: 'Nextinotech' },
   areaServed: [{ '@type': 'Country', name: 'Maroc' }, { '@type': 'Country', name: 'France' }],
   description: "Direction supply chain à temps partagé pour PME et ETI — mandat en 3 phases, de l'audit à la passation, sans recrutement CDI.",
 }
@@ -19,7 +19,7 @@ export default function DirectionSCTempsPartagePage() {
   return (
     <>
       <PageMeta
-        title="Direction Supply Chain à Temps Partagé au Maroc | Essor Consulting"
+        title="Direction Supply Chain à Temps Partagé au Maroc | Nextinotech"
         description="Direction supply chain à temps partagé pour PME et ETI marocaines. Mandat en 3 phases, 180k-550k MAD, opérationnel en 2 semaines — sans recrutement CDI."
         canonical="https://nextinotech.com/direction-supply-chain-temps-partage"
       />

@@ -1,7 +1,7 @@
 ---
 title: "Logistique Minière au Maroc : au-delà de l'OCP"
 date: "2026-08-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/construction.jpg"
 keywords: "logistique minière maroc, mines maroc hors phosphate, exploitation minière maroc barytine cobalt"
@@ -36,7 +36,7 @@ Le secteur minier marocain hors phosphate représente un volume d'export signifi
 
 Vous opérez dans le secteur minier marocain et voulez structurer votre logistique d'évacuation ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

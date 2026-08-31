@@ -1,7 +1,7 @@
 ---
 title: "Dark Stores et Micro-Fulfillment : le Futur de la Livraison Rapide en Ville"
 date: "2026-08-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/hero-warehouse.jpg"
 keywords: "dark store maroc, micro-fulfillment center, livraison rapide q-commerce, entrepôt urbain livraison"
@@ -36,7 +36,7 @@ Le dark store permet une livraison urbaine en 15 à 60 minutes, mais ne se justi
 
 Vous voulez évaluer si la densité de vos commandes justifie un modèle dark store ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

@@ -1,7 +1,7 @@
 ﻿---
 title: "Travailler en Supply Chain à l'International depuis le Maroc"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/transport.jpg"
 keywords: "travailler international supply chain Maroc, expatriation logistique, carrière internationale supply chain marocain, supply chain Afrique internationale"
 description: "Comment les professionnels supply chain marocains peuvent accéder à des postes internationaux : les destinations, les stratégies, et les compétences pour se positionner."
@@ -78,9 +78,9 @@ Avoir un plan clair pour la famille réduit le stress et aide à la décision.
 
 > **Les professionnels marocains qui partent à l'international avec un plan — durée, objectif financier, retour — reviennent généralement avec exactement ce qu'ils cherchaient. Ceux qui partent sans plan restent souvent plus longtemps que prévu, sans avoir atteint d'objectif clair.**
 
-## Essor Consulting — Stratégie Carrière Internationale
+## Nextinotech — Stratégie Carrière Internationale
 
-Essor Consulting accompagne les professionnels supply chain marocains dans leur stratégie de carrière internationale : positionnement, ciblage des marchés, préparation.
+Nextinotech accompagne les professionnels supply chain marocains dans leur stratégie de carrière internationale : positionnement, ciblage des marchés, préparation.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

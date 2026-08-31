@@ -5,8 +5,8 @@ import SchemaScript from './SchemaHelper'
 import PageMeta from './PageMeta'
 
 /* ─── Brand constants ─────────────────────────────────────── */
-const WA = `https://wa.me/212663449200?text=${encodeURIComponent('Bonjour Essor Consulting, je souhaite des informations sur vos formations. Pouvez-vous me recontacter ?')}`
-const EMAIL = 'mailto:essor.consulting.maroc@gmail.com?subject=Catalogue%20Formations%20Essor%20Consulting'
+const WA = `https://wa.me/212663449200?text=${encodeURIComponent('Bonjour Nextinotech, je souhaite des informations sur vos formations. Pouvez-vous me recontacter ?')}`
+const EMAIL = 'mailto:contact@nextinotech.com?subject=Catalogue%20Formations%20Essor%20Consulting'
 
 /* ─── Data — Programmes ────────────────────────────────────── */
 const PROGRAMMES = [
@@ -114,7 +114,7 @@ const PROGRAMMES = [
       'Implémentation dans SAP, Oracle ou ERP générique',
       'Examen blanc + préparation à la certification officielle DDI',
     ],
-    inclus: ['Support officiel DDMRP', 'Simulateur Excel inclus', 'Préparation examen DDI', 'Attestation Essor Consulting'],
+    inclus: ['Support officiel DDMRP', 'Simulateur Excel inclus', 'Préparation examen DDI', 'Attestation Nextinotech'],
     cta: WA,
     color: 'var(--blue-bright)',
   },
@@ -251,7 +251,7 @@ const PROGRAMMES = [
       'Maîtrise Statistique des Procédés (MSP / SPC)',
       'Examen blanc + projet Green Belt encadré',
     ],
-    inclus: ['Support officiel DMAIC', 'Simulateur Minitab initiation', 'Préparation Green Belt', 'Attestation Essor Consulting'],
+    inclus: ['Support officiel DMAIC', 'Simulateur Minitab initiation', 'Préparation Green Belt', 'Attestation Nextinotech'],
     cta: WA,
     color: 'var(--blue-bright)',
   },
@@ -623,7 +623,7 @@ const PROGRAMMES = [
     format: 'intra',
     badge: 'Terrain · Opérationnel',
     title: 'Formation préparatoire aux référentiels CACES R489',
-    subtitle: "Conduite en sécurité des chariots de manutention, sur les référentiels R489. Le Maroc ne dispose pas d'organisme testeur agréé équivalent à la France : attestation de formation interne Essor Consulting, pas de certification CACES® officielle française.",
+    subtitle: "Conduite en sécurité des chariots de manutention, sur les référentiels R489. Le Maroc ne dispose pas d'organisme testeur agréé équivalent à la France : attestation de formation interne Nextinotech, pas de certification CACES® officielle française.",
     duration: '3 à 5 jours',
     hours: 'Théorie + pratique sur chariot',
     group: "Jusqu'à 6 participants / session",
@@ -642,7 +642,7 @@ const PROGRAMMES = [
     inclus: [
       'Support théorique remis',
       'Évaluation pratique individuelle',
-      'Attestation de formation interne Essor Consulting (non équivalente au certificat CACES® officiel français)',
+      'Attestation de formation interne Nextinotech (non équivalente au certificat CACES® officiel français)',
       'Grille de suivi post-formation',
     ],
     cta: EMAIL,
@@ -709,7 +709,7 @@ const PROGRAMMES = [
     format: 'inter',
     badge: 'Programme de synthèse',
     title: 'Formation Maturité Logistique — Diagnostiquer et Progresser',
-    subtitle: 'La méthode de diagnostic Essor Consulting, transmise à vos équipes pour auto-évaluer et faire progresser votre supply chain.',
+    subtitle: 'La méthode de diagnostic Nextinotech, transmise à vos équipes pour auto-évaluer et faire progresser votre supply chain.',
     duration: '1 jour',
     hours: '8h30 — 17h30',
     group: '8 à 16 participants',
@@ -759,7 +759,7 @@ export const FAQ = [
   },
   {
     q: 'La formation CACES délivre-t-elle une certification officielle ou une attestation interne ?',
-    a: "Une attestation de formation interne Essor Consulting, pas une certification CACES® officielle française. Le Maroc ne dispose pas d'organisme testeur agréé équivalent à celui utilisé en France pour délivrer le certificat CACES® officiel — notre formation prépare aux référentiels R489 mais reste, par nature, une attestation interne.",
+    a: "Une attestation de formation interne Nextinotech, pas une certification CACES® officielle française. Le Maroc ne dispose pas d'organisme testeur agréé équivalent à celui utilisé en France pour délivrer le certificat CACES® officiel — notre formation prépare aux référentiels R489 mais reste, par nature, une attestation interne.",
   },
   {
     q: 'Proposez-vous un suivi après une formation HSE ou Maturité Logistique ?',
@@ -773,7 +773,7 @@ const programmesSchema = {
     {
       '@type': 'ItemList',
       '@id': 'https://nextinotech.com/formation#programmes',
-      name: 'Catalogue de formations Essor Consulting',
+      name: 'Catalogue de formations Nextinotech',
       numberOfItems: PROGRAMMES.length,
       itemListElement: PROGRAMMES.map((p, i) => {
         const nums = p.price.replace(/\s/g, '').split('–').map(s => parseInt(s.replace(/\D/g, ''), 10)).filter(n => !isNaN(n))
@@ -795,7 +795,7 @@ const programmesSchema = {
             '@type': 'Course',
             name: p.title,
             description: p.subtitle,
-            provider: { '@type': 'Organization', name: 'Essor Consulting', sameAs: 'https://nextinotech.com/' },
+            provider: { '@type': 'Organization', name: 'Nextinotech', sameAs: 'https://nextinotech.com/' },
             hasCourseInstance: {
               '@type': 'CourseInstance',
               courseMode: p.format === 'coaching' ? 'Online' : 'Onsite',
@@ -1198,7 +1198,7 @@ export default function FormationCatalogue() {
   return (
     <>
       <PageMeta
-        title="Formations Supply Chain, Lean, Management, Finance, Projet & Carrière — Essor Consulting"
+        title="Formations Supply Chain, Lean, Management, Finance, Projet & Carrière — Nextinotech"
         description="26 programmes de formation sur 7 domaines : Supply Chain, Opérationnel, Lean, Management, Finance, Gestion de Projet, Carrière & Bien-être. Inter et intra-entreprise. Catalogue et calendrier 2026."
         canonical="https://nextinotech.com/formation"
       />
@@ -1551,7 +1551,7 @@ export default function FormationCatalogue() {
                   Ou via le formulaire de contact →
                 </Link>
                 <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.08em', textTransform: 'uppercase', color: 'var(--mid)', marginTop: '0.5rem' }}>
-                  +212 06 63 44 92 00 · essor.consulting.maroc@gmail.com
+                  +212 06 63 44 92 00 · contact@nextinotech.com
                 </div>
               </div>
             </Reveal>

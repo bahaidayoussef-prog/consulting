@@ -421,7 +421,7 @@ function LeibingerOffer() {
           Imprimantes Industrielles Leibinger
         </h3>
         <p style={{ fontSize: '0.95rem', color: 'var(--mid)', lineHeight: 1.75, fontWeight: 300, margin: 0 }}>
-          Essor Consulting est distributeur/partenaire officiel Leibinger — fabricant allemand reconnu à l&apos;international dans le marquage et le codage industriel — au Maroc.
+          Nextinotech est distributeur/partenaire officiel Leibinger — fabricant allemand reconnu à l&apos;international dans le marquage et le codage industriel — au Maroc.
         </p>
       </div>
 

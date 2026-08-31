@@ -1,7 +1,7 @@
 ﻿---
 title: "Formation Transport et Douanes au Maroc : Transit, Incoterms et Conformité 2026"
 date: "2026-08-04"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/analytics.jpg"
 keywords: "formation transport maroc, formation douanes maroc, formation transit douanier maroc, incoterms formation maroc, formation import export maroc"
 description: "Formation transport et douanes au Maroc : Incoterms 2020, procédures douanières, transit import/export, documents de transport. Programme complet pour les professionnels du commerce international."
@@ -198,13 +198,13 @@ Le Maroc a signé des accords de libre-échange (ALE) qui permettent d'importer 
 
 ---
 
-## Former vos Équipes avec Essor Consulting
+## Former vos Équipes avec Nextinotech
 
-Essor Consulting forme les équipes achats, logistique et commerce international au Maroc sur les compétences transport et douanes. Nos formateurs ont une expérience terrain des procédures ADII et des négociations d'Incoterms avec des fournisseurs asiatiques, européens et africains.
+Nextinotech forme les équipes achats, logistique et commerce international au Maroc sur les compétences transport et douanes. Nos formateurs ont une expérience terrain des procédures ADII et des négociations d'Incoterms avec des fournisseurs asiatiques, européens et africains.
 
-👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
-Contactez-nous pour un devis : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
+Contactez-nous pour un devis : **contact@nextinotech.com** · **+212 06 63 44 92 00**
 
 ---
 

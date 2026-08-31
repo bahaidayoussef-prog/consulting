@@ -1,7 +1,7 @@
 ---
 title: "Négociation Fournisseurs en Période d'Inflation : les Leviers qui Marchent Encore"
 date: "2026-08-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/business.jpg"
 keywords: "négociation achats inflation maroc, hausse matières premières négociation fournisseur, tactiques négociation achats"
@@ -36,7 +36,7 @@ Négocier en période d'inflation suppose de déplacer le débat du seul prix un
 
 Vous voulez structurer votre négociation fournisseurs face à la hausse des coûts matières premières ? [Découvrez nos formations achats](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

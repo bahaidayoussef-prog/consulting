@@ -1,7 +1,7 @@
 ﻿---
 title: "Les Compétences que les Recruteurs Cherchent Chez les Jeunes Diplômés Supply Chain"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/hero-supply-chain.jpg"
 keywords: "compétences jeune diplômé supply chain Maroc, soft skills logistique Maroc, hard skills supply chain junior, qualités recrutées supply chain Maroc"
 description: "Quelles compétences cherchent les recruteurs chez les jeunes diplômés supply chain au Maroc ? Hard skills, soft skills, et ce qui fait vraiment la différence."
@@ -85,9 +85,9 @@ Si vous êtes en dernière année et que vous avez 6 mois avant de chercher un e
 
 > **Les jeunes diplômés supply chain les plus employables ne sont pas forcément ceux qui ont les meilleures notes. Ce sont ceux qui combinent compétences techniques solides, attitude positive, et une compréhension réelle du métier acquise pendant leurs stages.**
 
-## Essor Consulting — Programme Jeunes Diplômés
+## Nextinotech — Programme Jeunes Diplômés
 
-Essor Consulting propose un programme d'accompagnement spécifique pour les jeunes diplômés supply chain : développement des compétences, coaching entretien, mise en réseau.
+Nextinotech propose un programme d'accompagnement spécifique pour les jeunes diplômés supply chain : développement des compétences, coaching entretien, mise en réseau.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

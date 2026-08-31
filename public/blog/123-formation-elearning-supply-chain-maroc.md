@@ -1,7 +1,7 @@
 ﻿---
 title: "Formation E-learning Supply Chain au Maroc : Apprendre à Son Rythme"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/office.jpg"
 keywords: "formation en ligne supply chain Maroc, e-learning logistique Maroc, formation à distance supply chain, MOOC supply chain Maroc"
 description: "Formations e-learning supply chain disponibles au Maroc : MOOC gratuits, plateformes payantes, certifications en ligne. Que valent-elles vraiment ?"
@@ -79,11 +79,11 @@ Cette combinaison donne le meilleur ROI formation tout en s'adaptant aux contrai
 
 > **Une heure de pratique supervisée vaut 10 heures de vidéos. Le e-learning est un excellent complément à la formation présentielle — pas un substitut.**
 
-## Essor Consulting — Formation Hybride
+## Nextinotech — Formation Hybride
 
-Essor Consulting propose un format hybride : fondamentaux en e-learning (accessible 24/7), sessions présentielles de pratique, et suivi individuel.
+Nextinotech propose un format hybride : fondamentaux en e-learning (accessible 24/7), sessions présentielles de pratique, et suivi individuel.
 
-👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

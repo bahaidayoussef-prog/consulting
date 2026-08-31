@@ -1,7 +1,7 @@
 ﻿---
 title: "Webinaire GRATUIT : Transformation Supply Chain en 90 Jours"
 date: "2026-06-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 type: "webinaire"
 keywords: "webinaire supply chain, formation gratuite, transformation supply chain, consultant"
 description: "Webinaire gratuit 45min : Transformation supply chain réaliste en 90 jours. Roadmap détaillée, risques mitigés, ROI calculé. Inscription gratuite."
@@ -52,7 +52,7 @@ description: "Webinaire gratuit 45min : Transformation supply chain réaliste en
 
 ## Speaker
 
-**Essor Consulting**  
+**Nextinotech**  
 Directeur des Achats | Expert Supply Chain & Transformation Digitale  
 - 18 ans expérience (OCP, DHL, Renault, Douja)
 - 110+ missions réussies
@@ -62,7 +62,7 @@ Directeur des Achats | Expert Supply Chain & Transformation Digitale
 
 ## Inscription
 
-**👉 [S'inscrire Gratuitement](https://calendly.com/essor-consulting/webinaire-90j)**
+**👉 [S'inscrire Gratuitement](https://calendly.com/nextinotech/webinaire-90j)**
 
 *Vous recevrez:*
 - ✓ Lien Zoom 24h avant
@@ -76,9 +76,9 @@ Directeur des Achats | Expert Supply Chain & Transformation Digitale
 
 | Date | Heure | Langue | Inscription |
 |------|-------|--------|-------------|
-| 05 juillet 2026 | 14h00 GMT+1 | Français | [Lien](https://calendly.com/essor-consulting/webinaire-90j) |
-| 02 août 2026 | 14h00 GMT+1 | Français | [Lien](https://calendly.com/essor-consulting/webinaire-90j) |
-| 06 septembre 2026 | 14h00 GMT+1 | Français | [Lien](https://calendly.com/essor-consulting/webinaire-90j) |
+| 05 juillet 2026 | 14h00 GMT+1 | Français | [Lien](https://calendly.com/nextinotech/webinaire-90j) |
+| 02 août 2026 | 14h00 GMT+1 | Français | [Lien](https://calendly.com/nextinotech/webinaire-90j) |
+| 06 septembre 2026 | 14h00 GMT+1 | Français | [Lien](https://calendly.com/nextinotech/webinaire-90j) |
 
 ---
 
@@ -90,10 +90,10 @@ Directeur des Achats | Expert Supply Chain & Transformation Digitale
 
 ---
 
-👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
-**Contact:** essor.consulting.maroc@gmail.com | +212 663 449 200
+**Contact:** contact@nextinotech.com | +212 663 449 200
 
 ---
 
-**Essor Consulting**
+**Nextinotech**

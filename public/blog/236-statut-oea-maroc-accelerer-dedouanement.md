@@ -1,7 +1,7 @@
 ---
 title: "Statut d'Opérateur Économique Agréé (OEA) : Accélérer son Dédouanement"
 date: "2026-08-27"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/conseil.jpg"
 keywords: "opérateur économique agréé maroc OEA, statut OEA maroc ADII, certification OEA douane maroc"
@@ -36,7 +36,7 @@ Le statut OEA reste très sous-utilisé au Maroc — 6,81% de taux de pénétrat
 
 Votre entreprise souhaite évaluer son éligibilité au statut OEA ou structurer sa traçabilité de stock en amont d'une demande ? [Découvrez nos services de conseil douane et supply chain](/conseil), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

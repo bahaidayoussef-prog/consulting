@@ -1,7 +1,7 @@
 ﻿---
 title: "Comment Choisir sa Formation Supply Chain au Maroc : Le Guide 2026"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/office.jpg"
 keywords: "formation supply chain Maroc, choisir formation logistique, meilleure formation supply chain, formation certifiante logistique Maroc"
 description: "Comment choisir la bonne formation supply chain au Maroc en 2026 ? Critères, pièges à éviter, comparatif des formats — le guide complet pour ne pas se tromper."
@@ -26,7 +26,7 @@ Une formation supply chain qui ne comporte pas d'exercices sur des cas réels, d
 Un formateur qui n'a jamais géré un entrepôt, négocié avec un fournisseur ou déployé un WMS ne peut pas transmettre ce qui compte vraiment. Vérifiez le CV du formateur avant de vous inscrire.
 
 **3. La certification est-elle reconnue par le marché ?**
-Toutes les certifications ne se valent pas. Certaines sont reconnues par les recruteurs marocains et internationaux (APICS, CSCMP, certifications Essor Consulting). D'autres sont des certificats maison sans valeur sur le marché.
+Toutes les certifications ne se valent pas. Certaines sont reconnues par les recruteurs marocains et internationaux (APICS, CSCMP, certifications Nextinotech). D'autres sont des certificats maison sans valeur sur le marché.
 
 **4. Y a-t-il un suivi post-formation ?**
 Les meilleures formations incluent un accompagnement après la formation : accès à une communauté, coaching individuel, ressources mises à jour. Sans suivi, les apprentissages s'évaporent en 3 semaines.
@@ -34,7 +34,7 @@ Les meilleures formations incluent un accompagnement après la formation : accè
 **5. Quel est le ROI attendu ?**
 Une formation de 8 000 MAD qui vous permet d'obtenir une promotion à +3 000 MAD/mois est remboursée en 3 mois. Calculez toujours le retour attendu avant de dépenser.
 
-::stat:: 60% — des professionnels formés en supply chain obtiennent une promotion ou une augmentation dans les 12 mois suivant leur formation (données Essor Consulting 2025)
+::stat:: 60% — des professionnels formés en supply chain obtiennent une promotion ou une augmentation dans les 12 mois suivant leur formation (données Nextinotech 2025)
 
 ## Les Formats de Formation : Avantages et Limites
 
@@ -66,7 +66,7 @@ Une formation de 8 000 MAD qui vous permet d'obtenir une promotion à +3 000 MAD
 | CSCP | APICS | Avancé | Très élevée |
 | DDMRP Practitioner | Demand Driven Institute | Intermédiaire | Élevée (en croissance) |
 | Lean Six Sigma Green Belt | Divers | Intermédiaire | Bonne |
-| Certificate Essor Consulting | Essor Consulting | Tous niveaux | Reconnue PME/ME Maroc |
+| Certificate Nextinotech | Nextinotech | Tous niveaux | Reconnue PME/ME Maroc |
 
 ## Les Pièges à Éviter
 
@@ -84,13 +84,13 @@ Un programme qui couvre "supply chain, achats, WMS, DDMRP, lean et management" e
 
 > **Ma règle : une bonne formation supply chain doit changer quelque chose dans vos pratiques quotidiennes dès la semaine suivante.** Si après 3 semaines votre façon de travailler n'a pas changé, la formation n'a pas atteint son objectif.
 
-## Le Programme Essor Consulting
+## Le Programme Nextinotech
 
-Essor Consulting propose des formations supply chain conçues par des praticiens pour des praticiens. Chaque programme inclut des cas réels tirés de missions au Maroc, des exercices pratiques, et un suivi post-formation de 30 jours.
+Nextinotech propose des formations supply chain conçues par des praticiens pour des praticiens. Chaque programme inclut des cas réels tirés de missions au Maroc, des exercices pratiques, et un suivi post-formation de 30 jours.
 
 Formats disponibles : présentiel Casablanca, intra-entreprise, et accompagnement individuel.
 
-👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
 **Contactez-nous** pour recevoir le catalogue complet :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

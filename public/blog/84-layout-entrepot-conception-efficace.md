@@ -1,7 +1,7 @@
 ﻿---
 title: "Layout Entrepôt : Les 5 Principes d'une Conception Efficace au Maroc"
 date: "2026-08-04"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/hero-warehouse.jpg"
 keywords: "layout entrepôt maroc, aménagement entrepôt, conception entrepôt logistique, implantation entrepôt efficace, organisation entrepôt maroc"
 description: "Les 5 principes fondamentaux d'un layout entrepôt efficace au Maroc : séparation des flux, règle ABC, dimensionnement des allées et des quais. Exemples chiffrés."
@@ -170,7 +170,7 @@ Avant de valider définitivement un layout, la simulation est l'outil qui permet
 - Les scénarios de pic (est-ce que l'entrepôt tient lors du Black Friday ou du Ramadan ?)
 - Les alternatives de layout (scénario A vs scénario B)
 
-**Outils utilisés chez Essor Consulting :**
+**Outils utilisés chez Nextinotech :**
 - Plans 2D sur AutoCAD pour la géométrie et les dimensions
 - Modèles Excel dynamiques pour les calculs de flux et de productivité
 - Pour les projets complexes (> 10 000 m²) : outils de simulation 3D (Arena, Witness ou équivalents)
@@ -197,9 +197,9 @@ Beaucoup d'entrepôts marocains de 7 à 10 m de hauteur stockent jusqu'à 4 m et
 
 ---
 
-## Conception de Layout avec Essor Consulting
+## Conception de Layout avec Nextinotech
 
-Essor Consulting propose des missions de conception ou de reconfiguration de layout entrepôt, incluant :
+Nextinotech propose des missions de conception ou de reconfiguration de layout entrepôt, incluant :
 
 - Analyse des flux actuels et modélisation des flux cibles
 - Conception du plan d'adressage (zones, allées, niveaux, emplacements)
@@ -208,7 +208,7 @@ Essor Consulting propose des missions de conception ou de reconfiguration de lay
 - Plan de sécurité et conformité
 - Simulation et validation avant mise en œuvre
 
-Contactez-nous pour un premier diagnostic de votre layout : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
+Contactez-nous pour un premier diagnostic de votre layout : **contact@nextinotech.com** · **+212 06 63 44 92 00**
 
 ---
 

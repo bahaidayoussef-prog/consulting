@@ -66,7 +66,7 @@ const MANDATS: Mandat[] = [
       '3 phases incluses : Diagnostic, Pilotage, Passation',
       'Reporting mensuel Comité de Direction',
       'Disponibilité 4h/semaine hors présentiel',
-      'Accès outils de pilotage Essor',
+      'Accès outils de pilotage Nextinotech',
     ],
     cta: 'En savoir plus',
   },
@@ -92,7 +92,7 @@ const schema = {
   '@type': 'Service',
   name: 'Directeur Logistique à Temps Partagé',
   serviceType: 'Direction logistique externalisée',
-  provider: { '@type': 'ProfessionalService', name: 'Essor Consulting' },
+  provider: { '@type': 'ProfessionalService', name: 'Nextinotech' },
   areaServed: { '@type': 'Country', name: 'Maroc' },
   description: "Direction opérationnelle des entrepôts, du transport et des flux physiques à temps partagé, pour PME et ETI marocaines.",
 }
@@ -153,7 +153,7 @@ export default function DirecteurLogistiqueMiTemps() {
                 Recruter en CDI vs mandat
               </div>
               <p style={{ fontSize: '1rem', color: 'var(--mid)', lineHeight: 1.8, fontWeight: 300, marginBottom: '1.5rem' }}>
-                Un directeur logistique en CDI coûte entre 600 000 et 900 000 MAD par an, charges sociales incluses, avec 4 à 6 mois de recrutement avant la prise de poste. Un mandat Essor démarre en 2 semaines, sans charges ni risque RH, avec un exit propre inclus dès la signature.
+                Un directeur logistique en CDI coûte entre 600 000 et 900 000 MAD par an, charges sociales incluses, avec 4 à 6 mois de recrutement avant la prise de poste. Un mandat Nextinotech démarre en 2 semaines, sans charges ni risque RH, avec un exit propre inclus dès la signature.
               </p>
               <Link
                 to="/dsc-vs-recrutement-cdi"

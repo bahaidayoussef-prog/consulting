@@ -1,7 +1,7 @@
 ﻿---
 title: "Formation Supply Chain Manager au Maroc : Programme, Contenu et Débouchés"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/analytics.jpg"
 keywords: "formation supply chain manager Maroc, programme supply chain manager, devenir supply chain manager Maroc, formation SCM Maroc"
 description: "Tout sur la formation Supply Chain Manager au Maroc : programme détaillé, compétences acquises, débouchés, salaires et organismes recommandés en 2026."
@@ -96,13 +96,13 @@ Comprendre que toute décision locale (réduire le stock A) a un impact global (
 **Secteurs qui recrutent le plus au Maroc :**
 Automobile (Renault, Stellantis, équipementiers), agroalimentaire (Centrale Danone, Nestlé, OCP Nutricrops), retail (Marjane, Label'Vie), industrie (OCP, Managem), pharmaceutique, BTP.
 
-## La Formation Essor Consulting — Supply Chain Manager
+## La Formation Nextinotech — Supply Chain Manager
 
-Essor Consulting propose un programme modulaire Supply Chain Manager : 6 modules de 1 journée, espacés mensuellement, avec des cas pratiques tirés de missions réelles au Maroc.
+Nextinotech propose un programme modulaire Supply Chain Manager : 6 modules de 1 journée, espacés mensuellement, avec des cas pratiques tirés de missions réelles au Maroc.
 
 Chaque module peut être suivi séparément ou dans le cadre du programme complet certifiant.
 
-👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
 **Contactez-nous** pour le programme détaillé et les prochaines dates :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

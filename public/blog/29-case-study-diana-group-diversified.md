@@ -1,7 +1,7 @@
 ﻿---
 title: "Case Study: Diana Holding — Multi-Filiale S&OP: Stock -20%, Cash -12 Days"
 date: "2026-06-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/agro.jpg"
 type: "case-study"
 keywords: "Diana Holding, S&OP, multi-site, working capital"
@@ -33,5 +33,5 @@ description: "Diana Group (ABC Coca, Ebertec, SNV, Les Celliers): S&OP process a
 
 ---
 
-**Essor Consulting** — Group S&OP & Multi-Site Integration
+**Nextinotech** — Group S&OP & Multi-Site Integration
 

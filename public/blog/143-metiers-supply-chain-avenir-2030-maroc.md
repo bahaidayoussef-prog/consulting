@@ -1,7 +1,7 @@
 ﻿---
 title: "Les Métiers Supply Chain d'Avenir au Maroc à l'Horizon 2030"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/hero-supply-chain.jpg"
 keywords: "métiers supply chain avenir Maroc 2030, emploi logistique futur Maroc, nouveaux métiers supply chain, compétences supply chain 2030"
 description: "Quels seront les métiers supply chain les plus demandés au Maroc en 2030 ? Les compétences à acquérir maintenant pour se positionner sur les postes de demain."
@@ -83,9 +83,9 @@ Ce n'est pas alarmiste, c'est une information utile :
 
 > **La bonne nouvelle : les métiers supply chain d'avenir exigent des compétences hybrides (technique + données + relationnel) que les machines ne remplaceront pas facilement. Le logisticien de 2030 sera augmenté par les outils — pas remplacé par eux.**
 
-## Essor Consulting — Préparez-vous aux Métiers de Demain
+## Nextinotech — Préparez-vous aux Métiers de Demain
 
-Essor Consulting accompagne les professionnels SC dans le développement des compétences d'avenir : data, automatisation, durabilité.
+Nextinotech accompagne les professionnels SC dans le développement des compétences d'avenir : data, automatisation, durabilité.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

@@ -1,7 +1,7 @@
 ---
 title: "Recruter la Génération Z en Logistique : ce qui a Changé, ce qu'il Faut Arrêter de Faire"
 date: "2026-08-23"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/office.jpg"
 keywords: "recruter génération Z logistique, génération Z entrepôt maroc, attentes jeunes travail logistique, fidélisation gen z supply chain"
@@ -36,7 +36,7 @@ La génération Z n'a pas une aversion pour la logistique — elle a des critèr
 
 Votre entreprise peine à attirer ou à retenir les jeunes talents en logistique ? [Découvrez nos formations](/formation), ou [contactez-nous](/contact) pour repenser votre approche recrutement.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

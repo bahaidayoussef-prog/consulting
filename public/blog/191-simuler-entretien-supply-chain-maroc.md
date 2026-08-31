@@ -1,7 +1,7 @@
 ﻿---
 title: "Simuler son Entretien Supply Chain : Méthodes et Exercices"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/formation.jpg"
 keywords: "simulation entretien supply chain Maroc, exercices préparation entretien logistique, mock interview supply chain, s'entraîner entretien supply chain"
 description: "Comment simuler un entretien supply chain pour se préparer efficacement ? Méthodes, exercices pratiques et ressources pour s'entraîner avant le vrai entretien."
@@ -111,9 +111,9 @@ Préparez un slide de 5 pages : votre lecture du secteur, les enjeux SC de l'ent
 
 > **La simulation d'entretien est le secret des candidats qui réussissent systématiquement. Ils n'ont pas moins peur — ils ont plus préparé. Et la préparation transforme l'anxiété en confiance.**
 
-## Essor Consulting — Sessions de Coaching Entretien
+## Nextinotech — Sessions de Coaching Entretien
 
-Essor Consulting propose des sessions individuelles de simulation d'entretien supply chain avec feedback professionnel.
+Nextinotech propose des sessions individuelles de simulation d'entretien supply chain avec feedback professionnel.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

@@ -1,7 +1,7 @@
 ---
 title: "Paiement à la Livraison (COD) : Optimiser sa Logistique quand la Majorité des Commandes Restent Cash"
 date: "2026-08-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/business.jpg"
 keywords: "paiement livraison COD maroc, cash on delivery e-commerce maroc, gestion trésorerie livraison cash"
@@ -36,7 +36,7 @@ Le COD reste incontournable pour toucher la masse du marché e-commerce marocain
 
 Vous voulez réduire votre taux de refus COD et fiabiliser votre trésorerie ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

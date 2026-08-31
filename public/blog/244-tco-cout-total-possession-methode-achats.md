@@ -1,7 +1,7 @@
 ---
 title: "TCO (Coût Total de Possession) : la Méthode que les Acheteurs Marocains Sous-Utilisent"
 date: "2026-08-28"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/business.jpg"
 keywords: "TCO achats méthode, coût total de possession achats maroc, coûts cachés achats, calcul TCO"
@@ -36,7 +36,7 @@ Le TCO reste une méthode sous-exploitée par de nombreuses directions achats, a
 
 Vous voulez intégrer le TCO dans vos décisions d'achat sur vos catégories les plus stratégiques ? [Découvrez nos formations achats](/formation), ou [contactez-nous](/contact) pour un accompagnement.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

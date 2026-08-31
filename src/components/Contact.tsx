@@ -110,7 +110,7 @@ export default function Contact() {
             display: 'flex', flexDirection: 'column', gap: '1rem',
           }}>
             {[
-              { tag: 'Email', label: 'essor.consulting.maroc@gmail.com', href: 'mailto:essor.consulting.maroc@gmail.com' },
+              { tag: 'Email', label: 'contact@nextinotech.com', href: 'mailto:contact@nextinotech.com' },
               { tag: 'Tél',  label: '+212 06 63 44 92 00',                href: 'tel:+212663449200' },
               { tag: 'WA',   label: 'WhatsApp',                            href: 'https://wa.me/212663449200' },
               { tag: 'Lieu', label: 'Casablanca, Maroc',                   href: undefined },
@@ -239,7 +239,7 @@ export default function Contact() {
 
                   {status === 'error' && (
                     <p style={{ color: 'rgba(200,60,60,0.85)', fontSize: '0.82rem', fontFamily: 'DM Mono, monospace' }}>
-                      Erreur d&apos;envoi. Écrivez-nous directement à essor.consulting.maroc@gmail.com
+                      Erreur d&apos;envoi. Écrivez-nous directement à contact@nextinotech.com
                     </p>
                   )}
 

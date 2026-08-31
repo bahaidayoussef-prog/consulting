@@ -1,7 +1,7 @@
 ---
 title: "Achats Publics au Maroc : ce qui Change Réellement pour les Fournisseurs en 2026"
 date: "2026-08-25"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/business.jpg"
 keywords: "achats publics maroc 2026 seuils, marchés publics maroc PME, décret 2-22-431, enregistrement marchés publics 2026"
@@ -36,7 +36,7 @@ Le cadre structurant des marchés publics marocains — seuils, quota PME, princ
 
 Votre entreprise répond à des appels d'offres publics et veut sécuriser sa conformité réglementaire ? [Découvrez nos formations](/formation), ou [contactez-nous](/contact) pour un accompagnement.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

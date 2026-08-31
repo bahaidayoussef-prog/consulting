@@ -1,7 +1,7 @@
 ﻿---
 title: "Les Meilleurs Secteurs pour Débuter en Supply Chain au Maroc"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/hero-supply-chain.jpg"
 keywords: "meilleurs secteurs supply chain débutant Maroc, secteurs logistique jeune diplômé, où travailler supply chain Maroc junior, secteur supply chain formateur Maroc"
 description: "Quel secteur choisir pour commencer sa carrière supply chain au Maroc ? Comparatif des secteurs les plus formateurs, les mieux rémunérés, et les plus porteurs à long terme."
@@ -118,9 +118,9 @@ Secteur en explosion. Les compétences SC e-com seront très demandées dans 3-5
 
 > **Le meilleur secteur pour démarrer est celui qui combine formation solide + accès au marché + cohérence avec votre personnalité. Les secteurs automobile et pharmaceutique forment les meilleures SC. Mais si vous n'avez pas l'opportunité d'y entrer directement, un 3PL ou FMCG est une excellente école aussi.**
 
-## Essor Consulting — Orientation Sectorielle
+## Nextinotech — Orientation Sectorielle
 
-Essor Consulting accompagne les jeunes diplômés dans le choix de leur secteur d'entrée en supply chain.
+Nextinotech accompagne les jeunes diplômés dans le choix de leur secteur d'entrée en supply chain.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

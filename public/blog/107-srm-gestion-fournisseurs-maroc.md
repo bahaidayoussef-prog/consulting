@@ -1,7 +1,7 @@
 ﻿---
 title: "SRM Maroc : Gérer ses Fournisseurs comme un Actif Stratégique"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/conseil.jpg"
 keywords: "SRM Maroc, gestion fournisseurs Maroc, supplier relationship management, panel fournisseurs Maroc, négociation fournisseurs Maroc"
 description: "Le SRM (Supplier Relationship Management) transforme vos fournisseurs en partenaires de performance. Guide pratique pour les PME/ME marocaines — segmentation, KPI, négociation."
@@ -141,14 +141,14 @@ Volume annuel : 710 MMAD d'achats (finitions construction, 31 chantiers au Maroc
 - Incidents qualité chantier -25%
 - ROI programme SRM : 3 mois
 
-## Essor Consulting — Mise en Place SRM pour PME/ME Marocaines
+## Nextinotech — Mise en Place SRM pour PME/ME Marocaines
 
-Essor Consulting accompagne la structuration de votre gestion fournisseurs : segmentation, tableau de bord, première revue, et formation des équipes achats.
+Nextinotech accompagne la structuration de votre gestion fournisseurs : segmentation, tableau de bord, première revue, et formation des équipes achats.
 
 Durée d'intervention initiale : 5 à 10 jours selon le volume du panel.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200
 
 ---
 

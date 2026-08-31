@@ -1,7 +1,7 @@
 ﻿---
 title: "Entrepôt E-Commerce au Maroc : Fulfillment, Last Mile et Organisation 2026"
 date: "2026-08-04"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/hero-warehouse.jpg"
 keywords: "entrepôt e-commerce maroc, logistique e-commerce maroc, fulfillment maroc, last mile e-commerce maroc, préparation commandes e-commerce maroc"
 description: "Logistique e-commerce au Maroc 2026 : organisation du fulfillment, spécificités de l'entrepôt e-commerce, last mile livraison et retours. Guide opérationnel pour les marchands marocains."
@@ -176,9 +176,9 @@ La livraison au particulier au Maroc pose des défis spécifiques que les opéra
 
 ---
 
-## Organisation E-Commerce avec Essor Consulting
+## Organisation E-Commerce avec Nextinotech
 
-Essor Consulting accompagne les marchands e-commerce marocains dans la conception et l'optimisation de leur logistique :
+Nextinotech accompagne les marchands e-commerce marocains dans la conception et l'optimisation de leur logistique :
 
 - Conception du layout fulfillment adapté à votre volume et gamme
 - Définition des processus picking, emballage, expédition
@@ -187,7 +187,7 @@ Essor Consulting accompagne les marchands e-commerce marocains dans la conceptio
 - Organisation de la reverse logistics (retours)
 - Formation des équipes fulfillment
 
-Contactez-nous : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
+Contactez-nous : **contact@nextinotech.com** · **+212 06 63 44 92 00**
 
 ---
 

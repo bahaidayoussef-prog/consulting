@@ -1,7 +1,7 @@
 ﻿---
 title: "Formation Acheteur Supply Chain au Maroc : Négociation, Sourcing et Pilotage Fournisseurs 2026"
 date: "2026-08-04"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/conseil.jpg"
 keywords: "formation acheteur supply chain maroc, formation négociation achats maroc, sourcing fournisseurs maroc, formation pilotage fournisseurs maroc, achats stratégiques supply chain maroc"
 description: "Formation acheteur supply chain au Maroc : négociation, sourcing, évaluation fournisseurs et réduction des coûts. Programme avancé pour acheteurs et responsables achats en supply chain."
@@ -169,9 +169,9 @@ Pour les achats de prestation logistique (transport, entreposage), les PME maroc
 
 ---
 
-## Former vos Acheteurs Supply Chain avec Essor Consulting
+## Former vos Acheteurs Supply Chain avec Nextinotech
 
-Essor Consulting forme les acheteurs et responsables achats supply chain au Maroc depuis plus de 20 ans. Nos formateurs sont des praticiens des achats dans des contextes marocains et africains — pas des théoriciens des modèles européens.
+Nextinotech forme les acheteurs et responsables achats supply chain au Maroc depuis plus de 20 ans. Nos formateurs sont des praticiens des achats dans des contextes marocains et africains — pas des théoriciens des modèles européens.
 
 **Nos formations achats supply chain :**
 - Formation Acheteur Supply Chain (4 jours) — inter ou intra-entreprise
@@ -179,9 +179,9 @@ Essor Consulting forme les acheteurs et responsables achats supply chain au Maro
 - Formation Pilotage Fournisseurs et KPIs (1 jour)
 - Préparation à la certification CIPS (modules étalés sur 2 à 4 mois)
 
-👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
-Contactez-nous : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
+Contactez-nous : **contact@nextinotech.com** · **+212 06 63 44 92 00**
 
 ---
 

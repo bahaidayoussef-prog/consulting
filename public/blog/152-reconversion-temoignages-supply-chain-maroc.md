@@ -1,7 +1,7 @@
 ﻿---
 title: "Reconversion en Supply Chain au Maroc : Témoignages de Profils Réels"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/formation.jpg"
 keywords: "reconversion supply chain Maroc témoignages, changer secteur supply chain Maroc, reconversion logistique réussie Maroc, exemples reconversion supply chain"
 description: "Reconversion professionnelle en supply chain au Maroc : parcours et témoignages de profils qui ont réussi leur transition. Leçons pratiques pour vous guider."
@@ -83,9 +83,9 @@ Sa stratégie : MBA avec spécialisation supply chain, puis transition vers un p
 
 > **La reconversion n'est pas un saut dans le vide. C'est un saut préparé. Les profils qui réussissent sont ceux qui ont pris le temps de comprendre le secteur cible avant d'y plonger — et qui ont trouvé leur angle d'entrée unique.**
 
-## Essor Consulting — Accompagnement Reconversion
+## Nextinotech — Accompagnement Reconversion
 
-Essor Consulting accompagne les profils en reconversion vers la supply chain : bilan de compétences, plan de transition, formation, coaching.
+Nextinotech accompagne les profils en reconversion vers la supply chain : bilan de compétences, plan de transition, formation, coaching.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

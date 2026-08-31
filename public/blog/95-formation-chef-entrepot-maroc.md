@@ -1,7 +1,7 @@
 ﻿---
 title: "Formation Chef d'Entrepôt au Maroc : Compétences, Programme et Certifications 2026"
 date: "2026-08-04"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/hero-warehouse.jpg"
 keywords: "formation chef d'entrepôt maroc, formation responsable entrepôt maroc, formation logistique entrepôt casablanca, chef d'entrepôt compétences maroc, management entrepôt formation"
 description: "Formation chef d'entrepôt au Maroc : compétences clés, programme type, certifications reconnues et salaires. Guide complet pour les professionnels et les entreprises."
@@ -38,7 +38,7 @@ Avant de parler formation, parlons du poste tel qu'il existe réellement dans le
 
 > **C'est un poste de management opérationnel sous pression permanente.** La formation qui ne prépare pas à cette réalité ne prépare à rien.
 
-::stat:: 83% — des chefs d'entrepôt marocains n'ont reçu aucune formation formelle en management d'équipe (enquête terrain Essor Consulting 2024)
+::stat:: 83% — des chefs d'entrepôt marocains n'ont reçu aucune formation formelle en management d'équipe (enquête terrain Nextinotech 2024)
 
 ---
 
@@ -109,7 +109,7 @@ Un chef d'entrepôt isolé qui ne remonte pas l'information est un risque pour l
 
 ## Programme Type d'une Formation Chef d'Entrepôt
 
-Voici la structure du programme que nous animons chez Essor Consulting pour les chefs d'entrepôt marocains. Il est conçu pour être opérationnel dès le premier jour de retour en poste.
+Voici la structure du programme que nous animons chez Nextinotech pour les chefs d'entrepôt marocains. Il est conçu pour être opérationnel dès le premier jour de retour en poste.
 
 **Durée totale : 5 jours (40 heures)**
 
@@ -141,7 +141,7 @@ Voici la structure du programme que nous animons chez Essor Consulting pour les 
 - **APICS CSCP / CLTD** — certifications supply chain reconnues à l'international, avec modules entrepôt. Niveau avancé, recommandé pour évoluer vers responsable logistique.
 - **Lean Six Sigma Yellow Belt** — outils d'amélioration continue applicables en entrepôt. Accessible en 2 à 3 jours.
 
-### Ce qu'Essor Consulting délivre
+### Ce que Nextinotech délivre
 Notre formation Chef d'Entrepôt délivre une **attestation de formation** avec évaluation des acquis. Elle est reconnue par les entreprises clientes et peut être valorisée dans le dossier de compétences du participant.
 
 ---
@@ -181,9 +181,9 @@ La fourchette est large — et reflète l'hétérogénéité du marché marocain
 
 ---
 
-## Former vos Chefs d'Entrepôt avec Essor Consulting
+## Former vos Chefs d'Entrepôt avec Nextinotech
 
-Essor Consulting forme les chefs d'entrepôt et les responsables logistique au Maroc depuis plus de 20 ans. Nos formateurs sont des consultants actifs — ils forment sur ce qu'ils font sur le terrain, pas sur des manuels.
+Nextinotech forme les chefs d'entrepôt et les responsables logistique au Maroc depuis plus de 20 ans. Nos formateurs sont des consultants actifs — ils forment sur ce qu'ils font sur le terrain, pas sur des manuels.
 
 **Ce qui distingue notre approche :**
 - Formateurs avec 15+ ans d'expérience terrain au Maroc
@@ -193,9 +193,9 @@ Essor Consulting forme les chefs d'entrepôt et les responsables logistique au M
 
 Pour les chefs d'entrepôt visant une évolution vers un poste de Responsable Logistique, voir aussi notre programme **[Devenir Responsable Logistique](/formation-rl/)** — 1 journée, 1 500 MAD TTC.
 
-👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
-Contactez-nous pour un programme sur mesure : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
+Contactez-nous pour un programme sur mesure : **contact@nextinotech.com** · **+212 06 63 44 92 00**
 
 ---
 

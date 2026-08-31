@@ -19,7 +19,7 @@ export default function PageHero({
   title,
   titleItalic,
   subtitle,
-  tag = 'ESSOR CONSULTING',
+  tag = 'NEXTINOTECH',
   bg = 'var(--navy)',
   textColor,
   breadcrumb,

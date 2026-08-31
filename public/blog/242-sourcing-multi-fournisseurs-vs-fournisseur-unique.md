@@ -1,7 +1,7 @@
 ---
 title: "Sourcing Multi-Fournisseurs vs Fournisseur Unique : Arbitrer le Risque Achats"
 date: "2026-08-28"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/business.jpg"
 keywords: "diversification fournisseurs risque, single sourcing vs dual sourcing, fournisseur unique risque supply chain, arbitrage sourcing achats"
@@ -32,7 +32,7 @@ Le choix entre fournisseur unique et sourcing multiple doit se décider par cat�
 
 Vous voulez évaluer votre exposition au risque fournisseur unique sur vos catégories stratégiques ? [Découvrez nos formations achats](/formation), ou [contactez-nous](/contact) pour un diagnostic de votre panel fournisseurs.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

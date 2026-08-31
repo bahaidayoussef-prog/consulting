@@ -1,7 +1,7 @@
 ---
 title: "Plan de Continuité d'Activité (PCA) Logistique : se Préparer aux Ruptures"
 date: "2026-08-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/conseil.jpg"
 keywords: "PCA logistique maroc, plan continuité activité supply chain, ISO 22301 logistique"
@@ -36,7 +36,7 @@ Un PCA logistique efficace se construit sur des scénarios concrets et testés, 
 
 Vous voulez formaliser un plan de continuité d'activité pour votre chaîne logistique ? [Découvrez nos services conseil supply chain](/conseil), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

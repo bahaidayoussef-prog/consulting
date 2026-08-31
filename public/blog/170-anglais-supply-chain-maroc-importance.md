@@ -1,7 +1,7 @@
 ﻿---
 title: "L'Anglais en Supply Chain au Maroc : Pourquoi c'est Critique et Comment Progresser"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/office.jpg"
 keywords: "anglais supply chain Maroc, apprendre anglais logistique Maroc, anglais professionnel supply chain, améliorer anglais logisticien Maroc"
 description: "L'anglais est-il vraiment nécessaire en supply chain au Maroc ? Oui, de plus en plus. Voici pourquoi, dans quels contextes, et comment progresser efficacement."
@@ -91,9 +91,9 @@ Le plus difficile mais le plus important. Solutions :
 
 > **L'anglais en supply chain n'est plus un "plus" — c'est une compétence de base pour quiconque veut accéder aux meilleurs postes, aux meilleures certifications, et aux meilleurs employeurs. Chaque mois passé sans progresser en anglais, c'est un mois où votre plafond de carrière se consolide inutilement.**
 
-## Essor Consulting — Formation Anglais Supply Chain
+## Nextinotech — Formation Anglais Supply Chain
 
-Essor Consulting intègre l'anglais professionnel supply chain dans ses programmes de développement des compétences.
+Nextinotech intègre l'anglais professionnel supply chain dans ses programmes de développement des compétences.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

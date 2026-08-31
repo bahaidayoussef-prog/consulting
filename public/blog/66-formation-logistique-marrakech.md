@@ -1,10 +1,10 @@
 ﻿---
 title: "Formation Logistique à Marrakech : Opportunités et Programme 2026"
 date: "2026-07-30"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/hero-supply-chain.jpg"
 keywords: "formation logistique marrakech, supply chain marrakech, formation responsable logistique marrakech, cours logistique marrakech, emploi logistique marrakech"
-description: "Formation en logistique et supply chain pour les professionnels de Marrakech. Secteurs clés, débouchés locaux et programme de formation Essor Consulting."
+description: "Formation en logistique et supply chain pour les professionnels de Marrakech. Secteurs clés, débouchés locaux et programme de formation Nextinotech."
 ---
 
 # Formation Logistique à Marrakech : Opportunités et Programme 2026
@@ -15,7 +15,7 @@ Pour les professionnels de la logistique à Marrakech, les opportunités sont r�
 
 ![Supply chain Marrakech — chaîne logistique tourisme, BTP et agroalimentaire](/images/hero-supply-chain.jpg)
 
-> **Essor Consulting se déplace à Marrakech pour des formations intra-entreprise.** Si votre équipe compte 3 professionnels ou plus, nous organisons une session sur site.
+> **Nextinotech se déplace à Marrakech pour des formations intra-entreprise.** Si votre équipe compte 3 professionnels ou plus, nous organisons une session sur site.
 
 ---
 
@@ -87,7 +87,7 @@ Les universités et écoles de commerce de Marrakech (Université Cadi Ayyad, IS
 
 Casablanca est à 2h30 de Marrakech (autoroute ou train). Pour une formation de 1 à 2 jours, le déplacement est pleinement justifié par la qualité de l'offre disponible.
 
-La **formation Responsable Logistique** d'Essor Consulting à Casablanca accueille régulièrement des professionnels de Marrakech, Agadir et des autres villes du Maroc.
+La **formation Responsable Logistique** de Nextinotech à Casablanca accueille régulièrement des professionnels de Marrakech, Agadir et des autres villes du Maroc.
 
 **Ce que nos participants de Marrakech en disent :**
 > "J'ai enfin compris comment calculer mon stock de sécurité et mon point de commande. J'applique ça depuis 10 ans à l'instinct." — Responsable Entrepôt, entreprise agroalimentaire Marrakech
@@ -100,7 +100,7 @@ Certains modules peuvent être suivis en ligne (vidéos, webinaires). Mais pour 
 
 ### Option 4 : Formation en entreprise (intra)
 
-Si vous gérez une équipe de 3 personnes ou plus, Essor Consulting peut organiser une formation directement dans votre entreprise à Marrakech. Avantages : contenu 100% adapté à votre contexte, pas de déplacement.
+Si vous gérez une équipe de 3 personnes ou plus, Nextinotech peut organiser une formation directement dans votre entreprise à Marrakech. Avantages : contenu 100% adapté à votre contexte, pas de déplacement.
 
 ---
 
@@ -148,10 +148,10 @@ Pour y répondre, les entreprises de Marrakech doivent monter en gamme leur fonc
 
 Marrakech offre de vraies opportunités pour les professionnels logistiques qui investissent dans leur formation. La combinaison secteur agroalimentaire + tourisme + grande distribution crée une demande diversifiée et stable.
 
-**Essor Consulting forme les professionnels logistiques de toutes les régions du Maroc**, avec des sessions régulières à Casablanca et la possibilité d'organisations en intra-entreprise à Marrakech.
+**Nextinotech forme les professionnels logistiques de toutes les régions du Maroc**, avec des sessions régulières à Casablanca et la possibilité d'organisations en intra-entreprise à Marrakech.
 
 Notre programme phare, ouvert aux participants de toutes les régions, reste **[Devenir Responsable Logistique](/formation-rl/)** — 1 journée, 1 500 MAD TTC, sessions mensuelles à Casablanca.
 
-👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
 Contactez-nous pour réserver votre place ou organiser une formation sur mesure pour votre équipe.

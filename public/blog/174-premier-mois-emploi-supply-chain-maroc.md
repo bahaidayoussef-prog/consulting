@@ -1,7 +1,7 @@
 ﻿---
 title: "Réussir son Premier Mois dans un Emploi Supply Chain au Maroc"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/formation.jpg"
 keywords: "réussir premier mois emploi supply chain Maroc, intégration nouvel emploi logistique, premiers jours supply chain Maroc, onboarding supply chain"
 description: "Comment réussir son intégration lors du premier mois dans un emploi supply chain au Maroc ? Les actions clés, les erreurs à éviter, et comment créer rapidement une bonne impression."
@@ -96,9 +96,9 @@ La SC est transversale — votre réseau interne est aussi important que vos com
 
 > **Le premier mois, ce n'est pas le moment de briller. C'est le moment de vous installer solidement. Un logisticien fiable, curieux, et humble pendant 30 jours crée plus de valeur qu'un logisticien brillant mais arrogant. Votre moment de briller viendra — d'abord, installez-vous bien.**
 
-## Essor Consulting — Coaching Intégration
+## Nextinotech — Coaching Intégration
 
-Essor Consulting propose un coaching d'intégration pour les professionnels SC qui prennent un nouveau poste.
+Nextinotech propose un coaching d'intégration pour les professionnels SC qui prennent un nouveau poste.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

@@ -1,7 +1,7 @@
 ﻿---
 title: "Entrepôt Frigorifique au Maroc : Concevoir et Gérer la Logistique du Froid 2026"
 date: "2026-08-04"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/conseil.jpg"
 keywords: "entrepôt frigorifique maroc, logistique du froid maroc, chambre froide entrepôt maroc, cold chain maroc, logistique agroalimentaire froid maroc"
 description: "Entrepôt frigorifique au Maroc : conception, réglementation, gestion opérationnelle et coûts. Guide complet pour la logistique du froid dans les secteurs agroalimentaire et pharmaceutique."
@@ -162,9 +162,9 @@ Les médicaments et vaccins doivent être stockés selon les Bonnes Pratiques de
 
 ---
 
-## Audit et Conception de Logistique Frigorifique avec Essor Consulting
+## Audit et Conception de Logistique Frigorifique avec Nextinotech
 
-Essor Consulting accompagne les projets de logistique frigorifique au Maroc dans les secteurs agroalimentaire, pharmaceutique et de la grande distribution :
+Nextinotech accompagne les projets de logistique frigorifique au Maroc dans les secteurs agroalimentaire, pharmaceutique et de la grande distribution :
 
 - **Audit de conformité** : évaluation de l'entrepôt frigorifique existant par rapport aux normes ONSSA et BPD
 - **Conception et spécifications techniques** : dimensionnement, équipements, monitoring
@@ -172,7 +172,7 @@ Essor Consulting accompagne les projets de logistique frigorifique au Maroc dans
 - **Mise en place de la traçabilité** par lot et par date
 - **Formation des équipes** : hygiène alimentaire, procédures froid, HACCP de base
 
-Contactez-nous pour votre projet : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
+Contactez-nous pour votre projet : **contact@nextinotech.com** · **+212 06 63 44 92 00**
 
 ---
 

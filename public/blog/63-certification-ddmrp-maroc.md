@@ -1,7 +1,7 @@
 ---
 title: "Formation DDMRP au Maroc : Certification Practitioner et Résultats Terrain"
 date: "2026-08-10"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/charts.jpg"
 keywords: "certification ddmrp maroc, formation ddmrp maroc, formation ddmrp casablanca, demand driven mrp maroc, ddmrp practitioner maroc, planification supply chain maroc"
 description: "Guide complet formation et certification DDMRP au Maroc : qu'est-ce que le Demand Driven MRP, programme de formation 2 jours, comment se certifier Practitioner, résultats terrain."
@@ -11,11 +11,11 @@ description: "Guide complet formation et certification DDMRP au Maroc : qu'est-c
 
 Le DDMRP (Demand Driven Material Requirements Planning) est la méthode de planification supply chain qui révolutionne les chaînes d'approvisionnement mondiales depuis 2011. Au Maroc, elle reste encore largement méconnue — pourtant, les entreprises qui l'ont adoptée rapportent des résultats spectaculaires : réduction des stocks de 20 à 45%, amélioration du taux de service de 8 à 20 points, ruptures en baisse de 40 à 65%.
 
-Essor Consulting est l'un des rares cabinets certifiés DDMRP en Afrique francophone. Voici tout ce que vous devez savoir.
+Nextinotech est l'un des rares cabinets certifiés DDMRP en Afrique francophone. Voici tout ce que vous devez savoir.
 
 ![Planification supply chain avancée — DDMRP et buffers dynamiques](/images/charts.jpg)
 
-::stat:: −30% — réduction moyenne des stocks après déploiement DDMRP (benchmark Essor Consulting, 20+ déploiements)
+::stat:: −30% — réduction moyenne des stocks après déploiement DDMRP (benchmark Nextinotech, 20+ déploiements)
 
 ---
 
@@ -60,7 +60,7 @@ Ces buffers sont visualisés en zones rouge/jaune/vert que les planificateurs g�
 
 ## Les Résultats Observés dans les Entreprises Marocaines
 
-Sur les missions DDMRP qu'Essor Consulting a conduites au Maroc et en Europe, voici les résultats typiques observés après 6 à 12 mois de déploiement :
+Sur les missions DDMRP que Nextinotech a conduites au Maroc et en Europe, voici les résultats typiques observés après 6 à 12 mois de déploiement :
 
 | Indicateur | Avant DDMRP | Après DDMRP | Amélioration |
 |-----------|-------------|-------------|-------------|
@@ -129,7 +129,7 @@ La certification officielle **DDMRP Practitioner (DDPP)** est délivrée par le 
 
 **Valeur marché au Maroc :** croissante, notamment dans l'automobile, l'agroalimentaire et la distribution.
 
-Essor Consulting est partenaire certifié du Demand Driven Institute pour la région Afrique francophone.
+Nextinotech est partenaire certifié du Demand Driven Institute pour la région Afrique francophone.
 
 ---
 
@@ -152,7 +152,7 @@ Essor Consulting est partenaire certifié du Demand Driven Institute pour la ré
 - **Microsoft Dynamics 365** : compatible via configuration avancée
 - **DDSOL** : outil dédié DDMRP du Demand Driven Institute
 
-Pour les entreprises sans ERP compatible, Essor Consulting propose une approche tableur structurée qui permet de démarrer le DDMRP avant la mise en place d'un ERP dédié.
+Pour les entreprises sans ERP compatible, Nextinotech propose une approche tableur structurée qui permet de démarrer le DDMRP avant la mise en place d'un ERP dédié.
 
 ---
 
@@ -160,6 +160,6 @@ Pour les entreprises sans ERP compatible, Essor Consulting propose une approche 
 
 Le DDMRP n'est pas une mode. C'est une réponse concrète aux limitations du MRP dans un monde volatil, incertain et complexe. Les entreprises marocaines qui l'adoptent gagnent un avantage compétitif réel : moins de capital immobilisé, plus de clients servis, moins de stress pour les équipes.
 
-👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
-**Essor Consulting est certifié DDMRP et accompagne les entreprises marocaines dans leur transition depuis 2015.** Contactez-nous pour un diagnostic de votre situation et une proposition personnalisée : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
+**Nextinotech est certifié DDMRP et accompagne les entreprises marocaines dans leur transition depuis 2015.** Contactez-nous pour un diagnostic de votre situation et une proposition personnalisée : **contact@nextinotech.com** · **+212 06 63 44 92 00**

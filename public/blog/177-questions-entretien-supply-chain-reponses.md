@@ -1,7 +1,7 @@
 ﻿---
 title: "50 Questions d'Entretien Supply Chain et leurs Meilleures Réponses"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/conseil.jpg"
 keywords: "questions entretien supply chain Maroc, réponses entretien logistique, questions recrutement supply chain, entretien responsable supply chain Maroc"
 description: "Les 50 questions les plus fréquentes en entretien supply chain au Maroc, avec les réponses structurées pour vous distinguer."
@@ -117,9 +117,9 @@ Légalement, vous n'êtes pas obligé de répondre. Mais si vous le faites : don
 
 > **La préparation, c'est 80% de la réussite en entretien supply chain. Les candidats qui connaissent ces questions et y réfléchissent avant l'entretien arrivent avec une assurance et une précision qui font la différence.**
 
-## Essor Consulting — Simulation d'Entretien
+## Nextinotech — Simulation d'Entretien
 
-Essor Consulting propose des simulations d'entretien supply chain avec feedback détaillé.
+Nextinotech propose des simulations d'entretien supply chain avec feedback détaillé.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

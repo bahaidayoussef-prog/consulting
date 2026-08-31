@@ -1,12 +1,12 @@
 ---
 title: "Pouvez-vous Garantir ROI ?"
 date: "2026-08-19"
-author: "Essor Consulting"
+author: "Nextinotech"
 type: "mini-article"
 schema: "FAQPage"
 quickAnswer: "Non, aucune garantie de ROI n'est promise avant diagnostic — c'est un choix délibéré. Ce que nous engageons, ce sont des résultats chiffrés une fois le diagnostic réalisé : par exemple 3 à 11% d'économies achats déjà mesurées, jamais promises à l'avance."
 keywords: "garantie ROI consulting, ROI consultant supply chain, résultats chiffrés conseil Maroc"
-description: "Essor Consulting garantit-il un ROI ? Non, et voici pourquoi c'est un choix assumé — résultats chiffrés après diagnostic, jamais promis avant."
+description: "Nextinotech garantit-il un ROI ? Non, et voici pourquoi c'est un choix assumé — résultats chiffrés après diagnostic, jamais promis avant."
 ---
 
 # Pouvez-vous Garantir ROI ?
@@ -33,7 +33,7 @@ La garantie de ROI a priori est un argument commercial, pas une pratique de cons
 
 **Notre approche.** Diagnostic Express d'abord, pour mesurer l'écart réel et chiffrer les leviers — puis un engagement de résultat basé sur ce que le diagnostic a réellement montré.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

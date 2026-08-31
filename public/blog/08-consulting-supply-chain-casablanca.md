@@ -1,7 +1,7 @@
 ﻿---
 title: "Conseil Supply Chain à Casablanca — Expert Logistique Maroc"
 date: "2026-06-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/conseil.jpg"
 keywords: "consultant supply chain Casablanca, conseil logistique Maroc, audit supply chain Casablanca, optimisation chaîne approvisionnement Casa"
 description: "Expert supply chain basé à Casablanca. 18 ans expérience, 110+ missions. Audit, formation, digitalisation WMS/TMS. PME/ME/GE tous secteurs."
@@ -16,7 +16,7 @@ Casablanca, Maroc · 18 ans expérience · 110+ missions réussies
 
 ---
 
-## Pourquoi Essor Consulting à Casablanca?
+## Pourquoi Nextinotech à Casablanca?
 
 **Expert sur terrain :** Basé à Casablanca, je comprends les défis supply chain marocains :
 - Sourcing fournisseurs régionaux + imports Asie
@@ -134,7 +134,7 @@ Casablanca, Maroc · 18 ans expérience · 110+ missions réussies
 
 ## Contact Casablanca
 
-📧 **Email :** essor.consulting.maroc@gmail.com  
+📧 **Email :** contact@nextinotech.com  
 📞 **Téléphone :** +212 663 449 200  
 📍 **Location :** Bouskoura, Casablanca
 
@@ -142,7 +142,7 @@ Casablanca, Maroc · 18 ans expérience · 110+ missions réussies
 
 ---
 
-**Essor Consulting**  
+**Nextinotech**  
 Directeur des Achats | Expert Supply Chain & Transformation Digitale  
-Essor Consulting — Casablanca, Maroc
+Nextinotech — Casablanca, Maroc
 

@@ -1,7 +1,7 @@
 ﻿---
 title: "Emploi Logistique à Casablanca en 2026 : Où Chercher et Comment Décrocher"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/hero-supply-chain.jpg"
 keywords: "emploi logistique Casablanca, offres emploi supply chain Casablanca, recrutement logistique Casablanca 2026, travail logisticien Casablanca"
 description: "Trouver un emploi en logistique à Casablanca en 2026 : zones industrielles, entreprises qui recrutent, sites d'offres, et stratégie pour décrocher un poste rapidement."
@@ -80,9 +80,9 @@ Le candidat qui envoie 5 candidatures génériques par mois cherche un emploi. C
 
 > **À Casablanca, les postes supply chain se pourvoient souvent en moins de 30 jours. Un bon profil qui cherche activement trouve en 30 à 90 jours. Un profil passif peut chercher 12 mois sans résultat.**
 
-## Essor Consulting — Accompagnement Recherche d'Emploi
+## Nextinotech — Accompagnement Recherche d'Emploi
 
-Essor Consulting accompagne les professionnels supply chain dans leur recherche d'emploi à Casablanca et partout au Maroc : coaching CV, préparation entretien, activation réseau.
+Nextinotech accompagne les professionnels supply chain dans leur recherche d'emploi à Casablanca et partout au Maroc : coaching CV, préparation entretien, activation réseau.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

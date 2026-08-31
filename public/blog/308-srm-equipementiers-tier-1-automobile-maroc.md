@@ -1,7 +1,7 @@
 ---
 title: "SRM Fournisseurs Stratégiques : Gérer la Relation avec les Équipementiers Tier 1 Automobile"
 date: "2026-08-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/conseil.jpg"
 keywords: "gestion relation fournisseurs automobile maroc, SRM Tier 1 automobile, équipementiers Renault Stellantis Maroc"
@@ -36,7 +36,7 @@ L'écosystème automobile marocain, avec ses 18 équipementiers Tier 1 et son vo
 
 Vous êtes un équipementier automobile marocain et voulez structurer votre relation avec vos donneurs d'ordre Tier 1 ? [Découvrez nos services conseil supply chain](/conseil), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

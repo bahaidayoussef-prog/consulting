@@ -1,7 +1,7 @@
 ---
 title: "Automatisation des Achats par l'IA : du Bon de Commande au Paiement sans Intervention"
 date: "2026-08-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/business.jpg"
 keywords: "automatisation achats IA, procure to pay automatisation, P2P automatisation maroc, IA achats"
@@ -36,7 +36,7 @@ L'automatisation P2P enrichie d'IA libère du temps sur les tâches répétitive
 
 Vous voulez identifier la première étape de votre cycle achats à automatiser ? [Découvrez nos formations achats](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

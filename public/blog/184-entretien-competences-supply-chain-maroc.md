@@ -1,7 +1,7 @@
 ﻿---
 title: "L'Entretien par Compétences en Supply Chain : Comment le Réussir"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/conseil.jpg"
 keywords: "entretien compétences supply chain Maroc, entretien structuré logistique, évaluation compétences supply chain entretien, grille compétences logistique recrutement"
 description: "Comment fonctionne l'entretien par compétences en supply chain au Maroc et comment s'y préparer pour maximiser ses chances."
@@ -105,9 +105,9 @@ Il n'y a pas de réponse universellement bonne en entretien par compétences. Le
 
 > **L'entretien par compétences récompense la préparation et la réflexivité. Ceux qui ont bien documenté leurs expériences passées, qui connaissent leur propre parcours avec précision, et qui peuvent l'exprimer clairement sont favorisés. C'est exactement pour cela que construire son portfolio professionnel en temps réel est si précieux.**
 
-## Essor Consulting — Préparation Entretien Structuré
+## Nextinotech — Préparation Entretien Structuré
 
-Essor Consulting prépare les professionnels SC aux entretiens par compétences avec des simulations adaptées aux processus des grandes entreprises.
+Nextinotech prépare les professionnels SC aux entretiens par compétences avec des simulations adaptées aux processus des grandes entreprises.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

@@ -1,7 +1,7 @@
 ﻿---
 title: "Entretien pour un Poste de Supply Chain Manager au Maroc : Ce qu'on Attend"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/business.jpg"
 keywords: "entretien supply chain manager Maroc, recrutement SCM Maroc, poste supply chain manager entretien, responsable supply chain entretien Maroc"
 description: "Ce que les recruteurs attendent d'un candidat Supply Chain Manager au Maroc lors de l'entretien : compétences, posture, questions types et erreurs à éviter."
@@ -99,9 +99,9 @@ Réponse technique attendue : amélioration des prévisions, réduction de la va
 
 > **Le Supply Chain Manager idéal au Maroc en 2026 est quelqu'un qui peut passer de l'analyse d'un écart de stock à une présentation CODIR en moins d'une heure — et qui le fait naturellement. Il a des convictions basées sur des données, il développe son équipe, et il pense à l'impact financier de chaque décision logistique.**
 
-## Essor Consulting — Coaching SCM
+## Nextinotech — Coaching SCM
 
-Essor Consulting accompagne les professionnels SC qui visent ou qui occupent le poste de Supply Chain Manager : préparation entretien, développement des compétences, coaching.
+Nextinotech accompagne les professionnels SC qui visent ou qui occupent le poste de Supply Chain Manager : préparation entretien, développement des compétences, coaching.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

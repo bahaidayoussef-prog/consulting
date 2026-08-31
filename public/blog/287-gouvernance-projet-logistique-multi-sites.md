@@ -1,7 +1,7 @@
 ---
 title: "Gouvernance de Projet Logistique Multi-Sites : Coordonner sans Tout Centraliser"
 date: "2026-08-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/conseil.jpg"
 keywords: "gouvernance projet logistique multi-sites, coordination multi-sites maroc, centralisation décentralisation logistique"
@@ -36,7 +36,7 @@ La gouvernance d'un projet logistique multi-sites réussit par un équilibre ent
 
 Vous coordonnez un réseau logistique multi-sites et voulez structurer votre gouvernance ? [Découvrez nos formations et notre accompagnement conseil](/formation), ou [contactez-nous](/contact) pour en discuter.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

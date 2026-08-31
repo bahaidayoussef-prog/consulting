@@ -1,7 +1,7 @@
 ﻿---
 title: "Formation WMS au Maroc : Choisir, Déployer et Maîtriser son Système"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/analytics.jpg"
 keywords: "formation WMS Maroc, déploiement WMS Maroc, Warehouse Management System formation, formation logiciel entrepôt Maroc"
 description: "Formation WMS au Maroc : comment choisir son logiciel entrepôt, le déployer sans erreur et former ses équipes. Guide pratique par un expert ayant déployé 10+ WMS."
@@ -77,11 +77,11 @@ Formation des formateurs internes, conduite du changement, KPIs WMS, optimisatio
 
 > **Le meilleur WMS est celui que vos équipes utilisent vraiment — pas celui qui a la meilleure démo. L'adoption dépend à 70% de la formation et à 30% du logiciel.**
 
-## Essor Consulting — Accompagnement WMS
+## Nextinotech — Accompagnement WMS
 
-Essor Consulting accompagne les projets WMS de A à Z : aide à la sélection, formation des équipes, et optimisation post-déploiement. 10+ projets WMS menés au Maroc.
+Nextinotech accompagne les projets WMS de A à Z : aide à la sélection, formation des équipes, et optimisation post-déploiement. 10+ projets WMS menés au Maroc.
 
-👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

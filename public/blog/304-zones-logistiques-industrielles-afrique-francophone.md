@@ -1,7 +1,7 @@
 ---
 title: "Zones Logistiques Industrielles d'Afrique Francophone : Comparatif des Hubs Émergents"
 date: "2026-08-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/construction.jpg"
 keywords: "zones logistiques afrique francophone, zones industrielles Bénin Togo Gabon, Arise IIP zones économiques"
@@ -36,7 +36,7 @@ Les zones industrielles francophones émergentes (Bénin, Togo, Gabon, Rwanda) o
 
 Vous envisagez une implantation logistique ou industrielle en Afrique francophone ? [Découvrez nos services conseil supply chain](/conseil), ou [contactez-nous](/contact) pour en discuter.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

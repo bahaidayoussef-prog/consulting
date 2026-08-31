@@ -1,7 +1,7 @@
 ---
 title: "Grille Salariale Logistique et Supply Chain Maroc 2026 : Benchmark Employeur"
 date: "2026-08-19"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/business.jpg"
 keywords: "grille salariale logistique maroc 2026, salaire supply chain maroc employeur, coût recrutement logistique maroc, charges patronales maroc"
@@ -48,7 +48,7 @@ Une grille salariale n'est utile à un employeur que si elle intègre le coût r
 
 Vous voulez benchmarker vos postes supply chain ou logistique face au marché réel ? [Découvrez nos formations](/formation) en management et pilotage d'équipes, ou [contactez-nous](/contact) pour un premier échange gratuit. Plutôt que de recruter au prix fort, faire monter en compétences un collaborateur en place via notre programme **[Devenir Responsable Logistique](/formation-rl/)** (1 journée, 1 500 MAD TTC/participant, dès 5 participants en intra-entreprise) est souvent l'option la plus rentable.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

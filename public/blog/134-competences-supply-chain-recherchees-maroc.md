@@ -1,7 +1,7 @@
 ﻿---
 title: "Compétences Supply Chain les Plus Recherchées au Maroc en 2026"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/analytics.jpg"
 keywords: "compétences supply chain Maroc, compétences logistique recherchées, hard skills supply chain Maroc, soft skills logisticien Maroc 2026"
 description: "Quelles compétences supply chain les recruteurs marocains cherchent le plus en 2026 ? Hard skills techniques, soft skills et compétences digitales — le classement complet."
@@ -95,9 +95,9 @@ Ces compétences créent une différenciation forte en 2026 :
 
 > **La compétence la plus difficile à recruter au Maroc en 2026 est la maîtrise combinée de DDMRP et Power BI. Les profils qui la possèdent sont rares — et très bien payés.**
 
-## Essor Consulting — Formation sur Mesure selon vos Lacunes
+## Nextinotech — Formation sur Mesure selon vos Lacunes
 
-Essor Consulting propose un bilan de compétences supply chain suivi d'un parcours de formation personnalisé sur les compétences manquantes.
+Nextinotech propose un bilan de compétences supply chain suivi d'un parcours de formation personnalisé sur les compétences manquantes.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

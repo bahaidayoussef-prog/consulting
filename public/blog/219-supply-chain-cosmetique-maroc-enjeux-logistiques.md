@@ -1,7 +1,7 @@
 ---
 title: "Supply Chain Cosmétique au Maroc : les Enjeux Logistiques du Secteur Beauté"
 date: "2026-08-22"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/hero-warehouse.jpg"
 keywords: "supply chain cosmétique maroc, industrie cosmétique maroc logistique, distribution cosmétique maroc, filière chimie parachimie maroc"
@@ -36,7 +36,7 @@ La filière cosmétique et parachimie marocaine grandit vite — 2 000 entrepris
 
 Vous distribuez ou fabriquez des produits cosmétiques au Maroc et votre logistique peine à suivre la variété de vos références ? [Découvrez nos formations](/formation), ou [contactez-nous](/contact) pour un diagnostic de votre chaîne de distribution.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

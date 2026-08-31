@@ -1,7 +1,7 @@
 ---
 title: "Cybersécurité de la Supply Chain : le Maillon Faible que les Entreprises Marocaines Négligent"
 date: "2026-08-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/analytics.jpg"
 keywords: "cybersécurité supply chain maroc, cyberattaque fournisseur, risque tiers numérique, sécurité chaîne approvisionnement"
@@ -36,7 +36,7 @@ La cybersécurité de la supply chain se joue autant chez les fournisseurs que d
 
 Vous voulez cartographier vos accès numériques fournisseurs et évaluer votre exposition au risque tiers ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

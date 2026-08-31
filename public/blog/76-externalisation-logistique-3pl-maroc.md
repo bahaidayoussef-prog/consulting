@@ -1,7 +1,7 @@
 ﻿---
 title: "Externalisation Logistique au Maroc : Quand et Comment Choisir un 3PL 2026"
 date: "2026-08-04"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/hero-warehouse.jpg"
 keywords: "externalisation logistique maroc, 3PL maroc, prestataire logistique maroc, outsourcing logistique maroc, choisir 3PL maroc"
 description: "Externaliser sa logistique au Maroc : avantages, risques, critères de sélection d'un 3PL et cahier des charges. Retour terrain sur 20+ dossiers d'externalisation au Maroc."
@@ -158,13 +158,13 @@ Après 3 ans, changer de 3PL est une opération complexe : déménagement des st
 **Risque #3 — Dilution de la culture service client**
 Les opérateurs d'un 3PL ne sont pas vos employés. Ils gèrent plusieurs clients en parallèle. La qualité de service peut dériver si le contrat SLA n'est pas suivi rigoureusement.
 
-::stat:: 23% — économie moyenne réalisée sur le coût logistique total lors d'une externalisation 3PL bien menée vs logistique interne non optimisée (données Essor Consulting)
+::stat:: 23% — économie moyenne réalisée sur le coût logistique total lors d'une externalisation 3PL bien menée vs logistique interne non optimisée (données Nextinotech)
 
 ---
 
-## Accompagnement Externalisation avec Essor Consulting
+## Accompagnement Externalisation avec Nextinotech
 
-Essor Consulting accompagne les entreprises marocaines dans leurs projets d'externalisation logistique, de façon totalement indépendante des prestataires 3PL :
+Nextinotech accompagne les entreprises marocaines dans leurs projets d'externalisation logistique, de façon totalement indépendante des prestataires 3PL :
 
 - **Décision d'externaliser** : analyse comparative faire vs faire faire
 - **Rédaction du cahier des charges** 3PL adapté à votre contexte
@@ -172,7 +172,7 @@ Essor Consulting accompagne les entreprises marocaines dans leurs projets d'exte
 - **Négociation contractuelle** : SLA, tarifs, conditions de sortie
 - **Pilotage de la transition** : de votre logistique interne vers le 3PL
 
-Contactez-nous pour un premier diagnostic : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
+Contactez-nous pour un premier diagnostic : **contact@nextinotech.com** · **+212 06 63 44 92 00**
 
 ---
 

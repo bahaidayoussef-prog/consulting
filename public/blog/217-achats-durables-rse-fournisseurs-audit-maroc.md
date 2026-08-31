@@ -1,7 +1,7 @@
 ---
 title: "Achats Durables et RSE Fournisseurs : la Grille d'Audit pour PME Marocaines"
 date: "2026-08-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/conseil.jpg"
 keywords: "achats responsables maroc, audit rse fournisseurs, grille audit fournisseurs pme, csrd fournisseurs maroc, ecovadis maroc"
@@ -52,7 +52,7 @@ La pression RSE sur les fournisseurs marocains est réelle et documentée, port�
 
 Vous êtes fournisseur d'un groupe international et vous devez répondre à un questionnaire RSE ou CSRD ? [Découvrez nos formations achats et supply chain](/formation), ou [contactez-nous](/contact) pour construire votre grille d'audit interne.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

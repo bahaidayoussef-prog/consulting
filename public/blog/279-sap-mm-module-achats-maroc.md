@@ -1,7 +1,7 @@
 ---
 title: "Module SAP MM pour les Achats : ce qu'il Faut Savoir avant de se Lancer"
 date: "2026-08-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/business.jpg"
 keywords: "SAP MM achats maroc, module SAP materials management, SAP achats guide maroc"
@@ -36,7 +36,7 @@ SAP MM structure et rend traçable le cycle achats complet, mais son apport dép
 
 Vous envisagez un déploiement SAP MM et voulez évaluer votre préparation ? [Découvrez nos formations achats](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

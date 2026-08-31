@@ -1,7 +1,7 @@
 ﻿---
 title: "Digitalisation de la Supply Chain au Maroc : IoT, IA et Outils Concrets 2026"
 date: "2026-08-04"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/analytics.jpg"
 keywords: "digitalisation supply chain maroc, transformation digitale logistique maroc, iot logistique maroc, intelligence artificielle supply chain maroc, erp logistique maroc"
 description: "Digitalisation de la supply chain au Maroc : ERP, WMS, TMS, IoT, IA — quels outils pour quels enjeux, comment prioriser et éviter les pièges. Guide opérationnel 2026."
@@ -120,7 +120,7 @@ Avant d'investir, il est essentiel de comprendre à quel niveau de maturité vou
 - Visibilité temps réel pour les clients (notifications de livraison)
 - Preuve de livraison numérique (fin des litiges papier)
 
-::stat:: 18% — réduction du coût kilométrique transport obtenue en moyenne lors du déploiement d'un TMS dans des PME marocaines de distribution (données Essor Consulting 2024)
+::stat:: 18% — réduction du coût kilométrique transport obtenue en moyenne lors du déploiement d'un TMS dans des PME marocaines de distribution (données Nextinotech 2024)
 
 ### IoT (Internet of Things) dans la Supply Chain
 
@@ -209,9 +209,9 @@ Un ERP paramétré avec des articles en double, des unités de mesure incohéren
 
 ---
 
-## Accompagnement Digital Supply Chain avec Essor Consulting
+## Accompagnement Digital Supply Chain avec Nextinotech
 
-Essor Consulting accompagne les entreprises marocaines dans leur transformation digitale supply chain :
+Nextinotech accompagne les entreprises marocaines dans leur transformation digitale supply chain :
 
 - **Évaluation de la maturité digitale** : où en êtes-vous, où devriez-vous être
 - **Feuille de route digitale** : quoi faire, dans quel ordre, avec quel budget
@@ -220,7 +220,7 @@ Essor Consulting accompagne les entreprises marocaines dans leur transformation 
 - **Formation des équipes** : adoption des outils, pilotage par les KPIs
 - **Optimisation post-implémentation** : paramétrage fin, correction des écarts
 
-Contactez-nous : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
+Contactez-nous : **contact@nextinotech.com** · **+212 06 63 44 92 00**
 
 ---
 

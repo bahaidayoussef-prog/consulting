@@ -1,7 +1,7 @@
 ﻿---
 title: "Les Références Professionnelles en Entretien Supply Chain au Maroc"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/conseil.jpg"
 keywords: "références professionnelles supply chain Maroc, background check logistique Maroc, lettres de recommandation SC Maroc, vérification références emploi Maroc"
 description: "Comment gérer les références professionnelles dans votre recherche d'emploi supply chain au Maroc ? Qui choisir, comment les préparer, et comment les recruteurs font leur vérification."
@@ -103,9 +103,9 @@ En supply chain au Maroc, les lettres de recommandation écrites sont moins cour
 
 > **Vos références sont votre bouche-à-oreille professionnel mis en forme. Construire des relations professionnelles positives tout au long de votre carrière, c'est aussi investir dans les références qui soutiendront vos candidatures futures. En supply chain, le réseau a une mémoire longue.**
 
-## Essor Consulting — Accompagnement Candidature Complète
+## Nextinotech — Accompagnement Candidature Complète
 
-Essor Consulting aide les candidats supply chain à préparer l'ensemble de leur dossier de candidature : CV, LinkedIn, préparation entretien, et stratégie de références professionnelles.
+Nextinotech aide les candidats supply chain à préparer l'ensemble de leur dossier de candidature : CV, LinkedIn, préparation entretien, et stratégie de références professionnelles.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

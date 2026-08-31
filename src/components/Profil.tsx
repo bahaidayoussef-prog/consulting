@@ -136,7 +136,7 @@ export default function Profil() {
               textTransform: 'uppercase',
               marginBottom: '1rem',
             }}>
-              Fondateur & Directeur — Essor Consulting
+              Fondateur & Directeur — Nextinotech
             </div>
 
             <h2 style={{
@@ -148,7 +148,7 @@ export default function Profil() {
               color: 'var(--paper)',
               margin: '0 0 1rem 0',
             }}>
-              Essor<span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>.</span>
+              Nextinotech<span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>.</span>
             </h2>
 
             <p style={{
@@ -390,7 +390,7 @@ export default function Profil() {
               Prendre contact avec nous →
             </a>
             <a
-              href="mailto:essor.consulting.maroc@gmail.com"
+              href="mailto:contact@nextinotech.com"
               style={{
                 fontFamily: 'DM Mono, monospace',
                 fontSize: '0.7rem',
@@ -405,7 +405,7 @@ export default function Profil() {
                 minWidth: 0,
               }}
             >
-              essor.consulting.maroc@gmail.com
+              contact@nextinotech.com
             </a>
           </motion.div>
         </div>

@@ -1,7 +1,7 @@
 ﻿---
 title: "Formation WMS et TMS au Maroc : Maîtriser les Outils Logistiques Digitaux 2026"
 date: "2026-07-28"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/analytics.jpg"
 keywords: "formation wms maroc, formation tms maroc, formation warehouse management system, formation sap wm maroc, logiciel logistique maroc formation"
 description: "Tout sur les formations WMS (Warehouse Management System) et TMS (Transport Management System) au Maroc : quels outils apprendre, pourquoi et comment se former."
@@ -130,7 +130,7 @@ Inconvénients : coûteux (2 000 à 10 000 MAD/module), très théorique, peu de
 
 Se former avec un consultant qui utilise le WMS en mission réelle. Cette approche donne du contexte, des astuces terrain, des cas d'usage réels.
 
-**C'est l'approche Essor Consulting.** Nos formateurs ont déployé SAP WM/EWM et Odoo dans des dizaines d'entreprises marocaines. Ils forment sur des cas réels, pas sur des exercices académiques.
+**C'est l'approche Nextinotech.** Nos formateurs ont déployé SAP WM/EWM et Odoo dans des dizaines d'entreprises marocaines. Ils forment sur des cas réels, pas sur des exercices académiques.
 
 ### Approche 3 : Auto-formation
 
@@ -169,7 +169,7 @@ Une bonne formation WMS practitioner (non spécifique à un logiciel) doit vous 
 
 ---
 
-## Formation Disponible chez Essor Consulting
+## Formation Disponible chez Nextinotech
 
 Dans notre programme **Responsable Logistique**, nous couvrons :
 - Les fondamentaux WMS (sans outil spécifique, applicable à tout système)
@@ -199,6 +199,6 @@ Pour une entreprise qui déploie un WMS :
 
 Les WMS et TMS ne sont plus réservés aux grandes entreprises. Les solutions cloud et open source ont démocratisé l'accès pour les PME marocaines. Se former sur ces outils est donc devenu une nécessité pour tout professionnel logistique qui veut rester employable et progresser dans sa carrière.
 
-👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
-**Essor Consulting forme et accompagne les équipes logistiques marocaines sur les WMS depuis plus de 15 ans.** Contactez-nous pour un programme adapté à votre contexte.
+**Nextinotech forme et accompagne les équipes logistiques marocaines sur les WMS depuis plus de 15 ans.** Contactez-nous pour un programme adapté à votre contexte.

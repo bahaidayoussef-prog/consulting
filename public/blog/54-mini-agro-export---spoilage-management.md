@@ -1,7 +1,7 @@
 ---
 title: "Supply Chain Agro-Export au Maroc : la chaîne du froid, facteur de compétitivité"
 date: "2026-08-19"
-author: "Essor Consulting"
+author: "Nextinotech"
 type: "mini-article"
 schema: "Article"
 keywords: "supply chain agro-export Maroc, chaîne du froid Agadir, export agrumes Maroc, logistique agroalimentaire"
@@ -36,7 +36,7 @@ L'agro-export marocain vit une phase d'expansion portée par la demande europée
 
 Vous pilotez une chaîne logistique périssable ou sous température dirigée ? Parlons-en.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

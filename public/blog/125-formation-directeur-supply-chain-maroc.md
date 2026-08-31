@@ -1,7 +1,7 @@
 ﻿---
 title: "Formation Directeur Supply Chain au Maroc : Du Manager au Leader"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/conseil.jpg"
 keywords: "formation directeur supply chain Maroc, directeur supply chain formation, DSC Maroc formation, leadership supply chain Maroc"
 description: "Formation Directeur Supply Chain au Maroc : comment passer du management opérationnel au leadership stratégique. Compétences, programme et coaching senior."
@@ -82,11 +82,11 @@ Les DSC marocains qui progressent rapidement ont souvent :
 
 > **La différence entre un bon Manager SC et un grand DSC n'est pas l'expertise technique. C'est la capacité à inspirer une organisation entière à performer à un niveau supérieur.**
 
-## Essor Consulting — Coaching et Formation DSC
+## Nextinotech — Coaching et Formation DSC
 
-Essor Consulting propose un programme senior destiné aux managers SC en transition vers le niveau directionnel : 3 jours de séminaire + 6 mois de coaching mensuel.
+Nextinotech propose un programme senior destiné aux managers SC en transition vers le niveau directionnel : 3 jours de séminaire + 6 mois de coaching mensuel.
 
-👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

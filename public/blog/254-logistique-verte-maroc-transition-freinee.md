@@ -1,7 +1,7 @@
 ---
 title: "Logistique Verte au Maroc : Pourquoi la Transition Reste Freinée"
 date: "2026-08-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/transport.jpg"
 keywords: "logistique verte maroc, transport durable maroc, transition écologique logistique, véhicules électriques transport maroc"
@@ -36,7 +36,7 @@ La transition vers une logistique verte au Maroc reste freinée par le coût et 
 
 Vous voulez évaluer les leviers de logistique verte accessibles à votre flotte actuelle ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

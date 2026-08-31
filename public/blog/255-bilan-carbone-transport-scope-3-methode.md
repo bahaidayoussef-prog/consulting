@@ -1,7 +1,7 @@
 ---
 title: "Bilan Carbone Transport : Calculer et Réduire ses Émissions Scope 3"
 date: "2026-08-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/transport.jpg"
 keywords: "bilan carbone transport scope 3, émissions scope 3 logistique, calcul empreinte carbone transport maroc"
@@ -36,7 +36,7 @@ Le calcul du scope 3 transport, même approximatif, devient un argument commerci
 
 Vous voulez estimer l'empreinte carbone de votre transport pour répondre aux attentes de vos clients européens ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

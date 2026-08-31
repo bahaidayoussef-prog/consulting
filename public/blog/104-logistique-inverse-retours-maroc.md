@@ -1,7 +1,7 @@
 ﻿---
 title: "Logistique Inverse au Maroc : Gérer les Retours sans Perdre de l'Argent"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/hero-warehouse.jpg"
 keywords: "logistique inverse Maroc, gestion retours logistique, reverse logistics Maroc, retours e-commerce Maroc, supply chain retours"
 description: "La logistique inverse coûte 2 à 4 fois plus cher que la logistique directe. Comment les entreprises marocaines structurent leurs retours pour limiter les pertes en 2026."
@@ -98,14 +98,14 @@ Taux de retour de 24%, zéro process. Mise en place d'une cellule retours dédi�
 **Cas distribution industrielle (Tanger, 2023)**
 Emballages navettes non récupérés chez les clients : 180 000 MAD de caisses perdues par an. Mise en place d'un circuit consigné (dépôt + retour documenté), taux de récupération passé de 45% à 87% en 6 mois.
 
-## Essor Consulting — Audit et Structuration Logistique Inverse
+## Nextinotech — Audit et Structuration Logistique Inverse
 
-Essor Consulting accompagne les entreprises marocaines dans l'audit de leurs flux retours, la conception du processus adapté à leur structure, et la formation des équipes opérationnelles.
+Nextinotech accompagne les entreprises marocaines dans l'audit de leurs flux retours, la conception du processus adapté à leur structure, et la formation des équipes opérationnelles.
 
 Un audit retours (1 journée terrain) suffit souvent à identifier 3-5 quick wins avec ROI immédiat.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200
 
 ---
 

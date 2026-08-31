@@ -91,7 +91,7 @@ export default function DataImportPanel({
                   marginBottom: '1.5rem',
                 }}
               >
-                🔒 Vos données restent dans votre navigateur, elles ne sont ni envoyées ni conservées par Essor Consulting.
+                🔒 Vos données restent dans votre navigateur, elles ne sont ni envoyées ni conservées par Nextinotech.
               </div>
 
               <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', marginBottom: '1.5rem', alignItems: 'center' }}>

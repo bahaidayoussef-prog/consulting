@@ -1,7 +1,7 @@
 ---
 title: "Marketplace vs Vente Directe : quelles Implications Logistiques pour les Vendeurs Marocains"
 date: "2026-08-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/business.jpg"
 keywords: "marketplace logistique maroc, vente directe vs marketplace, site e-commerce propre logistique"
@@ -36,7 +36,7 @@ Le choix entre marketplace et vente directe redistribue la responsabilité logis
 
 Vous hésitez entre marketplace et site propre et voulez évaluer l'impact logistique de chaque option ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

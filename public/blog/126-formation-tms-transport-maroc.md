@@ -1,7 +1,7 @@
 ﻿---
 title: "Formation TMS au Maroc : Optimiser le Transport avec un Logiciel"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/transport.jpg"
 keywords: "formation TMS Maroc, Transport Management System formation, optimisation transport Maroc, logiciel transport formation, TMS déploiement Maroc"
 description: "Formation TMS au Maroc : comment choisir, déployer et maîtriser un système de gestion du transport. Programme, outils disponibles et résultats attendus."
@@ -50,11 +50,11 @@ Paramétrage de base, création des tournées, suivi temps réel, génération d
 
 > **La plupart des entreprises marocaines savent qu'elles dépensent trop en transport. Peu savent exactement où et pourquoi. Le TMS répond à cette question — et automatise ensuite les corrections.**
 
-## Essor Consulting — Formation TMS
+## Nextinotech — Formation TMS
 
 2 jours de formation avec simulation sur logiciel TMS. Accompagnement disponible pour le déploiement complet.
 
-👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

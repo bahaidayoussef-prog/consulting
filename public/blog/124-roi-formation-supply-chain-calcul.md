@@ -1,7 +1,7 @@
 ﻿---
 title: "ROI d'une Formation Supply Chain : Comment le Calculer et le Justifier"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/analytics.jpg"
 keywords: "ROI formation supply chain, retour sur investissement formation logistique, justifier budget formation supply chain, valeur formation logistique"
 description: "Comment calculer le ROI d'une formation supply chain et le justifier à sa direction ? Méthode, exemples chiffrés et modèle de présentation pour convaincre en 5 minutes."
@@ -110,11 +110,11 @@ Cette démarche avant/après transforme le ROI estimé en ROI prouvé — et fac
 
 > **Une formation sans mesure de résultat est une dépense. Une formation avec mesure avant/après devient un investissement. La différence tient à 2 heures de préparation.**
 
-## Essor Consulting — Formation avec Mesure du ROI
+## Nextinotech — Formation avec Mesure du ROI
 
-Chaque programme Essor Consulting inclut une définition des KPIs à mesurer avant et après formation, et un suivi à 3 mois pour quantifier les résultats réels.
+Chaque programme Nextinotech inclut une définition des KPIs à mesurer avant et après formation, et un suivi à 3 mois pour quantifier les résultats réels.
 
-👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

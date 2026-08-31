@@ -1,7 +1,7 @@
 ﻿---
 title: "Last Mile au Maroc : Résoudre le Problème du Dernier Kilomètre en 2026"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/transport.jpg"
 keywords: "last mile Maroc, livraison dernier kilomètre Maroc, logistique urbaine Maroc, livreurs Maroc, coût livraison Maroc"
 description: "Le dernier kilomètre représente 30 à 50% du coût logistique total. Comment les entreprises marocaines optimisent leur last mile en 2026 — modèles, coûts, solutions concrètes."
@@ -122,12 +122,12 @@ Les meilleurs opérateurs last mile au Maroc que j'ai observés ont 3 caractéri
 
 Aucune de ces pratiques ne coûte cher. Toutes font une différence mesurable dès la première semaine.
 
-## Essor Consulting — Audit et Optimisation Last Mile
+## Nextinotech — Audit et Optimisation Last Mile
 
-Essor Consulting accompagne les distributeurs et marchands e-commerce dans l'audit et la structuration de leur logistique dernier kilomètre : choix du modèle, optimisation des tournées, sélection des prestataires, formation des équipes.
+Nextinotech accompagne les distributeurs et marchands e-commerce dans l'audit et la structuration de leur logistique dernier kilomètre : choix du modèle, optimisation des tournées, sélection des prestataires, formation des équipes.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200
 
 ---
 

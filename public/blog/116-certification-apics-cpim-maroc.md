@@ -1,7 +1,7 @@
 ﻿---
 title: "Certification APICS CPIM au Maroc : Valeur, Préparation et Coût"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/analytics.jpg"
 keywords: "certification APICS Maroc, CPIM Maroc, CSCP Maroc, certification supply chain internationale Maroc, APICS formation Maroc"
 description: "La certification APICS CPIM ou CSCP vaut-elle le coût au Maroc ? Valeur sur le marché, comment se préparer et combien ça coûte vraiment. Guide 2026."
@@ -94,9 +94,9 @@ La certification APICS est éligible aux financements GIAC dans certains secteur
 - L'impact attendu sur votre poste
 - Le coût total
 
-## Essor Consulting — Préparation APICS
+## Nextinotech — Préparation APICS
 
-Essor Consulting propose un accompagnement de préparation APICS : sessions de révision en groupe, exercices pratiques, et simulation d'examens.
+Nextinotech propose un accompagnement de préparation APICS : sessions de révision en groupe, exercices pratiques, et simulation d'examens.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

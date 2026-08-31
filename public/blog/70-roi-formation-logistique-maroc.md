@@ -1,7 +1,7 @@
 ---
 title: "ROI d'une Formation Supply Chain au Maroc : Comment le Calculer et le Justifier"
 date: "2026-08-10"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/analytics.jpg"
 keywords: "roi formation logistique maroc, roi formation supply chain, retour sur investissement formation supply chain, justifier budget formation supply chain, formation logistique rentable maroc, coût formation supply chain maroc"
 description: "Comment calculer et justifier le ROI d'une formation logistique ou supply chain au Maroc ? Méthode, exemples chiffrés, coûts cachés et modèle de présentation à la direction."
@@ -42,7 +42,7 @@ Ce que peu de dirigeants calculent, c'est ce que leur coûte chaque jour un resp
 
 **Situation initiale :** valeur des stocks 4 000 000 MAD, taux de stocks excédentaires estimé 30% (1 200 000 MAD), taux de ruptures récurrentes 8% des SKU actifs, CA annuel 25 000 000 MAD.
 
-**Formation investie :** Formation Responsable Logistique Essor Consulting (1 500 MAD) + temps de travail formation, 1 jour (800 MAD) = **coût total 2 300 MAD**.
+**Formation investie :** Formation Responsable Logistique Nextinotech (1 500 MAD) + temps de travail formation, 1 jour (800 MAD) = **coût total 2 300 MAD**.
 
 **Résultats observés après 6 mois :** réduction des surstocks de 30% → 90 000 MAD/an ; réduction des ruptures de 8% à 3% → gain CA 500 000 MAD/an ; réduction des transports urgents → 80 000 MAD/an.
 
@@ -168,7 +168,7 @@ Le coût d'un recrutement au Maroc (annonce + cabinet + intégration) est de 20 
 
 ## Notre Engagement sur le ROI
 
-Chez Essor Consulting, nous ne vendons pas des formations, nous vendons des résultats. Chaque programme inclut une définition des KPIs à mesurer avant et après formation, et un suivi à 3 mois pour quantifier les résultats réels :
+Chez Nextinotech, nous ne vendons pas des formations, nous vendons des résultats. Chaque programme inclut une définition des KPIs à mesurer avant et après formation, et un suivi à 3 mois pour quantifier les résultats réels :
 
 - **Programme 100% terrain** : pas de théorie qui ne s'applique pas dans les entreprises marocaines
 - **Formateurs avec missions en cours** : ils forment sur ce qu'ils font, pas sur ce qu'ils ont lu
@@ -176,7 +176,7 @@ Chez Essor Consulting, nous ne vendons pas des formations, nous vendons des rés
 
 **Notre [formation Responsable Logistique](/formation-rl/) à 1 500 MAD** est conçue pour générer un ROI minimum de 10× en 6 mois. Si ce n'est pas le cas, contactez-nous — nous avons un problème à résoudre ensemble.
 
-👉 **[Voir le programme complet « Devenir Responsable Logistique »](/formation-rl/)** — 1 journée, 1 500 MAD TTC, prochaines sessions 2026. Ou consultez le **[catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines.
+👉 **[Voir le programme complet « Devenir Responsable Logistique »](/formation-rl/)** — 1 journée, 1 500 MAD TTC, prochaines sessions 2026. Ou consultez le **[catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines.
 
 ---
 
@@ -186,4 +186,4 @@ Le ROI d'une formation logistique bien ciblée est parmi les plus élevés qui e
 
 La question n'est pas "est-ce que je peux me permettre de former mon équipe ?". La vraie question est : "est-ce que je peux me permettre de ne pas le faire ?"
 
-**Contactez Essor Consulting pour un calcul personnalisé du ROI potentiel d'une formation pour votre équipe : essor.consulting.maroc@gmail.com · +212 06 63 44 92 00**
+**Contactez Nextinotech pour un calcul personnalisé du ROI potentiel d'une formation pour votre équipe : contact@nextinotech.com · +212 06 63 44 92 00**

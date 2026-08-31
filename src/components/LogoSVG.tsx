@@ -27,18 +27,18 @@ export default function LogoSVG({
       />
       <text
         x="32"
-        y="28"
+        y="26"
         fontFamily="'Bodoni Moda', 'Georgia', serif"
-        fontSize="20"
+        fontSize="16"
         fontWeight="700"
-        letterSpacing="0.06em"
+        letterSpacing="0.02em"
         fill={inkColor}
       >
-        ESSOR
+        NEXTINOTECH
       </text>
       <text
         x="33"
-        y="38"
+        y="37"
         fontFamily="'DM Mono', 'Courier New', monospace"
         fontSize="7"
         fontWeight="400"

@@ -1,7 +1,7 @@
 ﻿---
 title: "Entrepôt Multi-Clients au Maroc : Mutualisation Logistique et Prestataires 3PL 2026"
 date: "2026-08-04"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/hero-warehouse.jpg"
 keywords: "entrepôt multi-clients maroc, prestataire logistique 3pl maroc, mutualisation logistique maroc, logistique externalisée maroc, entrepôt partagé maroc"
 description: "Entrepôt multi-clients et mutualisation logistique au Maroc : avantages, modèles d'organisation, critères de choix d'un 3PL et grille tarifaire 2026."
@@ -239,9 +239,9 @@ J'ai accompagné plusieurs prestataires logistiques marocains dans la structurat
 
 ---
 
-## Accompagnement avec Essor Consulting
+## Accompagnement avec Nextinotech
 
-Essor Consulting accompagne les deux côtés de la relation 3PL :
+Nextinotech accompagne les deux côtés de la relation 3PL :
 
 **Pour les chargeurs :**
 - Décision externaliser vs garder en propre (business case chiffré)
@@ -255,7 +255,7 @@ Essor Consulting accompagne les deux côtés de la relation 3PL :
 - Définition de la grille tarifaire
 - Formation des équipes exploitation et commerciale
 
-Contactez-nous : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
+Contactez-nous : **contact@nextinotech.com** · **+212 06 63 44 92 00**
 
 ---
 

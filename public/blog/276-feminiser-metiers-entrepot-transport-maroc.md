@@ -1,7 +1,7 @@
 ---
 title: "Féminiser les Métiers d'Entrepôt et de Transport : Lever les Freins Culturels au Maroc"
 date: "2026-08-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/hero-warehouse.jpg"
 keywords: "féminisation métiers logistiques maroc, femmes entrepôt transport, femmes caristes conductrices maroc"
@@ -36,7 +36,7 @@ La sous-représentation des femmes dans les métiers d'entrepôt et de transport
 
 Vous voulez rendre vos métiers opérationnels plus accessibles aux candidatures féminines ? [Découvrez nos formations RH et management](/formation), ou [contactez-nous](/contact) pour en discuter.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Supply Chain Retail au Maroc : piloter une plateforme multi-marques à grande échelle"
 date: "2026-08-19"
-author: "Essor Consulting"
+author: "Nextinotech"
 type: "mini-article"
 schema: "Article"
 keywords: "supply chain retail Maroc, plateforme logistique 3PL, distribution FMCG Maroc, Marjane"
@@ -12,7 +12,7 @@ description: "Une plateforme 3PL de 21 000 m² gérée pour L'Oréal, Nestlé et
 
 ![Entrepôt et distribution retail](/images/hero-warehouse.jpg)
 
-**Une plateforme logistique 3PL de 21 000 m², gérée pour L'Oréal, Nestlé et Mars, a atteint 98,5% de taux de service avec 120 collaborateurs.** C'est l'un des repères concrets d'Essor Consulting sur la distribution retail et FMCG au Maroc — un secteur où des enseignes comme Marjane comptent parmi les acteurs structurants du marché.
+**Une plateforme logistique 3PL de 21 000 m², gérée pour L'Oréal, Nestlé et Mars, a atteint 98,5% de taux de service avec 120 collaborateurs.** C'est l'un des repères concrets de Nextinotech sur la distribution retail et FMCG au Maroc — un secteur où des enseignes comme Marjane comptent parmi les acteurs structurants du marché.
 
 ## Le vrai défi : plusieurs marques, une seule plateforme
 
@@ -32,7 +32,7 @@ La distribution retail et FMCG au Maroc repose sur des plateformes logistiques d
 
 Vous pilotez une plateforme logistique multi-marques ou multi-clients ? Parlons-en.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

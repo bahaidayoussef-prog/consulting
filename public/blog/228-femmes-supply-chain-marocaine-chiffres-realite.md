@@ -1,7 +1,7 @@
 ---
 title: "Femmes dans la Supply Chain Marocaine : où en est-on Vraiment"
 date: "2026-08-25"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/office.jpg"
 keywords: "femmes supply chain maroc chiffres, diversité logistique maroc, femmes logistique maroc, parité supply chain"
@@ -36,7 +36,7 @@ En l'absence de baromètre sectoriel marocain, chaque entreprise part d'une page
 
 Votre entreprise veut structurer sa politique de diversité et de mixité dans ses équipes supply chain ? [Découvrez nos formations](/formation), ou [contactez-nous](/contact) pour en discuter.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

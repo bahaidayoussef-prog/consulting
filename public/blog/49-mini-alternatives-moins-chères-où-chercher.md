@@ -1,12 +1,12 @@
 ---
 title: "Alternatives Moins Chères ? Où Chercher ?"
 date: "2026-08-19"
-author: "Essor Consulting"
+author: "Nextinotech"
 type: "mini-article"
 schema: "FAQPage"
 quickAnswer: "Nous ne comparons pas nos tarifs à des alternatives non vérifiées. Nos prix sont publics et détaillés par mission, du Diagnostic Flash à 35 000 MAD HT aux missions sur devis, pour que vous puissiez juger vous-même de ce qui correspond à votre budget."
 keywords: "prix consultant supply chain Maroc, tarifs conseil logistique, budget diagnostic PME"
-description: "Existe-t-il des alternatives moins chères à Essor Consulting ? Nous ne comparons pas à des offres non vérifiées — nos tarifs sont publics, détaillés par mission."
+description: "Existe-t-il des alternatives moins chères à Nextinotech ? Nous ne comparons pas à des offres non vérifiées — nos tarifs sont publics, détaillés par mission."
 ---
 
 # Alternatives Moins Chères ? Où Chercher ?
@@ -33,7 +33,7 @@ Nous préférons une transparence tarifaire totale à une comparaison que nous n
 
 **Notre approche.** Consultez nos tarifs par service ; un premier échange gratuit permet de vérifier que le périmètre correspond à votre besoin avant tout engagement.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

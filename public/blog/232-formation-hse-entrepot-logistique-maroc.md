@@ -1,7 +1,7 @@
 ---
 title: "Formation HSE Entrepôt & Logistique : ce qu'elle Couvre Concrètement"
 date: "2026-08-26"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/office.jpg"
 keywords: "formation HSE entrepôt maroc, formation HSE logistique maroc, formation sécurité entrepôt maroc, audit HSE flash"
@@ -20,7 +20,7 @@ Les accidents liés aux engins de manutention comptent parmi les plus fréquents
 
 > **Une formation HSE réussie ne se mesure pas au nombre de participants formés, mais à ce qui change concrètement sur le terrain après.** C'est pourquoi un cas pratique sur le site réel de l'entreprise — pas un cas d'école générique — fait la différence entre une formation qui coche une case de conformité et une formation qui réduit réellement le risque.
 
-## Ce que couvre la Formation HSE Entrepôt & Logistique d'Essor Consulting
+## Ce que couvre la Formation HSE Entrepôt & Logistique de Nextinotech
 
 Le programme, dispensé en une journée dans les locaux de l'entreprise, couvre six modules concrets : la cartographie des risques spécifiques à l'entrepôt et au transport ; la manutention, la conduite de chariots et le stockage, avec un focus sur la prévention des accidents les plus fréquents ; l'analyse d'accidents et de presque-accidents survenus sur le site ou dans le secteur ; l'ergonomie et la prévention des troubles musculo-squelettiques (TMS), particulièrement fréquents sur les postes de manutention répétitive ; la conformité réglementaire et la construction d'un plan de prévention ; et un cas pratique d'audit HSE flash mené directement sur le site de l'entreprise, avec une grille d'audit fournie aux participants.
 
@@ -36,7 +36,7 @@ Une formation HSE entrepôt efficace n'est pas une déclinaison d'une formation 
 
 Vous voulez structurer la prévention des risques dans votre entrepôt avec une équipe formée sur votre propre site ? [Découvrez le programme complet de la Formation HSE Entrepôt & Logistique](/formation) dans notre catalogue, ou [contactez-nous](/contact) pour l'organiser en intra-entreprise.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

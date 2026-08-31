@@ -1,7 +1,7 @@
 ---
 title: "Entrepôts Éco-Responsables : Certification et Bonnes Pratiques Énergétiques"
 date: "2026-08-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/hero-warehouse.jpg"
 keywords: "entrepôt éco-responsable maroc, réduction facture énergétique entrepôt, entrepôt économe énergie"
@@ -36,7 +36,7 @@ Un entrepôt éco-responsable réduit sa facture énergétique via des leviers a
 
 Vous voulez un audit énergétique de votre entrepôt pour identifier les postes de consommation à corriger en priorité ? [Découvrez nos formations logistique](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

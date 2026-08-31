@@ -1,7 +1,7 @@
 ﻿---
 title: "Supply Chain E-commerce au Maroc : Les 7 Défis à Résoudre en 2026"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/entrepot.jpg"
 keywords: "supply chain e-commerce Maroc, logistique e-commerce Maroc, last mile Maroc, fulfillment Maroc, entrepôt e-commerce Maroc"
 description: "La supply chain e-commerce au Maroc a ses règles propres. Les 7 défis critiques des marchands en ligne marocains — et les solutions concrètes pour chacun."
@@ -121,14 +121,14 @@ La supply chain e-commerce qui fonctionne à 50 commandes/jour ne fonctionne pas
 - **200-1000 commandes/jour** : WMS intégré ERP, automatisation picking partielle, équipe dédiée
 - **1000+ commandes/jour** : Externalisation à un 3PL spécialisé e-commerce
 
-## Essor Consulting — Audit Supply Chain E-commerce
+## Nextinotech — Audit Supply Chain E-commerce
 
-Essor Consulting propose un audit supply chain e-commerce en 1-2 jours : analyse des 7 défis sur votre situation réelle, quick wins immédiats, et roadmap de structuration.
+Nextinotech propose un audit supply chain e-commerce en 1-2 jours : analyse des 7 défis sur votre situation réelle, quick wins immédiats, et roadmap de structuration.
 
 Résultat attendu : réduction des coûts logistiques de 20-35% et amélioration du taux de service de 8-15 points en 90 jours.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200
 
 ---
 

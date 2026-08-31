@@ -1,7 +1,7 @@
 ---
 title: "IA Agentique en Supply Chain : la Feuille de Route 2026-2027 pour les PME Marocaines"
 date: "2026-08-20"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/analytics.jpg"
 keywords: "ia agentique supply chain, ia agentique supply chain maroc, agents ia achats logistique, feuille de route ia pme"
@@ -40,7 +40,7 @@ L'IA agentique n'est pas une question de "faut-il y aller", mais de "par où com
 
 Vous voulez identifier le bon premier cas d'usage pour votre organisation ? [Découvrez nos formations](/formation) sur la digitalisation supply chain, ou [contactez-nous](/contact) pour un premier échange gratuit.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

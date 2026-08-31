@@ -1,7 +1,7 @@
 ﻿---
 title: "Préparer un Entretien Supply Chain au Maroc : Guide Complet"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/conseil.jpg"
 keywords: "préparer entretien supply chain Maroc, entretien emploi logistique Maroc, questions entretien supply chain, réussir entretien logistique Maroc"
 description: "Comment préparer un entretien d'embauche supply chain au Maroc ? Recherche entreprise, réponses aux questions, présentation — le guide complet pour réussir."
@@ -87,9 +87,9 @@ Qu'est-ce qui s'est bien passé ? Quelles questions vous ont pris de court ? Com
 
 > **L'entretien est une compétence qui s'entraîne. Le premier entretien supply chain est rarement le meilleur. À chaque entretien, vous vous améliorez — si vous en faites un bilan systématique. Les candidats les plus performants en entretien ont souvent tous fait des dizaines d'entretiens avant de maîtriser l'exercice.**
 
-## Essor Consulting — Coaching Entretien
+## Nextinotech — Coaching Entretien
 
-Essor Consulting propose des sessions de coaching spécialisé préparation entretien supply chain.
+Nextinotech propose des sessions de coaching spécialisé préparation entretien supply chain.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

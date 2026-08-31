@@ -1,7 +1,7 @@
 ﻿---
 title: "L'Alternance en Supply Chain au Maroc : La Voie Royale vers l'Emploi"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/formation.jpg"
 keywords: "alternance supply chain Maroc, contrat alternance logistique Maroc, apprentissage supply chain Maroc, formation alternance logistique"
 description: "L'alternance en supply chain au Maroc : comment ça fonctionne, les avantages, les entreprises qui proposent des contrats d'alternance, et comment décrocher une place."
@@ -99,9 +99,9 @@ Si l'entreprise ne peut pas vous recruter (gel des recrutements, pas de poste ou
 
 > **L'alternance en supply chain est la transition la plus douce entre étudiant et professionnel. Elle vous paie pour apprendre — et vous offre un emploi au bout du tunnel dans la majorité des cas. Si vous avez l'opportunité de la faire, ne la laissez pas passer.**
 
-## Essor Consulting — Aide à la Recherche d'Alternance
+## Nextinotech — Aide à la Recherche d'Alternance
 
-Essor Consulting accompagne les étudiants dans leur recherche d'alternance supply chain et les entreprises dans la structuration de leurs programmes.
+Nextinotech accompagne les étudiants dans leur recherche d'alternance supply chain et les entreprises dans la structuration de leurs programmes.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

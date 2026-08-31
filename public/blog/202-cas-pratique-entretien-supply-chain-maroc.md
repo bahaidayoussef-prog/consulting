@@ -1,7 +1,7 @@
 ﻿---
 title: "Réussir un Cas Pratique en Entretien Supply Chain au Maroc"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/conseil.jpg"
 keywords: "cas pratique entretien supply chain Maroc, étude de cas logistique entretien, exercice supply chain entretien, résoudre cas SC entretien Maroc"
 description: "Comment aborder et résoudre un cas pratique supply chain lors d'un entretien au Maroc ? Méthode, exemple complet résolu et erreurs à éviter."
@@ -102,9 +102,9 @@ Mentionnez les limites de votre analyse : "Cette recommandation suppose que [hyp
 
 > **Le cas pratique est l'exercice le plus proche du vrai travail. Celui qui sait clarifier, structurer, analyser, et recommander avec assurance — c'est celui-là qu'on veut dans l'équipe.**
 
-## Essor Consulting — Entraînement Cas Pratiques
+## Nextinotech — Entraînement Cas Pratiques
 
-Essor Consulting propose des sessions d'entraînement aux cas pratiques supply chain, adaptés aux processus de recrutement des grandes entreprises marocaines.
+Nextinotech propose des sessions d'entraînement aux cas pratiques supply chain, adaptés aux processus de recrutement des grandes entreprises marocaines.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

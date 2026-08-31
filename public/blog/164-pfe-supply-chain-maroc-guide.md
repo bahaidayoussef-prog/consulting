@@ -1,7 +1,7 @@
 ﻿---
 title: "PFE Supply Chain au Maroc : Choisir son Sujet et Réussir sa Mission"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/formation.jpg"
 keywords: "PFE supply chain Maroc, projet fin études logistique Maroc, sujet PFE supply chain, mémoire supply chain Maroc"
 description: "Comment choisir son sujet de PFE en supply chain au Maroc, trouver une entreprise d'accueil, et réussir sa mission pour en faire un tremplin vers l'emploi."
@@ -104,9 +104,9 @@ Préparez 20 minutes de présentation claire. Exercez-vous devant vos proches. L
 
 > **Votre PFE est votre première référence professionnelle réelle. Traitez-le comme une mission de consultant. Montrez que vous pouvez résoudre un vrai problème d'entreprise avec rigueur et créativité — et vous aurez posé les bases d'une carrière solide.**
 
-## Essor Consulting — Coaching PFE
+## Nextinotech — Coaching PFE
 
-Essor Consulting coache les étudiants en PFE supply chain : choix du sujet, méthodologie, rédaction, préparation soutenance.
+Nextinotech coache les étudiants en PFE supply chain : choix du sujet, méthodologie, rédaction, préparation soutenance.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

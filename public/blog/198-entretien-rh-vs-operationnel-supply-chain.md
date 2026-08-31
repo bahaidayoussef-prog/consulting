@@ -1,7 +1,7 @@
 ﻿---
 title: "Entretien RH vs Entretien Opérationnel en Supply Chain : Deux Formats Différents"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/conseil.jpg"
 keywords: "entretien RH supply chain Maroc, entretien opérationnel logistique Maroc, différence entretien RH métier supply chain, recrutement supply chain étapes Maroc"
 description: "Comment adapter votre préparation à l'entretien RH vs l'entretien avec le manager opérationnel en supply chain au Maroc ? Deux formats distincts, deux approches."
@@ -104,9 +104,9 @@ Pour les postes les plus importants, certaines grandes entreprises marocaines or
 
 > **Un recrutement supply chain est un processus multi-acteurs. Préparez-vous pour chaque acteur avec le même sérieux — mais pas avec le même message. L'agilité de communication (adapter son discours à l'interlocuteur sans trahir le fond) est elle-même une compétence SC precieuse.**
 
-## Essor Consulting — Coaching Multi-Entretiens
+## Nextinotech — Coaching Multi-Entretiens
 
-Essor Consulting propose un coaching qui couvre l'ensemble du processus de recrutement supply chain : du premier entretien RH à la négociation de l'offre.
+Nextinotech propose un coaching qui couvre l'ensemble du processus de recrutement supply chain : du premier entretien RH à la négociation de l'offre.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

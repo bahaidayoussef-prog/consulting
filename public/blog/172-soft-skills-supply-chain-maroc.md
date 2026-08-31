@@ -1,7 +1,7 @@
 ﻿---
 title: "Les Soft Skills Indispensables en Supply Chain au Maroc"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/conseil.jpg"
 keywords: "soft skills supply chain Maroc, compétences relationnelles logistique, qualités supply chain Maroc, intelligence émotionnelle logisticien"
 description: "Quels soft skills développer en supply chain au Maroc pour progresser rapidement ? Les compétences humaines qui font la différence dans les équipes et les recrutements."
@@ -90,9 +90,9 @@ Savoir que vous êtes en colère quand un fournisseur vous a encore laissé tomb
 
 > **Les certifications vous ouvrent des portes. Les soft skills déterminent ce que vous faites une fois à l'intérieur. Un professionnel supply chain avec des compétences techniques solides ET des soft skills développés est quasi-impossible à remplacer — et il le sait.**
 
-## Essor Consulting — Développement des Soft Skills
+## Nextinotech — Développement des Soft Skills
 
-Essor Consulting intègre le développement des soft skills dans ses formations supply chain : communication, leadership, gestion des conflits.
+Nextinotech intègre le développement des soft skills dans ses formations supply chain : communication, leadership, gestion des conflits.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

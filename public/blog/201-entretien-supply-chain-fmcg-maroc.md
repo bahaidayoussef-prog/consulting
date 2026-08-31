@@ -1,7 +1,7 @@
 ﻿---
 title: "Entretien Supply Chain dans le FMCG au Maroc : Guide Pratique"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/hero-supply-chain.jpg"
 keywords: "entretien supply chain FMCG Maroc, recrutement logistique agroalimentaire Maroc, questions SC grande consommation, entretien supply chain Nestlé Danone Maroc"
 description: "Comment réussir un entretien supply chain dans le secteur FMCG (grande consommation) au Maroc ? Les enjeux spécifiques, les questions types et ce que Nestlé, Danone, Unilever évaluent."
@@ -84,9 +84,9 @@ Les meilleurs candidats FMCG montrent :
 
 > **Le FMCG au Maroc est l'école de la supply chain à grande vitesse. Les produits bougent vite, les promotions sont fréquentes, le Ramadan change tout tous les ans. Ceux qui réussissent dans ce secteur développent une agilité et une compréhension du business qui les rend très polyvalents dans n'importe quel autre secteur.**
 
-## Essor Consulting — Formation FMCG Supply Chain
+## Nextinotech — Formation FMCG Supply Chain
 
-Essor Consulting propose des formations et du coaching spécialisés pour les professionnels SC du secteur FMCG marocain.
+Nextinotech propose des formations et du coaching spécialisés pour les professionnels SC du secteur FMCG marocain.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

@@ -1,7 +1,7 @@
 ﻿---
 title: "Combien Économiser Réellement sur Vos Achats? Cas Réels & Chiffres"
 date: "2026-06-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 type: "faq"
 keywords: "économies achats, sourcing stratégique, cost reduction, PME Maroc"
 description: "Après 18 ans et 110+ missions, découvrez combien économiser réellement sur achats. Cas réels, timeline, ROI."
@@ -33,4 +33,4 @@ Après 18 ans et 110+ missions, je peux vous dire: **la plupart des PME marocain
 - **Implémentation:** 4-6 semaines
 - **Payback:** 3-4 mois sur first year savings
 
-**Prochaine étape:** Audit gratuit 2-3 jours. Contact: essor.consulting.maroc@gmail.com
+**Prochaine étape:** Audit gratuit 2-3 jours. Contact: contact@nextinotech.com

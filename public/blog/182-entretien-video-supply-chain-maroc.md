@@ -1,7 +1,7 @@
 ﻿---
 title: "Réussir son Entretien Vidéo en Supply Chain au Maroc"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/office.jpg"
 keywords: "entretien vidéo supply chain Maroc, entretien Teams Zoom logistique Maroc, entretien à distance supply chain, visioconférence recrutement logistique"
 description: "Comment réussir un entretien supply chain en vidéo (Teams, Zoom) au Maroc ? Préparation technique, présentation, communication non-verbale et erreurs à éviter."
@@ -105,9 +105,9 @@ Certaines entreprises (multinationales, recruteurs Golfe) utilisent des entretie
 
 > **L'entretien vidéo n'est pas un entretien de seconde zone. Pour les postes internationaux et les recrutements à distance, c'est souvent le seul format. Maîtrisez-le — il est accessible à condition de s'y préparer sérieusement.**
 
-## Essor Consulting — Coaching Entretien Vidéo
+## Nextinotech — Coaching Entretien Vidéo
 
-Essor Consulting propose des simulations d'entretien supply chain en vidéo pour vous préparer à ce format.
+Nextinotech propose des simulations d'entretien supply chain en vidéo pour vous préparer à ce format.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

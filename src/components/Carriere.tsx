@@ -8,7 +8,7 @@ const ease = [0.16, 1, 0.3, 1] as const
 
 const FAQ = [
   {
-    q: 'Comment se déroule le processus de recrutement chez Essor Consulting ?',
+    q: 'Comment se déroule le processus de recrutement chez Nextinotech ?',
     a: "Vous postulez par email avec votre CV, ou via notre formulaire de contact. Nous restons une équipe volontairement resserrée : chaque candidature est étudiée individuellement, sans parcours d'entretiens standardisé sur plusieurs semaines. Un profil retenu démarre directement sur le terrain, en binôme avec un consultant senior qui sert de référent sur les premières missions.",
   },
   {
@@ -198,7 +198,7 @@ export default function Carriere() {
             </FadeUp>
             <FadeUp delay={0.1}>
               <p style={{ fontSize: '1rem', color: 'var(--mid)', lineHeight: 1.85, fontWeight: 300, margin: 0 }}>
-                Chez Essor Consulting, on ne vend pas de licences ni de commissions cachées — on vend une
+                Chez Nextinotech, on ne vend pas de licences ni de commissions cachées — on vend une
                 expertise terrain, indépendante, mesurable. Rejoindre l&apos;équipe, c&apos;est apprendre à
                 diagnostiquer avant de recommander, à choisir la technologie qui sert le client plutôt que
                 celle qui rapporte le plus, et à être jugé sur des résultats plutôt que sur des rapports
@@ -342,7 +342,7 @@ export default function Carriere() {
 
                 <div className="pc-header-right" style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: '1.25rem', minWidth: 200 }}>
                   <a
-                    href="mailto:essor.consulting.maroc@gmail.com?subject=Candidature%20-%20Consultant%20Supply%20Chain%20Junior"
+                    href="mailto:contact@nextinotech.com?subject=Candidature%20-%20Consultant%20Supply%20Chain%20Junior"
                     className="btn-primary"
                     style={{ whiteSpace: 'normal', textAlign: 'center' }}
                   >
@@ -452,7 +452,7 @@ export default function Carriere() {
                 </p>
               </div>
               <a
-                href="mailto:essor.consulting.maroc@gmail.com?subject=Candidature%20spontan%C3%A9e"
+                href="mailto:contact@nextinotech.com?subject=Candidature%20spontan%C3%A9e"
                 className="btn-outline"
                 style={{ whiteSpace: 'nowrap' }}
               >

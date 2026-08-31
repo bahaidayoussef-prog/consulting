@@ -1,7 +1,7 @@
 ---
 title: "Logistique Santé au Maroc : ce que la Task Force Vaccination a montré sur la chaîne du froid"
 date: "2026-08-19"
-author: "Essor Consulting"
+author: "Nextinotech"
 type: "mini-article"
 schema: "Article"
 keywords: "logistique santé Maroc, chaîne du froid Maroc, cold chain vaccination, DDMRP santé"
@@ -12,7 +12,7 @@ description: "La Task Force Vaccination nationale a mobilisé une gouvernance co
 
 ![Chaîne logistique du secteur de la santé](/images/healthcare.jpg)
 
-**La logistique de santé ne pardonne pas les approximations : une rupture de chaîne du froid ne se corrige pas, elle se subit.** C'est cette exigence qui a structuré la mission bénévole d'Essor Consulting au sein de la Task Force Vaccination nationale, pendant la campagne de vaccination COVID-19 à l'échelle du Royaume.
+**La logistique de santé ne pardonne pas les approximations : une rupture de chaîne du froid ne se corrige pas, elle se subit.** C'est cette exigence qui a structuré la mission bénévole de Nextinotech au sein de la Task Force Vaccination nationale, pendant la campagne de vaccination COVID-19 à l'échelle du Royaume.
 
 ## Une mission de gouvernance, pas seulement de transport
 
@@ -32,7 +32,7 @@ La mission Task Force Vaccination illustre une conviction terrain : les mêmes d
 
 Vous pilotez une chaîne logistique sensible à la température ou aux délais ? Parlons-en.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

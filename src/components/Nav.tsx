@@ -464,7 +464,7 @@ export default function Nav() {
                 display: 'flex', gap: '1.5rem', flexWrap: 'wrap',
               }}
             >
-              <span>Essor Consulting</span>
+              <span>Nextinotech</span>
               <span>◆</span>
               <span>Casablanca, Maroc</span>
               <span>◆</span>

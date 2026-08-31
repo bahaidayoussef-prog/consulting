@@ -1,7 +1,7 @@
 ﻿---
 title: "Formation Gestionnaire d'Entrepôt au Maroc : Programme et Certification"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/hero-warehouse.jpg"
 keywords: "formation gestionnaire entrepôt Maroc, formation chef entrepôt, formation magasinier Maroc, certification entrepôt logistique Maroc"
 description: "Formation gestionnaire d'entrepôt au Maroc : compétences, programme, certification et évolution vers chef d'entrepôt. Guide pratique 2026."
@@ -81,13 +81,13 @@ Après des années à former et à auditer des entrepôts au Maroc, voici ce qui
 
 > **Un entrepôt bien géré, c'est comme une cuisine bien organisée. Tout a sa place, tout le monde sait où chercher, et le service sort à l'heure — sans courir.**
 
-## Formation Essor Consulting — Gestionnaire d'Entrepôt
+## Formation Nextinotech — Gestionnaire d'Entrepôt
 
-2 jours intensifs en présentiel, 100% pratique, avec simulation de gestion d'entrepôt en conditions réelles. Certification Essor Consulting délivrée à l'issue de la formation.
+2 jours intensifs en présentiel, 100% pratique, avec simulation de gestion d'entrepôt en conditions réelles. Certification Nextinotech délivrée à l'issue de la formation.
 
 Pour viser directement le palier Responsable Logistique du tableau ci-dessus, voir notre programme **[Devenir Responsable Logistique](/formation-rl/)** — 1 journée, 1 500 MAD TTC.
 
-👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

@@ -1,7 +1,7 @@
 ﻿---
 title: "Se Présenter en 2 Minutes en Entretien Supply Chain : La Formule Parfaite"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/office.jpg"
 keywords: "se présenter entretien supply chain Maroc, pitch 2 minutes logistique entretien, présentation parcours supply chain entretien, parlez-moi de vous supply chain"
 description: "Comment réussir sa présentation de 2 minutes en entretien supply chain au Maroc ? Formule, exemples et erreurs à éviter pour un pitch percutant."
@@ -83,9 +83,9 @@ Faites la répétition 10-15 fois avant un entretien important. La présentation
 
 > **Votre présentation en 2 minutes est votre premier investissement dans l'entretien. Le recruteur forme son impression dans ces 2 premières minutes. Un candidat qui maîtrise ce moment arrive confiant, donne le ton de la conversation, et met les chances de son côté dès les premières secondes.**
 
-## Essor Consulting — Coaching Pitch Professionnel
+## Nextinotech — Coaching Pitch Professionnel
 
-Essor Consulting travaille avec les professionnels SC sur leur pitch de présentation pour les entretiens.
+Nextinotech travaille avec les professionnels SC sur leur pitch de présentation pour les entretiens.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

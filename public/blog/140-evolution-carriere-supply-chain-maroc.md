@@ -1,7 +1,7 @@
 ﻿---
 title: "Évolution de Carrière en Supply Chain au Maroc : Plan sur 10 Ans"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/business.jpg"
 keywords: "évolution carrière supply chain Maroc, progression carrière logistique, plan carrière supply chain Maroc, promotion supply chain Maroc"
 description: "Comment évoluer en supply chain au Maroc : les étapes de carrière, les compétences à développer à chaque niveau, et le plan sur 10 ans pour devenir directeur."
@@ -73,9 +73,9 @@ Transformation visible de l'organisation + crédibilité externe (présentations
 
 > **Les professionnels supply chain qui progressent le plus vite ont un point commun : ils ne se demandent pas "qu'est-ce qu'on va me proposer ?" mais "qu'est-ce que je dois acquérir maintenant pour mériter le prochain niveau ?"**
 
-## Essor Consulting — Coaching Carrière
+## Nextinotech — Coaching Carrière
 
-Essor Consulting propose un coaching de carrière pour les professionnels supply chain : où vous en êtes, où vous voulez aller, et comment y arriver en moins de temps.
+Nextinotech propose un coaching de carrière pour les professionnels supply chain : où vous en êtes, où vous voulez aller, et comment y arriver en moins de temps.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

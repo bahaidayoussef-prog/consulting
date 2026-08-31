@@ -1,7 +1,7 @@
 ---
 title: "Transit Douanier en Afrique de l'Ouest : les Corridors qui Fonctionnent (et Ceux à Éviter)"
 date: "2026-08-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/transport.jpg"
 keywords: "transit douanier afrique de l'ouest, corridor Abidjan Ouagadougou, SIGMAT transit marchandises"
@@ -36,7 +36,7 @@ Le choix d'un corridor de transit en Afrique de l'Ouest doit se faire sur la pr�
 
 Vous exportez régulièrement vers l'Afrique de l'Ouest et voulez sécuriser vos délais de transit douanier ? [Découvrez nos services conseil supply chain](/conseil), ou [contactez-nous](/contact) pour en discuter.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

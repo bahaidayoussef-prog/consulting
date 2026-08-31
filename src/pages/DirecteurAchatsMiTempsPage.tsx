@@ -6,7 +6,7 @@ export default function DirecteurAchatsMiTempsPage() {
   return (
     <>
       <PageMeta
-        title="Directeur Achats à Temps Partagé au Maroc | Essor Consulting"
+        title="Directeur Achats à Temps Partagé au Maroc | Nextinotech"
         description="Sourcing, négociation fournisseurs et réduction des coûts d'achat à temps partagé. 11% d'économies chez Addoha. Mandat 180k-550k MAD, PME & ETI Maroc."
         canonical="https://nextinotech.com/directeur-achats-mi-temps"
       />

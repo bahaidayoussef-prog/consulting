@@ -1,7 +1,7 @@
 ---
 title: "Supply Chain Mali : logistique d'un pays enclavé entre trois corridors"
 date: "2026-08-18"
-author: "Essor Consulting"
+author: "Nextinotech"
 type: "mini-article"
 schema: "Article"
 keywords: "supply chain Mali, pays enclavé, corridor Dakar Bamako, corridor Abidjan Bamako, logistique Sahel"
@@ -36,7 +36,7 @@ La supply chain malienne illustre un cas d'école : celui d'une économie qui do
 
 Vous pilotez des flux logistiques exposés au Sahel ou à l'Afrique de l'Ouest ? Parlons-en.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

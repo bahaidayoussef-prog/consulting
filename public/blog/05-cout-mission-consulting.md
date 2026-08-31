@@ -1,7 +1,7 @@
 ﻿---
 title: "Combien Coûte une Mission de Consulting Supply Chain?"
 date: "2026-06-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/conseil.jpg"
 keywords: "coût consulting supply chain, devis mission, budget conseil logistique, ROI conseil"
 description: "Transparent : les coûts réels d'une mission de consulting supply chain. Modèles pricing, facteurs, et ROI."
@@ -61,7 +61,7 @@ Après 18 ans et 110+ missions, j'aime la transparence. Je vais vous donner les 
 **Pricing:**
 - Fixed price par scope
 - Ou Time & Material avec cap budget
-- Essor Consulting moyen : 100-200K MAD par mission 6-12 sem
+- Nextinotech moyen : 100-200K MAD par mission 6-12 sem
 
 **Timeline:** 2-3 mois
 
@@ -89,7 +89,7 @@ Après 18 ans et 110+ missions, j'aime la transparence. Je vais vous donner les 
 **Pricing:**
 - Fixed project fee + success fee (% saving réalisé)
 - Ou Time & Material avec monthly cap
-- Essor Consulting transformation : 250-600K MAD
+- Nextinotech transformation : 250-600K MAD
 
 **Timeline:** 4-6 mois
 
@@ -371,7 +371,7 @@ No commitment. Transparent. Honnête.
 
 ---
 
-**Essor Consulting**  
+**Nextinotech**  
 Directeur des Achats | Expert Supply Chain & Transformation Digitale  
-Essor Consulting — Casablanca, Maroc  
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+Nextinotech — Casablanca, Maroc  
+📧 contact@nextinotech.com | 📞 +212 663 449 200

@@ -1,7 +1,7 @@
 ﻿---
 title: "La Méthode STAR pour les Entretiens Supply Chain au Maroc"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/conseil.jpg"
 keywords: "méthode STAR entretien supply chain Maroc, STAR logistique entretien, raconter expérience entretien supply chain, exemples STAR supply chain"
 description: "La méthode STAR appliquée aux entretiens supply chain au Maroc : comment structurer vos réponses pour convaincre, avec des exemples concrets du secteur logistique."
@@ -111,9 +111,9 @@ Avant tout entretien, préparez ces 10 thèmes avec un exemple STAR chacun :
 
 > **Avec 10 exemples STAR bien préparés, vous pouvez répondre à 95% des questions comportementales d'un entretien supply chain. La préparation n'est pas de la triche — c'est du professionnalisme.**
 
-## Essor Consulting — Coaching Entretien STAR
+## Nextinotech — Coaching Entretien STAR
 
-Essor Consulting propose des sessions de coaching entretien supply chain avec simulation et feedback sur vos exemples STAR.
+Nextinotech propose des sessions de coaching entretien supply chain avec simulation et feedback sur vos exemples STAR.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

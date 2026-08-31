@@ -1,7 +1,7 @@
 ﻿---
 title: "Réussir l'Entretien Technique Supply Chain au Maroc"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/hero-supply-chain.jpg"
 keywords: "entretien technique supply chain Maroc, test technique logistique Maroc, cas pratique supply chain entretien, épreuve technique supply chain"
 description: "Comment réussir l'entretien technique supply chain au Maroc ? Tests Excel, cas pratiques, questions techniques — ce que les recruteurs testent et comment s'y préparer."
@@ -114,9 +114,9 @@ Questions posées directement en entretien pour évaluer vos connaissances :
 
 > **L'entretien technique est une opportunité, pas un obstacle. Si vous maîtrisez vraiment vos compétences, c'est le moment de le démontrer concrètement. Et si vous avez des lacunes — c'est l'information que vous manquiez sur vous-même. Dans les deux cas, l'entretien technique est utile.**
 
-## Essor Consulting — Préparation Tests Techniques
+## Nextinotech — Préparation Tests Techniques
 
-Essor Consulting propose des sessions de préparation aux tests techniques supply chain : Excel SC, cas pratiques, questions ERP.
+Nextinotech propose des sessions de préparation aux tests techniques supply chain : Excel SC, cas pratiques, questions ERP.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

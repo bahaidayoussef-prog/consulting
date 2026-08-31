@@ -1,7 +1,7 @@
 ---
 title: "SAP vs Odoo vs Dynamics 365 : Quel ERP pour la Supply Chain d'une PME Marocaine ?"
 date: "2026-08-19"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/analytics.jpg"
 keywords: "erp supply chain maroc comparatif, sap vs odoo vs dynamics 365, choisir erp pme maroc, sap business one maroc"
@@ -36,7 +36,7 @@ SAP, Odoo et Dynamics 365 répondent chacun à un profil d'entreprise différent
 
 Vous hésitez entre plusieurs solutions ERP pour votre supply chain ? [Découvrez nos formations](/formation) sur les systèmes WMS/TMS/ERP, ou [contactez-nous](/contact) pour une étude de faisabilité indépendante, sans commission éditeur.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

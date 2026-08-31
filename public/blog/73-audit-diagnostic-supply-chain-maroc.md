@@ -1,10 +1,10 @@
 ﻿---
 title: "Audit Supply Chain au Maroc : Diagnostiquer et Transformer en 2026"
 date: "2026-08-04"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/conseil.jpg"
 keywords: "audit supply chain maroc, diagnostic logistique maroc, bilan supply chain pme, analyse chaîne approvisionnement maroc, consultant audit logistique casablanca"
-description: "Comment diagnostiquer votre supply chain au Maroc : méthodologie d'audit en 3 phases, 10 signaux d'alarme, coûts réels et ROI. Basé sur 110+ missions Essor Consulting."
+description: "Comment diagnostiquer votre supply chain au Maroc : méthodologie d'audit en 3 phases, 10 signaux d'alarme, coûts réels et ROI. Basé sur 110+ missions Nextinotech."
 ---
 
 # Audit Supply Chain au Maroc : Diagnostiquer et Transformer en 2026
@@ -13,7 +13,7 @@ description: "Comment diagnostiquer votre supply chain au Maroc : méthodologie 
 
 Ce n'est pas un reproche. La supply chain est précisément le domaine où les pertes sont les plus invisibles : elles n'apparaissent pas dans le compte de résultat avec une ligne "inefficacité logistique". Elles se cachent dans les surstocks, les ruptures non calculées, les transports urgents banalisés, les retours clients normalisés.
 
-![Audit et diagnostic supply chain — mission conseil Essor Consulting Maroc](/images/conseil.jpg)
+![Audit et diagnostic supply chain — mission conseil Nextinotech Maroc](/images/conseil.jpg)
 
 ---
 
@@ -59,7 +59,7 @@ Pour une PME qui ne sait pas par où commencer, le diagnostic flash est souvent 
 
 ---
 
-## La Méthodologie d'Audit Terrain Essor Consulting
+## La Méthodologie d'Audit Terrain Nextinotech
 
 Voici comment je structure systématiquement une mission d'audit supply chain. Cette méthode s'applique quelle que soit la taille de l'entreprise ou le secteur — j'ai l'ai utilisée chez des PME de 30 personnes comme chez des groupes de 2 000 collaborateurs.
 
@@ -107,7 +107,7 @@ Je synthétise les observations en :
 - **Plan d'action priorisé** : quick wins (résultats en 30 jours), chantiers à 90 jours, transformations à 12-18 mois
 - **ROI prévisionnel** : pour chaque chantier, estimation du gain attendu et du délai de réalisation
 
-::stat:: 15 à 40% — perte d'efficacité opérationnelle identifiée en moyenne lors d'un audit Essor Consulting (110+ missions)
+::stat:: 15 à 40% — perte d'efficacité opérationnelle identifiée en moyenne lors d'un audit Nextinotech (110+ missions)
 
 ---
 
@@ -149,7 +149,7 @@ Taux de service, taux de rotation des stocks, productivité entrepôt, coût tra
 
 La question du coût est légitime — et je préfère y répondre de manière transparente.
 
-Un audit supply chain coûte entre **15 000 et 180 000 MAD** selon la profondeur et la taille de l'entreprise. C'est un investissement, pas un coût : dans 100% des missions Essor Consulting, les gains identifiés dépassent le coût de la mission dans les 6 premiers mois de mise en œuvre.
+Un audit supply chain coûte entre **15 000 et 180 000 MAD** selon la profondeur et la taille de l'entreprise. C'est un investissement, pas un coût : dans 100% des missions Nextinotech, les gains identifiés dépassent le coût de la mission dans les 6 premiers mois de mise en œuvre.
 
 **Ce que vous devez exiger de votre auditeur :**
 1. Une quantification financière des dysfonctionnements identifiés — pas seulement une liste de problèmes
@@ -162,7 +162,7 @@ Un audit supply chain coûte entre **15 000 et 180 000 MAD** selon la profondeur
 - Les rapports qui identifient des problèmes sans proposer de solutions chiffrées
 - Les consultants qui recommandent systématiquement le même logiciel quelle que soit la situation
 
-::stat:: 5× — le ROI minimum attendu d'un audit suivi de mise en œuvre sur 12 mois (données Essor Consulting)
+::stat:: 5× — le ROI minimum attendu d'un audit suivi de mise en œuvre sur 12 mois (données Nextinotech)
 
 ---
 
@@ -172,7 +172,7 @@ Cinq critères pour ne pas se tromper :
 
 **1. Expérience terrain Maroc** — Un consultant qui n'a jamais mis les pieds dans un entrepôt marocain ne comprend pas vos contraintes (zones industrielles, profils opérateurs, fournisseurs locaux, douanes). Demandez des références dans votre pays et votre secteur.
 
-**2. Indépendance des éditeurs** — Un consultant lié à un éditeur WMS vous recommandera toujours ce WMS, qu'il soit adapté ou non. Essor Consulting ne perçoit aucune commission d'aucun partenaire technologique.
+**2. Indépendance des éditeurs** — Un consultant lié à un éditeur WMS vous recommandera toujours ce WMS, qu'il soit adapté ou non. Nextinotech ne perçoit aucune commission d'aucun partenaire technologique.
 
 **3. Méthode quantifiée** — L'auditeur doit être capable de chiffrer les pertes identifiées en dirhams. S'il parle uniquement de "maturité", de "bonnes pratiques" et de "points d'amélioration" sans mettre de chiffres, vous avez un problème.
 
@@ -182,13 +182,13 @@ Cinq critères pour ne pas se tromper :
 
 ---
 
-## Demander un Audit avec Essor Consulting
+## Demander un Audit avec Nextinotech
 
-Essor Consulting réalise des audits supply chain et logistique au Maroc et en Afrique francophone depuis plus de 20 ans. Nos auditeurs sont des consultants seniors avec des missions de terrain actives — ils ne forment pas sur la théorie, ils auditent sur ce qu'ils font.
+Nextinotech réalise des audits supply chain et logistique au Maroc et en Afrique francophone depuis plus de 20 ans. Nos auditeurs sont des consultants seniors avec des missions de terrain actives — ils ne forment pas sur la théorie, ils auditent sur ce qu'ils font.
 
-**Notre engagement :** chaque audit Essor identifie des gains supérieurs à son coût, ou nous vous remboursons la différence.
+**Notre engagement :** chaque audit Nextinotech identifie des gains supérieurs à son coût, ou nous vous remboursons la différence.
 
-Contactez-nous pour un premier échange de 30 minutes, sans engagement : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
+Contactez-nous pour un premier échange de 30 minutes, sans engagement : **contact@nextinotech.com** · **+212 06 63 44 92 00**
 
 ---
 

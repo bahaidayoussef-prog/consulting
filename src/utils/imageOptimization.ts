@@ -1,4 +1,4 @@
-// Image Optimization Guide for Essor Consulting
+// Image Optimization Guide for Nextinotech
 
 export const IMAGE_OPTIMIZATION_GUIDE = {
   overview: 'Optimize images for web performance while maintaining design quality',

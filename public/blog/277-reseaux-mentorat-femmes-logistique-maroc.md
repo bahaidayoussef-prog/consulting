@@ -1,7 +1,7 @@
 ---
 title: "Réseaux et Mentorat pour Femmes en Logistique : ce qui Existe (et Manque) au Maroc"
 date: "2026-08-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/business.jpg"
 keywords: "réseau femmes logistique maroc, mentorat femmes maroc, association femmes leadership maroc"
@@ -36,7 +36,7 @@ Le Maroc dispose de réseaux de mentorat féminin généralistes solides, mais a
 
 Vous voulez structurer un mentorat interne pour les femmes de vos équipes supply chain ? [Découvrez nos formations RH et management](/formation), ou [contactez-nous](/contact) pour en discuter.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

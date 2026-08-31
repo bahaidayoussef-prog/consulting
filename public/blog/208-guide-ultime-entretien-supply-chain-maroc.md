@@ -1,7 +1,7 @@
 ﻿---
 title: "Guide Ultime : Réussir son Entretien Supply Chain au Maroc en 2026"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/hero-supply-chain.jpg"
 keywords: "guide ultime entretien supply chain Maroc, réussir entretien logistique Maroc 2026, préparation complète entretien SC Maroc, meilleur guide entretien supply chain"
 description: "Le guide de référence complet pour réussir votre entretien supply chain au Maroc en 2026 : de la préparation au suivi post-entretien, toutes les étapes clés en un seul article."
@@ -148,10 +148,10 @@ Pour tout poste supply chain au Maroc en 2026, assurez-vous de maîtriser :
 
 > **Un entretien supply chain réussi, c'est la convergence de trois choses : la compétence (elle se démontre par des exemples chiffrés), la confiance (elle se construit par la préparation), et la connexion humaine (elle se crée par l'authenticité). Préparez-vous suffisamment pour être libre dans l'entretien — pas en train de chercher vos réponses, mais en train de vous connecter avec votre interlocuteur.**
 
-## Essor Consulting — Votre Partenaire de Réussite SC
+## Nextinotech — Votre Partenaire de Réussite SC
 
-Depuis plus de 20 ans, Essor Consulting accompagne les professionnels supply chain marocains dans leurs formations, leurs carrières, et leurs transitions. Nos programmes de coaching entretien combinent expertise sectorielle, simulation réaliste, et feedback personnalisé.
+Depuis plus de 20 ans, Nextinotech accompagne les professionnels supply chain marocains dans leurs formations, leurs carrières, et leurs transitions. Nos programmes de coaching entretien combinent expertise sectorielle, simulation réaliste, et feedback personnalisé.
 
 **Prêt à décrocher votre prochain poste ?**
 
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

@@ -1,7 +1,7 @@
 ﻿---
 title: "Case Study: Oland Group — S&OP Implementation: Cash Cycle -12 Days, Stock -20%"
 date: "2026-06-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/charts.jpg"
 type: "case-study"
 keywords: "S&OP, demand planning, cash cycle, working capital"
@@ -134,5 +134,5 @@ Customer satisfaction: +15% NPS points
 
 ---
 
-**Essor Consulting** — S&OP & Integrated Planning Expertise
+**Nextinotech** — S&OP & Integrated Planning Expertise
 

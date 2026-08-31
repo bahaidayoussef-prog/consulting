@@ -1,19 +1,19 @@
 ---
 title: "Travaillez-vous Avec Petites Entreprises ?"
 date: "2026-08-19"
-author: "Essor Consulting"
+author: "Nextinotech"
 type: "mini-article"
 schema: "FAQPage"
-quickAnswer: "Oui — Essor Consulting est positionné spécifiquement PME et ETI marocaines, avec une entrée accessible dès 35 000 MAD HT pour un diagnostic flash de 2 semaines."
+quickAnswer: "Oui — Nextinotech est positionné spécifiquement PME et ETI marocaines, avec une entrée accessible dès 35 000 MAD HT pour un diagnostic flash de 2 semaines."
 keywords: "consultant PME Maroc, cabinet conseil petite entreprise, diagnostic supply chain PME"
-description: "Essor Consulting travaille-t-il avec les petites entreprises ? Positionnement PME/ETI et tarif d'entrée réel : Diagnostic Flash à partir de 35 000 MAD HT."
+description: "Nextinotech travaille-t-il avec les petites entreprises ? Positionnement PME/ETI et tarif d'entrée réel : Diagnostic Flash à partir de 35 000 MAD HT."
 ---
 
 # Travaillez-vous Avec Petites Entreprises ?
 
 ![Conseil et accompagnement PME](/images/business.jpg)
 
-**Oui — Essor Consulting est positionné spécifiquement pour les PME et ETI marocaines**, pas pour les grands groupes internationaux avec des budgets de transformation à plusieurs millions de MAD. C'est un choix de positionnement, pas une contrainte de taille.
+**Oui — Nextinotech est positionné spécifiquement pour les PME et ETI marocaines**, pas pour les grands groupes internationaux avec des budgets de transformation à plusieurs millions de MAD. C'est un choix de positionnement, pas une contrainte de taille.
 
 ## Un tarif d'entrée pensé pour ce segment
 
@@ -33,7 +33,7 @@ Le positionnement PME/ETI n'est pas une case cochée dans une plaquette commerci
 
 **Notre approche.** Diagnostic Flash comme point d'entrée : cartographie de l'existant, causes racines, leviers chiffrés — sans engagement au-delà de ces 2 semaines.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

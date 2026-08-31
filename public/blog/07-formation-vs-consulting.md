@@ -1,7 +1,7 @@
 ﻿---
 title: "Formation ou Consulting : Quelle Approche Choisir?"
 date: "2026-06-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/business.jpg"
 keywords: "formation supply chain, conseil consulting, formation vs consulting, comment choisir, transformation supply chain"
 description: "Formation seule vs Consulting seul vs Formation + Consulting : guide de décision avec data réelle."
@@ -366,9 +366,9 @@ No pressure. We tell you honnêtement what makes sense pour vous.
 
 ---
 
-👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
-**Essor Consulting**  
+**Nextinotech**  
 Directeur des Achats | Expert Supply Chain & Transformation Digitale  
-Essor Consulting — Casablanca, Maroc  
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+Nextinotech — Casablanca, Maroc  
+📧 contact@nextinotech.com | 📞 +212 663 449 200

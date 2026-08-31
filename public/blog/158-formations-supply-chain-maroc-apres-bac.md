@@ -1,7 +1,7 @@
 ﻿---
 title: "Formations Supply Chain au Maroc après le Bac : Quel Parcours Choisir"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/formation.jpg"
 keywords: "formation supply chain Maroc après bac, études logistique Maroc, diplôme supply chain Maroc, école logistique Maroc bac"
 description: "Quelles formations supply chain choisir après le bac au Maroc ? Comparatif des parcours Bac+2 à Bac+5 : écoles, programmes, débouchés et conseils d'orientation."
@@ -92,11 +92,11 @@ Supply chain + Finance, Supply chain + Digital, Ingénieur + MBA Supply Chain �
 
 > **Le diplôme ouvre des portes. Ce que vous faites pendant et après votre formation les garde ouvertes. Un diplôme solide dans une école reconnue + un bon stage + un réseau actif = les meilleures chances d'une belle carrière supply chain.**
 
-## Essor Consulting — Orientation et Formation
+## Nextinotech — Orientation et Formation
 
-Essor Consulting accompagne les étudiants dans leur orientation formation et les entreprises dans le développement des compétences de leurs équipes supply chain.
+Nextinotech accompagne les étudiants dans leur orientation formation et les entreprises dans le développement des compétences de leurs équipes supply chain.
 
-👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

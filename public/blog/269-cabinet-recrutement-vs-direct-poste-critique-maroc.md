@@ -1,7 +1,7 @@
 ---
 title: "Cabinet de Recrutement vs Recrutement Direct : quelle Stratégie pour un Poste Critique"
 date: "2026-08-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/office.jpg"
 keywords: "recrutement cabinet vs direct maroc, cabinet recrutement logistique maroc, coût recrutement supply chain"
@@ -36,7 +36,7 @@ Le choix entre cabinet et recrutement direct dépend moins du coût direct affic
 
 Vous voulez arbitrer entre cabinet et sourcing direct pour votre prochain recrutement critique ? [Découvrez nos formations RH et management](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

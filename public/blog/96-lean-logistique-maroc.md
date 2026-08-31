@@ -1,7 +1,7 @@
 ﻿---
 title: "Lean Logistique au Maroc : Méthodes, Outils et Résultats Terrain 2026"
 date: "2026-08-04"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/hero-warehouse.jpg"
 keywords: "lean logistique maroc, amélioration continue entrepôt maroc, lean supply chain maroc, 5S entrepôt maroc, kaizen logistique maroc"
 description: "Lean logistique au Maroc : 5S, VSM, Kaizen appliqués à l'entrepôt et à la supply chain. Méthodes concrètes et résultats chiffrés issus de 20+ ans de terrain au Maroc."
@@ -35,7 +35,7 @@ Le Lean identifie 7 types de gaspillages (en japonais : *muda*). En logistique, 
 
 **Comment les mesurer dans votre entrepôt :** Passez une demi-journée à chronométrer les activités de vos opérateurs en distinguant les activités à valeur ajoutée (picking, rangement, expédition) des activités sans valeur ajoutée (chercher, attendre, refaire). Dans 90% des entrepôts que j'ai audités, moins de 50% du temps des opérateurs est consacré à des activités réellement productives.
 
-::stat:: 45% — part moyenne du temps opérateur consacrée à des activités sans valeur ajoutée dans les entrepôts marocains non optimisés (mesures chronométriques Essor Consulting)
+::stat:: 45% — part moyenne du temps opérateur consacrée à des activités sans valeur ajoutée dans les entrepôts marocains non optimisés (mesures chronométriques Nextinotech)
 
 ---
 
@@ -189,9 +189,9 @@ Cette séquence génère des résultats visibles dès le mois 2 — ce qui crée
 
 ---
 
-## Programme Lean Logistique avec Essor Consulting
+## Programme Lean Logistique avec Nextinotech
 
-Essor Consulting anime des chantiers lean logistique au Maroc depuis plus de 20 ans. Notre approche est résolument terrain : pas de formation en salle déconnectée de la réalité, mais des chantiers concrets dans votre entrepôt avec vos équipes.
+Nextinotech anime des chantiers lean logistique au Maroc depuis plus de 20 ans. Notre approche est résolument terrain : pas de formation en salle déconnectée de la réalité, mais des chantiers concrets dans votre entrepôt avec vos équipes.
 
 **Ce que nous proposons :**
 - **Diagnostic lean** (2 jours) : identification des gaspillages prioritaires, cartographie VSM du flux principal
@@ -200,7 +200,7 @@ Essor Consulting anime des chantiers lean logistique au Maroc depuis plus de 20 
 - **Programme lean complet** (3 à 12 mois) : accompagnement structuré avec suivi des résultats
 - **Formation lean pour managers** : former vos responsables à piloter l'amélioration continue en autonomie
 
-Contactez-nous pour un diagnostic lean de votre entrepôt : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
+Contactez-nous pour un diagnostic lean de votre entrepôt : **contact@nextinotech.com** · **+212 06 63 44 92 00**
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Litiges Douaniers et Contentieux Import-Export : Éviter les Pièges Coûteux"
 date: "2026-08-27"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/conseil.jpg"
 keywords: "litige douanier maroc import export, contentieux douanier maroc, recours douane maroc, offre transactionnelle douane"
@@ -36,7 +36,7 @@ Le contentieux douanier marocain suit une procédure structurée — réclamatio
 
 Votre entreprise fait face à une notification ou un contrôle douanier, ou souhaite auditer ses pratiques déclaratives en amont ? [Découvrez nos services de conseil douane et supply chain](/conseil), ou [contactez-nous](/contact) pour en discuter.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

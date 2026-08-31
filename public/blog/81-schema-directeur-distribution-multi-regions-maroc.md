@@ -1,7 +1,7 @@
 ﻿---
 title: "Schéma Directeur Distribution Multi-Régions au Maroc : Stratégie et Mise en Œuvre 2026"
 date: "2026-08-04"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/charts.jpg"
 keywords: "schéma directeur distribution maroc, stratégie distribution multi-régionale maroc, réseau distribution régional maroc, expansion logistique maroc, couverture nationale distribution maroc"
 description: "Construire une stratégie de distribution multi-régionale au Maroc : modèles de réseau, décision hub vs dépôt, politique de stock et plan d'expansion. Méthode et cas réels."
@@ -158,7 +158,7 @@ Stock cible dépôt = (Demande journalière moyenne × Délai entre 2 réappros)
 
 En cas de rupture sur un dépôt et de surplus sur un autre, le transfert inter-dépôts est tentant — mais coûteux. Définissez des règles claires : en dessous de quel seuil de stock un transfert est déclenché, et quel est le coût de ce transfert vs l'impact de la rupture.
 
-::stat:: 28% — stock additionnel nécessaire en moyenne pour maintenir le même taux de service lors du passage d'un réseau mono-site à un réseau 3 dépôts (données Essor Consulting)
+::stat:: 28% — stock additionnel nécessaire en moyenne pour maintenir le même taux de service lors du passage d'un réseau mono-site à un réseau 3 dépôts (données Nextinotech)
 
 ---
 
@@ -176,9 +176,9 @@ Un réseau de dépôts régionaux sans gouvernance forte devient rapidement ing�
 
 ---
 
-## Accompagnement Multi-Régional avec Essor Consulting
+## Accompagnement Multi-Régional avec Nextinotech
 
-Essor Consulting accompagne les entreprises marocaines dans leur déploiement multi-régional :
+Nextinotech accompagne les entreprises marocaines dans leur déploiement multi-régional :
 
 - Analyse du potentiel régional et identification des zones prioritaires
 - Choix du modèle de distribution adapté (transit, stockage, cross-dock)
@@ -187,7 +187,7 @@ Essor Consulting accompagne les entreprises marocaines dans leur déploiement mu
 - Pilotage de l'ouverture des premiers dépôts
 - Mise en place de la gouvernance réseau
 
-Contactez-nous : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
+Contactez-nous : **contact@nextinotech.com** · **+212 06 63 44 92 00**
 
 ---
 

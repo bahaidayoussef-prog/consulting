@@ -1,7 +1,7 @@
 ﻿---
 title: "LinkedIn pour les Jeunes Diplômés Supply Chain : Guide Complet"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/office.jpg"
 keywords: "LinkedIn jeune diplômé supply chain Maroc, profil LinkedIn logistique étudiant, optimiser LinkedIn supply chain junior, LinkedIn emploi supply chain"
 description: "Comment construire un profil LinkedIn percutant quand on est jeune diplômé supply chain au Maroc ? Titre, résumé, expériences, activité — guide étape par étape."
@@ -111,9 +111,9 @@ Objectif : 500+ connexions dans les 3 premiers mois de recherche active.
 
 > **LinkedIn n'est pas un CV en ligne. C'est une vitrine dynamique que vous mettez à jour, sur laquelle vous publiez, et via laquelle vous interagissez. Les jeunes diplômés supply chain qui construisent leur présence LinkedIn DÈS leur formation trouvent un emploi 2 à 3 fois plus vite que ceux qui ne le font pas.**
 
-## Essor Consulting — Optimisation LinkedIn
+## Nextinotech — Optimisation LinkedIn
 
-Essor Consulting propose des sessions d'optimisation de profil LinkedIn pour les jeunes diplômés supply chain.
+Nextinotech propose des sessions d'optimisation de profil LinkedIn pour les jeunes diplômés supply chain.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

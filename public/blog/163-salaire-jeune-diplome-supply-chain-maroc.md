@@ -1,7 +1,7 @@
 ﻿---
 title: "Salaires des Jeunes Diplômés Supply Chain au Maroc en 2026"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/business.jpg"
 keywords: "salaire jeune diplômé supply chain Maroc, salaire débutant logistique Maroc, rémunération junior supply chain Maroc 2026, combien gagne logisticien débutant Maroc"
 description: "Quels salaires pour les jeunes diplômés supply chain au Maroc en 2026 ? Fourchettes par niveau d'études, secteur, ville, avec conseils pour maximiser sa rémunération."
@@ -104,9 +104,9 @@ La règle d'or : ne pas perdre une offre pour 1 000-2 000 MAD par mois. La quali
 
 > **Le salaire de départ est important — mais il n'est pas votre salaire pour toujours. La qualité de l'apprentissage, la réputation de l'entreprise, et la rapidité de progression importent davantage dans les premières années. Choisissez bien, pas seulement cher.**
 
-## Essor Consulting — Conseil Salarial
+## Nextinotech — Conseil Salarial
 
-Essor Consulting accompagne les jeunes diplômés dans leur compréhension du marché salarial et leurs premières négociations.
+Nextinotech accompagne les jeunes diplômés dans leur compréhension du marché salarial et leurs premières négociations.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

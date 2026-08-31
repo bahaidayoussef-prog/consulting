@@ -1,7 +1,7 @@
 ﻿---
 title: "Entretien Supply Chain dans le Secteur Pharmaceutique au Maroc"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/business.jpg"
 keywords: "entretien supply chain pharmaceutique Maroc, recrutement logistique pharma Maroc, supply chain santé Maroc entretien, questions SC pharma"
 description: "Comment réussir un entretien supply chain dans l'industrie pharmaceutique au Maroc ? Les normes BPF, la traçabilité, et ce que les recruteurs évaluent dans ce secteur réglementé."
@@ -87,9 +87,9 @@ Montrez que vous avez intégré ces valeurs :
 
 > **La supply chain pharmaceutique au Maroc est en forte croissance — l'ambition d'exportateur majeur de médicaments pour l'Afrique crée de nombreux postes. Mais c'est un secteur où la rigueur n'est pas optionnelle. Les candidats qui réussissent sont ceux qui ont vraiment internalisé la culture qualité — pas juste ceux qui connaissent les acronymes.**
 
-## Essor Consulting — Formation SC Pharmaceutique
+## Nextinotech — Formation SC Pharmaceutique
 
-Essor Consulting propose des formations supply chain adaptées aux exigences du secteur pharmaceutique marocain.
+Nextinotech propose des formations supply chain adaptées aux exigences du secteur pharmaceutique marocain.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

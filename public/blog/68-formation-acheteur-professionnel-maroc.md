@@ -1,7 +1,7 @@
 ---
 title: "Formation Acheteur Professionnel au Maroc : Compétences, Salaires et Débouchés 2026"
 date: "2026-08-10"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/business.jpg"
 keywords: "formation acheteur professionnel maroc, cursus acheteur maroc, acheteur supply chain maroc, formation achats casablanca, certification acheteur maroc, négociation achats formation maroc, responsable achats maroc"
 description: "Guide complet formation Acheteur Professionnel au Maroc : ce que fait vraiment un acheteur, compétences, programme 3 modules, certifications, salaires et débouchés 2026."
@@ -9,13 +9,13 @@ description: "Guide complet formation Acheteur Professionnel au Maroc : ce que f
 
 # Formation Acheteur Professionnel au Maroc : Compétences, Salaires et Débouchés 2026
 
-La fonction achats est l'une des plus stratégiques de l'entreprise — et l'une des plus sous-estimées. Au Maroc, avec plus de 710 millions de MAD d'achats pilotés dans les missions d'Essor Consulting, nous pouvons affirmer sans ambiguïté : **un bon acheteur crée plus de valeur qu'un bon commercial dans de nombreux secteurs**, et génère 3 à 8 fois son salaire en économies annuelles pour son entreprise.
+La fonction achats est l'une des plus stratégiques de l'entreprise — et l'une des plus sous-estimées. Au Maroc, avec plus de 710 millions de MAD d'achats pilotés dans les missions de Nextinotech, nous pouvons affirmer sans ambiguïté : **un bon acheteur crée plus de valeur qu'un bon commercial dans de nombreux secteurs**, et génère 3 à 8 fois son salaire en économies annuelles pour son entreprise.
 
 Pourtant, la formation achats au Maroc reste embryonnaire et les profils vraiment compétents sont rares. La bonne nouvelle : c'est une compétence qui s'apprend, et vite.
 
 ![Négociation et stratégie achats — performance supply chain au Maroc](/images/business.jpg)
 
-::stat:: 710M MAD — d'achats pilotés dans les missions Essor Consulting au Maroc et en Afrique
+::stat:: 710M MAD — d'achats pilotés dans les missions Nextinotech au Maroc et en Afrique
 
 ---
 
@@ -103,7 +103,7 @@ En moyenne, les achats représentent 60 à 70% du CA dans une entreprise industr
 
 **MBA Achats / Master Achats** — plusieurs écoles marocaines (ISCAE, ENCG, écoles privées) proposent des cursus spécialisés, valorisés dans les grandes entreprises et multinationales.
 
-**Certification Essor Consulting — Achats Stratégiques** — programme terrain adapté aux réalités marocaines, applicable immédiatement. Pour les professionnels qui ne peuvent pas s'engager dans un cursus long, nos formations courtes de 3 à 5 jours permettent de structurer rapidement leurs compétences avec une attestation de formation.
+**Certification Nextinotech — Achats Stratégiques** — programme terrain adapté aux réalités marocaines, applicable immédiatement. Pour les professionnels qui ne peuvent pas s'engager dans un cursus long, nos formations courtes de 3 à 5 jours permettent de structurer rapidement leurs compétences avec une attestation de formation.
 
 ---
 
@@ -161,6 +161,6 @@ Dans notre programme **Responsable Logistique et Supply Chain**, le module achat
 
 La fonction achats au Maroc offre de très belles perspectives pour les professionnels qui investissent dans leur formation. La pénurie de profils vraiment compétents crée des opportunités réelles de différenciation et de progression rapide.
 
-👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
-**Essor Consulting a piloté plus de 710 millions de MAD d'achats dans ses missions.** Nous partageons cette expérience dans nos formations. Contactez-nous pour un programme adapté à votre profil : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
+**Nextinotech a piloté plus de 710 millions de MAD d'achats dans ses missions.** Nous partageons cette expérience dans nos formations. Contactez-nous pour un programme adapté à votre profil : **contact@nextinotech.com** · **+212 06 63 44 92 00**

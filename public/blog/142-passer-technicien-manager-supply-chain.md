@@ -1,7 +1,7 @@
 ﻿---
 title: "Passer de Technicien à Manager Supply Chain : La Transition Clé"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/formation.jpg"
 keywords: "passer technicien manager supply chain Maroc, promotion manager logistique, devenir responsable supply chain, transition management logistique"
 description: "Comment passer de technicien à manager supply chain au Maroc ? Les compétences à développer, les pièges à éviter, et la stratégie pour réussir cette transition critique."
@@ -73,9 +73,9 @@ La transition vers le management au sein de la même équipe est la plus délica
 
 > **La mesure d'un bon manager n'est pas ce qu'il accomplit lui-même. C'est ce que son équipe accomplit sans lui. Si votre équipe peut fonctionner correctement pendant 48 heures en votre absence, vous êtes manager. Sinon, vous êtes encore technicien avec un titre.**
 
-## Essor Consulting — Formation Management
+## Nextinotech — Formation Management
 
-Essor Consulting propose une formation management supply chain pour les techniciens qui font leur première transition vers l'encadrement.
+Nextinotech propose une formation management supply chain pour les techniciens qui font leur première transition vers l'encadrement.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

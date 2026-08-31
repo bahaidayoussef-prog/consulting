@@ -1,7 +1,7 @@
 ﻿---
 title: "Supply Chain Durable au Maroc : Concilier Performance et RSE en 2026"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/hero-supply-chain.jpg"
 keywords: "supply chain durable Maroc, green logistics Maroc, RSE supply chain, logistique verte Maroc, empreinte carbone supply chain"
 description: "Supply chain durable au Maroc : comment concilier performance logistique et RSE en 2026. Outils concrets, exemples réels, et guide pratique pour passer à l'action."
@@ -95,14 +95,14 @@ Oui. Et souvent, être durable rend plus compétitif. Les marges gagnées sur le
 
 Après 20 ans de missions au Maroc et en Afrique, je n'ai pas vu une seule entreprise regretter d'avoir optimisé sa supply chain dans ce sens. Les regrets vont toujours dans l'autre direction : "On aurait dû commencer plus tôt."
 
-## Essor Consulting — Diagnostic Supply Chain Durable
+## Nextinotech — Diagnostic Supply Chain Durable
 
-Essor Consulting propose un diagnostic supply chain durable en 2-3 jours : identification des sources d'émissions et d'inefficiences, quick wins RSE avec ROI chiffré, plan d'action priorisé et réaliste.
+Nextinotech propose un diagnostic supply chain durable en 2-3 jours : identification des sources d'émissions et d'inefficiences, quick wins RSE avec ROI chiffré, plan d'action priorisé et réaliste.
 
 Résultat attendu : un plan concret avec des économies financières mesurables — pas un rapport RSE de 100 pages que personne ne lit.
 
 **Contactez-nous** pour un premier échange gratuit :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200
 
 ---
 

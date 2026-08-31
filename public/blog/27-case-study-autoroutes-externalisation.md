@@ -1,7 +1,7 @@
 ﻿---
 title: "Case Study: Autoroutes du Maroc — Externalisation Pilotage: 1.2 Milliard MAD Budget"
 date: "2026-06-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/transport.jpg"
 type: "case-study"
 keywords: "Autoroutes, externalisation, SLA, gestion contrats"
@@ -33,5 +33,5 @@ description: "Autoroutes Maroc: 1.2 MMAD externalisation (Péage + Assistance) �
 
 ---
 
-**Essor Consulting** — Vendor Management & Externalisation Strategy
+**Nextinotech** — Vendor Management & Externalisation Strategy
 

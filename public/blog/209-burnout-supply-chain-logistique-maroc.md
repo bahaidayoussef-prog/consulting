@@ -1,7 +1,7 @@
 ---
 title: "Burnout en Supply Chain au Maroc : Signaux et Prévention"
 date: "2026-08-07"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/office.jpg"
 keywords: "burnout supply chain maroc, épuisement professionnel logistique, stress responsable logistique, prévenir burnout maroc, gestion énergie manager supply chain"
 description: "Burnout en supply chain et logistique au Maroc : signaux d'alerte spécifiques aux métiers à astreinte, facteurs de risque du secteur et méthode de prévention terrain."
@@ -72,7 +72,7 @@ Un DAF ou un DG qui découvre le burnout de son Responsable Logistique au moment
 
 ## Notre Formation : Prévenir le Burnout & Gérer son Énergie
 
-Essor Consulting propose une formation d'une journée dédiée à ce sujet : **Prévenir le Burnout & Gérer son Énergie**, conçue spécifiquement pour les managers et cadres opérationnels en environnement à forte pression (supply chain, logistique, achats). Elle couvre les signaux faibles, l'auto-diagnostic individuel, les techniques de gestion de l'énergie et de récupération active, et la construction d'un plan d'action avec relais managérial. Format intra-entreprise, adapté à votre contexte, à partir de 12 000 MAD HT/groupe.
+Nextinotech propose une formation d'une journée dédiée à ce sujet : **Prévenir le Burnout & Gérer son Énergie**, conçue spécifiquement pour les managers et cadres opérationnels en environnement à forte pression (supply chain, logistique, achats). Elle couvre les signaux faibles, l'auto-diagnostic individuel, les techniques de gestion de l'énergie et de récupération active, et la construction d'un plan d'action avec relais managérial. Format intra-entreprise, adapté à votre contexte, à partir de 12 000 MAD HT/groupe.
 
 👉 **[Voir le programme complet et les autres formations du catalogue](/formation)**
 
@@ -80,6 +80,6 @@ Pour aller plus loin sur la structuration de votre équipe et de votre propre tr
 
 ## En Résumé
 
-Le burnout en supply chain au Maroc n'est pas une fatalité liée au métier — c'est le résultat d'une charge non pilotée dans un environnement structurellement exigeant. Reconnaître les signaux tôt, chez soi comme chez son équipe, et poser des limites concrètes change tout. Si vous reconnaissez ces signaux dans votre équipe ou chez vous-même, **contactez Essor Consulting** pour un échange sur la formation ou un diagnostic de charge organisationnelle.
+Le burnout en supply chain au Maroc n'est pas une fatalité liée au métier — c'est le résultat d'une charge non pilotée dans un environnement structurellement exigeant. Reconnaître les signaux tôt, chez soi comme chez son équipe, et poser des limites concrètes change tout. Si vous reconnaissez ces signaux dans votre équipe ou chez vous-même, **contactez Nextinotech** pour un échange sur la formation ou un diagnostic de charge organisationnelle.
 
-📧 essor.consulting.maroc@gmail.com | 📞 +212 06 63 44 92 00
+📧 contact@nextinotech.com | 📞 +212 06 63 44 92 00

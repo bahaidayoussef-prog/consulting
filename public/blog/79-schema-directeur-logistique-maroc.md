@@ -1,10 +1,10 @@
 ﻿---
 title: "Schéma Directeur Logistique au Maroc : Méthode et Livrables 2026"
 date: "2026-08-04"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/charts.jpg"
 keywords: "schéma directeur logistique maroc, plan directeur supply chain, conception réseau logistique maroc, transformation logistique maroc, stratégie supply chain maroc"
-description: "Qu'est-ce qu'un Schéma Directeur Logistique, quand en lancer un, quelle méthode, quels livrables et quel budget ? Guide complet par Essor Consulting — 110+ missions."
+description: "Qu'est-ce qu'un Schéma Directeur Logistique, quand en lancer un, quelle méthode, quels livrables et quel budget ? Guide complet par Nextinotech — 110+ missions."
 ---
 
 # Schéma Directeur Logistique au Maroc : Méthode et Livrables 2026
@@ -26,7 +26,7 @@ Un Schéma Directeur Logistique est une **décision stratégique documentée** q
 - Ce n'est pas un cahier des charges WMS (qui est un livrable possible du SDL, pas le SDL lui-même)
 - Ce n'est pas un PowerPoint de benchmarks sectoriels sans ancrage dans votre réalité
 
-> **Un Schéma Directeur Logistique sans modèle financier n'est pas un SDL — c'est une présentation.** Chez Essor Consulting, chaque SDL inclut un modèle de coût comparatif pour chaque scénario : investissements, coûts d'exploitation sur 5 ans, et ROI prévisionnel.
+> **Un Schéma Directeur Logistique sans modèle financier n'est pas un SDL — c'est une présentation.** Chez Nextinotech, chaque SDL inclut un modèle de coût comparatif pour chaque scénario : investissements, coûts d'exploitation sur 5 ans, et ROI prévisionnel.
 
 ---
 
@@ -99,9 +99,9 @@ Le SDL ne s'arrête pas à la décision — il trace le chemin. La roadmap déta
 
 ---
 
-## Ce que Contient un SDL Essor Consulting : Les Livrables
+## Ce que Contient un SDL Nextinotech : Les Livrables
 
-Un SDL complet produit par Essor Consulting comprend :
+Un SDL complet produit par Nextinotech comprend :
 
 | Livrable | Format | Destinataire |
 |----------|--------|-------------|
@@ -135,7 +135,7 @@ Un SDL complet produit par Essor Consulting comprend :
 
 Ces montants sont à mettre en regard des décisions qui seront prises sur la base du SDL : un projet entrepôt ou WMS mal décidé peut coûter 5 à 10 fois le prix du SDL en surcoûts et corrections sur 5 ans.
 
-::stat:: 3 scénarios minimum — livrés à chaque SDL Essor Consulting avec modèle financier comparatif sur 5 ans
+::stat:: 3 scénarios minimum — livrés à chaque SDL Nextinotech avec modèle financier comparatif sur 5 ans
 
 ---
 
@@ -164,11 +164,11 @@ Ces montants sont à mettre en regard des décisions qui seront prises sur la ba
 
 Un SDL logistique est souvent accompagné — ou suivi — d'un **SDSI logistique** (Schéma Directeur des Systèmes d'Information). Les deux sont liés : les choix de réseau logistique déterminent les besoins en WMS, TMS, APS et ERP.
 
-Essor Consulting intègre les deux dimensions dans ses missions SDL : nous n'allons pas recommander un réseau multi-sites sans modéliser les besoins SI que ça implique, et sans chiffrer le coût des systèmes dans le business case.
+Nextinotech intègre les deux dimensions dans ses missions SDL : nous n'allons pas recommander un réseau multi-sites sans modéliser les besoins SI que ça implique, et sans chiffrer le coût des systèmes dans le business case.
 
 ---
 
-## Pourquoi Choisir Essor Consulting pour votre Schéma Directeur
+## Pourquoi Choisir Nextinotech pour votre Schéma Directeur
 
 Trois raisons concrètes, pas des arguments marketing :
 
@@ -178,7 +178,7 @@ Trois raisons concrètes, pas des arguments marketing :
 
 **3. Livrables actionnables.** Nous livrons des modèles financiers que votre DAF peut challenger, des roadmaps que vos chefs de projet peuvent exécuter, et des cahiers des charges que vos équipes achats peuvent utiliser immédiatement. Pas des rapports de 100 pages qui finissent dans un tiroir.
 
-Contactez-nous pour un premier cadrage de votre SDL : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
+Contactez-nous pour un premier cadrage de votre SDL : **contact@nextinotech.com** · **+212 06 63 44 92 00**
 
 ---
 

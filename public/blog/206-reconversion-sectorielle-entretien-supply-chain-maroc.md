@@ -1,7 +1,7 @@
 ﻿---
 title: "Changer de Secteur en Supply Chain au Maroc : Réussir son Entretien"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/hero-supply-chain.jpg"
 keywords: "reconversion sectorielle supply chain Maroc, changer secteur logistique Maroc, entretien reconversion supply chain, passer FMCG automobile Maroc"
 description: "Comment convaincre un recruteur supply chain lors d'un changement de secteur au Maroc ? Les arguments à préparer, les compétences transférables, et comment gérer les objections."
@@ -100,9 +100,9 @@ Dans votre entretien, construisez votre argument autour des compétences des cat
 
 > **Un changement de secteur réussi en supply chain se prépare comme un projet : vous identifiez le gap, vous le réduisez proactivement (formations, networking, lecture sectorielle), et vous le vendez comme un différenciateur — pas comme une excuse.**
 
-## Essor Consulting — Coaching Reconversion Sectorielle
+## Nextinotech — Coaching Reconversion Sectorielle
 
-Essor Consulting accompagne les professionnels supply chain dans leurs transitions sectorielles : audit des compétences transférables, stratégie de positionnement, et préparation aux entretiens.
+Nextinotech accompagne les professionnels supply chain dans leurs transitions sectorielles : audit des compétences transférables, stratégie de positionnement, et préparation aux entretiens.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

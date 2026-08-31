@@ -1,7 +1,7 @@
 ---
 title: "Cartographier les Risques de sa Supply Chain : la Méthode en 4 Étapes"
 date: "2026-08-24"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/conseil.jpg"
 keywords: "cartographie risques supply chain, méthode PPRR supply chain, gestion des risques logistique maroc, audit risque fournisseur"
@@ -44,7 +44,7 @@ La méthode PPRR structure la gestion des risques de supply chain en quatre éta
 
 Vous voulez identifier les risques critiques de votre supply chain avant qu'ils ne se matérialisent ? [Découvrez nos formations](/formation), ou [contactez-nous](/contact) pour un audit de cartographie des risques.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

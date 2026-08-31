@@ -1,7 +1,7 @@
 ---
 title: "IoT et Capteurs Connectés en Entrepôt : ce qu'ils Changent Vraiment"
 date: "2026-08-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/hero-warehouse.jpg"
 keywords: "IoT entrepôt maroc, capteurs connectés logistique, maintenance prédictive entrepôt, internet des objets logistique"
@@ -36,7 +36,7 @@ L'IoT en entrepôt n'apporte de valeur que combiné à un processus clair de ré
 
 Vous voulez identifier l'équipement où un pilote IoT aurait le plus d'impact dans votre entrepôt ? [Découvrez nos formations logistique](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

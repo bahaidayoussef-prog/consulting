@@ -1,7 +1,7 @@
 ﻿---
 title: "Réseaux Professionnels Logistique au Maroc : Comment les Utiliser"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/office.jpg"
 keywords: "réseau professionnel logistique Maroc, networking supply chain Maroc, AMLOG, associations logistique Maroc, réseau logisticien Maroc"
 description: "Les réseaux professionnels supply chain au Maroc : quelles associations rejoindre, comment utiliser LinkedIn, et comment construire un réseau qui ouvre des opportunités."
@@ -78,9 +78,9 @@ Cette approche est plus naturelle, moins directe, et souvent plus efficace.
 
 > **Un réseau se construit en temps de calme et se récolte en temps de besoin. Les professionnels SC qui ont du mal à trouver un poste sont souvent ceux qui n'ont jamais investi dans leur réseau quand tout allait bien.**
 
-## Essor Consulting — Développement Réseau
+## Nextinotech — Développement Réseau
 
-Essor Consulting coache les professionnels supply chain dans la construction et l'activation de leur réseau professionnel.
+Nextinotech coache les professionnels supply chain dans la construction et l'activation de leur réseau professionnel.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

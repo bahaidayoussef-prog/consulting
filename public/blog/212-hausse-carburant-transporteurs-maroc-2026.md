@@ -1,7 +1,7 @@
 ---
 title: "Hausse des Prix du Carburant : Comment les Transporteurs Marocains Absorbent le Choc en 2026"
 date: "2026-08-19"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/transport.jpg"
 keywords: "hausse carburant transporteurs maroc 2026, prix gasoil maroc 2026, aide transport routier maroc, coût carburant transport"
@@ -42,7 +42,7 @@ La hausse du carburant en 2026 n'est pas un pic ponctuel mais une tendance insta
 
 Vous pilotez des coûts de transport exposés à cette volatilité ? [Découvrez nos formations](/formation) sur l'optimisation transport et TMS, ou [contactez-nous](/contact) pour un premier échange gratuit.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

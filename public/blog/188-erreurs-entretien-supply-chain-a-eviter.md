@@ -1,7 +1,7 @@
 ﻿---
 title: "Les 15 Erreurs à Éviter en Entretien Supply Chain au Maroc"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/conseil.jpg"
 keywords: "erreurs entretien supply chain Maroc, pièges entretien logistique, fautes entretien supply chain, ce qu'il ne faut pas faire entretien supply chain"
 description: "Les 15 erreurs les plus fréquentes en entretien supply chain au Maroc, observées par des recruteurs, avec les correctifs pour les éviter."
@@ -137,9 +137,9 @@ Ces erreurs viennent directement de DRH et de DSC marocains interrogés sur ce q
 
 > **Ces 15 erreurs ne sont pas des fautes d'intelligence ou de compétence. Ce sont des fautes de préparation et de conscience professionnelle. Chacune est évitable — si vous la connaissez avant l'entretien.**
 
-## Essor Consulting — Coaching Entretien
+## Nextinotech — Coaching Entretien
 
-Essor Consulting vous prépare à l'entretien supply chain en identifiant et corrigeant vos erreurs spécifiques avant le vrai entretien.
+Nextinotech vous prépare à l'entretien supply chain en identifiant et corrigeant vos erreurs spécifiques avant le vrai entretien.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

@@ -1,7 +1,7 @@
 ﻿---
 title: "Supply Chain Optimisée par Secteur : Textile, Agro, Industrie"
 date: "2026-06-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/hero-supply-chain.jpg"
 keywords: "supply chain textile Maroc, logistique agroalimentaire, supply chain industrielle, optimisation secteur"
 description: "Chaque secteur a des enjeux différents. Textile ≠ Agro ≠ Industrie. Guide par secteur avec cas réels et solutions."
@@ -62,7 +62,7 @@ Après 18 ans et 110+ missions (Maghreb Steel sidérurgie, Crouzet aéronautique
 - Quality rejection : 4.2%
 - Saving manqué vs benchmarks : 18%
 
-**Intervention Essor Consulting (12 semaines) :**
+**Intervention Nextinotech (12 semaines) :**
 
 1. **Stratégie Sourcing** (4 semaines)
    - Audit fournisseurs actuels
@@ -138,7 +138,7 @@ Après 18 ans et 110+ missions (Maghreb Steel sidérurgie, Crouzet aéronautique
 - Lead time cash cycle : 48 jours
 - Certifications : Audit failures frequent
 
-**Intervention Essor Consulting (16 semaines) :**
+**Intervention Nextinotech (16 semaines) :**
 
 1. **Approvisionnement Stratégique** (4 semaines)
    - Contrats long-terme avec producteurs (sécurité volume)
@@ -222,7 +222,7 @@ Après 18 ans et 110+ missions (Maghreb Steel sidérurgie, Crouzet aéronautique
 - Problème : Flux interne chaotique, in-plant logistics non-optimisé
 - Risque : Production ramping stalled
 
-**Intervention Renault Groupe/Essor Consulting (18 months) :**
+**Intervention Renault Groupe/Nextinotech (18 months) :**
 
 1. **Ingénierie Conception** (4 mois)
    - Define schémas circulation + flux logistiques internes (in-plant)
@@ -322,7 +322,7 @@ On identifie vos pain points spécifiques au secteur, et on vous donne roadmap p
 
 ---
 
-**Essor Consulting**  
+**Nextinotech**  
 Directeur des Achats | Expert Supply Chain & Transformation Digitale  
-Essor Consulting — Casablanca, Maroc  
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+Nextinotech — Casablanca, Maroc  
+📧 contact@nextinotech.com | 📞 +212 663 449 200

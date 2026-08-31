@@ -1,7 +1,7 @@
 ﻿---
 title: "CV Supply Chain Parfait au Maroc : Structure, Contenu et Erreurs à Éviter"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/office.jpg"
 keywords: "CV supply chain Maroc, rédiger CV logistique Maroc, CV responsable logistique, CV acheteur Maroc, modèle CV supply chain"
 description: "Comment rédiger un CV supply chain qui attire les recruteurs au Maroc ? Structure, mots-clés, erreurs à éviter et exemples de formulations percutantes. Guide 2026."
@@ -83,9 +83,9 @@ Exemples :
 
 > **Votre CV n'est pas une liste de ce que vous avez fait. C'est une preuve de ce que vous pouvez apporter. La différence est fondamentale.**
 
-## Essor Consulting — Coaching CV et Préparation Emploi
+## Nextinotech — Coaching CV et Préparation Emploi
 
-Essor Consulting propose un coaching CV + LinkedIn pour les professionnels supply chain en recherche d'emploi. Session individuelle de 90 minutes.
+Nextinotech propose un coaching CV + LinkedIn pour les professionnels supply chain en recherche d'emploi. Session individuelle de 90 minutes.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

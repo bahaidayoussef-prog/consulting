@@ -1,7 +1,7 @@
 ﻿---
 title: "Après l'Entretien Supply Chain : Ce qu'il Faut Faire"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/office.jpg"
 keywords: "après entretien supply chain Maroc, suivi entretien logistique Maroc, relance entretien supply chain, attendre réponse entretien logistique"
 description: "Que faire après un entretien supply chain au Maroc ? Email de suivi, relance, analyse de l'entretien, et comment gérer l'attente d'une décision."
@@ -101,9 +101,9 @@ L'attente d'une réponse après un entretien est souvent stressante. Quelques r�
 
 > **L'entretien se termine quand vous signiez le contrat, pas quand vous sortez du bureau. Le suivi professionnel, le bilan honnête, et la persévérance dans votre recherche sont la suite logique d'une préparation sérieuse. Les meilleurs candidats ne subissent pas le processus — ils le pilotent.**
 
-## Essor Consulting — Accompagnement Complet
+## Nextinotech — Accompagnement Complet
 
-Essor Consulting vous accompagne de la préparation à la signature : coaching entretien, suivi post-entretien, négociation de l'offre.
+Nextinotech vous accompagne de la préparation à la signature : coaching entretien, suivi post-entretien, négociation de l'offre.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

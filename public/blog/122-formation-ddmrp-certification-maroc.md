@@ -1,7 +1,7 @@
 ﻿---
 title: "Formation DDMRP au Maroc : Certification Practitioner et Résultats Terrain"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/charts.jpg"
 keywords: "formation DDMRP Maroc, certification DDMRP Maroc, DDMRP Practitioner Maroc, Demand Driven MRP formation, DDMRP planification Maroc"
 description: "Formation DDMRP au Maroc : qu'est-ce que le Demand Driven MRP, pourquoi c'est la méthode de planification de référence en 2026 et comment se certifier."
@@ -78,11 +78,11 @@ La certification DDMRP Practitioner est délivrée par le Demand Driven Institut
 
 > **Le DDMRP n'est pas une révolution théorique. C'est un outil pratique que j'ai vu transformer des entrepôts chaotiques en organisations structurées en 90 jours. La formation est le seul prérequis.**
 
-## Essor Consulting — Formation DDMRP Certifiante
+## Nextinotech — Formation DDMRP Certifiante
 
 Formation DDMRP 2 jours avec préparation à la certification Practitioner. Inclut des simulations sur logiciel et des cas marocains réels.
 
-👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
 **Contactez-nous** pour les prochaines dates :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

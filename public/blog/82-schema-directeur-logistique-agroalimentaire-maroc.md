@@ -1,7 +1,7 @@
 ﻿---
 title: "Schéma Directeur Logistique Agroalimentaire au Maroc : Méthode et Enjeux 2026"
 date: "2026-08-04"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/conseil.jpg"
 keywords: "logistique agroalimentaire maroc, schéma directeur agroalimentaire maroc, supply chain alimentaire maroc, chaîne du froid maroc, traçabilité agroalimentaire maroc"
 description: "Schéma directeur logistique pour l'industrie agroalimentaire marocaine : chaîne du froid, traçabilité ONSSA, saisonnalité et conformité export. Méthode et cas concrets 2026."
@@ -118,7 +118,7 @@ Le plan d'investissement chiffre les actions nécessaires pour atteindre l'organ
 | Certification BRC / IFS (audit + mise à niveau) | 150 000 – 400 000 | 6 – 18 mois |
 | Formation des équipes logistique et qualité | 20 000 – 60 000 | 1 – 3 mois |
 
-::stat:: 18 mois — durée moyenne d'un projet de transformation logistique agroalimentaire pour atteindre la conformité export UE (BRC/IFS) dans les entreprises marocaines accompagnées par Essor Consulting
+::stat:: 18 mois — durée moyenne d'un projet de transformation logistique agroalimentaire pour atteindre la conformité export UE (BRC/IFS) dans les entreprises marocaines accompagnées par Nextinotech
 
 ### Horizon 4 — KPIs et Plan de Suivi
 
@@ -192,9 +192,9 @@ L'externalisation logistique en agroalimentaire est pertinente — mais elle né
 
 ---
 
-## Construire votre SDL Agroalimentaire avec Essor Consulting
+## Construire votre SDL Agroalimentaire avec Nextinotech
 
-Essor Consulting accompagne les entreprises agroalimentaires marocaines dans la conception et la mise en œuvre de leur schéma directeur logistique :
+Nextinotech accompagne les entreprises agroalimentaires marocaines dans la conception et la mise en œuvre de leur schéma directeur logistique :
 
 - **Diagnostic supply chain agroalimentaire** : cartographie des flux, analyse des coûts, identification des risques
 - **Conception de l'organisation logistique cible** : entrepôts, transport, traçabilité
@@ -203,7 +203,7 @@ Essor Consulting accompagne les entreprises agroalimentaires marocaines dans la 
 - **Mise en place des outils de traçabilité** : WMS, codification lots, FEFO
 - **Formation des équipes** : hygiène et sécurité alimentaire, traçabilité, logistique export
 
-Contactez-nous : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
+Contactez-nous : **contact@nextinotech.com** · **+212 06 63 44 92 00**
 
 ---
 

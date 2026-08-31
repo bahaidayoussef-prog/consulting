@@ -1,7 +1,7 @@
 ---
 title: "Corridor Maroc-Afrique de l'Ouest : Comment les Entreprises Marocaines Exportent vers le Sahel"
 date: "2026-08-24"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/transport.jpg"
 keywords: "corridor maroc afrique de l'ouest export, initiative atlantique sahel, port Dakhla Atlantique, Guerguerat corridor logistique"
@@ -40,7 +40,7 @@ Le Maroc construit un second grand corridor vers le Sahel, distinct de l'axe his
 
 Votre entreprise exporte ou souhaite exporter vers l'Afrique de l'Ouest et le Sahel ? [Découvrez nos formations](/formation), ou [contactez-nous](/contact) pour structurer votre stratégie logistique régionale.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

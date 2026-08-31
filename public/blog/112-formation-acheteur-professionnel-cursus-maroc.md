@@ -1,10 +1,10 @@
 ﻿---
 title: "Formation Acheteur Professionnel au Maroc : Cursus, Compétences et Salaires"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/business.jpg"
 keywords: "formation acheteur professionnel Maroc, cursus acheteur Maroc, devenir acheteur professionnel, négociation achats formation Maroc"
-description: "Formation acheteur professionnel au Maroc : programme complet, compétences en négociation, certifications, salaires et débouchés. Guide 2026 par Essor Consulting."
+description: "Formation acheteur professionnel au Maroc : programme complet, compétences en négociation, certifications, salaires et débouchés. Guide 2026 par Nextinotech."
 ---
 
 # Formation Acheteur Professionnel au Maroc : Cursus, Compétences et Salaires
@@ -79,15 +79,15 @@ La différence entre un acheteur opérationnel et un acheteur stratégique : le 
 
 **APICS CSCP** : Couvre la supply chain dans son ensemble avec un module achats solide.
 
-**Certification Essor Consulting — Achats Stratégiques** : Programme terrain adapté aux réalités marocaines. Applicable immédiatement.
+**Certification Nextinotech — Achats Stratégiques** : Programme terrain adapté aux réalités marocaines. Applicable immédiatement.
 
 > **La compétence la plus sous-estimée en formation achats : la préparation de la négociation.** 80% des acheteurs entrent en négociation sans avoir calculé leur BATNA. Ils négocient à l'instinct — et laissent 5 à 10% sur la table systématiquement.
 
-## Formation Essor Consulting — Acheteur Professionnel
+## Formation Nextinotech — Acheteur Professionnel
 
 4 jours de formation intensive avec simulation de négociation en conditions réelles, basée sur des cas d'achats au Maroc (secteurs industrie, agroalimentaire, services).
 
-👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

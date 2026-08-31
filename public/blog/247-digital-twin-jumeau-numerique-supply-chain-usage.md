@@ -1,7 +1,7 @@
 ---
 title: "Jumeau Numérique (Digital Twin) Supply Chain : à quoi ça Sert Vraiment"
 date: "2026-08-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/charts.jpg"
 keywords: "digital twin supply chain, jumeau numérique logistique, simulation supply chain maroc, digital supply chain twin"
@@ -36,7 +36,7 @@ Le jumeau numérique supply chain sert à tester des décisions et des scénario
 
 Vous voulez évaluer si un jumeau numérique ou une simulation ponctuelle a du sens pour votre prochaine décision structurante ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour en discuter.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

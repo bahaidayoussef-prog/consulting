@@ -1,7 +1,7 @@
 ---
 title: "Guide PORTNET et BADR 2026 : Maîtriser les Plateformes Douanières Marocaines"
 date: "2026-08-19"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/analytics.jpg"
 keywords: "portnet badr guide maroc, guichet unique commerce extérieur maroc, système badr douane maroc, déclaration douanière maroc"
@@ -40,7 +40,7 @@ PORTNET et BADR ne sont pas interchangeables : l'un est un guichet unique multi-
 
 Vous voulez fiabiliser votre chaîne import-export face à ces évolutions réglementaires ? [Découvrez nos formations](/formation) sur le transport et les douanes, ou [contactez-nous](/contact) pour un premier échange gratuit.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

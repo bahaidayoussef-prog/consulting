@@ -1,7 +1,7 @@
 ---
 title: "Marque Employeur Logistique : Pourquoi les Entrepôts Marocains Peinent à Attirer les Jeunes"
 date: "2026-08-23"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/office.jpg"
 keywords: "marque employeur logistique maroc, attractivité entrepôt maroc, recrutement logistique maroc, image métiers logistiques"
@@ -40,7 +40,7 @@ Le secteur logistique marocain pèse 472 000 emplois mais n'a presque aucune don
 
 Vous peinez à attirer des profils qualifiés dans votre entrepôt ou votre équipe logistique ? [Découvrez nos formations](/formation), ou [contactez-nous](/contact) pour construire votre stratégie d'attractivité employeur.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

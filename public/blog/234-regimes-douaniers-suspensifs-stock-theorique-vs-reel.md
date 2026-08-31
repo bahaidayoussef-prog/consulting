@@ -1,7 +1,7 @@
 ---
 title: "Régimes Douaniers Suspensifs (Admission Temporaire, EIF) : Stock Théorique vs Stock Réel"
 date: "2026-08-26"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/conseil.jpg"
 keywords: "admission temporaire maroc, entrepôt industriel franc maroc, régime douanier suspensif, apurement douane maroc, stock théorique douane"
@@ -40,7 +40,7 @@ L'Admission Temporaire et l'Entrepôt Industriel Franc offrent un avantage fisca
 
 Votre entreprise opère sous Admission Temporaire ou Entrepôt Industriel Franc et vous voulez sécuriser votre stock avant un contrôle ? [Découvrez notre accompagnement Régimes Douaniers Suspensifs](/conseil), dédié à l'audit et à la réconciliation entre stock théorique douane et stock réel, ou [contactez-nous](/contact) pour en discuter.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

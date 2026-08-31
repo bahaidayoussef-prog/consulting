@@ -1,10 +1,10 @@
 ﻿---
 title: "Formation Logistique à Agadir : Supply Chain Export et Région Souss-Massa 2026"
 date: "2026-08-01"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/transport.jpg"
 keywords: "formation logistique agadir, supply chain agadir, formation responsable logistique agadir, export logistique souss massa, formation transport agadir"
-description: "Formation logistique et supply chain pour les professionnels d'Agadir et de la région Souss-Massa : export, pêche, agrumes, BTP. Essor Consulting."
+description: "Formation logistique et supply chain pour les professionnels d'Agadir et de la région Souss-Massa : export, pêche, agrumes, BTP. Nextinotech."
 ---
 
 # Formation Logistique à Agadir : Supply Chain Export et Région Souss-Massa 2026
@@ -125,11 +125,11 @@ Si vous travaillez ou souhaitez travailler dans la logistique export à Agadir, 
 
 **À Agadir :** L'Université Ibn Zohr (FSJES, ENCG) propose des formations initiales en logistique, mais peu de formations continues intensives pour les professionnels en poste.
 
-**À Casablanca :** Les formations professionnelles de niveau national (comme celles d'Essor Consulting) sont à Casablanca, accessible depuis Agadir en avion (1h) ou en voiture (4h sur autoroute).
+**À Casablanca :** Les formations professionnelles de niveau national (comme celles de Nextinotech) sont à Casablanca, accessible depuis Agadir en avion (1h) ou en voiture (4h sur autoroute).
 
 Pour un investissement formation de 1 à 2 jours, le déplacement à Casablanca est rentable. Nos participants d'Agadir le confirment : la qualité des échanges avec des pairs d'autres régions et secteurs est un avantage en soi.
 
-**Formation intra-entreprise à Agadir :** Essor Consulting peut organiser des formations directement dans vos locaux à Agadir pour des groupes de 5 personnes minimum. C'est souvent la solution la plus efficace pour les stations de conditionnement et les coopératives agricoles.
+**Formation intra-entreprise à Agadir :** Nextinotech peut organiser des formations directement dans vos locaux à Agadir pour des groupes de 5 personnes minimum. C'est souvent la solution la plus efficace pour les stations de conditionnement et les coopératives agricoles.
 
 ---
 
@@ -163,8 +163,8 @@ Ces projets vont créer de nouveaux postes de direction logistique dans la régi
 
 La logistique export d'Agadir est l'une des plus exigeantes du Maroc. Elle demande des profils solides techniquement, capables de gérer la pression des délais, des volumes variables et des exigences réglementaires européennes.
 
-👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
 Pour les nouveaux postes de direction logistique évoqués ci-dessus, notre programme **[Devenir Responsable Logistique](/formation-rl/)** (1 journée, 1 500 MAD TTC) est un premier pas accessible.
 
-**Essor Consulting forme les professionnels logistiques de la région Souss-Massa** depuis plusieurs années, en présentiel à Casablanca et en intra-entreprise sur site. Contactez-nous pour organiser une session pour votre équipe.
+**Nextinotech forme les professionnels logistiques de la région Souss-Massa** depuis plusieurs années, en présentiel à Casablanca et en intra-entreprise sur site. Contactez-nous pour organiser une session pour votre équipe.

@@ -1,7 +1,7 @@
 ﻿---
 title: "Agences de Recrutement Logistique au Maroc : Lesquelles Choisir"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/office.jpg"
 keywords: "agences recrutement supply chain Maroc, cabinet recrutement logistique Maroc, chasseur tête supply chain Maroc, recruteur logistique Maroc"
 description: "Les meilleures agences et cabinets de recrutement pour la supply chain au Maroc. Comment travailler avec eux efficacement et maximiser vos chances d'être placé."
@@ -91,9 +91,9 @@ Les agences comme Manpower et Adecco proposent aussi des missions d'intérim en 
 
 > **Les cabinets de recrutement ne remplacent pas votre recherche active — ils la complètent. Les candidats les plus rapides à trouver combinent réseau personnel (40%), candidatures directes (40%), et cabinets (20%). Aucun canal ne se suffit à lui-même.**
 
-## Essor Consulting — Préparation Entretien Cabinet
+## Nextinotech — Préparation Entretien Cabinet
 
-Essor Consulting prépare les professionnels SC à leurs entretiens avec les cabinets de recrutement : comment se présenter, quoi mettre en avant, comment négocier.
+Nextinotech prépare les professionnels SC à leurs entretiens avec les cabinets de recrutement : comment se présenter, quoi mettre en avant, comment négocier.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

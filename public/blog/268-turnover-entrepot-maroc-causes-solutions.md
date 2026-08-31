@@ -1,7 +1,7 @@
 ---
 title: "Turnover en Entrepôt : Comprendre les Causes Réelles et les Solutions qui Fonctionnent"
 date: "2026-08-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/hero-warehouse.jpg"
 keywords: "turnover entrepôt maroc, rotation personnel logistique, rétention magasiniers caristes maroc"
@@ -36,7 +36,7 @@ Le turnover en entrepôt se joue majoritairement dans les premiers mois d'un col
 
 Vous voulez diagnostiquer les causes réelles du turnover dans votre entrepôt ? [Découvrez nos formations RH et management](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

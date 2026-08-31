@@ -1,7 +1,7 @@
 ﻿---
 title: "Salaire Responsable Logistique au Maroc 2026 : Grilles, Écarts et Leviers"
 date: "2026-07-20"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/business.jpg"
 keywords: "salaire responsable logistique maroc, salaire supply chain manager maroc, rémunération logistique maroc, salaire chef d entrepôt maroc, logistique emploi maroc 2026"
 description: "Découvrez les salaires réels des Responsables Logistiques et Supply Chain Managers au Maroc en 2026, par secteur, niveau et ville. Basé sur 110+ missions terrain."
@@ -11,7 +11,7 @@ description: "Découvrez les salaires réels des Responsables Logistiques et Sup
 
 La question du salaire est souvent la première que posent les candidats à un poste de Responsable Logistique — et l'une des plus difficiles à renseigner avec précision. Les grilles officielles ne reflètent pas la réalité, et les plateformes d'emploi publient des fourchettes larges qui renseignent peu.
 
-Chez Essor Consulting, nous intervenons depuis plus de 20 ans dans les entreprises marocaines et européennes sur les fonctions supply chain. Voici ce que nous observons réellement sur le terrain.
+Chez Nextinotech, nous intervenons depuis plus de 20 ans dans les entreprises marocaines et européennes sur les fonctions supply chain. Voici ce que nous observons réellement sur le terrain.
 
 ![Gestion et performance — enjeux salariaux supply chain au Maroc](/images/business.jpg)
 
@@ -161,4 +161,4 @@ Investir dans une formation logistique intensive est souvent le moyen le plus ra
 
 👉 **[Voir le programme complet « Devenir Responsable Logistique »](/formation-rl/)** — 1 journée, 1 500 MAD TTC, prochaines sessions 2026.
 
-**Essor Consulting accompagne les professionnels logistique dans leur montée en compétences depuis plus de 20 ans.** Contactez-nous pour un diagnostic de votre profil.
+**Nextinotech accompagne les professionnels logistique dans leur montée en compétences depuis plus de 20 ans.** Contactez-nous pour un diagnostic de votre profil.

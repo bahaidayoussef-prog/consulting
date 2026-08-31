@@ -1,7 +1,7 @@
 ---
 title: "Supply Chain Sénégal : le Port de Dakar, verrou logistique ouest-africain"
 date: "2026-08-18"
-author: "Essor Consulting"
+author: "Nextinotech"
 type: "mini-article"
 schema: "Article"
 keywords: "supply chain Sénégal, Port de Dakar, corridor Dakar Bamako, logistique Afrique de l'Ouest"
@@ -38,7 +38,7 @@ Le Sénégal occupe une position charnière dans la logistique ouest-africaine, 
 
 Vous pilotez des flux entre le Maroc et l'Afrique de l'Ouest ? Parlons-en.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

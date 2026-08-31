@@ -1,7 +1,7 @@
 ---
 title: "Transport Multimodal au Maroc : Rail, Route, Mer, quelle Combinaison pour Réduire ses Coûts"
 date: "2026-08-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/transport.jpg"
 keywords: "transport multimodal maroc, combinaison rail route mer, réduction coût transport multimodal"
@@ -36,7 +36,7 @@ Le transport multimodal réduit le coût global (10-25%) et l'exposition à la f
 
 Vous voulez évaluer si une stratégie multimodale réduirait vos coûts de transport ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

@@ -1,7 +1,7 @@
 ﻿---
 title: "Emploi Supply Chain à Agadir et Marrakech : Opportunités et Spécificités"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/hero-supply-chain.jpg"
 keywords: "emploi supply chain Agadir, emploi logistique Agadir, travail supply chain Marrakech, emploi logistique Marrakech, offres emploi logistique sud Maroc"
 description: "Emploi supply chain à Agadir et Marrakech en 2026 : les secteurs qui recrutent, les entreprises, les salaires, et comment décrocher un poste dans le sud du Maroc."
@@ -73,9 +73,9 @@ Similaires à Agadir, 10-20% sous le niveau casablancais. Mais la vie à Marrake
 
 > **Agadir et Marrakech ne rivaliseront jamais avec Casablanca en volume d'offres. Mais pour les profils qui cherchent à se spécialiser dans des secteurs précis (halieutique, primeurs export, hôtellerie), ces villes offrent un terrain d'expertise unique — et souvent un accès plus rapide aux responsabilités.**
 
-## Essor Consulting — Présent sur Tout le Maroc
+## Nextinotech — Présent sur Tout le Maroc
 
-Essor Consulting accompagne les professionnels supply chain dans toutes les régions du Maroc, y compris Agadir et Marrakech.
+Nextinotech accompagne les professionnels supply chain dans toutes les régions du Maroc, y compris Agadir et Marrakech.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

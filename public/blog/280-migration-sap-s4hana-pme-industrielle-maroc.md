@@ -1,7 +1,7 @@
 ---
 title: "Migrer vers SAP S/4HANA : le Guide pour une PME Industrielle Marocaine"
 date: "2026-08-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/business.jpg"
 keywords: "SAP S/4HANA maroc PME, migration S/4HANA industrielle, fin de vie SAP ECC 2027"
@@ -36,7 +36,7 @@ La migration S/4HANA devient incontournable avant fin 2027, avec un projet réal
 
 Vous préparez une migration S/4HANA et voulez évaluer votre calendrier réaliste ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

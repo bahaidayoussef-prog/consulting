@@ -1,7 +1,7 @@
 ---
 title: "Certification PMP au Maroc : Vaut-elle l'Investissement pour un Profil Supply Chain"
 date: "2026-08-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/office.jpg"
 keywords: "certification PMP maroc supply chain, coût PMP maroc, valeur certification gestion de projet maroc"
@@ -36,7 +36,7 @@ La certification PMP vaut l'investissement principalement pour un profil supply 
 
 Vous voulez évaluer si la certification PMP correspond à votre trajectoire de carrière supply chain ? [Découvrez nos formations](/formation), ou [contactez-nous](/contact) pour en discuter.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

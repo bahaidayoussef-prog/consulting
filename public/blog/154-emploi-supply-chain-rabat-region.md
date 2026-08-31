@@ -1,7 +1,7 @@
 ﻿---
 title: "Emploi Supply Chain à Rabat et la Région : Guide 2026"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/business.jpg"
 keywords: "emploi supply chain Rabat, emploi logistique Rabat-Salé, travail supply chain Rabat 2026, offres emploi logistique Rabat"
 description: "Trouver un emploi en supply chain à Rabat et dans la région Rabat-Salé-Kénitra en 2026 : secteurs, entreprises, salaires et stratégie de candidature."
@@ -88,9 +88,9 @@ Pour les familles, Rabat est souvent préférée à Casablanca. Pour les céliba
 
 > **Rabat est la meilleure option pour les professionnels supply chain qui cherchent à combiner carrière et qualité de vie. Le marché est moins vaste qu'à Casa, mais la concurrence aussi — et le cadre de vie est incontestablement supérieur.**
 
-## Essor Consulting — Coaching Emploi Rabat
+## Nextinotech — Coaching Emploi Rabat
 
-Essor Consulting accompagne les professionnels supply chain de la région Rabat dans leur recherche d'emploi et leur développement de carrière.
+Nextinotech accompagne les professionnels supply chain de la région Rabat dans leur recherche d'emploi et leur développement de carrière.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

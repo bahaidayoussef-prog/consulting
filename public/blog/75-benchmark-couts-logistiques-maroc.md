@@ -1,7 +1,7 @@
 ﻿---
 title: "Benchmark Coûts Logistiques au Maroc 2026 : Ratios, Normes et Comparaisons"
 date: "2026-08-04"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/charts.jpg"
 keywords: "coûts logistiques maroc, benchmark logistique maroc, ratio coût logistique maroc, coût supply chain maroc, performance logistique maroc 2026"
 description: "Benchmark des coûts logistiques au Maroc 2026 : ratios par secteur, coût entrepôt, transport, stocks. Comparez votre performance aux normes du marché marocain."
@@ -13,7 +13,7 @@ description: "Benchmark des coûts logistiques au Maroc 2026 : ratios par secteu
 
 Sans benchmark, la notion de "trop élevé" est subjective. Avec un benchmark, elle devient un écart mesurable avec un potentiel d'amélioration chiffré. C'est la différence entre un sentiment et un plan d'action.
 
-Ce benchmark est construit à partir de 110+ missions Essor Consulting au Maroc et en Afrique francophone, complétées par des données sectorielles disponibles. Il ne prétend pas à l'exhaustivité — mais il vous donne les ordres de grandeur nécessaires pour situer votre performance.
+Ce benchmark est construit à partir de 110+ missions Nextinotech au Maroc et en Afrique francophone, complétées par des données sectorielles disponibles. Il ne prétend pas à l'exhaustivité — mais il vous donne les ordres de grandeur nécessaires pour situer votre performance.
 
 ![Benchmark et analyse des coûts logistiques au Maroc — données 2026](/images/charts.jpg)
 
@@ -187,18 +187,18 @@ Le potentiel de gain le plus élevé n'est pas toujours le plus facile à réali
 
 ---
 
-## Faire un Benchmark Personnalisé avec Essor Consulting
+## Faire un Benchmark Personnalisé avec Nextinotech
 
 Ce benchmark public donne des ordres de grandeur. Un benchmark personnalisé va plus loin : il compare vos indicateurs à ceux d'entreprises du même secteur, de la même taille, dans le même contexte géographique marocain.
 
-Essor Consulting réalise des benchmarks personnalisés dans le cadre de ses missions d'audit supply chain :
+Nextinotech réalise des benchmarks personnalisés dans le cadre de ses missions d'audit supply chain :
 
 - Collecte et calcul de vos KPIs actuels
 - Comparaison avec notre base de données de 110+ entreprises marocaines auditées
 - Identification des écarts les plus significatifs
 - Plan d'action priorisé avec ROI estimé
 
-Contactez-nous pour un premier échange : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
+Contactez-nous pour un premier échange : **contact@nextinotech.com** · **+212 06 63 44 92 00**
 
 ---
 

@@ -1,10 +1,10 @@
 ﻿---
 title: "Formation Gestionnaire de Stocks au Maroc : Métier, Compétences et Programme 2026"
 date: "2026-08-04"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/analytics.jpg"
 keywords: "formation gestionnaire de stocks maroc, gestionnaire stocks compétences maroc, formation approvisionnement maroc, gestion des stocks avancée maroc, DDMRP formation maroc"
-description: "Formation gestionnaire de stocks au Maroc : compétences clés, programme avancé, outils DDMRP et MRP, salaires et évolutions de carrière. Par Essor Consulting."
+description: "Formation gestionnaire de stocks au Maroc : compétences clés, programme avancé, outils DDMRP et MRP, salaires et évolutions de carrière. Par Nextinotech."
 ---
 
 # Formation Gestionnaire de Stocks au Maroc : Métier, Compétences et Programme 2026
@@ -145,7 +145,7 @@ En 2026, un gestionnaire de stocks qui ne maîtrise pas son ERP (Odoo, SAP, Sage
 
 La certification CPIM (Certified in Production and Inventory Management) d'APICS est la certification internationale la plus reconnue pour le métier de gestionnaire de stocks. Elle accélère significativement l'évolution salariale et la mobilité internationale.
 
-::stat:: 78% — des PME marocaines n'ont pas de paramètres de réapprovisionnement formalisés dans leur ERP (données audit terrain Essor Consulting)
+::stat:: 78% — des PME marocaines n'ont pas de paramètres de réapprovisionnement formalisés dans leur ERP (données audit terrain Nextinotech)
 
 ---
 
@@ -167,9 +167,9 @@ Dans le calcul du stock de sécurité, la variabilité du lead time est souvent 
 
 ---
 
-## Former vos Gestionnaires de Stocks avec Essor Consulting
+## Former vos Gestionnaires de Stocks avec Nextinotech
 
-Essor Consulting forme les gestionnaires de stocks et les responsables approvisionnements au Maroc depuis plus de 20 ans. Nos formations combinent méthodes éprouvées et exercices sur des données réelles.
+Nextinotech forme les gestionnaires de stocks et les responsables approvisionnements au Maroc depuis plus de 20 ans. Nos formations combinent méthodes éprouvées et exercices sur des données réelles.
 
 **Nos programmes :**
 - Formation Gestionnaire de Stocks (4 jours) — inter ou intra-entreprise
@@ -177,9 +177,9 @@ Essor Consulting forme les gestionnaires de stocks et les responsables approvisi
 - Formation Paramétrage ERP Stocks (1 jour) — Odoo, SAP ou Sage selon votre contexte
 - Accompagnement terrain (1 à 3 mois) — pour appliquer les méthodes dans votre entreprise réelle
 
-👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
-Contactez-nous pour un programme adapté : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
+Contactez-nous pour un programme adapté : **contact@nextinotech.com** · **+212 06 63 44 92 00**
 
 ---
 

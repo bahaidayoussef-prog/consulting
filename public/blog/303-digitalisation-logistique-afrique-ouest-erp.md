@@ -1,7 +1,7 @@
 ---
 title: "Digitalisation Logistique en Afrique de l'Ouest : les ERP qui s'Adaptent aux Réalités Locales"
 date: "2026-08-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/analytics.jpg"
 keywords: "digitalisation logistique afrique ouest, ERP adapté afrique, connectivité logistique afrique de l'ouest"
@@ -36,7 +36,7 @@ La digitalisation logistique en Afrique de l'Ouest se heurte à des contraintes 
 
 Vous opérez en Afrique de l'Ouest et voulez évaluer une solution logistique adaptée à vos contraintes de connectivité ? [Découvrez nos services conseil supply chain](/conseil), ou [contactez-nous](/contact) pour en discuter.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

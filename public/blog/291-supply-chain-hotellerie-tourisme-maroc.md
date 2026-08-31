@@ -1,7 +1,7 @@
 ---
 title: "Supply Chain du Secteur Hôtelier et Tourisme : Approvisionner sans Rupture en Haute Saison"
 date: "2026-08-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/business.jpg"
 keywords: "supply chain hôtellerie tourisme maroc, approvisionnement hôtel maroc, achats CHR maroc"
@@ -36,7 +36,7 @@ L'approvisionnement hôtelier en haute saison se joue sur un équilibre fin entr
 
 Vous gérez un établissement hôtelier et voulez optimiser votre approvisionnement en haute saison ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

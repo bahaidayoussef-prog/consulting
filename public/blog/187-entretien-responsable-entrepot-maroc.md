@@ -1,7 +1,7 @@
 ﻿---
 title: "Entretien Responsable d'Entrepôt au Maroc : Ce que les Recruteurs Évaluent"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/transport.jpg"
 keywords: "entretien responsable entrepôt Maroc, recrutement chef entrepôt Maroc, poste gestionnaire entrepôt entretien, questions entretien logistique entrepôt"
 description: "Comment réussir l'entretien pour un poste de responsable d'entrepôt au Maroc ? Les compétences évaluées, les questions types et les mises en situation opérationnelles."
@@ -99,9 +99,9 @@ La sécurité est non-négociable dans un entrepôt. Les accidents de travail on
 
 > **Le responsable d'entrepôt est souvent le manager le plus présent sur le terrain de toute l'entreprise. Les meilleurs candidats pour ce poste combinent une vraie compréhension des opérations, un style de leadership ancré dans l'exemple, et une culture sécurité profonde. Ce sont des profils rares et très valorisés.**
 
-## Essor Consulting — Formation Management Entrepôt
+## Nextinotech — Formation Management Entrepôt
 
-Essor Consulting propose des formations management d'entrepôt et des coachings de préparation aux entretiens pour les responsables logistique.
+Nextinotech propose des formations management d'entrepôt et des coachings de préparation aux entretiens pour les responsables logistique.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

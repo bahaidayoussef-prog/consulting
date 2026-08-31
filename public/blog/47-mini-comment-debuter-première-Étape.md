@@ -1,12 +1,12 @@
 ---
 title: "Comment Débuter ? Première Étape ?"
 date: "2026-08-19"
-author: "Essor Consulting"
+author: "Nextinotech"
 type: "mini-article"
 schema: "FAQPage"
 quickAnswer: "La première étape est toujours un Diagnostic Express de 2 à 6 semaines pour cartographier l'existant et identifier des leviers chiffrés — jamais un engagement de transformation complète dès le premier contact."
-keywords: "démarrer diagnostic supply chain, première étape consulting, comment contacter Essor Consulting"
-description: "Comment démarrer une mission avec Essor Consulting ? La première étape réelle : un Diagnostic Express de 2 à 6 semaines, pas un engagement immédiat."
+keywords: "démarrer diagnostic supply chain, première étape consulting, comment contacter Nextinotech"
+description: "Comment démarrer une mission avec Nextinotech ? La première étape réelle : un Diagnostic Express de 2 à 6 semaines, pas un engagement immédiat."
 ---
 
 # Comment Débuter ? Première Étape ?
@@ -29,11 +29,11 @@ Démarrer directement une transformation sans diagnostic préalable revient à t
 
 ## Ce qu'il faut retenir
 
-Débuter avec Essor Consulting suit toujours la même séquence : un échange pour cadrer, un diagnostic pour mesurer, puis une décision sur la suite — prise avec des chiffres, pas avec une intuition.
+Débuter avec Nextinotech suit toujours la même séquence : un échange pour cadrer, un diagnostic pour mesurer, puis une décision sur la suite — prise avec des chiffres, pas avec une intuition.
 
 **Notre approche.** Réservez un échange gratuit pour cadrer votre situation ; nous vous orientons ensuite vers le format de diagnostic adapté à votre périmètre.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

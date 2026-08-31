@@ -50,7 +50,7 @@ const MANDATS = [
       '3 phases incluses : Diagnostic, Pilotage, Passation',
       'Reporting mensuel Comité de Direction',
       'Disponibilité 4h/semaine hors présentiel',
-      'Accès outils de pilotage Essor',
+      'Accès outils de pilotage Nextinotech',
     ],
     featured: false,
     cta: 'En savoir plus',
@@ -548,7 +548,7 @@ export default function DSC() {
               color: 'rgba(47,111,181,0.7)',
               marginBottom: '2.5rem',
             }}>
-              Recruter un DSC en CDI vs Mandat Essor
+              Recruter un DSC en CDI vs Mandat Nextinotech
             </div>
 
             <div className="dsc-compare-scroll">
@@ -578,7 +578,7 @@ export default function DSC() {
                 color: 'var(--blue-bright)',
                 padding: '0 1.5rem',
               }}>
-                Mandat Essor
+                Mandat Nextinotech
               </div>
             </div>
 
@@ -674,7 +674,7 @@ export default function DSC() {
             <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', alignItems: 'center' }}>
               <a href="/contact" className="btn-primary">Réserver un échange →</a>
               <a
-                href="mailto:essor.consulting.maroc@gmail.com"
+                href="mailto:contact@nextinotech.com"
                 style={{
                   fontFamily: 'DM Mono, monospace',
                   fontSize: '0.7rem',
@@ -687,7 +687,7 @@ export default function DSC() {
                   transition: 'color 0.2s',
                 }}
               >
-                essor.consulting.maroc@gmail.com
+                contact@nextinotech.com
               </a>
             </div>
           </motion.div>

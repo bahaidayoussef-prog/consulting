@@ -1,7 +1,7 @@
 ---
 title: "Formation et Optimisation TMS au Maroc : Logiciel de Gestion du Transport 2026"
 date: "2026-08-10"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/analytics.jpg"
 keywords: "TMS maroc, formation TMS maroc, logiciel gestion transport maroc, optimisation transport maroc, transport management system maroc, réduction coûts transport maroc"
 description: "Comment un TMS réduit vos coûts de transport au Maroc : fonctionnalités, TMS disponibles, sélection, budget, ROI et programme de formation. Retours terrain de 12+ projets."
@@ -75,7 +75,7 @@ Un TMS bien paramétré produit des indicateurs que peu d'entreprises marocaines
 
 > **Ces données transforment les négociations avec vos transporteurs.** Quand vous arrivez avec un historique de taux de ponctualité et de coût moyen par kg par destination, vous négociez en position de force — pas sur des impressions.
 
-::stat:: −22% — réduction moyenne des coûts transport observée après déploiement d'un TMS dans les PME marocaines (données projets Essor Consulting 2020-2025)
+::stat:: −22% — réduction moyenne des coûts transport observée après déploiement d'un TMS dans les PME marocaines (données projets Nextinotech 2020-2025)
 
 ---
 
@@ -127,7 +127,7 @@ Un TMS génère 3 types de gains : **gains directs transport** (kilométrage −
 
 **Formule simplifiée :** budget transport annuel × 20% = économies minimales attendues (seuil de rentabilité conservateur). Exemple : budget transport 1 000 000 MAD/an → économies minimales 200 000 MAD/an → ROI sur 12 à 18 mois pour un TMS à 120 000 MAD/an.
 
-::stat:: 14 mois — délai moyen de retour sur investissement d'un projet TMS pour une PME marocaine de distribution (données terrain Essor Consulting)
+::stat:: 14 mois — délai moyen de retour sur investissement d'un projet TMS pour une PME marocaine de distribution (données terrain Nextinotech)
 
 ---
 
@@ -153,7 +153,7 @@ Un TMS génère 3 types de gains : **gains directs transport** (kilométrage −
 
 ---
 
-## Formation et Optimisation Transport avec Essor Consulting
+## Formation et Optimisation Transport avec Nextinotech
 
 **Formation TMS (2 jours)** avec simulation sur logiciel TMS et accompagnement disponible pour le déploiement complet.
 
@@ -164,9 +164,9 @@ Un TMS génère 3 types de gains : **gains directs transport** (kilométrage −
 - **Optimisation des tournées** : même sans TMS — analyse des tournées existantes et recommandations
 - **Renégociation transporteurs** : benchmarking tarifaire + préparation des négociations
 
-👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
-Contactez-nous pour un premier bilan de votre situation transport : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
+Contactez-nous pour un premier bilan de votre situation transport : **contact@nextinotech.com** · **+212 06 63 44 92 00**
 
 ---
 

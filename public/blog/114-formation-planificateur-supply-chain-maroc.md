@@ -1,7 +1,7 @@
 ﻿---
 title: "Formation Planificateur Supply Chain au Maroc : DDMRP, S&OP et Prévisions"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/charts.jpg"
 keywords: "formation planificateur supply chain Maroc, formation ordonnanceur Maroc, formation DDMRP planificateur, prévision demande formation Maroc"
 description: "Formation planificateur supply chain au Maroc : DDMRP, S&OP, prévision de la demande. Programme, compétences et débouchés pour ce métier clé en 2026."
@@ -85,11 +85,11 @@ Moyennes mobiles, lissage exponentiel, décomposition saisonnière — les outil
 
 > **Le planificateur efficace n'est pas celui qui a les meilleures prévisions — c'est celui qui gère le mieux l'incertitude.** La prévision parfaite n'existe pas. Ce qui existe, c'est un système capable d'absorber les écarts sans rupture ni surstock.
 
-## Formation Essor Consulting — Planificateur Supply Chain
+## Formation Nextinotech — Planificateur Supply Chain
 
 3 jours de formation intensive avec certification DDMRP Practitioner intégrée. Programme incluant des simulations sur logiciel de planification.
 
-👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

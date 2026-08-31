@@ -1,7 +1,7 @@
 ---
 title: "Control Tower Logistique : Piloter sa Supply Chain en Temps Réel, Mode d'Emploi"
 date: "2026-08-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/charts.jpg"
 keywords: "control tower logistique, tour de contrôle supply chain, pilotage temps réel logistique maroc, visibilité supply chain"
@@ -36,7 +36,7 @@ Un control tower logistique n'a de valeur que combiné à une gouvernance de dé
 
 Vous pilotez un réseau logistique multi-sites et voulez évaluer votre besoin en visibilité temps réel ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

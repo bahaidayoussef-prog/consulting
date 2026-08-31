@@ -1,7 +1,7 @@
 ﻿---
 title: "Répondre à 'Quelle est votre Faiblesse ?' en Entretien Supply Chain"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/conseil.jpg"
 keywords: "faiblesse entretien supply chain Maroc, point faible entretien logistique, répondre faiblesse entretien recrutement, question difficile entretien supply chain"
 description: "Comment répondre à la question 'Quelle est votre principale faiblesse ?' en entretien supply chain au Maroc ? Stratégie, exemples et erreurs à éviter."
@@ -83,9 +83,9 @@ Répondez directement : "Je pense que dans ce poste, ma tendance à sur-analyser
 
 > **La question sur les faiblesses n'est pas un piège — c'est une invitation à vous montrer tel que vous êtes vraiment. Un candidat qui répond honnêtement, avec conscience de lui-même et un plan d'amélioration clair, inspire bien plus confiance qu'un candidat qui prétend n'avoir aucune faiblesse.**
 
-## Essor Consulting — Coaching Entretien
+## Nextinotech — Coaching Entretien
 
-Essor Consulting prépare les professionnels SC aux questions difficiles de l'entretien, y compris la question des faiblesses.
+Nextinotech prépare les professionnels SC aux questions difficiles de l'entretien, y compris la question des faiblesses.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

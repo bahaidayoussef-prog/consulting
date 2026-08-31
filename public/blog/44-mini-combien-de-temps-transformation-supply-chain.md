@@ -1,7 +1,7 @@
 ---
 title: "Combien de Temps Transformation Supply Chain ?"
 date: "2026-08-19"
-author: "Essor Consulting"
+author: "Nextinotech"
 type: "mini-article"
 schema: "FAQPage"
 quickAnswer: "De 2 semaines pour un diagnostic flash à 12-18 mois pour une transformation multi-sites complète — la durée dépend du périmètre de la mission, pas d'une règle générale."
@@ -33,7 +33,7 @@ La durée d'une transformation se calcule à partir du périmètre réel, pas l'
 
 **Notre approche.** Chaque mission démarre par un cadrage qui fixe un délai engagé — pas une estimation à rallonge découverte en cours de route.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

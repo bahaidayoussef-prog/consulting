@@ -1,7 +1,7 @@
 ﻿---
 title: "Nearshoring au Maroc : Pourquoi les Entreprises Européennes Relocalisent"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/transport.jpg"
 keywords: "nearshoring Maroc, relocalisation supply chain, Maroc hub logistique, supply chain Europe Maroc, offshoring Maroc"
 description: "Le nearshoring au Maroc s'accélère en 2026. Pourquoi les entreprises européennes relocalisent leur supply chain au Maroc — et comment en tirer parti concrètement."
@@ -92,14 +92,14 @@ Le sourcing local n'est pas toujours moins cher à court terme. Mais sur 18-24 m
 
 4. **Phase 4 — Optimisation continue** : KPI trimestriels, audits annuels, ajustement réseau fournisseurs
 
-## Essor Consulting — Votre Partenaire pour Réussir votre Nearshoring
+## Nextinotech — Votre Partenaire pour Réussir votre Nearshoring
 
-Essor Consulting accompagne les entreprises nationales et internationales dans la structuration de leur supply chain au Maroc. De l'audit initial à la formation des équipes locales, en passant par la sélection de partenaires logistiques — nous intervenons à chaque étape.
+Nextinotech accompagne les entreprises nationales et internationales dans la structuration de leur supply chain au Maroc. De l'audit initial à la formation des équipes locales, en passant par la sélection de partenaires logistiques — nous intervenons à chaque étape.
 
 20 ans d'expérience terrain, 110+ missions, 0 commission d'intermédiation. Nous défendons vos intérêts, pas ceux des prestataires.
 
 **Contactez-nous** pour un premier échange gratuit (45 minutes, sans engagement) :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Supply Chain RDC : la logistique minière du Katanga et le corridor de Lobito"
 date: "2026-08-18"
-author: "Essor Consulting"
+author: "Nextinotech"
 type: "mini-article"
 schema: "Article"
 keywords: "supply chain RDC, corridor de Lobito, logistique minière Katanga, cobalt cuivre RDC"
@@ -36,7 +36,7 @@ La supply chain minière de la RDC vit une transition : d'une dépendance à des
 
 Vous pilotez des flux logistiques exposés à l'Afrique centrale ? Parlons-en.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

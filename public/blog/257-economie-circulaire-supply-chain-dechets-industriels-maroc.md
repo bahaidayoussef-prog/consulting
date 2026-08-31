@@ -1,7 +1,7 @@
 ---
 title: "Économie Circulaire en Supply Chain : Réintégrer les Déchets Industriels au Maroc"
 date: "2026-08-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/construction.jpg"
 keywords: "économie circulaire supply chain maroc, réintégration déchets industriels, recyclage industriel maroc"
@@ -36,7 +36,7 @@ L'économie circulaire industrielle au Maroc bute moins sur la technique que sur
 
 Vous voulez cartographier le potentiel de valorisation de vos déchets et sous-produits industriels ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

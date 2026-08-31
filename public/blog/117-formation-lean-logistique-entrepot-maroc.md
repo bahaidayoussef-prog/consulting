@@ -1,7 +1,7 @@
 ﻿---
 title: "Formation Lean Logistique au Maroc : 5S, Kaizen et VSM en Entrepôt"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/hero-warehouse.jpg"
 keywords: "formation lean logistique Maroc, 5S entrepôt Maroc, Kaizen supply chain Maroc, VSM formation Maroc, lean management logistique"
 description: "Formation Lean Logistique au Maroc : 5S, Kaizen, VSM et réduction des gaspillages en entrepôt. Programme pratique, résultats concrets et certification."
@@ -92,11 +92,11 @@ Un chantier 5S de 3 jours sur un entrepôt de 800 m² a réduit le temps de pré
 
 > **Le Lean en logistique n'est pas un projet. C'est une culture. Le jour où les opérateurs terrain proposent eux-mêmes des améliorations, c'est que le Lean est installé.**
 
-## Formation Essor Consulting — Lean Logistique
+## Formation Nextinotech — Lean Logistique
 
 2 jours pratiques avec chantier 5S sur votre propre entrepôt. Formation intra-entreprise disponible pour former une équipe entière simultanément.
 
-👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

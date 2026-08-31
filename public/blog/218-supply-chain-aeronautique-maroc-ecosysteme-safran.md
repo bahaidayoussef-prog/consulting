@@ -1,7 +1,7 @@
 ---
 title: "Supply Chain Aéronautique au Maroc : l'Écosystème Safran et ses 150+ Entreprises"
 date: "2026-08-22"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/hero-supply-chain.jpg"
 keywords: "supply chain aéronautique maroc, écosystème Safran maroc, GIMAS maroc, aéropole Casablanca Nouaceur"
@@ -40,7 +40,7 @@ L'écosystème aéronautique marocain a changé d'échelle, porté par un cycle 
 
 Vous êtes fournisseur ou sous-traitant industriel et vous voulez structurer votre supply chain pour répondre aux exigences d'un donneur d'ordre aéronautique ou automobile ? [Découvrez nos formations](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

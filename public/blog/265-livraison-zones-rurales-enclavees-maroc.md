@@ -1,7 +1,7 @@
 ---
 title: "Livraison en Zones Rurales et Enclavées : le Dernier Kilomètre le Plus Cher"
 date: "2026-08-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/transport.jpg"
 keywords: "livraison zone rurale maroc, dernier kilomètre zones enclavées, logistique atlas montagne maroc"
@@ -36,7 +36,7 @@ Le dernier kilomètre en zone rurale ou enclavée est structurellement plus coû
 
 Vous livrez vers des zones rurales ou enclavées et voulez réduire votre coût par livraison ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

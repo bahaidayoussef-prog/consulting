@@ -1,7 +1,7 @@
 ---
 title: "Supply Chain Cameroun : le Port de Douala, hub logistique d'Afrique centrale"
 date: "2026-08-18"
-author: "Essor Consulting"
+author: "Nextinotech"
 type: "mini-article"
 schema: "Article"
 keywords: "supply chain Cameroun, Port de Douala, logistique Afrique centrale, corridor Tchad"
@@ -36,7 +36,7 @@ Le Cameroun n'est pas seulement un marché national : c'est l'infrastructure log
 
 Vous pilotez des flux logistiques exposés à l'Afrique centrale ? Parlons-en.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

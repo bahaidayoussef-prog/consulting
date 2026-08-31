@@ -1,7 +1,7 @@
 ﻿---
 title: "S&OP au Maroc : Comment Aligner Ventes et Opérations pour Gagner 20%"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/charts.jpg"
 keywords: "S&OP Maroc, Sales Operations Planning Maroc, planification intégrée supply chain, alignement ventes opérations, S&OP PME Maroc"
 description: "Le S&OP (Sales & Operations Planning) réduit les stocks de 20% et les ruptures de 30% en 90 jours. Guide complet pour le mettre en place dans une PME/ME marocaine."
@@ -109,14 +109,14 @@ Chaque S&OP produit un compte-rendu avec les décisions prises. Le S&OP suivant 
 
 La leçon commune : le S&OP n'est pas réservé aux grands groupes. Une PME de 30 personnes peut tirer autant de valeur d'un S&OP simplifié.
 
-## Essor Consulting — Implémentation S&OP PME/ME Marocaine
+## Nextinotech — Implémentation S&OP PME/ME Marocaine
 
-Essor Consulting accompagne la mise en place du S&OP de A à Z : conception du processus adapté à votre taille, animation des premiers cycles, formation des participants, et transfert de compétences à vos équipes.
+Nextinotech accompagne la mise en place du S&OP de A à Z : conception du processus adapté à votre taille, animation des premiers cycles, formation des participants, et transfert de compétences à vos équipes.
 
 Délai de mise en place : 60 à 90 jours pour le premier cycle opérationnel.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Commerce Triangulaire Maroc-Afrique-Europe : Structurer ses Flux via les Zones Franches"
 date: "2026-08-27"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/transport.jpg"
 keywords: "commerce triangulaire maroc afrique, hub logistique maroc afrique europe, zone franche réexportation maroc, Maroc Logistique 2030"
@@ -36,7 +36,7 @@ Le commerce triangulaire Maroc-Afrique-Europe repose sur un modèle concret et r
 
 Vous étudiez une implantation de transformation ou de réexportation entre l'Europe et l'Afrique via le Maroc ? [Découvrez nos services de conseil supply chain et douane](/conseil), ou [contactez-nous](/contact) pour structurer votre projet.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

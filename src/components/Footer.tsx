@@ -56,7 +56,7 @@ export default function Footer() {
               onMouseEnter={(e) => ((e.currentTarget as HTMLElement).style.opacity = '0.7')}
               onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.opacity = '1')}
             >
-              Essor Consulting
+              Nextinotech
             </a>
             <p
               style={{
@@ -67,7 +67,7 @@ export default function Footer() {
                 marginBottom: '1.5rem',
               }}
             >
-              Essor Consulting — cabinet indépendant de conseil et d&apos;AMOA en Supply Chain, dédié aux PME et ETI
+              Nextinotech — cabinet indépendant de conseil et d&apos;AMOA en Supply Chain, dédié aux PME et ETI
               marocaines. Notre seule allégeance est à votre business case.
             </p>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '0.4rem' }}>
@@ -186,7 +186,7 @@ export default function Footer() {
             </div>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '0.9rem' }}>
               {[
-                { tag: 'Email', label: 'essor.consulting.maroc@gmail.com', href: 'mailto:essor.consulting.maroc@gmail.com' },
+                { tag: 'Email', label: 'contact@nextinotech.com', href: 'mailto:contact@nextinotech.com' },
                 { tag: 'Tél', label: '+212 06 63 44 92 00', href: 'tel:+212663449200' },
                 { tag: 'WA', label: 'WhatsApp', href: 'https://wa.me/212663449200' },
                 { tag: 'Lieu', label: 'Casablanca, Maroc', href: undefined },
@@ -231,7 +231,7 @@ export default function Footer() {
                 </div>
               ))}
               <a
-                href="mailto:essor.consulting.maroc@gmail.com"
+                href="mailto:contact@nextinotech.com"
                 style={{
                   display: 'inline-flex',
                   alignItems: 'center',
@@ -276,7 +276,7 @@ export default function Footer() {
             letterSpacing: '0.06em',
           }}
         >
-          <span>© 2026 ESSOR CONSULTING — TOUS DROITS RÉSERVÉS</span>
+          <span>© 2026 NEXTINOTECH — TOUS DROITS RÉSERVÉS</span>
           <span>CASABLANCA · MAROC · PME & ETI</span>
         </div>
       </div>

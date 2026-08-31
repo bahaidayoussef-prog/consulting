@@ -1,7 +1,7 @@
 ---
 title: "Autoroute de la Mer Tanger-Europe : une Alternative au Tout-Routier"
 date: "2026-08-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/transport.jpg"
 keywords: "autoroute de la mer maroc europe, ferry ro-ro tanger med, alternative maritime transport routier maroc"
@@ -36,7 +36,7 @@ L'autoroute de la mer entre le Maroc et l'Europe, portée par la forte fréquenc
 
 Vous exportez régulièrement vers l'Europe et voulez évaluer une alternative maritime au tout-routier ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

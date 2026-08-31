@@ -1,7 +1,7 @@
 ---
 title: "Construire son Premier Tableau de Bord IA Supply Chain sans Data Scientist"
 date: "2026-08-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/analytics.jpg"
 keywords: "tableau de bord IA supply chain, no-code BI logistique, dashboard supply chain PME maroc, self-service BI"
@@ -36,7 +36,7 @@ Les outils no-code permettent à une PME marocaine de construire des tableaux de
 
 Vous voulez identifier les trois indicateurs qui méritent votre premier tableau de bord ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

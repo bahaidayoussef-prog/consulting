@@ -1,7 +1,7 @@
 ---
 title: "E-Sourcing : les Plateformes qui Digitalisent les Achats au Maroc"
 date: "2026-08-28"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/business.jpg"
 keywords: "e-sourcing maroc, digitalisation achats maroc, plateforme achats maroc, SAP Ariba Odoo Purchase Ivalua"
@@ -36,7 +36,7 @@ Avec 60% des PME marocaines encore en gestion manuelle de leurs achats, la marge
 
 Vous voulez évaluer la maturité de votre processus achats avant de choisir une plateforme d'e-sourcing ? [Découvrez nos formations achats](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

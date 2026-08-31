@@ -1,7 +1,7 @@
 ﻿---
 title: "Jeune Diplômé Supply Chain : Décrocher son Premier Emploi au Maroc"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/formation.jpg"
 keywords: "jeune diplômé supply chain Maroc premier emploi, premier travail logistique Maroc, emploi débutant supply chain Maroc, stage supply chain Maroc"
 description: "Guide complet pour les jeunes diplômés supply chain au Maroc : comment décrocher son premier emploi, les erreurs à éviter, et les meilleures stratégies pour démarrer sa carrière."
@@ -103,9 +103,9 @@ Ne négociez pas agressivement pour le premier poste. Priorité : l'entreprise, 
 
 > **Le premier emploi n'est pas votre emploi pour toujours. C'est votre ticket d'entrée dans le secteur. Choisissez-le avec soin : la qualité de l'apprentissage et la réputation de l'entreprise comptent plus que le salaire à court terme.**
 
-## Essor Consulting — Accompagnement Premiers Pas
+## Nextinotech — Accompagnement Premiers Pas
 
-Essor Consulting accompagne les jeunes diplômés supply chain dans leurs premiers pas : CV, candidatures, préparation entretien, orientation.
+Nextinotech accompagne les jeunes diplômés supply chain dans leurs premiers pas : CV, candidatures, préparation entretien, orientation.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

@@ -1,7 +1,7 @@
 ---
 title: "Zones Franches Marocaines Comparées : Tanger Med, TFZ, TAC et Midparc"
 date: "2026-08-23"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/transport.jpg"
 keywords: "zones franches maroc comparatif, Tanger Free Zone, Tanger Automotive City, Midparc, zone d'accélération industrielle maroc"
@@ -39,7 +39,7 @@ Le paysage des zones franches marocaines s'est standardisé fiscalement depuis 2
 
 Vous étudiez une implantation industrielle ou logistique dans une zone franche marocaine ? [Découvrez nos formations](/formation), ou [contactez-nous](/contact) pour un accompagnement à l'implantation.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

@@ -1,7 +1,7 @@
 ﻿---
 title: "Lettre de Motivation Supply Chain au Maroc : Modèle et Conseils"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/office.jpg"
 keywords: "lettre motivation supply chain Maroc, lettre candidature logistique, modèle lettre motivation logisticien, lettre motivation acheteur Maroc"
 description: "Comment rédiger une lettre de motivation supply chain percutante au Maroc ? Structure, modèle complet, erreurs à éviter et conseils d'un expert du secteur."
@@ -80,9 +80,9 @@ Pour les candidatures LinkedIn : un message personnalisé de 3-4 lignes remplace
 
 > **La meilleure lettre de motivation est celle qui répond à une question non posée mais que tout recruteur se pose : "Pourquoi vous et pas les 50 autres candidats ?" Répondez à cette question clairement — et votre lettre sera lue.**
 
-## Essor Consulting — Coaching Candidature
+## Nextinotech — Coaching Candidature
 
 Session de coaching pour préparer votre dossier de candidature complet : CV, lettre, stratégie LinkedIn.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

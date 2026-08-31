@@ -1,7 +1,7 @@
 ﻿---
 title: "Tenue Vestimentaire pour un Entretien Supply Chain au Maroc"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/office.jpg"
 keywords: "tenue entretien supply chain Maroc, comment s'habiller entretien logistique, vestimentaire recrutement supply chain Maroc, s'habiller entretien professionnel Maroc"
 description: "Comment s'habiller pour un entretien supply chain au Maroc ? Conseils par type de poste et d'entreprise, erreurs à éviter et comment adapter sa tenue au contexte."
@@ -105,9 +105,9 @@ Ce qui se voit à la caméra : le haut du corps. Habillez le haut de façon prof
 
 > **La tenue vestimentaire n'est pas la raison pour laquelle on obtient un emploi. Mais c'est parfois la raison pour laquelle on est sorti de la liste. C'est une barrière à franchir, pas un avantage à créer. Franchissez-la facilement en vous habillant de façon sobre, soignée, et adaptée au contexte.**
 
-## Essor Consulting — Coaching Image Professionnelle
+## Nextinotech — Coaching Image Professionnelle
 
-Essor Consulting accompagne les professionnels SC dans leur image professionnelle, y compris le vestimentaire en entretien.
+Nextinotech accompagne les professionnels SC dans leur image professionnelle, y compris le vestimentaire en entretien.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

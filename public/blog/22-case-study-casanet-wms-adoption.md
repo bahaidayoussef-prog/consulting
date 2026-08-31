@@ -1,7 +1,7 @@
 ﻿---
 title: "Case Study: Casanet Warehouse — WMS Adoption 88% + Efficiency +40%"
 date: "2026-06-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/analytics.jpg"
 type: "case-study"
 keywords: "WMS implementation, warehouse management, adoption, efficiency"
@@ -118,7 +118,7 @@ ROI: 3.75x | Payback: 3 months
 
 ## Client Quote
 
-> "WMS was dead in water before Essor. One week of intense training + 8 weeks coaching = completely different adoption story. 88% vs 42% adoption, users now love the system. ROI fantastic, best investment we made in operations."
+> "WMS was dead in water before Nextinotech. One week of intense training + 8 weeks coaching = completely different adoption story. 88% vs 42% adoption, users now love the system. ROI fantastic, best investment we made in operations."
 >
 > — Warehouse Manager, Casanet
 
@@ -134,5 +134,5 @@ ROI: 3.75x | Payback: 3 months
 
 ---
 
-**Essor Consulting** — WMS Implementation Expertise + Change Management
+**Nextinotech** — WMS Implementation Expertise + Change Management
 

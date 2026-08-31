@@ -353,7 +353,7 @@ export default function ProductiviteSimulator() {
 
                 {gateStatus === 'error' && (
                   <p style={{ color: 'rgba(200,60,60,0.85)', fontSize: '0.8rem', fontFamily: 'DM Mono, monospace', marginBottom: '1rem' }}>
-                    Erreur d'envoi. Réessayez, ou écrivez-nous directement à essor.consulting.maroc@gmail.com
+                    Erreur d'envoi. Réessayez, ou écrivez-nous directement à contact@nextinotech.com
                   </p>
                 )}
 
@@ -402,7 +402,7 @@ export default function ProductiviteSimulator() {
                 flexWrap: 'wrap', justifyContent: 'space-between', marginBottom: '2rem',
               }}>
                 <p style={{ fontSize: '0.85rem', color: 'var(--navy)', lineHeight: 1.7, margin: 0, maxWidth: 480 }}>
-                  <strong>Estimation directionnelle</strong> — un diagnostic Essor Consulting affine ce calcul selon votre contexte réel (saisonnalité, mix produits, disposition de l'entrepôt).
+                  <strong>Estimation directionnelle</strong> — un diagnostic Nextinotech affine ce calcul selon votre contexte réel (saisonnalité, mix produits, disposition de l'entrepôt).
                 </p>
                 <a href="/contact" className="btn-primary" style={{ whiteSpace: 'nowrap' }}>Demander un diagnostic →</a>
               </div>

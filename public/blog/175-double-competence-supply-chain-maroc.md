@@ -1,7 +1,7 @@
 ﻿---
 title: "La Double Compétence : L'Arme Secrète des Profils Supply Chain au Maroc"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/business.jpg"
 keywords: "double compétence supply chain Maroc, profil hybride logistique, supply chain data Maroc, supply chain finance Maroc, compétences combinées logistique"
 description: "Comment la double compétence supply chain + une autre expertise (data, finance, digital, RSE) vous positionne sur les postes les plus rares et les mieux rémunérés au Maroc."
@@ -119,9 +119,9 @@ Leadership, change management, communication direction, coaching d'équipe
 
 > **Dans un marché du travail où les profils mono-compétence sont de plus en plus substituables, la double compétence est votre assurance anti-obsolescence. Commencez à la construire dès votre première année professionnelle — pas à 40 ans quand il est trop tard pour changer facilement.**
 
-## Essor Consulting — Formation Double Compétence
+## Nextinotech — Formation Double Compétence
 
-Essor Consulting forme des profils hybrides supply chain : SC+Data, SC+Finance, SC+Durabilité, SC+Digital.
+Nextinotech forme des profils hybrides supply chain : SC+Data, SC+Finance, SC+Durabilité, SC+Digital.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

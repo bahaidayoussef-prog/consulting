@@ -1,7 +1,7 @@
 ﻿---
 title: "LinkedIn pour les Logisticiens au Maroc : Profil qui Attire les Recruteurs"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/office.jpg"
 keywords: "LinkedIn supply chain Maroc, profil LinkedIn logisticien, LinkedIn recrutement logistique Maroc, optimiser LinkedIn supply chain"
 description: "Comment optimiser son profil LinkedIn pour être recruté en supply chain au Maroc ? Photo, titre, résumé, expériences, recommandations — le guide complet."
@@ -79,9 +79,9 @@ Pour être dans leur radar, suivez et interagissez avec les recruteurs spéciali
 
 > **LinkedIn n'est pas un CV en ligne. C'est un outil de prospection active. Les profils qui marchent le mieux sont ceux qui publient, commentent, et construisent une présence régulière — pas ceux qui attendent d'être trouvés.**
 
-## Essor Consulting — Coaching LinkedIn Supply Chain
+## Nextinotech — Coaching LinkedIn Supply Chain
 
 Session de 90 minutes pour auditer et optimiser votre profil LinkedIn : titre, résumé, expériences, stratégie de contenu.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

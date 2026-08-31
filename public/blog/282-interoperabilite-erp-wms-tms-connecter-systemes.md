@@ -1,7 +1,7 @@
 ---
 title: "Interopérabilité ERP-WMS-TMS : Connecter ses Systèmes sans Tout Casser"
 date: "2026-08-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/analytics.jpg"
 keywords: "intégration ERP WMS TMS, interopérabilité systèmes logistique, connecter ERP WMS entrepôt transport"
@@ -36,7 +36,7 @@ L'interopérabilité entre ERP, WMS et TMS dépend d'abord d'un référentiel de
 
 Vous voulez auditer la cohérence de vos référentiels avant de connecter vos systèmes ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

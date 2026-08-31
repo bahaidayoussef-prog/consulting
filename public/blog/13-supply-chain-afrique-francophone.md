@@ -1,7 +1,7 @@
 ﻿---
 title: "Conseil Supply Chain Afrique Francophone — Expert Logistique Régionale"
 date: "2026-06-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/hero-supply-chain.jpg"
 keywords: "conseil supply chain Afrique, logistique Sénégal Côte d'Ivoire Congo, expert supply chain francophone"
 description: "Expert supply chain pour Afrique francophone. Sénégal, Côte d'Ivoire, Congo, Cameroun. Audit, formation, digitalisation."
@@ -75,7 +75,7 @@ Afrique Francophone · 18 ans expérience · Multi-région expertise
 
 ## Contact Afrique
 
-📧 **Email :** essor.consulting.maroc@gmail.com  
+📧 **Email :** contact@nextinotech.com  
 📞 **Téléphone :** +212 663 449 200  
 
 **Format :** On-site intervention ou remote coaching (Zoom + on-job periodic visits)
@@ -84,7 +84,7 @@ Afrique Francophone · 18 ans expérience · Multi-région expertise
 
 ---
 
-**Essor Consulting**  
+**Nextinotech**  
 Directeur des Achats | Expert Supply Chain & Transformation Digitale  
-Essor Consulting — Casablanca, Maroc
+Nextinotech — Casablanca, Maroc
 

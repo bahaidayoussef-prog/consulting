@@ -1,7 +1,7 @@
 ﻿---
 title: "Entretien pour un Poste d'Acheteur Professionnel au Maroc : Guide Complet"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/business.jpg"
 keywords: "entretien acheteur professionnel Maroc, recrutement acheteur logistique Maroc, poste acheteur supply chain entretien Maroc, questions entretien acheteur"
 description: "Comment réussir l'entretien pour un poste d'acheteur professionnel au Maroc ? Questions techniques, mises en situation négociation, et ce que les recruteurs évaluent vraiment."
@@ -92,9 +92,9 @@ Le recruteur joue le rôle d'un fournisseur que vous devez convaincre d'accepter
 
 > **L'acheteur professionnel est l'un des rôles qui crée le plus de valeur mesurable dans une entreprise. C'est aussi l'un des plus difficiles à évaluer en entretien — parce qu'il faut simultanément montrer des compétences analytiques, relationnelles, et négociatrices. Le candidat qui maîtrise ces trois dimensions en entretien décroche presque toujours le poste.**
 
-## Essor Consulting — Formation Achats
+## Nextinotech — Formation Achats
 
-Essor Consulting propose des formations achats professionnels : négociation, SRM, pilotage du panel fournisseurs, préparation entretien.
+Nextinotech propose des formations achats professionnels : négociation, SRM, pilotage du panel fournisseurs, préparation entretien.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

@@ -1,7 +1,7 @@
 ﻿---
 title: "10 Erreurs des Jeunes Diplômés Supply Chain au Maroc (et Comment les Éviter)"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/conseil.jpg"
 keywords: "erreurs jeune diplômé supply chain Maroc, pièges premiers emploi logistique, mistakes junior supply chain Maroc, conseils débutant supply chain"
 description: "Les 10 erreurs les plus courantes des jeunes diplômés supply chain au Maroc, observées sur le terrain, avec les solutions concrètes pour les éviter."
@@ -95,9 +95,9 @@ Après des années à accompagner des professionnels supply chain et à travaill
 
 > **Ces erreurs ne sont pas des fautes — elles sont des manques d'information. Maintenant que vous les connaissez, évitez-les. Un jeune diplômé qui évite ces 10 pièges trouvera son premier emploi supply chain en 30 à 60 jours au Maroc.**
 
-## Essor Consulting — Accompagnement Premiers Pas
+## Nextinotech — Accompagnement Premiers Pas
 
-Essor Consulting accompagne les jeunes diplômés pour éviter ces erreurs et démarrer leur carrière supply chain du bon pied.
+Nextinotech accompagne les jeunes diplômés pour éviter ces erreurs et démarrer leur carrière supply chain du bon pied.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

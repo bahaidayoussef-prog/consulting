@@ -1,7 +1,7 @@
 ﻿---
 title: "Audit Supply Chain 2026 : Les 10 Erreurs Critiques que les PME/ME Marocaines Commettent"
 date: "2026-06-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/conseil.jpg"
 keywords: "audit supply chain Maroc, diagnostic logistique, transformation supply chain, optimisation chaîne approvisionnement"
 description: "Découvrez les 10 erreurs critiques en supply chain que les PME marocaines commettent et comment les corriger. Basé sur 18 ans d'expertise et 110+ missions."
@@ -161,7 +161,7 @@ Voici les 10 erreurs critiques — et comment les corriger.
 
 **Le problème réel :** Concentration fournisseur non-gérée = Risque business critique.
 
-**Cas réel — TMPA Tanger Med (2014-2015, Consulting Essor) :**
+**Cas réel — TMPA Tanger Med (2014-2015, Nextinotech) :**
 - Hub logistique complex, supply chains en tension
 - Problème : Fournisseurs critiques non-diversifiés, pas de contingency plan
 - Solution : Mapping risques géopolitiques/opérationnels + stratégie dual-sourcing
@@ -242,7 +242,7 @@ Ces 10 erreurs ne sont pas génétiques. Elles se corrigent. Et chaque correctio
 
 ---
 
-**Essor Consulting**  
+**Nextinotech**  
 Directeur des Achats | Expert Supply Chain & Transformation Digitale  
-Essor Consulting — Casablanca, Maroc  
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+Nextinotech — Casablanca, Maroc  
+📧 contact@nextinotech.com | 📞 +212 663 449 200

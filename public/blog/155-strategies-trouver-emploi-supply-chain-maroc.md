@@ -1,7 +1,7 @@
 ﻿---
 title: "15 Stratégies pour Trouver un Emploi Supply Chain au Maroc en 2026"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/hero-supply-chain.jpg"
 keywords: "trouver emploi supply chain Maroc stratégies, méthodes recherche emploi logistique Maroc, conseils chercheur emploi supply chain, stratégies candidature logistique Maroc"
 description: "15 stratégies concrètes pour trouver un emploi supply chain au Maroc en 2026 : des méthodes testées, classées par efficacité, pour trouver plus vite."
@@ -106,9 +106,9 @@ Ne misez pas sur une seule stratégie. La combinaison qui fonctionne :
 
 > **La recherche d'emploi est un jeu de probabilités et de volume. Avec une bonne méthode, le bon timing, et l'intensité nécessaire — 90 jours suffisent pour trouver le bon poste supply chain au Maroc. La plupart des candidats échouent non par manque de compétences, mais par manque de méthode.**
 
-## Essor Consulting — Programme Accéléré Emploi
+## Nextinotech — Programme Accéléré Emploi
 
-Programme d'accompagnement intensif Essor Consulting : 8 semaines pour trouver votre prochain poste supply chain au Maroc.
+Programme d'accompagnement intensif Nextinotech : 8 semaines pour trouver votre prochain poste supply chain au Maroc.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

@@ -1,7 +1,7 @@
 ﻿---
 title: "Trouver un Emploi Supply Chain en 90 Jours au Maroc : Le Plan"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/hero-supply-chain.jpg"
 keywords: "trouver emploi supply chain Maroc rapidement, plan recherche emploi logistique 90 jours, méthode recherche emploi supply chain Maroc"
 description: "Un plan concret de 90 jours pour trouver un emploi en supply chain au Maroc. Semaine par semaine : ce que vous devez faire pour décrocher un poste en 3 mois."
@@ -115,9 +115,9 @@ Si vous êtes en dessous sur 2 semaines consécutives : ajuster la stratégie.
 
 > **Chercher un emploi est un emploi. Les candidats qui le traitent comme tel — avec des objectifs, une méthode, et un tableau de bord — trouvent beaucoup plus vite que ceux qui le font en dilettante entre deux épisodes de Netflix.**
 
-## Essor Consulting — Coaching Recherche d'Emploi
+## Nextinotech — Coaching Recherche d'Emploi
 
 Programme d'accompagnement recherche d'emploi supply chain : CV, LinkedIn, entretien, réseau, négociation. Résultats en 60-90 jours.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

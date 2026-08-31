@@ -41,10 +41,10 @@ const COMPARE = [
 const schema = {
   '@context': 'https://schema.org',
   '@type': 'Article',
-  headline: 'DSC en CDI ou Mandat Essor ? Le Comparatif Complet',
+  headline: 'DSC en CDI ou Mandat Nextinotech ? Le Comparatif Complet',
   description: "Coût réel, délai de démarrage, engagement et résultat en sortie : le comparatif chiffré entre recruter un Directeur Supply Chain en CDI et confier un mandat à temps partagé.",
-  author: { '@type': 'Organization', name: 'Essor Consulting' },
-  publisher: { '@type': 'Organization', name: 'Essor Consulting' },
+  author: { '@type': 'Organization', name: 'Nextinotech' },
+  publisher: { '@type': 'Organization', name: 'Nextinotech' },
 }
 
 export default function DscVsRecrutementCdi() {
@@ -58,7 +58,7 @@ export default function DscVsRecrutementCdi() {
           <FadeUp>
             <div className="section-tag"><span>Comparatif · CDI vs Mandat</span></div>
             <p style={{ fontSize: '1.05rem', color: 'var(--ink)', lineHeight: 1.85, fontWeight: 300, maxWidth: 760, marginTop: '2rem' }}>
-              <strong style={{ fontWeight: 600 }}>Un Directeur Supply Chain en CDI coûte 600 000 à 900 000 MAD par an charges comprises, avec 4 à 6 mois entre la décision et la prise de poste.</strong> Un mandat Essor démarre en 2 semaines, sans charges sociales ni risque RH, pour 180 000 à 550 000 MAD selon la taille de l&apos;entreprise et la durée du mandat — avec un exit propre prévu dès la signature. Les deux options répondent à des besoins différents, pas à un même problème avec deux prix.
+              <strong style={{ fontWeight: 600 }}>Un Directeur Supply Chain en CDI coûte 600 000 à 900 000 MAD par an charges comprises, avec 4 à 6 mois entre la décision et la prise de poste.</strong> Un mandat Nextinotech démarre en 2 semaines, sans charges sociales ni risque RH, pour 180 000 à 550 000 MAD selon la taille de l&apos;entreprise et la durée du mandat — avec un exit propre prévu dès la signature. Les deux options répondent à des besoins différents, pas à un même problème avec deux prix.
             </p>
           </FadeUp>
         </div>
@@ -93,7 +93,7 @@ export default function DscVsRecrutementCdi() {
           </div>
           <div>
             <div style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2rem, 3.5vw, 3rem)', fontWeight: 700, color: 'var(--blue-bright)', lineHeight: 1 }}>2 sem.</div>
-            <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'var(--mid)', marginTop: '0.4rem' }}>Démarrage d&apos;un mandat Essor</div>
+            <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'var(--mid)', marginTop: '0.4rem' }}>Démarrage d&apos;un mandat Nextinotech</div>
           </div>
         </div>
       </div>
@@ -103,7 +103,7 @@ export default function DscVsRecrutementCdi() {
         <div className="section-inner" style={{ maxWidth: 860 }}>
           <FadeUp>
             <h3 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(1.6rem, 2.8vw, 2.4rem)', fontWeight: 800, color: 'var(--ink)', marginBottom: '1.25rem', letterSpacing: '-0.02em' }}>
-              Le mandat Essor : un engagement délimité
+              Le mandat Nextinotech : un engagement délimité
             </h3>
             <p style={{ fontSize: '0.98rem', color: 'var(--mid)', lineHeight: 1.85, fontWeight: 300, marginBottom: '1.5rem' }}>
               Un Mandat Pilotage (PME, 50 à 200 personnes) coûte 180 000 à 280 000 MAD HT sur 4 à 6 mois. Un Mandat Stratégique (ETI, 200 à 800 personnes) coûte 320 000 à 550 000 MAD HT sur 7 à 10 mois. Dans les deux cas, aucune charge sociale, aucun risque prud&apos;homal, et une passation organisée dès la troisième phase du mandat — l&apos;objectif n&apos;est jamais de rester indéfiniment, mais de rendre votre équipe autonome.
@@ -130,7 +130,7 @@ export default function DscVsRecrutementCdi() {
                 <div className="dsc-compare-grid" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', paddingBottom: '0.75rem', borderBottom: '1px solid rgba(27,53,84,0.12)' }}>
                   <div />
                   <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'rgba(27,53,84,0.4)', padding: '0 1.5rem' }}>DSC en CDI</div>
-                  <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'var(--blue-bright)', padding: '0 1.5rem' }}>Mandat Essor</div>
+                  <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'var(--blue-bright)', padding: '0 1.5rem' }}>Mandat Nextinotech</div>
                 </div>
 
                 {COMPARE.map((row, i) => (

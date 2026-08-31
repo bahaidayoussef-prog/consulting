@@ -1,7 +1,7 @@
 ﻿---
 title: "Stages Supply Chain au Maroc : Comment Trouver et Maximiser"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/formation.jpg"
 keywords: "stage supply chain Maroc, stage logistique Maroc étudiant, trouver stage supply chain Casablanca, PFE supply chain Maroc"
 description: "Comment trouver un stage supply chain au Maroc et en faire une porte d'entrée vers un emploi ? Sites, entreprises, stratégies et conseils pour maximiser son stage."
@@ -86,9 +86,9 @@ La durée légale maximum d'un stage sans contrat de travail au Maroc : 6 mois. 
 
 > **Le stage n'est pas une case à cocher sur votre CV. C'est votre première opportunité de montrer à un professionnel ce que vous vallez vraiment. Prenez-le aussi sérieusement que votre futur emploi — parce que, souvent, c'est exactement ce que c'est.**
 
-## Essor Consulting — Coaching Stage
+## Nextinotech — Coaching Stage
 
-Essor Consulting aide les étudiants supply chain à trouver le stage idéal et à le maximiser.
+Nextinotech aide les étudiants supply chain à trouver le stage idéal et à le maximiser.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

@@ -1,7 +1,7 @@
 ﻿---
 title: "Auto-Diagnostic Logistique PME au Maroc : 20 Questions pour Évaluer votre Supply Chain"
 date: "2026-08-04"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/analytics.jpg"
 keywords: "diagnostic logistique pme maroc, auto-diagnostic supply chain, évaluation logistique entreprise maroc, bilan logistique pme, check-list supply chain maroc"
 description: "20 questions pour auto-diagnostiquer la performance logistique de votre PME au Maroc. Scoring, résultats et plan d'action. Outil gratuit basé sur 110+ audits terrain."
@@ -9,7 +9,7 @@ description: "20 questions pour auto-diagnostiquer la performance logistique de 
 
 # Auto-Diagnostic Logistique PME au Maroc : 20 Questions pour Évaluer votre Supply Chain
 
-Avant de faire appel à un consultant, avant d'investir dans un WMS ou de recruter un responsable supply chain — posez-vous 20 questions. Ces 20 questions sont la version simplifiée de la grille d'évaluation qu'Essor Consulting utilise lors de ses premières journées d'audit. Elles ne remplacent pas un audit terrain, mais elles vous donnent une image réelle de votre situation.
+Avant de faire appel à un consultant, avant d'investir dans un WMS ou de recruter un responsable supply chain — posez-vous 20 questions. Ces 20 questions sont la version simplifiée de la grille d'évaluation que Nextinotech utilise lors de ses premières journées d'audit. Elles ne remplacent pas un audit terrain, mais elles vous donnent une image réelle de votre situation.
 
 La plupart des dirigeants de PME marocaines que je rencontre ont un sentiment diffus que "la logistique pose des problèmes". Ce diagnostic vous aide à transformer ce sentiment en données — et les données en priorités.
 
@@ -187,7 +187,7 @@ La plupart des dirigeants de PME marocaines que je rencontre ont un sentiment di
 | 8 – 15 | Supply chain en danger | Intervention prioritaire — risque commercial et financier à court terme |
 | 0 – 7 | Situation critique | Diagnostic flash immédiat + accompagnement d'urgence |
 
-::stat:: 73% — des PME marocaines testées avec cette grille obtiennent un score inférieur à 24/40 lors d'un premier audit Essor Consulting
+::stat:: 73% — des PME marocaines testées avec cette grille obtiennent un score inférieur à 24/40 lors d'un premier audit Nextinotech
 
 ---
 
@@ -229,9 +229,9 @@ Ce que seul un audit terrain peut révéler :
 
 ---
 
-## Faire Diagnostiquer votre Supply Chain avec Essor Consulting
+## Faire Diagnostiquer votre Supply Chain avec Nextinotech
 
-Vous avez complété ce diagnostic et souhaitez passer à l'étape suivante ? Essor Consulting réalise des audits supply chain au Maroc depuis plus de 20 ans. Nos auditeurs sont sur le terrain, pas dans un bureau.
+Vous avez complété ce diagnostic et souhaitez passer à l'étape suivante ? Nextinotech réalise des audits supply chain au Maroc depuis plus de 20 ans. Nos auditeurs sont sur le terrain, pas dans un bureau.
 
 **Notre diagnostic flash (2 jours) inclut :**
 - Entretiens avec les équipes logistiques et la direction
@@ -239,7 +239,7 @@ Vous avez complété ce diagnostic et souhaitez passer à l'étape suivante ? Es
 - Visite terrain (entrepôt, zone de réception, expédition)
 - Rapport d'orientation avec les 5 priorités et le ROI estimé
 
-Contactez-nous pour programmer votre diagnostic : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
+Contactez-nous pour programmer votre diagnostic : **contact@nextinotech.com** · **+212 06 63 44 92 00**
 
 ---
 

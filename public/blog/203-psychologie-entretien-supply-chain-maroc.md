@@ -1,7 +1,7 @@
 ﻿---
 title: "La Psychologie de l'Entretien Supply Chain : Ce que le Recruteur Pense"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/conseil.jpg"
 keywords: "psychologie entretien supply chain Maroc, ce que pense recruteur logistique, biais recrutement supply chain, comment se faire voir recruteur SC Maroc"
 description: "Comprendre la psychologie du recruteur supply chain au Maroc : ses biais, ses critères réels de décision, et comment adapter votre comportement pour maximiser vos chances."
@@ -104,9 +104,9 @@ La connexion humaine est souvent le facteur de différenciation final entre deux
 
 > **L'entretien est autant un exercice émotionnel qu'intellectuel. Un candidat qui comprend la psychologie de son interlocuteur — ses biais, ses besoins, ses signaux — peut influencer positivement la décision sans tricher. C'est de l'intelligence relationnelle — une compétence essentielle en supply chain.**
 
-## Essor Consulting — Coaching Intelligence Relationnelle
+## Nextinotech — Coaching Intelligence Relationnelle
 
-Essor Consulting intègre le développement de l'intelligence relationnelle dans ses programmes de préparation aux entretiens supply chain.
+Nextinotech intègre le développement de l'intelligence relationnelle dans ses programmes de préparation aux entretiens supply chain.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

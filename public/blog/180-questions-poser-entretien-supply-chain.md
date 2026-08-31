@@ -1,7 +1,7 @@
 ﻿---
 title: "Les Meilleures Questions à Poser en Entretien Supply Chain"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/conseil.jpg"
 keywords: "questions poser entretien supply chain Maroc, questions candidat entretien logistique, bonne question entretien supply chain, se démarquer entretien supply chain"
 description: "Quelles questions poser à la fin d'un entretien supply chain pour se démarquer, montrer sa valeur, et décider si le poste vous convient vraiment."
@@ -99,9 +99,9 @@ Question puissante en fin d'entretien. Elle vous donne une dernière chance de c
 
 > **Les questions que vous posez en définissent autant sur vous que les réponses que vous donnez. Un candidat qui pose des questions pertinentes sur les enjeux business, l'équipe, et les objectifs montre qu'il pense déjà comme quelqu'un qui travaille là — pas comme quelqu'un qui demande.**
 
-## Essor Consulting — Préparation Entretien
+## Nextinotech — Préparation Entretien
 
-Essor Consulting prépare les professionnels SC aux entretiens avec un coaching complet incluant les questions à poser.
+Nextinotech prépare les professionnels SC aux entretiens avec un coaching complet incluant les questions à poser.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

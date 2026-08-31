@@ -1,7 +1,7 @@
 ---
 title: "Port de Ndayane au Sénégal : ce que le Futur Méga-Port Change pour les Chargeurs"
 date: "2026-08-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/transport.jpg"
 keywords: "port de Ndayane Sénégal, méga-port Sénégal DP World, futur port profond Dakar"
@@ -36,7 +36,7 @@ Le port de Ndayane, porté par un investissement massif de DP World et un calend
 
 Vous exportez vers l'Afrique de l'Ouest et voulez anticiper l'impact de ce nouveau port sur votre stratégie logistique ? [Découvrez nos services conseil supply chain](/conseil), ou [contactez-nous](/contact) pour en discuter.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

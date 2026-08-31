@@ -1,7 +1,7 @@
 ---
 title: "Retours E-commerce : le Coût Caché que les Marchands Marocains Sous-Estiment"
 date: "2026-08-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/business.jpg"
 keywords: "coût retours e-commerce maroc, gestion retours e-commerce, taux de retour e-commerce coût caché"
@@ -36,7 +36,7 @@ Le coût réel d'un retour e-commerce dépasse largement le transport — dépr�
 
 Vous voulez évaluer le coût réel de vos retours et les leviers pour les réduire à la source ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

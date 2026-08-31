@@ -1,7 +1,7 @@
 ﻿---
 title: "La Lettre de Remerciement après Entretien Supply Chain : Modèles et Conseils"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/office.jpg"
 keywords: "lettre remerciement entretien supply chain Maroc, email remerciement entretien logistique, suivre entretien supply chain, message après entretien recrutement"
 description: "Comment rédiger un email de remerciement après un entretien supply chain au Maroc ? Modèles complets, conseils de rédaction, et quand l'envoyer."
@@ -124,9 +124,9 @@ Cordialement,
 
 > **L'email de remerciement est l'équivalent du bilan professionnel après un match. Les professionnels qui le font montrent qu'ils vont jusqu'au bout des choses. Ceux qui ne le font pas laissent une opportunité de différenciation sur la table — sans effort.**
 
-## Essor Consulting — Templates Candidature
+## Nextinotech — Templates Candidature
 
-Essor Consulting fournit des templates personnalisés de candidature supply chain adaptés à votre profil et vos cibles.
+Nextinotech fournit des templates personnalisés de candidature supply chain adaptés à votre profil et vos cibles.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

@@ -1,7 +1,7 @@
 ﻿---
 title: "Conseil Supply Chain Marrakech/Agadir — Expert Logistique Sud Maroc"
 date: "2026-06-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/agro.jpg"
 keywords: "consultant supply chain Marrakech, conseil logistique Agadir, audit supply chain sud Maroc"
 description: "Expert supply chain pour Marrakech, Agadir, région sud. Tourisme, commerce, agriculture. Audit, formation, logistique."
@@ -45,11 +45,11 @@ Marrakech/Agadir region, Maroc
 
 ## Contact Marrakech/Agadir
 
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200
 
 **Coverage :** Marrakech, Agadir, régions sud
 
 ---
 
-**Essor Consulting**
+**Nextinotech**
 

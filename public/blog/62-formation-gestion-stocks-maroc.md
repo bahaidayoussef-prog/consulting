@@ -1,10 +1,10 @@
 ---
 title: "Formation Gestion des Stocks au Maroc : Méthodes, Métier et Certifications 2026"
 date: "2026-08-10"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/analytics.jpg"
 keywords: "formation gestion des stocks maroc, formation gestionnaire de stocks maroc, gestion des stocks casablanca, gestionnaire stocks compétences maroc, formation approvisionnement maroc, optimisation stocks pme maroc, DDMRP formation maroc"
-description: "Guide complet formation gestion et gestionnaire des stocks au Maroc : méthodes ABC-XYZ, DDMRP, outils (Excel à APS), compétences clés, salaires, programme 4 jours. Par Essor Consulting."
+description: "Guide complet formation gestion et gestionnaire des stocks au Maroc : méthodes ABC-XYZ, DDMRP, outils (Excel à APS), compétences clés, salaires, programme 4 jours. Par Nextinotech."
 ---
 
 # Formation Gestion des Stocks au Maroc : Méthodes, Métier et Certifications 2026
@@ -19,7 +19,7 @@ La bonne nouvelle : ces deux problèmes se résolvent avec les bonnes méthodes 
 
 ## Pourquoi la Gestion des Stocks est un Enjeu Critique au Maroc
 
-::stat:: 68% — des PME marocaines immobilisent entre 20 et 45% de capital excédentaire en stocks (étude terrain Essor Consulting)
+::stat:: 68% — des PME marocaines immobilisent entre 20 et 45% de capital excédentaire en stocks (étude terrain Nextinotech)
 
 ### Les coûts cachés du mauvais stockage
 
@@ -94,7 +94,7 @@ Avantages DDMRP vs MRP classique :
 - Simplifie la planification (moins de nervosité, moins de réordonnancements)
 - Résout le paradoxe apparent : réduire le stock ET les ruptures simultanément
 
-> **Essor Consulting est l'un des rares cabinets certifiés DDMRP en Afrique francophone.** Nous formons et déployons cette méthode depuis 2015 dans des PME industrielles, des groupes de distribution et des opérateurs pharmaceutiques.
+> **Nextinotech est l'un des rares cabinets certifiés DDMRP en Afrique francophone.** Nous formons et déployons cette méthode depuis 2015 dans des PME industrielles, des groupes de distribution et des opérateurs pharmaceutiques.
 
 ### 4. Kanban, VMI et Flux Tirés
 
@@ -137,7 +137,7 @@ Avantages DDMRP vs MRP classique :
 
 **Évolution type :** Gestionnaire stocks → Responsable approvisionnements → Responsable planification → Supply Chain Manager → Directeur Supply Chain. La certification **CPIM** (Certified in Production and Inventory Management) d'APICS est la certification internationale la plus reconnue pour ce métier — elle accélère l'évolution salariale et la mobilité internationale.
 
-::stat:: 78% — des PME marocaines n'ont pas de paramètres de réapprovisionnement formalisés dans leur ERP (audit terrain Essor Consulting)
+::stat:: 78% — des PME marocaines n'ont pas de paramètres de réapprovisionnement formalisés dans leur ERP (audit terrain Nextinotech)
 
 ---
 
@@ -157,7 +157,7 @@ Avantages DDMRP vs MRP classique :
 
 ## Nos Programmes de Formation
 
-**Module intégré (1 jour · 1 500 MAD)** — intégré à la formation Responsable Logistique d'Essor Consulting : analyse ABC-XYZ sur données réelles, calcul du stock de sécurité et du point de commande, introduction DDMRP, KPIs et tableau de bord. Format : journée intensive, hôtel 5★, Casablanca.
+**Module intégré (1 jour · 1 500 MAD)** — intégré à la formation Responsable Logistique de Nextinotech : analyse ABC-XYZ sur données réelles, calcul du stock de sécurité et du point de commande, introduction DDMRP, KPIs et tableau de bord. Format : journée intensive, hôtel 5★, Casablanca.
 
 **Programme approfondi Gestionnaire de Stocks (4 jours, inter ou intra-entreprise)** :
 
@@ -172,9 +172,9 @@ Avantages DDMRP vs MRP classique :
 
 **Pré-requis :** 1 an minimum en gestion de stocks ou approvisionnement. Autres formats disponibles : Formation DDMRP (2 jours, profils déjà formés aux méthodes classiques), Formation Paramétrage ERP Stocks (1 jour), Accompagnement terrain (1 à 3 mois).
 
-👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
-Contactez-nous pour un programme adapté : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
+Contactez-nous pour un programme adapté : **contact@nextinotech.com** · **+212 06 63 44 92 00**
 
 ---
 

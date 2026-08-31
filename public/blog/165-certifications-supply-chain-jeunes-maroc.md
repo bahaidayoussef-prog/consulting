@@ -1,7 +1,7 @@
 ﻿---
 title: "Certifications Supply Chain pour Jeunes Professionnels au Maroc"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/formation.jpg"
 keywords: "certification supply chain jeune professionnel Maroc, APICS jeune Maroc, certification logistique débutant Maroc, certifier supply chain Maroc"
 description: "Quelles certifications supply chain obtenir en début de carrière au Maroc ? APICS, Lean, DDMRP — guide pour choisir et préparer sa première certification."
@@ -47,7 +47,7 @@ Voici le guide des certifications supply chain pour les profils en début de car
 
 **Ce que c'est :** Certification sur la méthode Demand-Driven MRP, alternative moderne au MRP traditionnel. En plein essor au Maroc.
 
-**Fournisseurs :** DDMRP Institute, Essor Consulting (partenaire certifié).
+**Fournisseurs :** DDMRP Institute, Nextinotech (partenaire certifié).
 
 **Avantage :** Peu de jeunes diplômés la détiennent — positionnement différenciateur immédiat.
 
@@ -96,9 +96,9 @@ Ce plan représente un investissement de 1 500-3 000 USD sur 3 ans — et positi
 
 > **Les certifications ne remplacent pas l'expérience — elles la complètent et la rendent lisible pour les recruteurs. Un jeune professionnel qui combine 3 ans d'expérience solide + une certification CPIM + un profil LinkedIn optimisé a le profil d'un candidat que tout le secteur SC se dispute.**
 
-## Essor Consulting — Centre de Formation Certifiant
+## Nextinotech — Centre de Formation Certifiant
 
-Essor Consulting propose des formations préparant aux certifications DDMRP et CPIM, adaptées au contexte marocain.
+Nextinotech propose des formations préparant aux certifications DDMRP et CPIM, adaptées au contexte marocain.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

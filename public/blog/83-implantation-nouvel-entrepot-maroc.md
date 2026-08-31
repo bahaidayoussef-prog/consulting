@@ -1,7 +1,7 @@
 ﻿---
 title: "Implantation d'un Entrepôt au Maroc : Guide Complet de A à Z"
 date: "2026-08-04"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/hero-warehouse.jpg"
 keywords: "implantation entrepôt maroc, ouverture entrepôt maroc, conception entrepôt logistique, projet entrepôt maroc, logistique entrepôt casablanca"
 description: "Guide complet pour implanter un nouvel entrepôt au Maroc : localisation, layout, équipements, WMS, équipes. 7 phases, budgets réels et pièges à éviter."
@@ -219,11 +219,11 @@ L'ouverture d'un entrepôt n'est pas la fin du projet — c'est le début de la 
 
 ---
 
-## Pourquoi Faire Appel à Essor Consulting pour votre Projet d'Entrepôt
+## Pourquoi Faire Appel à Nextinotech pour votre Projet d'Entrepôt
 
 Un projet d'entrepôt est une décision à 15 ans qui engage plusieurs millions de dirhams. C'est aussi le type de projet où les erreurs de la première heure sont les plus coûteuses et les moins visibles.
 
-Essor Consulting accompagne les entreprises marocaines sur **l'ensemble du cycle** :
+Nextinotech accompagne les entreprises marocaines sur **l'ensemble du cycle** :
 - Audit de faisabilité et décision (Phase 0)
 - Conception du schéma directeur logistique et du layout
 - Cahier des charges WMS et assistance à la sélection
@@ -232,7 +232,7 @@ Essor Consulting accompagne les entreprises marocaines sur **l'ensemble du cycle
 
 **Nous sommes indépendants de tout éditeur logiciel et de tout équipementier.** Notre recommandation est toujours celle qui sert votre performance, pas notre commission.
 
-Contactez-nous : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
+Contactez-nous : **contact@nextinotech.com** · **+212 06 63 44 92 00**
 
 ---
 
@@ -244,4 +244,4 @@ La bonne nouvelle : avec une méthode rigoureuse et un accompagnement terrain, u
 
 La mauvaise nouvelle : sans cette rigueur, les mêmes projets deviennent des sources de surcoûts permanents que personne n'ose quantifier — parce que le comparer à "ce qu'aurait pu être" est trop douloureux.
 
-**Vous planifiez l'ouverture d'un entrepôt ou l'extension d'une capacité existante ? Contactez Essor Consulting pour un premier cadrage de 2 heures, sans engagement.**
+**Vous planifiez l'ouverture d'un entrepôt ou l'extension d'une capacité existante ? Contactez Nextinotech pour un premier cadrage de 2 heures, sans engagement.**

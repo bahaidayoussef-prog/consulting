@@ -1,7 +1,7 @@
 ---
 title: "Chaîne d'Approvisionnement des Dispositifs Médicaux : un Secteur Distinct du Médicament"
 date: "2026-08-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/pharma.jpg"
 keywords: "supply chain dispositifs médicaux maroc, import dispositif médical maroc réglementation, IMANOR dispositifs médicaux"
@@ -36,7 +36,7 @@ La chaîne d'approvisionnement des dispositifs médicaux marocains reste très d
 
 Vous importez ou distribuez des dispositifs médicaux et voulez sécuriser votre chaîne d'approvisionnement ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

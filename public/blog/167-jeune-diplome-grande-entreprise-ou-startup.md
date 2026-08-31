@@ -1,7 +1,7 @@
 ﻿---
 title: "Jeune Diplômé Supply Chain : Grande Entreprise ou Startup au Maroc ?"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/business.jpg"
 keywords: "grande entreprise startup supply chain Maroc, premier emploi grande boîte PME Maroc, choisir entreprise premier emploi supply chain, startup logistique Maroc"
 description: "Faut-il débuter en supply chain dans une grande entreprise ou une startup au Maroc ? Comparaison honnête des avantages et inconvénients pour faire le bon choix."
@@ -92,9 +92,9 @@ Ce parcours combine les avantages des deux mondes.
 
 > **Il n'y a pas de mauvais choix — il y a des choix cohérents ou incohérents avec votre personnalité et vos objectifs. La vraie erreur est de choisir par défaut (je prends ce qu'on m'offre) plutôt que par stratégie (je choisis ce qui me forme le mieux pour où je veux aller).**
 
-## Essor Consulting — Orientation Carrière
+## Nextinotech — Orientation Carrière
 
-Essor Consulting accompagne les jeunes diplômés dans leurs décisions de carrière : quel premier emploi, quelle entreprise, quelle stratégie à 5 et 10 ans.
+Nextinotech accompagne les jeunes diplômés dans leurs décisions de carrière : quel premier emploi, quelle entreprise, quelle stratégie à 5 et 10 ans.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

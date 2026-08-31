@@ -576,8 +576,8 @@ function buildArticleSchema(post: BlogPost) {
     headline: post.title,
     description: post.description || post.quickAnswer,
     datePublished: post.date,
-    author: { '@type': 'Organization', name: post.author || 'Essor Consulting' },
-    publisher: { '@type': 'Organization', name: 'Essor Consulting' },
+    author: { '@type': 'Organization', name: post.author || 'Nextinotech' },
+    publisher: { '@type': 'Organization', name: 'Nextinotech' },
   }
 }
 
@@ -636,7 +636,7 @@ function BlogDetail({ post, onClose }: BlogDetailProps) {
     const prevTwT    = twTitle?.content
     const prevTwD    = twDesc?.content
 
-    const articleTitle = `${post.title} | Essor Consulting`
+    const articleTitle = `${post.title} | Nextinotech`
     document.title = articleTitle
     if (descMeta && post.description)  descMeta.content = post.description
     if (ogTitle)                        ogTitle.content  = articleTitle

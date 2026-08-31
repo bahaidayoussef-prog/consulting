@@ -120,7 +120,7 @@ export default function Methode() {
           }}
         >
           <div>
-            <div className="section-tag" style={{ color: 'var(--blue-bright)' }}>Méthode Essor</div>
+            <div className="section-tag" style={{ color: 'var(--blue-bright)' }}>Méthode Nextinotech</div>
             <h2
               style={{
                 fontFamily: 'Manrope, sans-serif',

@@ -1,7 +1,7 @@
 ﻿---
 title: "Négocier son Salaire en Supply Chain au Maroc : Techniques et Chiffres"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/business.jpg"
 keywords: "négocier salaire supply chain Maroc, salaire logistique Maroc négociation, augmentation salaire logisticien Maroc, entretien salaire supply chain"
 description: "Comment négocier son salaire en supply chain au Maroc ? Techniques concrètes, fourchettes par poste, et les erreurs qui coûtent des milliers de dirhams par mois."
@@ -84,9 +84,9 @@ Un salaire de 25 000 MAD + voiture + mutuelle + variable de 15% vaut souvent plu
 
 > **Négocier son salaire n'est pas impoli. C'est professionnel. Les recruteurs s'y attendent — un candidat qui n'essaie pas de négocier est parfois perçu comme moins sûr de sa valeur.**
 
-## Essor Consulting — Coaching Négociation Salariale
+## Nextinotech — Coaching Négociation Salariale
 
-Essor Consulting coache les professionnels supply chain avant leurs entretiens de négociation salariale : argumentation, techniques, simulation.
+Nextinotech coache les professionnels supply chain avant leurs entretiens de négociation salariale : argumentation, techniques, simulation.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

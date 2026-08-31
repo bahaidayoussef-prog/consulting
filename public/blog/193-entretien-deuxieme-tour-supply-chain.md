@@ -1,7 +1,7 @@
 ﻿---
 title: "Le Deuxième Tour d'Entretien Supply Chain : Comment le Préparer"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/conseil.jpg"
 keywords: "deuxième entretien supply chain Maroc, second tour recrutement logistique, entretien final supply chain Maroc, deuxième round supply chain"
 description: "Comment se préparer pour le deuxième tour d'un entretien supply chain au Maroc ? Ce qui change, ce qu'on attend de plus, et comment aborder ce tour décisif."
@@ -84,9 +84,9 @@ La pression est réelle. Vous savez que vous êtes en compétition avec 2-4 autr
 
 > **Le deuxième tour est le match de finale. Ceux qui y entrent avec une préparation de même niveau que pour une finale — pas pour un entraînement — sont ceux qui en ressortent avec l'offre. Le niveau de préparation du candidat est souvent visible dès les 5 premières minutes du deuxième entretien.**
 
-## Essor Consulting — Coaching Deuxième Tour
+## Nextinotech — Coaching Deuxième Tour
 
-Essor Consulting propose des sessions de coaching spécialisées pour les deuxièmes tours d'entretien supply chain.
+Nextinotech propose des sessions de coaching spécialisées pour les deuxièmes tours d'entretien supply chain.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

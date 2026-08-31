@@ -1,7 +1,7 @@
 ﻿---
 title: "Formation Négociation Achats au Maroc : Techniques et Cas Pratiques"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/business.jpg"
 keywords: "formation négociation achats Maroc, techniques négociation fournisseurs, négociation achats professionnelle, BATNA négociation Maroc"
 description: "Formation négociation achats au Maroc : BATNA, coût total, tactiques avancées. Les techniques qui permettent de gagner 8 à 15% sur les achats. Guide pratique 2026."
@@ -73,11 +73,11 @@ Les fournisseurs ont leurs propres tactiques. Les connaître permet de ne pas y 
 
 > **Un acheteur qui ne prépare pas sa négociation travaille pour son fournisseur. La préparation est la seule variable qu'un acheteur contrôle totalement.**
 
-## Essor Consulting — Formation Négociation Achats
+## Nextinotech — Formation Négociation Achats
 
 2 jours de formation intensive avec simulations filmées et feedback individuel. Groupes de 6 à 12 participants maximum pour garantir la qualité des simulations.
 
-👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

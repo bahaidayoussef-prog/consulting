@@ -1,7 +1,7 @@
 ---
 title: "Piloter un Projet de Transformation Supply Chain : la Méthode en 5 Phases"
 date: "2026-08-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/conseil.jpg"
 keywords: "méthode transformation supply chain, piloter projet transformation logistique, phases projet supply chain"
@@ -36,7 +36,7 @@ Une méthode structurée en 5 phases (diagnostic, conception, pilote, déploieme
 
 Vous pilotez un projet de transformation supply chain et voulez structurer votre approche ? [Découvrez nos formations et notre accompagnement conseil](/formation), ou [contactez-nous](/contact) pour en discuter.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

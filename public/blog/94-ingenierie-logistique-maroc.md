@@ -1,10 +1,10 @@
 ﻿---
 title: "Ingénierie Logistique au Maroc : Conception, Flux et Optimisation 2026"
 date: "2026-08-04"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/charts.jpg"
 keywords: "ingénierie logistique maroc, bureau d'étude logistique maroc, conception flux logistiques, optimisation supply chain maroc, ingénieur logistique casablanca"
-description: "L'ingénierie logistique au Maroc : définition, missions, outils de simulation des flux et différence avec le consulting opérationnel. Par Essor Consulting, 110+ missions."
+description: "L'ingénierie logistique au Maroc : définition, missions, outils de simulation des flux et différence avec le consulting opérationnel. Par Nextinotech, 110+ missions."
 ---
 
 # Ingénierie Logistique au Maroc : Conception, Flux et Optimisation 2026
@@ -35,7 +35,7 @@ La confusion entre ces deux disciplines est fréquente — y compris chez les d�
 
 En pratique, les deux disciplines se combinent : un bon projet d'ingénierie logistique s'appuie sur un diagnostic (consulting) pour définir les données d'entrée, et se conclut par un plan d'action (consulting) pour mettre en œuvre les solutions conçues.
 
-> **Chez Essor Consulting, nous pratiquons les deux.** L'ingénierie logistique sans le terrain du consulting produit des solutions théoriquement parfaites et pratiquement inapplicables. Le consulting sans l'ingénierie produit des recommandations qui ne tiennent pas à l'échelle.
+> **Chez Nextinotech, nous pratiquons les deux.** L'ingénierie logistique sans le terrain du consulting produit des solutions théoriquement parfaites et pratiquement inapplicables. Le consulting sans l'ingénierie produit des recommandations qui ne tiennent pas à l'échelle.
 
 ---
 
@@ -129,7 +129,7 @@ L'introduction de convoyeurs, d'AGV ou de bras robotiques nécessite une ingéni
 
 ## Ingénierie Logistique et Formation : le Lien Souvent Oublié
 
-Une solution d'ingénierie, aussi bien conçue soit-elle, ne produit ses résultats que si les équipes qui l'opèrent sont formées. C'est la raison pour laquelle Essor Consulting intègre systématiquement un volet formation dans ses missions d'ingénierie :
+Une solution d'ingénierie, aussi bien conçue soit-elle, ne produit ses résultats que si les équipes qui l'opèrent sont formées. C'est la raison pour laquelle Nextinotech intègre systématiquement un volet formation dans ses missions d'ingénierie :
 
 - Formation des chefs d'entrepôt au plan d'adressage et à la logique de flux conçue
 - Formation des gestionnaires de stocks aux paramètres de réapprovisionnement définis
@@ -163,9 +163,9 @@ Le profil d'ingénieur logistique est encore peu répandu au Maroc. Les formatio
 
 ---
 
-## Missions d'Ingénierie Logistique avec Essor Consulting
+## Missions d'Ingénierie Logistique avec Nextinotech
 
-Essor Consulting dispose d'une expertise combinée consulting + ingénierie logistique, acquise sur plus de 110 missions au Maroc et en Afrique francophone.
+Nextinotech dispose d'une expertise combinée consulting + ingénierie logistique, acquise sur plus de 110 missions au Maroc et en Afrique francophone.
 
 **Nos missions d'ingénierie logistique couvrent :**
 - Conception et reconfiguration de layout d'entrepôt
@@ -177,7 +177,7 @@ Essor Consulting dispose d'une expertise combinée consulting + ingénierie logi
 
 **Notre différence :** nos ingénieurs logistiques ont tous une double compétence terrain (ils ont piloté des opérations) et méthodologique (ils savent modéliser). Ils ne conçoivent pas dans l'abstrait — ils conçoivent ce qui fonctionne dans la réalité marocaine.
 
-Contactez-nous pour discuter de votre projet : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
+Contactez-nous pour discuter de votre projet : **contact@nextinotech.com** · **+212 06 63 44 92 00**
 
 ---
 

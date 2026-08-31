@@ -1,7 +1,7 @@
 ﻿---
 title: "Case Study: Bosch Maroc — 8% Saving via Formation Sourcing Stratégique"
 date: "2026-06-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/construction.jpg"
 type: "case-study"
 keywords: "Bosch, formation procurement, saving achats, ROI formation"
@@ -118,7 +118,7 @@ Payback: 1 month
 
 ## Client Testimonial
 
-> "Formation Essor a transformé notre équipe achat de transactionnelle à stratégique. 8% saving en 3 mois, équipe plus confidente, fournisseurs mieux gérés. Investment 100% justifié."
+> "Formation Nextinotech a transformé notre équipe achat de transactionnelle à stratégique. 8% saving en 3 mois, équipe plus confidente, fournisseurs mieux gérés. Investment 100% justifié."
 >
 > — Director Procurement, Bosch Maroc
 
@@ -134,5 +134,5 @@ Bosch case = textbook example: excellent team + no strategy = massive opportunit
 
 ---
 
-**Essor Consulting** — Formation + Sourcing Stratégique Expertise
+**Nextinotech** — Formation + Sourcing Stratégique Expertise
 

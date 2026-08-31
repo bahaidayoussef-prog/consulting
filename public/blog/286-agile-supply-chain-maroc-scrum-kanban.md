@@ -1,7 +1,7 @@
 ---
 title: "Agile Appliqué à la Supply Chain : ce que l'Industriel Peut Emprunter au Digital"
 date: "2026-08-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/conseil.jpg"
 keywords: "agile supply chain maroc, scrum kanban logistique, méthode agile industrielle"
@@ -36,7 +36,7 @@ Les méthodes agiles (Scrum, Kanban) ont des racines industrielles avant d'être
 
 Vous voulez introduire une discipline agile dans votre équipe supply chain ou achats ? [Découvrez nos formations](/formation), ou [contactez-nous](/contact) pour en discuter.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

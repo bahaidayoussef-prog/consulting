@@ -1,7 +1,7 @@
 ---
 title: "Blockchain et Traçabilité Agroalimentaire : un Vrai Levier Export pour les Coopératives Marocaines"
 date: "2026-08-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/agro.jpg"
 keywords: "blockchain traçabilité agroalimentaire maroc, traçabilité export coopérative maroc, blockchain agriculture souss-massa"
@@ -36,7 +36,7 @@ La blockchain appliquée à l'export agroalimentaire marocain répond à un prob
 
 Vous êtes une coopérative ou un exportateur agroalimentaire qui veut structurer sa traçabilité pour l'export ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

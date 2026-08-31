@@ -1,7 +1,7 @@
 ---
 title: "Change Management dans un Projet WMS ou ERP : Pourquoi les Projets Échouent"
 date: "2026-08-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/office.jpg"
 keywords: "change management ERP WMS, conduite du changement projet ERP maroc, échec projet ERP raisons"
@@ -36,7 +36,7 @@ L'échec d'un projet ERP ou WMS se joue rarement sur la qualité du logiciel —
 
 Vous préparez un déploiement ERP ou WMS et voulez sécuriser son adoption réelle ? [Découvrez nos formations et notre accompagnement conseil](/formation), ou [contactez-nous](/contact) pour en discuter.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

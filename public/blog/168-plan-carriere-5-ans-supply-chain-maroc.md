@@ -1,7 +1,7 @@
 ﻿---
 title: "Plan de Carrière sur 5 Ans en Supply Chain au Maroc : Mode d'Emploi"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/business.jpg"
 keywords: "plan carrière supply chain Maroc 5 ans, objectifs carrière logistique Maroc, plan développement professionnel supply chain, stratégie carrière logistique"
 description: "Comment construire un plan de carrière supply chain sur 5 ans au Maroc ? Méthode, objectifs SMART, compétences à développer et jalons de progression."
@@ -106,9 +106,9 @@ Un plan se réajuste — c'est normal. Mais sans plan, rien à réajuster.
 
 > **Un plan de carrière n'est pas une promesse à tenir coûte que coûte. C'est une boussole. Elle indique le nord — mais vous restez libre de choisir votre chemin selon le terrain. Ce qui compte, c'est de savoir où vous allez.**
 
-## Essor Consulting — Coaching Carrière
+## Nextinotech — Coaching Carrière
 
-Essor Consulting propose des sessions de coaching pour construire votre plan de carrière supply chain sur 5 ans.
+Nextinotech propose des sessions de coaching pour construire votre plan de carrière supply chain sur 5 ans.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

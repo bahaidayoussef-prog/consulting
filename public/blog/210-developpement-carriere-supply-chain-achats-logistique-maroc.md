@@ -1,7 +1,7 @@
 ---
 title: "Développer sa Carrière en Supply Chain, Achats et Logistique"
 date: "2026-08-07"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/business.jpg"
 keywords: "développement de carrière supply chain maroc, évoluer en logistique maroc, carrière achats maroc, plan de carrière supply chain, progression professionnelle logistique"
 description: "Développer sa carrière en supply chain, achats et logistique au Maroc : cartographie des métiers, auto-diagnostic de compétences et plan de développement concret."
@@ -56,7 +56,7 @@ Le même principe s'applique à l'entretien pour une promotion interne : arriver
 
 ## Notre Formation : Développement de Carrière en Supply Chain
 
-Essor Consulting propose une formation d'une journée, **Développement de Carrière en Supply Chain**, conçue pour les techniciens en évolution, jeunes cadres et professionnels en reconversion. Elle couvre la cartographie des métiers, l'auto-diagnostic de compétences, la construction d'un plan à 3 et 5 ans, et un atelier individuel de formalisation. Format inter-entreprise, 8 à 16 participants par session, à Casablanca — 2 500 MAD TTC/participant.
+Nextinotech propose une formation d'une journée, **Développement de Carrière en Supply Chain**, conçue pour les techniciens en évolution, jeunes cadres et professionnels en reconversion. Elle couvre la cartographie des métiers, l'auto-diagnostic de compétences, la construction d'un plan à 3 et 5 ans, et un atelier individuel de formalisation. Format inter-entreprise, 8 à 16 participants par session, à Casablanca — 2 500 MAD TTC/participant.
 
 👉 **[Voir le programme complet et les autres formations du catalogue](/formation)**
 
@@ -66,6 +66,6 @@ Pour compléter votre plan de carrière, consultez aussi nos articles sur [négo
 
 ## En Résumé
 
-Développer sa carrière en supply chain, achats ou logistique au Maroc ne s'improvise pas — cela demande une cartographie claire des trajectoires possibles, un auto-diagnostic honnête, et un plan concret sur 3 à 5 ans. Les professionnels qui progressent le plus vite ne sont pas toujours les plus compétents techniquement, mais ceux qui pilotent leur évolution au lieu de la subir. Pour construire votre plan ou inscrire votre équipe, **contactez Essor Consulting**.
+Développer sa carrière en supply chain, achats ou logistique au Maroc ne s'improvise pas — cela demande une cartographie claire des trajectoires possibles, un auto-diagnostic honnête, et un plan concret sur 3 à 5 ans. Les professionnels qui progressent le plus vite ne sont pas toujours les plus compétents techniquement, mais ceux qui pilotent leur évolution au lieu de la subir. Pour construire votre plan ou inscrire votre équipe, **contactez Nextinotech**.
 
-📧 essor.consulting.maroc@gmail.com | 📞 +212 06 63 44 92 00
+📧 contact@nextinotech.com | 📞 +212 06 63 44 92 00

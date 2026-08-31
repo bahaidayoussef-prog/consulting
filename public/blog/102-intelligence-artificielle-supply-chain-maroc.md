@@ -1,7 +1,7 @@
 ﻿---
 title: "Intelligence Artificielle et Supply Chain : Ce qui Change au Maroc en 2026"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/analytics.jpg"
 keywords: "intelligence artificielle supply chain Maroc, IA logistique, automatisation entrepôt, supply chain digitale 2026, IA prévision demande"
 description: "L'IA transforme la supply chain en 2026. Ce qui change vraiment pour les entreprises marocaines — et comment s'adapter sans tomber dans les pièges coûteux."
@@ -94,14 +94,14 @@ L'IA peut analyser 50 000 lignes de données en 3 secondes. Elle ne peut pas :
 
 Le consultant supply chain de 2026 doit maîtriser les outils IA — et surtout savoir quand ne pas s'y fier.
 
-## Essor Consulting — Accompagnement Transformation Digitale Supply Chain
+## Nextinotech — Accompagnement Transformation Digitale Supply Chain
 
-Essor Consulting vous aide à identifier les cas d'usage IA adaptés à votre structure et à votre budget, nettoyer et structurer vos données, sélectionner les outils appropriés sans commissions, et former vos équipes à les utiliser dans leur réalité quotidienne.
+Nextinotech vous aide à identifier les cas d'usage IA adaptés à votre structure et à votre budget, nettoyer et structurer vos données, sélectionner les outils appropriés sans commissions, et former vos équipes à les utiliser dans leur réalité quotidienne.
 
 Pas de solution toute faite. Pas de partenariat commercial avec les éditeurs.
 
 **Contactez-nous** pour un diagnostic numérique gratuit de votre supply chain :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200
 
 ---
 

@@ -1,7 +1,7 @@
 ﻿---
 title: "Formation Supply Chain en Afrique Francophone : Maroc, Sénégal, Côte d'Ivoire"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/hero-supply-chain.jpg"
 keywords: "formation supply chain Afrique francophone, formation logistique Afrique, supply chain manager Afrique, formation logistique Sénégal Côte d'Ivoire"
 description: "Les formations supply chain en Afrique francophone : Maroc, Sénégal, Côte d'Ivoire, Cameroun. Ce qui est disponible, ce qui manque, et comment se former à distance."
@@ -55,7 +55,7 @@ APICS en ligne, MIT OpenCourseWare, Coursera — accessibles partout avec une co
 Le Maroc est le hub naturel de formation supply chain pour l'Afrique francophone : proximité géographique, même langue, coût de la vie raisonnable, ecosystem formation en développement.
 
 **Option 3 : Formation à distance avec formateurs africains**
-Des organismes comme Essor Consulting proposent des formations à distance en visio, adaptées aux réalités africaines, en français.
+Des organismes comme Nextinotech proposent des formations à distance en visio, adaptées aux réalités africaines, en français.
 
 ::stat:: 3× — le déficit de logisticiens qualifiés en Afrique subsaharienne vs la demande actuelle, selon le rapport World Bank Logistics 2024
 
@@ -70,11 +70,11 @@ Des organismes comme Essor Consulting proposent des formations à distance en vi
 
 > **L'Afrique francophone va former les logisticiens dont elle a besoin — ou elle les importera d'Europe et d'Asie. La décision appartient à ceux qui investissent dans la formation aujourd'hui.**
 
-## Essor Consulting — Formation pour Toute l'Afrique Francophone
+## Nextinotech — Formation pour Toute l'Afrique Francophone
 
-Essor Consulting propose des formations en présentiel au Maroc et à distance pour toute l'Afrique francophone. Programmes adaptés aux réalités terrain africaines.
+Nextinotech propose des formations en présentiel au Maroc et à distance pour toute l'Afrique francophone. Programmes adaptés aux réalités terrain africaines.
 
-👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
 **Contactez-nous** pour un programme personnalisé :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

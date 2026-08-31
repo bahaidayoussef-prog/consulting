@@ -1,17 +1,17 @@
 ﻿---
-title: "Programmes de Formation Essor Consulting : Catalogue Complet 2026"
+title: "Programmes de Formation Nextinotech : Catalogue Complet 2026"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/conseil.jpg"
-keywords: "formation Essor Consulting Maroc, catalogue formation supply chain Maroc, programme formation logistique Essor"
-description: "Catalogue complet des formations Essor Consulting au Maroc : supply chain, achats, entrepôt, planification, DDMRP. Programmes inter et intra-entreprises, certification incluse."
+keywords: "formation Nextinotech Maroc, catalogue formation supply chain Maroc, programme formation logistique Nextinotech"
+description: "Catalogue complet des formations Nextinotech au Maroc : supply chain, achats, entrepôt, planification, DDMRP. Programmes inter et intra-entreprises, certification incluse."
 ---
 
-# Programmes de Formation Essor Consulting : Catalogue Complet 2026
+# Programmes de Formation Nextinotech : Catalogue Complet 2026
 
-Essor Consulting propose des formations supply chain conçues par des praticiens, pour des praticiens. Chaque programme est basé sur 20 ans d'expérience terrain au Maroc et en Afrique — pas sur des manuels académiques.
+Nextinotech propose des formations supply chain conçues par des praticiens, pour des praticiens. Chaque programme est basé sur 20 ans d'expérience terrain au Maroc et en Afrique — pas sur des manuels académiques.
 
-![Formations Essor Consulting supply chain Maroc](/images/conseil.jpg)
+![Formations Nextinotech supply chain Maroc](/images/conseil.jpg)
 
 ## Nos 6 Programmes Signature
 
@@ -20,34 +20,34 @@ Essor Consulting propose des formations supply chain conçues par des praticiens
 **Contenu :** Stratégie SC, planification S&OP, DDMRP, pilotage KPIs, management équipe, digitalisation.
 **Format :** 5 jours (inter-entreprises) ou 5 jours chez vous (intra).
 **Tarif inter :** 18 000 MAD/personne.
-**Certification :** Certificate Essor Consulting Supply Chain Manager.
+**Certification :** Certificate Nextinotech Supply Chain Manager.
 
 ### Programme 2 — Acheteur Professionnel (3 jours)
 **Pour qui :** Acheteurs juniors et confirmés, responsables appros.
 **Contenu :** Segmentation panel, TCO, BATNA, négociation avancée (simulation), SRM, KPIs achats.
 **Format :** 3 jours intensifs avec simulations filmées.
 **Tarif inter :** 9 000 MAD/personne.
-**Certification :** Certificate Essor Consulting Achats.
+**Certification :** Certificate Nextinotech Achats.
 
 ### Programme 3 — Responsable Logistique / Chef d'Entrepôt (3 jours)
 **Pour qui :** Responsables entrepôt, chefs de zone, futurs RL.
 **Contenu :** Flux entrepôt, WMS, 5S, KPIs, management terrain, inventaires.
 **Format :** 3 jours avec session pratique entrepôt.
 **Tarif inter :** 8 500 MAD/personne.
-**Certification :** Certificate Essor Consulting Logistique Opérationnelle.
+**Certification :** Certificate Nextinotech Logistique Opérationnelle.
 
 ### Programme 4 — DDMRP Practitioner (2 jours)
 **Pour qui :** Planificateurs, ordonnanceurs, Supply Chain Analysts.
 **Contenu :** Limites MRP classique, 5 composantes DDMRP, simulation, préparation certification officielle.
 **Format :** 2 jours intensifs + accès simulateur en ligne.
 **Tarif inter :** 10 000 MAD/personne.
-**Certification :** Certificate Essor Consulting + préparation DDMRP Practitioner officielle.
+**Certification :** Certificate Nextinotech + préparation DDMRP Practitioner officielle.
 
 ### Programme 5 — Lean Logistique (2 jours)
 **Pour qui :** Responsables logistique, chefs d'entrepôt, équipes terrain.
 **Contenu :** 7 gaspillages, 5S, VSM, Kaizen — tout en pratique sur votre entrepôt (intra) ou sur cas réel (inter).
 **Tarif inter :** 7 500 MAD/personne.
-**Certification :** Certificate Essor Consulting Lean Logistique.
+**Certification :** Certificate Nextinotech Lean Logistique.
 
 ### Programme 6 — Directeur Supply Chain Senior (3 jours + coaching)
 **Pour qui :** DSC en poste, managers SC en transition.
@@ -72,11 +72,11 @@ Essor Consulting propose des formations supply chain conçues par des praticiens
 
 **3. Plan d'action immédiat :** Chaque formation se termine par un plan d'action individuel applicable dès le lendemain.
 
-**4. Suivi post-formation :** Accès à la communauté Essor Consulting Alumni (WhatsApp), session Q&R à 30 jours.
+**4. Suivi post-formation :** Accès à la communauté Nextinotech Alumni (WhatsApp), session Q&R à 30 jours.
 
 **5. Financement GIAC :** Nous vous accompagnons dans le montage du dossier de prise en charge.
 
-::stat:: 96% — taux de satisfaction des participants aux formations Essor Consulting (évaluations post-formation 2024-2025)
+::stat:: 96% — taux de satisfaction des participants aux formations Nextinotech (évaluations post-formation 2024-2025)
 
 ## Calendrier et Inscription
 
@@ -88,11 +88,11 @@ Essor Consulting propose des formations supply chain conçues par des praticiens
 
 Pour un premier pas rapide dans le catalogue, notre programme phare reste **[Devenir Responsable Logistique](/formation-rl/)** — 1 journée, 1 500 MAD TTC, sessions mensuelles à Casablanca.
 
-👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
 ## Contactez-nous
 
-📧 **Email :** essor.consulting.maroc@gmail.com
+📧 **Email :** contact@nextinotech.com
 📞 **Téléphone / WhatsApp :** +212 663 449 200
 📍 **Localisation :** Casablanca, Maroc (interventions sur tout le Maroc et Afrique francophone)
 

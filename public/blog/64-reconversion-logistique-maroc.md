@@ -1,10 +1,10 @@
 ---
 title: "Reconversion vers la Supply Chain au Maroc : Le Guide Complet 2026"
 date: "2026-08-10"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/office.jpg"
 keywords: "reconversion logistique maroc, reconversion supply chain maroc, changer de carrière supply chain, formation reconversion logistique, emploi logistique sans diplôme maroc, devenir logisticien reconversion"
-description: "Guide complet reconversion vers la supply chain au Maroc : profils qui réussissent, compétences transférables, étapes, formations et délais réalistes. Par Essor Consulting."
+description: "Guide complet reconversion vers la supply chain au Maroc : profils qui réussissent, compétences transférables, étapes, formations et délais réalistes. Par Nextinotech."
 ---
 
 # Reconversion vers la Supply Chain au Maroc : Le Guide Complet 2026
@@ -47,7 +47,7 @@ La logistique et la supply chain font partie des domaines qui recrutent le plus 
 **Managers opérationnels (restauration, retail, administration/finance)** → Chef d'entrepôt, Responsable Logistique ou contrôleur logistique. Management d'équipes et gestion des stocks physiques transférables directement.
 **Compétences à acquérir :** coût logistique, tableaux de bord, appels d'offres transport · **Temps de transition :** 4 à 12 mois.
 
-::stat:: 3 sur 5 — des professionnels en reconversion supply chain qui trouvent un poste dans les 6 mois suivant leur formation (données Essor Consulting)
+::stat:: 3 sur 5 — des professionnels en reconversion supply chain qui trouvent un poste dans les 6 mois suivant leur formation (données Nextinotech)
 
 ---
 
@@ -129,7 +129,7 @@ Votre CV doit raconter une histoire cohérente : compétences transversales (ges
 
 ---
 
-## L'Accompagnement Essor Consulting pour les Profils en Reconversion
+## L'Accompagnement Nextinotech pour les Profils en Reconversion
 
 Notre formation **[Devenir Responsable Logistique](/formation-rl/)** est conçue aussi pour les profils en reconversion. En une journée intensive : fondamentaux opérationnels de la logistique, méthodes de gestion des stocks, KPIs et tableaux de bord, management terrain des équipes, outils digitaux (WMS, ERP).
 
@@ -144,4 +144,4 @@ Nous proposons également un **programme de reconversion accompagnée** : bilan 
 
 La reconversion vers la supply chain au Maroc est réaliste, accessible et bien rémunérée si elle est bien préparée. La clé : ne pas se disperser, cibler précisément, se former sur les bons sujets, et construire une expérience concrète le plus vite possible.
 
-**Essor Consulting accompagne les professionnels en reconversion depuis plus de 20 ans.** Contactez-nous pour un échange de 30 minutes et un conseil personnalisé : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
+**Nextinotech accompagne les professionnels en reconversion depuis plus de 20 ans.** Contactez-nous pour un échange de 30 minutes et un conseil personnalisé : **contact@nextinotech.com** · **+212 06 63 44 92 00**

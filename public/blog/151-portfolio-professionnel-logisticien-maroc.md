@@ -1,7 +1,7 @@
 ﻿---
 title: "Le Portfolio Professionnel du Logisticien : Montrez ce que Vous Avez Fait"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/formation.jpg"
 keywords: "portfolio professionnel supply chain Maroc, dossier réalisations logisticien, preuves compétences supply chain, démontrer compétences logistique"
 description: "Comment construire un portfolio professionnel supply chain au Maroc ? Quelles preuves de compétences rassembler et comment les présenter en entretien."
@@ -58,7 +58,7 @@ Vous avez présenté un projet au CODIR ? Une revue de performance à la directi
 
 **Certifications**
 
-Scan de vos certifications : APICS, DDMRP, Lean, formation Essor Consulting. Les certifications reconnues renforcent la crédibilité.
+Scan de vos certifications : APICS, DDMRP, Lean, formation Nextinotech. Les certifications reconnues renforcent la crédibilité.
 
 **Lettres de recommandation**
 
@@ -93,9 +93,9 @@ Ne commencez pas le portfolio le jour avant un entretien. Construisez-le tout au
 
 > **Le logisticien qui construit son portfolio en temps réel est celui qui se retrouve 5 ans plus tard avec une documentation irréfutable de sa valeur. Celui qui ne le fait pas cherche dans ses mails des données vieilles de 3 ans la veille d'un entretien important.**
 
-## Essor Consulting — Atelier Portfolio
+## Nextinotech — Atelier Portfolio
 
-Essor Consulting propose un atelier pour construire votre portfolio professionnel supply chain : structure, sélection des réalisations, présentation.
+Nextinotech propose un atelier pour construire votre portfolio professionnel supply chain : structure, sélection des réalisations, présentation.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

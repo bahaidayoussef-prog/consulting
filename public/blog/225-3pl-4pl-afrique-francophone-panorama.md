@@ -1,7 +1,7 @@
 ---
 title: "3PL et 4PL en Afrique Francophone : qui sont les Acteurs et Comment les Choisir"
 date: "2026-08-24"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/transport.jpg"
 keywords: "3PL 4PL afrique francophone, prestataire logistique afrique, AGL Africa Global Logistics, CEVA Logistics afrique"
@@ -38,7 +38,7 @@ Le marché des 3PL/4PL en Afrique francophone s'est concentré autour de deux gr
 
 Vous exportez vers l'Afrique francophone et hésitez entre un prestataire intégré et une orchestration multi-partenaires ? [Découvrez nos formations](/formation), ou [contactez-nous](/contact) pour structurer votre stratégie logistique régionale.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

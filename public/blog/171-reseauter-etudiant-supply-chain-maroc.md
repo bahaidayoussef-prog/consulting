@@ -1,7 +1,7 @@
 ﻿---
 title: "Réseauter Quand on est Étudiant Supply Chain au Maroc : Le Guide"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/office.jpg"
 keywords: "réseauter étudiant supply chain Maroc, réseau professionnel étudiant logistique, networking supply chain étudiant Maroc, contacts professionnels supply chain Maroc"
 description: "Comment construire son réseau professionnel supply chain quand on est encore étudiant au Maroc ? Actions concrètes pour sortir de l'école avec un réseau utile."
@@ -88,9 +88,9 @@ Un contact sans suivi est un contact perdu. Après chaque rencontre ou échange 
 
 > **Le réseau n'est pas une activité ponctuelle — c'est une discipline. Les 5-10 minutes investies chaque jour à connecter, commenter, et entretenir des relations pendant vos 3 ans d'études représentent un capital qui vous différenciera de 90% de vos concurrents à la sortie.**
 
-## Essor Consulting — Programme Étudiants
+## Nextinotech — Programme Étudiants
 
-Essor Consulting propose des interventions dans les écoles et un programme de mentorat pour les étudiants supply chain marocains.
+Nextinotech propose des interventions dans les écoles et un programme de mentorat pour les étudiants supply chain marocains.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

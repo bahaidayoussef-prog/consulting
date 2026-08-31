@@ -1,7 +1,7 @@
 ﻿---
 title: "Gérer un Entretien Difficile en Supply Chain : Tactiques et Sang-Froid"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/conseil.jpg"
 keywords: "entretien difficile supply chain Maroc, questions pièges entretien logistique, gérer pression entretien SC, entretien stress supply chain Maroc"
 description: "Comment gérer les questions pièges, les recruteurs agressifs, et les situations difficiles lors d'un entretien supply chain au Maroc ? Tactiques concrètes pour garder le contrôle."
@@ -102,9 +102,9 @@ C'est une marque d'intelligence — pas de faiblesse. Les bons candidats se corr
 
 > **Un entretien difficile est souvent un entretien exigeant, pas un entretien hostile. Les mêmes qualités qui font un bon professionnel supply chain — calme sous pression, pensée structurée, réactivité — font un bon candidat face aux questions difficiles. Si vous avez ces qualités dans votre travail, montrez-les dans l'entretien.**
 
-## Essor Consulting — Préparation Questions Difficiles
+## Nextinotech — Préparation Questions Difficiles
 
-Essor Consulting propose des simulations d'entretiens difficiles avec feedback détaillé, pour que vous arriviez à votre vrai entretien sans être surpris.
+Nextinotech propose des simulations d'entretiens difficiles avec feedback détaillé, pour que vous arriviez à votre vrai entretien sans être surpris.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

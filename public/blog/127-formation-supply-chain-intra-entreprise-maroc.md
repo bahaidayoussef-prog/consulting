@@ -1,7 +1,7 @@
 ﻿---
 title: "Formation Supply Chain Intra-Entreprise au Maroc : Former Toute une Équipe"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/analytics.jpg"
 keywords: "formation intra-entreprise supply chain Maroc, formation sur mesure logistique Maroc, formation équipe supply chain, formation corporate logistique Maroc"
 description: "La formation supply chain intra-entreprise au Maroc : comment former toute une équipe sur vos processus réels, les avantages vs inter-entreprises et le coût par personne."
@@ -70,11 +70,11 @@ Pour 8 personnes formées simultanément, le coût par personne d'une intra-entr
 
 > **Une formation intra-entreprise bien conçue a un effet multiplicateur : elle crée une culture commune qui continue à produire des résultats bien après la fin de la session.**
 
-## Essor Consulting — Formations Intra-Entreprise
+## Nextinotech — Formations Intra-Entreprise
 
-Essor Consulting réalise des formations sur mesure pour les équipes supply chain marocaines. Chaque programme est conçu après une phase de cadrage pour coller à vos réalités terrain.
+Nextinotech réalise des formations sur mesure pour les équipes supply chain marocaines. Chaque programme est conçu après une phase de cadrage pour coller à vos réalités terrain.
 
-👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
 **Contactez-nous** pour une proposition personnalisée :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

@@ -1,7 +1,7 @@
 ﻿---
 title: "Entrepreneuriat en Supply Chain au Maroc : Opportunités pour les Jeunes"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/conseil.jpg"
 keywords: "entrepreneuriat supply chain Maroc jeunes, créer entreprise logistique Maroc, startup logistique Maroc, auto-entrepreneur logistique Maroc"
 description: "Les opportunités entrepreneuriales en supply chain au Maroc pour les jeunes : idées de business, conditions de succès, et comment se lancer après un début de carrière."
@@ -79,9 +79,9 @@ L'ANAPEC et la CRI (Centre Régional d'Investissement) accompagnent les créateu
 
 > **L'entrepreneuriat supply chain au Maroc est une voie sérieuse — mais pas un raccourci. Les histoires qui réussissent sont celles d'entrepreneurs qui ont d'abord construit une expertise réelle, puis l'ont mise au service d'un marché qu'ils comprenaient profondément. L'envie ne suffit pas — l'expertise, si.**
 
-## Essor Consulting — Accompagnement Entrepreneurial
+## Nextinotech — Accompagnement Entrepreneurial
 
-Essor Consulting accompagne les projets entrepreneuriaux supply chain : validation de l'idée, structuration de l'offre, premières missions.
+Nextinotech accompagne les projets entrepreneuriaux supply chain : validation de l'idée, structuration de l'offre, premières missions.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

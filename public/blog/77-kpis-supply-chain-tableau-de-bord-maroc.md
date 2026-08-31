@@ -1,7 +1,7 @@
 ﻿---
 title: "KPIs Supply Chain au Maroc : Tableau de Bord et Indicateurs de Performance 2026"
 date: "2026-08-04"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/analytics.jpg"
 keywords: "KPIs supply chain maroc, tableau de bord logistique maroc, indicateurs performance supply chain maroc, pilotage supply chain maroc, métriques logistiques maroc"
 description: "Les KPIs supply chain essentiels pour les entreprises marocaines : OTIF, rotation stocks, coût logistique, productivité entrepôt. Comment construire votre tableau de bord opérationnel."
@@ -230,7 +230,7 @@ Un KPI sans responsable est un KPI qui ne s'améliore pas. Chaque indicateur doi
 **Étape 4 — Intégrer les KPIs dans la routine de management**
 Les KPIs doivent être revus en réunion — hebdomadaire pour l'opérationnel, mensuelle pour la direction. Sans ce rituel de revue, le tableau de bord reste un exercice de reporting et non un outil de management.
 
-::stat:: 83% — des PME marocaines ne suivent aucun KPI supply chain en réunion de direction (audit terrain Essor Consulting 2024)
+::stat:: 83% — des PME marocaines ne suivent aucun KPI supply chain en réunion de direction (audit terrain Nextinotech 2024)
 
 ---
 
@@ -245,13 +245,13 @@ Power BI (inclus dans Microsoft 365) permet de connecter directement les donnée
 **Niveau 3 — Dashboards natifs WMS/ERP (grand compte, > 500 commandes/jour)**
 Les ERP modernes (SAP, Dynamics, Odoo) et les WMS incluent des modules de reporting natifs. Ils nécessitent un paramétrage initial mais offrent une actualisation en temps réel.
 
-::stat:: 3× — amélioration de la vitesse de résolution des incidents supply chain dans les entreprises qui passent d'un reporting mensuel à un tableau de bord hebdomadaire (données Essor Consulting)
+::stat:: 3× — amélioration de la vitesse de résolution des incidents supply chain dans les entreprises qui passent d'un reporting mensuel à un tableau de bord hebdomadaire (données Nextinotech)
 
 ---
 
-## Construire votre Tableau de Bord avec Essor Consulting
+## Construire votre Tableau de Bord avec Nextinotech
 
-Essor Consulting accompagne les entreprises marocaines dans la conception et le déploiement de leur système de KPIs supply chain :
+Nextinotech accompagne les entreprises marocaines dans la conception et le déploiement de leur système de KPIs supply chain :
 
 - Audit des données disponibles dans votre ERP / WMS
 - Définition des KPIs adaptés à votre secteur et votre taille
@@ -259,7 +259,7 @@ Essor Consulting accompagne les entreprises marocaines dans la conception et le 
 - Formation des équipes à l'utilisation et à l'animation des KPIs
 - Mise en place de la routine de revue mensuelle
 
-Contactez-nous : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
+Contactez-nous : **contact@nextinotech.com** · **+212 06 63 44 92 00**
 
 ---
 

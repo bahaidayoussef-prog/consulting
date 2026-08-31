@@ -1,7 +1,7 @@
 ﻿---
 title: "Formation Supply Chain à Rabat — Expert Logistique Maroc"
 date: "2026-06-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/hero-supply-chain.jpg"
 keywords: "formation supply chain Rabat, formation logistique Salé, conseil Rabat, expert supply chain Rabat"
 description: "Formation et conseil supply chain à Rabat/Salé. Sourcing stratégique, WMS, S&OP, formation équipes. PME/ME/GE Maroc."
@@ -67,11 +67,11 @@ Rabat/Salé, Maroc · 18 ans expérience · 40+ cadres formés
 
 ---
 
-👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
 ## Contact Rabat
 
-📧 **Email :** essor.consulting.maroc@gmail.com  
+📧 **Email :** contact@nextinotech.com  
 📞 **Téléphone :** +212 663 449 200  
 📍 **Coverage :** Rabat, Salé, Kenitra, région
 
@@ -79,7 +79,7 @@ Rabat/Salé, Maroc · 18 ans expérience · 40+ cadres formés
 
 ---
 
-**Essor Consulting**  
+**Nextinotech**  
 Directeur des Achats | Expert Supply Chain & Transformation Digitale  
-Essor Consulting — Casablanca, Maroc
+Nextinotech — Casablanca, Maroc
 

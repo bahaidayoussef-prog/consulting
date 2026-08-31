@@ -1,7 +1,7 @@
 ---
 title: "Formation Interne vs Recrutement Externe : Arbitrer la Montée en Compétence Supply Chain"
 date: "2026-08-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/office.jpg"
 keywords: "formation interne vs recrutement maroc, montée en compétence supply chain, upskilling vs recrutement externe"
@@ -36,7 +36,7 @@ La formation interne coûte environ trois fois moins cher que le recrutement ext
 
 Vous voulez évaluer si un besoin de compétence justifie une formation interne ou un recrutement externe ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

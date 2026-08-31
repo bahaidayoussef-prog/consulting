@@ -1,19 +1,19 @@
 ---
 title: "Consultants Indépendants ou Équipe ?"
 date: "2026-08-19"
-author: "Essor Consulting"
+author: "Nextinotech"
 type: "mini-article"
 schema: "FAQPage"
-quickAnswer: "Une équipe structurée — Essor Consulting compte environ 5 consultants organisés en trois profils : consultants seniors certifiés DDMRP, consultants juniors formés en interne, et une équipe administrative dédiée au suivi de chaque mission."
-keywords: "cabinet conseil ou consultant freelance, équipe consultants Maroc, structure Essor Consulting"
-description: "Essor Consulting est-il un consultant indépendant ou une équipe ? Structure réelle : environ 5 consultants, trois profils complémentaires."
+quickAnswer: "Une équipe structurée — Nextinotech compte environ 5 consultants organisés en trois profils : consultants seniors certifiés DDMRP, consultants juniors formés en interne, et une équipe administrative dédiée au suivi de chaque mission."
+keywords: "cabinet conseil ou consultant freelance, équipe consultants Maroc, structure Nextinotech"
+description: "Nextinotech est-il un consultant indépendant ou une équipe ? Structure réelle : environ 5 consultants, trois profils complémentaires."
 ---
 
 # Consultants Indépendants ou Équipe ?
 
 ![Équipe et organisation du cabinet](/images/business.jpg)
 
-**Une équipe structurée, pas un consultant solo.** Essor Consulting compte environ 5 consultants organisés autour de trois profils complémentaires : consultants seniors certifiés DDMRP, consultants juniors formés en interne, et une équipe administrative dédiée au suivi de chaque mission.
+**Une équipe structurée, pas un consultant solo.** Nextinotech compte environ 5 consultants organisés autour de trois profils complémentaires : consultants seniors certifiés DDMRP, consultants juniors formés en interne, et une équipe administrative dédiée au suivi de chaque mission.
 
 ## Pourquoi la structure compte, pas seulement le nom sur la carte de visite
 
@@ -29,11 +29,11 @@ Les consultants seniors, certifiés DDMRP et formés sur le terrain, pilotent le
 
 ## Ce qu'il faut retenir
 
-La question "indépendant ou équipe" a une réponse simple pour Essor Consulting : équipe, délibérément restreinte pour rester réactive, mais suffisamment structurée pour ne jamais dépendre d'une seule personne.
+La question "indépendant ou équipe" a une réponse simple pour Nextinotech : équipe, délibérément restreinte pour rester réactive, mais suffisamment structurée pour ne jamais dépendre d'une seule personne.
 
 **Notre approche.** Chaque mission est pilotée par un consultant senior, appuyé par l'équipe — jamais un consultant isolé sans filet.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

@@ -1,10 +1,10 @@
 ---
 title: "Programme de Formation Supply Chain Management pour Cadres au Maroc 2026"
 date: "2026-08-10"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/conseil.jpg"
 keywords: "formation supply chain management cadres maroc, formation continue supply chain maroc, programme supply chain manager maroc, formation directeur supply chain maroc, certification supply chain maroc, executive supply chain formation"
-description: "Programme de formation supply chain management pour cadres au Maroc : compétences stratégiques, S&OP, pilotage par les données, formation continue et certifications APICS. Par Essor Consulting."
+description: "Programme de formation supply chain management pour cadres au Maroc : compétences stratégiques, S&OP, pilotage par les données, formation continue et certifications APICS. Par Nextinotech."
 ---
 
 # Programme de Formation Supply Chain Management pour Cadres au Maroc 2026
@@ -27,7 +27,7 @@ Une formation opérateur apprend à faire. Une formation chef d'équipe apprend 
 
 > **Le cadre supply chain est le traducteur entre la stratégie de l'entreprise et les opérations.** Il doit parler les deux langages — celui des chiffres de la direction et celui du terrain des équipes.
 
-::stat:: 67% — des responsables supply chain marocains n'ont jamais suivi de formation formelle en S&OP ou en pilotage stratégique de la supply chain (enquête Essor Consulting 2024)
+::stat:: 67% — des responsables supply chain marocains n'ont jamais suivi de formation formelle en S&OP ou en pilotage stratégique de la supply chain (enquête Nextinotech 2024)
 
 ---
 
@@ -100,7 +100,7 @@ Un cadre supply chain qui n'a pas suivi de formation en 5 ans travaille avec des
 
 | Type | Durée | Coût | ROI carrière |
 |------|-------|------|-------------|
-| Programme cadres Essor 6 jours | 6 jours | 9 000 – 15 000 MAD | Évolution salariale +20-30% observable en 12-24 mois |
+| Programme cadres Nextinotech 6 jours | 6 jours | 9 000 – 15 000 MAD | Évolution salariale +20-30% observable en 12-24 mois |
 | Préparation APICS CSCP | 4-6 mois | 8 000 – 15 000 MAD (exam + matériel) | Certification internationalement reconnue |
 | Lean Six Sigma Green Belt | 5 jours + projet | 6 000 – 12 000 MAD | Compétence amélioration continue valorisée |
 
@@ -122,15 +122,15 @@ Un cadre formé au S&OP réduit en moyenne de 10 à 18% les coûts de stock et d
 
 ---
 
-## Former vos Cadres Supply Chain avec Essor Consulting
+## Former vos Cadres Supply Chain avec Nextinotech
 
-Essor Consulting propose des programmes de formation supply chain pour cadres et dirigeants au Maroc, animés par des consultants seniors avec 15 à 20 ans d'expérience terrain dans des groupes marocains et des multinationales. Programmes modulaires disponibles pour la formation continue (séminaires thématiques, coaching individuel, accompagnement de projets de transformation) — financement GIAC possible.
+Nextinotech propose des programmes de formation supply chain pour cadres et dirigeants au Maroc, animés par des consultants seniors avec 15 à 20 ans d'expérience terrain dans des groupes marocains et des multinationales. Programmes modulaires disponibles pour la formation continue (séminaires thématiques, coaching individuel, accompagnement de projets de transformation) — financement GIAC possible.
 
 **Notre différence :** animateurs ayant occupé des postes de direction supply chain avant de devenir consultants, cas d'étude issus du marché marocain et africain (pas des exemples européens transposés), suivi post-formation avec débriefing 60 jours après pour ancrer les apprentissages.
 
-👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
-Contactez-nous pour construire votre programme sur mesure : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
+Contactez-nous pour construire votre programme sur mesure : **contact@nextinotech.com** · **+212 06 63 44 92 00**
 
 ---
 

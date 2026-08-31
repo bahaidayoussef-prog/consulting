@@ -1,7 +1,7 @@
 ﻿---
 title: "Salaires Supply Chain au Maroc 2026 : Guide Complet par Poste et Secteur"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/business.jpg"
 keywords: "salaires supply chain Maroc 2026, salaire logisticien Maroc, salaire responsable logistique Maroc, salaire supply chain manager Maroc"
 description: "Salaires supply chain au Maroc en 2026 : fourchettes par poste, par secteur et par ville. Ce que vous valez vraiment et comment négocier une augmentation."
@@ -94,11 +94,11 @@ Le changement est le moyen le plus rapide d'augmenter significativement son sala
 
 > **Le meilleur levier salarial en supply chain au Maroc reste la formation et la certification. Un APICS CPIM obtenu aujourd'hui peut se traduire par 3 000 à 5 000 MAD de plus par mois dans 12 mois.**
 
-## Essor Consulting — Coaching Négociation Salariale
+## Nextinotech — Coaching Négociation Salariale
 
 Accompagnement individuel pour préparer votre négociation salariale : benchmark personnalisé, simulation d'entretien, stratégie de communication.
 
 Pour monter en compétences avant de négocier, voir aussi notre programme **[Devenir Responsable Logistique](/formation-rl/)** — 1 journée, 1 500 MAD TTC.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

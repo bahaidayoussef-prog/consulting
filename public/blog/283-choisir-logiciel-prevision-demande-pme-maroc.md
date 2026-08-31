@@ -1,7 +1,7 @@
 ---
 title: "Choisir un Logiciel de Prévision de la Demande : les Critères pour une PME Marocaine"
 date: "2026-08-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/charts.jpg"
 keywords: "logiciel prévision demande maroc, choisir outil forecast PME, MAPE prévision supply chain"
@@ -36,7 +36,7 @@ Le choix d'un logiciel de prévision de la demande se fait d'abord sur la qualit
 
 Vous voulez évaluer votre MAPE actuel avant de choisir un outil de prévision ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

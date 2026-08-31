@@ -1,7 +1,7 @@
 ---
 title: "Le Maroc peut-il Devenir le Leader Africain de la Logistique Durable ?"
 date: "2026-08-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/transport.jpg"
 keywords: "logistique durable afrique maroc, leader logistique verte afrique, maroc énergie renouvelable logistique"
@@ -36,7 +36,7 @@ Le Maroc réunit des conditions structurelles rares en Afrique (infrastructure p
 
 Vous voulez intégrer cette dynamique de durabilité dans votre stratégie logistique ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour en discuter.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

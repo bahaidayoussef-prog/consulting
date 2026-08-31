@@ -1,10 +1,10 @@
 ﻿---
 title: "Formation Lean Supply Chain au Maroc : Éliminer les Gaspillages et Créer de la Valeur"
 date: "2026-08-02"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/hero-warehouse.jpg"
 keywords: "formation lean supply chain maroc, lean logistique maroc, lean six sigma maroc, formation lean manufacturing maroc, kaizen supply chain maroc"
-description: "Formation Lean Supply Chain au Maroc : principes lean appliqués à la logistique, outils VSM, 5S entrepôt, Kaizen et réduction des gaspillages. Essor Consulting."
+description: "Formation Lean Supply Chain au Maroc : principes lean appliqués à la logistique, outils VSM, 5S entrepôt, Kaizen et réduction des gaspillages. Nextinotech."
 ---
 
 # Formation Lean Supply Chain au Maroc : Éliminer les Gaspillages et Créer de la Valeur
@@ -149,7 +149,7 @@ Avant/après chaque chantier, mesurez les indicateurs concernés. Ces résultats
 
 ---
 
-## Formation Lean Supply Chain chez Essor Consulting
+## Formation Lean Supply Chain chez Nextinotech
 
 Notre programme de formation intègre les outils Lean appliqués au contexte marocain :
 - Les 8 gaspillages identifiés dans des entrepôts et des supply chains marocaines réelles
@@ -166,6 +166,6 @@ Notre programme de formation intègre les outils Lean appliqués au contexte mar
 
 Le Lean Supply Chain n'est pas une philosophie réservée aux grandes usines japonaises. C'est une boîte à outils pratique, applicable dès demain dans n'importe quel entrepôt ou département supply chain marocain. Les résultats sont rapides, mesurables et durables quand l'approche est bien conduite.
 
-👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
-**Essor Consulting accompagne les entreprises marocaines dans leurs transformations Lean depuis plus de 20 ans.** Contactez-nous pour un diagnostic et un plan d'action.
+**Nextinotech accompagne les entreprises marocaines dans leurs transformations Lean depuis plus de 20 ans.** Contactez-nous pour un diagnostic et un plan d'action.

@@ -1,7 +1,7 @@
 ﻿---
 title: "Trouver un Mentor Supply Chain au Maroc : Pourquoi et Comment"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/conseil.jpg"
 keywords: "mentor supply chain Maroc, mentorat logistique Maroc, trouver mentor supply chain, coaching supply chain jeune professionnel"
 description: "Pourquoi avoir un mentor supply chain au Maroc peut accélérer votre carrière, et comment trouver la bonne personne pour vous guider."
@@ -73,9 +73,9 @@ Le mentorat n'est pas un service que vous consommez. Venez préparé :
 
 > **Le mentoring est peut-être le ROI (retour sur investissement) le plus élevé de toute carrière supply chain — gratuitement disponible, massément sous-utilisé. Un jeune professionnel qui a un bon mentor progresse 2 à 3 fois plus vite que celui qui navigue seul.**
 
-## Essor Consulting — Mentorat Supply Chain
+## Nextinotech — Mentorat Supply Chain
 
-Essor Consulting propose un programme de mentorat pour jeunes professionnels supply chain au Maroc : sessions individuelles avec un expert senior.
+Nextinotech propose un programme de mentorat pour jeunes professionnels supply chain au Maroc : sessions individuelles avec un expert senior.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

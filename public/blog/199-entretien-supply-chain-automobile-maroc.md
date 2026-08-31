@@ -1,7 +1,7 @@
 ﻿---
 title: "Entretien Supply Chain dans l'Industrie Automobile au Maroc"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/transport.jpg"
 keywords: "entretien supply chain automobile Maroc, recrutement logistique Renault Stellantis Maroc, entretien logistique automobile Tanger Kénitra, questions SC automobile"
 description: "Comment réussir un entretien supply chain dans l'industrie automobile au Maroc (Renault, Stellantis, équipementiers) ? Les codes, les questions techniques, et ce qu'on attend."
@@ -84,9 +84,9 @@ Chez les équipementières (Yazaki, Lear, Delphi, Aptiv...), les entretiens sont
 
 > **L'industrie automobile au Maroc recrute les meilleurs profils supply chain — et les forme aux standards mondiaux. Passer un entretien chez Renault, Stellantis, ou un équipementier Tier 1, c'est passer un examen qui valide votre niveau par rapport à un benchmark mondial. C'est exigeant — et ça vaut l'investissement de préparation.**
 
-## Essor Consulting — Préparation Automobile
+## Nextinotech — Préparation Automobile
 
-Essor Consulting accompagne les candidats qui visent l'industrie automobile : maîtrise des standards, préparation entretien, développement des compétences JIT et Lean.
+Nextinotech accompagne les candidats qui visent l'industrie automobile : maîtrise des standards, préparation entretien, développement des compétences JIT et Lean.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

@@ -1,7 +1,7 @@
 ﻿---
 title: "Travailler en Supply Chain dans le Golfe depuis le Maroc : Guide Pratique"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/transport.jpg"
 keywords: "emploi supply chain Golfe Maroc, logistique EAU Qatar Arabie expatriation Maroc, supply chain Dubai Maroc, travailler Golfe supply chain"
 description: "Comment trouver un emploi en supply chain dans le Golfe (EAU, Arabie Saoudite, Qatar) depuis le Maroc ? Salaires, entreprises qui recrutent, visa, et stratégie."
@@ -87,9 +87,9 @@ Plus logement souvent fourni ou logement allowance (5 000-15 000 MAD/mois), assu
 
 > **Le Golfe est une option puissante mais pas une décision légère. La distance familiale, l'adaptation culturelle, la durée d'engagement (2-5 ans minimum pour amortir) — tout cela se planifie. Mais pour un profil supply chain de 8-15 ans, c'est souvent la décision financière la plus impactante d'une carrière.**
 
-## Essor Consulting — Préparation Expatriation
+## Nextinotech — Préparation Expatriation
 
-Essor Consulting prépare les professionnels supply chain marocains qui visent le Golfe : optimisation de profil, préparation entretien en anglais, connexions réseau.
+Nextinotech prépare les professionnels supply chain marocains qui visent le Golfe : optimisation de profil, préparation entretien en anglais, connexions réseau.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

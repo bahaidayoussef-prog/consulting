@@ -1,7 +1,7 @@
 ---
 title: "Achats Indirects : le Gisement d'Économies que les PME Marocaines Ignorent"
 date: "2026-08-28"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/business.jpg"
 keywords: "optimisation achats indirects, achats indirects maroc, achats hors production, gisement économies achats"
@@ -40,7 +40,7 @@ Les achats indirects représentent un budget souvent aussi lourd que les achats 
 
 Vous voulez cartographier vos achats indirects et identifier votre potentiel d'économies réel ? [Découvrez nos formations achats](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

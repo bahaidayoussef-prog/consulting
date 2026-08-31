@@ -1,7 +1,7 @@
 ﻿---
 title: "Emploi Supply Chain en France pour les Professionnels Marocains"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/conseil.jpg"
 keywords: "emploi supply chain France Maroc, expatriation logistique France, travail supply chain France marocain, visa travail France supply chain"
 description: "Comment les professionnels supply chain marocains peuvent trouver un emploi en France ? Visa, équivalences, salaires, secteurs qui recrutent et démarches pratiques."
@@ -96,9 +96,9 @@ ENIC-NARIC France est l'organisme officiel d'évaluation des diplômes étranger
 
 > **La France est une vraie opportunité pour les profils supply chain marocains qualifiés — mais ce n'est pas une décision à prendre légèrement. L'adaptation culturelle, administrative et familiale prend 1-2 ans. Le projet qui réussit est celui qui est préparé, pas celui qui est fui.**
 
-## Essor Consulting — Préparation Projet France
+## Nextinotech — Préparation Projet France
 
-Essor Consulting accompagne les professionnels marocains qui projettent un emploi en France : structuration du projet, optimisation du dossier, préparation entretien en contexte français.
+Nextinotech accompagne les professionnels marocains qui projettent un emploi en France : structuration du projet, optimisation du dossier, préparation entretien en contexte français.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

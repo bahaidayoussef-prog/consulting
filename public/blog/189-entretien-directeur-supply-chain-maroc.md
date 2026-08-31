@@ -1,7 +1,7 @@
 ﻿---
 title: "Entretien Directeur Supply Chain au Maroc : Niveau C-Suite"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/business.jpg"
 keywords: "entretien directeur supply chain Maroc, recrutement DSC Maroc, poste directeur logistique entretien, DG supply chain Maroc entretien"
 description: "Comment se préparer à un entretien pour un poste de Directeur Supply Chain (DSC) au Maroc ? Ce que les DG et les boards évaluent à ce niveau de responsabilité."
@@ -85,9 +85,9 @@ Assurez-vous que :
 
 > **L'entretien DSC est l'examen terminal d'une carrière. Il teste tout ce que vous avez appris, construit, et transformé sur 15-20 ans. Les candidats qui y réussissent sont ceux qui ont su combiner l'expertise opérationnelle avec la vision stratégique, le leadership humain avec la rigueur financière. C'est rare — et c'est pourquoi ces profils sont extrêmement valorisés.**
 
-## Essor Consulting — Coaching Dirigeants
+## Nextinotech — Coaching Dirigeants
 
-Essor Consulting accompagne les dirigeants supply chain dans leur positionnement, leur préparation aux entretiens C-suite, et leur développement.
+Nextinotech accompagne les dirigeants supply chain dans leur positionnement, leur préparation aux entretiens C-suite, et leur développement.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

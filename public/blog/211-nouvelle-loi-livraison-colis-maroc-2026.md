@@ -1,7 +1,7 @@
 ---
 title: "Nouvelle Loi sur la Livraison de Colis au Maroc 2026 : ce que change le projet de loi 36-25"
 date: "2026-08-19"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/transport.jpg"
 keywords: "loi livraison colis maroc 2026, projet de loi 36-25, agrément livraison Maroc, réglementation e-commerce Maroc"
@@ -48,7 +48,7 @@ Le projet de loi 36-25 n'est pas encore une loi en vigueur, mais sa direction es
 
 Vous pilotez une chaîne logistique e-commerce ou last-mile exposée à cette évolution réglementaire ? [Découvrez nos formations](/formation) sur la logistique e-commerce et le dernier kilomètre, ou [contactez-nous](/contact) pour un premier échange gratuit.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

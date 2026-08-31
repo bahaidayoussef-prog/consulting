@@ -1,7 +1,7 @@
 ﻿---
 title: "Devenir Consultant Freelance Supply Chain au Maroc : Guide Complet"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/conseil.jpg"
 keywords: "consultant freelance supply chain Maroc, indépendant logistique Maroc, auto-entrepreneur logistique Maroc, devenir consultant supply chain"
 description: "Devenir consultant freelance supply chain au Maroc : comment se lancer, trouver ses premiers clients, fixer ses tarifs et structurer son activité. Guide d'un praticien."
@@ -81,9 +81,9 @@ Salaire mensuel visé × 1,5 (charges) / 15 jours facturables = TJM minimum.
 
 > **Le consulting indépendant récompense ceux qui ont construit une expertise réelle et un réseau solide. C'est une liberté qui se mérite — mais qui, une fois acquise, change profondément la façon d'appréhender son travail.**
 
-## Essor Consulting — Coaching Transition vers le Consulting
+## Nextinotech — Coaching Transition vers le Consulting
 
-Essor Consulting accompagne les séniors SC dans leur transition vers le consulting indépendant : structuration de l'offre, pricing, développement commercial, premiers clients.
+Nextinotech accompagne les séniors SC dans leur transition vers le consulting indépendant : structuration de l'offre, pricing, développement commercial, premiers clients.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

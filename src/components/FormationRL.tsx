@@ -8,10 +8,10 @@ import SchemaScript from './SchemaHelper'
 /* ─── Constants ─────────────────────────────────────────── */
 const PHONE = '212663449200'
 const WA_MSG = encodeURIComponent(
-  'Bonjour Essor Consulting, je souhaite réserver ma place pour la formation "Devenir Responsable Logistique". Pouvez-vous me communiquer les prochaines dates disponibles ?'
+  'Bonjour Nextinotech, je souhaite réserver ma place pour la formation "Devenir Responsable Logistique". Pouvez-vous me communiquer les prochaines dates disponibles ?'
 )
 const WA_LINK = `https://wa.me/${PHONE}?text=${WA_MSG}`
-const EMAIL_LINK = `mailto:essor.consulting.maroc@gmail.com?subject=Inscription%20formation%20Responsable%20Logistique`
+const EMAIL_LINK = `mailto:contact@nextinotech.com?subject=Inscription%20formation%20Responsable%20Logistique`
 const PLACES = 5
 
 /* ─── Data ───────────────────────────────────────────────── */
@@ -50,7 +50,7 @@ const INCLUS = [
   { icon: '☕', label: 'Pauses & viennoiseries', desc: 'Deux pauses café avec collations' },
   { icon: '🍽️', label: 'Déjeuner gastronomique', desc: 'Repas complet au restaurant de l\'hôtel' },
   { icon: '📋', label: 'Support de formation', desc: 'Guide terrain de 60+ pages à emporter' },
-  { icon: '🎓', label: 'Attestation officielle', desc: 'Attestation de participation Essor Consulting' },
+  { icon: '🎓', label: 'Attestation officielle', desc: 'Attestation de participation Nextinotech' },
   { icon: '💬', label: 'Suivi 30 jours', desc: 'Support WhatsApp pour vos questions terrain post-formation' },
 ]
 
@@ -100,7 +100,7 @@ const courseSchema = {
       '@id': 'https://nextinotech.com/formation-rl/#course',
       name: 'Devenir Responsable Logistique',
       description: 'Formation intensive d\'une journée pour maîtriser les méthodes, les outils et les réflexes du pilotage logistique : fondamentaux, gestion des stocks, transport, pilotage de la performance, systèmes WMS/TMS/ERP.',
-      provider: { '@type': 'Organization', name: 'Essor Consulting', sameAs: 'https://nextinotech.com/' },
+      provider: { '@type': 'Organization', name: 'Nextinotech', sameAs: 'https://nextinotech.com/' },
       hasCourseInstance: {
         '@type': 'CourseInstance',
         courseMode: 'Onsite',
@@ -394,7 +394,7 @@ function DownloadForm() {
       </button>
       {status === 'error' && (
         <div style={{ fontSize: '0.8rem', color: '#c83c3c' }}>
-          Une erreur est survenue. Réessayez, ou écrivez-nous directement à essor.consulting.maroc@gmail.com.
+          Une erreur est survenue. Réessayez, ou écrivez-nous directement à contact@nextinotech.com.
         </div>
       )}
       <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.06em', color: 'var(--mid)' }}>
@@ -440,7 +440,7 @@ export default function FormationRL() {
   return (
     <div className="grain" style={{ background: 'var(--paper)', minHeight: '100vh', color: 'var(--navy)' }}>
       <PageMeta
-        title="Formation Responsable Logistique — 1 jour · 1 500 MAD · Hôtel 5★ Casablanca | Essor Consulting"
+        title="Formation Responsable Logistique — 1 jour · 1 500 MAD · Hôtel 5★ Casablanca | Nextinotech"
         description="Formation intensive 1 journée pour devenir Responsable Logistique. Hôtel 5 étoiles Casablanca. 1 500 MAD tout inclus. Formateur 20+ ans terrain. Places limitées à 8 participants."
         canonical="https://nextinotech.com/formation-rl/"
       />
@@ -550,7 +550,7 @@ export default function FormationRL() {
             <div style={{ position: 'relative', paddingBottom: '62%', overflow: 'hidden', background: 'var(--paper)' }}>
               <img
                 src="/images/formation-rl/hero.jpg"
-                alt="Équipe Essor Consulting animant une session de formation autour d'une visualisation supply chain"
+                alt="Équipe Nextinotech animant une session de formation autour d'une visualisation supply chain"
                 loading="lazy"
                 style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: '38% 50%' }}
               />
@@ -746,7 +746,7 @@ export default function FormationRL() {
                 Cette journée structure les compétences déjà acquises sur le terrain — coordination, gestion d'entrepôt, encadrement d'équipe transport — pour vous positionner sur un poste de Responsable Logistique.
               </p>
               <p style={{ fontSize: '1rem', color: 'var(--mid)', lineHeight: 1.85, fontWeight: 300, margin: '0 0 2.5rem', maxWidth: 520 }}>
-                Pour poursuivre votre progression vers la Direction Supply Chain, Essor Consulting propose deux prolongements naturels : le catalogue complet de formations, et l'accompagnement Direction Supply Chain à Temps Partagé pour les organisations déjà pilotées.
+                Pour poursuivre votre progression vers la Direction Supply Chain, Nextinotech propose deux prolongements naturels : le catalogue complet de formations, et l'accompagnement Direction Supply Chain à Temps Partagé pour les organisations déjà pilotées.
               </p>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '0.9rem', alignItems: 'flex-start' }}>
                 <Link
@@ -840,7 +840,7 @@ export default function FormationRL() {
               >
                 <img
                   src={src}
-                  alt={`Session de formation Essor Consulting — Casablanca (${i + 1}/${PHOTOS_TERRAIN.length})`}
+                  alt={`Session de formation Nextinotech — Casablanca (${i + 1}/${PHOTOS_TERRAIN.length})`}
                   loading="lazy"
                   style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover' }}
                 />
@@ -895,7 +895,7 @@ export default function FormationRL() {
               Réserver via WhatsApp →
             </a>
             <a href={EMAIL_LINK} style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.62rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.7)', textDecoration: 'none' }}>
-              Ou par email → essor.consulting.maroc@gmail.com
+              Ou par email → contact@nextinotech.com
             </a>
             <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.08em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.55)', marginTop: '0.5rem' }}>
               Réponse sous 24h · Aucun engagement avant confirmation écrite

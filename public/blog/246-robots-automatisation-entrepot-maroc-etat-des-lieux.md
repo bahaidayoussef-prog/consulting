@@ -1,7 +1,7 @@
 ---
 title: "Robots et Automatisation d'Entrepôt : où en est Réellement le Maroc"
 date: "2026-08-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/hero-warehouse.jpg"
 keywords: "robot entrepôt automatisation maroc, AGV logistique maroc, robotique entrepôt, automatisation intralogistique"
@@ -36,7 +36,7 @@ L'automatisation d'entrepôt (AMR, AGV, tri robotisé) répond d'abord à un pro
 
 Vous voulez évaluer si votre volume justifie un investissement en automatisation d'entrepôt ? [Découvrez nos formations logistique](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

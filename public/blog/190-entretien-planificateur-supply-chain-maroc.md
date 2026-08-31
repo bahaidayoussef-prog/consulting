@@ -1,7 +1,7 @@
 ﻿---
 title: "Entretien Planificateur Supply Chain au Maroc : Questions et Réponses"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/hero-supply-chain.jpg"
 keywords: "entretien planificateur supply chain Maroc, recrutement demand planner Maroc, poste planification SC entretien, questions planificateur logistique"
 description: "Comment réussir l'entretien pour un poste de planificateur supply chain au Maroc ? Questions techniques spécifiques, cas pratiques de planification et ce que les recruteurs évaluent."
@@ -93,9 +93,9 @@ Un bon planificateur n'est pas seulement quelqu'un qui connaît les formules. C'
 
 > **La planification supply chain est l'un des rôles les plus intellectuellement exigeants de la logistique. Les bons planificateurs combinent rigueur mathématique, sens du business, et communication — un profil rare qui se paye bien et qui évolue vite.**
 
-## Essor Consulting — Formation Planification
+## Nextinotech — Formation Planification
 
-Essor Consulting propose des formations spécialisées en planification SC : S&OP, DDMRP, prévisions de demande. Et des coaching de préparation aux entretiens planification.
+Nextinotech propose des formations spécialisées en planification SC : S&OP, DDMRP, prévisions de demande. Et des coaching de préparation aux entretiens planification.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

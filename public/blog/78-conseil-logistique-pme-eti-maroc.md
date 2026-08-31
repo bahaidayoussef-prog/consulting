@@ -1,7 +1,7 @@
 ﻿---
 title: "Conseil Logistique au Maroc : Ce qui Différencie une Mission PME d'une Mission ETI 2026"
 date: "2026-08-04"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/conseil.jpg"
 keywords: "conseil logistique pme maroc, consultant supply chain maroc, mission conseil logistique maroc, accompagnement supply chain pme maroc, consultant logistique eti maroc"
 description: "Comment une mission de conseil logistique diffère entre une PME et une ETI marocaine : méthode, durée, livrables et ROI. Guide pour choisir le bon accompagnement selon votre taille."
@@ -131,7 +131,7 @@ Une ETI de 200 à 2 000 personnes présente un contexte radicalement différent 
 
 **Ce n'est pas forcément cher.** Un diagnostic flash à 20 000 MAD qui identifie 500 000 MAD de pertes évitables est l'un des meilleurs investissements qu'une PME marocaine puisse faire.
 
-::stat:: 6× — ROI moyen d'une mission de conseil logistique bien menée sur 18 mois (gains opérationnels / coût de la mission) dans les PME marocaines (données Essor Consulting)
+::stat:: 6× — ROI moyen d'une mission de conseil logistique bien menée sur 18 mois (gains opérationnels / coût de la mission) dans les PME marocaines (données Nextinotech)
 
 ---
 
@@ -141,7 +141,7 @@ Une ETI de 200 à 2 000 personnes présente un contexte radicalement différent 
 Un consultant qui a travaillé uniquement en Europe ne comprend pas les contraintes marocaines : fournisseurs locaux peu digitalisés, infrastructure routière variable, douanes, profils d'opérateurs, culture managériale. Demandez des références sur des missions marocaines récentes.
 
 **Critère 2 — L'indépendance des solutions proposées**
-Un consultant lié à un éditeur WMS vous recommandera ce WMS. Un consultant lié à un 3PL vous recommandera l'externalisation. L'indépendance est la condition de l'objectivité. Essor Consulting ne perçoit aucune commission de prestataires.
+Un consultant lié à un éditeur WMS vous recommandera ce WMS. Un consultant lié à un 3PL vous recommandera l'externalisation. L'indépendance est la condition de l'objectivité. Nextinotech ne perçoit aucune commission de prestataires.
 
 **Critère 3 — La transparence sur la méthode et les livrables**
 Avant de signer, exigez une description précise de ce que le consultant va faire, comment, et ce qu'il va livrer. Un consultant qui ne peut pas répondre clairement à ces questions n'a pas de méthode.
@@ -153,13 +153,13 @@ Un bon consultant accepte de définir des KPIs de succès au démarrage de la mi
 
 ---
 
-## Travailler avec Essor Consulting
+## Travailler avec Nextinotech
 
-Essor Consulting réalise des missions de conseil logistique et supply chain au Maroc depuis plus de 20 ans, pour des PME, des ETI et des grands groupes. Nous nous adaptons au contexte de chaque entreprise — en méthode, en profondeur et en budget.
+Nextinotech réalise des missions de conseil logistique et supply chain au Maroc depuis plus de 20 ans, pour des PME, des ETI et des grands groupes. Nous nous adaptons au contexte de chaque entreprise — en méthode, en profondeur et en budget.
 
 **Notre engagement :** Chaque mission démarre par une définition claire des KPIs de succès. Si les résultats ne sont pas au rendez-vous, nous continuons sans facturation supplémentaire jusqu'à ce qu'ils le soient.
 
-Pour un premier échange sans engagement : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
+Pour un premier échange sans engagement : **contact@nextinotech.com** · **+212 06 63 44 92 00**
 
 ---
 

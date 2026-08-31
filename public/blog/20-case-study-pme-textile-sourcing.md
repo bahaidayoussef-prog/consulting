@@ -1,7 +1,7 @@
 ﻿---
 title: "Case Study: PME Textile — 18% Sourcing Cost Reduction en 3 Mois"
 date: "2026-06-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/business.jpg"
 type: "case-study"
 keywords: "case study supply chain, sourcing optimization, cost reduction, textile Maroc"
@@ -39,7 +39,7 @@ Procurement efficiency: 60% (chaotic)
 
 ---
 
-## Intervention Essor Consulting (12 semaines)
+## Intervention Nextinotech (12 semaines)
 
 ### Semaine 1-2: Audit & Design
 - Cartographier fournisseurs actuels (50+ suppliers)
@@ -135,7 +135,7 @@ ROI: 6.5x | Payback: 1.8 mois
 
 ## Client Testimonial
 
-> "3 mois, résultats réels. 18% saving, moins de stock, équipe plus efficace. L'audit initial Essor a identifié exactement où couper coûts sans sacrifier qualité. Recommandé." 
+> "3 mois, résultats réels. 18% saving, moins de stock, équipe plus efficace. L'audit initial Nextinotech a identifié exactement où couper coûts sans sacrifier qualité. Recommandé." 
 > 
 > — Directeur Général, PME Textile Casablanca
 
@@ -149,7 +149,7 @@ PME textile a transformé supply chain en 3 mois sans massive investment. Clé: 
 
 ---
 
-**Essor Consulting**  
+**Nextinotech**  
 Expert Supply Chain & Transformation Digitale  
 18 ans expérience, 110+ missions réussies
 

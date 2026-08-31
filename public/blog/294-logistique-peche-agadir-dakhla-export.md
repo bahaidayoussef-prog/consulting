@@ -1,7 +1,7 @@
 ---
 title: "Logistique du Secteur de la Pêche : Agadir, Dakhla et l'Export Halieutique"
 date: "2026-08-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/agro.jpg"
 keywords: "logistique pêche maroc export, export halieutique maroc, Agadir Dakhla pêche"
@@ -36,7 +36,7 @@ Le secteur halieutique marocain structure sa logistique autour de deux pôles co
 
 Vous opérez dans le secteur halieutique marocain et voulez structurer votre chaîne logistique export ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

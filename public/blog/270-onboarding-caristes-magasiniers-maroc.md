@@ -1,7 +1,7 @@
 ---
 title: "Onboarding des Caristes et Magasiniers : Réduire l'Attrition dès les 90 Premiers Jours"
 date: "2026-08-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/hero-warehouse.jpg"
 keywords: "onboarding entrepôt maroc, intégration caristes magasiniers, attrition nouveaux employés entrepôt"
@@ -36,7 +36,7 @@ L'essentiel de l'attrition en entrepôt se joue dans les 45 à 90 premiers jours
 
 Vous voulez structurer un parcours d'intégration pour vos équipes d'entrepôt ? [Découvrez nos formations RH et management](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

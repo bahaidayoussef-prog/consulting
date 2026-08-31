@@ -1,7 +1,7 @@
 ---
 title: "Category Management Achats : Structurer ses Catégories pour Plus de Valeur"
 date: "2026-08-28"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/business.jpg"
 keywords: "category management achats maroc, matrice kraljic achats, segmentation achats stratégie, gestion catégories achats"
@@ -36,7 +36,7 @@ Le category management transforme les achats d'un exercice de négociation fourn
 
 Vous voulez cartographier vos catégories d'achats et structurer une stratégie différenciée par segment ? [Découvrez nos formations achats](/formation), ou [contactez-nous](/contact) pour un diagnostic de votre portefeuille.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

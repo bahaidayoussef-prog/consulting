@@ -1,7 +1,7 @@
 ﻿---
 title: "Case Study: Renault Tanger — Production Ramp 0→400 Units/Day (18 months)"
 date: "2026-06-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/transport.jpg"
 type: "case-study"
 keywords: "manufacturing ramp, production scale, automotive"
@@ -29,5 +29,5 @@ description: "Renault-Nissan Tanger: new plant engineering → 400 units/day sta
 
 ---
 
-**Essor Consulting** — Manufacturing & Production Planning
+**Nextinotech** — Manufacturing & Production Planning
 

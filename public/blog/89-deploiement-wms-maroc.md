@@ -1,7 +1,7 @@
 ﻿---
 title: "Déploiement WMS au Maroc : Méthode, Délais et Facteurs de Succès 2026"
 date: "2026-08-04"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/analytics.jpg"
 keywords: "déploiement WMS maroc, implémentation WMS maroc, projet WMS entrepôt, choisir WMS maroc, warehouse management system maroc"
 description: "Comment réussir le déploiement d'un WMS au Maroc : 5 phases, budget réel, facteurs de succès et pièges à éviter. Retours terrain de 12+ projets WMS au Maroc."
@@ -166,9 +166,9 @@ Ces résultats se matérialisent en moyenne **6 à 12 mois après le go-live**, 
 
 ---
 
-## Assistance WMS par Essor Consulting
+## Assistance WMS par Nextinotech
 
-Essor Consulting accompagne les entreprises marocaines sur toutes les phases d'un projet WMS :
+Nextinotech accompagne les entreprises marocaines sur toutes les phases d'un projet WMS :
 
 - **Rédaction du cahier des charges WMS** et pilotage de l'appel d'offres
 - **Assistance à la sélection** du WMS (nous sommes indépendants de tout éditeur)
@@ -176,7 +176,7 @@ Essor Consulting accompagne les entreprises marocaines sur toutes les phases d'u
 - **Formation des équipes** : opérateurs, chefs d'équipe, responsable logistique
 - **Audit post-démarrage** : diagnostic des points bloquants 3 à 6 mois après le go-live
 
-Contactez-nous pour un premier cadrage de votre projet WMS : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
+Contactez-nous pour un premier cadrage de votre projet WMS : **contact@nextinotech.com** · **+212 06 63 44 92 00**
 
 ---
 
@@ -186,4 +186,4 @@ Un WMS réussi n'est pas une question de logiciel — c'est une question de mét
 
 Celles qui ont échoué ont toutes en commun : un WMS sélectionné trop vite, une formation négligée, et un go-live lancé avant que l'intégration ERP soit stable.
 
-**La décision d'acheter un WMS est simple. La réussir demande une méthode. C'est précisément ce qu'Essor Consulting vous apporte.**
+**La décision d'acheter un WMS est simple. La réussir demande une méthode. C'est précisément ce que Nextinotech vous apporte.**

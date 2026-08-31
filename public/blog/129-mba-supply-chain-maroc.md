@@ -1,7 +1,7 @@
 ﻿---
 title: "MBA Supply Chain au Maroc : Vaut-il le Coût et le Temps Investi ?"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/office.jpg"
 keywords: "MBA supply chain Maroc, executive MBA logistique Maroc, formation master supply chain Maroc, diplôme supply chain executive Maroc"
 description: "Un MBA supply chain au Maroc vaut-il l'investissement ? Comparatif des programmes, coût réel, impact salarial et alternatives pour progresser sans MBA."
@@ -71,9 +71,9 @@ Coût total : 30 000-60 000 MAD. Durée : 2-3 ans. Impact sur la carrière : tr�
 
 > **Le MBA vous ouvre des portes. Les résultats vous les maintiennent ouvertes. Investissez dans les deux — mais pas nécessairement dans cet ordre.**
 
-## Essor Consulting — Orientation et Formation
+## Nextinotech — Orientation et Formation
 
-Essor Consulting accompagne les professionnels qui hésitent entre MBA et parcours certifications : bilan de compétences, plan de développement personnalisé, et programmes de formation adaptés.
+Nextinotech accompagne les professionnels qui hésitent entre MBA et parcours certifications : bilan de compétences, plan de développement personnalisé, et programmes de formation adaptés.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

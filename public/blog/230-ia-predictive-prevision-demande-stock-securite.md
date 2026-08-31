@@ -1,7 +1,7 @@
 ---
 title: "IA Prédictive et Prévision de la Demande : Réduire ses Stocks de Sécurité"
 date: "2026-08-25"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/charts.jpg"
 keywords: "prévision de la demande IA, IA prédictive stock sécurité, forecast IA supply chain, réduction stock IA maroc"
@@ -40,7 +40,7 @@ L'IA prédictive réduit les erreurs de prévision de 20 à 50% selon les travau
 
 Vous voulez évaluer le potentiel de réduction de vos stocks de sécurité par une meilleure prévision de la demande ? [Découvrez nos formations](/formation), ou [contactez-nous](/contact) pour un diagnostic de vos données de prévision.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

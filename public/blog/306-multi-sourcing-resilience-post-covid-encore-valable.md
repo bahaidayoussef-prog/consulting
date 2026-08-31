@@ -1,7 +1,7 @@
 ---
 title: "Multi-Sourcing et Stocks Stratégiques : les Leçons de Résilience Post-Covid Encore Valables"
 date: "2026-08-21"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/hero-supply-chain.jpg"
 keywords: "multi-sourcing résilience supply chain, stocks stratégiques 2026, leçons covid supply chain"
@@ -36,7 +36,7 @@ Les leçons de résilience de la crise Covid — multi-sourcing ciblé, stocks s
 
 Vous voulez réévaluer votre exposition aux ruptures fournisseur cinq ans après les leçons de la crise Covid ? [Découvrez nos services conseil supply chain](/conseil), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

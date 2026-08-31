@@ -1,7 +1,7 @@
 ﻿---
 title: "Négocier une Offre d'Emploi Supply Chain au Maroc : Le Guide Complet"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/business.jpg"
 keywords: "négocier offre emploi supply chain Maroc, négociation salariale logistique offre, accepter refuser offre supply chain Maroc, package emploi supply chain"
 description: "Comment négocier une offre d'emploi supply chain au Maroc ? Délai de réflexion, contre-offre, négociation du package et les erreurs à éviter pour ne pas perdre l'offre."
@@ -111,9 +111,9 @@ Un refus poli laisse une bonne impression. Le monde de la supply chain au Maroc 
 
 > **Négocier une offre d'emploi n'est pas de l'arrogance — c'est de la compétence professionnelle. Les employeurs respectent les candidats qui savent ce qu'ils valent et le défendent avec des arguments. Ceux qui acceptent la première offre sans négocier peuvent s'en mordre les doigts pendant des années.**
 
-## Essor Consulting — Coaching Offre et Négociation
+## Nextinotech — Coaching Offre et Négociation
 
-Essor Consulting coache les professionnels SC à chaque étape du recrutement, y compris la négociation de l'offre finale.
+Nextinotech coache les professionnels SC à chaque étape du recrutement, y compris la négociation de l'offre finale.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

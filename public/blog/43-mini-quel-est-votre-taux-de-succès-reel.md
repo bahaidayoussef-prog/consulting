@@ -1,19 +1,19 @@
 ---
 title: "Quel Est Votre Taux de Succès Réel ?"
 date: "2026-08-19"
-author: "Essor Consulting"
+author: "Nextinotech"
 type: "mini-article"
 schema: "FAQPage"
-quickAnswer: "Essor Consulting ne publie pas de taux de succès agrégé — ce chiffre unique masquerait plus qu'il ne révélerait. Chaque mission a un résultat chiffré et vérifiable publié individuellement dans nos références : productivité, taux de service, réduction des ruptures."
-keywords: "taux de succès consultant, résultats consulting supply chain, références Essor Consulting"
-description: "Pourquoi Essor Consulting ne publie pas de taux de succès agrégé, et où trouver les résultats chiffrés réels, mission par mission."
+quickAnswer: "Nextinotech ne publie pas de taux de succès agrégé — ce chiffre unique masquerait plus qu'il ne révélerait. Chaque mission a un résultat chiffré et vérifiable publié individuellement dans nos références : productivité, taux de service, réduction des ruptures."
+keywords: "taux de succès consultant, résultats consulting supply chain, références Nextinotech"
+description: "Pourquoi Nextinotech ne publie pas de taux de succès agrégé, et où trouver les résultats chiffrés réels, mission par mission."
 ---
 
 # Quel Est Votre Taux de Succès Réel ?
 
 ![Analyse de données et de résultats](/images/analytics.jpg)
 
-**Essor Consulting ne publie pas de taux de succès agrégé — et c'est un choix assumé, pas une esquive.** Un "92% de missions réussies" ne veut rien dire sans savoir comment "succès" est défini, ni sur quel périmètre. Ce que nous publions, ce sont des résultats chiffrés, mission par mission, vérifiables.
+**Nextinotech ne publie pas de taux de succès agrégé — et c'est un choix assumé, pas une esquive.** Un "92% de missions réussies" ne veut rien dire sans savoir comment "succès" est défini, ni sur quel périmètre. Ce que nous publions, ce sont des résultats chiffrés, mission par mission, vérifiables.
 
 ## Pourquoi un pourcentage unique ne dit rien
 
@@ -33,7 +33,7 @@ Si un cabinet affiche un taux de succès global sans détailler la méthode de c
 
 **Notre approche.** Consultez nos références pour voir les résultats réels, secteur par secteur, avant de nous confier votre propre mission.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

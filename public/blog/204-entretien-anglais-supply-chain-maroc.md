@@ -1,7 +1,7 @@
 ﻿---
 title: "Passer un Entretien en Anglais Supply Chain au Maroc : Guide Pratique"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/business.jpg"
 keywords: "entretien anglais supply chain Maroc, interview supply chain English Morocco, entretien logistique anglais Maroc, préparer entretien anglais SC"
 description: "Comment réussir un entretien supply chain en anglais au Maroc ? Vocabulaire SC en anglais, réponses types aux questions classiques, et comment gérer le stress de la langue."
@@ -95,9 +95,9 @@ De plus en plus d'entreprises au Maroc conduisent leurs entretiens en anglais �
 
 > **Maîtriser l'entretien supply chain en anglais, c'est doubler votre marché de postes potentiels au Maroc. Chaque heure investie dans la pratique de l'anglais professionnel a un retour sur investissement direct en salaire et en opportunités de carrière.**
 
-## Essor Consulting — Coaching Entretien en Anglais
+## Nextinotech — Coaching Entretien en Anglais
 
-Essor Consulting propose des sessions de préparation à l'entretien supply chain en anglais, incluant des simulations d'entretien et du vocabulaire SC spécialisé.
+Nextinotech propose des sessions de préparation à l'entretien supply chain en anglais, incluant des simulations d'entretien et du vocabulaire SC spécialisé.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

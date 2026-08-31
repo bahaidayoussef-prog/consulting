@@ -1,7 +1,7 @@
 ---
 title: "Incoterms au Maroc : le Guide Pratique pour Importateurs et Exportateurs"
 date: "2026-08-27"
-author: "Essor Consulting"
+author: "Nextinotech"
 schema: "Article"
 image: "/images/conseil.jpg"
 keywords: "incoterms maroc, incoterms 2020 maroc, FOB CIF maroc, valeur en douane maroc incoterms"
@@ -36,7 +36,7 @@ Il n'existe pas d'édition "Incoterms 2026" — la référence reste Incoterms®
 
 Vous voulez sécuriser vos déclarations en douane et le choix de vos Incoterms avec vos fournisseurs ? [Découvrez nos services de conseil douane et supply chain](/conseil), ou [contactez-nous](/contact) pour un point sur votre situation.
 
-**Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
+**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 

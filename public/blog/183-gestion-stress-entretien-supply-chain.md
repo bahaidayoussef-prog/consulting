@@ -1,7 +1,7 @@
 ﻿---
 title: "Gérer le Stress de l'Entretien Supply Chain : Techniques Pratiques"
 date: "2026-08-05"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/office.jpg"
 keywords: "gérer stress entretien supply chain Maroc, stress entretien logistique, anxiété entretien emploi, techniques anti-stress entretien"
 description: "Comment gérer le stress avant et pendant un entretien supply chain au Maroc ? Techniques concrètes pour être calme, confiant et performant le jour J."
@@ -104,9 +104,9 @@ Paradoxalement, être en recherche active (plusieurs entretiens en parallèle) r
 
 > **Le stress de l'entretien diminue avec l'expérience — c'est la promesse. Vos premiers entretiens sont stressants. Votre 10e l'est moins. Votre 20e encore moins. La bonne nouvelle, c'est que les techniques décrites ici peuvent accélérer ce processus. Ne subissez pas le stress — travaillez dessus.**
 
-## Essor Consulting — Simulation d'Entretien
+## Nextinotech — Simulation d'Entretien
 
-Essor Consulting propose des simulations d'entretien supply chain en conditions réelles pour réduire l'anxiété et améliorer la performance.
+Nextinotech propose des simulations d'entretien supply chain en conditions réelles pour réduire l'anxiété et améliorer la performance.
 
 **Contactez-nous** :
-📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

@@ -1,7 +1,7 @@
 ﻿---
 title: "Optimisation du Réseau Logistique au Maroc : Stratégie Multi-Sites 2026"
 date: "2026-08-04"
-author: "Essor Consulting"
+author: "Nextinotech"
 image: "/images/charts.jpg"
 keywords: "optimisation réseau logistique maroc, réseau distribution maroc, stratégie logistique multi-sites maroc, localisation entrepôt maroc, schéma réseau supply chain maroc"
 description: "Comment optimiser votre réseau logistique au Maroc : nombre de sites, localisation, taille, politique de stock. Méthode et cas réels issus de 20+ projets réseau au Maroc."
@@ -151,7 +151,7 @@ Un scénario optimal sur le papier peut être impossible en pratique :
 
 Passer du réseau actuel au réseau cible est un projet en soi. Il faut séquencer les mouvements (quel site ouvrir en premier ? comment transférer les stocks sans rupture de service ?) et prévoir la période de double coût (ancien réseau + nouveau réseau fonctionnent en parallèle pendant la transition).
 
-::stat:: 19% — réduction moyenne du coût logistique total obtenue après optimisation formelle du réseau dans les entreprises marocaines (données Essor Consulting)
+::stat:: 19% — réduction moyenne du coût logistique total obtenue après optimisation formelle du réseau dans les entreprises marocaines (données Nextinotech)
 
 ---
 
@@ -176,9 +176,9 @@ Passer du réseau actuel au réseau cible est un projet en soi. Il faut séquenc
 
 ---
 
-## Optimisation de Réseau avec Essor Consulting
+## Optimisation de Réseau avec Nextinotech
 
-Essor Consulting réalise des études d'optimisation de réseau logistique au Maroc et en Afrique francophone :
+Nextinotech réalise des études d'optimisation de réseau logistique au Maroc et en Afrique francophone :
 
 - Cartographie des flux et analyse des coûts actuels
 - Modélisation et comparaison de scénarios de réseau
@@ -186,7 +186,7 @@ Essor Consulting réalise des études d'optimisation de réseau logistique au Ma
 - Business case et plan de transition
 - Accompagnement de la mise en œuvre (ouverture de sites, transition des flux)
 
-Contactez-nous pour un premier échange : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**
+Contactez-nous pour un premier échange : **contact@nextinotech.com** · **+212 06 63 44 92 00**
 
 ---
 
