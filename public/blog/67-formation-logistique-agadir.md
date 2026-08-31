@@ -165,4 +165,6 @@ La logistique export d'Agadir est l'une des plus exigeantes du Maroc. Elle deman
 
 👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
+Pour les nouveaux postes de direction logistique évoqués ci-dessus, notre programme **[Devenir Responsable Logistique](/formation-rl/)** (1 journée, 1 500 MAD TTC) est un premier pas accessible.
+
 **Essor Consulting forme les professionnels logistiques de la région Souss-Massa** depuis plusieurs années, en présentiel à Casablanca et en intra-entreprise sur site. Contactez-nous pour organiser une session pour votre équipe.

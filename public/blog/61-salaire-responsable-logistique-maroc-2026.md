@@ -159,4 +159,6 @@ Le salaire d'un Responsable Logistique au Maroc reflète avant tout la valeur aj
 
 Investir dans une formation logistique intensive est souvent le moyen le plus rapide et le plus rentable d'accéder à la tranche de salaire supérieure.
 
+👉 **[Voir le programme complet « Devenir Responsable Logistique »](/formation-rl/)** — 1 journée, 1 500 MAD TTC, prochaines sessions 2026.
+
 **Essor Consulting accompagne les professionnels logistique dans leur montée en compétences depuis plus de 20 ans.** Contactez-nous pour un diagnostic de votre profil.

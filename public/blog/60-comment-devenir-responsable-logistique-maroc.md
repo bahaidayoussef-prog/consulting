@@ -155,6 +155,8 @@ Au programme :
 
 > **Nos formateurs ont des missions de consulting actives au Maroc.** Ils forment sur ce qu'ils font — pas sur ce qu'ils ont lu il y a dix ans.
 
+👉 **[Voir le programme complet « Devenir Responsable Logistique »](/formation-rl/)** — 1 journée, 1 500 MAD TTC, prochaines sessions 2026.
+
 ---
 
 ## Conclusion

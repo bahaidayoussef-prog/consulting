@@ -46,7 +46,7 @@ Trois réflexes pratiques pour un employeur : intégrer systématiquement les ch
 
 Une grille salariale n'est utile à un employeur que si elle intègre le coût réel — charges comprises — et la réalité géographique du marché, pas seulement une moyenne nationale de salaire brut. Les entreprises qui budgétisent sur cette base évitent les deux écueils classiques : sous-payer et perdre leurs recrues en quelques mois, ou surpayer sans levier de rétention réel.
 
-Vous voulez benchmarker vos postes supply chain ou logistique face au marché réel ? [Découvrez nos formations](/formation) en management et pilotage d'équipes, ou [contactez-nous](/contact) pour un premier échange gratuit.
+Vous voulez benchmarker vos postes supply chain ou logistique face au marché réel ? [Découvrez nos formations](/formation) en management et pilotage d'équipes, ou [contactez-nous](/contact) pour un premier échange gratuit. Plutôt que de recruter au prix fort, faire monter en compétences un collaborateur en place via notre programme **[Devenir Responsable Logistique](/formation-rl/)** (1 journée, 1 500 MAD TTC/participant, dès 5 participants en intra-entreprise) est souvent l'option la plus rentable.
 
 **Contact :** essor.consulting.maroc@gmail.com | +212 06 63 44 92 00
 

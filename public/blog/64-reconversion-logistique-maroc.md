@@ -131,7 +131,7 @@ Votre CV doit raconter une histoire cohérente : compétences transversales (ges
 
 ## L'Accompagnement Essor Consulting pour les Profils en Reconversion
 
-Notre formation **Devenir Responsable Logistique** est conçue aussi pour les profils en reconversion. En une journée intensive : fondamentaux opérationnels de la logistique, méthodes de gestion des stocks, KPIs et tableaux de bord, management terrain des équipes, outils digitaux (WMS, ERP).
+Notre formation **[Devenir Responsable Logistique](/formation-rl/)** est conçue aussi pour les profils en reconversion. En une journée intensive : fondamentaux opérationnels de la logistique, méthodes de gestion des stocks, KPIs et tableaux de bord, management terrain des équipes, outils digitaux (WMS, ERP).
 
 **Ce n'est pas une conférence.** C'est une journée de travail pratique, avec des cas réels, des outils concrets et un réseau de praticiens.
 **Tarif :** 1 500 MAD · Hôtel 5★ · Casablanca · Certification remise à l'issue.

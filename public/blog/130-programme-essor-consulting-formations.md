@@ -86,6 +86,8 @@ Essor Consulting propose des formations supply chain conçues par des praticiens
 
 **Délai d'inscription :** Minimum 2 semaines avant la session.
 
+Pour un premier pas rapide dans le catalogue, notre programme phare reste **[Devenir Responsable Logistique](/formation-rl/)** — 1 journée, 1 500 MAD TTC, sessions mensuelles à Casablanca.
+
 👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
 ## Contactez-nous

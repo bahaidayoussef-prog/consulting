@@ -60,6 +60,8 @@ Essor Consulting propose une formation d'une journée, **Développement de Carri
 
 👉 **[Voir le programme complet et les autres formations du catalogue](/formation)**
 
+Si votre plan à 3-5 ans démarre par une prise de poste opérationnelle, notre programme **[Devenir Responsable Logistique](/formation-rl/)** (1 journée, 1 500 MAD TTC) est souvent la première étape.
+
 Pour compléter votre plan de carrière, consultez aussi nos articles sur [négocier son salaire en supply chain](/blog/141-negocier-salaire-supply-chain-maroc.md) et sur les [techniques de négociation achats](/blog/119-formation-negociation-achats-maroc.md).
 
 ## En Résumé

@@ -85,6 +85,8 @@ Après des années à former et à auditer des entrepôts au Maroc, voici ce qui
 
 2 jours intensifs en présentiel, 100% pratique, avec simulation de gestion d'entrepôt en conditions réelles. Certification Essor Consulting délivrée à l'issue de la formation.
 
+Pour viser directement le palier Responsable Logistique du tableau ci-dessus, voir notre programme **[Devenir Responsable Logistique](/formation-rl/)** — 1 journée, 1 500 MAD TTC.
+
 👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
 **Contactez-nous** :

@@ -98,5 +98,7 @@ Le changement est le moyen le plus rapide d'augmenter significativement son sala
 
 Accompagnement individuel pour préparer votre négociation salariale : benchmark personnalisé, simulation d'entretien, stratégie de communication.
 
+Pour monter en compétences avant de négocier, voir aussi notre programme **[Devenir Responsable Logistique](/formation-rl/)** — 1 journée, 1 500 MAD TTC.
+
 **Contactez-nous** :
 📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200

@@ -157,4 +157,6 @@ Le Nord du Maroc est aujourd'hui l'une des zones de développement logistique le
 
 👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
+Pour structurer les fondamentaux avant de se spécialiser automobile ou portuaire, notre programme **[Devenir Responsable Logistique](/formation-rl/)** (1 journée, 1 500 MAD TTC) reste le point d'entrée le plus rapide.
+
 **Essor Consulting intervient régulièrement à Tanger, Kénitra et Tanger Med** pour des missions de conseil et de formation. Contactez-nous pour organiser une session pour votre équipe.

@@ -191,6 +191,8 @@ Essor Consulting forme les chefs d'entrepôt et les responsables logistique au M
 - Suivi post-formation : appel de bilan 30 jours après
 - Possibilité de mission d'accompagnement pour aider à appliquer les acquis
 
+Pour les chefs d'entrepôt visant une évolution vers un poste de Responsable Logistique, voir aussi notre programme **[Devenir Responsable Logistique](/formation-rl/)** — 1 journée, 1 500 MAD TTC.
+
 👉 **[Voir le catalogue complet des formations Essor Consulting](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
 
 Contactez-nous pour un programme sur mesure : **essor.consulting.maroc@gmail.com** · **+212 06 63 44 92 00**

@@ -98,5 +98,7 @@ Les postes d'entrée pour les reconvertis expérimentés :
 
 Essor Consulting propose un programme de reconversion accompagnée : bilan de compétences, formation ciblée sur les fondamentaux manquants, coaching CV/entretien, et mise en relation avec notre réseau.
 
+👉 **[Voir le programme complet « Devenir Responsable Logistique »](/formation-rl/)** — 1 journée, 1 500 MAD TTC, prochaines sessions 2026.
+
 **Contactez-nous** pour en discuter :
 📧 essor.consulting.maroc@gmail.com | 📞 +212 663 449 200
