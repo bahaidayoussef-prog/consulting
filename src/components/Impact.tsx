@@ -74,14 +74,14 @@ export default function Impact() {
             fontFamily: 'DM Mono, monospace',
             fontSize: '0.6rem',
             letterSpacing: '0.2em',
-            color: 'rgba(192,154,47,0.55)',
+            color: 'rgba(47,111,181,0.55)',
             textTransform: 'uppercase',
             marginBottom: '1.5rem',
           }}>
             03 / Preuves terrain
           </div>
 
-          <div style={{
+          <div className="impact-header-grid" style={{
             display: 'grid',
             gridTemplateColumns: '1fr 1fr',
             gap: '4rem',
@@ -93,18 +93,18 @@ export default function Impact() {
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
               style={{
-                fontFamily: 'Bodoni Moda, serif',
+                fontFamily: 'Manrope, sans-serif',
                 fontSize: 'clamp(2.8rem, 5.5vw, 7.5rem)',
                 fontWeight: 800,
                 lineHeight: 0.92,
                 letterSpacing: '-0.025em',
-                color: 'var(--dark-text)',
+                color: 'var(--navy)',
                 margin: 0,
               }}
             >
-              Quinze ans.
+              20+ ans.
               <br />
-              <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--gold)' }}>
+              <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>
                 Des résultats mesurés.
               </span>
             </motion.h2>
@@ -128,7 +128,7 @@ export default function Impact() {
         </div>
 
         {/* Metrics grid */}
-        <div style={{
+        <div className="impact-metrics-grid" style={{
           display: 'grid',
           gridTemplateColumns: 'repeat(4, 1fr)',
           borderTop: '1px solid rgba(27,53,84,0.1)',
@@ -147,12 +147,12 @@ export default function Impact() {
               }}
             >
               <div style={{
-                fontFamily: 'Bodoni Moda, serif',
+                fontFamily: 'Manrope, sans-serif',
                 fontSize: 'clamp(3.5rem, 5.5vw, 6.5rem)',
                 fontWeight: 300,
                 fontStyle: 'italic',
                 lineHeight: 0.9,
-                color: 'var(--gold-light)',
+                color: 'var(--blue-bright)',
                 letterSpacing: '-0.02em',
                 marginBottom: '1rem',
               }}>
@@ -163,10 +163,10 @@ export default function Impact() {
                 />
               </div>
               <div style={{
-                fontFamily: 'Bodoni Moda, serif',
+                fontFamily: 'Manrope, sans-serif',
                 fontSize: 'clamp(0.9rem, 1.4vw, 1.15rem)',
                 fontWeight: 600,
-                color: 'var(--dark-text)',
+                color: 'var(--navy)',
                 marginBottom: '0.5rem',
                 lineHeight: 1.3,
               }}>
@@ -206,7 +206,7 @@ export default function Impact() {
             fontSize: '0.55rem',
             letterSpacing: '0.22em',
             textTransform: 'uppercase',
-            color: 'rgba(192,154,47,0.5)',
+            color: 'rgba(47,111,181,0.5)',
             zIndex: 2,
             pointerEvents: 'none',
           }}>
@@ -226,7 +226,7 @@ export default function Impact() {
         </motion.div>
 
         {/* Quote + certs row */}
-        <div style={{
+        <div className="impact-quote-grid" style={{
           display: 'grid',
           gridTemplateColumns: '1fr 2fr',
           gap: '5rem',
@@ -240,7 +240,7 @@ export default function Impact() {
               fontSize: '0.6rem',
               letterSpacing: '0.15em',
               textTransform: 'uppercase',
-              color: 'rgba(192,154,47,0.7)',
+              color: 'rgba(47,111,181,0.7)',
               marginBottom: '1.25rem',
             }}>
               Notre engagement
@@ -253,8 +253,8 @@ export default function Impact() {
                   letterSpacing: '0.08em',
                   textTransform: 'uppercase',
                   padding: '0.3rem 0.7rem',
-                  border: '1px solid rgba(184,146,42,0.2)',
-                  color: 'rgba(184,146,42,0.55)',
+                  border: '1px solid rgba(47,111,181,0.2)',
+                  color: 'rgba(47,111,181,0.55)',
                 }}>
                   {tag}
                 </span>
@@ -263,13 +263,13 @@ export default function Impact() {
           </div>
 
           <blockquote style={{
-            fontFamily: 'Bodoni Moda, serif',
+            fontFamily: 'Manrope, sans-serif',
             fontSize: 'clamp(1.3rem, 2.2vw, 1.9rem)',
             fontWeight: 300,
             fontStyle: 'italic',
             color: 'rgba(27,53,84,0.65)',
             lineHeight: 1.5,
-            borderLeft: '2px solid var(--gold)',
+            borderLeft: '2px solid var(--blue-bright)',
             paddingLeft: '2.5rem',
             margin: 0,
           }}>

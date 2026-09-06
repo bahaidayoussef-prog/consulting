@@ -1,11 +1,11 @@
 export default function Footer() {
   const nav = [
-    { label: 'Notre approche', href: '#pourquoi' },
-    { label: 'Conseil & AMOA', href: '#conseil' },
-    { label: 'Systèmes SCM', href: '#systemes' },
-    { label: 'Formation', href: '#formation' },
-    { label: 'DSC à temps partagé', href: '#dsc' },
-    { label: 'À propos', href: '#profil' },
+    { label: 'Formation', href: '/formation' },
+    { label: 'À propos', href: '/a-propos' },
+    { label: 'Conseil', href: '/conseil' },
+    { label: 'Prestations', href: '/prestations' },
+    { label: 'DSC à temps partagé', href: '/direction-supply-chain-temps-partage' },
+    { label: 'Carrière', href: '/carriere' },
   ]
 
   const engagements = [
@@ -18,8 +18,8 @@ export default function Footer() {
   return (
     <footer
       style={{
-        background: 'var(--navy-dark, #0e1f30)',
-        borderTop: '1px solid rgba(255,255,255,0.08)',
+        background: 'var(--dark-2)',
+        borderTop: '1px solid rgba(27,53,84,0.1)',
         padding: 'var(--sp-y-sm) var(--sp-x) 2.5rem',
       }}
     >
@@ -31,6 +31,7 @@ export default function Footer() {
       >
         {/* Top row */}
         <div
+          className="footer-grid"
           style={{
             display: 'grid',
             gridTemplateColumns: '1.5fr 1fr 1fr 1fr',
@@ -41,29 +42,38 @@ export default function Footer() {
           {/* Brand column */}
           <div>
             <a
-              href="#"
+              href="/"
               style={{
-                fontFamily: 'Bodoni Moda, serif',
+                fontFamily: 'Manrope, sans-serif',
                 fontSize: '1.4rem',
                 fontWeight: 700,
-                color: 'var(--dark-text)',
+                color: 'var(--navy)',
                 textDecoration: 'none',
                 display: 'block',
                 marginBottom: '1rem',
+                transition: 'opacity 0.2s',
               }}
+              onMouseEnter={(e) => ((e.currentTarget as HTMLElement).style.opacity = '0.7')}
+              onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.opacity = '1')}
             >
-              Essor <span style={{ color: 'var(--gold)' }}>Consulting</span>
+              <img
+                src="/logo-lockup.png"
+                alt="Nextinotech"
+                width={484}
+                height={160}
+                style={{ height: 40, width: 'auto', display: 'block', filter: 'brightness(0) invert(1)', opacity: 0.92 }}
+              />
             </a>
             <p
               style={{
                 fontSize: '0.88rem',
-                color: 'rgba(227,226,226,0.45)',
+                color: 'var(--mid)',
                 lineHeight: 1.7,
                 maxWidth: 300,
                 marginBottom: '1.5rem',
               }}
             >
-              Essor Consulting — cabinet indépendant de conseil et d&apos;AMOA en Supply Chain, dédié aux PME et ETI
+              Nextinotech — cabinet indépendant de conseil et d&apos;AMOA en Supply Chain, dédié aux PME et ETI
               marocaines. Notre seule allégeance est à votre business case.
             </p>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '0.4rem' }}>
@@ -75,13 +85,13 @@ export default function Footer() {
                     fontSize: '0.65rem',
                     letterSpacing: '0.1em',
                     textTransform: 'uppercase',
-                    color: 'rgba(184,146,42,0.6)',
+                    color: 'rgba(27,53,84,0.55)',
                     display: 'flex',
                     alignItems: 'center',
                     gap: '0.5rem',
                   }}
                 >
-                  <span style={{ color: 'var(--gold)' }}>◆</span> {e}
+                  <span style={{ color: 'var(--blue-bright)' }}>◆</span> {e}
                 </div>
               ))}
             </div>
@@ -95,7 +105,7 @@ export default function Footer() {
                 fontSize: '0.65rem',
                 letterSpacing: '0.15em',
                 textTransform: 'uppercase',
-                color: 'rgba(227,226,226,0.3)',
+                color: 'rgba(27,53,84,0.45)',
                 marginBottom: '1.5rem',
               }}
             >
@@ -108,13 +118,13 @@ export default function Footer() {
                     href={href}
                     style={{
                       fontSize: '0.88rem',
-                      color: 'rgba(227,226,226,0.5)',
+                      color: 'var(--mid)',
                       textDecoration: 'none',
                       transition: 'color 0.2s',
                     }}
-                    onMouseEnter={(e) => ((e.target as HTMLElement).style.color = 'var(--gold)')}
+                    onMouseEnter={(e) => ((e.target as HTMLElement).style.color = 'var(--blue-bright)')}
                     onMouseLeave={(e) =>
-                      ((e.target as HTMLElement).style.color = 'rgba(227,226,226,0.5)')
+                      ((e.target as HTMLElement).style.color = 'var(--mid)')
                     }
                   >
                     {label}
@@ -132,7 +142,7 @@ export default function Footer() {
                 fontSize: '0.65rem',
                 letterSpacing: '0.15em',
                 textTransform: 'uppercase',
-                color: 'rgba(227,226,226,0.3)',
+                color: 'rgba(27,53,84,0.45)',
                 marginBottom: '1.5rem',
               }}
             >
@@ -140,23 +150,23 @@ export default function Footer() {
             </div>
             <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
               {[
-                { label: 'Conseil & AMOA SC', href: '#conseil' },
-                { label: 'Sélection systèmes SCM', href: '#systemes' },
-                { label: 'Formation terrain', href: '#formation' },
-                { label: 'DSC à temps partagé', href: '#dsc' },
+                { label: 'Formation terrain', href: '/formation' },
+                { label: 'Conseil & AMOA SC', href: '/conseil' },
+                { label: 'Prestations opérationnelles', href: '/prestations' },
+                { label: 'DSC à temps partagé', href: '/direction-supply-chain-temps-partage' },
               ].map(({ label, href }) => (
                 <li key={href}>
                   <a
                     href={href}
                     style={{
                       fontSize: '0.88rem',
-                      color: 'rgba(227,226,226,0.5)',
+                      color: 'var(--mid)',
                       textDecoration: 'none',
                       transition: 'color 0.2s',
                     }}
-                    onMouseEnter={(e) => ((e.target as HTMLElement).style.color = 'var(--gold)')}
+                    onMouseEnter={(e) => ((e.target as HTMLElement).style.color = 'var(--blue-bright)')}
                     onMouseLeave={(e) =>
-                      ((e.target as HTMLElement).style.color = 'rgba(227,226,226,0.5)')
+                      ((e.target as HTMLElement).style.color = 'var(--mid)')
                     }
                   >
                     {label}
@@ -174,7 +184,7 @@ export default function Footer() {
                 fontSize: '0.65rem',
                 letterSpacing: '0.15em',
                 textTransform: 'uppercase',
-                color: 'rgba(227,226,226,0.3)',
+                color: 'rgba(27,53,84,0.45)',
                 marginBottom: '1.5rem',
               }}
             >
@@ -182,18 +192,18 @@ export default function Footer() {
             </div>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '0.9rem' }}>
               {[
-                { tag: 'Email', label: 'essor.consulting.maroc@gmail.com', href: 'mailto:essor.consulting.maroc@gmail.com' },
+                { tag: 'Email', label: 'contact@nextinotech.com', href: 'mailto:contact@nextinotech.com' },
                 { tag: 'Tél', label: '+212 06 63 44 92 00', href: 'tel:+212663449200' },
                 { tag: 'WA', label: 'WhatsApp', href: 'https://wa.me/212663449200' },
                 { tag: 'Lieu', label: 'Casablanca, Maroc', href: undefined },
               ].map(({ tag, label, href }) => (
-                <div key={label} style={{ display: 'flex', alignItems: 'baseline', gap: '0.75rem' }}>
+                <div key={label} style={{ display: 'flex', alignItems: 'baseline', gap: '0.75rem', minWidth: 0 }}>
                   <span style={{
                     fontFamily: 'DM Mono, monospace',
                     fontSize: '0.52rem',
                     letterSpacing: '0.14em',
                     textTransform: 'uppercase',
-                    color: 'rgba(192,154,47,0.45)',
+                    color: 'rgba(27,53,84,0.5)',
                     flexShrink: 0,
                     width: 26,
                   }}>
@@ -204,33 +214,35 @@ export default function Footer() {
                       href={href}
                       style={{
                         fontSize: '0.88rem',
-                        color: 'rgba(227,226,226,0.5)',
+                        color: 'var(--mid)',
                         textDecoration: 'none',
                         transition: 'color 0.2s',
+                        overflowWrap: 'break-word',
+                        minWidth: 0,
                       }}
                       onMouseEnter={(e) =>
-                        ((e.target as HTMLElement).style.color = 'var(--gold)')
+                        ((e.target as HTMLElement).style.color = 'var(--blue-bright)')
                       }
                       onMouseLeave={(e) =>
-                        ((e.target as HTMLElement).style.color = 'rgba(227,226,226,0.5)')
+                        ((e.target as HTMLElement).style.color = 'var(--mid)')
                       }
                     >
                       {label}
                     </a>
                   ) : (
-                    <span style={{ fontSize: '0.88rem', color: 'rgba(227,226,226,0.5)' }}>
+                    <span style={{ fontSize: '0.88rem', color: 'var(--mid)' }}>
                       {label}
                     </span>
                   )}
                 </div>
               ))}
               <a
-                href="mailto:essor.consulting.maroc@gmail.com"
+                href="mailto:contact@nextinotech.com"
                 style={{
                   display: 'inline-flex',
                   alignItems: 'center',
                   gap: '0.5rem',
-                  background: 'var(--gold)',
+                  background: 'var(--blue-bright)',
                   color: 'var(--dark)',
                   padding: '0.7rem 1.4rem',
                   fontSize: '0.82rem',
@@ -242,10 +254,10 @@ export default function Footer() {
                   transition: 'background 0.2s',
                 }}
                 onMouseEnter={(e) =>
-                  ((e.target as HTMLElement).style.background = 'var(--gold-light)')
+                  ((e.target as HTMLElement).style.background = 'var(--navy)')
                 }
                 onMouseLeave={(e) =>
-                  ((e.target as HTMLElement).style.background = 'var(--gold)')
+                  ((e.target as HTMLElement).style.background = 'var(--blue-bright)')
                 }
               >
                 Prendre RDV →
@@ -258,17 +270,20 @@ export default function Footer() {
         <div
           style={{
             paddingTop: '2rem',
-            borderTop: '1px solid rgba(255,255,255,0.06)',
+            borderTop: '1px solid rgba(27,53,84,0.08)',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'space-between',
+            flexWrap: 'wrap',
+            gap: '0.75rem',
             fontSize: '0.75rem',
-            color: 'rgba(227,226,226,0.25)',
+            color: 'rgba(27,53,84,0.4)',
             fontFamily: 'DM Mono, monospace',
             letterSpacing: '0.06em',
           }}
         >
-          <span>© 2026 ESSOR CONSULTING — TOUS DROITS RÉSERVÉS</span>
+          <span>© 2026 NEXTINOTECH — TOUS DROITS RÉSERVÉS</span>
+          <a href="/confidentialite" style={{ color: 'inherit', textDecoration: 'none' }}>CONFIDENTIALITÉ</a>
           <span>CASABLANCA · MAROC · PME & ETI</span>
         </div>
       </div>

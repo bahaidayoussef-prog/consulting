@@ -12,7 +12,7 @@ export interface PerformanceMetrics {
 
 export function runFullSEOHealthCheck(): PerformanceMetrics {
   const report: PerformanceMetrics = {
-    title: 'Essor Consulting — Full SEO Health Check',
+    title: 'Nextinotech — Full SEO Health Check',
     issues: [],
     warnings: [],
     successes: [],

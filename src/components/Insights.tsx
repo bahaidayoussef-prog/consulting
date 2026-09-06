@@ -37,7 +37,7 @@ const ARTICLES = [
 function ArticleCard({ article, index }: { article: (typeof ARTICLES)[0]; index: number }) {
   return (
     <motion.a
-      href="#contact"
+      href="/blog"
       className="insight-card"
       initial={{ opacity: 0, y: 48 }}
       whileInView={{ opacity: 1, y: 0 }}
@@ -58,7 +58,7 @@ function ArticleCard({ article, index }: { article: (typeof ARTICLES)[0]; index:
           left: 0,
           right: 0,
           height: 1,
-          background: 'linear-gradient(90deg, var(--gold), transparent)',
+          background: 'linear-gradient(90deg, var(--blue-bright), transparent)',
           opacity: 0,
           transition: 'opacity 0.3s',
         }}
@@ -105,13 +105,13 @@ function ArticleCard({ article, index }: { article: (typeof ARTICLES)[0]; index:
               fontSize: '0.62rem',
               letterSpacing: '0.14em',
               textTransform: 'uppercase',
-              color: 'var(--gold)',
+              color: 'var(--blue-bright)',
               display: 'flex',
               alignItems: 'center',
               gap: '0.5rem',
             }}
           >
-            <span style={{ width: 6, height: 6, background: 'var(--gold)', display: 'inline-block' }} />
+            <span style={{ width: 6, height: 6, background: 'var(--blue-bright)', display: 'inline-block' }} />
             {article.category}
           </div>
           <div
@@ -131,22 +131,22 @@ function ArticleCard({ article, index }: { article: (typeof ARTICLES)[0]; index:
         <div
           style={{
             fontSize: '0.75rem',
-            color: 'rgba(192,154,47,0.65)',
+            color: 'rgba(47,111,181,0.65)',
             marginBottom: '1rem',
             fontFamily: 'DM Mono, monospace',
             letterSpacing: '0.05em',
           }}
         >
-          Par <strong>Essor Consulting</strong> · Expert Supply Chain
+          Par <strong>Nextinotech</strong> · Expert Supply Chain
         </div>
 
         {/* Title */}
         <h3
           style={{
-            fontFamily: 'Bodoni Moda, serif',
+            fontFamily: 'Manrope, sans-serif',
             fontSize: 'clamp(1.05rem, 1.5vw, 1.3rem)',
             fontWeight: 700,
-            color: 'var(--dark-text)',
+            color: 'var(--navy)',
             lineHeight: 1.3,
             marginBottom: '1rem',
           }}
@@ -182,7 +182,7 @@ function ArticleCard({ article, index }: { article: (typeof ARTICLES)[0]; index:
               fontSize: '0.62rem',
               letterSpacing: '0.1em',
               textTransform: 'uppercase',
-              color: 'rgba(184,146,42,0.45)',
+              color: 'rgba(47,111,181,0.45)',
             }}
           >
             {article.tag}
@@ -190,7 +190,7 @@ function ArticleCard({ article, index }: { article: (typeof ARTICLES)[0]; index:
           <span
             style={{
               fontSize: '0.85rem',
-              color: 'var(--gold)',
+              color: 'var(--blue-bright)',
               fontWeight: 500,
               display: 'flex',
               alignItems: 'center',
@@ -253,7 +253,7 @@ export default function Insights() {
               fontFamily: 'DM Mono, monospace',
               fontSize: '0.6rem',
               letterSpacing: '0.2em',
-              color: 'rgba(192,154,47,0.45)',
+              color: 'rgba(47,111,181,0.45)',
               textTransform: 'uppercase',
               marginBottom: '1.5rem',
             }}>
@@ -261,23 +261,23 @@ export default function Insights() {
             </div>
             <h2
               style={{
-                fontFamily: 'Bodoni Moda, serif',
+                fontFamily: 'Manrope, sans-serif',
                 fontSize: 'clamp(2.8rem, 5vw, 6rem)',
                 fontWeight: 800,
                 lineHeight: 0.92,
                 letterSpacing: '-0.025em',
-                color: 'var(--dark-text)',
+                color: 'var(--navy)',
               }}
             >
               Pensées sur la{' '}
-              <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--gold)' }}>
+              <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>
                 supply chain.
               </span>
             </h2>
           </motion.div>
 
           <motion.a
-            href="#contact"
+            href="/contact"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
@@ -287,7 +287,7 @@ export default function Insights() {
               fontSize: '0.75rem',
               letterSpacing: '0.1em',
               textTransform: 'uppercase',
-              color: 'rgba(184,146,42,0.7)',
+              color: 'rgba(47,111,181,0.7)',
               textDecoration: 'none',
               display: 'flex',
               alignItems: 'center',
@@ -295,8 +295,8 @@ export default function Insights() {
               transition: 'color 0.2s',
               whiteSpace: 'nowrap',
             }}
-            onMouseEnter={(e) => ((e.currentTarget as HTMLElement).style.color = 'var(--gold)')}
-            onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.color = 'rgba(184,146,42,0.7)')}
+            onMouseEnter={(e) => ((e.currentTarget as HTMLElement).style.color = 'var(--blue-bright)')}
+            onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.color = 'rgba(47,111,181,0.7)')}
           >
             Discuter de vos besoins
             <span style={{ fontSize: '1rem' }}>→</span>
@@ -322,7 +322,7 @@ export default function Insights() {
               fontSize: '0.55rem',
               letterSpacing: '0.22em',
               textTransform: 'uppercase',
-              color: 'rgba(192,154,47,0.55)',
+              color: 'rgba(47,111,181,0.55)',
             }}>
               Vidéo · Logistique Amazon
             </span>
@@ -392,8 +392,8 @@ export default function Insights() {
           style={{
             marginTop: '4rem',
             padding: '2.5rem 3rem',
-            border: '1px solid rgba(184,146,42,0.15)',
-            background: 'rgba(184,146,42,0.03)',
+            border: '1px solid rgba(47,111,181,0.15)',
+            background: 'rgba(47,111,181,0.03)',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'space-between',
@@ -404,10 +404,10 @@ export default function Insights() {
           <div>
             <div
               style={{
-                fontFamily: 'Bodoni Moda, serif',
+                fontFamily: 'Manrope, sans-serif',
                 fontSize: '1.15rem',
                 fontWeight: 700,
-                color: 'var(--dark-text)',
+                color: 'var(--navy)',
                 marginBottom: '0.35rem',
               }}
             >
@@ -418,15 +418,15 @@ export default function Insights() {
             </div>
           </div>
           <a
-            href="#contact"
+            href="/contact"
             style={{
               display: 'inline-flex',
               alignItems: 'center',
               gap: '0.5rem',
               padding: '0.8rem 1.8rem',
               background: 'transparent',
-              border: '1px solid rgba(184,146,42,0.4)',
-              color: 'var(--gold)',
+              border: '1px solid rgba(47,111,181,0.4)',
+              color: 'var(--blue-bright)',
               fontSize: '0.82rem',
               fontWeight: 600,
               textDecoration: 'none',
@@ -436,13 +436,13 @@ export default function Insights() {
             }}
             onMouseEnter={(e) => {
               const el = e.currentTarget as HTMLElement
-              el.style.background = 'var(--gold)'
+              el.style.background = 'var(--blue-bright)'
               el.style.color = '#0e1f30'
             }}
             onMouseLeave={(e) => {
               const el = e.currentTarget as HTMLElement
               el.style.background = 'transparent'
-              el.style.color = 'var(--gold)'
+              el.style.color = 'var(--blue-bright)'
             }}
           >
             S'abonner →

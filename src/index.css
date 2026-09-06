@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,700;0,6..96,900;1,6..96,400;1,6..96,700&family=Jost:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Bodoni+Moda:opsz,wght@6..96,700&family=Jost:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap');
 
 :root {
   /* Responsive spacing — changent aux breakpoints */
@@ -17,8 +17,8 @@
   --paper: #f5f3ee;
   --cream: #ede9e0;
   --card-bg: #faf8f4;
-  --border: #d4cfc5;
-  --mid: #6b6560;
+  --border: #d3d7de;
+  --mid: #5f6672;
 
   /* Gold */
   --gold: #c09a2f;
@@ -27,17 +27,23 @@
   --gold-glow: rgba(192,154,47,0.18);
   --sage: #4a6741;
 
+  /* Blue — accent primaire du pivot corporate clair */
+  --blue: var(--navy); /* alias — canonical is --navy, kept for existing usages */
+  --blue-bright: #2f6fb5;
+  --blue-bright-on-dark: #5a9ad6; /* même teinte, éclaircie pour rester lisible sur fond navy — jamais l'or comme accent de substitution */
+  --blue-dim: rgba(47,111,181,0.1);
+
   /* Dark surfaces — now corporate light */
   --dark: #ffffff;
   --dark-2: #F4F6F9;
   --dark-3: #EEF1F6;
   --dark-border: rgba(27,53,84,0.1);
-  --dark-text: #1b3554;
+  --dark-text: var(--navy); /* alias — canonical is --navy, kept for existing usages */
   --dark-muted: rgba(27,53,84,0.52);
 
   /* Type */
-  --display: 'Bodoni Moda', serif;
-  --heading: 'Bodoni Moda', serif;
+  --display: 'Manrope', sans-serif;
+  --heading: 'Manrope', sans-serif;
   --mono: 'DM Mono', monospace;
   --radius: 0px;
 }
@@ -97,18 +103,36 @@ html.lenis { height: auto; }
   font-size: 0.62rem;
   letter-spacing: 0.22em;
   text-transform: uppercase;
-  color: var(--gold);
+  color: var(--blue-bright);
   margin-bottom: 1.2rem;
 }
 .section-tag::before {
   content: '';
   display: block;
   width: 28px; height: 1px;
-  background: linear-gradient(90deg, var(--gold), rgba(192,154,47,0.2));
+  background: linear-gradient(90deg, var(--blue-bright), rgba(47,111,181,0.2));
 }
 
 /* ── Buttons ── */
 .btn-primary {
+  display: inline-flex; align-items: center; gap: 0.6rem;
+  background: var(--blue-bright); color: #fff;
+  padding: 1rem 2.4rem; font-weight: 600; font-size: 0.85rem;
+  font-family: 'Jost', sans-serif;
+  text-decoration: none; border: none; cursor: none;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  transition: background 0.3s, transform 0.25s, box-shadow 0.3s;
+}
+.btn-primary:hover {
+  background: var(--navy);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 40px rgba(47,111,181,0.3);
+}
+/* Legacy gold variant — kept for the 2 sections still on a dark navy/ink
+   background (DSC featured tier card, Pourquoi Méthode CTA) where blue-bright
+   loses too much contrast against the surrounding dark bg. Remove once those
+   sections are migrated to the light palette. */
+.btn-primary-gold {
   display: inline-flex; align-items: center; gap: 0.6rem;
   background: var(--gold); color: var(--navy-dark, #0e1f30);
   padding: 1rem 2.4rem; font-weight: 600; font-size: 0.85rem;
@@ -117,7 +141,7 @@ html.lenis { height: auto; }
   letter-spacing: 0.06em; text-transform: uppercase;
   transition: background 0.3s, transform 0.25s, box-shadow 0.3s;
 }
-.btn-primary:hover {
+.btn-primary-gold:hover {
   background: var(--gold-light);
   transform: translateY(-2px);
   box-shadow: 0 12px 40px rgba(192,154,47,0.3);
@@ -136,14 +160,14 @@ html.lenis { height: auto; }
 
 .btn-ghost {
   display: inline-flex; align-items: center; gap: 0.6rem;
-  border: 1px solid rgba(27,53,84,0.2); color: var(--dark-text);
+  border: 1px solid rgba(27,53,84,0.2); color: var(--navy);
   padding: 1rem 2.4rem; font-weight: 400; font-size: 0.85rem;
   font-family: 'Jost', sans-serif;
   text-decoration: none; background: transparent; cursor: none;
   letter-spacing: 0.06em; text-transform: uppercase;
   transition: border-color 0.3s, color 0.3s, transform 0.25s;
 }
-.btn-ghost:hover { border-color: var(--gold); color: var(--gold); transform: translateY(-2px); }
+.btn-ghost:hover { border-color: var(--blue-bright); color: var(--blue-bright); transform: translateY(-2px); }
 
 /* ── Feature / arrow lists ── */
 .feature-list { list-style: none; }
@@ -157,11 +181,55 @@ html.lenis { height: auto; }
 .arrow-list { list-style: none; }
 .arrow-list li {
   font-size: 0.88rem; padding: 0.5rem 0;
-  border-bottom: 1px solid rgba(255,255,255,0.06);
+  border-bottom: 1px solid rgba(27,53,84,0.08);
   display: flex; align-items: flex-start; gap: 0.6rem;
   color: var(--dark-muted);
 }
-.arrow-list li::before { content: '→'; color: var(--gold); flex-shrink: 0; }
+.arrow-list li::before { content: '→'; color: rgba(27,53,84,0.5); flex-shrink: 0; }
+
+/* ── Chiffre-clé canonique (patron Hero) — à reprendre partout où un KPI est affiché ── */
+.stat-value {
+  font-family: 'Manrope', sans-serif;
+  font-size: clamp(1.5rem, 2.4vw, 2.2rem);
+  font-weight: 700;
+  color: var(--navy);
+  line-height: 1;
+  letter-spacing: -0.01em;
+  margin-bottom: 0.3rem;
+}
+.stat-label {
+  font-family: var(--mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--mid);
+}
+.stat-value-lg {
+  font-family: 'Manrope', sans-serif;
+  font-size: clamp(3rem, 6vw, 5rem);
+  font-weight: 700;
+  color: var(--navy);
+  line-height: 1;
+  letter-spacing: -0.015em;
+  margin-bottom: 0.4rem;
+}
+
+/* ── CTA secondaire sur fond sombre (patron EntrepotSequence, généralisé) ── */
+.btn-ghost-dark {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: 1px solid rgba(255,255,255,0.35);
+  color: #ffffff;
+  padding: 0.85rem 1.6rem;
+  font-family: 'Jost', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  transition: background 0.25s, color 0.25s, border-color 0.25s;
+}
+.btn-ghost-dark:hover { background: #ffffff; color: var(--navy); border-color: #ffffff; }
 
 /* ── Badges ── */
 .badge {
@@ -174,7 +242,7 @@ html.lenis { height: auto; }
   position: absolute; top: 1.25rem; right: 1.25rem;
   font-family: var(--mono); font-size: 0.65rem;
   letter-spacing: 0.1em; text-transform: uppercase;
-  background: var(--gold); color: var(--paper);
+  background: var(--blue-bright); color: #fff;
   padding: 0.25rem 0.6rem;
 }
 
@@ -187,18 +255,18 @@ html.lenis { height: auto; }
   letter-spacing: 0.04em;
 }
 .card-cta:hover { background: var(--ink); color: var(--paper); }
-.card-cta.gold { background: var(--gold); border-color: var(--gold); color: var(--paper); }
-.card-cta.gold:hover { background: var(--gold-light); border-color: var(--gold-light); }
+.card-cta.gold { background: var(--blue-bright); border-color: var(--blue-bright); color: #fff; }
+.card-cta.gold:hover { background: var(--navy); border-color: var(--navy); }
 
-/* ── Gold glow ── */
+/* ── Accent glow ── */
 .gold-glow {
-  box-shadow: 0 0 80px rgba(192,154,47,0.12), 0 0 160px rgba(192,154,47,0.06);
+  box-shadow: 0 0 80px rgba(47,111,181,0.12), 0 0 160px rgba(47,111,181,0.06);
 }
 
 /* ── Scroll progress ── */
 .scroll-progress {
   position: fixed; top: 0; left: 0; height: 2px;
-  background: linear-gradient(90deg, var(--gold), var(--gold-light));
+  background: var(--blue-bright);
   z-index: 9998; transform-origin: left; pointer-events: none;
 }
 
@@ -211,14 +279,14 @@ html.lenis { height: auto; }
 }
 .mobile-nav-overlay.open { pointer-events: all; opacity: 1; }
 .mobile-nav-item {
-  font-family: 'Bodoni Moda', serif;
+  font-family: 'Manrope', sans-serif;
   font-size: clamp(2rem, 7vw, 3.5rem);
-  font-weight: 700; color: rgba(235,232,225,0.9);
+  font-weight: 700; color: var(--ink);
   text-decoration: none; line-height: 1.2;
-  padding: 0.5rem 0; border-bottom: 1px solid rgba(255,255,255,0.08);
+  padding: 0.5rem 0; border-bottom: 1px solid rgba(27,53,84,0.1);
   display: block; transition: color 0.25s; letter-spacing: -0.01em;
 }
-.mobile-nav-item:hover { color: var(--gold); }
+.mobile-nav-item:hover { color: var(--blue-bright); }
 
 /* ── Glass ── */
 .glass {
@@ -250,10 +318,10 @@ html.lenis { height: auto; }
   cursor: pointer; text-decoration: none; display: block;
 }
 .insight-card:hover {
-  border-color: rgba(192,154,47,0.35);
-  background: rgba(192,154,47,0.03);
+  border-color: rgba(47,111,181,0.35);
+  background: rgba(47,111,181,0.03);
   transform: translateY(-6px);
-  box-shadow: 0 16px 48px rgba(27,53,84,0.1), 0 0 32px rgba(192,154,47,0.06);
+  box-shadow: 0 16px 48px rgba(27,53,84,0.1), 0 0 32px rgba(47,111,181,0.06);
 }
 .insight-top-line { transition: opacity 0.3s !important; }
 .insight-card:hover .insight-top-line { opacity: 1 !important; }
@@ -262,35 +330,19 @@ html.lenis { height: auto; }
 .impact-number {
   font-family: 'Cormorant Garamond', serif;
   font-weight: 300; font-style: italic;
-  line-height: 0.9; color: var(--gold-light);
+  line-height: 0.9; color: var(--blue-bright);
 }
 .method-step-number {
   font-family: 'Cormorant Garamond', serif;
   font-weight: 300;
   font-size: clamp(5rem, 10vw, 9rem);
   line-height: 1; color: transparent;
-  -webkit-text-stroke: 1px rgba(192,154,47,0.25);
+  -webkit-text-stroke: 1px rgba(47,111,181,0.25);
   display: block; transition: -webkit-text-stroke 0.3s, color 0.3s;
 }
 .method-step:hover .method-step-number {
-  -webkit-text-stroke: 1px rgba(192,154,47,0.6);
+  -webkit-text-stroke: 1px rgba(47,111,181,0.6);
 }
-
-/* ── Hamburger ── */
-.hamburger {
-  display: none; flex-direction: column; gap: 5px;
-  background: none; border: none; cursor: none;
-  padding: 0.5rem; z-index: 110; position: relative;
-}
-.hamburger span {
-  display: block; width: 24px; height: 1.5px;
-  background: currentColor;
-  transition: transform 0.3s, opacity 0.3s;
-  transform-origin: center;
-}
-.hamburger.open span:nth-child(1) { transform: translateY(6.5px) rotate(45deg); }
-.hamburger.open span:nth-child(2) { opacity: 0; transform: scaleX(0); }
-.hamburger.open span:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); }
 
 /* ── Client logos row ── */
 .clients-row {
@@ -307,7 +359,7 @@ html.lenis { height: auto; }
 /* ── Section divider ── */
 .section-number {
   font-family: var(--mono); font-size: 0.6rem;
-  letter-spacing: 0.2em; color: rgba(192,154,47,0.5);
+  letter-spacing: 0.2em; color: rgba(47,111,181,0.6);
   text-transform: uppercase;
 }
 
@@ -321,14 +373,68 @@ html.lenis { height: auto; }
   }
   body { font-size: 15px; cursor: auto; }
   * { cursor: auto !important; }
-  .hamburger { display: flex; }
+  /* La barre de navigation mobile fixe en bas remplace le hamburger comme
+     point d'entrée principal — la nav du haut ne garde que le logo. */
   .desktop-nav { display: none !important; }
+  .mobile-tab-bar { display: flex !important; }
+  /* Espace pour ne pas laisser la barre fixe recouvrir le bas de chaque page */
+  .grain { padding-bottom: 64px; }
+  .back-to-top-btn { bottom: calc(64px + 1.25rem) !important; }
   .section-inner { padding: 0; }
   /* References header : 2 colonnes → 1 */
   .refs-header { grid-template-columns: 1fr !important; gap: 2rem !important; margin-bottom: 3rem !important; }
   /* References grid : forcer 1 colonne, annuler les span */
   .refs-grid { grid-template-columns: 1fr !important; }
   .refs-grid > * { grid-column: span 1 !important; }
+  /* References : mur de logos 4 colonnes → 2 */
+  .logo-wall-grid { grid-template-columns: 1fr 1fr !important; }
+  /* Formation : calendrier 4 colonnes → 2 */
+  .formation-calendar-grid { grid-template-columns: 1fr 1fr !important; }
+  .phare-grid { grid-template-columns: 1fr !important; gap: 3rem !important; }
+  .pc-detail-grid { grid-template-columns: 1fr !important; gap: 2rem !important; }
+  /* Team (À propos) : header 2 col → 1, banner 2 col → 1 */
+  .team-header-grid { grid-template-columns: 1fr !important; gap: 2rem !important; }
+  .team-banner-grid { grid-template-columns: 1fr !important; gap: 2rem !important; padding: 2rem !important; }
+  .team-banner-col { border-right: none !important; padding-right: 0 !important; border-bottom: 1px solid var(--border); padding-bottom: 2rem !important; }
+  /* Engagement (À propos) : 4 cartes → 2 */
+  .engagement-grid { grid-template-columns: 1fr 1fr !important; }
+  /* Footer : 4 colonnes → 2 (bug de débordement horizontal — jamais eu de repli mobile) */
+  .footer-grid { grid-template-columns: 1fr 1fr !important; gap: 2rem !important; }
+  /* Impact (Références) : header 2 col → 1, 4 stats → 2, quote+certs 2 col → 1 —
+     aucun de ces 3 grids n'avait de repli mobile (débordement horizontal constaté) */
+  .impact-header-grid { grid-template-columns: 1fr !important; gap: 2rem !important; }
+  .impact-metrics-grid { grid-template-columns: 1fr 1fr !important; }
+  .impact-metrics-grid > div { border-right: none !important; border-bottom: 1px solid rgba(27,53,84,0.1); }
+  .impact-quote-grid { grid-template-columns: 1fr !important; gap: 2.5rem !important; }
+  /* DSC (Direction SC temps partagé) : mêmes bugs — aucun repli mobile */
+  .dsc-header-grid { grid-template-columns: 1fr !important; gap: 2rem !important; }
+  .dsc-phases-grid { grid-template-columns: 1fr !important; }
+  .dsc-phases-grid > div { border-right: none !important; border-bottom: 1px solid rgba(27,53,84,0.08); }
+  .dsc-mandats-grid { grid-template-columns: 1fr !important; max-width: 100% !important; }
+  /* Tableau comparatif CDI vs Mandat : garde ses 3 colonnes mais devient scrollable
+     horizontalement plutôt que de déborder de la page */
+  .dsc-compare-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .dsc-compare-grid { min-width: 560px; }
+  /* Profil (À propos) : titre + liste "Approche/Certification/Zone d'action/
+     Transmission" 2 colonnes → 1 (débordement constaté, la liste de credentials
+     avait besoin de bien plus que la moitié de l'écran) */
+  .profil-header-grid { grid-template-columns: 1fr !important; gap: 2.5rem !important; }
+  /* Carrière : intro 2 colonnes → 1 */
+  .carriere-intro-grid { grid-template-columns: 1fr !important; gap: 2rem !important; }
+  /* Accueil : insight éditorial 2 colonnes → 1, "nos deux façons de vous accompagner" 2 → 1, aperçu Formation 2 → 1 */
+  .home-insight-grid { grid-template-columns: 1fr !important; gap: 2.5rem !important; }
+  .home-accompagnements-grid { grid-template-columns: 1fr !important; }
+  .home-formation-grid { grid-template-columns: 1fr !important; gap: 2rem !important; }
+  /* Prestations : Pack Inventaire 3 paliers → 1 */
+  .pack-inventaire-grid { grid-template-columns: 1fr !important; }
+  /* Direction SC à Temps Partagé : déclinaisons par métier 3 colonnes → 1 */
+  .dsc-declinaisons-grid { grid-template-columns: 1fr !important; }
+  /* References / Conseil : teaser DSC 2 colonnes → 1 */
+  .dsc-teaser-grid { grid-template-columns: 1fr !important; gap: 2.5rem !important; }
+  /* Prestations : offre Leibinger 2 colonnes → 1 */
+  .leibinger-grid { grid-template-columns: 1fr !important; gap: 2rem !important; }
+  /* Prestations : Services Logistiques à Valeur Ajoutée 4 colonnes → 2 */
+  .valeur-ajoutee-grid { grid-template-columns: 1fr 1fr !important; }
 }
 @media (max-width: 640px) {
   :root {
@@ -343,26 +449,55 @@ html.lenis { height: auto; }
   .insights-grid { grid-template-columns: 1fr !important; }
   .offers-grid { grid-template-columns: 1fr !important; }
   .dsc-grid { grid-template-columns: 1fr !important; }
+  /* Formation catalogue cards — price/CTA column overflows next to long price ranges */
+  .pc-header { grid-template-columns: 1fr !important; gap: 1.5rem !important; }
+  .pc-header-right { align-items: flex-start !important; min-width: 0 !important; width: 100%; }
+  .cta-final-grid { grid-template-columns: 1fr !important; gap: 2.5rem !important; }
+  /* Formation : bandeau stats 4 colonnes → 2, calendrier → 1 */
+  .formation-stats-grid { grid-template-columns: 1fr 1fr !important; row-gap: 2rem !important; }
+  .formation-stats-grid > div:nth-child(3) { border-left: none !important; padding-left: 0 !important; }
+  .formation-calendar-grid { grid-template-columns: 1fr !important; }
+  .team-cards-grid { grid-template-columns: 1fr !important; }
+  .engagement-grid { grid-template-columns: 1fr !important; }
+  .footer-grid { grid-template-columns: 1fr !important; gap: 2.5rem !important; }
+  /* Pourquoi — Méthode 5 étapes : le scroll-jack pinné GSAP fuyait hors de
+     son conteneur en dessous de 640px (débordement horizontal sur toute la
+     page). Le JS désactive le pin sur ce breakpoint ; ici on bascule la
+     piste de cartes en scroll horizontal natif, contenu par overflow-x. */
+  .method-outer { height: auto !important; padding: 4rem 1.25rem !important; }
+  .method-track-wrap { overflow-x: auto !important; overflow-y: hidden !important; -webkit-overflow-scrolling: touch; padding-bottom: 0.5rem; }
+  /* Pourquoi — 3 pilliers : grille 80px/titre/description à 3 colonnes,
+     jamais eu de repli mobile (contributeur principal du débordement horizontal
+     mesuré sur /conseil, plus important que la section scroll-jack ci-dessus) */
+  .pilliers-grid { grid-template-columns: 1fr !important; gap: 1rem !important; }
+  /* Systemes (Services) : header 2 colonnes → 1 (même bug récurrent : jamais eu de repli mobile) */
+  .systemes-header-grid { grid-template-columns: 1fr !important; gap: 2rem !important; margin-bottom: 3rem !important; }
+  /* Systemes : ligne accordéon WMS/TMS/APS — 64px + 3×2.5rem de gap ne laissait que
+     ~150px pour le nom complet + le bouton +, débordement mesuré */
+  .system-row-grid { grid-template-columns: 28px auto 1fr auto !important; gap: 0.6rem !important; }
+  /* Services (Conseil) : Services Logistiques à Valeur Ajoutée 2 colonnes → 1 */
+  .valeur-ajoutee-grid { grid-template-columns: 1fr !important; }
 }
 
 /* ── FormationRL responsive grids ── */
 .frl-2col { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; }
 .frl-3col { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; }
-.frl-prof { display: grid; grid-template-columns: 1fr 2fr; gap: 6rem; align-items: center; }
 .frl-comp { display: grid; grid-template-columns: 1fr 1fr; gap: 6rem; align-items: start; }
 .frl-cibles { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem; }
-.frl-hero-stats { display: flex; gap: 3rem; flex-wrap: wrap; padding-top: 2.5rem; border-top: 1px solid rgba(255,255,255,0.08); margin-top: 5rem; }
+.frl-hero-stats { display: flex; gap: 3rem; flex-wrap: wrap; padding-top: 2.5rem; border-top: 1px solid var(--border); margin-top: 5rem; }
 .frl-inclus { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; }
-.frl-logistics { display: grid; grid-template-columns: 1fr 1fr; gap: 2.5rem 4rem; padding: 3rem 4rem; background: var(--dark-2); border-left: 4px solid var(--gold); }
+.frl-photos { display: grid; grid-template-columns: repeat(4, 1fr); gap: 2px; }
+.frl-logistics { display: grid; grid-template-columns: 1fr 1fr; gap: 2.5rem 4rem; padding: 3rem 4rem; background: #ffffff; border-left: 4px solid var(--blue-bright); }
 
-/* Sticky CTA */
+/* Sticky CTA — même traitement translucide que la barre Nav sticky */
 .frl-sticky {
   position: fixed; bottom: 0; left: 0; right: 0; z-index: 200;
   display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem;
   padding: 1rem 2rem;
-  background: rgba(10,20,32,0.97);
+  background: rgba(245,243,238,0.96);
   backdrop-filter: blur(16px);
-  border-top: 1px solid rgba(192,154,47,0.3);
+  border-top: 1px solid var(--border);
+  box-shadow: 0 -4px 24px rgba(10,20,32,0.08);
   transform: translateY(100%); transition: transform 0.4s cubic-bezier(0.16,1,0.3,1);
 }
 .frl-sticky.visible { transform: translateY(0); }
@@ -371,11 +506,12 @@ html.lenis { height: auto; }
 .frl-faq-body { overflow: hidden; }
 
 @media (max-width: 900px) {
-  .frl-2col, .frl-3col, .frl-prof, .frl-comp, .frl-inclus { grid-template-columns: 1fr !important; }
-  .frl-prof { gap: 3rem !important; }
+  .frl-2col, .frl-3col, .frl-comp, .frl-inclus, .frl-hero-grid { grid-template-columns: 1fr !important; }
   .frl-comp { gap: 2.5rem !important; }
+  .frl-hero-grid { gap: 3rem !important; }
   .frl-logistics { grid-template-columns: 1fr 1fr !important; padding: 2rem !important; }
   .frl-hero-stats { gap: 2rem; }
+  .frl-photos { grid-template-columns: repeat(2, 1fr) !important; }
 }
 @media (max-width: 640px) {
   .frl-logistics { grid-template-columns: 1fr !important; }
@@ -390,10 +526,10 @@ html.lenis { height: auto; }
 .blog-content h1,
 .blog-content h2,
 .blog-content h3 {
-  font-family: 'Bodoni Moda', serif;
+  font-family: 'Manrope', sans-serif;
   line-height: 1.2;
   letter-spacing: -0.01em;
-  color: var(--dark-text);
+  color: var(--navy);
 }
 
 .blog-content h1 {
@@ -432,28 +568,28 @@ html.lenis { height: auto; }
 
 .blog-content strong {
   font-weight: 700;
-  color: var(--gold);
+  color: var(--blue-bright);
 }
 
 .blog-content em {
   font-style: italic;
-  color: var(--gold-light);
+  color: var(--navy);
 }
 
 .blog-content code {
-  background: rgba(255,255,255,0.05);
+  background: rgba(27,53,84,0.06);
   padding: 0.25rem 0.5rem;
   font-family: 'DM Mono', monospace;
   font-size: 0.9em;
-  color: var(--gold);
+  color: var(--blue-bright);
 }
 
 .blog-content pre {
-  background: rgba(0,0,0,0.3);
+  background: var(--dark-2);
   padding: 1.5rem;
   overflow-x: auto;
   margin: 1.5rem 0;
-  border-left: 3px solid var(--gold);
+  border-left: 3px solid var(--blue-bright);
 }
 
 .blog-content pre code {
@@ -463,7 +599,7 @@ html.lenis { height: auto; }
 }
 
 .blog-content a {
-  color: var(--gold);
+  color: var(--blue-bright);
   text-decoration: underline;
   cursor: pointer;
   transition: opacity 0.3s ease;
@@ -482,24 +618,24 @@ html.lenis { height: auto; }
 /* ── New blog element classes (parser v2) ── */
 
 .blog-h1 {
-  font-family: 'Bodoni Moda', serif;
+  font-family: 'Manrope', sans-serif;
   font-size: clamp(1.75rem, 3vw, 2.5rem);
   font-weight: 400;
   line-height: 1.15;
   letter-spacing: -0.02em;
-  color: var(--dark-text);
+  color: var(--navy);
   margin: 2.5rem 0 1rem;
 }
 .blog-h2 {
-  font-family: 'Bodoni Moda', serif;
+  font-family: 'Manrope', sans-serif;
   font-size: clamp(1.25rem, 2vw, 1.75rem);
   font-weight: 400;
   line-height: 1.2;
   letter-spacing: -0.01em;
-  color: var(--dark-text);
+  color: var(--navy);
   margin: 2rem 0 0.875rem;
   padding-bottom: 0.5rem;
-  border-bottom: 1px solid rgba(192,154,47,0.2);
+  border-bottom: 1px solid rgba(47,111,181,0.2);
 }
 .blog-h3 {
   font-family: 'Jost', sans-serif;
@@ -507,20 +643,20 @@ html.lenis { height: auto; }
   font-weight: 600;
   letter-spacing: 0.02em;
   text-transform: uppercase;
-  color: var(--gold);
+  color: var(--blue-bright);
   margin: 1.75rem 0 0.75rem;
 }
 .blog-h4 {
   font-family: 'Jost', sans-serif;
   font-size: 1rem;
   font-weight: 600;
-  color: var(--dark-text);
+  color: var(--navy);
   margin: 1.5rem 0 0.5rem;
 }
 .blog-p {
   margin-bottom: 1.1rem;
   line-height: 1.85;
-  color: rgba(255,255,255,0.88);
+  color: var(--ink);
 }
 .blog-ul {
   margin: 1rem 0 1.25rem 1.5rem;
@@ -534,7 +670,7 @@ html.lenis { height: auto; }
 .blog-li {
   margin-bottom: 0.625rem;
   line-height: 1.7;
-  color: rgba(255,255,255,0.85);
+  color: var(--ink);
   position: relative;
 }
 .blog-ul .blog-li::before {
@@ -543,42 +679,42 @@ html.lenis { height: auto; }
   width: 5px;
   height: 5px;
   border-radius: 50%;
-  background: var(--gold);
+  background: var(--blue-bright);
   position: absolute;
   left: -1.25rem;
   top: 0.6em;
 }
 .blog-strong {
   font-weight: 700;
-  color: var(--gold);
+  color: var(--navy);
 }
 .blog-code {
-  background: rgba(192,154,47,0.1);
-  border: 1px solid rgba(192,154,47,0.2);
+  background: rgba(47,111,181,0.08);
+  border: 1px solid rgba(47,111,181,0.2);
   padding: 0.15rem 0.45rem;
   font-family: 'DM Mono', monospace;
   font-size: 0.875em;
-  color: var(--gold);
+  color: var(--blue-bright);
   border-radius: 2px;
 }
 .blog-pre {
-  background: rgba(0,0,0,0.4);
+  background: var(--dark-2);
   padding: 1.5rem;
   overflow-x: auto;
   margin: 1.5rem 0;
-  border-left: 3px solid var(--gold);
+  border-left: 3px solid var(--blue-bright);
 }
 .blog-code-block {
   font-family: 'DM Mono', monospace;
   font-size: 0.875rem;
   line-height: 1.6;
-  color: rgba(255,255,255,0.8);
+  color: var(--ink);
   background: none;
   border: none;
   padding: 0;
 }
 .blog-link {
-  color: var(--gold);
+  color: var(--blue-bright);
   text-decoration: underline;
   text-underline-offset: 3px;
   transition: opacity 0.25s ease;
@@ -586,7 +722,7 @@ html.lenis { height: auto; }
 .blog-link:hover { opacity: 0.7; }
 .blog-hr {
   border: none;
-  border-top: 1px solid rgba(255,255,255,0.1);
+  border-top: 1px solid rgba(27,53,84,0.12);
   margin: 2.5rem 0;
 }
 
@@ -594,7 +730,7 @@ html.lenis { height: auto; }
 .blog-table-wrap {
   overflow-x: auto;
   margin: 1.75rem 0;
-  border: 1px solid rgba(192,154,47,0.2);
+  border: 1px solid rgba(47,111,181,0.2);
 }
 .blog-table {
   width: 100%;
@@ -609,20 +745,20 @@ html.lenis { height: auto; }
   font-size: 0.8rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--gold);
-  background: rgba(192,154,47,0.08);
-  border-bottom: 1px solid rgba(192,154,47,0.3);
+  color: var(--navy);
+  background: rgba(47,111,181,0.08);
+  border-bottom: 1px solid rgba(47,111,181,0.3);
   white-space: nowrap;
 }
 .blog-td {
   padding: 0.6875rem 1rem;
-  border-bottom: 1px solid rgba(255,255,255,0.06);
-  color: rgba(255,255,255,0.82);
+  border-bottom: 1px solid rgba(27,53,84,0.08);
+  color: var(--ink);
   vertical-align: top;
   line-height: 1.5;
 }
 .blog-table tbody tr:hover .blog-td {
-  background: rgba(255,255,255,0.02);
+  background: rgba(47,111,181,0.03);
 }
 
 /* ── Figures & images ── */
@@ -649,7 +785,7 @@ html.lenis { height: auto; }
   font-family: 'DM Mono', monospace;
   font-size: 0.75rem;
   letter-spacing: 0.05em;
-  color: rgba(255,255,255,0.4);
+  color: var(--mid);
   text-transform: uppercase;
 }
 
@@ -657,13 +793,13 @@ html.lenis { height: auto; }
 .blog-callout {
   margin: 1.75rem 0;
   padding: 1.25rem 1.5rem;
-  border-left: 3px solid var(--gold);
-  background: rgba(192,154,47,0.06);
-  font-family: 'Bodoni Moda', serif;
+  border-left: 3px solid var(--blue-bright);
+  background: rgba(47,111,181,0.05);
+  font-family: 'Manrope', sans-serif;
   font-size: 1.0625rem;
   font-style: italic;
   line-height: 1.7;
-  color: rgba(255,255,255,0.9);
+  color: var(--navy);
   opacity: 0;
   transform: translateX(-16px);
   transition: opacity 0.65s cubic-bezier(0.16,1,0.3,1), transform 0.65s cubic-bezier(0.16,1,0.3,1);
@@ -677,8 +813,8 @@ html.lenis { height: auto; }
 .blog-stat-block {
   margin: 1.75rem 0;
   padding: 1.5rem 2rem;
-  background: rgba(192,154,47,0.06);
-  border: 1px solid rgba(192,154,47,0.25);
+  background: rgba(47,111,181,0.05);
+  border: 1px solid rgba(47,111,181,0.25);
   text-align: center;
   opacity: 0;
   transform: scale(0.95);
@@ -689,10 +825,10 @@ html.lenis { height: auto; }
   transform: scale(1);
 }
 .blog-stat-value {
-  font-family: 'Bodoni Moda', serif;
+  font-family: 'Manrope', sans-serif;
   font-size: clamp(2.5rem, 5vw, 4rem);
   font-weight: 400;
-  color: var(--gold);
+  color: var(--blue-bright);
   line-height: 1;
   margin-bottom: 0.5rem;
 }
@@ -701,7 +837,7 @@ html.lenis { height: auto; }
   font-size: 0.875rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: rgba(255,255,255,0.55);
+  color: var(--mid);
 }
 
 /* ── Cover image at top of article ── */
@@ -711,4 +847,47 @@ html.lenis { height: auto; }
   object-fit: cover;
   display: block;
   margin-bottom: 2.5rem;
+}
+
+/* ── Demo pages (/demo/wms, /demo/tms, /demo/aps) ── */
+.demo-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 4px;
+  background: rgba(27,53,84,0.15);
+  outline: none;
+  cursor: none;
+}
+.demo-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--blue-bright);
+  border: 3px solid #fff;
+  box-shadow: 0 2px 8px rgba(27,53,84,0.35);
+  cursor: none;
+}
+.demo-slider::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--blue-bright);
+  border: 3px solid #fff;
+  box-shadow: 0 2px 8px rgba(27,53,84,0.35);
+  cursor: none;
+  border: none;
+}
+.demo-slider::-moz-range-track {
+  height: 4px;
+  background: rgba(27,53,84,0.15);
+}
+
+@media (max-width: 900px) {
+  .wms-plan-layout, .tms-map-layout, .aps-layout { grid-template-columns: 1fr !important; }
+  .wms-zones { flex-direction: column !important; }
+}
+@media (max-width: 640px) {
+  .wms-zones > div { grid-template-columns: repeat(4, 1fr) !important; }
 }

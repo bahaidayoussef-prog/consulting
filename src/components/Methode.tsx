@@ -120,14 +120,14 @@ export default function Methode() {
           }}
         >
           <div>
-            <div className="section-tag" style={{ color: 'var(--gold)' }}>Méthode Essor</div>
+            <div className="section-tag" style={{ color: 'var(--blue-bright)' }}>Méthode Nextinotech</div>
             <h2
               style={{
-                fontFamily: 'Cormorant Garamond, serif',
+                fontFamily: 'Manrope, sans-serif',
                 fontSize: 'clamp(2.5rem, 4.5vw, 4.5rem)',
                 fontWeight: 300,
                 fontStyle: 'italic',
-                color: 'var(--dark-text)',
+                color: 'var(--navy)',
                 lineHeight: 1.05,
                 letterSpacing: '-0.01em',
               }}
@@ -161,7 +161,7 @@ export default function Methode() {
               left: '3%',
               right: '3%',
               height: 1,
-              background: 'linear-gradient(90deg, var(--gold) 0%, rgba(184,146,42,0.2) 100%)',
+              background: 'linear-gradient(90deg, var(--blue-bright) 0%, rgba(47,111,181,0.2) 100%)',
               zIndex: 0,
             }}
           />
@@ -198,9 +198,9 @@ export default function Methode() {
                     width: 10,
                     height: 10,
                     borderRadius: '50%',
-                    background: 'var(--gold)',
+                    background: 'var(--blue-bright)',
                     border: '2px solid var(--dark)',
-                    boxShadow: '0 0 0 3px rgba(184,146,42,0.2)',
+                    boxShadow: '0 0 0 3px rgba(47,111,181,0.2)',
                     margin: '1rem 0 1.5rem',
                   }}
                 />
@@ -212,24 +212,24 @@ export default function Methode() {
                     fontSize: '0.62rem',
                     letterSpacing: '0.12em',
                     textTransform: 'uppercase',
-                    color: 'rgba(184,146,42,0.5)',
+                    color: 'rgba(47,111,181,0.5)',
                     marginBottom: '0.75rem',
                     display: 'flex',
                     alignItems: 'center',
                     gap: '0.5rem',
                   }}
                 >
-                  <span style={{ color: 'var(--gold)' }}>{step.icon}</span>
+                  <span style={{ color: 'var(--blue-bright)' }}>{step.icon}</span>
                   {step.tag}
                 </div>
 
                 {/* Title */}
                 <div
                   style={{
-                    fontFamily: 'Bodoni Moda, serif',
+                    fontFamily: 'Manrope, sans-serif',
                     fontSize: '1.2rem',
                     fontWeight: 700,
-                    color: 'var(--dark-text)',
+                    color: 'var(--navy)',
                     marginBottom: '0.75rem',
                     lineHeight: 1.3,
                   }}
@@ -266,7 +266,7 @@ export default function Methode() {
         >
           <div
             style={{
-              fontFamily: 'Cormorant Garamond, serif',
+              fontFamily: 'Manrope, sans-serif',
               fontSize: 'clamp(1.2rem, 2vw, 1.6rem)',
               fontWeight: 400,
               fontStyle: 'italic',
@@ -276,9 +276,8 @@ export default function Methode() {
             Prêt à démarrer votre diagnostic ?
           </div>
           <a
-            href="#contact"
+            href="/contact"
             className="btn-primary"
-            style={{ background: 'var(--gold)', color: '#0e1f30', fontWeight: 700 }}
           >
             Réserver un échange gratuit →
           </a>

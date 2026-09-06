@@ -1,5 +1,12 @@
 import { motion } from 'framer-motion'
 
+const LOGOS = [
+  { name: 'Diana Holding', file: '/images/logos/diana-holding.svg', height: 34 },
+  { name: 'Safari Groupe', file: '/images/logos/safari-groupe.png', height: 40 },
+  { name: 'Maghreb Steel', file: '/images/logos/maghreb-steel.svg', height: 26 },
+  { name: 'Casanet', file: '/images/logos/casanet.png', height: 46 },
+]
+
 const REFS = [
   {
     client: 'Renault-Nissan',
@@ -14,7 +21,7 @@ const REFS = [
     sector: 'FMCG',
     mission: "Gestion opérationnelle d'une plateforme logistique 3PL de 21 000 m², 120 collaborateurs. Ingénierie des solutions logistiques pour les plus grandes marques FMCG du Maroc.",
     result: 'Productivité +35% · Taux de service 98,5%',
-    image: '/images/hero-supply-chain.jpg',
+    image: '/images/hero-supply-chain.webp',
     span: 1,
   },
   {
@@ -97,7 +104,7 @@ function RefCard({ r, index }: RefCardProps) {
           fontSize: '0.6rem',
           letterSpacing: '0.16em',
           textTransform: 'uppercase',
-          color: 'var(--gold)',
+          color: 'var(--blue-bright)',
           background: 'rgba(10,20,32,0.7)',
           padding: '0.3rem 0.7rem',
           backdropFilter: 'blur(8px)',
@@ -109,12 +116,12 @@ function RefCard({ r, index }: RefCardProps) {
       {/* Text content */}
       <div style={{ padding: '2rem 2.5rem 2.5rem' }}>
         <h3 style={{
-          fontFamily: 'Bodoni Moda, serif',
+          fontFamily: 'Manrope, sans-serif',
           fontSize: r.span === 2 ? 'clamp(1.8rem, 3vw, 3rem)' : 'clamp(1.4rem, 2vw, 2rem)',
           fontWeight: 800,
           lineHeight: 1.0,
           letterSpacing: '-0.02em',
-          color: 'var(--dark-text)',
+          color: 'var(--navy)',
           marginBottom: '0.75rem',
         }}>
           {r.client}
@@ -137,11 +144,81 @@ function RefCard({ r, index }: RefCardProps) {
           fontSize: '0.62rem',
           letterSpacing: '0.1em',
           textTransform: 'uppercase',
-          color: 'var(--gold)',
+          color: 'var(--blue-bright)',
         }}>
-          <span style={{ display: 'block', width: 20, height: 1, background: 'var(--gold)' }} />
+          <span style={{ display: 'block', width: 20, height: 1, background: 'var(--blue-bright)' }} />
           {r.result}
         </div>
+      </div>
+    </motion.div>
+  )
+}
+
+function LogoWall() {
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: 24 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, margin: '-60px' }}
+      transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+      style={{
+        marginBottom: '5rem',
+        paddingTop: '3rem',
+        borderTop: '1px solid var(--dark-border)',
+      }}
+    >
+      <div style={{
+        fontFamily: 'DM Mono, monospace',
+        fontSize: '0.62rem',
+        letterSpacing: '0.18em',
+        textTransform: 'uppercase',
+        color: 'var(--dark-muted)',
+        marginBottom: '2.5rem',
+      }}>
+        Ils nous font confiance
+      </div>
+      <div className="logo-wall-grid" style={{
+        display: 'grid',
+        gridTemplateColumns: `repeat(${LOGOS.length}, 1fr)`,
+        gap: '2px',
+        background: 'var(--dark-border)',
+      }}>
+        {LOGOS.map((logo) => (
+          <div
+            key={logo.name}
+            className="logo-wall-tile"
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              height: 120,
+              background: 'var(--dark)',
+              padding: '1.5rem',
+            }}
+          >
+            <img
+              src={logo.file}
+              alt={logo.name}
+              style={{
+                height: logo.height,
+                maxWidth: '100%',
+                width: 'auto',
+                objectFit: 'contain',
+                filter: 'grayscale(100%)',
+                opacity: 0.55,
+                transition: 'filter 0.4s ease, opacity 0.4s ease',
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.filter = 'grayscale(0%)'
+                e.currentTarget.style.opacity = '1'
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.filter = 'grayscale(100%)'
+                e.currentTarget.style.opacity = '0.55'
+              }}
+            />
+          </div>
+        ))}
       </div>
     </motion.div>
   )
@@ -170,24 +247,24 @@ export default function References() {
               fontFamily: 'DM Mono, monospace',
               fontSize: '0.6rem',
               letterSpacing: '0.2em',
-              color: 'rgba(192,154,47,0.45)',
+              color: 'rgba(47,111,181,0.45)',
               textTransform: 'uppercase',
               marginBottom: '1.5rem',
             }}>
               06 / Références clients
             </div>
             <h2 style={{
-              fontFamily: 'Bodoni Moda, serif',
+              fontFamily: 'Manrope, sans-serif',
               fontSize: 'clamp(2.8rem, 5.5vw, 7rem)',
               fontWeight: 800,
               lineHeight: 0.92,
               letterSpacing: '-0.025em',
-              color: 'var(--dark-text)',
+              color: 'var(--navy)',
               margin: 0,
             }}>
               Des missions.
               <br />
-              <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--gold)' }}>
+              <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>
                 Des résultats.
               </span>
             </h2>
@@ -212,6 +289,8 @@ export default function References() {
             avant les rapports.
           </motion.p>
         </div>
+
+        <LogoWall />
 
         {/* Grid — hugeinc work layout */}
         <div className="refs-grid" style={{
@@ -242,7 +321,7 @@ export default function References() {
           }}
         >
           <p style={{
-            fontFamily: 'Bodoni Moda, serif',
+            fontFamily: 'Manrope, sans-serif',
             fontSize: 'clamp(1.2rem, 2vw, 1.8rem)',
             fontStyle: 'italic',
             fontWeight: 300,
@@ -251,7 +330,7 @@ export default function References() {
           }}>
             Votre secteur n&apos;est peut-être pas encore dans la liste.
           </p>
-          <a href="#contact" className="btn-primary">
+          <a href="/contact" className="btn-primary">
             Discuter de votre projet →
           </a>
         </motion.div>

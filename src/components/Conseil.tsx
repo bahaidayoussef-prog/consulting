@@ -1,6 +1,8 @@
-import { useState } from 'react'
-import { motion, AnimatePresence } from 'framer-motion'
+import { useRef, useState } from 'react'
+import { motion, AnimatePresence, useInView } from 'framer-motion'
 import SchemaScript from './SchemaHelper'
+
+const faqEase = [0.16, 1, 0.3, 1] as const
 
 const services = [
   {
@@ -49,6 +51,17 @@ const services = [
   },
   {
     num: '05',
+    title: 'Cahiers des Charges',
+    tagline: 'Formaliser le besoin, avant de consulter le marché.',
+    desc: "Rédaction de cahiers des charges techniques pour toute consultation Supply Chain & Logistique : systèmes (WMS, TMS, APS, Control Tower, intégration IA au pilotage logistique, transport et supply chain), externalisation (entreposage en open book ou closed book, transport), opérations spéciales (co-packing, fardelage, gestion d'inventaire RFID, vidéosurveillance) et équipements (rayonnage conventionnel ou à accumulation, engins de manutention thermiques et électriques — dimensionnement inclus). Document formalisé et chiffré, prêt à diffuser aux prestataires. Zéro commission fournisseur ou intégrateur — notre seule allégeance est votre business case. Complémentaire à l'Étude de Faisabilité SI ci-dessous pour qui veut aussi le scoring et la sélection des prestataires.",
+    tiers: [
+      { name: 'Cahier des Charges Simple', price: '25 000 – 40 000 MAD HT', duration: '2 à 3 semaines' },
+      { name: 'Cahier des Charges Multi-lots', price: '45 000 – 80 000 MAD HT', duration: '4 à 6 semaines', featured: true },
+      { name: 'Cahier des Charges Multi-sites', price: 'Sur devis', duration: '6 à 10 semaines' },
+    ],
+  },
+  {
+    num: '06',
     title: 'Étude de Faisabilité SI',
     tagline: "Avant d'acheter un logiciel, comprendre ce dont vous avez besoin.",
     desc: "Expression de besoins, cartographie SI existant, RFP formalisé, scoring éditeurs, business case ROI sur 5 ans. Zéro commission. Notre seule allégeance est à votre business case.",
@@ -59,7 +72,7 @@ const services = [
     ],
   },
   {
-    num: '06',
+    num: '07',
     title: 'AMOA & Pilotage Projet',
     tagline: "Nous représentons vos intérêts face à l'intégrateur.",
     desc: "Pilotage intégrateur en votre nom, gestion avenants, comité de pilotage, change management équipes, stabilisation post go-live. De l'accompagnement léger au programme management multi-projets.",
@@ -69,7 +82,184 @@ const services = [
       { name: 'AMOA Multi-projets', price: 'Sur devis', duration: '6 à 18 mois' },
     ],
   },
+  {
+    num: '08',
+    title: 'IA & Automatisation Supply Chain',
+    tagline: "Des cas d'usage à ROI mesuré — sans hype, sans dépendance éditeur.",
+    desc: "Identifier les cas d'usage IA et automatisation à retour rapide sur vos processus Supply Chain, Logistique et Achats : prévision augmentée, automatisation documentaire (factures fournisseurs, documents de douane), copilotes de planification et de S&OP, assistants de connaissance (procédures, SOP), chatbots de suivi de commande. Cadrage et priorisation des cas d'usage, préparation des données (data readiness), charte de gouvernance conforme loi 09-08 / CNDP, puis POC mesuré avec décision go/no-go chiffrée avant industrialisation. Zéro commission éditeur ou intégrateur — notre seule allégeance est votre business case.",
+    tiers: [
+      { name: "Cadrage & Cas d'Usage IA", price: '35 000 – 55 000 MAD HT', duration: '3 à 4 semaines' },
+      { name: 'POC Automatisation Ciblée', price: '90 000 – 160 000 MAD HT', duration: '2 à 4 mois', featured: true },
+      { name: 'Déploiement & Industrialisation', price: 'Sur devis', duration: '4 à 9 mois' },
+    ],
+  },
 ]
+
+interface SingleOffer {
+  tag: string
+  name: string
+  specs: { label: string; value: string }[]
+  includes: string[]
+}
+
+const COACHING: { eyebrow: string; title: string; desc: string; offer: SingleOffer; ctaLabel: string } = {
+  eyebrow: 'Accompagnement individuel',
+  title: 'Coaching Premium Dirigeants & Directeurs',
+  desc: "Distinct de la formation (compétence collective, transférée à une équipe) et du mandat DSC à temps partagé (implication opérationnelle) : un accompagnement individuel pour le dirigeant lui-même — prise de recul stratégique, aide à la décision sur des enjeux complexes, structuration de la vision Supply Chain ou Achats à l'échelle de l'entreprise.",
+  offer: {
+    tag: '1 dirigeant · Achats, Logistique, Supply Chain & fonctions support',
+    name: 'Coaching Individuel',
+    specs: [
+      { label: 'Prix', value: 'Sur devis' },
+      { label: 'Durée', value: '6 à 12 mois' },
+      { label: 'Rythme', value: 'Bimensuel ou mensuel' },
+    ],
+    includes: [
+      'Séances individuelles avec un consultant senior certifié DDMRP',
+      'Prise de recul stratégique sur vos enjeux Supply Chain / Achats',
+      'Aide à la décision sur des sujets complexes',
+      "Structuration de la vision à l'échelle de l'entreprise",
+    ],
+  },
+  ctaLabel: 'Demander un premier échange',
+}
+
+const DOUANE: { eyebrow: string; title: string; desc: string; offer: SingleOffer; ctaLabel: string } = {
+  eyebrow: 'Conformité douanière',
+  title: 'Accompagnement Régimes Douaniers Suspensifs',
+  desc: "Le stock vu par la douane n'est pas toujours le stock vu par la logistique. Pour les entreprises sous Admission Temporaire, Entrepôt Industriel Franc ou régime suspensif similaire — notamment en automobile et aéronautique — cet écart devient un risque de redressement s'il n'est pas traité en amont. Un angle mort spécifique, en lien direct avec notre expertise DDMRP et gestion de stock.",
+  offer: {
+    tag: 'Admission Temporaire · Entrepôt Industriel Franc',
+    name: 'Audit & Régularisation AT',
+    specs: [
+      { label: 'Prix', value: 'Sur devis' },
+      { label: 'Durée', value: 'À définir selon périmètre' },
+    ],
+    includes: [
+      'Audit et réconciliation stock théorique (douane) vs stock réel',
+      'Identification et traitement des écarts avant redressement',
+      'Accompagnement à la régularisation des comptes AT (apurement)',
+      'Diagnostic préventif avant contrôle douanier',
+      'Mise en place d’un suivi continu pour éviter la récurrence des écarts',
+    ],
+  },
+  ctaLabel: 'Discuter de votre situation',
+}
+
+function SingleOfferSection({ eyebrow, title, desc, offer, ctaLabel }: { eyebrow: string; title: string; desc: string; offer: SingleOffer; ctaLabel: string }) {
+  return (
+    <div style={{ marginTop: '6rem' }}>
+      <div style={{ maxWidth: 640, marginBottom: '3rem' }}>
+        <div
+          style={{
+            fontFamily: 'DM Mono, monospace',
+            fontSize: '0.6rem',
+            letterSpacing: '0.2em',
+            color: 'rgba(47,111,181,0.55)',
+            textTransform: 'uppercase',
+            marginBottom: '1.25rem',
+          }}
+        >
+          {eyebrow}
+        </div>
+        <h3
+          style={{
+            fontFamily: 'Manrope, sans-serif',
+            fontSize: 'clamp(1.8rem, 3.2vw, 2.6rem)',
+            fontWeight: 800,
+            lineHeight: 1.05,
+            letterSpacing: '-0.02em',
+            color: 'var(--ink)',
+            margin: '0 0 0.75rem',
+          }}
+        >
+          {title}
+        </h3>
+        <p style={{ fontSize: '0.95rem', color: 'var(--mid)', lineHeight: 1.75, fontWeight: 300, margin: 0 }}>
+          {desc}
+        </p>
+      </div>
+
+      <div
+        style={{
+          maxWidth: 480,
+          background: '#fff',
+          border: '1px solid rgba(27,53,84,0.1)',
+          padding: '2.5rem',
+          position: 'relative',
+          boxShadow: '0 4px 20px rgba(0,0,0,0.05)',
+        }}
+      >
+        <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.18em', textTransform: 'uppercase', color: 'rgba(95,102,114,0.6)', marginBottom: '0.6rem' }}>
+          {offer.tag}
+        </div>
+
+        <div style={{ fontFamily: 'Manrope, sans-serif', fontSize: '1.35rem', fontWeight: 800, letterSpacing: '-0.02em', color: 'var(--ink)', marginBottom: '1.5rem' }}>
+          {offer.name}
+        </div>
+
+        <div style={{ display: 'flex', gap: '2rem', flexWrap: 'wrap', margin: '0 0 1.75rem', paddingBottom: '1.5rem', borderBottom: '1px solid rgba(27,53,84,0.08)' }}>
+          {offer.specs.map((spec) => (
+            <div key={spec.label}>
+              <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.52rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'rgba(95,102,114,0.45)', marginBottom: '0.35rem' }}>
+                {spec.label}
+              </div>
+              <div style={{ fontSize: '1rem', fontWeight: spec.label === 'Prix' ? 700 : 500, color: 'var(--ink)' }}>
+                {spec.value}
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.12em', textTransform: 'uppercase', color: 'rgba(95,102,114,0.5)', marginBottom: '0.75rem' }}>
+          Inclus
+        </div>
+        <ul style={{ listStyle: 'none', padding: 0, marginBottom: '2rem' }}>
+          {offer.includes.map((item) => (
+            <li
+              key={item}
+              style={{
+                fontSize: '0.85rem',
+                padding: '0.5rem 0',
+                borderBottom: '1px solid rgba(27,53,84,0.06)',
+                display: 'flex',
+                alignItems: 'flex-start',
+                gap: '0.6rem',
+                color: 'var(--mid)',
+                lineHeight: 1.5,
+                fontWeight: 300,
+              }}
+            >
+              <span style={{ color: 'var(--blue-bright)', flexShrink: 0 }}>→</span>
+              {item}
+            </li>
+          ))}
+        </ul>
+
+        <a
+          href="/contact"
+          style={{
+            display: 'inline-flex',
+            alignItems: 'center',
+            gap: '0.5rem',
+            fontSize: '0.72rem',
+            fontWeight: 600,
+            letterSpacing: '0.1em',
+            textTransform: 'uppercase',
+            textDecoration: 'none',
+            color: 'var(--ink)',
+            fontFamily: 'DM Mono, monospace',
+            transition: 'opacity 0.2s',
+          }}
+          onMouseEnter={(e) => ((e.currentTarget as HTMLElement).style.opacity = '0.7')}
+          onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.opacity = '1')}
+        >
+          {ctaLabel} →
+        </a>
+      </div>
+    </div>
+  )
+}
 
 function ServiceRow({ s, index }: { s: typeof services[0]; index: number }) {
   const [open, setOpen] = useState(false)
@@ -101,7 +291,7 @@ function ServiceRow({ s, index }: { s: typeof services[0]; index: number }) {
             fontFamily: 'DM Mono, monospace',
             fontSize: '0.6rem',
             letterSpacing: '0.18em',
-            color: 'rgba(192,154,47,0.5)',
+            color: 'rgba(47,111,181,0.5)',
             textTransform: 'uppercase',
           }}
         >
@@ -116,7 +306,7 @@ function ServiceRow({ s, index }: { s: typeof services[0]; index: number }) {
             transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1], delay: index * 0.07 }}
           >
             <div style={{
-              fontFamily: 'Bodoni Moda, serif',
+              fontFamily: 'Manrope, sans-serif',
               fontSize: 'clamp(1.5rem, 2.8vw, 3.2rem)',
               fontWeight: 800,
               lineHeight: 1.0,
@@ -139,7 +329,7 @@ function ServiceRow({ s, index }: { s: typeof services[0]; index: number }) {
         <div style={{
           fontFamily: 'DM Mono, monospace',
           fontSize: '1.1rem',
-          color: open ? 'var(--gold)' : 'var(--mid)',
+          color: open ? 'var(--blue-bright)' : 'var(--mid)',
           transition: 'color 0.2s, transform 0.3s',
           transform: open ? 'rotate(45deg)' : 'none',
           lineHeight: 1,
@@ -176,7 +366,7 @@ function ServiceRow({ s, index }: { s: typeof services[0]; index: number }) {
                     key={tier.name}
                     style={{
                       background: tier.featured ? 'var(--ink)' : '#fff',
-                      border: `1px solid ${tier.featured ? 'rgba(192,154,47,0.35)' : 'rgba(27,53,84,0.12)'}`,
+                      border: `1px solid ${tier.featured ? 'rgba(47,111,181,0.35)' : 'rgba(27,53,84,0.12)'}`,
                       padding: '2.5rem',
                       position: 'relative',
                       boxShadow: tier.featured ? '0 8px 40px rgba(10,20,32,0.18)' : '0 2px 12px rgba(0,0,0,0.04)',
@@ -187,7 +377,7 @@ function ServiceRow({ s, index }: { s: typeof services[0]; index: number }) {
                         position: 'absolute',
                         top: 0, left: 0, right: 0,
                         height: 3,
-                        background: 'var(--gold)',
+                        background: 'var(--blue-bright)',
                       }} />
                     )}
 
@@ -197,7 +387,7 @@ function ServiceRow({ s, index }: { s: typeof services[0]; index: number }) {
                       fontSize: '0.6rem',
                       letterSpacing: '0.18em',
                       textTransform: 'uppercase',
-                      color: tier.featured ? 'rgba(192,154,47,0.7)' : 'rgba(107,101,96,0.6)',
+                      color: tier.featured ? 'rgba(47,111,181,0.7)' : 'rgba(95,102,114,0.6)',
                       marginBottom: '0.75rem',
                     }}>
                       {tier.name}
@@ -205,12 +395,12 @@ function ServiceRow({ s, index }: { s: typeof services[0]; index: number }) {
 
                     {/* Price — focal point */}
                     <div style={{
-                      fontFamily: 'Bodoni Moda, serif',
+                      fontFamily: 'Manrope, sans-serif',
                       fontSize: 'clamp(1.1rem, 1.8vw, 1.5rem)',
                       fontWeight: 800,
                       lineHeight: 1.15,
                       letterSpacing: '-0.02em',
-                      color: tier.featured ? 'var(--gold)' : 'var(--ink)',
+                      color: tier.featured ? 'var(--blue-bright)' : 'var(--ink)',
                       marginBottom: '0.6rem',
                     }}>
                       {tier.price}
@@ -222,7 +412,7 @@ function ServiceRow({ s, index }: { s: typeof services[0]; index: number }) {
                       fontSize: '0.65rem',
                       letterSpacing: '0.1em',
                       textTransform: 'uppercase',
-                      color: tier.featured ? 'rgba(235,232,225,0.45)' : 'rgba(107,101,96,0.65)',
+                      color: tier.featured ? 'rgba(235,232,225,0.45)' : 'rgba(95,102,114,0.65)',
                       marginBottom: '2rem',
                       paddingBottom: '1.5rem',
                       borderBottom: `1px solid ${tier.featured ? 'rgba(255,255,255,0.06)' : 'rgba(27,53,84,0.08)'}`,
@@ -231,7 +421,7 @@ function ServiceRow({ s, index }: { s: typeof services[0]; index: number }) {
                     </div>
 
                     <a
-                      href="#contact"
+                      href="/contact"
                       style={{
                         display: 'inline-flex',
                         alignItems: 'center',
@@ -241,7 +431,7 @@ function ServiceRow({ s, index }: { s: typeof services[0]; index: number }) {
                         letterSpacing: '0.1em',
                         textTransform: 'uppercase',
                         textDecoration: 'none',
-                        color: tier.featured ? 'var(--gold)' : 'var(--ink)',
+                        color: tier.featured ? 'var(--blue-bright)' : 'var(--ink)',
                         fontFamily: 'DM Mono, monospace',
                         transition: 'opacity 0.2s',
                       }}
@@ -261,7 +451,7 @@ function ServiceRow({ s, index }: { s: typeof services[0]; index: number }) {
   )
 }
 
-const servicesFAQ = [
+export const servicesFAQ = [
   {
     q: 'Combien coûte un diagnostic Supply Chain?',
     a: 'Entre 35 000 et 130 000 MAD HT selon la complexité. Diagnostic Flash (35k–55k, 2 sem) pour audit rapide. Diagnostic Stratégique (80k–130k, 4–6 sem) pour analyse complète. Livrable: rapport synthèse + leviers chiffrés + session restitution.',
@@ -282,6 +472,22 @@ const servicesFAQ = [
     q: 'Facturez-vous des commissions sur les logiciels?',
     a: 'Non. Zéro commission éditeur. Notre seule allégeance est au business case client. Recommandations Tier 1/2 (Odoo, SAP, etc) basées uniquement sur vos besoins, pas notre intérêt.',
   },
+  {
+    q: 'Combien de temps dure un accompagnement Systèmes SI & IA ?',
+    a: "De 4 semaines à 10 mois selon le système et le palier. Control Tower Mini : 4 à 6 semaines. APS/S&OP et e-Procurement : 6 à 8 semaines (Mini) à 9 mois (Pro). TMS : 6 à 10 semaines (Mini) à 9 mois (Pro). WMS : voir la question dédiée ci-dessus (6 semaines à 10 mois). La durée dépend du scope, du nombre de sites et des intégrations ERP nécessaires.",
+  },
+  {
+    q: 'Rédigez-vous des cahiers des charges pour autre chose que les systèmes SI (WMS/TMS/APS) ?',
+    a: "Oui. Au-delà des systèmes (WMS, TMS, APS, Control Tower, intégration IA au pilotage), nous rédigeons des cahiers des charges pour l'externalisation (entreposage en open book ou closed book, transport), les opérations spéciales (co-packing, fardelage, gestion d'inventaire RFID, vidéosurveillance) et les équipements (rayonnage conventionnel ou à accumulation, engins de manutention thermiques et électriques avec dimensionnement). De 25 000 à 80 000 MAD HT selon le nombre de lots couverts, ou sur devis pour un périmètre multi-sites.",
+  },
+  {
+    q: 'Proposez-vous un accompagnement après le déploiement WMS/TMS/APS ?',
+    a: "Oui, via notre offre AMOA & Pilotage Projet — nous représentons vos intérêts face à l'intégrateur, avec gestion des avenants, comité de pilotage, change management des équipes et stabilisation post go-live. De l'accompagnement léger (2 à 4 mois) au programme management multi-projets (sur devis, 6 à 18 mois).",
+  },
+  {
+    q: "Qu'est-ce qui différencie l'Accompagnement Régimes Douaniers Suspensifs d'un cabinet de transit classique ?",
+    a: "Notre angle est la réconciliation stock théorique (vu par la douane) vs stock réel (vu par la logistique), en lien direct avec notre expertise DDMRP et gestion de stock — pas seulement la formalité déclarative qu'un cabinet de transit classique traite. Particulièrement pertinent en automobile et aéronautique, où cet écart devient vite un risque de redressement s'il n'est pas traité en amont.",
+  },
 ]
 
 const servicesSchema = {
@@ -295,6 +501,64 @@ const servicesSchema = {
       text: faq.a,
     },
   })),
+}
+
+function FAQItem({ item }: { item: { q: string; a: string } }) {
+  const [open, setOpen] = useState(false)
+  const ref = useRef(null)
+  const inView = useInView(ref, { once: true, margin: '-40px' })
+
+  return (
+    <motion.div
+      ref={ref}
+      initial={{ opacity: 0, y: 24 }}
+      animate={inView ? { opacity: 1, y: 0 } : {}}
+      transition={{ duration: 0.6, ease: faqEase }}
+      style={{ borderTop: '1px solid var(--border)' }}
+    >
+      <button
+        onClick={() => setOpen((o) => !o)}
+        style={{
+          width: '100%',
+          display: 'flex',
+          justifyContent: 'space-between',
+          alignItems: 'center',
+          gap: '2rem',
+          background: 'none',
+          border: 'none',
+          cursor: 'pointer',
+          padding: '1.75rem 0',
+          textAlign: 'left',
+        }}
+      >
+        <span style={{ fontFamily: 'Jost, sans-serif', fontSize: '1.05rem', fontWeight: 600, color: 'var(--navy)' }}>
+          {item.q}
+        </span>
+        <motion.span
+          animate={{ rotate: open ? 45 : 0 }}
+          transition={{ duration: 0.2 }}
+          style={{ fontSize: '1.4rem', color: 'var(--blue-bright)', flexShrink: 0, lineHeight: 1 }}
+        >
+          +
+        </motion.span>
+      </button>
+      <AnimatePresence initial={false}>
+        {open && (
+          <motion.div
+            initial={{ height: 0, opacity: 0 }}
+            animate={{ height: 'auto', opacity: 1 }}
+            exit={{ height: 0, opacity: 0 }}
+            transition={{ duration: 0.35, ease: faqEase }}
+            style={{ overflow: 'hidden' }}
+          >
+            <p style={{ fontSize: '0.95rem', color: 'var(--dark-muted)', lineHeight: 1.8, fontWeight: 300, paddingBottom: '1.75rem', maxWidth: 760 }}>
+              {item.a}
+            </p>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </motion.div>
+  )
 }
 
 export default function Conseil() {
@@ -315,7 +579,7 @@ export default function Conseil() {
               fontFamily: 'DM Mono, monospace',
               fontSize: '0.6rem',
               letterSpacing: '0.2em',
-              color: 'rgba(192,154,47,0.55)',
+              color: 'rgba(47,111,181,0.55)',
               textTransform: 'uppercase',
               marginBottom: '1.5rem',
             }}>
@@ -323,7 +587,7 @@ export default function Conseil() {
             </div>
             <h2
               style={{
-                fontFamily: 'Bodoni Moda, serif',
+                fontFamily: 'Manrope, sans-serif',
                 fontSize: 'clamp(2.8rem, 5vw, 6.5rem)',
                 fontWeight: 800,
                 lineHeight: 0.92,
@@ -354,9 +618,29 @@ export default function Conseil() {
           ))}
         </div>
 
+        <SingleOfferSection eyebrow={COACHING.eyebrow} title={COACHING.title} desc={COACHING.desc} offer={COACHING.offer} ctaLabel={COACHING.ctaLabel} />
+
+        <SingleOfferSection eyebrow={DOUANE.eyebrow} title={DOUANE.title} desc={DOUANE.desc} offer={DOUANE.offer} ctaLabel={DOUANE.ctaLabel} />
+
+        <div style={{ marginTop: '6rem' }}>
+          <div style={{ maxWidth: 640, marginBottom: '3rem' }}>
+            <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.2em', color: 'rgba(47,111,181,0.55)', textTransform: 'uppercase', marginBottom: '1.25rem' }}>
+              Questions fréquentes
+            </div>
+            <h3 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(1.8rem, 3.2vw, 2.6rem)', fontWeight: 800, lineHeight: 1.05, letterSpacing: '-0.02em', color: 'var(--ink)', margin: 0 }}>
+              Vos questions, nos réponses.
+            </h3>
+          </div>
+          <div style={{ maxWidth: 900 }}>
+            {servicesFAQ.map((item, i) => (
+              <FAQItem key={i} item={item} />
+            ))}
+          </div>
+        </div>
+
         <div style={{ marginTop: '4rem', display: 'flex', gap: '1rem' }}>
-          <a href="#contact" className="btn-primary">Réserver un échange gratuit →</a>
-          <a href="#profil" className="btn-outline">Notre approche</a>
+          <a href="/contact" className="btn-primary">Réserver un échange gratuit →</a>
+          <a href="/a-propos" className="btn-outline">Notre approche</a>
         </div>
         </div>
       </section>

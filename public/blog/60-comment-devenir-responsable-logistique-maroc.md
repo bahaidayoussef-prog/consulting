@@ -1,7 +1,7 @@
 ﻿---
 title: "Comment Devenir Responsable Logistique au Maroc : Le Guide Complet 2026"
 date: "2026-07-20"
-author: "Youssef"
+author: "Nextinotech"
 image: "/images/hero-warehouse.jpg"
 keywords: "devenir responsable logistique maroc, responsable logistique maroc, chef logistique maroc, carrière logistique maroc, formation responsable logistique"
 description: "Parcours, compétences, formations et salaires : tout ce qu'il faut savoir pour devenir Responsable Logistique au Maroc en 2026, par un expert avec 20 ans de terrain."
@@ -155,6 +155,8 @@ Au programme :
 
 > **Nos formateurs ont des missions de consulting actives au Maroc.** Ils forment sur ce qu'ils font — pas sur ce qu'ils ont lu il y a dix ans.
 
+👉 **[Voir le programme complet « Devenir Responsable Logistique »](/formation-rl/)** — 1 journée, 1 500 MAD TTC, prochaines sessions 2026.
+
 ---
 
 ## Conclusion
@@ -163,4 +165,4 @@ Devenir Responsable Logistique au Maroc est un objectif accessible — mais pas 
 
 La clé : associer l'expérience terrain à une formation structurée qui vous donne le langage, les méthodes et la posture d'un vrai pilote de supply chain.
 
-**Contactez Essor Consulting pour discuter de votre parcours et voir comment notre programme peut accélérer votre évolution.**
+**Contactez Nextinotech pour discuter de votre parcours et voir comment notre programme peut accélérer votre évolution.**

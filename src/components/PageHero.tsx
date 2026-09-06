@@ -19,19 +19,22 @@ export default function PageHero({
   title,
   titleItalic,
   subtitle,
-  tag = 'ESSOR CONSULTING',
+  tag = 'NEXTINOTECH',
   bg = 'var(--navy)',
-  textColor = '#f0ede8',
+  textColor,
   breadcrumb,
 }: PageHeroProps) {
   const words = title.split(' ')
+  const isLight = bg === 'var(--paper)'
+  const accent = isLight ? 'var(--blue-bright)' : 'var(--blue-bright-on-dark)'
+  const resolvedTextColor = textColor ?? (isLight ? 'var(--ink)' : '#f0ede8')
 
   return (
     <section
       style={{
         background: bg,
-        paddingTop: 'calc(88px + 5rem)',
-        paddingBottom: '6rem',
+        paddingTop: 'calc(88px + var(--sp-y-sm))',
+        paddingBottom: 'var(--sp-y-sm)',
         paddingLeft: 'var(--sp-x)',
         paddingRight: 'var(--sp-x)',
         overflow: 'hidden',
@@ -48,7 +51,7 @@ export default function PageHero({
           right: '3rem',
           top: '50%',
           transform: 'translateY(-50%)',
-          fontFamily: 'Bodoni Moda, serif',
+          fontFamily: 'Manrope, sans-serif',
           fontSize: 'clamp(10rem, 25vw, 28rem)',
           fontWeight: 900,
           lineHeight: 1,
@@ -77,7 +80,7 @@ export default function PageHero({
                 fontSize: '0.6rem',
                 letterSpacing: '0.18em',
                 textTransform: 'uppercase',
-                color: 'rgba(192,154,47,0.5)',
+                color: 'rgba(47,111,181,0.5)',
                 textDecoration: 'none',
               }}
             >
@@ -96,14 +99,14 @@ export default function PageHero({
             fontSize: '0.6rem',
             letterSpacing: '0.22em',
             textTransform: 'uppercase',
-            color: 'var(--gold)',
+            color: accent,
             marginBottom: '2rem',
             display: 'flex',
             alignItems: 'center',
             gap: '1rem',
           }}
         >
-          <span style={{ display: 'block', width: 24, height: 1, background: 'var(--gold)', opacity: 0.5 }} />
+          <span style={{ display: 'block', width: 24, height: 1, background: accent, opacity: 0.5 }} />
           {tag}
         </motion.div>
 
@@ -118,12 +121,13 @@ export default function PageHero({
                   transition={{ duration: 0.9, ease, delay: 0.2 + i * 0.07 }}
                   style={{
                     display: 'inline-block',
-                    fontFamily: 'Bodoni Moda, serif',
+                    fontFamily: 'Manrope, sans-serif',
                     fontSize: 'clamp(3rem, 7vw, 9rem)',
                     fontWeight: 800,
                     lineHeight: 0.92,
                     letterSpacing: '-0.03em',
-                    color: textColor,
+                    color: resolvedTextColor,
+                    overflowWrap: 'anywhere',
                   }}
                 >
                   {word}
@@ -140,13 +144,14 @@ export default function PageHero({
                 transition={{ duration: 0.9, ease, delay: 0.2 + words.length * 0.07 }}
                 style={{
                   display: 'inline-block',
-                  fontFamily: 'Bodoni Moda, serif',
+                  fontFamily: 'Manrope, sans-serif',
                   fontSize: 'clamp(3rem, 7vw, 9rem)',
                   fontWeight: 400,
                   fontStyle: 'italic',
                   lineHeight: 0.92,
                   letterSpacing: '-0.03em',
-                  color: 'var(--gold)',
+                  color: accent,
+                  overflowWrap: 'anywhere',
                 }}
               >
                 {titleItalic}

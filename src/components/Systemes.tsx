@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 
 const systems = [
@@ -13,6 +14,7 @@ const systems = [
       { name: 'WMS Pro', price: 'À partir de 450 000 MAD HT', duration: '6 à 10 mois', desc: 'ETI multi-sites · Audit + RFP + AMOA + intégration ERP' },
     ],
     results: ['Écarts d\'inventaire réduits de 80–95%', 'Productivité préparation +25–40%', 'Erreurs d\'expédition −70–90%'],
+    demoLink: '/demo/wms',
   },
   {
     num: '02',
@@ -25,6 +27,7 @@ const systems = [
       { name: 'TMS Pro', price: 'À partir de 400 000 MAD HT', duration: '5 à 9 mois', desc: 'ETI · flotte importante · multi-modes + intégrations' },
     ],
     results: ['Coûts transport réduits 8–15%', 'Productivité dispatch +30–50%', 'Facturation transport ÷3 à 5'],
+    demoLink: '/demo/tms',
   },
   {
     num: '03',
@@ -37,6 +40,7 @@ const systems = [
       { name: 'Planning Pro (DDMRP)', price: 'À partir de 380 000 MAD HT', duration: '6 à 9 mois', desc: 'ETI multi-sites · IBP + AMOA + COPIL S&OP' },
     ],
     results: ['Ruptures réduites de 40–60%', 'Surstocks réduits de 20–30%', 'BFR libéré 15–30% du stock'],
+    demoLink: '/demo/aps',
   },
   {
     num: '04',
@@ -71,6 +75,7 @@ function SystemRow({ s, index }: { s: typeof systems[0]; index: number }) {
     <div style={{ borderBottom: '1px solid rgba(27,53,84,0.1)' }}>
       <button
         onClick={() => setOpen((v) => !v)}
+        className="system-row-grid"
         style={{
           width: '100%',
           background: 'none',
@@ -93,7 +98,7 @@ function SystemRow({ s, index }: { s: typeof systems[0]; index: number }) {
             fontFamily: 'DM Mono, monospace',
             fontSize: '0.6rem',
             letterSpacing: '0.18em',
-            color: 'rgba(192,154,47,0.45)',
+            color: 'rgba(47,111,181,0.45)',
             textTransform: 'uppercase',
           }}
         >
@@ -111,7 +116,7 @@ function SystemRow({ s, index }: { s: typeof systems[0]; index: number }) {
             fontWeight: 500,
             letterSpacing: '0.1em',
             textTransform: 'uppercase',
-            color: 'var(--gold)',
+            color: 'var(--blue-bright)',
             whiteSpace: 'nowrap',
           }}
         >
@@ -124,12 +129,12 @@ function SystemRow({ s, index }: { s: typeof systems[0]; index: number }) {
           viewport={{ once: true }}
           transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1], delay: index * 0.07 + 0.05 }}
           style={{
-            fontFamily: 'Bodoni Moda, serif',
+            fontFamily: 'Manrope, sans-serif',
             fontSize: 'clamp(1.3rem, 2.2vw, 2.5rem)',
             fontWeight: 800,
             lineHeight: 1.0,
             letterSpacing: '-0.02em',
-            color: 'var(--dark-text)',
+            color: 'var(--navy)',
           }}
         >
           {s.fullName}
@@ -138,7 +143,7 @@ function SystemRow({ s, index }: { s: typeof systems[0]; index: number }) {
         <div style={{
           fontFamily: 'DM Mono, monospace',
           fontSize: '1.1rem',
-          color: open ? 'var(--gold)' : 'rgba(27,53,84,0.3)',
+          color: open ? 'var(--blue-bright)' : 'rgba(27,53,84,0.3)',
           transition: 'color 0.2s, transform 0.3s',
           transform: open ? 'rotate(45deg)' : 'none',
           lineHeight: 1,
@@ -171,8 +176,8 @@ function SystemRow({ s, index }: { s: typeof systems[0]; index: number }) {
               <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '12px', marginBottom: '2.5rem' }}>
                 {s.tiers.map((tier) => (
                   <div key={tier.name} style={{
-                    background: tier.featured ? 'rgba(192,154,47,0.08)' : 'rgba(27,53,84,0.03)',
-                    border: `1px solid ${tier.featured ? 'rgba(192,154,47,0.4)' : 'rgba(27,53,84,0.1)'}`,
+                    background: tier.featured ? 'rgba(47,111,181,0.08)' : 'rgba(27,53,84,0.03)',
+                    border: `1px solid ${tier.featured ? 'rgba(47,111,181,0.4)' : 'rgba(27,53,84,0.1)'}`,
                     padding: '2.5rem',
                     position: 'relative',
                   }}>
@@ -181,7 +186,7 @@ function SystemRow({ s, index }: { s: typeof systems[0]; index: number }) {
                         position: 'absolute',
                         top: 0, left: 0, right: 0,
                         height: 3,
-                        background: 'var(--gold)',
+                        background: 'var(--blue-bright)',
                       }} />
                     )}
 
@@ -191,7 +196,7 @@ function SystemRow({ s, index }: { s: typeof systems[0]; index: number }) {
                       fontSize: '0.6rem',
                       letterSpacing: '0.18em',
                       textTransform: 'uppercase',
-                      color: tier.featured ? 'rgba(192,154,47,0.8)' : 'rgba(27,53,84,0.5)',
+                      color: tier.featured ? 'rgba(47,111,181,0.8)' : 'rgba(27,53,84,0.5)',
                       marginBottom: '0.75rem',
                     }}>
                       {tier.name}
@@ -199,12 +204,12 @@ function SystemRow({ s, index }: { s: typeof systems[0]; index: number }) {
 
                     {/* Price — focal point */}
                     <div style={{
-                      fontFamily: 'Bodoni Moda, serif',
+                      fontFamily: 'Manrope, sans-serif',
                       fontSize: 'clamp(1.1rem, 1.8vw, 1.45rem)',
                       fontWeight: 800,
                       lineHeight: 1.15,
                       letterSpacing: '-0.02em',
-                      color: tier.featured ? 'var(--gold)' : 'var(--dark-text)',
+                      color: tier.featured ? 'var(--blue-bright)' : 'var(--navy)',
                       marginBottom: '0.6rem',
                     }}>
                       {tier.price}
@@ -237,21 +242,42 @@ function SystemRow({ s, index }: { s: typeof systems[0]; index: number }) {
                 ))}
               </div>
 
-              <div style={{ display: 'flex', gap: '2rem', flexWrap: 'wrap' }}>
-                {s.results.map((r) => (
-                  <div key={r} style={{
-                    fontFamily: 'DM Mono, monospace',
-                    fontSize: '0.62rem',
-                    letterSpacing: '0.1em',
-                    textTransform: 'uppercase',
-                    color: 'rgba(192,154,47,0.6)',
-                    display: 'flex',
-                    alignItems: 'center',
-                    gap: '0.5rem',
-                  }}>
-                    <span style={{ color: 'var(--gold)' }}>→</span> {r}
-                  </div>
-                ))}
+              <div style={{ display: 'flex', gap: '2rem', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'space-between' }}>
+                <div style={{ display: 'flex', gap: '2rem', flexWrap: 'wrap' }}>
+                  {s.results.map((r) => (
+                    <div key={r} style={{
+                      fontFamily: 'DM Mono, monospace',
+                      fontSize: '0.62rem',
+                      letterSpacing: '0.1em',
+                      textTransform: 'uppercase',
+                      color: 'rgba(47,111,181,0.6)',
+                      display: 'flex',
+                      alignItems: 'center',
+                      gap: '0.5rem',
+                    }}>
+                      <span style={{ color: 'var(--blue-bright)' }}>→</span> {r}
+                    </div>
+                  ))}
+                </div>
+                {'demoLink' in s && s.demoLink && (
+                  <Link
+                    to={s.demoLink}
+                    style={{
+                      fontFamily: 'DM Mono, monospace',
+                      fontSize: '0.68rem',
+                      letterSpacing: '0.08em',
+                      textTransform: 'uppercase',
+                      color: 'var(--navy)',
+                      border: '1px solid var(--navy)',
+                      padding: '0.65rem 1.1rem',
+                      textDecoration: 'none',
+                      whiteSpace: 'nowrap',
+                      flexShrink: 0,
+                    }}
+                  >
+                    Voir une démo →
+                  </Link>
+                )}
               </div>
             </div>
           </motion.div>
@@ -265,7 +291,7 @@ export default function Systemes() {
   return (
     <section id="systemes" style={{ background: 'var(--dark)', padding: 'var(--sp)' }}>
       <div className="section-inner">
-        <div style={{
+        <div className="systemes-header-grid" style={{
           display: 'grid',
           gridTemplateColumns: '1fr 1fr',
           gap: '4rem',
@@ -277,19 +303,19 @@ export default function Systemes() {
               fontFamily: 'DM Mono, monospace',
               fontSize: '0.6rem',
               letterSpacing: '0.2em',
-              color: 'rgba(192,154,47,0.45)',
+              color: 'rgba(47,111,181,0.45)',
               textTransform: 'uppercase',
               marginBottom: '1.5rem',
             }}>
               05 / Systèmes & Digital
             </div>
             <h2 style={{
-              fontFamily: 'Bodoni Moda, serif',
+              fontFamily: 'Manrope, sans-serif',
               fontSize: 'clamp(2.8rem, 5vw, 6.5rem)',
               fontWeight: 800,
               lineHeight: 0.92,
               letterSpacing: '-0.025em',
-              color: 'var(--dark-text)',
+              color: 'var(--navy)',
               margin: 0,
             }}>
               Déploiement de solutions SCM.
@@ -302,7 +328,7 @@ export default function Systemes() {
             fontWeight: 300,
             maxWidth: 440,
           }}>
-            Sélection indépendante et déploiement AMOA des meilleures solutions — adaptées à votre taille
+            Sélection indépendante et déploiement AMOA de solutions WMS, TMS et APS — adaptées à votre taille
             et secteur. Aucune commission éditeur. Jamais.
           </p>
         </div>
@@ -315,7 +341,7 @@ export default function Systemes() {
         </div>
 
         <div style={{ marginTop: '4rem' }}>
-          <a href="#contact" className="btn-primary">Discuter de votre projet →</a>
+          <a href="/contact" className="btn-primary">Discuter de votre projet →</a>
         </div>
       </div>
     </section>

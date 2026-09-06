@@ -76,6 +76,11 @@ export default function Pourquoi() {
   const trackRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
+    // Le scroll-jack horizontal pinné est un pattern desktop — sous 640px il
+    // fuit hors de son conteneur (débordement horizontal constaté sur toute
+    // la page) et l'UX de scroll-jack au toucher est de toute façon mauvaise.
+    // Le CSS mobile (index.css) bascule la piste en scroll horizontal natif à la place.
+    if (window.innerWidth < 640) return
     const ctx = gsap.context(() => {
       const section = methodRef.current
       const track = trackRef.current
@@ -109,7 +114,7 @@ export default function Pourquoi() {
               fontFamily: 'DM Mono, monospace',
               fontSize: '0.6rem',
               letterSpacing: '0.2em',
-              color: 'rgba(192,154,47,0.55)',
+              color: 'rgba(47,111,181,0.55)',
               textTransform: 'uppercase',
               marginBottom: '1.5rem',
             }}>
@@ -117,7 +122,7 @@ export default function Pourquoi() {
             </div>
             <h2
               style={{
-                fontFamily: 'Bodoni Moda, serif',
+                fontFamily: 'Manrope, sans-serif',
                 fontSize: 'clamp(2.8rem, 5.5vw, 7rem)',
                 fontWeight: 800,
                 lineHeight: 0.92,
@@ -148,6 +153,7 @@ export default function Pourquoi() {
             {pilliers.map((p, i) => (
               <FadeUp key={p.num} delay={i * 0.1}>
                 <div
+                  className="pilliers-grid"
                   style={{
                     display: 'grid',
                     gridTemplateColumns: '80px 1fr 1.8fr',
@@ -161,7 +167,7 @@ export default function Pourquoi() {
                     fontFamily: 'DM Mono, monospace',
                     fontSize: '0.65rem',
                     letterSpacing: '0.14em',
-                    color: 'rgba(192,154,47,0.5)',
+                    color: 'rgba(47,111,181,0.5)',
                     textTransform: 'uppercase',
                     paddingTop: '0.35rem',
                   }}>
@@ -169,7 +175,7 @@ export default function Pourquoi() {
                   </div>
                   <h3
                     style={{
-                      fontFamily: 'Bodoni Moda, serif',
+                      fontFamily: 'Manrope, sans-serif',
                       fontSize: 'clamp(1.6rem, 2.5vw, 2.8rem)',
                       fontWeight: 800,
                       lineHeight: 1.1,
@@ -199,7 +205,7 @@ export default function Pourquoi() {
 
       {/* ── Statement line ── */}
       <div style={{
-        background: 'var(--ink)',
+        background: 'var(--dark-2)',
         padding: 'var(--sp-y-sm) var(--sp-x)',
         overflow: 'hidden',
       }}>
@@ -210,13 +216,13 @@ export default function Pourquoi() {
             viewport={{ once: true, margin: '-60px' }}
             transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
             style={{
-              fontFamily: 'Bodoni Moda, serif',
+              fontFamily: 'Manrope, sans-serif',
               fontSize: 'clamp(2.2rem, 5vw, 6.5rem)',
               fontWeight: 400,
               fontStyle: 'italic',
               lineHeight: 0.92,
               letterSpacing: '-0.025em',
-              color: 'var(--gold)',
+              color: 'var(--blue-bright)',
             }}
           >
             110 missions. Un seul parti pris&nbsp;: votre résultat.
@@ -227,8 +233,9 @@ export default function Pourquoi() {
       {/* ── Méthode 5 étapes — horizontal scroll ── */}
       <div ref={methodRef} style={{ background: 'var(--navy)' }}>
         <div
+          className="method-outer"
           style={{
-            height: '100vh',
+            height: '100svh',
             display: 'flex',
             flexDirection: 'column',
             justifyContent: 'center',
@@ -249,12 +256,12 @@ export default function Pourquoi() {
             </div>
             <h2
               style={{
-                fontFamily: 'Bodoni Moda, serif',
+                fontFamily: 'Manrope, sans-serif',
                 fontSize: 'clamp(2.2rem, 4.5vw, 6rem)',
                 fontWeight: 900,
                 lineHeight: 0.92,
                 letterSpacing: '-0.025em',
-                color: 'var(--dark-text)',
+                color: 'var(--paper)',
               }}
             >
               Assess · Design · Digitize
@@ -265,8 +272,8 @@ export default function Pourquoi() {
             </h2>
           </div>
 
-          <div style={{ overflow: 'visible', flexShrink: 0 }}>
-            <div ref={trackRef} style={{ display: 'flex', gap: '1px', width: 'max-content' }}>
+          <div className="method-track-wrap" style={{ overflow: 'visible', flexShrink: 0 }}>
+            <div ref={trackRef} className="method-track" style={{ display: 'flex', gap: '1px', width: 'max-content' }}>
               {steps.map((step, idx) => (
                 <div
                   key={step.num}
@@ -291,12 +298,12 @@ export default function Pourquoi() {
                   </div>
                   <h3
                     style={{
-                      fontFamily: 'Bodoni Moda, serif',
+                      fontFamily: 'Manrope, sans-serif',
                       fontSize: 'clamp(2.5rem, 3.5vw, 4.5rem)',
                       fontWeight: 800,
                       lineHeight: 0.92,
                       letterSpacing: '-0.02em',
-                      color: idx === 2 ? '#0e1f30' : 'var(--dark-text)',
+                      color: idx === 2 ? '#0e1f30' : 'var(--paper)',
                       marginBottom: '0.5rem',
                     }}
                   >
@@ -314,7 +321,7 @@ export default function Pourquoi() {
                   </div>
                   <p style={{
                     fontSize: '0.92rem',
-                    color: idx === 2 ? 'rgba(10,20,32,0.65)' : 'var(--dark-muted)',
+                    color: idx === 2 ? 'rgba(10,20,32,0.65)' : 'rgba(245,243,238,0.65)',
                     lineHeight: 1.75,
                     fontWeight: 300,
                   }}>
@@ -333,10 +340,10 @@ export default function Pourquoi() {
                 flexShrink: 0,
               }}>
                 <h3 style={{
-                  fontFamily: 'Bodoni Moda, serif',
+                  fontFamily: 'Manrope, sans-serif',
                   fontSize: 'clamp(1.8rem, 2.5vw, 3rem)',
                   fontWeight: 700,
-                  color: 'var(--dark-text)',
+                  color: 'var(--paper)',
                   marginBottom: '1.5rem',
                   lineHeight: 1.1,
                 }}>
@@ -344,14 +351,14 @@ export default function Pourquoi() {
                 </h3>
                 <p style={{
                   fontSize: '0.92rem',
-                  color: 'var(--dark-muted)',
+                  color: 'rgba(245,243,238,0.65)',
                   marginBottom: '2.5rem',
                   lineHeight: 1.75,
                   fontWeight: 300,
                 }}>
                   Un premier échange de 45 minutes, sans engagement, pour qualifier votre situation.
                 </p>
-                <a href="#contact" className="btn-primary" style={{ width: 'fit-content' }}>
+                <a href="/contact" className="btn-primary-gold" style={{ width: 'fit-content' }}>
                   Réserver un échange gratuit →
                 </a>
               </div>

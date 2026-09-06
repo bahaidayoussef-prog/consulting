@@ -1,4 +1,4 @@
-# Essor Consulting — Design System Brief
+# Nextinotech — Design System Brief
 
 ## Stack
 React 19 + TypeScript + Vite · Framer Motion · GSAP + ScrollTrigger · Lenis smooth scroll
@@ -37,7 +37,7 @@ Section inner max-width: 1300px
 
 ## Real company data
 - Founder: Youssef BAHAIDA
-- Email: b.youssef@essor.ma
+- Email: contact@nextinotech.com
 - Phone: +212 06 63 44 92 00
 - Location: Casablanca, Maroc
 - Stats: 110+ missions · 20+ ans · 0 commission · ~5 consultants

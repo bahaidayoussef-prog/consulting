@@ -1,6 +1,8 @@
 import { useState, useEffect, useRef } from 'react'
 import { motion } from 'framer-motion'
+import { useSearchParams, useParams, useNavigate } from 'react-router-dom'
 import { parseMarkdown, type BlogPost } from '../utils/markdownParser'
+import SchemaScript from './SchemaHelper'
 
 function readingTime(content: string): number {
   const words = content.trim().split(/\s+/).length
@@ -11,6 +13,9 @@ export default function Blog() {
   const [posts, setPosts] = useState<BlogPost[]>([])
   const [selectedPost, setSelectedPost] = useState<BlogPost | null>(null)
   const [loading, setLoading] = useState(true)
+  const [searchParams, setSearchParams] = useSearchParams()
+  const params = useParams<{ slug?: string }>()
+  const navigate = useNavigate()
 
   useEffect(() => {
     const loadPosts = async () => {
@@ -34,18 +39,6 @@ export default function Blog() {
           '13-supply-chain-afrique-francophone',
           '14-webinaire-transformation-90j',
           '15-webinaire-formation-vs-consulting',
-          // Études de cas
-          '20-case-study-pme-textile-sourcing',
-          '21-case-study-me-procurement-bosch',
-          '22-case-study-casanet-wms-adoption',
-          '23-case-study-oland-sop-cash',
-          '24-case-study-dhl-warehouse-3sites',
-          '25-case-study-renault-tanger-ramp',
-          '26-case-study-douja-promotion-expansion',
-          '27-case-study-autoroutes-externalisation',
-          '28-case-study-somaca-automation',
-          '29-case-study-diana-group-diversified',
-          '30-case-study-ocp-saedm-transformation',
           // Mini FAQ
           '40-faq-combien-economiser-achats',
           '41-mini-wms-oui-ou-non-pour-ma-pme',
@@ -107,7 +100,6 @@ export default function Blog() {
           '95-formation-chef-entrepot-maroc',
           '96-lean-logistique-maroc',
           '97-programme-formation-supply-chain-cadres-maroc',
-          '98-formation-gestionnaire-stocks-maroc',
           '99-formation-acheteur-supply-chain-maroc',
           '100-formation-transport-douanes-maroc',
           // Tendances 2026
@@ -121,23 +113,16 @@ export default function Blog() {
           '108-last-mile-livraison-dernier-kilometre-maroc',
           // Formations (109-130)
           '109-comment-choisir-sa-formation-supply-chain-maroc',
-          '110-formation-supply-chain-manager-programme',
           '111-formation-responsable-logistique-maroc',
-          '112-formation-acheteur-professionnel-cursus-maroc',
           '113-formation-gestionnaire-entrepot-maroc',
           '114-formation-planificateur-supply-chain-maroc',
           '115-financement-formation-logistique-maroc',
           '116-certification-apics-cpim-maroc',
           '117-formation-lean-logistique-entrepot-maroc',
-          '118-reconversion-supply-chain-maroc-guide',
           '119-formation-negociation-achats-maroc',
-          '120-formation-continue-supply-chain-cadres-maroc',
           '121-formation-wms-deploiement-maroc',
-          '122-formation-ddmrp-certification-maroc',
           '123-formation-elearning-supply-chain-maroc',
-          '124-roi-formation-supply-chain-calcul',
           '125-formation-directeur-supply-chain-maroc',
-          '126-formation-tms-transport-maroc',
           '127-formation-supply-chain-intra-entreprise-maroc',
           '128-formation-supply-chain-afrique-francophone',
           '129-mba-supply-chain-maroc',
@@ -226,22 +211,134 @@ export default function Blog() {
           // Carrière & Bien-être
           '209-burnout-supply-chain-logistique-maroc',
           '210-developpement-carriere-supply-chain-achats-logistique-maroc',
+          // Actualité réglementaire
+          '211-nouvelle-loi-livraison-colis-maroc-2026',
+          '212-hausse-carburant-transporteurs-maroc-2026',
+          '213-guide-portnet-badr-maroc',
+          '214-grille-salariale-logistique-maroc-2026-employeur',
+          '215-sap-odoo-dynamics-365-erp-supply-chain-maroc',
+          '216-ia-agentique-supply-chain-feuille-de-route-pme-maroc',
+          '217-achats-durables-rse-fournisseurs-audit-maroc',
+          '218-supply-chain-aeronautique-maroc-ecosysteme-safran',
+          '219-supply-chain-cosmetique-maroc-enjeux-logistiques',
+          '220-hydrogene-vert-ammoniac-ocp-chaine-logistique',
+          '221-marque-employeur-logistique-maroc-attractivite',
+          '222-recruter-generation-z-logistique-maroc',
+          '223-zones-franches-marocaines-comparees',
+          '224-corridor-maroc-afrique-ouest-sahel-export',
+          '225-3pl-4pl-afrique-francophone-panorama',
+          '226-cartographier-risques-supply-chain-methode',
+          '227-achats-publics-maroc-seuils-2026',
+          '228-femmes-supply-chain-marocaine-chiffres-realite',
+          '229-cout-reel-projet-erp-logistique-maroc',
+          '230-ia-predictive-prevision-demande-stock-securite',
+          '231-audit-qhse-entrepot-maroc-grille-methode',
+          '232-formation-hse-entrepot-logistique-maroc',
+          '233-iso-9001-pme-logistique-maroc-par-ou-commencer',
+          '234-regimes-douaniers-suspensifs-stock-theorique-vs-reel',
+          '235-incoterms-guide-pratique-maroc-importateurs-exportateurs',
+          '236-statut-oea-maroc-accelerer-dedouanement',
+          '237-accords-libre-echange-maroc-reduire-droits-douane',
+          '238-litiges-douaniers-contentieux-import-export-maroc',
+          '239-commerce-triangulaire-maroc-afrique-europe-zones-franches',
+          '240-category-management-achats-structurer-categories',
+          '241-cbam-taxe-carbone-ue-exportateurs-marocains',
+          '242-sourcing-multi-fournisseurs-vs-fournisseur-unique',
+          '243-e-sourcing-plateformes-digitalisation-achats-maroc',
+          '244-tco-cout-total-possession-methode-achats',
+          '245-achats-indirects-gisement-economies-pme-maroc',
+          '246-robots-automatisation-entrepot-maroc-etat-des-lieux',
+          '247-digital-twin-jumeau-numerique-supply-chain-usage',
+          '248-blockchain-tracabilite-agroalimentaire-export-maroc',
+          '249-control-tower-logistique-piloter-temps-reel',
+          '250-cybersecurite-supply-chain-fournisseurs-maroc',
+          '251-iot-capteurs-connectes-entrepot-maroc',
+          '252-automatisation-achats-ia-p2p-maroc',
+          '253-tableau-de-bord-ia-supply-chain-sans-data-scientist',
+          '254-logistique-verte-maroc-transition-freinee',
+          '255-bilan-carbone-transport-scope-3-methode',
+          '256-vehicules-verts-flotte-logistique-maroc',
+          '257-economie-circulaire-supply-chain-dechets-industriels-maroc',
+          '258-reporting-esg-fournisseurs-maroc-csrd',
+          '259-emballages-durables-reduction-couts-logistiques',
+          '260-entrepots-eco-responsables-certification-energie',
+          '261-maroc-leader-africain-logistique-durable',
+          '262-buffer-stock-ecommerce-maroc-stockage-local',
+          '263-paiement-livraison-cod-maroc-logistique',
+          '264-dark-store-micro-fulfillment-maroc',
+          '265-livraison-zones-rurales-enclavees-maroc',
+          '266-retours-ecommerce-cout-cache-maroc',
+          '267-marketplace-vs-vente-directe-logistique-maroc',
+          '268-turnover-entrepot-maroc-causes-solutions',
+          '269-cabinet-recrutement-vs-direct-poste-critique-maroc',
+          '270-onboarding-caristes-magasiniers-maroc',
+          '271-management-proximite-entrepot-feedback-continu',
+          '272-penurie-chauffeurs-routiers-maroc',
+          '273-formation-interne-vs-recrutement-externe-maroc',
+          '274-plan-succession-postes-cles-supply-chain-maroc',
+          '275-femmes-postes-executifs-supply-chain-freins',
+          '276-feminiser-metiers-entrepot-transport-maroc',
+          '277-reseaux-mentorat-femmes-logistique-maroc',
+          '278-diversite-supply-chain-argument-concurrentiel',
+          '279-sap-mm-module-achats-maroc',
+          '280-migration-sap-s4hana-pme-industrielle-maroc',
+          '281-wms-vs-erp-integre-entrepot-maroc',
+          '282-interoperabilite-erp-wms-tms-connecter-systemes',
+          '283-choisir-logiciel-prevision-demande-pme-maroc',
+          '284-certification-pmp-maroc-supply-chain',
+          '285-methode-transformation-supply-chain-5-phases',
+          '286-agile-supply-chain-maroc-scrum-kanban',
+          '287-gouvernance-projet-logistique-multi-sites',
+          '288-change-management-projet-erp-wms-maroc',
+          '289-logistique-miniere-maroc-hors-ocp',
+          '290-supply-chain-btp-penurie-materiel-maroc',
+          '291-supply-chain-hotellerie-tourisme-maroc',
+          '292-dispositifs-medicaux-chaine-approvisionnement-maroc',
+          '293-supply-chain-huile-argan-export-maroc',
+          '294-logistique-peche-agadir-dakhla-export',
+          '295-supply-chain-textile-technique-denim-maroc',
+          '296-transport-multimodal-maroc-reduire-couts',
+          '297-autoroute-mer-tanger-europe-alternative',
+          '298-affretement-sous-traitance-transport-maroc',
+          '299-geolocalisation-flotte-transport-maroc',
+          '300-transport-frigorifique-routier-maroc-normes',
+          '301-port-ndayane-senegal-futur-mega-port',
+          '302-transit-douanier-afrique-ouest-corridors',
+          '303-digitalisation-logistique-afrique-ouest-erp',
+          '304-zones-logistiques-industrielles-afrique-francophone',
+          '305-pca-logistique-maroc-continuite-activite',
+          '306-multi-sourcing-resilience-post-covid-encore-valable',
+          '307-negociation-fournisseurs-inflation-leviers',
+          '308-srm-equipementiers-tier-1-automobile-maroc',
+          // Cluster IA générative / LLM / automatisation — SC, logistique, achats
+          '309-ia-gnrative-en-supply-chain-25-cas-dusage-concrets-au-maroc',
+          '310-ia-supply-chain-llm-ia-prdictive-ou-rpa-quel-outil-pour-quel',
+          '311-rdiger-un-cahier-des-charges-avec-lia-mthode-et-garde-fous',
+          '312-cot-dun-projet-ia-supply-chain-pour-une-pme-marocaine',
+          '313-automatiser-les-documents-de-douane-par-lia-dum-bl-packing-l',
+          '314-automatiser-le-traitement-des-factures-fournisseurs-avec-lia',
+          '315-ia-et-supply-chain-automobile-au-maroc-prvision-edi-et-jit',
+          '316-copilot-de-demand-planning-lia-gnrative-au-service-du-prvisi',
+          '317-ia-et-agro-industrie-au-maroc-prvision-de-rcolte-et-chane-du',
+          '318-gouvernance-de-lia-en-supply-chain-la-charte-avant-les-outil',
+          '319-chatbot-de-suivi-de-commande-par-ia-dsengorger-le-service-cl',
+          '320-loi-09-08-et-cndp-utiliser-un-llm-sans-exposer-ses-donnes-fo',
         ]
 
-        const loadedPosts: BlogPost[] = []
-
-        for (const file of blogFiles) {
-          try {
-            const response = await fetch(`/blog/${file}.md`)
-            if (response.ok) {
+        const fetched = await Promise.all(
+          blogFiles.map(async (file) => {
+            try {
+              const response = await fetch(`/blog/${file}.md`)
+              if (!response.ok) return null
               const content = await response.text()
-              const post = parseMarkdown(content)
-              loadedPosts.push(post)
+              return parseMarkdown(content)
+            } catch (err) {
+              console.error(`Error loading ${file}:`, err)
+              return null
             }
-          } catch (err) {
-            console.error(`Error loading ${file}:`, err)
-          }
-        }
+          })
+        )
+        const loadedPosts = fetched.filter((p): p is BlogPost => p !== null)
 
         // Sort by date descending
         loadedPosts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
@@ -254,6 +351,14 @@ export default function Blog() {
     loadPosts()
   }, [])
 
+  // Deep-link : /blog/<slug> (canonique) ou /blog?post=<slug> (rétro-compat) ouvre l'article visé
+  useEffect(() => {
+    const slug = params.slug || searchParams.get('post')
+    if (!slug || posts.length === 0) return
+    const match = posts.find((p) => p.slug === slug)
+    if (match) setSelectedPost(match)
+  }, [posts, params.slug, searchParams])
+
   return (
     <>
       <section style={{ background: 'var(--dark)', padding: 'var(--sp)', overflow: 'hidden' }}>
@@ -264,18 +369,18 @@ export default function Blog() {
             viewport={{ once: true, margin: '-60px' }}
             transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
           >
-            <div className="section-tag" style={{ color: 'var(--gold)' }}>
+            <div className="section-tag" style={{ color: 'var(--blue-bright)' }}>
               <span>INSIGHTS</span>
             </div>
 
             <h2
               style={{
-                fontFamily: 'Bodoni Moda, serif',
+                fontFamily: 'Manrope, sans-serif',
                 fontSize: 'clamp(2.5rem, 4vw, 5rem)',
                 fontWeight: 400,
                 lineHeight: 0.92,
                 letterSpacing: '-0.02em',
-                color: 'var(--dark-text)',
+                color: 'var(--navy)',
                 marginBottom: '3rem',
               }}
             >
@@ -326,8 +431,8 @@ export default function Blog() {
                     transition: 'border-color 0.3s ease, background 0.3s ease',
                   }}
                   onMouseEnter={(e) => {
-                    (e.currentTarget as HTMLElement).style.borderColor = 'rgba(192,154,47,0.5)'
-                    ;(e.currentTarget as HTMLElement).style.background = 'rgba(192,154,47,0.03)'
+                    (e.currentTarget as HTMLElement).style.borderColor = 'rgba(47,111,181,0.5)'
+                    ;(e.currentTarget as HTMLElement).style.background = 'rgba(47,111,181,0.03)'
                   }}
                   onMouseLeave={(e) => {
                     (e.currentTarget as HTMLElement).style.borderColor = 'var(--dark-border)'
@@ -346,7 +451,7 @@ export default function Blog() {
                       left: 0,
                       right: 0,
                       height: '2px',
-                      background: 'var(--gold)',
+                      background: 'var(--blue-bright)',
                       transformOrigin: 'left',
                       zIndex: 2,
                     }}
@@ -381,11 +486,11 @@ export default function Blog() {
                     <div style={{ padding: '1.25rem', display: 'flex', flexDirection: 'column', flex: 1, gap: '0.75rem' }}>
                       <h3
                         style={{
-                          fontFamily: 'Bodoni Moda, serif',
+                          fontFamily: 'Manrope, sans-serif',
                           fontSize: 'clamp(1rem, 1.5vw, 1.375rem)',
                           fontWeight: 400,
                           lineHeight: 1.25,
-                          color: 'var(--dark-text)',
+                          color: 'var(--navy)',
                         }}
                       >
                         {post.title}
@@ -395,7 +500,7 @@ export default function Blog() {
                         style={{
                           fontSize: '0.75rem',
                           fontFamily: 'DM Mono, monospace',
-                          color: 'var(--gold)',
+                          color: 'var(--blue-bright)',
                           opacity: 0.75,
                         }}
                       >
@@ -421,7 +526,7 @@ export default function Blog() {
 
                       <motion.span
                         variants={{
-                          hover: { x: 6, color: '#c09a2f', transition: { duration: 0.25, ease: 'easeOut' } },
+                          hover: { x: 6, color: '#2f6fb5', transition: { duration: 0.25, ease: 'easeOut' } },
                         }}
                         style={{
                           fontFamily: 'Jost, sans-serif',
@@ -429,7 +534,7 @@ export default function Blog() {
                           fontWeight: 500,
                           letterSpacing: '0.08em',
                           textTransform: 'uppercase' as const,
-                          color: 'var(--gold)',
+                          color: 'var(--blue-bright)',
                           marginTop: 'auto',
                           display: 'inline-block',
                         }}
@@ -446,7 +551,14 @@ export default function Blog() {
       </section>
 
       {selectedPost && (
-        <BlogDetail post={selectedPost} onClose={() => setSelectedPost(null)} />
+        <BlogDetail
+          post={selectedPost}
+          onClose={() => {
+            setSelectedPost(null)
+            if (params.slug) navigate('/blog', { replace: true })
+            else if (searchParams.get('post')) setSearchParams({}, { replace: true })
+          }}
+        />
       )}
     </>
   )
@@ -455,6 +567,34 @@ export default function Blog() {
 interface BlogDetailProps {
   post: BlogPost
   onClose: () => void
+}
+
+function buildArticleSchema(post: BlogPost) {
+  if (post.schema === 'FAQPage') {
+    return {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: [
+        {
+          '@type': 'Question',
+          name: post.title,
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: post.quickAnswer || post.description || post.title,
+          },
+        },
+      ],
+    }
+  }
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: post.title,
+    description: post.description || post.quickAnswer,
+    datePublished: post.date,
+    author: { '@type': 'Organization', name: post.author || 'Nextinotech' },
+    publisher: { '@type': 'Organization', name: 'Nextinotech' },
+  }
 }
 
 function BlogDetail({ post, onClose }: BlogDetailProps) {
@@ -512,7 +652,7 @@ function BlogDetail({ post, onClose }: BlogDetailProps) {
     const prevTwT    = twTitle?.content
     const prevTwD    = twDesc?.content
 
-    const articleTitle = `${post.title} | Essor Consulting`
+    const articleTitle = `${post.title} | Nextinotech`
     document.title = articleTitle
     if (descMeta && post.description)  descMeta.content = post.description
     if (ogTitle)                        ogTitle.content  = articleTitle
@@ -549,9 +689,11 @@ function BlogDetail({ post, onClose }: BlogDetailProps) {
         backdropFilter: 'blur(4px)',
       }}
     >
+      <SchemaScript schema={buildArticleSchema(post)} />
+
       {/* Reading progress bar */}
       <div style={{ position: 'fixed', top: 0, left: 0, right: 0, height: 3, background: 'rgba(255,255,255,0.07)', zIndex: 1001 }}>
-        <div style={{ height: '100%', background: 'var(--gold)', width: `${progress}%`, transition: 'width 0.1s linear' }} />
+        <div style={{ height: '100%', background: 'var(--blue-bright)', width: `${progress}%`, transition: 'width 0.1s linear' }} />
       </div>
       <motion.article
         initial={{ opacity: 0, y: 40 }}
@@ -564,7 +706,7 @@ function BlogDetail({ post, onClose }: BlogDetailProps) {
           margin: '0 auto',
           padding: 'var(--sp-y-sm) var(--sp-x)',
           background: 'var(--dark)',
-          color: 'var(--dark-text)',
+          color: 'var(--navy)',
           minHeight: '100vh',
         }}
       >
@@ -578,7 +720,7 @@ function BlogDetail({ post, onClose }: BlogDetailProps) {
             height: '40px',
             background: 'transparent',
             border: '1px solid var(--dark-border)',
-            color: 'var(--dark-text)',
+            color: 'var(--navy)',
             fontSize: '1.25rem',
             cursor: 'pointer',
             display: 'flex',
@@ -587,12 +729,12 @@ function BlogDetail({ post, onClose }: BlogDetailProps) {
             transition: 'all 0.3s ease',
           }}
           onMouseEnter={(e) => {
-            e.currentTarget.style.borderColor = 'var(--gold)'
-            e.currentTarget.style.color = 'var(--gold)'
+            e.currentTarget.style.borderColor = 'var(--blue-bright)'
+            e.currentTarget.style.color = 'var(--blue-bright)'
           }}
           onMouseLeave={(e) => {
             e.currentTarget.style.borderColor = 'var(--dark-border)'
-            e.currentTarget.style.color = 'var(--dark-text)'
+            e.currentTarget.style.color = 'var(--navy)'
           }}
           aria-label="Fermer"
         >
@@ -607,7 +749,7 @@ function BlogDetail({ post, onClose }: BlogDetailProps) {
               marginBottom: '1.5rem',
               fontSize: '0.8rem',
               fontFamily: 'DM Mono, monospace',
-              color: 'rgba(192,154,47,0.7)',
+              color: 'rgba(47,111,181,0.7)',
               flexWrap: 'wrap',
               alignItems: 'center',
             }}
@@ -623,7 +765,7 @@ function BlogDetail({ post, onClose }: BlogDetailProps) {
 
           <h1
             style={{
-              fontFamily: 'Bodoni Moda, serif',
+              fontFamily: 'Manrope, sans-serif',
               fontSize: 'clamp(2rem, 5vw, 3.5rem)',
               fontWeight: 400,
               lineHeight: 1.1,
@@ -644,7 +786,7 @@ function BlogDetail({ post, onClose }: BlogDetailProps) {
                 fontFamily: 'DM Mono, monospace',
                 textTransform: 'uppercase',
                 letterSpacing: '0.1em',
-                color: 'var(--gold)',
+                color: 'var(--blue-bright)',
                 opacity: 0.7,
               }}
             >
@@ -669,7 +811,7 @@ function BlogDetail({ post, onClose }: BlogDetailProps) {
             fontFamily: 'Jost, sans-serif',
             lineHeight: 1.8,
             fontSize: '1.0625rem',
-            color: 'var(--dark-text)',
+            color: 'var(--navy)',
           }}
           dangerouslySetInnerHTML={{ __html: post.htmlContent }}
         />

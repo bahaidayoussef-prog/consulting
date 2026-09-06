@@ -9,19 +9,19 @@ export interface SectionMetadata {
 export const SECTIONS: SectionMetadata[] = [
   {
     id: 'hero',
-    title: 'Accueil — Essor Consulting',
+    title: 'Accueil — Nextinotech',
     description: 'Cabinet de conseil Supply Chain indépendant au Maroc. 110+ missions, 20+ ans expérience terrain.',
     keywords: ['supply chain', 'conseil logistique', 'maroc'],
   },
   {
     id: 'pourquoi',
-    title: 'Pourquoi Essor Consulting',
+    title: 'Pourquoi Nextinotech',
     description: 'Pourquoi choisir un cabinet indépendant de Supply Chain au Maroc.',
     keywords: ['conseil independent', 'supply chain maroc'],
   },
   {
     id: 'impact',
-    title: 'Impact & Résultats — Essor Consulting',
+    title: 'Impact & Résultats — Nextinotech',
     description: 'Résultats mesurés de nos missions de conseil Supply Chain.',
     keywords: ['resultats supply chain', 'cas clients', 'impact'],
   },
@@ -46,7 +46,7 @@ export const SECTIONS: SectionMetadata[] = [
   {
     id: 'methode',
     title: 'Notre Méthode de Conseil',
-    description: 'Approche, méthodologie et processus de conseil Supply Chain d\'Essor Consulting.',
+    description: 'Approche, méthodologie et processus de conseil Supply Chain d\'Nextinotech.',
     keywords: ['methode conseil', 'approche supply chain'],
   },
   {
@@ -63,14 +63,14 @@ export const SECTIONS: SectionMetadata[] = [
   },
   {
     id: 'profil',
-    title: 'Profil & Expérience — Essor Consulting',
-    description: 'Fondateur Essor Consulting. 20+ ans expérience en ingénierie Supply Chain, Logistique et Achats. DDMRP Certified. Casablanca, Maroc.',
+    title: 'Profil & Expérience — Nextinotech',
+    description: 'Fondateur Nextinotech. 20+ ans expérience en ingénierie Supply Chain, Logistique et Achats. DDMRP Certified. Casablanca, Maroc.',
     keywords: ['consultant supply chain', 'expert supply chain maroc', 'profil expert'],
   },
   {
     id: 'engagement',
     title: 'Nos Engagements',
-    description: 'Principes et engagements d\'Essor Consulting envers ses clients.',
+    description: 'Principes et engagements d\'Nextinotech envers ses clients.',
     keywords: ['engagement', 'valeurs'],
   },
   {
@@ -81,14 +81,14 @@ export const SECTIONS: SectionMetadata[] = [
   },
   {
     id: 'contact',
-    title: 'Nous Contacter — Essor Consulting',
-    description: 'Contactez Essor Consulting. Échange gratuit 45 min. Casablanca, Maroc.',
+    title: 'Nous Contacter — Nextinotech',
+    description: 'Contactez Nextinotech. Échange gratuit 45 min. Casablanca, Maroc.',
     keywords: ['contact', 'email', 'telephone'],
   },
 ]
 
 export function generateSitemapXML(): string {
-  const baseURL = 'https://essor-consulting.vercel.app'
+  const baseURL = 'https://nextinotech.vercel.app'
   const now = new Date().toISOString().split('T')[0]
 
   const urls = [
@@ -118,7 +118,7 @@ ${urls.map(u => `  <url>
 }
 
 export function generateBreadcrumbSchema(sectionId: string): Record<string, unknown> {
-  const baseURL = 'https://essor-consulting.vercel.app'
+  const baseURL = 'https://nextinotech.vercel.app'
   const items = [
     { name: 'Accueil', url: baseURL },
   ]
@@ -151,7 +151,7 @@ export function generateSectionWebPageSchema(
   description: string,
   imageUrl?: string
 ): Record<string, unknown> {
-  const baseURL = 'https://essor-consulting.vercel.app'
+  const baseURL = 'https://nextinotech.vercel.app'
 
   return {
     '@context': 'https://schema.org',

@@ -8,7 +8,7 @@ metadata:
 # Blog Content Planning Skill — Essor Consulting
 
 ## Context
-Essor Consulting has ~72 published articles targeting supply chain/logistics in Morocco and francophone Africa. The next articles should:
+Essor Consulting has 197 published articles (see the `blogFiles` array in `src/components/Blog.tsx`) targeting supply chain/logistics in Morocco and francophone Africa — covering formation, géo, case studies, secteurs, carrière, entretien d'embauche, jeunes diplômés, and tendances 2026. A researched 100-article expansion plan (new clusters: Achats & Procurement avancé, IA & Digital Supply Chain, RSE & Durabilité, Douane & Commerce International, E-commerce & Last-Mile, RH & Attractivité Employeur, Femmes en Logistique, ERP & Outils, Gestion de Projet, Secteurs verticaux approfondis, Transport & Fret, Afrique francophone approfondie, Risk Management) lives in `blog/_content-plan-100.md` — check it first before proposing new topics. The next articles should:
 1. Fill keyword gaps (topics not yet covered)
 2. Target high-volume searches with low competition
 3. Build topical authority in the main clusters
