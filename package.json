@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "postbuild": "node scripts/check-seo-consistency.mjs",
     "build:prerender": "npm run build",
+    "seo:check": "node scripts/check-seo-consistency.mjs",
     "lint": "eslint .",
     "preview": "vite preview",
     "video:studio": "remotion studio remotion/index.ts",
