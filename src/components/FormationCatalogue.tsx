@@ -284,7 +284,7 @@ function ProgramCard({ p }: { p: typeof PROGRAMMES[0] }) {
               <motion.span animate={{ rotate: open ? 45 : 0 }} transition={{ duration: 0.2 }} style={{ display: 'inline-block', fontSize: '1rem', lineHeight: 1 }}>+</motion.span>
             </button>
             <Link
-              to={p.id === 'rl' ? '/formation-rl/' : `/formation/${p.id}`}
+              to={p.id === 'rl' ? '/formation-rl' : `/formation/${p.id}`}
               style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--mid)', textDecoration: 'none', transition: 'color 0.2s' }}
               onMouseEnter={e => ((e.currentTarget as HTMLElement).style.color = 'var(--blue-bright)')}
               onMouseLeave={e => ((e.currentTarget as HTMLElement).style.color = 'var(--mid)')}
@@ -404,7 +404,7 @@ export default function FormationCatalogue() {
             <p style={{ fontFamily: 'Jost, sans-serif', fontSize: 'clamp(1rem, 1.5vw, 1.2rem)', color: 'var(--mid)', lineHeight: 1.8, fontWeight: 300, maxWidth: 660, margin: '0 0 2rem' }}>
               Nextinotech forme les professionnels de la logistique et de la supply chain au Maroc :
               27 programmes sur 7 domaines, du{' '}
-              <Link to="/formation-rl/" style={{ color: 'var(--blue-bright)', textDecoration: 'none' }}>responsable logistique</Link>{' '}
+              <Link to="/formation-rl" style={{ color: 'var(--blue-bright)', textDecoration: 'none' }}>responsable logistique</Link>{' '}
               à l&apos;acheteur, en inter-entreprise à Casablanca et en intra-entreprise partout au Maroc.
               Prise en charge CSF (OFPPT) / GIAC possible — convention de formation remise à l&apos;inscription.
             </p>
@@ -603,7 +603,7 @@ export default function FormationCatalogue() {
                 Une journée intensive pour structurer votre pilotage logistique. Formateur expert 20+ ans terrain. Hôtel 5★ Casablanca. Tout inclus — déjeuner, support 60 pages, attestation, suivi WhatsApp 30 jours.
               </p>
               <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', marginBottom: '3rem' }}>
-                <Link to="/formation-rl/" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', padding: '1rem 2.5rem', background: 'var(--navy)', color: '#ffffff', fontFamily: 'Jost, sans-serif', fontSize: '0.9rem', fontWeight: 600, textDecoration: 'none', letterSpacing: '0.04em', transition: 'background 0.2s' }}
+                <Link to="/formation-rl" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', padding: '1rem 2.5rem', background: 'var(--navy)', color: '#ffffff', fontFamily: 'Jost, sans-serif', fontSize: '0.9rem', fontWeight: 600, textDecoration: 'none', letterSpacing: '0.04em', transition: 'background 0.2s' }}
                   onMouseEnter={e => (e.currentTarget as HTMLElement).style.background = 'var(--blue-bright)'}
                   onMouseLeave={e => (e.currentTarget as HTMLElement).style.background = 'var(--navy)'}
                 >

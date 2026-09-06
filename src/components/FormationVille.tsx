@@ -114,7 +114,7 @@ export default function FormationVille({ ville }: { ville: VilleFormation }) {
               Voir le{' '}
               <Link to="/formation" style={{ color: 'var(--blue-bright)', textDecoration: 'none' }}>catalogue complet des 27 programmes</Link>{' '}
               ou le programme phare{' '}
-              <Link to="/formation-rl/" style={{ color: 'var(--blue-bright)', textDecoration: 'none' }}>Devenir Responsable Logistique</Link>.
+              <Link to="/formation-rl" style={{ color: 'var(--blue-bright)', textDecoration: 'none' }}>Devenir Responsable Logistique</Link>.
             </p>
           </FadeUp>
         </div>

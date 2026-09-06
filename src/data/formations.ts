@@ -30,7 +30,7 @@ export const PROGRAMMES = [
       "Cas pratique terrain : plan d'action à 90 jours",
     ],
     inclus: ['Hôtel 5★', 'Déjeuner gastronomique', 'Pauses café', 'Support 60+ pages', 'Attestation', 'Suivi WhatsApp 30j'],
-    cta: '/formation-rl/',
+    cta: '/formation-rl',
     color: 'var(--blue-bright)',
   },
   {
@@ -1059,14 +1059,14 @@ export const RL_FAQ: { q: string; a: string }[] = [
 ]
 
 const RL_SESSIONS_2026 = ['2026-09-18', '2026-10-23', '2026-11-13', '2026-12-11']
-const rlOffer = { '@type': 'Offer', price: 1500, priceCurrency: 'MAD', category: 'Formation professionnelle', availability: 'https://schema.org/InStock', url: 'https://nextinotech.com/formation-rl/' }
+const rlOffer = { '@type': 'Offer', price: 1500, priceCurrency: 'MAD', category: 'Formation professionnelle', availability: 'https://schema.org/InStock', url: 'https://nextinotech.com/formation-rl' }
 
 export const rlCourseSchema = {
   '@context': 'https://schema.org',
   '@graph': [
     {
       '@type': 'Course',
-      '@id': 'https://nextinotech.com/formation-rl/#course',
+      '@id': 'https://nextinotech.com/formation-rl#course',
       name: 'Devenir Responsable Logistique',
       description: "Formation intensive d’une journée pour maîtriser les méthodes, les outils et les réflexes du pilotage logistique : fondamentaux, gestion des stocks, transport, pilotage de la performance, systèmes WMS/TMS/ERP.",
       provider: { '@id': ORG_ID },
@@ -1083,16 +1083,16 @@ export const rlCourseSchema = {
     },
     {
       '@type': 'BreadcrumbList',
-      '@id': 'https://nextinotech.com/formation-rl/#breadcrumb',
+      '@id': 'https://nextinotech.com/formation-rl#breadcrumb',
       itemListElement: [
         { '@type': 'ListItem', position: 1, name: 'Accueil', item: 'https://nextinotech.com/' },
         { '@type': 'ListItem', position: 2, name: 'Formations', item: 'https://nextinotech.com/formation' },
-        { '@type': 'ListItem', position: 3, name: 'Devenir Responsable Logistique', item: 'https://nextinotech.com/formation-rl/' },
+        { '@type': 'ListItem', position: 3, name: 'Devenir Responsable Logistique', item: 'https://nextinotech.com/formation-rl' },
       ],
     },
     {
       '@type': 'FAQPage',
-      '@id': 'https://nextinotech.com/formation-rl/#faq',
+      '@id': 'https://nextinotech.com/formation-rl#faq',
       mainEntity: RL_FAQ.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
     },
   ],

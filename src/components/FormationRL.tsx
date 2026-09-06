@@ -546,7 +546,7 @@ export default function FormationRL() {
       <PageMeta
         title="Formation Responsable Logistique — 1 jour · 1 500 MAD · Hôtel 5★ Casablanca | Nextinotech"
         description="Formation intensive 1 journée pour devenir Responsable Logistique. Hôtel 5 étoiles Casablanca. 1 500 MAD tout inclus. Formateur 20+ ans terrain. Places limitées à 8 participants."
-        canonical="https://nextinotech.com/formation-rl/"
+        canonical="https://nextinotech.com/formation-rl"
       />
       <SchemaScript schema={courseSchema} />
 

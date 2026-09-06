@@ -82,7 +82,7 @@ const STATIC: PrerenderRoute[] = [
     jsonLd: [programmesSchema],
   },
   {
-    path: '/formation-rl/',
+    path: '/formation-rl',
     title: 'Formation Responsable Logistique — 1 jour · 1 500 MAD · Hôtel 5★ Casablanca' + SUFFIX,
     description:
       "Formation Responsable Logistique de référence au Maroc : 1 journée intensive à Casablanca, 1 500 MAD tout inclus. Fondamentaux, stocks, transport, KPI, WMS/TMS. Financement CSF / GIAC.",
