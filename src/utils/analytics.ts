@@ -8,7 +8,7 @@
 //   utm_campaign=<nom-court>  ex. rl-session-oct2026, rl-relance-j7
 //
 // Exemple pour l'annonce de la session du 23 octobre sur LinkedIn :
-//   https://nextinotech.com/formation-rl/?utm_source=linkedin&utm_medium=social&utm_campaign=rl-session-oct2026
+//   https://nextinotech.com/formation-rl?utm_source=linkedin&utm_medium=social&utm_campaign=rl-session-oct2026
 
 const GA_ID = import.meta.env.VITE_GA_MEASUREMENT_ID as string | undefined
 

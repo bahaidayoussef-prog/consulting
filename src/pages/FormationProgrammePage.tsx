@@ -12,7 +12,7 @@ function metaDescription(subtitle: string, price: string, unit: string): string 
 export default function FormationProgrammePage() {
   const { programme: id } = useParams<{ programme: string }>()
 
-  if (id === 'rl') return <Navigate to="/formation-rl/" replace />
+  if (id === 'rl') return <Navigate to="/formation-rl" replace />
 
   const p = PROGRAMMES.find((x) => x.id === id)
   if (!p) return <Navigate to="/formation" replace />

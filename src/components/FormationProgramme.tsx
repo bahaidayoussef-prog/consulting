@@ -165,7 +165,7 @@ export default function FormationProgramme({ p }: { p: Programme }) {
               Voir le{' '}
               <Link to="/formation" style={{ color: 'var(--blue-bright-on-dark, #8fbce8)' }}>catalogue complet des 27 formations</Link>{' '}
               ou la{' '}
-              <Link to="/formation-rl/" style={{ color: 'var(--blue-bright-on-dark, #8fbce8)' }}>formation Responsable Logistique</Link>.
+              <Link to="/formation-rl" style={{ color: 'var(--blue-bright-on-dark, #8fbce8)' }}>formation Responsable Logistique</Link>.
             </p>
           </FadeUp>
         </div>
