@@ -779,6 +779,33 @@ export const PROGRAMMES = [
     cta: EMAIL,
     color: 'var(--blue-bright)',
   },
+  {
+    id: 'douane-import-export',
+    num: '27',
+    domaine: 'operationnel',
+    format: 'inter',
+    badge: 'Terrain · Opérationnel',
+    title: 'Formation Douane & Logistique Internationale',
+    subtitle: "Sécuriser vos opérations d'import-export : dédouanement, incoterms et pilotage des flux internationaux.",
+    duration: '2 jours',
+    hours: '2 × 8h30 — 17h30',
+    group: '8 à 14 participants',
+    price: '3 200',
+    unit: 'MAD TTC / participant',
+    lieu: 'Hôtel 5★ Casablanca',
+    public: ['Responsables import-export', 'Déclarants en douane', 'Responsables logistique & transport international', 'Acheteurs et commerciaux export'],
+    modules: [
+      'Cadre réglementaire douanier marocain : régimes économiques, PortNet et BADR',
+      'Incoterms 2020 : bien choisir et sécuriser la répartition des risques',
+      'Procédures de dédouanement import/export et documents de commerce international',
+      'Transport international multimodal : maritime, routier, aérien — choisir le bon mode',
+      'Calcul des coûts logistiques internationaux et optimisation du dédouanement',
+      "Cas pratique : monter un dossier d'import de bout en bout",
+    ],
+    inclus: ['Support 60+ pages', 'Modèles de documents douaniers', 'Attestation', 'Suivi WhatsApp 30j'],
+    cta: WA,
+    color: '#1b3554',
+  },
 ]
 
 /* ─── Data — FAQ ────────────────────────────────────────────── */
@@ -847,6 +874,7 @@ export const SESSIONS = [
     { date: '9–10 Déc', titre: 'Chef de Projet Opérationnel', format: 'inter', places: 12, id: 'chef-projet' },
     { date: '11 Déc', titre: 'Responsable Logistique', format: 'inter', places: 4, id: 'rl' },
     { date: '15 Déc', titre: 'Prévenir le Burnout', format: 'intra', places: null, id: 'prevenir-burnout' },
+    { date: '16–17 Déc', titre: 'Douane & Logistique Internationale', format: 'inter', places: 8, id: 'douane-import-export' },
     { date: '18 Déc', titre: 'IA Générative Supply Chain & Achats', format: 'inter', places: 14, id: 'ia-supply-chain' },
   ]},
 ]
