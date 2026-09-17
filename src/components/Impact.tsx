@@ -273,7 +273,7 @@ export default function Impact() {
             paddingLeft: '2.5rem',
             margin: 0,
           }}>
-            "Notre modèle : zéro commission sur les logiciels. Zéro conflit d&apos;intérêt.
+            "Notre modèle : zéro conflit d&apos;intérêt.
             Cent pour cent aligné sur votre résultat opérationnel."
           </blockquote>
         </div>

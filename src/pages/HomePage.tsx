@@ -33,7 +33,7 @@ const ACCOMPAGNEMENTS = [
     num: '01',
     eyebrow: 'Vous ne savez pas encore quoi faire',
     title: 'Conseil & Expertise.',
-    tagline: "Diagnostic, DDMRP, sélection et déploiement de systèmes SI & IA, direction supply chain à temps partagé. Un regard extérieur, indépendant, sans commission éditeur.",
+    tagline: "Diagnostic, DDMRP, sélection et déploiement de systèmes SI & IA, direction supply chain à temps partagé. Un regard extérieur, indépendant.",
     points: ['Diagnostic Express', 'DDMRP', 'Systèmes SI & IA (WMS/TMS/APS)', 'DSC à temps partagé'],
     href: '/conseil',
     cta: 'Découvrir le Conseil →',
@@ -42,8 +42,8 @@ const ACCOMPAGNEMENTS = [
     num: '02',
     eyebrow: 'Vous savez quoi faire, il faut l’exécuter',
     title: 'Prestations Opérationnelles.',
-    tagline: "Pack Inventaire, services logistiques à valeur ajoutée, imprimantes industrielles Leibinger. Nos propres équipes, notre propre matériel, sur devis.",
-    points: ['Pack Inventaire', '7 services à valeur ajoutée', 'Imprimantes Leibinger'],
+    tagline: "Pack Inventaire, services logistiques à valeur ajoutée, imprimantes industrielles Leibinger, solutions IT & RFID avec notre partenaire technique. Nos propres équipes, notre propre matériel, sur devis.",
+    points: ['Pack Inventaire', '7 services à valeur ajoutée', 'Imprimantes Leibinger', 'IT & RFID'],
     href: '/prestations',
     cta: 'Découvrir les Prestations →',
   },
@@ -213,10 +213,6 @@ export default function HomePage() {
                 <div>
                   <div className="stat-value" style={{ color: '#ffffff' }}>110+</div>
                   <div className="stat-label" style={{ color: 'rgba(245,243,238,0.5)' }}>Missions réalisées</div>
-                </div>
-                <div>
-                  <div className="stat-value" style={{ color: '#ffffff' }}>0</div>
-                  <div className="stat-label" style={{ color: 'rgba(245,243,238,0.5)' }}>Commission éditeurs</div>
                 </div>
               </div>
             </div>

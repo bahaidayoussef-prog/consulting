@@ -16,7 +16,6 @@ const LINES = [
 const STATS = [
   { value: '110+', label: 'Missions réalisées' },
   { value: '20+', label: "Ans d'expérience" },
-  { value: '0', label: 'Commission éditeurs' },
   { value: '~5', label: 'Consultants experts' },
 ]
 
@@ -320,7 +319,7 @@ export default function Hero() {
           bottom: 0, left: 0, right: 0,
           zIndex: 2,
           display: 'grid',
-          gridTemplateColumns: 'repeat(4, 1fr)',
+          gridTemplateColumns: `repeat(${STATS.length}, 1fr)`,
           background: 'rgba(255,255,255,0.85)',
           backdropFilter: 'blur(24px) saturate(1.4)',
           WebkitBackdropFilter: 'blur(24px) saturate(1.4)',
@@ -332,7 +331,7 @@ export default function Hero() {
             key={s.label}
             style={{
               padding: '1.4rem 1.8rem',
-              borderRight: i < 3 ? '1px solid var(--border)' : 'none',
+              borderRight: i < STATS.length - 1 ? '1px solid var(--border)' : 'none',
             }}
           >
             <div className="stat-value">{s.value}</div>

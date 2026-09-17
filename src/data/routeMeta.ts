@@ -19,13 +19,13 @@ const STATIC: PrerenderRoute[] = [
     path: '/',
     title: 'Nextinotech — Conseil & Formation Supply Chain, Logistique et Achats au Maroc',
     description:
-      "Cabinet indépendant de conseil et de formation en Supply Chain, Logistique et Achats au Maroc. Diagnostic, optimisation des stocks (DDMRP), schéma logistique, AMOA WMS/TMS, 28 formations. 20+ ans de terrain, zéro commission éditeur.",
+      "Cabinet indépendant de conseil et de formation en Supply Chain, Logistique et Achats au Maroc. Diagnostic, optimisation des stocks (DDMRP), schéma logistique, AMOA WMS/TMS, 28 formations. 20+ ans de terrain.",
   },
   {
     path: '/conseil',
     title: 'Conseil Supply Chain au Maroc — Diagnostic, Stocks, Achats, Schéma Logistique' + SUFFIX,
     description:
-      "Conseil Supply Chain et Logistique pour PME et ETI marocaines : diagnostic, optimisation des stocks et DDMRP, performance achats, schéma logistique, cahiers des charges, IA & automatisation, AMOA. Zéro commission éditeur.",
+      "Conseil Supply Chain et Logistique pour PME et ETI marocaines : diagnostic, optimisation des stocks et DDMRP, performance achats, schéma logistique, cahiers des charges, IA & automatisation, AMOA.",
   },
   {
     path: '/prestations',
@@ -43,7 +43,7 @@ const STATIC: PrerenderRoute[] = [
     path: '/a-propos',
     title: 'À propos — Cabinet Supply Chain Indépendant au Maroc' + SUFFIX,
     description:
-      "Nextinotech, cabinet indépendant de conseil et d’AMOA en Supply Chain dédié aux PME et ETI marocaines. 20+ ans d’expérience terrain, équipe certifiée DDMRP, zéro commission éditeur.",
+      "Nextinotech, cabinet indépendant de conseil et d’AMOA en Supply Chain dédié aux PME et ETI marocaines. 20+ ans d’expérience terrain, équipe certifiée DDMRP.",
   },
   {
     path: '/blog',
@@ -118,6 +118,12 @@ const STATIC: PrerenderRoute[] = [
     title: 'DSC en CDI ou Mandat à Temps Partagé ? Le Comparatif Complet' + SUFFIX,
     description:
       "Coût réel, délai de démarrage, engagement, résultat en sortie : le comparatif chiffré entre recruter un Directeur Supply Chain en CDI et un mandat à temps partagé.",
+  },
+  {
+    path: '/accompagnement-oea',
+    title: 'Accompagnement Statut OEA (Opérateur Économique Agréé) au Maroc' + SUFFIX,
+    description:
+      "Cabinet d'accompagnement pour l'obtention du statut OEA — Simplifications Douanières — auprès de l'ADII. Diagnostic, mise en conformité, dossier de candidature, audit à blanc, coaching le jour de l'audit.",
   },
   {
     path: '/outils/dimensionnement-entrepot',

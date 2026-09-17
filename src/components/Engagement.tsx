@@ -6,7 +6,7 @@ const GOLD = 'rgba(47,111,181,1)'
 const items = [
   {
     title: 'Indépendance totale',
-    desc: 'Nous ne touchons aucune commission de tout éditeur, intégrateur ou fournisseur. Notre rémunération vient exclusivement de vous.',
+    desc: 'Notre rémunération vient exclusivement de vous, jamais d’un tiers technique. Nous recommandons ce qui sert votre business case, pas nos intérêts.',
     icon: (
       <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke={GOLD} strokeWidth="1.5" strokeLinecap="round">
         <line x1="12" y1="2" x2="12" y2="22" />

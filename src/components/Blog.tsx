@@ -324,6 +324,14 @@ export default function Blog() {
           '319-chatbot-de-suivi-de-commande-par-ia-dsengorger-le-service-cl',
           '320-loi-09-08-et-cndp-utiliser-un-llm-sans-exposer-ses-donnes-fo',
 
+          // Cluster OEA (Opérateur Économique Agréé) — appui au service /accompagnement-oea
+          '321-statut-oea-maroc-procedure-adii-etape-par-etape',
+          '322-oea-categorie-a-ou-b-maroc-differences',
+          '323-pourquoi-demande-oea-echoue-maroc',
+          '324-oea-automobile-aeronautique-maroc',
+          '325-mini-combien-de-temps-statut-oea-maroc',
+          '326-mini-cout-statut-oea-maroc',
+
           // Cluster IA — tendances IA par métier (100 articles supplémentaires)
           '327-prompt-engineering-achats-logistique',
           '328-rag-base-de-connaissance-logistique',
