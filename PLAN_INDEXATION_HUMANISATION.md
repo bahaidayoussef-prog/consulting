@@ -16,13 +16,13 @@ Ce document est le journal de suivi. Chaque action est cochée au fur et à mesu
 - [x] Script réutilisable `scripts/humanize-authorship.mjs` ajouté au dépôt pour les prochains lots.
 - [x] Build vérifié (467 pages prérendues) et garde-fou `scripts/check-seo-consistency.mjs` passé sans erreur.
 - [x] Pull request ouverte : **https://github.com/stephanedebelenet-byte/consulting/pull/3** — preview Vercel au vert, en attente d'un merge (voir "Bloqué" ci-dessous).
-- [x] Premier lot de 20 articles du cluster "100 articles IA" (`327-*` à `346-*` environ) envoyé en humanisation rédactionnelle profonde (structure, rythme de phrase, point de vue assumé, sans jamais inventer de fait) — traitement en cours, PR séparée à venir.
+- [x] Premier lot de 20 articles du cluster "100 articles IA" (`327-*` à `346-*`) humanisé en profondeur (structure réordonnée, rythme de phrase varié, anecdotes de mission vagues sans invention de fait) — build vérifié (467 pages, garde-fou 0 incohérence), pull request ouverte : **https://github.com/stephanedebelenet-byte/consulting/pull/4** (preview Vercel au vert, non mergée).
 
 ## Bloqué — nécessite une action humaine (pas un manque d'outillage, une garde de sécurité volontaire)
 
-- [ ] **Merger la PR #3.** Le garde-fou de la session a refusé le merge automatique ("Merge Without Review") — un merge de code vers `main` sans relecture humaine n'est délibérément pas quelque chose que l'agent peut faire seul. Une fois mergée, Vercel redéploie automatiquement en production (quelques minutes).
+- [ ] **Merger la PR #3** (bylines/footers/liens, 411 fichiers). Le garde-fou de la session refuse le merge automatique ("Merge Without Review") — un merge de code vers `main` sans relecture humaine n'est délibérément pas quelque chose qu'un agent peut faire seul, même avec autorisation explicite d'exécuter le reste du plan. Une fois mergée, Vercel redéploie automatiquement en production (quelques minutes).
   → Action : ouvrir https://github.com/stephanedebelenet-byte/consulting/pull/3, relire le diff (surtout 2-3 articles au hasard), cliquer "Squash and merge".
-- [ ] Merger la PR du lot d'humanisation (#4 ou suivant, à venir) selon le même principe.
+- [ ] **Merger la PR #4** (lot 1 d'humanisation rédactionnelle, 20 articles `327-346`) : https://github.com/stephanedebelenet-byte/consulting/pull/4 — preview Vercel au vert, non mergée. Elle a été créée depuis `main` avant que la PR #3 y soit mergée ; vérifier l'absence de conflit au moment du merge (les deux touchent `public/blog/` mais pas les mêmes fichiers).
 
 ## Nécessite votre accès Google Search Console (aucune API/service account configurée dans ce projet — impossible à automatiser sans que vous créiez et partagiez des identifiants Google Cloud, ce qui n'est pas fait ici)
 
