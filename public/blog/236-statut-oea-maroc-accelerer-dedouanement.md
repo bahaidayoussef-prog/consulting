@@ -34,7 +34,9 @@ Les entreprises titulaires du statut OEA bénéficient de simplifications dans l
 
 Le statut OEA reste très sous-utilisé au Maroc — 6,81% de taux de pénétration seulement parmi les entreprises éligibles — alors même que les avantages concrets (moins de contrôles, traitement prioritaire) sont réels et que la croissance du nombre de nouvelles certifications (+22% en 2024) montre un intérêt grandissant. Le prérequis le plus exigeant reste la traçabilité des stocks et des écritures commerciales, pas l'absence de contentieux. Notre [guide PORTNET et BADR](/blog/guide-portnet-et-badr-2026-matriser-les-plateformes-douanire) détaille la plateforme sur laquelle s'appuie une grande partie des opérateurs éligibles à l'OEA ; notre article sur les [régimes douaniers suspensifs](/blog/rgimes-douaniers-suspensifs-admission-temporaire-eif-stock-t) traite un autre enjeu de traçabilité des stocks qui rejoint directement ce critère d'éligibilité.
 
-Votre entreprise souhaite évaluer son éligibilité au statut OEA ou structurer sa traçabilité de stock en amont d'une demande ? [Découvrez nos services de conseil douane et supply chain](/conseil), ou [contactez-nous](/contact) pour un diagnostic.
+Pour aller plus loin, notre dossier complet sur le statut OEA détaille [la procédure ADII étape par étape](/blog/statut-oea-maroc-la-procdure-adii-tape-par-tape), [les différences entre catégorie A et B](/blog/oea-catgorie-a-ou-b-au-maroc-les-diffrences-cls), [les causes réelles d'échec d'une demande](/blog/pourquoi-une-demande-de-statut-oea-choue-au-maroc) et [l'enjeu spécifique aux secteurs automobile et aéronautique](/blog/oea-dans-lautomobile-et-laronautique-au-maroc).
+
+Votre entreprise souhaite évaluer son éligibilité au statut OEA ou structurer sa traçabilité de stock en amont d'une demande ? [Découvrez notre accompagnement dédié au statut OEA](/accompagnement-oea), un mandat de résultat jusqu'à la notification d'agrément, ou [contactez-nous](/contact) pour un diagnostic.
 
 **Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
