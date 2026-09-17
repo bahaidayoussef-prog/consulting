@@ -878,6 +878,12 @@ export default function FormationImport() {
                 >
                   Directeur Achats à Temps Partagé →
                 </Link>
+                <Link
+                  to="/accompagnement-oea"
+                  style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.65rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--blue-bright)', textDecoration: 'none' }}
+                >
+                  Accompagnement Statut OEA →
+                </Link>
               </div>
             </motion.div>
           </div>
