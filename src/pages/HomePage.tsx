@@ -294,7 +294,7 @@ export default function HomePage() {
             <FadeUp delay={0.1}>
               <div style={{ display: 'flex', gap: '2.5rem' }}>
                 <div>
-                  <div className="stat-value">27</div>
+                  <div className="stat-value">29</div>
                   <div className="stat-label">Programmes</div>
                 </div>
                 <div>

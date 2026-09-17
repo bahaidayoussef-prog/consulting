@@ -779,12 +779,39 @@ export const PROGRAMMES = [
     cta: WA,
     color: '#1b3554',
   },
+  {
+    id: 'cursus-sc-distance',
+    num: '28',
+    domaine: 'sc',
+    format: 'inter',
+    badge: 'Nouveau · 100% à distance',
+    title: 'Cursus Supply Chain Management — 100% à Distance',
+    subtitle: 'Un parcours complet en soirée pour se reconvertir vers la Supply Chain ou monter en compétence, sans quitter son poste.',
+    duration: '6 semaines',
+    hours: '2 soirs / semaine · 19h—21h en visio',
+    group: '10 à 20 participants',
+    price: '4 500',
+    unit: 'MAD TTC / participant',
+    lieu: '100% en ligne (visioconférence)',
+    public: ['Professionnels en reconversion vers la Supply Chain', 'Jeunes diplômés visant un premier poste SC', 'Collaborateurs promus sans formation SC formelle', 'Actifs en poste souhaitant monter en compétence en soirée'],
+    modules: [
+      'Fondamentaux de la Supply Chain : flux physiques, informationnels et acteurs',
+      'Prévision et planification de la demande — méthodes et outils',
+      'Gestion des approvisionnements et relation fournisseurs',
+      'Gestion des stocks : modèles, KPIs et bonnes pratiques',
+      'Logistique et distribution : entreposage, transport, derniers kilomètres',
+      "Étude de cas fil rouge : simulation d'entreprise, du diagnostic au plan d'action",
+    ],
+    inclus: ['12 sessions live en visio', 'Replays disponibles 30 jours', 'Étude de cas fil rouge', 'Support de cours complet', 'Attestation de formation Nextinotech', 'Communauté WhatsApp des participants'],
+    cta: WA,
+    color: 'var(--blue-bright)',
+  },
 ]
 
 /* ─── Data — FAQ ────────────────────────────────────────────── */
 export const FAQ = [
   {
-    q: 'Comment choisir le bon programme parmi les 27 ?',
+    q: 'Comment choisir le bon programme parmi les 29 ?',
     a: "Selon votre objectif : une compétence terrain immédiate (formations inter, 1 à 2 jours, ex. Responsable Logistique, DDMRP), une montée en compétence d'équipe sur mesure (intra-entreprise adapté à votre secteur), ou un accompagnement individuel dans la durée (coaching DSC). Contactez-nous, nous orientons gratuitement selon votre contexte.",
   },
   {
@@ -825,6 +852,7 @@ export const SESSIONS = [
     { date: '30 Sep', titre: 'Chef de Projet Opérationnel', format: 'inter', places: 10, id: 'chef-projet' },
   ]},
   { mois: 'Octobre', sessions: [
+    { date: '5 Oct', titre: 'Rentrée · Cursus Supply Chain Management à distance', format: 'inter', places: 15, id: 'cursus-sc-distance' },
     { date: '7–8 Oct', titre: 'Lean Management & 5S', format: 'intra', places: null, id: 'lean-5s' },
     { date: '9 Oct', titre: 'Supply Chain Décideurs', format: 'intra', places: null, id: 'decideurs' },
     { date: '16–17 Oct', titre: 'S&OP & Planification Avancée', format: 'intra', places: null, id: 'sop' },
@@ -1128,5 +1156,5 @@ export const rlCourseSchema = {
 
 export const catalogueMeta = {
   title: 'Formations Supply Chain, Lean, Management, Finance, Projet & Carrière — Nextinotech',
-  description: "27 programmes de formation sur 7 domaines : Supply Chain, Opérationnel, Lean, Management, Finance, Gestion de Projet, Carrière & Bien-être. Inter et intra-entreprise. Catalogue et calendrier 2026.",
+  description: "29 programmes de formation sur 7 domaines : Supply Chain, Opérationnel, Lean, Management, Finance, Gestion de Projet, Carrière & Bien-être. Inter et intra-entreprise. Catalogue et calendrier 2026.",
 }

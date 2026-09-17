@@ -369,7 +369,7 @@ export default function FormationCatalogue() {
     <>
       <PageMeta
         title="Formations Supply Chain, Lean, Management, Finance, Projet & Carrière — Nextinotech"
-        description="27 programmes de formation sur 7 domaines : Supply Chain, Opérationnel, Lean, Management, Finance, Gestion de Projet, Carrière & Bien-être. Inter et intra-entreprise. Catalogue et calendrier 2026."
+        description="29 programmes de formation sur 7 domaines : Supply Chain, Opérationnel, Lean, Management, Finance, Gestion de Projet, Carrière & Bien-être. Inter et intra-entreprise. Catalogue et calendrier 2026."
         canonical="https://nextinotech.com/formation"
       />
       <SchemaScript schema={programmesSchema} />
@@ -403,7 +403,7 @@ export default function FormationCatalogue() {
           <Reveal delay={0.09}>
             <p style={{ fontFamily: 'Jost, sans-serif', fontSize: 'clamp(1rem, 1.5vw, 1.2rem)', color: 'var(--mid)', lineHeight: 1.8, fontWeight: 300, maxWidth: 660, margin: '0 0 2rem' }}>
               Nextinotech forme les professionnels de la logistique et de la supply chain au Maroc :
-              27 programmes sur 7 domaines, du{' '}
+              29 programmes sur 7 domaines, du{' '}
               <Link to="/formation-rl" style={{ color: 'var(--blue-bright)', textDecoration: 'none' }}>responsable logistique</Link>{' '}
               à l&apos;acheteur, en inter-entreprise à Casablanca et en intra-entreprise partout au Maroc.
               Prise en charge CSF (OFPPT) / GIAC possible — convention de formation remise à l&apos;inscription.
@@ -429,7 +429,7 @@ export default function FormationCatalogue() {
             }}
           >
             {[
-              { val: '27', label: 'programmes disponibles' },
+              { val: '29', label: 'programmes disponibles' },
               { val: '7', label: 'domaines de formation' },
               { val: '20+', label: 'ans de terrain formateur' },
             ].map((s, i) => (
@@ -461,7 +461,7 @@ export default function FormationCatalogue() {
                   02 / Catalogue & calendrier
                 </div>
                 <h2 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2.5rem, 5vw, 6rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', color: 'var(--navy)', margin: 0 }}>
-                  27 programmes.<br />
+                  29 programmes.<br />
                   <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>7 domaines d'expertise.</span>
                 </h2>
               </div>
