@@ -12,21 +12,21 @@ description: "La checklist de data readiness avant tout projet IA supply chain :
 
 ![Graphiques et tableaux de planification](/images/charts.webp)
 
-**Aucun projet IA supply chain n'échoue à cause du modèle. Il échoue parce que le référentiel articles a trois codifications différentes selon le site, que l'historique de ventes mélange les retours avec les ventes nettes, ou que personne ne sait quelle version de la nomenclature est la bonne. Le modèle le plus sophistiqué du marché produit des résultats inutilisables sur une donnée sale — et c'est ce qui se passe dans la majorité des projets IA que nous reprenons après un premier échec.** Voici la checklist de data readiness à passer avant tout déploiement.
+Aucun projet IA supply chain n'échoue à cause du modèle. Il échoue parce que le référentiel articles a trois codifications différentes selon le site, que l'historique de ventes mélange les retours avec les ventes nettes, ou que personne ne sait quelle version de la nomenclature est la bonne. **Le modèle le plus sophistiqué du marché produit des résultats inutilisables sur une donnée sale** — et c'est très exactement ce que nous constatons dans la majorité des projets IA que nous reprenons après un premier échec. Voici la checklist de data readiness à passer avant tout déploiement.
 
 ## Les 5 points à vérifier avant de signer un projet IA
 
-1. **Référentiel articles unique** : une référence, un code, sur tous les sites — pas de doublons créés faute de synchronisation.
-2. **Historique propre sur 24 mois minimum** : ventes nettes séparées des retours, ruptures documentées, promotions identifiées.
-3. **Nomenclatures à jour** : la version utilisée en production, pas celle d'il y a deux ans.
-4. **Flux EDI ou interfaces fiables** : pas de ressaisie manuelle qui introduit des erreurs à chaque étape.
-5. **Propriétaire de la donnée identifié** : quelqu'un doit être responsable de la qualité de chaque table, sinon personne ne corrige.
+1. **Référentiel articles unique** : une référence, un code, sur tous les sites — pas de doublons créés faute de synchronisation entre systèmes.
+2. **Historique propre sur 24 mois minimum** : ventes nettes séparées des retours, ruptures documentées, promotions identifiées comme telles.
+3. **Nomenclatures à jour** : la version réellement utilisée en production, pas celle archivée depuis deux ans dans un dossier partagé.
+4. **Flux EDI ou interfaces fiables** : pas de ressaisie manuelle, qui introduit une erreur nouvelle à chaque étape du transfert.
+5. **Propriétaire de la donnée identifié** : quelqu'un doit porter la responsabilité de la qualité de chaque table — sinon, personne ne la corrige jamais.
 
 ::stat:: 80% — part du temps d'un projet IA supply chain typiquement consacrée au nettoyage de données plutôt qu'au modèle lui-même
 
 ## Le test simple qui révèle tout
 
-Demandez à trois personnes différentes d'extraire le stock actuel d'une même référence à la même date. Si vous obtenez trois chiffres différents, vous n'êtes pas prêt pour un projet IA — vous êtes prêt pour un projet de fiabilisation de données, ce qui est la vraie première étape.
+Voici un test que nous faisons passer avant chaque mission de cadrage : demandez à trois personnes différentes d'extraire le stock actuel d'une même référence à la même date. Si vous obtenez trois chiffres différents, vous n'êtes pas prêt pour un projet IA. Vous êtes prêt pour un projet de fiabilisation de données — ce qui, dit franchement, est la vraie première étape, même si elle est moins vendeuse qu'un déploiement d'IA générative.
 
 | Symptôme observé | Ce qu'il révèle |
 |---|---|

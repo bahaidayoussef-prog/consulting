@@ -12,13 +12,11 @@ description: "Le plan d'acculturation en 90 jours pour embarquer les équipes lo
 
 ![Réunion de conseil et accompagnement stratégique](/images/conseil.webp)
 
-**Le meilleur outil IA du marché, déployé sur une équipe qui n'a pas été préparée, produit un usage clandestin, une adoption à 15% ou un rejet pur et simple. La conduite du changement n'est pas une case à cocher après le déploiement technique : c'est la moitié du budget projet, et c'est la moitié la plus souvent oubliée dans les devis d'éditeurs IA.** Voici le plan d'acculturation en 90 jours que nous déployons sur nos missions.
+Le meilleur outil IA du marché, déployé sur une équipe qui n'a pas été préparée, produit un usage clandestin, une adoption à 15% ou un rejet pur et simple. **La conduite du changement n'est pas une case à cocher après le déploiement technique : c'est la moitié du budget projet** — et c'est la moitié la plus souvent oubliée dans les devis d'éditeurs IA, qui préfèrent vendre la licence que le temps d'accompagnement. Voici le plan d'acculturation en 90 jours que nous déployons sur nos missions.
 
 ## Les peurs légitimes à traiter, pas à balayer
 
-- **« L'IA va prendre mon poste »** : répondre par des faits sur les métiers qui se transforment, pas disparaissent — voir notre article sur [l'IA et l'emploi en supply chain](/blog/ia-et-emploi-en-supply-chain-quels-mtiers-se-transforment).
-- **« Je vais perdre mon expertise »** : montrer que l'IA traite le volume, pas le jugement — l'expertise terrain reste irremplaçable.
-- **« C'est un outil de contrôle »** : être transparent sur l'usage réel des données collectées.
+Trois objections reviennent presque à l'identique d'une équipe à l'autre, quel que soit le secteur. « L'IA va prendre mon poste » se traite par des faits sur les métiers qui se transforment, pas qui disparaissent — voir notre article sur [l'IA et l'emploi en supply chain](/blog/ia-et-emploi-en-supply-chain-quels-mtiers-se-transforment). « Je vais perdre mon expertise » se répond en montrant que l'IA traite le volume, jamais le jugement : l'expertise terrain reste, et restera, irremplaçable. Quant à « c'est un outil de contrôle », la seule réponse crédible est la transparence totale sur l'usage réel des données collectées — toute ambiguïté sur ce point ruine la confiance avant même le premier déploiement.
 
 ## Le plan en 90 jours
 
@@ -33,7 +31,7 @@ description: "Le plan d'acculturation en 90 jours pour embarquer les équipes lo
 
 ## Le rôle irremplaçable du management de proximité
 
-Un chef d'équipe ou un responsable d'entrepôt qui utilise lui-même l'outil devant ses équipes fait plus pour l'adoption que dix heures de formation magistrale. À l'inverse, un management qui délègue l'IA « aux jeunes » ou à l'IT signale implicitement que ce n'est pas sérieux.
+Sur une mission récente dans le secteur industriel, le déclic n'est pas venu d'une formation mais d'un chef d'équipe qui a ouvert l'outil devant ses opérateurs, en direct, pour répondre à une vraie question posée en pleine tournée. Un chef d'équipe ou un responsable d'entrepôt qui utilise lui-même l'outil devant ses équipes fait plus pour l'adoption que dix heures de formation magistrale. À l'inverse, un management qui délègue l'IA « aux jeunes » ou à l'IT signale, sans le dire, que ce n'est pas vraiment sérieux.
 
 > **L'acculturation réussie ne se mesure pas au nombre de comptes créés, mais au nombre d'usages spontanés après trois mois.** C'est l'indicateur que nous suivons avec nos clients, bien plus révélateur qu'un taux de connexion.
 

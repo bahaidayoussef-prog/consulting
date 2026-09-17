@@ -12,13 +12,11 @@ description: "Comment l'IA détecte les ruptures larvées, les commandes aberran
 
 ![Graphiques et tableaux de planification](/images/charts.webp)
 
-**Un stock qui dérive lentement pendant six semaines ne déclenche aucune alerte dans un système à seuils fixes — le problème n'apparaît que lorsqu'il devient une rupture. L'IA détecte les tendances anormales avant qu'elles ne franchissent un seuil, en apprenant le comportement normal de chaque référence plutôt qu'en appliquant une règle unique à tout le catalogue.** Voici les cas d'usage les plus utiles en entrepôt et en planification.
+Un stock qui dérive lentement pendant six semaines ne déclenche aucune alerte dans un système à seuils fixes : le problème n'apparaît que lorsqu'il devient, brutalement, une rupture. **L'IA détecte les tendances anormales avant qu'elles ne franchissent un seuil**, en apprenant le comportement normal de chaque référence plutôt qu'en appliquant une règle unique à tout le catalogue. Voici les cas d'usage les plus utiles en entrepôt et en planification.
 
 ## Trois types d'anomalies que l'IA détecte tôt
 
-- **Rupture larvée** : une couverture de stock qui se dégrade progressivement sans franchir de seuil d'alerte classique.
-- **Commande aberrante** : un volume commandé anormal par rapport à l'historique de la référence ou du client, signe d'erreur de saisie ou de sur-stockage préventif.
-- **Dérive de consommation** : un changement de rythme de sortie qui précède souvent une rupture ou un surstock de plusieurs semaines.
+La rupture larvée en premier lieu : une couverture de stock qui se dégrade progressivement, sans jamais franchir de seuil d'alerte classique — c'est presque toujours la plus coûteuse parce qu'elle passe inaperçue le plus longtemps. La commande aberrante ensuite, un volume anormal par rapport à l'historique de la référence ou du client, souvent signe d'une erreur de saisie ou d'un sur-stockage préventif mal justifié. Et la dérive de consommation, un changement de rythme de sortie qui précède fréquemment une rupture ou un surstock de plusieurs semaines à venir.
 
 ::stat:: 3 à 4 semaines — anticipation moyenne gagnée sur la détection d'une rupture larvée grâce à une alerte comportementale plutôt qu'à un seuil fixe
 
@@ -29,11 +27,11 @@ description: "Comment l'IA détecte les ruptures larvées, les commandes aberran
 | Seuil fixe | Alerte si stock < X unités | Ne détecte pas une dérive progressive |
 | Détection IA comportementale | Alerte si le comportement diffère de l'historique de la référence | Nécessite un historique propre — voir [qualité des données](/blog/qualit-des-donnes-pourquoi-les-projets-ia-supply-chain-choue) |
 
-> **L'alerte la plus utile est celle qui arrive avant que le problème ne soit visible dans les KPI standards.** Une fois qu'une rupture apparaît dans le taux de service, il est déjà trop tard pour agir dessus — seule la détection amont permet une action corrective. Complète notre [control tower logistique](/blog/control-tower-logistique-piloter-sa-supply-chain-en-temps-re).
+> **L'alerte la plus utile est celle qui arrive avant que le problème ne soit visible dans les KPI standards.** Une fois qu'une rupture apparaît dans le taux de service, il est déjà trop tard pour agir dessus — seule la détection amont laisse encore une marge de manœuvre. Complète notre [control tower logistique](/blog/control-tower-logistique-piloter-sa-supply-chain-en-temps-re).
 
 ## Ce qu'il faut retenir
 
-La détection d'anomalies par IA repère les ruptures larvées et les commandes aberrantes plusieurs semaines avant qu'elles ne deviennent visibles dans les indicateurs classiques à seuil fixe. C'est un des cas d'usage à ROI le plus rapide en pilotage de stock.
+La détection d'anomalies par IA repère les ruptures larvées et les commandes aberrantes plusieurs semaines avant qu'elles ne deviennent visibles dans les indicateurs classiques à seuil fixe. C'est, dans notre expérience, l'un des cas d'usage à ROI le plus rapide en pilotage de stock.
 
 Vous voulez mettre en place une détection d'anomalies sur vos stocks critiques ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 
