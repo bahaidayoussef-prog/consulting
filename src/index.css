@@ -433,6 +433,10 @@ html.lenis { height: auto; }
   .dsc-teaser-grid { grid-template-columns: 1fr !important; gap: 2.5rem !important; }
   /* Prestations : offre Leibinger 2 colonnes → 1 */
   .leibinger-grid { grid-template-columns: 1fr !important; gap: 2rem !important; }
+  /* Prestations : offre Solutions IT — 3 piliers → 1 */
+  .partenaire-pillars-grid { grid-template-columns: 1fr !important; gap: 2rem !important; }
+  /* Prestations : offre Solutions IT — mur de références 5 colonnes → 3 */
+  .partenaire-references-grid { grid-template-columns: repeat(3, 1fr) !important; }
   /* Prestations : Services Logistiques à Valeur Ajoutée 4 colonnes → 2 */
   .valeur-ajoutee-grid { grid-template-columns: 1fr 1fr !important; }
 }
@@ -477,6 +481,8 @@ html.lenis { height: auto; }
   .system-row-grid { grid-template-columns: 28px auto 1fr auto !important; gap: 0.6rem !important; }
   /* Services (Conseil) : Services Logistiques à Valeur Ajoutée 2 colonnes → 1 */
   .valeur-ajoutee-grid { grid-template-columns: 1fr !important; }
+  /* Prestations : offre Solutions IT — mur de références 3 colonnes → 2 */
+  .partenaire-references-grid { grid-template-columns: repeat(2, 1fr) !important; }
 }
 
 /* ── FormationRL responsive grids ── */
