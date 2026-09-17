@@ -112,7 +112,7 @@ export default function FormationVille({ ville }: { ville: VilleFormation }) {
           <FadeUp delay={0.1}>
             <p style={{ marginTop: '2rem', fontFamily: 'Jost, sans-serif', fontSize: '1rem', lineHeight: 1.8, color: 'var(--mid)', fontWeight: 300 }}>
               Voir le{' '}
-              <Link to="/formation" style={{ color: 'var(--blue-bright)', textDecoration: 'none' }}>catalogue complet des 28 programmes</Link>{' '}
+              <Link to="/formation" style={{ color: 'var(--blue-bright)', textDecoration: 'none' }}>catalogue complet des 30 programmes</Link>{' '}
               ou le programme phare{' '}
               <Link to="/formation-rl" style={{ color: 'var(--blue-bright)', textDecoration: 'none' }}>Devenir Responsable Logistique</Link>.
             </p>
