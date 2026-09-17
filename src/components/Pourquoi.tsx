@@ -40,7 +40,7 @@ const steps = [
     num: '03',
     title: 'Digitize',
     sub: 'Sélectionner la technologie',
-    desc: "Rédiger le cahier des charges, animer les RFP, recommander sans aucune commission éditeur. Notre seule allégeance est au business case.",
+    desc: "Rédiger le cahier des charges, animer les RFP, recommander en toute indépendance. Notre seule allégeance est au business case.",
   },
   {
     num: '04',

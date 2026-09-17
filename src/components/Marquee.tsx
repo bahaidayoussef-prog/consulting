@@ -23,7 +23,6 @@ const ROW1 = [
 
 const ROW2 = [
   'Conseil Indépendant',
-  '0 Commission Éditeur',
   'DDMRP Certifié',
   'PME & ETI Maroc',
   'AMOA Supply Chain',

@@ -53,7 +53,7 @@ const services = [
     num: '05',
     title: 'Cahiers des Charges',
     tagline: 'Formaliser le besoin, avant de consulter le marché.',
-    desc: "Rédaction de cahiers des charges techniques pour toute consultation Supply Chain & Logistique : systèmes (WMS, TMS, APS, Control Tower, intégration IA au pilotage logistique, transport et supply chain), externalisation (entreposage en open book ou closed book, transport), opérations spéciales (co-packing, fardelage, gestion d'inventaire RFID, vidéosurveillance) et équipements (rayonnage conventionnel ou à accumulation, engins de manutention thermiques et électriques — dimensionnement inclus). Document formalisé et chiffré, prêt à diffuser aux prestataires. Zéro commission fournisseur ou intégrateur — notre seule allégeance est votre business case. Complémentaire à l'Étude de Faisabilité SI ci-dessous pour qui veut aussi le scoring et la sélection des prestataires.",
+    desc: "Rédaction de cahiers des charges techniques pour toute consultation Supply Chain & Logistique : systèmes (WMS, TMS, APS, Control Tower, intégration IA au pilotage logistique, transport et supply chain), externalisation (entreposage en open book ou closed book, transport), opérations spéciales (co-packing, fardelage, gestion d'inventaire RFID, vidéosurveillance) et équipements (rayonnage conventionnel ou à accumulation, engins de manutention thermiques et électriques — dimensionnement inclus). Document formalisé et chiffré, prêt à diffuser aux prestataires. Complémentaire à l'Étude de Faisabilité SI ci-dessous pour qui veut aussi le scoring et la sélection des prestataires.",
     tiers: [
       { name: 'Cahier des Charges Simple', price: '25 000 – 40 000 MAD HT', duration: '2 à 3 semaines' },
       { name: 'Cahier des Charges Multi-lots', price: '45 000 – 80 000 MAD HT', duration: '4 à 6 semaines', featured: true },
@@ -64,7 +64,7 @@ const services = [
     num: '06',
     title: 'Étude de Faisabilité SI',
     tagline: "Avant d'acheter un logiciel, comprendre ce dont vous avez besoin.",
-    desc: "Expression de besoins, cartographie SI existant, RFP formalisé, scoring éditeurs, business case ROI sur 5 ans. Zéro commission. Notre seule allégeance est à votre business case.",
+    desc: "Expression de besoins, cartographie SI existant, RFP formalisé, scoring éditeurs, business case ROI sur 5 ans. Notre seule allégeance est à votre business case.",
     tiers: [
       { name: 'Cadrage SI', price: '40 000 – 65 000 MAD HT', duration: '3 à 5 semaines' },
       { name: 'Étude de Faisabilité', price: '90 000 – 160 000 MAD HT', duration: '5 à 8 semaines', featured: true },
@@ -86,7 +86,7 @@ const services = [
     num: '08',
     title: 'IA & Automatisation Supply Chain',
     tagline: "Des cas d'usage à ROI mesuré — sans hype, sans dépendance éditeur.",
-    desc: "Identifier les cas d'usage IA et automatisation à retour rapide sur vos processus Supply Chain, Logistique et Achats : prévision augmentée, automatisation documentaire (factures fournisseurs, documents de douane), copilotes de planification et de S&OP, assistants de connaissance (procédures, SOP), chatbots de suivi de commande. Cadrage et priorisation des cas d'usage, préparation des données (data readiness), charte de gouvernance conforme loi 09-08 / CNDP, puis POC mesuré avec décision go/no-go chiffrée avant industrialisation. Zéro commission éditeur ou intégrateur — notre seule allégeance est votre business case.",
+    desc: "Identifier les cas d'usage IA et automatisation à retour rapide sur vos processus Supply Chain, Logistique et Achats : prévision augmentée, automatisation documentaire (factures fournisseurs, documents de douane), copilotes de planification et de S&OP, assistants de connaissance (procédures, SOP), chatbots de suivi de commande. Cadrage et priorisation des cas d'usage, préparation des données (data readiness), charte de gouvernance conforme loi 09-08 / CNDP, puis POC mesuré avec décision go/no-go chiffrée avant industrialisation.",
     tiers: [
       { name: "Cadrage & Cas d'Usage IA", price: '35 000 – 55 000 MAD HT', duration: '3 à 4 semaines' },
       { name: 'POC Automatisation Ciblée', price: '90 000 – 160 000 MAD HT', duration: '2 à 4 mois', featured: true },
@@ -100,6 +100,11 @@ interface SingleOffer {
   name: string
   specs: { label: string; value: string }[]
   includes: string[]
+}
+
+interface LearnMore {
+  label: string
+  href: string
 }
 
 const COACHING: { eyebrow: string; title: string; desc: string; offer: SingleOffer; ctaLabel: string } = {
@@ -146,7 +151,30 @@ const DOUANE: { eyebrow: string; title: string; desc: string; offer: SingleOffer
   ctaLabel: 'Discuter de votre situation',
 }
 
-function SingleOfferSection({ eyebrow, title, desc, offer, ctaLabel }: { eyebrow: string; title: string; desc: string; offer: SingleOffer; ctaLabel: string }) {
+const OEA: { eyebrow: string; title: string; desc: string; offer: SingleOffer; ctaLabel: string; learnMore: LearnMore } = {
+  eyebrow: 'Conformité douanière',
+  title: 'Accompagnement Statut OEA',
+  desc: "Obtenir la notification d'agrément Opérateur Économique Agréé (OEA) délivrée par l'ADII — catégorie Simplifications Douanières A ou B — n'est pas une formalité déclarative : c'est un mandat de résultat en 3 phases, du diagnostic d'éligibilité jusqu'au coaching le jour de l'audit sur site. Même angle que notre accompagnement Régimes Douaniers Suspensifs : la réconciliation stock théorique / stock réel, au cœur du référentiel ADII.",
+  offer: {
+    tag: 'Toutes catégories A / B · Tous secteurs éligibles',
+    name: 'Accompagnement Statut OEA',
+    specs: [
+      { label: 'Prix', value: 'Sur devis' },
+      { label: 'Durée', value: '8 à 15 mois selon écarts' },
+    ],
+    includes: [
+      'Diagnostic d’éligibilité et gap analysis référentiel ADII',
+      'Mise en conformité documentaire et sensibilisation des équipes',
+      'Constitution du dossier de candidature complet',
+      'Pré-audit à blanc et coaching pendant l’audit ADII',
+      'Assistance jusqu’à la signature de la convention OEA',
+    ],
+  },
+  ctaLabel: 'Discuter de votre projet OEA',
+  learnMore: { label: 'Voir le détail des 3 phases →', href: '/accompagnement-oea' },
+}
+
+function SingleOfferSection({ eyebrow, title, desc, offer, ctaLabel, learnMore }: { eyebrow: string; title: string; desc: string; offer: SingleOffer; ctaLabel: string; learnMore?: LearnMore }) {
   return (
     <div style={{ marginTop: '6rem' }}>
       <div style={{ maxWidth: 640, marginBottom: '3rem' }}>
@@ -256,6 +284,24 @@ function SingleOfferSection({ eyebrow, title, desc, offer, ctaLabel }: { eyebrow
         >
           {ctaLabel} →
         </a>
+
+        {learnMore && (
+          <a
+            href={learnMore.href}
+            style={{
+              display: 'block',
+              marginTop: '1.25rem',
+              fontSize: '0.8rem',
+              color: 'var(--mid)',
+              textDecoration: 'none',
+              borderBottom: '1px solid rgba(27,53,84,0.15)',
+              paddingBottom: '2px',
+              width: 'fit-content',
+            }}
+          >
+            {learnMore.label}
+          </a>
+        )}
       </div>
     </div>
   )
@@ -469,10 +515,6 @@ export const servicesFAQ = [
     a: 'Oui. 110+ missions réalisées. Clients majeurs: Renault-Nissan, L\'Oréal Maroc, Nestlé, P&G, DHL, Huawei, J&J, Addoha, OCP. Résultats: réductions coûts 3–11%, erreurs −70–90%, productivité +25–50%.',
   },
   {
-    q: 'Facturez-vous des commissions sur les logiciels?',
-    a: 'Non. Zéro commission éditeur. Notre seule allégeance est au business case client. Recommandations Tier 1/2 (Odoo, SAP, etc) basées uniquement sur vos besoins, pas notre intérêt.',
-  },
-  {
     q: 'Combien de temps dure un accompagnement Systèmes SI & IA ?',
     a: "De 4 semaines à 10 mois selon le système et le palier. Control Tower Mini : 4 à 6 semaines. APS/S&OP et e-Procurement : 6 à 8 semaines (Mini) à 9 mois (Pro). TMS : 6 à 10 semaines (Mini) à 9 mois (Pro). WMS : voir la question dédiée ci-dessus (6 semaines à 10 mois). La durée dépend du scope, du nombre de sites et des intégrations ERP nécessaires.",
   },
@@ -487,6 +529,10 @@ export const servicesFAQ = [
   {
     q: "Qu'est-ce qui différencie l'Accompagnement Régimes Douaniers Suspensifs d'un cabinet de transit classique ?",
     a: "Notre angle est la réconciliation stock théorique (vu par la douane) vs stock réel (vu par la logistique), en lien direct avec notre expertise DDMRP et gestion de stock — pas seulement la formalité déclarative qu'un cabinet de transit classique traite. Particulièrement pertinent en automobile et aéronautique, où cet écart devient vite un risque de redressement s'il n'est pas traité en amont.",
+  },
+  {
+    q: "Qu'est-ce que le statut OEA et combien de temps prend son obtention ?",
+    a: "L'Opérateur Économique Agréé (OEA) est un statut délivré par l'ADII qui accorde des simplifications douanières (catégorie A ou B) aux entreprises jugées fiables et conformes. L'accompagnement se déroule en 3 phases — diagnostic et cadrage, mise en conformité documentaire, assistance à l'audit ADII — pour une durée totale de 8 à 15 mois selon les écarts constatés lors du diagnostic initial. L'objectif contractuel est la notification formelle d'agrément par l'ADII.",
   },
 ]
 
@@ -621,6 +667,8 @@ export default function Conseil() {
         <SingleOfferSection eyebrow={COACHING.eyebrow} title={COACHING.title} desc={COACHING.desc} offer={COACHING.offer} ctaLabel={COACHING.ctaLabel} />
 
         <SingleOfferSection eyebrow={DOUANE.eyebrow} title={DOUANE.title} desc={DOUANE.desc} offer={DOUANE.offer} ctaLabel={DOUANE.ctaLabel} />
+
+        <SingleOfferSection eyebrow={OEA.eyebrow} title={OEA.title} desc={OEA.desc} offer={OEA.offer} ctaLabel={OEA.ctaLabel} learnMore={OEA.learnMore} />
 
         <div style={{ marginTop: '6rem' }}>
           <div style={{ maxWidth: 640, marginBottom: '3rem' }}>

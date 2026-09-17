@@ -23,6 +23,7 @@ const CONSEIL_ITEMS: SimpleItem[] = [
   { label: 'DDMRP', href: '/conseil' },
   { label: 'Systèmes SI & IA', href: '/conseil' },
   { label: 'Direction SC à Temps Partagé', href: '/direction-supply-chain-temps-partage' },
+  { label: 'Accompagnement Statut OEA', href: '/accompagnement-oea' },
   { label: 'FAQ', href: '/faq' },
 ]
 
@@ -30,6 +31,7 @@ const PRESTATIONS_ITEMS: SimpleItem[] = [
   { label: 'Pack Inventaire', href: '/prestations' },
   { label: 'Services Logistiques à Valeur Ajoutée', href: '/prestations' },
   { label: 'Imprimantes Leibinger', href: '/prestations' },
+  { label: 'Solutions IT & RFID', href: '/prestations' },
 ]
 
 const TOOLS_ITEMS = [
@@ -282,7 +284,7 @@ export default function Nav() {
   }, [])
 
   const groupActive = (id: GroupId) => {
-    if (id === 'conseil') return pathname === '/conseil' || pathname === '/services' || pathname === '/faq' || pathname === '/direction-supply-chain-temps-partage' || pathname === '/directeur-logistique-mi-temps' || pathname === '/directeur-achats-mi-temps' || pathname === '/dsc-vs-recrutement-cdi'
+    if (id === 'conseil') return pathname === '/conseil' || pathname === '/services' || pathname === '/faq' || pathname === '/direction-supply-chain-temps-partage' || pathname === '/directeur-logistique-mi-temps' || pathname === '/directeur-achats-mi-temps' || pathname === '/dsc-vs-recrutement-cdi' || pathname === '/accompagnement-oea'
     if (id === 'prestations') return pathname === '/prestations'
     if (id === 'outils') return pathname.startsWith('/outils') || pathname.startsWith('/demo')
     if (id === 'cabinet') return pathname === '/a-propos' || pathname === '/references'

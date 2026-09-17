@@ -19,6 +19,10 @@ export const prestationsFAQ = [
     q: 'Intervenez-vous en dehors de Casablanca pour les prestations opérationnelles ?',
     a: "Notre zone d'action couvre le Maroc, en plus de la France et l'Europe. Les conditions logistiques précises (délai, déplacement d'équipe et de matériel) pour un site hors Casablanca sont à valider au cas par cas — contactez-nous avec votre localisation pour un devis adapté.",
   },
+  {
+    q: 'Qui réalise les projets IT, RFID ou ERP présentés dans cette offre ?',
+    a: "Le développement, l'intégration ERP et le déploiement RFID/Track & Trace sont réalisés par l'équipe technique de notre partenaire. Nextinotech intervient en amont sur le cadrage et l'AMOA du projet, et assure la coordination entre votre besoin métier et la réalisation technique.",
+  },
 ]
 
 function FAQItem({ item }: { item: { q: string; a: string } }) {
@@ -534,6 +538,194 @@ function LeibingerOffer() {
   )
 }
 
+const PARTENAIRE_IT = {
+  positioning: "Nextinotech s'appuie sur un partenaire technique marocain spécialisé dans le développement de solutions IT sur mesure et la technologie RFID pour la supply chain, l'industrie et l'agriculture. Ce partenaire intervient sur les missions qui exigent du développement logiciel, de l'intégration ERP ou un déploiement RFID/IoT sur le terrain — en complément de notre propre rôle d'AMOA indépendant.",
+  domains: ['Supply Chain', 'Industrie 4.0 / IoT', 'Track & Trace / RFID', 'Intégration ERP (Odoo & Microsoft)', 'Transport & Logistique', 'Agriculture'],
+  features: [
+    'Solutions IT sur mesure — développement d\'applications adaptées à vos processus métier',
+    'Track & Trace / RFID — visibilité et traçabilité en temps réel sur vos flux physiques',
+    'Industrie 4.0 & IoT — automatisation et objets connectés pour vos lignes et entrepôts',
+    'Intégration ERP Odoo & Microsoft — pilotage business intégré, sur mesure',
+  ],
+  includes: [
+    'Développement et intégration technique par l\'équipe de notre partenaire',
+    'Déploiement terrain RFID / Track & Trace',
+    'Accompagnement conjoint avec Nextinotech sur les projets AMOA à volet développement',
+  ],
+}
+
+function PartenaireITOffer() {
+  return (
+    <div id="solutions-it" style={{ marginTop: '6rem' }}>
+      <div style={{ maxWidth: 640, marginBottom: '3rem' }}>
+        <div
+          style={{
+            fontFamily: 'DM Mono, monospace',
+            fontSize: '0.6rem',
+            letterSpacing: '0.2em',
+            color: 'rgba(47,111,181,0.55)',
+            textTransform: 'uppercase',
+            marginBottom: '1.25rem',
+          }}
+        >
+          Partenaire technique · IT, RFID & ERP
+        </div>
+        <h3
+          style={{
+            fontFamily: 'Manrope, sans-serif',
+            fontSize: 'clamp(1.8rem, 3.2vw, 2.6rem)',
+            fontWeight: 800,
+            lineHeight: 1.05,
+            letterSpacing: '-0.02em',
+            color: 'var(--ink)',
+            margin: '0 0 0.75rem',
+          }}
+        >
+          Solutions IT & RFID
+        </h3>
+        <p style={{ fontSize: '0.95rem', color: 'var(--mid)', lineHeight: 1.75, fontWeight: 300, margin: 0 }}>
+          Nextinotech s&apos;appuie sur un partenaire technique pour les projets Supply Chain
+          nécessitant du développement logiciel, de l&apos;intégration ERP ou du déploiement RFID/Track &amp; Trace.
+        </p>
+      </div>
+
+      <div
+        style={{
+          background: '#fff',
+          border: '1px solid rgba(27,53,84,0.1)',
+          padding: 'clamp(2rem, 4vw, 3rem)',
+          position: 'relative',
+          overflow: 'hidden',
+          maxWidth: 960,
+          boxShadow: '0 4px 20px rgba(0,0,0,0.05)',
+        }}
+      >
+        <div style={{ position: 'absolute', top: 0, left: 0, bottom: 0, width: 3, background: 'var(--blue-bright)' }} />
+
+        <div
+          style={{
+            fontFamily: 'DM Mono, monospace',
+            fontSize: '0.6rem',
+            letterSpacing: '0.18em',
+            textTransform: 'uppercase',
+            color: 'rgba(47,111,181,0.6)',
+            marginBottom: '1.5rem',
+          }}
+        >
+          Partenaire technique
+        </div>
+
+        <p style={{ fontSize: '1.02rem', color: 'var(--ink)', lineHeight: 1.75, fontWeight: 300, marginBottom: '1.75rem', maxWidth: 720 }}>
+          {PARTENAIRE_IT.positioning}
+        </p>
+
+        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.6rem', marginBottom: '2.25rem' }}>
+          {PARTENAIRE_IT.domains.map((d) => (
+            <span
+              key={d}
+              style={{
+                fontFamily: 'DM Mono, monospace',
+                fontSize: '0.62rem',
+                letterSpacing: '0.08em',
+                textTransform: 'uppercase',
+                color: 'var(--navy)',
+                border: '1px solid rgba(27,53,84,0.15)',
+                padding: '0.4rem 0.75rem',
+              }}
+            >
+              {d}
+            </span>
+          ))}
+        </div>
+
+        <div className="leibinger-grid" style={{ display: 'grid', gridTemplateColumns: '1.3fr 1fr', gap: '3rem' }}>
+          <div>
+            <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.12em', textTransform: 'uppercase', color: 'rgba(95,102,114,0.5)', marginBottom: '0.9rem' }}>
+              Ce que notre partenaire apporte
+            </div>
+            <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
+              {PARTENAIRE_IT.features.map((item) => (
+                <li
+                  key={item}
+                  style={{
+                    fontSize: '0.85rem',
+                    padding: '0.5rem 0',
+                    borderBottom: '1px solid rgba(27,53,84,0.06)',
+                    display: 'flex',
+                    alignItems: 'flex-start',
+                    gap: '0.6rem',
+                    color: 'var(--mid)',
+                    lineHeight: 1.5,
+                    fontWeight: 300,
+                  }}
+                >
+                  <span style={{ color: 'var(--blue-bright)', flexShrink: 0 }}>→</span>
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div>
+            <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.12em', textTransform: 'uppercase', color: 'rgba(95,102,114,0.5)', marginBottom: '0.9rem' }}>
+              Ce qui est inclus
+            </div>
+            <ul style={{ listStyle: 'none', padding: 0, margin: '0 0 1.75rem' }}>
+              {PARTENAIRE_IT.includes.map((item) => (
+                <li
+                  key={item}
+                  style={{
+                    fontSize: '0.85rem',
+                    padding: '0.5rem 0',
+                    borderBottom: '1px solid rgba(27,53,84,0.06)',
+                    display: 'flex',
+                    alignItems: 'flex-start',
+                    gap: '0.6rem',
+                    color: 'var(--mid)',
+                    lineHeight: 1.5,
+                    fontWeight: 300,
+                  }}
+                >
+                  <span style={{ color: 'var(--blue-bright)', flexShrink: 0 }}>→</span>
+                  {item}
+                </li>
+              ))}
+            </ul>
+
+            <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.52rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'rgba(95,102,114,0.45)', marginBottom: '0.35rem' }}>
+              Prix
+            </div>
+            <div style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--ink)', marginBottom: '1.75rem' }}>
+              Sur devis — selon le périmètre technique du projet
+            </div>
+
+            <a
+              href="/contact"
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '0.5rem',
+                fontSize: '0.72rem',
+                fontWeight: 600,
+                letterSpacing: '0.1em',
+                textTransform: 'uppercase',
+                textDecoration: 'none',
+                color: 'var(--ink)',
+                fontFamily: 'DM Mono, monospace',
+                transition: 'opacity 0.2s',
+              }}
+              onMouseEnter={(e) => ((e.currentTarget as HTMLElement).style.opacity = '0.7')}
+              onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.opacity = '1')}
+            >
+              Discuter d&apos;un projet IT / RFID →
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
 export default function Prestations() {
   return (
     <section id="prestations" style={{ background: 'var(--paper)', padding: 'var(--sp)' }}>
@@ -588,6 +780,8 @@ export default function Prestations() {
         <PackInventaire />
 
         <LeibingerOffer />
+
+        <PartenaireITOffer />
 
         <div style={{ marginTop: '6rem' }}>
           <div style={{ maxWidth: 640, marginBottom: '3rem' }}>

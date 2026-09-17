@@ -6,7 +6,7 @@ import { Navigate } from 'react-router-dom'
 // Expertise reste sur /conseil). Les ancres Prestations connues (aucune en usage
 // interne actuellement, gardé pour compatibilité de liens externes éventuels)
 // -> /prestations.
-const PRESTATIONS_ANCHORS = ['#prestations', '#valeur-ajoutee', '#pack-inventaire', '#leibinger']
+const PRESTATIONS_ANCHORS = ['#prestations', '#valeur-ajoutee', '#pack-inventaire', '#leibinger', '#solutions-it']
 
 function resolveServicesRedirect(): string {
   const hash = typeof window !== 'undefined' ? window.location.hash : ''

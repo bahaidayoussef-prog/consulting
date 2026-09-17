@@ -8,7 +8,7 @@ export default function PrestationsPage() {
         num="15"
         title="Nos"
         titleItalic="Prestations."
-        subtitle="Pack Inventaire, services logistiques à valeur ajoutée, imprimantes industrielles Leibinger — exécutés par nos propres équipes."
+        subtitle="Pack Inventaire, services logistiques à valeur ajoutée, imprimantes industrielles Leibinger — exécutés par nos propres équipes. Solutions IT, RFID et intégration ERP avec notre partenaire technique."
         tag="EXÉCUTION · OPÉRATIONS"
       />
       <Prestations />

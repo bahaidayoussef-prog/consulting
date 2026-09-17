@@ -79,7 +79,6 @@ const STATS = [
   { value: '5', label: 'Consultants dans l’équipe' },
   { value: '20+', label: 'Ans de terrain cumulés' },
   { value: '110+', label: 'Missions réalisées' },
-  { value: '0', label: 'Commission éditeurs' },
 ]
 
 const OFFRE = [
@@ -157,7 +156,7 @@ export default function Carriere() {
             className="formation-stats-grid"
             style={{
               display: 'grid',
-              gridTemplateColumns: 'repeat(4, 1fr)',
+              gridTemplateColumns: `repeat(${STATS.length}, 1fr)`,
               background: 'rgba(255,255,255,0.85)',
               backdropFilter: 'blur(24px) saturate(1.4)',
               WebkitBackdropFilter: 'blur(24px) saturate(1.4)',
@@ -170,7 +169,7 @@ export default function Carriere() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={statsInView ? { opacity: 1, y: 0 } : {}}
                 transition={{ duration: 0.6, ease, delay: i * 0.08 }}
-                style={{ padding: '1.4rem 1.8rem', borderRight: i < 3 ? '1px solid var(--border)' : 'none' }}
+                style={{ padding: '1.4rem 1.8rem', borderRight: i < STATS.length - 1 ? '1px solid var(--border)' : 'none' }}
               >
                 <div style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(1.5rem, 2.4vw, 2.2rem)', fontWeight: 700, color: 'var(--navy)', lineHeight: 1, letterSpacing: '-0.01em', marginBottom: '0.3rem' }}>
                   {s.value}
@@ -198,7 +197,7 @@ export default function Carriere() {
             </FadeUp>
             <FadeUp delay={0.1}>
               <p style={{ fontSize: '1rem', color: 'var(--mid)', lineHeight: 1.85, fontWeight: 300, margin: 0 }}>
-                Chez Nextinotech, on ne vend pas de licences ni de commissions cachées — on vend une
+                Chez Nextinotech, on ne vend pas de licences — on vend une
                 expertise terrain, indépendante, mesurable. Rejoindre l&apos;équipe, c&apos;est apprendre à
                 diagnostiquer avant de recommander, à choisir la technologie qui sert le client plutôt que
                 celle qui rapporte le plus, et à être jugé sur des résultats plutôt que sur des rapports

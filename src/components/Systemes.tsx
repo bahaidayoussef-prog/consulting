@@ -329,7 +329,7 @@ export default function Systemes() {
             maxWidth: 440,
           }}>
             Sélection indépendante et déploiement AMOA de solutions WMS, TMS et APS — adaptées à votre taille
-            et secteur. Aucune commission éditeur. Jamais.
+            et secteur.
           </p>
         </div>
 
