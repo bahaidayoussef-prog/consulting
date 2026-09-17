@@ -12,11 +12,11 @@ description: "Comment transformer vos procédures WMS, vos SOP et vos fiches qua
 
 ![Réunion professionnelle avec documents et échanges](/images/business.webp)
 
-**Un chatbot IA générique répond avec une connaissance générale du monde. Un cariste qui lui demande « quelle est la procédure de contrôle réception pour le carton endommagé référence X » obtiendra une réponse plausible, mais pas la vôtre. Le RAG — retrieval-augmented generation — résout exactement ce problème : il connecte un LLM à vos propres documents (procédures WMS, SOP qualité, historique de litiges transporteurs) pour que chaque réponse s'appuie sur ce que vous avez réellement écrit, pas sur une moyenne du web.** Voici comment le déployer sans grand projet informatique.
+**Un chatbot IA générique répond avec une connaissance générale du monde.** Un cariste qui lui demande « quelle est la procédure de contrôle réception pour le carton endommagé référence X » obtiendra une réponse plausible, mais pas la vôtre — et dans un entrepôt, plausible ne suffit pas. Le RAG, ou retrieval-augmented generation, résout exactement ce problème : il connecte un LLM à vos propres documents (procédures WMS, SOP qualité, historique de litiges transporteurs) pour que chaque réponse s'appuie sur ce que vous avez réellement écrit, pas sur une moyenne du web. Voici comment le déployer sans en faire un grand projet informatique.
 
 ## Comment ça marche, sans jargon
 
-Le RAG découpe vos documents en petits blocs, les indexe dans une base vectorielle, puis, à chaque question, va chercher les 3 à 5 blocs les plus pertinents avant de les transmettre au LLM comme contexte. Le modèle ne « sait » rien par cœur : il lit vos documents en temps réel et rédige sa réponse à partir de ce qu'il vient de lire. C'est la différence entre un employé qui invente et un employé qui va chercher le bon classeur avant de répondre.
+Le principe tient en une image simple : la différence entre un employé qui invente une réponse pour ne pas perdre la face, et un employé qui va chercher le bon classeur avant de répondre. Techniquement, le RAG découpe vos documents en petits blocs, les indexe dans une base vectorielle, puis, à chaque question, va chercher les 3 à 5 blocs les plus pertinents avant de les transmettre au LLM comme contexte. Le modèle ne « sait » rien par cœur ; il lit vos documents en temps réel et rédige sa réponse à partir de ce qu'il vient de lire.
 
 ## Trois cas d'usage concrets
 
@@ -26,23 +26,21 @@ Le RAG découpe vos documents en petits blocs, les indexe dans une base vectorie
 | Support qualité | Fiches SOP, non-conformités passées | Équipe qualité, production |
 | Litiges transporteurs | Historique de réclamations, contrats-cadres | Service transport, ADV |
 
+## Ce qui rend un RAG fiable, ou pas
+
+Trois conditions décident, en pratique, si un déploiement RAG tient ses promesses. D'abord des documents à jour : un RAG connecté à des procédures obsolètes donne des réponses fausses, mais avec la même assurance que s'il avait raison — c'est ce qui le rend dangereux plutôt que simplement inutile. Ensuite des sources citées : exigez que l'assistant indique le document et la version utilisée, jamais une réponse nue. Enfin un périmètre limité : un RAG par domaine (qualité, WMS, achats) fonctionne presque toujours mieux qu'un fourre-tout général qui essaie de tout couvrir et finit par mal répondre partout.
+
+> **Le RAG est l'anti-hallucination le plus efficace et le moins cher à déployer.** Contrairement à un fine-tuning coûteux, il se met à jour en rechargeant simplement les documents modifiés, sans réentraîner de modèle. C'est l'option que nous recommandons avant tout projet plus lourd, dans la logique décrite dans [LLM, IA prédictive ou RPA : quel outil pour quel problème](/blog/ia-supply-chain-llm-ia-prdictive-ou-rpa-quel-outil-pour-quel).
+
 ::stat:: 60% — part du temps d'un responsable qualité passée à répondre aux mêmes questions procédurales, selon nos audits terrain
-
-## Ce qui rend un RAG fiable (ou pas)
-
-- **Documents à jour** : un RAG connecté à des procédures obsolètes donne des réponses fausses avec assurance.
-- **Sources citées** : exigez que l'assistant indique le document et la version utilisée, pas juste une réponse.
-- **Périmètre limité** : un RAG par domaine (qualité, WMS, achats) fonctionne mieux qu'un fourre-tout général.
-
-> **Le RAG est l'anti-hallucination le plus efficace et le moins cher à déployer.** Contrairement à un fine-tuning coûteux, il se met à jour en rechargeant simplement les documents modifiés — sans réentraîner de modèle. C'est l'option que nous recommandons avant tout projet plus lourd, dans la logique décrite dans [LLM, IA prédictive ou RPA : quel outil pour quel problème](/blog/ia-supply-chain-llm-ia-prdictive-ou-rpa-quel-outil-pour-quel).
 
 ## Par où commencer
 
-Choisissez un périmètre restreint (une famille de procédures, un site), assurez-vous que la documentation source est propre — voir notre article sur la [qualité des données](/blog/qualit-des-donnes-pourquoi-les-projets-ia-supply-chain-choue) — puis testez sur 10 utilisateurs avant un déploiement large. Un RAG mal cadré déçoit vite ; un RAG bien cadré change durablement le réflexe d'une équipe.
+Choisissez un périmètre restreint (une famille de procédures, un site), assurez-vous que la documentation source est propre — voir notre article sur la [qualité des données](/blog/qualit-des-donnes-pourquoi-les-projets-ia-supply-chain-choue) — puis testez sur une dizaine d'utilisateurs avant tout déploiement large. Sur une mission de ce type menée pour un site industriel, le premier périmètre choisi (les procédures qualité d'une seule ligne) a suffi à convaincre la direction d'étendre l'outil trois mois plus tard : un RAG mal cadré déçoit vite, un RAG bien cadré change durablement le réflexe d'une équipe.
 
 ## Ce qu'il faut retenir
 
-Le RAG transforme vos procédures internes en assistant interrogeable, avec des réponses sourcées plutôt qu'inventées. C'est l'un des cas d'usage IA au meilleur rapport valeur/effort pour une PME industrielle ou logistique marocaine, à condition de partir d'une documentation propre et d'un périmètre limité.
+Le RAG transforme vos procédures internes en assistant interrogeable, avec des réponses sourcées plutôt qu'inventées. C'est l'un des cas d'usage IA au meilleur rapport valeur/effort pour une entreprise industrielle ou logistique marocaine, à condition de partir d'une documentation propre et d'un périmètre limité — pas d'un projet ambitieux dès le premier jour.
 
 Vous voulez transformer vos procédures en assistant interne fiable ? [Découvrez nos services de conseil](/conseil) ou [contactez-nous](/contact). Formez vos équipes documentaires via notre [catalogue de formations](/formation).
 

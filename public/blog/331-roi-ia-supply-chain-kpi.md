@@ -12,14 +12,11 @@ description: "La méthode pour mesurer le ROI d'un projet IA supply chain : base
 
 ![Tableaux de données et graphiques analytiques](/images/analytics.webp)
 
-**La question que nous entendons le plus souvent après un déploiement IA n'est pas « est-ce que ça marche ? » mais « comment on prouve que ça a marché ? ». Sans baseline mesurée avant le projet, aucun ROI n'est démontrable après — et un comex qui ne voit pas de preuve chiffrée coupe le budget de la phase suivante.** Voici le cadre de mesure que nous imposons sur chaque mission IA, et les KPI à suivre selon le cas d'usage.
+La question que nous entendons le plus souvent après un déploiement IA n'est pas « est-ce que ça marche ? » mais « comment on prouve que ça a marché ? ». **Sans baseline mesurée avant le projet, aucun ROI n'est démontrable après** — et un comex qui ne voit pas de preuve chiffrée coupe, presque systématiquement, le budget de la phase suivante. Voici le cadre de mesure que nous imposons sur chaque mission IA, et les KPI à suivre selon le cas d'usage.
 
 ## La méthode en 4 étapes
 
-1. **Baseline avant tout déploiement** : mesurer l'indicateur cible pendant 4 à 8 semaines avant le go-live (temps de traitement, taux d'erreur, stock moyen).
-2. **Gain brut** : la différence mesurée après déploiement, sur la même période et le même périmètre.
-3. **Coût total** : licence ou développement, temps d'intégration, formation, maintenance — pas seulement le prix affiché par l'éditeur.
-4. **Délai de retour (payback)** : gain brut annualisé divisé par le coût total, exprimé en mois.
+Tout commence par une baseline avant tout déploiement : mesurer l'indicateur cible pendant 4 à 8 semaines avant le go-live (temps de traitement, taux d'erreur, stock moyen). Vient ensuite le gain brut, la différence mesurée après déploiement sur la même période et le même périmètre — jamais un « avant » approximatif comparé à un « après » précis. Le coût total doit inclure la licence ou le développement, le temps d'intégration, la formation et la maintenance, pas seulement le prix affiché par l'éditeur (c'est souvent là que les business cases dérapent). Enfin, le délai de retour, ou payback, se calcule en divisant le gain brut annualisé par le coût total, exprimé en mois.
 
 ## KPI par cas d'usage — le tableau de référence
 
@@ -32,11 +29,11 @@ description: "La méthode pour mesurer le ROI d'un projet IA supply chain : base
 
 ::stat:: 3 à 9 mois — délai de retour typique d'un projet IA bien cadré en supply chain marocaine, contre 18 à 24 mois pour un projet ERP classique
 
+> **Un ROI qui ne survit pas à la question « quelle était votre baseline ? » n'est pas un ROI, c'est une intuition habillée en chiffre.** C'est la première question que nous posons dans chaque mission de cadrage IA — et elle met souvent fin à la discussion plus vite qu'on ne le pense.
+
 ## L'erreur qui invalide tous les calculs
 
-Beaucoup d'entreprises comparent leur situation « après IA » à une impression subjective de « avant », sans données. Sans baseline chiffrée, tout ROI présenté est une estimation, pas une preuve — et un comex exigeant le sait. Voir notre cadre complet dans [coût d'un projet IA supply chain pour une PME marocaine](/blog/cot-dun-projet-ia-supply-chain-pour-une-pme-marocaine).
-
-> **Un ROI qui ne survit pas à la question « quelle était votre baseline ? » n'est pas un ROI, c'est une intuition habillée en chiffre.** C'est la première question que nous posons dans chaque mission de cadrage IA.
+Beaucoup d'entreprises comparent leur situation « après IA » à une impression subjective de « avant », sans données réelles pour l'étayer. Sans baseline chiffrée, tout ROI présenté n'est qu'une estimation habillée en preuve, et un comex un tant soit peu exigeant finit toujours par s'en apercevoir. Voir notre cadre complet dans [coût d'un projet IA supply chain pour une PME marocaine](/blog/cot-dun-projet-ia-supply-chain-pour-une-pme-marocaine).
 
 ## Ce qu'il faut retenir
 

@@ -12,13 +12,11 @@ description: "Cloud grand public, API privée ou modèle local : comment arbitre
 
 ![Bureau avec ordinateur, notes et documents professionnels](/images/office.webp)
 
-**Toutes les données ne méritent pas le même niveau de précaution, et tous les modèles IA ne sont pas hébergés de la même façon. Utiliser ChatGPT grand public pour reformuler un e-mail générique n'a rien à voir avec y coller un plan de production OCP ou un dossier patient pharmaceutique. La question de l'hébergement n'est pas technique en premier lieu — c'est une question de sensibilité des données, secteur par secteur.** Voici comment arbitrer.
+Toutes les données ne méritent pas le même niveau de précaution, et tous les modèles IA ne sont pas hébergés de la même façon. Utiliser ChatGPT grand public pour reformuler un e-mail générique n'a rien à voir avec y coller un plan de production industriel sensible ou un dossier patient pharmaceutique. **La question de l'hébergement n'est pas technique en premier lieu — c'est une question de sensibilité des données, secteur par secteur.** Voici comment arbitrer, sans y passer six mois.
 
 ## Trois niveaux d'hébergement, trois niveaux de risque
 
-- **Cloud public grand public** (ChatGPT, Gemini standard) : le plus simple, le moins cher, mais souvent sans garantie contractuelle forte sur la non-réutilisation des données à des fins d'entraînement. Réservé aux usages non sensibles.
-- **API privée / instance d'entreprise** : contrat de sous-traitance (DPA), engagement de non-réutilisation, journalisation. Le compromis le plus courant pour une PME/ETI marocaine.
-- **Modèle local ou hébergé au Maroc** : coût et complexité technique plus élevés, mais souveraineté maximale — pertinent pour les secteurs sensibles ou réglementés.
+Le cloud public grand public (ChatGPT, Gemini standard) reste le plus simple et le moins cher, mais souvent sans garantie contractuelle forte sur la non-réutilisation des données à des fins d'entraînement — à réserver aux usages non sensibles. L'API privée ou instance d'entreprise ajoute un contrat de sous-traitance (DPA), un engagement de non-réutilisation et une journalisation des accès : c'est le compromis le plus courant pour une entreprise marocaine de taille moyenne. Le modèle local ou hébergé au Maroc, enfin, coûte plus cher et demande davantage de complexité technique, mais offre une souveraineté maximale — pertinent pour les secteurs sensibles ou réglementés, rarement ailleurs.
 
 ## Grille de décision par secteur
 
@@ -30,11 +28,11 @@ description: "Cloud grand public, API privée ou modèle local : comment arbitre
 
 ::stat:: 1 sur 3 — le nombre de questions de conformité qui se résolvent simplement en changeant de niveau d'hébergement plutôt que d'outil
 
+> **L'hébergement n'est pas un choix technologique unique pour toute l'entreprise — c'est un choix par cas d'usage.** Une même organisation peut légitimement utiliser du cloud public pour la rédaction générale et une instance privée pour l'analyse de contrats fournisseurs. Voir notre [gouvernance de l'IA](/blog/gouvernance-de-lia-en-supply-chain-la-charte-avant-les-outil) pour cadrer ces règles par usage.
+
 ## La latence et le coût, souvent négligés
 
-Un modèle hébergé localement réduit la latence pour les usages temps réel (chatbot, assistant terrain) mais coûte plus cher à l'usage qu'une API cloud mutualisée. Le bon calcul compare le coût par requête à l'échelle réelle de déploiement, pas sur un pilote à 5 utilisateurs.
-
-> **L'hébergement n'est pas un choix technologique unique pour toute l'entreprise — c'est un choix par cas d'usage.** Une même organisation peut légitimement utiliser du cloud public pour la rédaction générale et une instance privée pour l'analyse de contrats fournisseurs. Voir notre [gouvernance de l'IA](/blog/gouvernance-de-lia-en-supply-chain-la-charte-avant-les-outil) pour cadrer ces règles par usage.
+Un modèle hébergé localement réduit la latence pour les usages temps réel — chatbot, assistant terrain — mais coûte plus cher à l'usage qu'une API cloud mutualisée. Le bon calcul compare le coût par requête à l'échelle réelle de déploiement, jamais sur un pilote à 5 utilisateurs qui donne toujours l'illusion que tout est bon marché.
 
 ## Ce qu'il faut retenir
 
