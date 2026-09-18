@@ -18,6 +18,8 @@ Ce document est le journal de suivi. Chaque action est cochée au fur et à mesu
 - [x] Pull request ouverte : **https://github.com/stephanedebelenet-byte/consulting/pull/3** — preview Vercel au vert, en attente d'un merge (voir "Bloqué" ci-dessous).
 - [x] Premier lot de 20 articles du cluster "100 articles IA" (`327-*` à `346-*`) humanisé en profondeur — **PR #4 mergée dans `main` le 17/09 23:34.**
 - [x] Deuxième lot (`347-*` à `366-*`, 20 fichiers) humanisé selon la même méthode — build vérifié (467 pages, garde-fou 0 incohérence), pull request ouverte : **https://github.com/stephanedebelenet-byte/consulting/pull/6** (non mergée). Note : cette PR contient aussi un commit de mise à jour de ce journal, arrivé là par un mix-up de branche pendant la session — contenu correct, juste mal placé dans l'historique.
+- [x] Troisième lot (`367-*` à `386-*`, 20 fichiers) humanisé selon la même méthode, exécuté sans interruption cette fois — build vérifié (469 pages, garde-fou 0 incohérence), pull request ouverte : **https://github.com/stephanedebelenet-byte/consulting/pull/8** (preview Vercel au vert, non mergée).
+- [ ] Quatrième lot (`387-*` à `406-*`, 20 fichiers) envoyé en humanisation — traitement en cours par un agent en arrière-plan, PR séparée à venir.
 
 ## Bloqué — nécessite une action humaine (pas un manque d'outillage, une garde de sécurité volontaire)
 
@@ -25,6 +27,7 @@ Ce document est le journal de suivi. Chaque action est cochée au fur et à mesu
   → Action : ouvrir https://github.com/stephanedebelenet-byte/consulting/pull/3, relire le diff (surtout 2-3 articles au hasard), cliquer "Squash and merge".
 - [x] ~~Merger la PR #4~~ — fait, mergée le 17/09 23:34.
 - [ ] **Merger la PR #6** (lot 2 d'humanisation, articles `347-366`) : https://github.com/stephanedebelenet-byte/consulting/pull/6
+- [ ] **Merger la PR #8** (lot 3 d'humanisation, articles `367-386`) : https://github.com/stephanedebelenet-byte/consulting/pull/8
 
 ## Nécessite votre accès Google Search Console (aucune API/service account configurée dans ce projet — impossible à automatiser sans que vous créiez et partagiez des identifiants Google Cloud, ce qui n'est pas fait ici)
 
@@ -46,9 +49,10 @@ Ce document est le journal de suivi. Chaque action est cochée au fur et à mesu
 | **S0** | Merge PR #3 + PR lot 1 → déploiement production | **Vous** (1 clic chacune) |
 | **S0** | Resoumission sitemap + inspection d'URL sur les 5-10 pages prioritaires | **Vous** (~15 min, GSC) |
 | **S0** | Lot 2 : articles 347-366 humanisés, PR #6 ouverte — fait | Agent |
-| **S1 (semaine du 22/09)** | Lot 3 : 20 articles suivants (367-386) | Agent, sur demande |
-| **S2 (semaine du 29/09)** | Lots 4-5 : fin du cluster IA (387-426), soit les 40 derniers | Agent, sur demande |
-| **S2** | Vérifier dans GSC : nombre de pages passées en "Indexée" | **Vous** |
+| **S0** | Lot 3 : articles 367-386 humanisés, PR #8 ouverte — fait | Agent |
+| **S0** | Lot 4 : articles 387-406 en cours | Agent |
+| **S1 (semaine du 22/09)** | Lot 5 : 20 derniers articles (407-426) | Agent, sur demande |
+| **S2 (semaine du 29/09)** | Vérifier dans GSC : nombre de pages passées en "Indexée" | **Vous** |
 | **S3 (semaine du 06/10)** | Étendre l'humanisation aux 235 articles plus anciens (hors cluster IA) si le cluster IA montre une amélioration mesurable | Agent, sur demande |
 | **S3** | Ajouter des signaux humains supplémentaires qui ne peuvent pas être générés artificiellement : vraies photos de missions, témoignages clients réels (avec accord), vidéos courtes, section commentaires — voir "Signaux humains réels" ci-dessous | **Vous** |
 | **S4 (16/10)** | Nouveau rapport Coverage GSC → comparer au rapport du 18/09, ajuster le plan | **Vous + Agent** |
