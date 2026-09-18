@@ -195,7 +195,7 @@ export default function Footer() {
                 { tag: 'Email', label: 'contact@nextinotech.com', href: 'mailto:contact@nextinotech.com' },
                 { tag: 'Tél', label: '+212 06 63 44 92 00', href: 'tel:+212663449200' },
                 { tag: 'WA', label: 'WhatsApp', href: 'https://wa.me/212663449200' },
-                { tag: 'Lieu', label: 'Casablanca, Maroc', href: undefined },
+                { tag: 'Lieu', label: 'Technopark Casablanca, 3ème étage', href: 'https://www.google.com/maps/search/?api=1&query=Technopark+Casablanca+Route+de+Nouaceur' },
               ].map(({ tag, label, href }) => (
                 <div key={label} style={{ display: 'flex', alignItems: 'baseline', gap: '0.75rem', minWidth: 0 }}>
                   <span style={{
@@ -284,7 +284,7 @@ export default function Footer() {
         >
           <span>© 2026 NEXTINOTECH — TOUS DROITS RÉSERVÉS</span>
           <a href="/confidentialite" style={{ color: 'inherit', textDecoration: 'none' }}>CONFIDENTIALITÉ</a>
-          <span>CASABLANCA · MAROC · PME & ETI</span>
+          <span>TECHNOPARK CASABLANCA · MAROC · PME & ETI</span>
         </div>
       </div>
     </footer>

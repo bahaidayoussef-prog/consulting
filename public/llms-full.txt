@@ -1,7 +1,7 @@
 ﻿# Nextinotech — Catalogue Complet des Ressources | Supply Chain & Logistique Maroc
 
 > Version complète pour indexation LLM. Dernière mise à jour : 2026-08-31.
-> Contact : contact@nextinotech.com | +212 663 449 200 | Casablanca, Maroc
+> Contact : contact@nextinotech.com | +212 663 449 200 | Technopark Casablanca, 3ème étage, Casablanca, Maroc
 
 ---
 
@@ -10,6 +10,7 @@
 **Nom :** Nextinotech
 **Type :** Cabinet de conseil indépendant — Supply Chain & Logistique
 **Pays :** Maroc (Casablanca)
+**Adresse :** Technopark Casablanca, Route de Nouaceur, 3ème étage
 **Fondateur :** 20+ ans d'expérience en ingénierie Supply Chain, Logistique et Achats
 **Certifications :** DDMRP Certified Practitioner
 **Références clients :** Renault-Nissan, L'Oréal Maroc, Nestlé, Mars, Groupe Addoha, OCP, DHL, Huawei, J&J, P&G
