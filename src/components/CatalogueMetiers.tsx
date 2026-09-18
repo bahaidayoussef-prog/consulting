@@ -3,7 +3,7 @@ import type { ReactNode } from 'react'
 import { Link } from 'react-router-dom'
 import { motion, useInView } from 'framer-motion'
 import SchemaScript from './SchemaHelper'
-import { METIERS_CATALOGUE } from '../data/catalogueMetiers'
+import { METIERS_CATALOGUE, METIERS_EMERGENTS } from '../data/catalogueMetiers'
 
 const ease = [0.16, 1, 0.3, 1] as const
 
@@ -59,8 +59,11 @@ export default function CatalogueMetiers() {
             </h1>
           </FadeUp>
           <FadeUp delay={0.1}>
-            <p style={{ fontSize: '1rem', color: 'var(--mid)', lineHeight: 1.8, fontWeight: 300, maxWidth: 760 }}>
+            <p style={{ fontSize: '1rem', color: 'var(--mid)', lineHeight: 1.8, fontWeight: 300, maxWidth: 760, marginBottom: '1rem' }}>
               Notre diagnostic ne se limite pas à la Supply Chain. Il couvre l&apos;ensemble des métiers de votre entreprise. Les thèmes ci-dessous sont soit <strong style={{ color: 'var(--ink)', fontWeight: 600 }}>livrés directement par Nextinotech</strong> — notre spécialité terrain — soit <strong style={{ color: 'var(--ink)', fontWeight: 600 }}>sourcés auprès de notre réseau de partenaires formateurs</strong>, sans commission éditeur : nous vous orientons vers le meilleur organisme pour chaque besoin, pas vers celui qui nous rémunère.
+            </p>
+            <p style={{ fontSize: '0.82rem', color: 'rgba(95,102,114,0.75)', lineHeight: 1.7, fontWeight: 300, maxWidth: 760 }}>
+              Domaines et thèmes construits à partir de référentiels publics — OFPPT, GIAC — et de tendances internationales reconnues — World Economic Forum, LinkedIn, France Travail (ROME), ESCO.
             </p>
           </FadeUp>
         </div>
@@ -179,6 +182,50 @@ export default function CatalogueMetiers() {
                     )
                   })}
                 </ul>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* ── NOUVEAUX MÉTIERS ÉMERGENTS ── */}
+      <div style={{ background: 'var(--paper)', paddingBottom: 'var(--sp-y-sm)' }}>
+        <div className="section-inner" style={{ padding: '0 var(--sp-x)' }}>
+          <FadeUp>
+            <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'rgba(47,111,181,0.55)', marginBottom: '1rem' }}>
+              Nouveaux métiers
+            </div>
+            <h3 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(1.6rem, 2.8vw, 2.4rem)', fontWeight: 800, letterSpacing: '-0.02em', color: 'var(--ink)', marginBottom: '0.75rem' }}>
+              Des rôles qui n&apos;existaient pas il y a 5 ans.
+            </h3>
+            <p style={{ fontSize: '0.9rem', color: 'var(--mid)', lineHeight: 1.7, fontWeight: 300, maxWidth: 680, marginBottom: '2.5rem' }}>
+              L&apos;intelligence artificielle et la transition numérique font émerger de nouveaux besoins en compétences, identifiés par les grands rapports internationaux (World Economic Forum, LinkedIn, U.S. Bureau of Labor Statistics). Votre diagnostic peut intégrer ces profils dans votre plan de formation.
+            </p>
+          </FadeUp>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: '1px', background: 'rgba(27,53,84,0.08)' }}>
+            {METIERS_EMERGENTS.map((m, i) => (
+              <motion.div
+                key={m.titre}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: '-60px' }}
+                transition={{ duration: 0.6, ease, delay: (i % 6) * 0.05 }}
+                style={{ background: '#fff', padding: '1.5rem' }}
+              >
+                <div
+                  style={{
+                    fontFamily: 'DM Mono, monospace', fontSize: '0.5rem', letterSpacing: '0.06em', textTransform: 'uppercase',
+                    display: 'inline-block', padding: '0.15rem 0.4rem', background: 'rgba(192,154,47,0.15)', color: '#a97f1f', marginBottom: '0.75rem',
+                  }}
+                >
+                  IA · Tendance
+                </div>
+                <div style={{ fontFamily: 'Manrope, sans-serif', fontSize: '0.98rem', fontWeight: 700, color: 'var(--ink)', marginBottom: '0.5rem' }}>
+                  {m.titre}
+                </div>
+                <p style={{ fontSize: '0.8rem', color: 'var(--mid)', lineHeight: 1.6, fontWeight: 300, margin: 0 }}>
+                  {m.description}
+                </p>
               </motion.div>
             ))}
           </div>

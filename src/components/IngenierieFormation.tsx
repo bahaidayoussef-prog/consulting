@@ -367,7 +367,7 @@ export default function IngenierieFormation() {
           </FadeUp>
           <FadeUp delay={0.08}>
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.6rem', marginBottom: '2.25rem' }}>
-              {METIERS_CATALOGUE.map((m) => (
+              {METIERS_CATALOGUE.slice(0, 12).map((m) => (
                 <div
                   key={m.id}
                   style={{
@@ -380,6 +380,15 @@ export default function IngenierieFormation() {
                   {m.nom}
                 </div>
               ))}
+              <div
+                style={{
+                  display: 'flex', alignItems: 'center',
+                  padding: '0.5rem 0.9rem', background: 'transparent', border: '1px dashed rgba(27,53,84,0.2)',
+                  fontSize: '0.78rem', color: 'var(--mid)', fontWeight: 500,
+                }}
+              >
+                + {METIERS_CATALOGUE.length - 12} autres métiers
+              </div>
             </div>
             <Link to="/ingenierie-formation/catalogue" className="btn-primary" style={{ display: 'inline-flex', alignItems: 'center' }}>
               Voir le catalogue complet par métier →
