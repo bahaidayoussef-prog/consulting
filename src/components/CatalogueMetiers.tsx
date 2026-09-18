@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import { motion, useInView } from 'framer-motion'
 import SchemaScript from './SchemaHelper'
 import { METIERS_CATALOGUE, METIERS_EMERGENTS } from '../data/catalogueMetiers'
+import { generateCataloguePdf } from '../utils/generateCataloguePdf'
 
 const ease = [0.16, 1, 0.3, 1] as const
 
@@ -30,8 +31,21 @@ const schema = {
 
 type Filtre = 'tous' | 'nextinotech' | 'partenaires'
 
+type PdfState = 'idle' | 'generating' | 'error'
+
 export default function CatalogueMetiers() {
   const [filtre, setFiltre] = useState<Filtre>('tous')
+  const [pdfState, setPdfState] = useState<PdfState>('idle')
+
+  const handleDownloadPdf = async () => {
+    setPdfState('generating')
+    try {
+      await generateCataloguePdf()
+      setPdfState('idle')
+    } catch {
+      setPdfState('error')
+    }
+  }
 
   const metiers = filtre === 'tous' ? METIERS_CATALOGUE : METIERS_CATALOGUE.filter((m) => m.source === filtre)
 
@@ -73,26 +87,56 @@ export default function CatalogueMetiers() {
       <div style={{ background: 'var(--paper)', paddingBottom: 'var(--sp-y-sm)' }}>
         <div className="section-inner" style={{ padding: '0 var(--sp-x)' }}>
           <FadeUp>
-            <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap' }}>
-              {tabs.map((t) => (
+            <div style={{ display: 'flex', gap: '1.5rem', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'center' }}>
+              <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap' }}>
+                {tabs.map((t) => (
+                  <button
+                    key={t.id}
+                    onClick={() => setFiltre(t.id)}
+                    style={{
+                      padding: '0.6rem 1.25rem',
+                      border: `1px solid ${filtre === t.id ? 'var(--blue-bright)' : 'var(--border)'}`,
+                      background: filtre === t.id ? 'var(--blue-bright)' : 'transparent',
+                      color: filtre === t.id ? '#fff' : 'var(--mid)',
+                      fontFamily: 'Jost, sans-serif',
+                      fontSize: '0.82rem',
+                      fontWeight: 500,
+                      cursor: 'pointer',
+                      transition: 'all 0.2s',
+                    }}
+                  >
+                    {t.label}
+                  </button>
+                ))}
+              </div>
+              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: '0.4rem' }}>
                 <button
-                  key={t.id}
-                  onClick={() => setFiltre(t.id)}
+                  onClick={handleDownloadPdf}
+                  disabled={pdfState === 'generating'}
                   style={{
-                    padding: '0.6rem 1.25rem',
-                    border: `1px solid ${filtre === t.id ? 'var(--blue-bright)' : 'var(--border)'}`,
-                    background: filtre === t.id ? 'var(--blue-bright)' : 'transparent',
-                    color: filtre === t.id ? '#fff' : 'var(--mid)',
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '0.6rem',
+                    padding: '0.7rem 1.4rem',
+                    border: '1px solid var(--navy)',
+                    background: 'var(--navy)',
+                    color: '#fff',
                     fontFamily: 'Jost, sans-serif',
                     fontSize: '0.82rem',
                     fontWeight: 500,
-                    cursor: 'pointer',
-                    transition: 'all 0.2s',
+                    cursor: pdfState === 'generating' ? 'default' : 'pointer',
+                    opacity: pdfState === 'generating' ? 0.7 : 1,
+                    transition: 'opacity 0.2s',
                   }}
                 >
-                  {t.label}
+                  {pdfState === 'generating' ? 'Génération du PDF…' : 'Télécharger le catalogue (PDF) ↓'}
                 </button>
-              ))}
+                {pdfState === 'error' && (
+                  <span style={{ fontSize: '0.75rem', color: '#b3261e' }}>
+                    Le téléchargement a échoué, merci de réessayer.
+                  </span>
+                )}
+              </div>
             </div>
           </FadeUp>
         </div>
