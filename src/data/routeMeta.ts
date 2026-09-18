@@ -137,6 +137,12 @@ const STATIC: PrerenderRoute[] = [
       "Diagnostic des besoins en compétences, plan de formation chiffré et dossier de financement GIAC/OFPPT pour les entreprises de la Supply Chain, du transport et de la logistique au Maroc.",
   },
   {
+    path: '/ingenierie-formation/catalogue',
+    title: 'Catalogue de Formation par Métier — Ingénierie de Formation' + SUFFIX,
+    description:
+      "Le catalogue complet des thèmes de formation par métier : Supply Chain, Management, Finance, RH, Marketing, Production, Qualité, IA et tendances. Nextinotech ou réseau de partenaires, sans commission éditeur.",
+  },
+  {
     path: '/demo/wms',
     title: 'Démo WMS — Gestion d’Entrepôt' + SUFFIX,
     description: "Démonstration interactive d’un WMS : réception, mise en stock, préparation, expédition, inventaire.",

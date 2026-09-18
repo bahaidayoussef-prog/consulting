@@ -412,9 +412,9 @@ export default function FormationCatalogue() {
 
           <Reveal delay={0.11}>
             <p style={{ fontFamily: 'Jost, sans-serif', fontSize: '0.9rem', color: 'var(--mid)', fontWeight: 300 }}>
-              Besoin d&apos;identifier vos priorités avant de choisir vos formations ?{' '}
+              Ce catalogue couvre nos formations Supply Chain. Besoin de formations pour d&apos;autres métiers de votre entreprise (RH, Finance, Marketing, Production, Qualité…) ?{' '}
               <Link to="/ingenierie-formation" style={{ color: 'var(--blue-bright)', textDecoration: 'none', borderBottom: '1px solid rgba(47,111,181,0.3)' }}>
-                Découvrir notre diagnostic d&apos;ingénierie de formation →
+                Découvrir notre ingénierie de formation et le catalogue par métier →
               </Link>
             </p>
           </Reveal>

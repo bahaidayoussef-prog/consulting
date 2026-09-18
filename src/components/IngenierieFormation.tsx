@@ -3,6 +3,7 @@ import type { ReactNode, CSSProperties } from 'react'
 import { Link } from 'react-router-dom'
 import { motion, useInView } from 'framer-motion'
 import SchemaScript from './SchemaHelper'
+import { METIERS_CATALOGUE } from '../data/catalogueMetiers'
 
 const ease = [0.16, 1, 0.3, 1] as const
 
@@ -347,6 +348,43 @@ export default function IngenierieFormation() {
               </motion.div>
             ))}
           </div>
+        </div>
+      </div>
+
+      {/* ── CATALOGUE PAR MÉTIER (teaser) ── */}
+      <div style={{ background: 'var(--dark-2)', padding: 'var(--sp-y-sm) var(--sp-x)' }}>
+        <div className="section-inner">
+          <FadeUp>
+            <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'rgba(47,111,181,0.55)', marginBottom: '1rem' }}>
+              Le catalogue
+            </div>
+            <h3 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(1.6rem, 2.8vw, 2.4rem)', fontWeight: 800, letterSpacing: '-0.02em', color: 'var(--ink)', marginBottom: '1.25rem', maxWidth: 640 }}>
+              Un plan de formation ne se limite pas à un seul métier.
+            </h3>
+            <p style={{ fontSize: '0.92rem', color: 'var(--mid)', lineHeight: 1.75, fontWeight: 300, maxWidth: 680, marginBottom: '2.25rem' }}>
+              Supply Chain, management, finance, RH, marketing, production, qualité… le diagnostic couvre l&apos;ensemble des métiers de votre entreprise. Certains thèmes sont livrés directement par Nextinotech, les autres sont sourcés auprès de notre réseau de partenaires formateurs — toujours sans commission éditeur.
+            </p>
+          </FadeUp>
+          <FadeUp delay={0.08}>
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.6rem', marginBottom: '2.25rem' }}>
+              {METIERS_CATALOGUE.map((m) => (
+                <div
+                  key={m.id}
+                  style={{
+                    display: 'flex', alignItems: 'center', gap: '0.5rem',
+                    padding: '0.5rem 0.9rem', background: '#fff', border: '1px solid rgba(27,53,84,0.08)',
+                    fontSize: '0.78rem', color: 'var(--ink)', fontWeight: 500,
+                  }}
+                >
+                  <span>{m.icon}</span>
+                  {m.nom}
+                </div>
+              ))}
+            </div>
+            <Link to="/ingenierie-formation/catalogue" className="btn-primary" style={{ display: 'inline-flex', alignItems: 'center' }}>
+              Voir le catalogue complet par métier →
+            </Link>
+          </FadeUp>
         </div>
       </div>
 
