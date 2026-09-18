@@ -113,7 +113,7 @@ export default function Contact() {
               { tag: 'Email', label: 'contact@nextinotech.com', href: 'mailto:contact@nextinotech.com' },
               { tag: 'Tél',  label: '+212 06 63 44 92 00',                href: 'tel:+212663449200' },
               { tag: 'WA',   label: 'WhatsApp',                            href: 'https://wa.me/212663449200' },
-              { tag: 'Lieu', label: 'Casablanca, Maroc',                   href: undefined },
+              { tag: 'Lieu', label: 'Technopark Casablanca, 3ème étage — Route de Nouaceur, Casablanca', href: undefined },
             ].map(({ tag, label, href }) => (
               <div key={label} style={{ display: 'flex', alignItems: 'baseline', gap: '1rem' }}>
                 <span style={{
@@ -129,6 +129,30 @@ export default function Contact() {
                 }
               </div>
             ))}
+          </div>
+
+          {/* Map — Technopark Casablanca */}
+          <div style={{ marginTop: '2rem' }}>
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=Technopark+Casablanca+Route+de+Nouaceur"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ display: 'block', border: '1px solid rgba(27,53,84,0.16)', textDecoration: 'none' }}
+              aria-label="Ouvrir Technopark Casablanca dans Google Maps"
+            >
+              <iframe
+                title="Localisation Nextinotech — Technopark Casablanca"
+                src="https://www.google.com/maps?q=Technopark+Casablanca,+Route+de+Nouaceur,+Casablanca,+Maroc&output=embed"
+                width="100%"
+                height="220"
+                style={{ border: 0, display: 'block', filter: 'grayscale(0.4) contrast(1.05)', pointerEvents: 'none' }}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              />
+            </a>
+            <p style={{ marginTop: '0.6rem', fontSize: '0.78rem', color: 'var(--mid)', fontFamily: 'DM Mono, monospace', letterSpacing: '0.03em' }}>
+              Technopark Casablanca — 3ème étage · Route de Nouaceur, Casablanca
+            </p>
           </div>
         </motion.div>
 

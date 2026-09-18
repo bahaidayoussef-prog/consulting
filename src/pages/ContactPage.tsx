@@ -9,7 +9,7 @@ export default function ContactPage() {
         title="Prendre"
         titleItalic="contact."
         subtitle="Un échange de 30 minutes suffit pour cadrer votre problématique. Gratuit, sans engagement."
-        tag="CONTACT · CASABLANCA"
+        tag="CONTACT · TECHNOPARK CASABLANCA"
       />
       <Contact />
     </>
