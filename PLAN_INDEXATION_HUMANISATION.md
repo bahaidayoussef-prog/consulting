@@ -16,13 +16,15 @@ Ce document est le journal de suivi. Chaque action est cochée au fur et à mesu
 - [x] Script réutilisable `scripts/humanize-authorship.mjs` ajouté au dépôt pour les prochains lots.
 - [x] Build vérifié (467 pages prérendues) et garde-fou `scripts/check-seo-consistency.mjs` passé sans erreur.
 - [x] Pull request ouverte : **https://github.com/stephanedebelenet-byte/consulting/pull/3** — preview Vercel au vert, en attente d'un merge (voir "Bloqué" ci-dessous).
-- [x] Premier lot de 20 articles du cluster "100 articles IA" (`327-*` à `346-*`) humanisé en profondeur (structure réordonnée, rythme de phrase varié, anecdotes de mission vagues sans invention de fait) — build vérifié (467 pages, garde-fou 0 incohérence), pull request ouverte : **https://github.com/stephanedebelenet-byte/consulting/pull/4** (preview Vercel au vert, non mergée).
+- [x] Premier lot de 20 articles du cluster "100 articles IA" (`327-*` à `346-*`) humanisé en profondeur — **PR #4 mergée dans `main` le 17/09 23:34.**
+- [x] Deuxième lot (`347-*` à `366-*`, 20 fichiers) humanisé selon la même méthode — build vérifié (467 pages, garde-fou 0 incohérence), pull request ouverte : **https://github.com/stephanedebelenet-byte/consulting/pull/6** (non mergée). Note : cette PR contient aussi un commit de mise à jour de ce journal, arrivé là par un mix-up de branche pendant la session — contenu correct, juste mal placé dans l'historique.
 
 ## Bloqué — nécessite une action humaine (pas un manque d'outillage, une garde de sécurité volontaire)
 
-- [ ] **Merger la PR #3** (bylines/footers/liens, 411 fichiers). Le garde-fou de la session refuse le merge automatique ("Merge Without Review") — un merge de code vers `main` sans relecture humaine n'est délibérément pas quelque chose qu'un agent peut faire seul, même avec autorisation explicite d'exécuter le reste du plan. Une fois mergée, Vercel redéploie automatiquement en production (quelques minutes).
+- [ ] **Merger la PR #3** (bylines/footers/liens, 411 fichiers) — **toujours ouverte**, pas encore mergée malgré les lots suivants. Le garde-fou de la session refuse le merge automatique ("Merge Without Review") — un merge de code vers `main` sans relecture humaine n'est délibérément pas quelque chose qu'un agent peut faire seul, même avec autorisation explicite d'exécuter le reste du plan. Une fois mergée, Vercel redéploie automatiquement en production (quelques minutes). Tant qu'elle reste ouverte, tous les articles hors des lots déjà humanisés (327-366) gardent l'ancien auteur "Nextinotech" et les footers dupliqués.
   → Action : ouvrir https://github.com/stephanedebelenet-byte/consulting/pull/3, relire le diff (surtout 2-3 articles au hasard), cliquer "Squash and merge".
-- [ ] **Merger la PR #4** (lot 1 d'humanisation rédactionnelle, 20 articles `327-346`) : https://github.com/stephanedebelenet-byte/consulting/pull/4 — preview Vercel au vert, non mergée. Elle a été créée depuis `main` avant que la PR #3 y soit mergée ; vérifier l'absence de conflit au moment du merge (les deux touchent `public/blog/` mais pas les mêmes fichiers).
+- [x] ~~Merger la PR #4~~ — fait, mergée le 17/09 23:34.
+- [ ] **Merger la PR #6** (lot 2 d'humanisation, articles `347-366`) : https://github.com/stephanedebelenet-byte/consulting/pull/6
 
 ## Nécessite votre accès Google Search Console (aucune API/service account configurée dans ce projet — impossible à automatiser sans que vous créiez et partagiez des identifiants Google Cloud, ce qui n'est pas fait ici)
 
@@ -43,8 +45,8 @@ Ce document est le journal de suivi. Chaque action est cochée au fur et à mesu
 | **S0 — 18/09 (aujourd'hui)** | Correctifs auteur/footer/liens + 1er lot de 20 articles humanisés — fait | Agent |
 | **S0** | Merge PR #3 + PR lot 1 → déploiement production | **Vous** (1 clic chacune) |
 | **S0** | Resoumission sitemap + inspection d'URL sur les 5-10 pages prioritaires | **Vous** (~15 min, GSC) |
-| **S1 (semaine du 22/09)** | Lot 2 : 20 articles suivants du cluster IA (347-366) humanisés en profondeur | Agent, sur demande |
-| **S1** | Lot 3 : 20 articles suivants (367-386) | Agent, sur demande |
+| **S0** | Lot 2 : articles 347-366 humanisés, PR #6 ouverte — fait | Agent |
+| **S1 (semaine du 22/09)** | Lot 3 : 20 articles suivants (367-386) | Agent, sur demande |
 | **S2 (semaine du 29/09)** | Lots 4-5 : fin du cluster IA (387-426), soit les 40 derniers | Agent, sur demande |
 | **S2** | Vérifier dans GSC : nombre de pages passées en "Indexée" | **Vous** |
 | **S3 (semaine du 06/10)** | Étendre l'humanisation aux 235 articles plus anciens (hors cluster IA) si le cluster IA montre une amélioration mesurable | Agent, sur demande |
