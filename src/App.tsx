@@ -27,6 +27,7 @@ import DirecteurLogistiqueMiTempsPage from './pages/DirecteurLogistiqueMiTempsPa
 import DirecteurAchatsMiTempsPage from './pages/DirecteurAchatsMiTempsPage'
 import DirectionSCTempsPartagePage from './pages/DirectionSCTempsPartagePage'
 import DscVsRecrutementCdiPage from './pages/DscVsRecrutementCdiPage'
+import IngenierieFormationPage from './pages/IngenierieFormationPage'
 
 const pageVariants = {
   initial: { opacity: 0, y: 20 },
@@ -82,6 +83,7 @@ function AnimatedRoutes() {
         <Route path="/directeur-achats-mi-temps" element={<PageTransition><DirecteurAchatsMiTempsPage /></PageTransition>} />
         <Route path="/direction-supply-chain-temps-partage" element={<PageTransition><DirectionSCTempsPartagePage /></PageTransition>} />
         <Route path="/dsc-vs-recrutement-cdi" element={<PageTransition><DscVsRecrutementCdiPage /></PageTransition>} />
+        <Route path="/ingenierie-formation" element={<PageTransition><IngenierieFormationPage /></PageTransition>} />
         <Route path="*" element={<PageTransition><HomePage /></PageTransition>} />
       </Routes>
     </AnimatePresence>

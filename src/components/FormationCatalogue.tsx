@@ -410,6 +410,15 @@ export default function FormationCatalogue() {
             </p>
           </Reveal>
 
+          <Reveal delay={0.11}>
+            <p style={{ fontFamily: 'Jost, sans-serif', fontSize: '0.9rem', color: 'var(--mid)', fontWeight: 300 }}>
+              Besoin d&apos;identifier vos priorités avant de choisir vos formations ?{' '}
+              <Link to="/ingenierie-formation" style={{ color: 'var(--blue-bright)', textDecoration: 'none', borderBottom: '1px solid rgba(47,111,181,0.3)' }}>
+                Découvrir notre diagnostic d&apos;ingénierie de formation →
+              </Link>
+            </p>
+          </Reveal>
+
         </div>
 
         {/* Stats strip — floating blurred glass card, same pattern as the Hero stats bar */}

@@ -131,6 +131,12 @@ const STATIC: PrerenderRoute[] = [
       "Estimez le coût complet d’exploitation d’un entrepôt : loyer, main-d’œuvre, engins, énergie, système. Outil gratuit Nextinotech.",
   },
   {
+    path: '/ingenierie-formation',
+    title: 'Ingénierie de Formation au Maroc — Diagnostic & Plan de Formation' + SUFFIX,
+    description:
+      "Diagnostic des besoins en compétences, plan de formation chiffré et dossier de financement GIAC/OFPPT pour les entreprises de la Supply Chain, du transport et de la logistique au Maroc.",
+  },
+  {
     path: '/demo/wms',
     title: 'Démo WMS — Gestion d’Entrepôt' + SUFFIX,
     description: "Démonstration interactive d’un WMS : réception, mise en stock, préparation, expédition, inventaire.",

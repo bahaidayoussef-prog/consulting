@@ -119,6 +119,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://nextinotech.com/ingenierie-formation</loc>
+    <lastmod>2026-09-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
     <loc>https://nextinotech.com/contact</loc>
     <lastmod>2026-08-05</lastmod>
     <changefreq>monthly</changefreq>
