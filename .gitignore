@@ -25,3 +25,8 @@ dist-ssr
 .vercel
 .env*
 !.env.example
+
+# Google Search Console — clé de compte de service (accès complet à la
+# propriété), jamais commitée. Voir PLAN_INDEXATION_HUMANISATION.md.
+*service-account*.json
+gsc-coverage-report.json

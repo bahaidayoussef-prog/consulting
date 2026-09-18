@@ -36,17 +36,36 @@ Ce document est le journal de suivi. Chaque action est cochée au fur et à mesu
 
 **Ordre de merge conseillé** : PR #3 d'abord (fondations auteur/footer/liens sur les 411 fichiers), puis #6, #8, #9, #10 dans n'importe quel ordre — elles touchent des fichiers disjoints entre elles, mais chacune peut recouper les zones frontmatter/footer que PR #3 modifie sur les mêmes fichiers. En cas de conflit de merge sur un fichier, Git le signalera clairement ; les zones touchées ne se chevauchent normalement pas (PR #3 = frontmatter + footer, lots = corps de l'article).
 
-## Nécessite votre accès Google Search Console (aucune API/service account configurée dans ce projet — impossible à automatiser sans que vous créiez et partagiez des identifiants Google Cloud, ce qui n'est pas fait ici)
+## Connexion Search Console — ce qui devient automatisable, et ce qui ne l'est jamais
 
-1. **Resoumettre le sitemap.** Search Console → Sitemaps → coller `https://nextinotech.com/sitemap.xml` → Envoyer (même s'il est déjà déclaré, ça force un re-crawl prioritaire après le déploiement de la PR #3).
-2. **Demander l'indexation manuelle**, une par une, dans cet ordre de priorité (outil "Inspection de l'URL", plafonné à un usage quotidien limité — ne pas essayer de tout soumettre le même jour) :
+Un outillage (`scripts/gsc.mjs`) a été ajouté au dépôt pour se connecter à l'API Search Console. **Important, à savoir avant de faire quoi que ce soit :** Google n'expose aucune API publique pour reproduire le bouton "Demander une indexation" de l'interface, sur du contenu classique (articles, pages de service). Cette action reste réservée à l'humain dans l'interface web, et Google la plafonne lui-même à un usage quotidien limité par propriété — automatiser un navigateur pour cliquer à la place d'un humain violerait les conditions d'utilisation de Google et risquerait la propriété elle-même ; ce n'est pas fait ici et ne sera pas fait. Ce qui EST légitimement automatisable via l'API officielle :
+
+- **Resoumission du sitemap** (`npm run gsc:submit-sitemap`) — équivalent exact du bouton "Envoyer" dans Search Console → Sitemaps.
+- **Rapport de couverture automatisé** (`npm run gsc:coverage-report`) — interroge le statut d'indexation réel de chaque URL du sitemap via l'API d'inspection d'URL, et écrit un `gsc-coverage-report.json` local. Ça remplace l'export manuel CSV que vous avez fourni au départ de ce chantier : je pourrai le relancer moi-même à intervalles réguliers pour suivre la progression sans attendre que vous exportiez un nouveau rapport.
+
+### Procédure de connexion (à faire une seule fois, ~10 minutes, uniquement vous — aucun accès dont je dispose ne permet de le faire à votre place)
+
+1. Aller sur [console.cloud.google.com](https://console.cloud.google.com), créer un projet (ou en choisir un existant).
+2. Dans ce projet, activer l'**API Search Console** (« Search Console API » dans la bibliothèque d'API).
+3. **IAM et administration → Comptes de service → Créer un compte de service.** Aucun rôle particulier à lui donner au niveau du projet — l'accès se fait via Search Console, pas via IAM.
+4. Ouvrir ce compte de service → onglet **Clés → Ajouter une clé → Créer une clé → JSON**. Le téléchargement démarre automatiquement — c'est ce fichier qu'il me faut.
+5. Copier l'adresse e-mail du compte de service (elle ressemble à `xxxx@nom-du-projet.iam.gserviceaccount.com`, visible sur la page du compte de service).
+6. Aller sur [search.google.com/search-console](https://search.google.com/search-console) → propriété `nextinotech.com` → **Paramètres → Utilisateurs et autorisations → Ajouter un utilisateur** → coller l'adresse e-mail du compte de service → autorisation **Propriétaire** (obligatoire pour la resoumission de sitemap).
+7. Placer le fichier JSON téléchargé **hors du dépôt Git**, ou dans le dépôt sous un nom contenant `service-account` (déjà exclu par `.gitignore` — vérifié). Ne jamais le committer : il donne un accès complet en lecture/écriture à la propriété Search Console.
+8. Créer (ou compléter) `.env.local` à la racine du dépôt avec `GSC_SERVICE_ACCOUNT_KEY_PATH=/chemin/vers/le/fichier.json` (voir `.env.example`).
+9. Me dire que c'est fait — je lance `npm run gsc:submit-sitemap` puis `npm run gsc:coverage-report` pour établir la première mesure automatisée, et je peux ensuite répéter le rapport de couverture à intervalles réguliers sans repasser par vous.
+
+## En attendant la connexion — ce qui reste à faire manuellement dans Search Console
+
+1. **Resoumettre le sitemap.** Search Console → Sitemaps → coller `https://nextinotech.com/sitemap.xml` → Envoyer (même s'il est déjà déclaré, ça force un re-crawl prioritaire après le déploiement des PR).
+2. **Demander l'indexation manuelle**, une par une, dans cet ordre de priorité (outil "Inspection de l'URL", plafonné à un usage quotidien limité par Google lui-même — ne pas essayer de tout soumettre le même jour, et ce plafond restera même une fois la connexion API en place) :
    1. `https://nextinotech.com/` (déjà indexée, à sauter si déjà verte)
    2. `https://nextinotech.com/conseil`
    3. `https://nextinotech.com/formation`
    4. `https://nextinotech.com/prestations`
    5. `https://nextinotech.com/formation-rl`
    6. Les 5-10 articles de blog à plus fort potentiel commercial (ROI IA, plateforme IA comparatif, audit supply chain 2026)
-3. **Revenir sur le rapport Couverture dans 2 semaines** (2 octobre) puis **4 semaines** (16 octobre) pour mesurer la progression du nombre de pages indexées.
+3. **Revenir sur le rapport Couverture dans 2 semaines** (2 octobre) puis **4 semaines** (16 octobre) pour mesurer la progression du nombre de pages indexées — ou laisser le rapport automatisé (`gsc:coverage-report`) s'en charger une fois la connexion établie.
 
 ## Calendrier complet
 

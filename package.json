@@ -14,7 +14,9 @@
     "video:studio": "remotion studio remotion/index.ts",
     "video:render:network": "remotion render remotion/index.ts NetworkAnimation public/videos/network-loop.mp4",
     "video:render:formation": "remotion render remotion/index.ts FormationPromo public/videos/formation-promo.mp4",
-    "video:render:stats": "remotion render remotion/index.ts StatsReveal public/videos/stats-reveal.mp4"
+    "video:render:stats": "remotion render remotion/index.ts StatsReveal public/videos/stats-reveal.mp4",
+    "gsc:submit-sitemap": "node scripts/gsc.mjs submit-sitemap",
+    "gsc:coverage-report": "node scripts/gsc.mjs coverage-report"
   },
   "dependencies": {
     "@studio-freight/lenis": "^1.0.42",
@@ -39,6 +41,7 @@
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.2",
     "globals": "^17.6.0",
+    "googleapis": "^149.0.0",
     "playwright": "^1.49.0",
     "remotion": "^4.0.272",
     "typescript": "~6.0.2",
