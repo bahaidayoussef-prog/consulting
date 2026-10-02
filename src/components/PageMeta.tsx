@@ -4,6 +4,7 @@ interface PageMetaProps {
   title: string
   description: string
   canonical: string
+  robots?: string
 }
 
 function setMeta(selector: string, create: () => HTMLElement, attr: string, value: string) {
@@ -17,7 +18,7 @@ function setMeta(selector: string, create: () => HTMLElement, attr: string, valu
   return { tag, prevValue }
 }
 
-export default function PageMeta({ title, description, canonical }: PageMetaProps) {
+export default function PageMeta({ title, description, canonical, robots }: PageMetaProps) {
   useEffect(() => {
     const prevTitle = document.title
     document.title = title
@@ -64,6 +65,12 @@ export default function PageMeta({ title, description, canonical }: PageMetaProp
       return el
     }, 'content', description)
 
+    const robotsTag = robots ? setMeta('meta[name="robots"]', () => {
+      const el = document.createElement('meta')
+      el.setAttribute('name', 'robots')
+      return el
+    }, 'content', robots) : null
+
     return () => {
       document.title = prevTitle
       if (desc.prevValue !== null) desc.tag.setAttribute('content', desc.prevValue)
@@ -73,8 +80,10 @@ export default function PageMeta({ title, description, canonical }: PageMetaProp
       if (ogUrl.prevValue !== null) ogUrl.tag.setAttribute('content', ogUrl.prevValue)
       if (twTitle.prevValue !== null) twTitle.tag.setAttribute('content', twTitle.prevValue)
       if (twDesc.prevValue !== null) twDesc.tag.setAttribute('content', twDesc.prevValue)
+      if (robotsTag?.prevValue !== null && robotsTag) robotsTag.tag.setAttribute('content', robotsTag.prevValue)
+      else if (robotsTag) robotsTag.tag.remove()
     }
-  }, [title, description, canonical])
+  }, [title, description, canonical, robots])
 
   return null
 }

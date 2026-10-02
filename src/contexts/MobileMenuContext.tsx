@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components -- Provider et hook sont l’API du même contexte */
 import { createContext, useContext, useState, type ReactNode } from 'react'
 
 interface MobileMenuState {

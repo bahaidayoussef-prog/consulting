@@ -451,6 +451,7 @@ function ServiceRow({ s, index }: { s: typeof services[0]; index: number }) {
   )
 }
 
+// eslint-disable-next-line react-refresh/only-export-components -- partagé avec la page FAQ
 export const servicesFAQ = [
   {
     q: 'Combien coûte un diagnostic Supply Chain?',

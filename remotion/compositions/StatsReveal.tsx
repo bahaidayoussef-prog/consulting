@@ -10,7 +10,7 @@ const STATS = [
   { value: 6, suffix: '', label: "Secteurs accompagnés" },
 ]
 
-function useCountUp(target: number, frame: number, fps: number, delay: number, duration: number) {
+function countUp(target: number, frame: number, fps: number, delay: number, duration: number) {
   const progress = interpolate(frame, [delay, delay + duration * fps], [0, 1], {
     extrapolateLeft: 'clamp',
     extrapolateRight: 'clamp',
@@ -65,7 +65,7 @@ export function StatsReveal() {
         {STATS.map(({ value, suffix, label }, i) => {
           const delay = 40 + i * 12
           const appear = spring({ frame: frame - delay, fps, config: { damping: 20 } })
-          const count = useCountUp(value, frame, fps, delay, 2)
+          const count = countUp(value, frame, fps, delay, 2)
 
           return (
             <div

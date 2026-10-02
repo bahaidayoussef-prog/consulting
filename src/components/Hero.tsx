@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef } from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import { gsap } from 'gsap'
@@ -129,12 +129,8 @@ function NetworkSVG() {
 }
 
 export default function Hero() {
-  const [textVisible, setTextVisible] = useState(true)
+  const textVisible = true
   const heroRef = useRef<HTMLElement>(null)
-
-  useEffect(() => {
-    setTextVisible(true)
-  }, [])
 
   /* ─ Parallax on scroll ─ */
   useEffect(() => {

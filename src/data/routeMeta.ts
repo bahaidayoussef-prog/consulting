@@ -2,8 +2,9 @@
 // (vite.config.ts) pour injecter <title>, meta description, canonical, OG et
 // JSON-LD dans un fichier HTML statique par page. Module pur (aucun React).
 
-import { VILLES, buildVilleSchema } from './villesFormation'
-import { PROGRAMMES, buildProgrammeSchema, programmesSchema, rlCourseSchema, catalogueMeta } from './formations'
+import { VILLES, buildVilleSchema } from './villesFormation.ts'
+import { PROGRAMMES, buildProgrammeSchema, programmesSchema, rlCourseSchema, catalogueMeta } from './formations.ts'
+import { SYSTEME_PAGES, buildSystemeSchemas } from './systemePages.ts'
 
 export interface PrerenderRoute {
   path: string
@@ -167,5 +168,12 @@ export function getPrerenderRoutes(): PrerenderRoute[] {
     jsonLd: [buildProgrammeSchema(p)],
   }))
 
-  return [...STATIC, ...villes, ...programmes]
+  const systemes: PrerenderRoute[] = Object.values(SYSTEME_PAGES).map((page) => ({
+    path: page.path,
+    title: page.seoTitle,
+    description: page.description,
+    jsonLd: buildSystemeSchemas(page),
+  }))
+
+  return [...STATIC, ...villes, ...programmes, ...systemes]
 }

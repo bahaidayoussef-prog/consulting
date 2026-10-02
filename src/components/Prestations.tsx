@@ -6,6 +6,7 @@ import { generateFAQSchema } from '../utils/seoData'
 
 const ease = [0.16, 1, 0.3, 1] as const
 
+// eslint-disable-next-line react-refresh/only-export-components -- conservé près de la page qui rend ces entrées
 export const prestationsFAQ = [
   {
     q: 'Le Pack Inventaire inclut-il le matériel de comptage ?',

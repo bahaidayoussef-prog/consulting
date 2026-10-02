@@ -356,7 +356,7 @@ export default function Blog() {
     const slug = params.slug || searchParams.get('post')
     if (!slug || posts.length === 0) return
     const match = posts.find((p) => p.slug === slug)
-    if (match) setSelectedPost(match)
+    if (match) setSelectedPost(match) // eslint-disable-line react-hooks/set-state-in-effect -- synchronise le deep-link après le chargement asynchrone des articles
   }, [posts, params.slug, searchParams])
 
   return (

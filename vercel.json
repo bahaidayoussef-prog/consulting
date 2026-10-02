@@ -2,11 +2,11 @@
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "devCommand": "npm run dev",
+  "redirects": [
+    { "source": "/services", "destination": "/conseil", "permanent": true }
+  ],
   "env": {
     "VITE_SITE_URL": "https://nextinotech.com",
     "VITE_GA_MEASUREMENT_ID": "G-TFF7N0G2P0"
-  },
-  "rewrites": [
-    { "source": "/((?!api/).*)", "destination": "/index.html" }
-  ]
+  }
 }

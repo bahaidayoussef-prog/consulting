@@ -1,32 +1,35 @@
 import './index.css'
+import { lazy, Suspense } from 'react'
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion'
 import Layout from './components/Layout'
-import HomePage from './pages/HomePage'
-import ConseilPage from './pages/ConseilPage'
-import PrestationsPage from './pages/PrestationsPage'
+const HomePage = lazy(() => import('./pages/HomePage'))
+const ConseilPage = lazy(() => import('./pages/ConseilPage'))
+const PrestationsPage = lazy(() => import('./pages/PrestationsPage'))
 import ServicesRedirect from './components/ServicesRedirect'
-import ReferencesPage from './pages/ReferencesPage'
-import FormationPage from './pages/FormationPage'
-import FormationRLPage from './pages/FormationRLPage'
-import FormationVillePage from './pages/FormationVillePage'
-import FormationProgrammePage from './pages/FormationProgrammePage'
-import AProposPage from './pages/AProposPage'
-import BlogPage from './pages/BlogPage'
-import ContactPage from './pages/ContactPage'
-import ConfidentialitePage from './pages/ConfidentialitePage'
-import DimensionnementEntrepotPage from './pages/DimensionnementEntrepotPage'
-import ProductiviteEnginsPage from './pages/ProductiviteEnginsPage'
-import CoutGlobalEntrepotPage from './pages/CoutGlobalEntrepotPage'
-import FaqPage from './pages/FaqPage'
-import DemoWmsPage from './pages/DemoWmsPage'
-import DemoTmsPage from './pages/DemoTmsPage'
-import DemoApsPage from './pages/DemoApsPage'
-import CarrierePage from './pages/CarrierePage'
-import DirecteurLogistiqueMiTempsPage from './pages/DirecteurLogistiqueMiTempsPage'
-import DirecteurAchatsMiTempsPage from './pages/DirecteurAchatsMiTempsPage'
-import DirectionSCTempsPartagePage from './pages/DirectionSCTempsPartagePage'
-import DscVsRecrutementCdiPage from './pages/DscVsRecrutementCdiPage'
+const ReferencesPage = lazy(() => import('./pages/ReferencesPage'))
+const FormationPage = lazy(() => import('./pages/FormationPage'))
+const FormationRLPage = lazy(() => import('./pages/FormationRLPage'))
+const FormationVillePage = lazy(() => import('./pages/FormationVillePage'))
+const FormationProgrammePage = lazy(() => import('./pages/FormationProgrammePage'))
+const AProposPage = lazy(() => import('./pages/AProposPage'))
+const BlogPage = lazy(() => import('./pages/BlogPage'))
+const ContactPage = lazy(() => import('./pages/ContactPage'))
+const ConfidentialitePage = lazy(() => import('./pages/ConfidentialitePage'))
+const DimensionnementEntrepotPage = lazy(() => import('./pages/DimensionnementEntrepotPage'))
+const ProductiviteEnginsPage = lazy(() => import('./pages/ProductiviteEnginsPage'))
+const CoutGlobalEntrepotPage = lazy(() => import('./pages/CoutGlobalEntrepotPage'))
+const FaqPage = lazy(() => import('./pages/FaqPage'))
+const DemoWmsPage = lazy(() => import('./pages/DemoWmsPage'))
+const DemoTmsPage = lazy(() => import('./pages/DemoTmsPage'))
+const DemoApsPage = lazy(() => import('./pages/DemoApsPage'))
+const CarrierePage = lazy(() => import('./pages/CarrierePage'))
+const DirecteurLogistiqueMiTempsPage = lazy(() => import('./pages/DirecteurLogistiqueMiTempsPage'))
+const DirecteurAchatsMiTempsPage = lazy(() => import('./pages/DirecteurAchatsMiTempsPage'))
+const DirectionSCTempsPartagePage = lazy(() => import('./pages/DirectionSCTempsPartagePage'))
+const DscVsRecrutementCdiPage = lazy(() => import('./pages/DscVsRecrutementCdiPage'))
+const SystemeLandingPage = lazy(() => import('./pages/SystemeLandingPage'))
+const NotFoundPage = lazy(() => import('./pages/NotFoundPage'))
 
 const pageVariants = {
   initial: { opacity: 0, y: 20 },
@@ -52,9 +55,14 @@ function AnimatedRoutes() {
   const location = useLocation()
   return (
     <AnimatePresence mode="wait">
+      <Suspense fallback={<div className="page-loading" role="status">Chargement…</div>}>
       <Routes location={location} key={location.pathname}>
         <Route path="/" element={<PageTransition><HomePage /></PageTransition>} />
         <Route path="/conseil" element={<PageTransition><ConseilPage /></PageTransition>} />
+        <Route path="/conseil-wms" element={<PageTransition><SystemeLandingPage solution="wms" /></PageTransition>} />
+        <Route path="/conseil-tms" element={<PageTransition><SystemeLandingPage solution="tms" /></PageTransition>} />
+        <Route path="/gestion-inventaires-ims" element={<PageTransition><SystemeLandingPage solution="ims" /></PageTransition>} />
+        <Route path="/control-tower" element={<PageTransition><SystemeLandingPage solution="controlTower" /></PageTransition>} />
         <Route path="/prestations" element={<PageTransition><PrestationsPage /></PageTransition>} />
         <Route path="/services" element={<ServicesRedirect />} />
         <Route path="/references" element={<PageTransition><ReferencesPage /></PageTransition>} />
@@ -82,8 +90,9 @@ function AnimatedRoutes() {
         <Route path="/directeur-achats-mi-temps" element={<PageTransition><DirecteurAchatsMiTempsPage /></PageTransition>} />
         <Route path="/direction-supply-chain-temps-partage" element={<PageTransition><DirectionSCTempsPartagePage /></PageTransition>} />
         <Route path="/dsc-vs-recrutement-cdi" element={<PageTransition><DscVsRecrutementCdiPage /></PageTransition>} />
-        <Route path="*" element={<PageTransition><HomePage /></PageTransition>} />
+        <Route path="*" element={<PageTransition><NotFoundPage /></PageTransition>} />
       </Routes>
+      </Suspense>
     </AnimatePresence>
   )
 }

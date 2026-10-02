@@ -845,7 +845,7 @@ export const FAQ = [
 ]
 
 /* ─── Data — Calendrier 2026 ───────────────────────────────── */
-export const SESSIONS = [
+const SCHEDULE_2026 = [
   { mois: 'Septembre', sessions: [
     { date: '18 Sep', titre: 'Responsable Logistique', format: 'inter', places: 5, id: 'rl' },
     { date: '25–26 Sep', titre: 'DDMRP Practitioner', format: 'inter', places: 8, id: 'ddmrp' },
@@ -893,6 +893,33 @@ function sessionToDates(date: string): { startDate: string; endDate: string } | 
   const startDate = `2026-${mo}-${pad(d1)}`
   return { startDate, endDate: d2 ? `2026-${mo}-${pad(d2)}` : startDate }
 }
+
+function todayInMorocco(): string {
+  const parts = new Intl.DateTimeFormat('en', {
+    timeZone: 'Africa/Casablanca',
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+  }).formatToParts(new Date())
+  const value = (type: string) => parts.find((part) => part.type === type)?.value ?? ''
+  return `${value('year')}-${value('month')}-${value('day')}`
+}
+
+function isUpcomingDate(date: string): boolean {
+  return date >= todayInMorocco()
+}
+
+// Keep the public calendar and CourseInstance markup aligned, and never publish
+// a session after its start date has passed.
+export const SESSIONS = SCHEDULE_2026
+  .map((block) => ({
+    ...block,
+    sessions: block.sessions.filter((session) => {
+      const dates = sessionToDates(session.date)
+      return dates !== null && isUpcomingDate(dates.startDate)
+    }),
+  }))
+  .filter((block) => block.sessions.length > 0)
 
 export const instancesByProgram: Record<string, { startDate: string; endDate: string; format: string }[]> = {}
 for (const block of SESSIONS) {
@@ -1114,7 +1141,7 @@ export const RL_FAQ: { q: string; a: string }[] = [
   { q: "Quelle est votre politique d’annulation ?", a: "Annulation gratuite jusqu’à 7 jours avant la session. Après ce délai, possibilité de reporter sur la session suivante sans frais. En cas d’annulation de notre part (session insuffisamment remplie), remboursement intégral immédiat." },
 ]
 
-const RL_SESSIONS_2026 = ['2026-09-18', '2026-10-23', '2026-11-13', '2026-12-11']
+const RL_SESSIONS_2026 = ['2026-09-18', '2026-10-23', '2026-11-13', '2026-12-11'].filter(isUpcomingDate)
 const rlOffer = { '@type': 'Offer', price: 1500, priceCurrency: 'MAD', category: 'Formation professionnelle', availability: 'https://schema.org/InStock', url: 'https://nextinotech.com/formation-rl' }
 
 export const rlCourseSchema = {
@@ -1156,5 +1183,5 @@ export const rlCourseSchema = {
 
 export const catalogueMeta = {
   title: 'Formations Supply Chain, Lean, Management, Finance, Projet & Carrière — Nextinotech',
-  description: "29 programmes de formation sur 7 domaines : Supply Chain, Opérationnel, Lean, Management, Finance, Gestion de Projet, Carrière & Bien-être. Inter et intra-entreprise. Catalogue et calendrier 2026.",
+  description: "Découvrez 29 programmes de formation en Supply Chain, logistique, Lean, management, finance, gestion de projet et métiers opérationnels. Formats inter et intra-entreprise au Maroc.",
 }

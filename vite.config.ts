@@ -2,7 +2,7 @@ import { defineConfig, type Plugin } from 'vite'
 import react from '@vitejs/plugin-react'
 import { readFileSync, writeFileSync, mkdirSync, readdirSync } from 'node:fs'
 import { resolve, join } from 'node:path'
-import { getPrerenderRoutes, type PrerenderRoute } from './src/data/routeMeta'
+import { getPrerenderRoutes, type PrerenderRoute } from './src/data/routeMeta.ts'
 
 const SITE = 'https://nextinotech.com'
 
@@ -14,7 +14,7 @@ function blogSlug(title: string): string {
 
 function parseFrontmatter(md: string): Record<string, string> {
   const fm: Record<string, string> = {}
-  const src = md.replace(/^﻿/, '')
+  const src = md.replace(/^\uFEFF/, '')
   if (!src.startsWith('---')) return fm
   const end = src.indexOf('\n---', 3)
   if (end < 0) return fm
@@ -31,11 +31,16 @@ function parseFrontmatter(md: string): Record<string, string> {
 export function getBlogRoutes(): PrerenderRoute[] {
   const dir = resolve('public/blog')
   const out: PrerenderRoute[] = []
+  const routeSources = new Map<string, string>()
   for (const file of readdirSync(dir)) {
     if (!file.endsWith('.md') || file.startsWith('_')) continue
     const fm = parseFrontmatter(readFileSync(join(dir, file), 'utf-8'))
     if (!fm.title) continue
     const slug = blogSlug(fm.title)
+    const path = `/blog/${slug}`
+    const previous = routeSources.get(path)
+    if (previous) throw new Error(`URL de blog dupliquée ${path} : ${previous} et ${file}`)
+    routeSources.set(path, file)
     const url = `${SITE}/blog/${slug}`
     const image = fm.image ? (fm.image.startsWith('http') ? fm.image : SITE + fm.image) : `${SITE}/logo-full.png`
     const jsonLd = {
@@ -66,7 +71,7 @@ export function getBlogRoutes(): PrerenderRoute[] {
       ],
     }
     out.push({
-      path: `/blog/${slug}`,
+      path,
       title: fm.title.length <= 52 ? `${fm.title} | Nextinotech` : fm.title,
       description: fm.description || fm.title,
       jsonLd: [jsonLd],
@@ -81,6 +86,10 @@ function escapeHtml(s: string): string {
 
 function canonicalFor(path: string): string {
   return SITE + (path === '/' ? '/' : path)
+}
+
+function escapeXml(value: string): string {
+  return value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&apos;')
 }
 
 function setMetaTag(html: string, attr: 'name' | 'property', key: string, content: string): string {
@@ -140,7 +149,10 @@ function prerenderHeads(): Plugin {
       }
       let count = 0
       const routes = [...getPrerenderRoutes(), ...getBlogRoutes()]
+      const paths = new Set<string>()
       for (const route of routes) {
+        if (paths.has(route.path)) throw new Error(`Route prérendue dupliquée : ${route.path}`)
+        paths.add(route.path)
         try {
           const html = renderRoute(shell, route)
           const rel = route.path.replace(/^\//, '').replace(/\/$/, '')
@@ -152,8 +164,9 @@ function prerenderHeads(): Plugin {
           this.warn(`prerender-heads: échec sur ${route.path} — ${(e as Error).message}`)
         }
       }
+      const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${routes.map((route) => `  <url><loc>${escapeXml(canonicalFor(route.path))}</loc></url>`).join('\n')}\n</urlset>\n`
+      writeFileSync(join(dist, 'sitemap.xml'), sitemap, 'utf-8')
       this.info?.(`prerender-heads: ${count} pages générées`)
-      // eslint-disable-next-line no-console
       console.log(`\n[prerender-heads] ${count} pages HTML générées avec <head> statique`)
     },
   }

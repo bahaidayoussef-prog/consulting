@@ -15,11 +15,10 @@ function isHidden(pathname: string): boolean {
 
 export default function FormationStickyBar() {
   const { pathname } = useLocation()
-  const [visible, setVisible] = useState(false)
+  const [visiblePath, setVisiblePath] = useState<string | null>(null)
+  const visible = visiblePath === pathname
 
   useEffect(() => {
-    setVisible(false)
-
     if (isHidden(pathname)) return
     if (isRecent(KEY, REDISPLAY_DAYS)) return
     if (!getFlag('nxt_cookie_ack')) return // on ne cumule pas avec le bandeau cookies
@@ -30,7 +29,7 @@ export default function FormationStickyBar() {
     const reveal = () => {
       if (done) return
       done = true
-      setVisible(true)
+      setVisiblePath(pathname)
       window.removeEventListener('scroll', onScroll)
     }
     const onScroll = () => {
@@ -49,7 +48,7 @@ export default function FormationStickyBar() {
 
   const dismiss = () => {
     setFlag(KEY, String(Date.now()))
-    setVisible(false)
+      setVisiblePath(null)
   }
 
   return (

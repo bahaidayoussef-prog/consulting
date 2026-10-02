@@ -263,7 +263,6 @@ export default function Nav() {
   }, [])
 
   useEffect(() => {
-    setProgress(0)
     window.addEventListener('scroll', handleScroll, { passive: true })
     return () => window.removeEventListener('scroll', handleScroll)
   }, [handleScroll])

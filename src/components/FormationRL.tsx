@@ -14,6 +14,17 @@ const WA_LINK = `https://wa.me/${PHONE}?text=${WA_MSG}`
 const EMAIL_LINK = `mailto:contact@nextinotech.com?subject=Inscription%20formation%20Responsable%20Logistique`
 const PLACES = 5
 
+function UrgencyBadge() {
+  return (
+    <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.5, delay: 0.6 }} style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', background: 'rgba(47,111,181,0.08)', border: '1px solid rgba(47,111,181,0.3)', padding: '0.4rem 1rem', marginBottom: '1.5rem' }}>
+      <span style={{ width: 8, height: 8, borderRadius: '50%', background: '#2f6fb5', display: 'inline-block', animation: 'pulse 1.5s infinite' }} />
+      <span style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.62rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'var(--blue-bright)' }}>
+        {PLACES} places disponibles — Prochaine session
+      </span>
+    </motion.div>
+  )
+}
+
 /* ─── Data ───────────────────────────────────────────────── */
 const CIBLES = [
   { icon: '📦', titre: 'Coordinateur logistique', desc: 'Vous gérez des flux au quotidien et voulez structurer vos méthodes pour évoluer vers un rôle de responsable.' },
@@ -114,13 +125,23 @@ function CTAButton({ children, href, primary = true, large = false }: {
       }}
       onMouseEnter={e => {
         const el = e.currentTarget as HTMLElement
-        primary ? (el.style.background = 'var(--navy)', el.style.borderColor = 'var(--navy)')
-                : (el.style.background = 'var(--blue-bright)', el.style.color = '#ffffff')
+        if (primary) {
+          el.style.background = 'var(--navy)'
+          el.style.borderColor = 'var(--navy)'
+        } else {
+          el.style.background = 'var(--blue-bright)'
+          el.style.color = '#ffffff'
+        }
       }}
       onMouseLeave={e => {
         const el = e.currentTarget as HTMLElement
-        primary ? (el.style.background = 'var(--blue-bright)', el.style.borderColor = 'var(--blue-bright)')
-                : (el.style.background = 'transparent', el.style.color = 'var(--blue-bright)')
+        if (primary) {
+          el.style.background = 'var(--blue-bright)'
+          el.style.borderColor = 'var(--blue-bright)'
+        } else {
+          el.style.background = 'transparent'
+          el.style.color = 'var(--blue-bright)'
+        }
       }}
     >
       {children}
@@ -521,25 +542,6 @@ export default function FormationRL() {
     window.addEventListener('scroll', onScroll, { passive: true })
     return () => window.removeEventListener('scroll', onScroll)
   }, [])
-
-  /* ── Urgency badge ── */
-  const UrgencyBadge = () => (
-    <motion.div
-      initial={{ opacity: 0, scale: 0.9 }}
-      animate={{ opacity: 1, scale: 1 }}
-      transition={{ duration: 0.5, delay: 0.6 }}
-      style={{
-        display: 'inline-flex', alignItems: 'center', gap: '0.5rem',
-        background: 'rgba(47,111,181,0.08)', border: '1px solid rgba(47,111,181,0.3)',
-        padding: '0.4rem 1rem', marginBottom: '1.5rem',
-      }}
-    >
-      <span style={{ width: 8, height: 8, borderRadius: '50%', background: '#2f6fb5', display: 'inline-block', animation: 'pulse 1.5s infinite' }} />
-      <span style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.62rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'var(--blue-bright)' }}>
-        {PLACES} places disponibles — Prochaine session
-      </span>
-    </motion.div>
-  )
 
   return (
     <div className="grain" style={{ background: 'var(--paper)', minHeight: '100vh', color: 'var(--navy)' }}>

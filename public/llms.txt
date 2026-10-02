@@ -45,11 +45,12 @@ Fiche détaillée par programme (objectifs, public, modules, tarif, financement,
 - IA & Automatisation Supply Chain — cadrage des cas d'usage IA/LLM, data readiness, charte de gouvernance 09-08/CNDP, POC mesuré (factures, documents de douane, copilotes de planification, chatbot de suivi), industrialisation. Zéro commission éditeur.
 
 ### Déploiement Systèmes SCM
-- WMS (Gestion d'entrepôt)
-- TMS (Gestion du transport)
+- WMS (Gestion d'entrepôt) — conseil, cahier des charges et AMOA : https://nextinotech.com/conseil-wms
+- TMS (Gestion du transport) — cadrage, sélection et déploiement : https://nextinotech.com/conseil-tms
+- IMS (Gestion des inventaires) — comptage, traçabilité et rapprochement : https://nextinotech.com/gestion-inventaires-ims
 - APS / S&OP (Demand Planning)
 - e-Procurement (Source-to-Pay)
-- Control Tower / BI Supply Chain
+- Control Tower / BI Supply Chain — pilotage des exceptions et indicateurs : https://nextinotech.com/control-tower
 
 ### Direction Supply Chain à Temps Partagé
 Mandat DSC en 3 phases : État des lieux → Pilotage & Fondations → Passation

@@ -25,7 +25,7 @@
 4. **Schéma Logistique & Greenfield** — Conception réseau, entrepôts, flux
 5. **Cahiers des Charges** — WMS, TMS, APS, Control Tower, intégration IA au pilotage, externalisation entreposage (open book/closed book) et transport, opérations spéciales (co-packing, fardelage, inventaire RFID, vidéosurveillance), équipements de stockage et de manutention (rayonnage, engins thermiques/électriques, dimensionnement)
 6. **IA & Automatisation Supply Chain** — cadrage et priorisation des cas d'usage IA/LLM, data readiness, charte de gouvernance loi 09-08 / CNDP, POC mesuré (factures fournisseurs, documents de douane, copilotes de planification et S&OP, chatbot de suivi de commande), industrialisation. Cadrage 35 000–55 000 MAD HT ; POC 90 000–160 000 MAD HT ; déploiement sur devis. Zéro commission éditeur.
-7. **AMOA & Déploiement SI** — WMS, TMS, APS, e-Procurement, Control Tower
+7. **AMOA & Déploiement SI** — WMS, TMS, IMS, APS, e-Procurement, Control Tower. Pages : https://nextinotech.com/conseil-wms, https://nextinotech.com/conseil-tms, https://nextinotech.com/gestion-inventaires-ims, https://nextinotech.com/control-tower
 8. **Direction SC à Temps Partagé** — Mandat DSC pour PME (50-200 pers.) et ETI (200-800 pers.)
 9. **Prestations Opérationnelles** — Pack Inventaire (3 paliers), 7 Services Logistiques à Valeur Ajoutée (co-packing, fardelage, étiquetage, kitting, reconditionnement, contrôle qualité, palettisation), Imprimantes Industrielles Leibinger (distributeur officiel au Maroc). Détail : https://nextinotech.com/prestations
 10. **Formation Supply Chain** — Catalogue de 27 programmes sur 7 domaines, inter et intra-entreprise (détail ci-dessous)

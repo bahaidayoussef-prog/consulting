@@ -15,6 +15,7 @@ const systems = [
     ],
     results: ['Écarts d\'inventaire réduits de 80–95%', 'Productivité préparation +25–40%', 'Erreurs d\'expédition −70–90%'],
     demoLink: '/demo/wms',
+    landingLink: '/conseil-wms',
   },
   {
     num: '02',
@@ -28,6 +29,7 @@ const systems = [
     ],
     results: ['Coûts transport réduits 8–15%', 'Productivité dispatch +30–50%', 'Facturation transport ÷3 à 5'],
     demoLink: '/demo/tms',
+    landingLink: '/conseil-tms',
   },
   {
     num: '03',
@@ -60,11 +62,12 @@ const systems = [
     fullName: 'BI Supply Chain',
     tagline: "Décisions Comex basées sur données. Plus de reportings manuels.",
     tiers: [
-      { name: 'Control Tower Mini', price: '45 000 – 75 000 MAD HT', duration: '4 à 6 semaines', desc: '3–5 dashboards Power BI clés · OTIF, stocks, cash' },
-      { name: 'Control Tower Pilote', price: '110 000 – 180 000 MAD HT', duration: '2 à 3 mois', desc: '8–12 dashboards + alertes + rituel COPIL', featured: true },
-      { name: 'Control Tower Pro', price: 'À partir de 280 000 MAD HT', duration: '4 à 6 mois', desc: 'ETI · multi-sites · AI/ML · portail mobile dirigeant' },
+      { name: 'Control Tower Mini', price: 'À partir de 135 000 MAD HT', duration: '4 à 6 semaines', desc: '3–5 tableaux de bord clés : service, stocks et trésorerie' },
+      { name: 'Control Tower Pilote', price: 'À partir de 330 000 MAD HT', duration: '2 à 3 mois', desc: '8–12 tableaux de bord, alertes et rituel de pilotage', featured: true },
+      { name: 'Control Tower Pro', price: 'À partir de 840 000 MAD HT', duration: '4 à 6 mois', desc: 'Périmètre multi-sites, analytique avancée et portail mobile dirigeant' },
     ],
     results: ['Détection anomalies ÷5 à 10', 'Économies 2–5% marge SC', 'Zéro reporting manuel'],
+    landingLink: '/control-tower',
   },
 ]
 
@@ -278,6 +281,9 @@ function SystemRow({ s, index }: { s: typeof systems[0]; index: number }) {
                     Voir une démo →
                   </Link>
                 )}
+                {'landingLink' in s && s.landingLink && (
+                  <Link to={s.landingLink} style={{ color: 'var(--navy)', fontSize: '0.8rem', textUnderlineOffset: '4px' }}>Conseil & accompagnement →</Link>
+                )}
               </div>
             </div>
           </motion.div>
@@ -328,7 +334,7 @@ export default function Systemes() {
             fontWeight: 300,
             maxWidth: 440,
           }}>
-            Sélection indépendante et déploiement AMOA de solutions WMS, TMS et APS — adaptées à votre taille
+            Sélection indépendante et déploiement AMOA de solutions WMS, TMS, IMS et APS — adaptées à votre taille
             et secteur. Aucune commission éditeur. Jamais.
           </p>
         </div>

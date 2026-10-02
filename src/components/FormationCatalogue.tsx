@@ -4,7 +4,21 @@ import { Link } from 'react-router-dom'
 import SchemaScript from './SchemaHelper'
 import PageMeta from './PageMeta'
 import { VILLES } from '../data/villesFormation'
-import { PROGRAMMES, FAQ, SESSIONS, programmesSchema } from '../data/formations'
+import { PROGRAMMES, FAQ, SESSIONS, programmesSchema, catalogueMeta } from '../data/formations'
+
+const RESPONSABLE_LOGISTIQUE_SESSIONS = SESSIONS.flatMap((month) =>
+  month.sessions
+    .filter((session) => session.id === 'rl')
+    .map((session) => ({
+      date: `${session.date} ${month.mois} 2026`,
+      places: session.places ?? 0,
+      status: session.places !== null && session.places <= 4 ? 'Dernières places' : 'Ouvert',
+    })),
+)
+
+const calendarDateRange = SESSIONS.length
+  ? `${SESSIONS[0].mois} — ${SESSIONS[SESSIONS.length - 1].mois} 2026.`
+  : 'Autres dates disponibles sur demande.'
 
 /* ─── Brand constants ─────────────────────────────────────── */
 const WA = `https://wa.me/212663449200?text=${encodeURIComponent('Bonjour Nextinotech, je souhaite des informations sur vos formations. Pouvez-vous me recontacter ?')}`
@@ -368,8 +382,8 @@ export default function FormationCatalogue() {
   return (
     <>
       <PageMeta
-        title="Formations Supply Chain, Lean, Management, Finance, Projet & Carrière — Nextinotech"
-        description="29 programmes de formation sur 7 domaines : Supply Chain, Opérationnel, Lean, Management, Finance, Gestion de Projet, Carrière & Bien-être. Inter et intra-entreprise. Catalogue et calendrier 2026."
+        title={catalogueMeta.title}
+        description={catalogueMeta.description}
         canonical="https://nextinotech.com/formation"
       />
       <SchemaScript schema={programmesSchema} />
@@ -518,7 +532,7 @@ export default function FormationCatalogue() {
             </div>
             <h2 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2.5rem, 5vw, 6rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', color: 'var(--navy)', margin: '0 0 5rem' }}>
               Calendrier<br />
-              <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>Septembre — Décembre 2026.</span>
+              <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>{calendarDateRange}</span>
             </h2>
           </Reveal>
 
@@ -573,7 +587,7 @@ export default function FormationCatalogue() {
                 <span style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--mid)' }}>Intra-entreprise (sur devis)</span>
               </div>
               <div style={{ marginLeft: 'auto', fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.1em', color: 'var(--mid)', textTransform: 'uppercase' }}>
-                Planning 2027 disponible sur demande
+                Autres dates disponibles sur demande
               </div>
             </div>
           </Reveal>
@@ -637,15 +651,10 @@ export default function FormationCatalogue() {
             {/* Right — upcoming dates */}
             <Reveal delay={0.12}>
               <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.18em', textTransform: 'uppercase', color: 'var(--mid)', marginBottom: '1.5rem' }}>
-                Prochaines sessions 2026
+                Prochaines sessions programmées
               </div>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '2px' }}>
-                {[
-                  { date: '18 Septembre 2026', places: 5, status: 'Ouvert' },
-                  { date: '23 Octobre 2026', places: 6, status: 'Ouvert' },
-                  { date: '13 Novembre 2026', places: 8, status: 'Ouvert' },
-                  { date: '11 Décembre 2026', places: 4, status: 'Dernières places' },
-                ].map((s, i) => (
+                {RESPONSABLE_LOGISTIQUE_SESSIONS.length > 0 ? RESPONSABLE_LOGISTIQUE_SESSIONS.map((s, i) => (
                   <div key={i} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '1.25rem 1.5rem', background: i % 2 === 0 ? '#fff' : 'var(--dark-2)', borderLeft: `2px solid ${s.places <= 4 ? 'var(--blue-bright)' : 'var(--border)'}` }}>
                     <div>
                       <div style={{ fontFamily: 'Jost, sans-serif', fontSize: '0.9rem', fontWeight: 600, color: 'var(--navy)' }}>{s.date}</div>
@@ -655,7 +664,11 @@ export default function FormationCatalogue() {
                       {s.status}
                     </div>
                   </div>
-                ))}
+                )) : (
+                  <p style={{ padding: '1.25rem 1.5rem', background: '#fff', color: 'var(--dark-muted)', lineHeight: 1.6 }}>
+                    Les prochaines dates sont en préparation. Contactez-nous pour connaître les disponibilités.
+                  </p>
+                )}
               </div>
               <div style={{ marginTop: '2rem', padding: '1.5rem', background: 'rgba(47,111,181,0.06)', borderLeft: '2px solid var(--blue-bright)' }}>
                 <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'var(--blue-bright)', marginBottom: '0.5rem' }}>Session intra disponible</div>

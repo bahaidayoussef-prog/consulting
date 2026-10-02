@@ -65,13 +65,13 @@ export function runFullSEOHealthCheck(): PerformanceMetrics {
 
   schemas.forEach(s => {
     try {
-      const data = JSON.parse(s.textContent || '{}')
+      const data = JSON.parse(s.textContent || '{}') as { '@type'?: unknown; '@graph'?: unknown }
       const type = data['@type']
       if (Array.isArray(data['@graph'])) {
-        data['@graph'].forEach((item: any) => {
-          if (item['@type']) schemaTypes.push(item['@type'])
+        data['@graph'].forEach((item: unknown) => {
+          if (item && typeof item === 'object' && '@type' in item && typeof item['@type'] === 'string') schemaTypes.push(item['@type'])
         })
-      } else if (type) {
+      } else if (typeof type === 'string') {
         schemaTypes.push(type)
       }
     } catch (e) {
@@ -188,7 +188,7 @@ export function logFullReport(report: PerformanceMetrics) {
 
 // Expose to window for console access
 if (typeof window !== 'undefined') {
-  (window as any).runSEOCheck = () => {
+  (window as unknown as Window & { runSEOCheck: () => PerformanceMetrics }).runSEOCheck = () => {
     const report = runFullSEOHealthCheck()
     logFullReport(report)
     return report
