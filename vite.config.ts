@@ -21,12 +21,8 @@ const SITE = 'https://nextinotech.com'
 // d'inscription à un webinaire, pas des articles éditoriaux).
 const EVENEMENT_FILES = new Set(EVENEMENTS.map((e) => e.file))
 
-// Ressources hors routes React (fichiers texte statiques) mais qui doivent
-// tout de même figurer dans le sitemap généré.
-const SITEMAP_EXTRAS: { loc: string; lastmod: string; changefreq: string; priority: number }[] = [
-  { loc: '/llms.txt', lastmod: '2026-10-04', changefreq: 'monthly', priority: 0.6 },
-  { loc: '/llms-full.txt', lastmod: '2026-10-04', changefreq: 'monthly', priority: 0.6 },
-]
+// Le sitemap reste limité aux pages HTML pré-rendues que Google peut indexer.
+// Les fichiers llms.txt restent publiés et déclarés dans robots.txt.
 
 /* ── Articles de blog : scan des .md + génération d'un HTML statique par article ── */
 
@@ -288,11 +284,7 @@ function generateSitemapXML(routes: PrerenderRoute[]): string {
   const routeUrls = routes.map((r) =>
     urlTag(canonicalFor(r.path), r.lastmod, r.changefreq, r.priority)
   )
-  const extraUrls = SITEMAP_EXTRAS.map((e) =>
-    urlTag(SITE + e.loc, e.lastmod, e.changefreq, e.priority)
-  )
-
-  return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${[...routeUrls, ...extraUrls].join('\n')}\n</urlset>\n`
+  return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${routeUrls.join('\n')}\n</urlset>\n`
 }
 
 /* ── Complétude llms.txt : toute page isOffer (et non hidden) doit être
@@ -349,7 +341,7 @@ function prerenderHeads(): Plugin {
 
       const sitemap = generateSitemapXML(routes)
       writeFileSync(join(dist, 'sitemap.xml'), sitemap, 'utf-8')
-      const urlCount = routes.length + SITEMAP_EXTRAS.length
+      const urlCount = routes.length
       console.log(`[prerender-heads] sitemap.xml généré (${urlCount} URLs)`)
 
       // Liste des pages « offre » (isOffer && !hidden), matérialisée en JSON pour
